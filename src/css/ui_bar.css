@@ -1,0 +1,184 @@
+#ui-bar {
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  width: 300px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#ui-bar-body {
+  padding: 0;
+  margin: 0;
+}
+  
+#ui-first-row {
+  height: 40px;
+  background-color: #7E9890;
+  top: 0;
+}
+
+#ui-second-row {
+  background-color: #34403C;
+  width: 100%;
+  height: 40px;
+}
+
+#ui-second-row.after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#ui-bar-tray {
+  display: none;
+}
+
+#title {
+  display: none;
+}
+
+#ui-bar-body>:not(:first-child) {
+  margin-top: 0;
+}
+
+#menu {
+  display: none;
+}
+
+.left-button {
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+
+.left-button img {
+  float: left;
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.left-button.hover {
+  color: blue;
+}
+.right-button {
+  box-sizing: border-box;
+  float: right;
+  line-height: 1;
+  text-align: right;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8px;
+}
+
+.right-button.hover {
+  color: blue;
+}
+
+.right-button img {
+  float: right;
+  height: 20px;
+  width: 20px;
+  padding-left: 8px;
+}
+
+#navigation-list {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 16px;
+  padding-top: 16px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+a.link-external::after {
+	visibility: hidden;
+	content: "";
+}
+
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  padding-bottom: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 24px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.bookmarks {
+  padding: 0 18px;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  line-height: 1;
+  transition: max-height 0.2s ease-out;
+  background-color: black;
+}
+
+.bookmarks a {
+  padding-left: 16px;
+  line-height: 2;
+}
+
+#navigation-list a {
+  color: white;
+}
+
+#navigation-list a:hover {
+  color: #7E9890;
+  text-decoration: underline;
+}
+
+#title-row {
+  line-height: 1.5;
+  height: 108px;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

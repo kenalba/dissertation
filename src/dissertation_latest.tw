@@ -7,8 +7,8 @@ Dissertation
 	"ifid": "AD0660F8-FF49-46A8-B178-0AF39F853F11",
 	"format": "SugarCube",
 	"format-version": "2.31.1",
-	"start": "EG 7",
-	"zoom": 0.6
+	"start": "Instructions",
+	"zoom": 1
 }
 
 
@@ -41,6 +41,7 @@ for (i = 0; i < coll.length; i++) {
 
 :: Beginning [StoryInit]
 
+:: PassageHeader
 
 :: Start {"position":"2596,143","size":"100,100"}
 Here's where we start!
@@ -894,7 +895,7 @@ MORE.
 On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>[[Quad II]]</i>, the second half of </i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss. 
 
 <<link "Bookmark!">>
-	<<set $bookmarks.pushUnique("[[EG 9]]")>>
+	<<set setup.bookmarks.pushUnique("[[EG 9]]")>>
 <</link>>
 
 
@@ -1478,13 +1479,15 @@ This situation is a microcosm of the broader condition of living in the informat
 
 
 :: Instructions {"position":"2269,363","size":"100,100"}
-If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back (or forward) with the arrows in the top right hand corner of the window. Don't use your browser's back button or you'll lose your progress.
+If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrows on the top of the left hand sidebar. You can also save or load your progress. Don't use your browser's back button or you'll lose your progress.
 
 The most linear path forward is to begin with the [[Introduction->I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on  embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
 Alternatively, you could approach this text backwards, jumping right to the glossary and exploring what case studies articulate what terms.
 
-[A little more.]
+Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage (soon) with the bookmark icon on the top right of the screen. This will save a link to your passage in the collapsable BOOKMARKS menu on your sidebar. Note that you can only save up to ten bookmarks; any past that and you'll start pushing old ones out of your list.
+
+[[Table of Contents]]
 
 
 :: V-Bucks {"position":"1166,1215","size":"100,100"}
@@ -1542,6 +1545,8 @@ This dissertation takes up drama as well as fiction and works of electronic lite
 :: I 12 {"position":"1023,2702","size":"100,100"}
 Take, for example, the satire website Clickhole’s ‘blog post’ “The Time I Spent On A Commercial Whaling Ship Totally Changed My Perspective On The World,” credited to “Ishmael - Sailor,” whose title sits on a page above an image of a whale’s tail and the nearly unabridged text of <i>Moby Dick</i>. The article’s clickbait title recontextualizes a Great American Novel as bloggy self-expression. As Ryu Spaeth puts it in an article for The New Republic, the joke is that “even the greatest American Novel, digressions and weirdness and all, becomes vapid garbage as soon as it meets the internet” (2015). What Spaeth’s jeremiad misses is the way that Moby Dick already anticipates a collapsing of multiple genres into a single spout of content. That Clickhole omits the “Extracts” section that precedes “Call me Ishmael,” however, is ironic; Melville’s Sub-Sub-Librarian’s collection of “higgledy-piggledy whale statements” collected from the “long Vaticans and street-stalls of the earth” – vapid garbage indeed! – anticipates the aggregation and list generation that makes up so much of the content on the web. This dissertation takes up multiple genres to explore the relationship of the literary and the informational for the same reason Ishmael takes up multiple genres to describe the White Whale: the subject exceeds any one way of looking at it and can at best be imperfectly grasped.
 
+:: C 1
+A conclusion will go here.
 
 :: Floridi, Luciano. Information: A Very Short Introduction. {"position":"6353,223","size":"100,100"}
 Floridi, Luciano. <i>Information: A Very Short Introduction.</i> Oxford: Oxford University Press, 2010.
@@ -1643,32 +1648,47 @@ Double-click this passage to edit it.
 
 
 <div id="ui-first-row">
-<div class="left-button" id="back-button"><img src="assets/icons/back.png"><span class="left-text">BACK</span></div>
-<div class="right-button" id="sound-button">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></div>
+	<div class="left-button" id="back-button"><img src="assets/icons/back.png"><span class="left-text">BACK</span></div>
+	<div class="right-button" id="sound-button">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></div>
 </div>
 
 <div id="ui-second-row">
-<div class="left-button" id="load-button"><img src="assets/icons/load.png" height=20px width=20px>LOAD</div>
-<div class="right-button" id="save-button">SAVE<img src="assets/icons/save.png" height=20px width=20px></div>
+	<div class="left-button" id="load-button"><img src="assets/icons/load.png" height=20px width=20px>LOAD</div>
+	<div class="right-button" id="save-button">SAVE<img src="assets/icons/save.png" height=20px width=20px></div>
 </div>
+
 <div style="clear: both;"></div>
 
+<div id="title-row">
+	<div id="current_page"><<print passage()>></div>
+</div>
+
 <button type="button" class="collapsible">BOOKMARKS</button>
+
 <div class="bookmarks">
-<<if ndef $bookmarks>>
-<<set $bookmarks to ["lol", "wut"]>>
+<<if ndef setup.bookmarks>>
+	<<if ndef $bookmarks>>
+		<<set setup.bookmarks to ["[[Table of Contents]]"]>>
+	<<else>>
+		<<set setup.bookmarks to $bookmarks>>
+	<</if>>
 <</if>>
-<<for _i to 0; _i lt $bookmarks.length; _i++>>
-<p>$bookmarks[_i]</p>
+
+<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
+	<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
 <</for>>
 </div>
+
 <div id="bookmark-spacer"> </div>
-<div id=navigation-list>
-1: INTRODUCTION<br>
-2: GESTURE<br>
-3: COGNITION<br>
-4: PRACTICE<br>
-5: CONCLUSION<br>
+<div id="navigation-list">
+[[a. CONTENTS->Table of Contents]]<br>
+[[b. INTRODUCTION->I 1]]<br>
+<br>
+[[1. GESTURE->Section 1: GESTURE]]<br>
+[[2. COGNITION->Section 2: COGNITION]]<br>
+[[3. PRACTICE->Section 3: PRACTICE]]<br>
+<br>
+[[c. CONCLUSION->C 1]]<br>
 </div>
 
 <<script>>
