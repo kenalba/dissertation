@@ -1479,9 +1479,9 @@ This situation is a microcosm of the broader condition of living in the informat
 
 
 :: Instructions {"position":"2269,363","size":"100,100"}
-If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrows on the top of the left hand sidebar. You can also save or load your progress. Don't use your browser's back button or you'll lose your progress.
+If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrow on the top of the left hand sidebar. You can also save or load your readthrough. Don't use your browser's back button or you'll lose your progress.
 
-The most linear path forward is to begin with the [[Introduction->I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on  embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
+The most linear path forward is to begin with the [[Introduction->I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
 Alternatively, you could approach this text backwards, jumping right to the glossary and exploring what case studies articulate what terms.
 
@@ -1648,13 +1648,13 @@ Double-click this passage to edit it.
 
 
 <div id="ui-first-row">
-	<div class="left-button" id="back-button"><img src="assets/icons/back.png"><span class="left-text">BACK</span></div>
-	<div class="right-button" id="sound-button">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></div>
+	<div class="left-button" id="back-button"><span class="left-text"><img src="assets/icons/back.png">BACK</span></div>
+	<div class="right-button" id="sound-button"><span class="right-text">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></span></div>
 </div>
 
 <div id="ui-second-row">
-	<div class="left-button" id="load-button"><img src="assets/icons/load.png" height=20px width=20px>LOAD</div>
-	<div class="right-button" id="save-button">SAVE<img src="assets/icons/save.png" height=20px width=20px></div>
+	<div class="left-button" id="load-button"><span class="left-text"><img src="assets/icons/load.png" height=20px width=20px>LOAD</span></div>
+	<div class="right-button" id="save-button"><span class="right-text">SAVE<img src="assets/icons/save.png" height=20px width=20px></span></div>
 </div>
 
 <div style="clear: both;"></div>

@@ -209,6 +209,7 @@ body.hs #h {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 8px;
+  user-select: none;
 }
 
 .left-button img {
@@ -218,9 +219,15 @@ body.hs #h {
   padding-right: 8px;
 }
 
-.left-button.hover {
-  color: blue;
+.left-text {
+  transition: .2s;
+  border-bottom: 2px solid transparent;
 }
+
+.left-text:hover {
+  border-bottom: 1px solid;
+}
+
 .right-button {
   box-sizing: border-box;
   float: right;
@@ -234,10 +241,16 @@ body.hs #h {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 8px;
+  user-select: none;
 }
 
-.right-button.hover {
-  color: blue;
+.right-text {
+  transition: .2s;
+  border-bottom: 2px solid transparent;
+}
+
+.right-text:hover {
+  border-bottom: 1px solid;
 }
 
 .right-button img {
@@ -1073,9 +1086,9 @@ VIDEO GOES HERE
 
 [[Next-&gt;I 4]]</tw-passagedata><tw-passagedata pid="182" name="I 4" tags="" position="1026,1502" size="100,100">This situation is a microcosm of the broader condition of living in the information age, when memes rub shoulders with selfies, confessions, poems, and listicles on an online commons where humans near-constantly perform themselves into being on virtual stages. This dissertation takes as its starting question the moment when a human impulse is translated, transcoded, or transmediated onto a technological medium for dissemination, and considers how information, as a term that can describe both the human gesture and its technological afterlife, might help us describe that moment. I take as my primary object of study modern and contemporary drama and fiction, with a secondary interest in the technological afterlives of those objects, because those objects show a persistent concern with the process of technologization that the human gesture undergoes, and the kind of subject that that process produces. 
 
-[[Next-&gt;I 5]]</tw-passagedata><tw-passagedata pid="183" name="Instructions" tags="" position="2269,363" size="100,100">If you haven&#39;t played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrows on the top of the left hand sidebar. You can also save or load your progress. Don&#39;t use your browser&#39;s back button or you&#39;ll lose your progress.
+[[Next-&gt;I 5]]</tw-passagedata><tw-passagedata pid="183" name="Instructions" tags="" position="2269,363" size="100,100">If you haven&#39;t played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrow on the top of the left hand sidebar. You can also save or load your readthrough. Don&#39;t use your browser&#39;s back button or you&#39;ll lose your progress.
 
-The most linear path forward is to begin with the [[Introduction-&gt;I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on  embodied social gestures as they are mediated technologically; the [[second-&gt;Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
+The most linear path forward is to begin with the [[Introduction-&gt;I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second-&gt;Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
 Alternatively, you could approach this text backwards, jumping right to the glossary and exploring what case studies articulate what terms.
 
@@ -1174,13 +1187,13 @@ From that day, from that very moment, an extraordinary change came over this boy
 &quot;Of course&quot;, he said, &quot;but that&#39;s the final chapter in the history of the world.&quot;
 
 &lt;&lt;return &quot;Back&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="198" name="Sandbox" tags="" position="1481.666666666667,254.16666666666674" size="100,100">&lt;p&gt;Test.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="199" name="Test" tags="" position="1301.666666666667,134.16666666666674" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="200" name="StoryCaption" tags="nobr" position="1295,287.49999999999994" size="100,100">&lt;div id=&quot;ui-first-row&quot;&gt;
-	&lt;div class=&quot;left-button&quot; id=&quot;back-button&quot;&gt;&lt;img src=&quot;assets/icons/back.png&quot;&gt;&lt;span class=&quot;left-text&quot;&gt;BACK&lt;/span&gt;&lt;/div&gt;
-	&lt;div class=&quot;right-button&quot; id=&quot;sound-button&quot;&gt;OFF&lt;img src=&quot;assets/icons/volume_off.png&quot; height=20px width=20px&gt;&lt;/div&gt;
+	&lt;div class=&quot;left-button&quot; id=&quot;back-button&quot;&gt;&lt;span class=&quot;left-text&quot;&gt;&lt;img src=&quot;assets/icons/back.png&quot;&gt;BACK&lt;/span&gt;&lt;/div&gt;
+	&lt;div class=&quot;right-button&quot; id=&quot;sound-button&quot;&gt;&lt;span class=&quot;right-text&quot;&gt;OFF&lt;img src=&quot;assets/icons/volume_off.png&quot; height=20px width=20px&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;ui-second-row&quot;&gt;
-	&lt;div class=&quot;left-button&quot; id=&quot;load-button&quot;&gt;&lt;img src=&quot;assets/icons/load.png&quot; height=20px width=20px&gt;LOAD&lt;/div&gt;
-	&lt;div class=&quot;right-button&quot; id=&quot;save-button&quot;&gt;SAVE&lt;img src=&quot;assets/icons/save.png&quot; height=20px width=20px&gt;&lt;/div&gt;
+	&lt;div class=&quot;left-button&quot; id=&quot;load-button&quot;&gt;&lt;span class=&quot;left-text&quot;&gt;&lt;img src=&quot;assets/icons/load.png&quot; height=20px width=20px&gt;LOAD&lt;/span&gt;&lt;/div&gt;
+	&lt;div class=&quot;right-button&quot; id=&quot;save-button&quot;&gt;&lt;span class=&quot;right-text&quot;&gt;SAVE&lt;img src=&quot;assets/icons/save.png&quot; height=20px width=20px&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;

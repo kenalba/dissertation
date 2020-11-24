@@ -57,6 +57,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 8px;
+  user-select: none;
 }
 
 .left-button img {
@@ -66,9 +67,15 @@
   padding-right: 8px;
 }
 
-.left-button.hover {
-  color: blue;
+.left-text {
+  transition: .2s;
+  border-bottom: 2px solid transparent;
 }
+
+.left-text:hover {
+  border-bottom: 1px solid;
+}
+
 .right-button {
   box-sizing: border-box;
   float: right;
@@ -82,10 +89,16 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 8px;
+  user-select: none;
 }
 
-.right-button.hover {
-  color: blue;
+.right-text {
+  transition: .2s;
+  border-bottom: 2px solid transparent;
+}
+
+.right-text:hover {
+  border-bottom: 1px solid;
 }
 
 .right-button img {
