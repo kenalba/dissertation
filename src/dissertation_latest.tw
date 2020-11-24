@@ -41,7 +41,7 @@ for (i = 0; i < coll.length; i++) {
 
 :: Beginning [StoryInit]
 <<set $bookmarks to []>>
-
+<<UIBar.unstow(true)>>
 :: PassageHeader
 
 :: PassageFooter
@@ -1687,7 +1687,7 @@ Double-click this passage to edit it.
 <div id="title-row">
 	<div id="current_page"><<print passage()>></div>
 </div>
-
+<hr>
 <div class="bookmarks">
 	
 	<button type="button" class="collapsible">BOOKMARKS</button>
@@ -1712,6 +1712,8 @@ Double-click this passage to edit it.
 
 </div>
 
+<hr>
+
 <div id="navigation-list">
 	[[a. CONTENTS->Table of Contents]]<br>
 	[[b. INTRODUCTION->I 1]]<br>
@@ -1722,7 +1724,6 @@ Double-click this passage to edit it.
 	<br>
 	[[c. CONCLUSION->C 1]]<br>
 </div>
-
 
 
 <<script>>

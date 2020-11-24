@@ -144,10 +144,15 @@ body.hs {
 body.hs #h {
   font-family: 'Lato', sans-serif;
 }
-  
-#bookmark-bar img {
-  align-content: right;
-  fill: white;
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
 /* twine-user-stylesheet #2: "ui_bar.css" */
 #ui-bar {
@@ -158,6 +163,10 @@ body.hs #h {
   font-family: 'Source Code Pro', monospace;
 }
 
+#ui-bar hr {
+  margin-left: 16px;
+  margin-right: 16px;
+}
 #ui-bar-body {
   padding: 0;
   margin: 0;
@@ -260,21 +269,16 @@ body.hs #h {
   padding-left: 8px;
 }
 
-#navigation-list {
-  font-size: 18px;
-  text-align: left;
-  margin-left: 16px;
-  padding-top: 16px;
-}
-
-video {
-  display: block;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
+#title-row {
+  line-height: 1.5;
+  height: 108px;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 a.link-external::after {
@@ -287,6 +291,7 @@ a.link-external::after {
   color: white;
   cursor: pointer;
   padding: 16px;
+  padding-top: 0px;
   padding-bottom: 0px;
   width: 100%;
   border: none;
@@ -313,9 +318,9 @@ a.link-external::after {
 }
 
 #bookmark_list {
+  font-size: 16px;
   padding: 0 18px;
   text-align: left;
-  color: white;
   overflow: hidden;
   line-height: 1;
   transition: max-height 0.2s ease-out;
@@ -323,29 +328,32 @@ a.link-external::after {
 }
 
 #bookmark_list a {
-  padding-left: 16px;
+  color: white;
+  margin-left: 16px;
   line-height: 2;
+  transition: .2s;
+  border-bottom: 2px solid transparent;
+}
+
+#bookmark_list a:hover {
+  color: #7E9890;
+  border-bottom: 2px solid;
+}
+
+#navigation-list {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 16px;
 }
 
 #navigation-list a {
   color: white;
+  border-bottom: 2px solid transparent;
 }
 
 #navigation-list a:hover {
   color: #7E9890;
-  text-decoration: underline;
-}
-
-#title-row {
-  line-height: 1.5;
-  height: 108px;
-  padding-top: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 8px;
-  font-size: 24px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-bottom: 2px solid;
 }
 /* twine-user-stylesheet #3: "Story Stylesheet" */
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">postrender["Associate Special Passages"] = function (content, taskName) {
@@ -369,7 +377,8 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
-}</script><tw-passagedata pid="1" name="Beginning" tags="StoryInit" position="100,100" size="100,100">&lt;&lt;set $bookmarks to []&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="PassageHeader" tags="" position="225,100" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="PassageFooter" tags="" position="350,100" size="100,100">&lt;hr&gt;
+}</script><tw-passagedata pid="1" name="Beginning" tags="StoryInit" position="100,100" size="100,100">&lt;&lt;set $bookmarks to []&gt;&gt;
+&lt;&lt;UIBar.unstow(true)&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="PassageHeader" tags="" position="225,100" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="PassageFooter" tags="" position="350,100" size="100,100">&lt;hr&gt;
 &lt;&lt;bookmark&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Start" tags="" position="2596,143" size="100,100">Here&#39;s where we start!
 
 [[Instructions]]
@@ -1222,7 +1231,7 @@ From that day, from that very moment, an extraordinary change came over this boy
 &lt;div id=&quot;title-row&quot;&gt;
 	&lt;div id=&quot;current_page&quot;&gt;&lt;&lt;print passage()&gt;&gt;&lt;/div&gt;
 &lt;/div&gt;
-
+&lt;hr&gt;
 &lt;div class=&quot;bookmarks&quot;&gt;
 	
 	&lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;BOOKMARKS&lt;/button&gt;
@@ -1247,6 +1256,8 @@ From that day, from that very moment, an extraordinary change came over this boy
 
 &lt;/div&gt;
 
+&lt;hr&gt;
+
 &lt;div id=&quot;navigation-list&quot;&gt;
 	[[a. CONTENTS-&gt;Table of Contents]]&lt;br&gt;
 	[[b. INTRODUCTION-&gt;I 1]]&lt;br&gt;
@@ -1257,7 +1268,6 @@ From that day, from that very moment, an extraordinary change came over this boy
 	&lt;br&gt;
 	[[c. CONCLUSION-&gt;C 1]]&lt;br&gt;
 &lt;/div&gt;
-
 
 
 &lt;&lt;script&gt;&gt;

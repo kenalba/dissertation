@@ -6,6 +6,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+#ui-bar hr {
+  margin-left: 16px;
+  margin-right: 16px;
+}
 #ui-bar-body {
   padding: 0;
   margin: 0;
@@ -108,21 +112,16 @@
   padding-left: 8px;
 }
 
-#navigation-list {
-  font-size: 18px;
-  text-align: left;
-  margin-left: 16px;
-  padding-top: 16px;
-}
-
-video {
-  display: block;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
+#title-row {
+  line-height: 1.5;
+  height: 108px;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 a.link-external::after {
@@ -135,6 +134,7 @@ a.link-external::after {
   color: white;
   cursor: pointer;
   padding: 16px;
+  padding-top: 0px;
   padding-bottom: 0px;
   width: 100%;
   border: none;
@@ -161,9 +161,9 @@ a.link-external::after {
 }
 
 #bookmark_list {
+  font-size: 16px;
   padding: 0 18px;
   text-align: left;
-  color: white;
   overflow: hidden;
   line-height: 1;
   transition: max-height 0.2s ease-out;
@@ -171,27 +171,30 @@ a.link-external::after {
 }
 
 #bookmark_list a {
-  padding-left: 16px;
+  color: white;
+  margin-left: 16px;
   line-height: 2;
+  transition: .2s;
+  border-bottom: 2px solid transparent;
+}
+
+#bookmark_list a:hover {
+  color: #7E9890;
+  border-bottom: 2px solid;
+}
+
+#navigation-list {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 16px;
 }
 
 #navigation-list a {
   color: white;
+  border-bottom: 2px solid transparent;
 }
 
 #navigation-list a:hover {
   color: #7E9890;
-  text-decoration: underline;
-}
-
-#title-row {
-  line-height: 1.5;
-  height: 108px;
-  padding-top: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 8px;
-  font-size: 24px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-bottom: 2px solid;
 }

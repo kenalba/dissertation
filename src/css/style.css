@@ -43,8 +43,13 @@ body.hs {
 body.hs #h {
   font-family: 'Lato', sans-serif;
 }
-  
-#bookmark-bar img {
-  align-content: right;
-  fill: white;
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
