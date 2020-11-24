@@ -160,7 +160,7 @@ a.link-external::after {
   content: "\2212";
 }
 
-.bookmarks {
+#bookmark_list {
   padding: 0 18px;
   text-align: left;
   color: white;
@@ -170,7 +170,7 @@ a.link-external::after {
   background-color: black;
 }
 
-.bookmarks a {
+#bookmark_list a {
   padding-left: 16px;
   line-height: 2;
 }

@@ -40,8 +40,13 @@ for (i = 0; i < coll.length; i++) {
 
 
 :: Beginning [StoryInit]
+<<set $bookmarks to []>>
 
 :: PassageHeader
+
+:: PassageFooter
+<hr>
+<<bookmark>>
 
 :: Start {"position":"2596,143","size":"100,100"}
 Here's where we start!
@@ -49,8 +54,6 @@ Here's where we start!
 [[Instructions]]
 
 [[Table of Contents]]
-
-<<set $bookmark_active to false>>
 
 
 :: Table of Contents {"position":"3239,838","size":"100,100"}
@@ -307,6 +310,7 @@ Link to pdf with introductory blurb.
 
 
 :: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
+
 <<widget "blue">>
 	<<set _word to $args[0]>>
 	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
@@ -380,6 +384,31 @@ Link to pdf with introductory blurb.
 	
 <</widget>>
 
+<<widget "bookmark">>
+	<<set _passage_link to "[[" + passage() + "]]">>
+	<<if def setup.bookmarks>>
+		<<if setup.bookmarks.includes(_passage_link)>>
+			Bookmarked.
+		<<else>>
+			<<linkreplace "Bookmark" t8n>>Bookmark added!
+					<<if setup.bookmarks.length < 10>>
+						<<set setup.bookmarks.pushUnique(_passage_link)>>
+					<<elseif setup.bookmarks.length == 10>>
+						<<set setup.bookmarks.deleteAt(0)>>
+						<<set setup.bookmarks.pushUnique(_passage_link)>>
+					<</if>>
+					<<set $bookmarks to setup.bookmarks>>
+					<<replace #bookmark_list>><<include BookmarkList>><</replace>>
+			<</linkreplace>>
+		<</if>>
+	<<else>>
+		<<linkreplace "Bookmark" t8n>>Bookmark added!
+			<<set setup.bookmarks to [_passage_link]>>
+			<<set $bookmarks to setup.bookmarks>>
+			<<replace #bookmark_list>><<include BookmarkList>><</replace>>
+		<</linkreplace>>
+	<</if>>
+<</widget>>
 
 :: Caryl Churchill {"position":"4975,100","size":"100,100"}
 <<set _test2 to "Fruitcakes">>
@@ -893,10 +922,6 @@ MORE.
 
 :: EG 9 [eg] {"position":"3844,2768","size":"100,100"}
 On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>[[Quad II]]</i>, the second half of </i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss. 
-
-<<link "Bookmark!">>
-	<<set setup.bookmarks.pushUnique("[[EG 9]]")>>
-<</link>>
 
 
 <video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
@@ -1663,33 +1688,42 @@ Double-click this passage to edit it.
 	<div id="current_page"><<print passage()>></div>
 </div>
 
-<button type="button" class="collapsible">BOOKMARKS</button>
-
 <div class="bookmarks">
-<<if ndef setup.bookmarks>>
-	<<if ndef $bookmarks>>
-		<<set setup.bookmarks to ["[[Table of Contents]]"]>>
-	<<else>>
-		<<set setup.bookmarks to $bookmarks>>
+	
+	<button type="button" class="collapsible">BOOKMARKS</button>
+
+	<<if ndef setup.bookmarks>>
+		<<if def $bookmarks>>
+			<<set setup.bookmarks to $bookmarks>>
+		<</if>>
 	<</if>>
-<</if>>
 
-<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
-	<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
-<</for>>
+	<<if setup.bookmarks is []>>
+		<<if $bookmarks is not []>>
+			<<set setup.bookmarks to $bookmarks>>
+		<</if>>
+	<</if>>
+
+	<div id="bookmark_list">
+		<<include BookmarkList>>
+	</div>
+
+	<div id="bookmark-spacer"> </div>
+
 </div>
 
-<div id="bookmark-spacer"> </div>
 <div id="navigation-list">
-[[a. CONTENTS->Table of Contents]]<br>
-[[b. INTRODUCTION->I 1]]<br>
-<br>
-[[1. GESTURE->Section 1: GESTURE]]<br>
-[[2. COGNITION->Section 2: COGNITION]]<br>
-[[3. PRACTICE->Section 3: PRACTICE]]<br>
-<br>
-[[c. CONCLUSION->C 1]]<br>
+	[[a. CONTENTS->Table of Contents]]<br>
+	[[b. INTRODUCTION->I 1]]<br>
+	<br>
+	[[1. GESTURE->Section 1: GESTURE]]<br>
+	[[2. COGNITION->Section 2: COGNITION]]<br>
+	[[3. PRACTICE->Section 3: PRACTICE]]<br>
+	<br>
+	[[c. CONCLUSION->C 1]]<br>
 </div>
+
+
 
 <<script>>
 var save_button = document.getElementById("save-button");
@@ -1736,4 +1770,14 @@ for (i = 0; i < coll.length; i++) {
 }
 <</script>>
 
+:: BookmarkList [nobr]
 
+<<if def setup.bookmarks>>
+	<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
+		<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
+	<</for>>
+<<elseif def $bookmarks>>
+	<<for _i to 0; _i lt $bookmarks.length; _i++>>
+		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
+	<</for>>
+<</if>>
