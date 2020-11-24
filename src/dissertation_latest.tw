@@ -1,0 +1,1719 @@
+:: StoryTitle
+Dissertation
+
+
+:: StoryData
+{
+	"ifid": "AD0660F8-FF49-46A8-B178-0AF39F853F11",
+	"format": "SugarCube",
+	"format-version": "2.31.1",
+	"start": "EG 7",
+	"zoom": 0.6
+}
+
+
+:: Story Stylesheet [stylesheet]
+
+:: Story JavaScript [script]
+postrender["Associate Special Passages"] = function (content, taskName) {
+	setPageElement("story-title", "StoryTitle", Story.title);
+	setPageElement("story-banner","StoryBanner");
+	setPageElement("story-subtitle","StorySubtitle");
+	setPageElement("story-author","StoryAuthor");
+	setPageElement("story-caption","StoryCaption");
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+:: Beginning [StoryInit]
+
+
+:: Start {"position":"2596,143","size":"100,100"}
+Here's where we start!
+
+[[Instructions]]
+
+[[Table of Contents]]
+
+<<set $bookmark_active to false>>
+
+
+:: Table of Contents {"position":"3239,838","size":"100,100"}
+[[I 1]]
+
+[[Section 1: GESTURE]]
+
+[[Section 2: COGNITION]]
+
+[[Section 3: PRACTICE]]
+
+[[Conclusion]]
+
+[[Annotated Bibliography]]
+
+
+:: I 1 {"position":"1028,1070","size":"100,100"}
+One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because “it takes a lot more sophistication to render a realistic human face” (45). The couples, on the other hand, “can’t afford to have custom avatars made and don’t know how to write their own,” so they’re stuck with “off-the-shelf avatars” (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
+
+[[Next->I 2]]
+
+
+:: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
+[[Case Study: BLUE KETTLE]] - 75% done
+
+[[Case Study: HER STORY]] - 50% done
+
+[[Case Study: THE DIAMOND AGE]] - (Being Written)
+
+[[Real Life: ????]]
+
+
+:: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
+[[Case Study: PHAEDRUS]]
+
+[[Case Study: KRAPP'S LAST TAPE]]
+
+[[Meatspace: THE ALT-RIGHT]]
+
+
+:: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
+This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EG 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
+
+[[Practice-Based Research Introduction / Overview / Methodology]]
+
+[[Case Study: ENDLESSGAME]] (this is the one I want you to look at, Carrie!)
+
+[[Case Study: ALMOST TO THE TICK]] (in progress)
+
+[[Case Study: LOVE AND INFORMATION]] (in progress)
+
+[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] (not started)
+
+
+:: Conclusion {"position":"2896,468","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Annotated Bibliography {"position":"3397,477","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Case Study: THE DIAMOND AGE {"position":"1437,1180","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Case Study: HER STORY [hs] {"position":"1740,1152","size":"100,100"}
+<h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
+
+<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
+
+[[Begin->HS 1]]
+
+
+:: Case Study: BLUE KETTLE [bk] {"position":"1872,1139","size":"100,100"}
+<h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
+
+[[Begin->BK 1]]
+
+
+:: Real Life: ???? {"position":"1440,1054","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Case Study: PHAEDRUS {"position":"2665,1177","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Case Study: KRAPP'S LAST TAPE {"position":"2540,1175","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Meatspace: THE ALT-RIGHT {"position":"2790,1177","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
+The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of “embodied knowledges” (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a “practical turn” in theater studies whereby creative work should be considered a “valid research process and/or a research outcome” (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
+
+[[Next->PBR 1]]
+
+
+:: Case Study: ENDLESSGAME [eg] {"position":"3845,1066","size":"100,100"}
+This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
+
+[[Begin->EG 1]]
+
+
+:: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
+This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
+
+[[Next->AttT 1]]
+
+
+:: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW {"position":"5694,1043","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: BK 1 [bk tbar] {"position":"1890,1302","size":"100,100"}
+[[Caryl Churchill]]’s “Blue Kettle” is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of “Blue Kettle” is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words “a [[McGuffin]]”. Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, “was [its] destruction.” 
+
+The agent of this destruction is what she calls a “[[virus]]”: over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word “<span class="blue">blue</span>” or the word “<span class="kettle">kettle</span>.” This begins in the second scene, where Derek says “You don’t have to <<blue "mess">> anything up”; by the fifth scene, we have lines like “I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even “<span class="blue">blue</span>” and “<span class="kettle">kettle</span>” have been replaced by their constitutive parts: Mrs. Plant’s final line, “<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?”, is responded to, with appropriate finality, with Derek’s “<span class="blue">B</span>. <span class="kettle">K.</span>”
+
+[[Next ->BK 2]]
+
+
+:: McGuffin [bk] {"position":"1999,1306","size":"100,100"}
+A McGuffin is a cinematic term, coming from Hitchcock, to signify a sort of plot device that is not in itself important - consider, for example, the Maltese Falcon or the briefcase full of gold in Pulp Fiction.
+
+
+:: BK 2 [bk] {"position":"1874,1452","size":"100,100"}
+Contemporary reviews of the play were positive, if occasionally befuddled, but returned again and again to the metaphor of a “linguistic virus” to describe the proliferation of “<<blue blue>>" and "<<kettle kettle>>" through the dialogue - a good decade before Churchill herself used it in the aforequoted foreword. Matt Wolf’s review for American Theater states that the play “concerns the breakdown of language - words and letters as a sort of virus that by play’s end have made a mockery of meaning”; Charles McNulty’s review for the Village Voice is titled “[[Language is a Virus]]” and suggests that “the linguistic equivalent of the [[Y2K]] virus spreads insidiously” through the play; and Gerard Raymond, also writing for The Village Voice, notes that Max Stafford-Clark, the play’s director, refers to the “language virus” as the heart of the play. Contemporary criticism has been similarly invested in the metaphor of the virus, but - like the reviews - has done little to consider the metaphor’s implications.
+
+[[Next ->BK 3]]
+
+
+:: BK 3 [bk] {"position":"1874,1606","size":"100,100"}
+Viruses can be broken up into three categories, more or less: a biological virus, like [[influenza]], a computer virus, like [[ILOVEYOU->viruses]] or [[STUXNET->viruses]], and a viral idea, or a [[meme]]. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
+
+[[Next->BK 4]]
+
+
+:: BK 4 [bk] {"position":"1873,1752","size":"100,100"}
+Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, A Number, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in “Blue Kettle” itself, when Derek converses with one of his marks, Mrs. Oliver, about family:
+
+<span class = "script">MRS OLIVER:	Do you believe in heredity?</span>
+<span class = "script">DEREK: 		A bit.</span>
+
+The same scene goes on, however, to discuss something closer to the memetic version of replication:
+
+<span class = "script">MRS OLIVER:	But then there’s how you’re brought up. There’s family jokes.</span>
+<span class = "script">DEREK: 	Exactly.</span>
+<span class = "script">MRS OLIVER:	I mean I look at you and you could be anyone.</span>
+
+However, thinking about “<span class="blue">blue</span> <span class = "kettle">kettle</span>” as a kind of computer virus suggests a way of reading the play with information theory - and that reading provides a provocative vocabulary for considering the mediation between sense and nonsense that the play stages. 
+
+[[Next ->BK 5]]
+
+
+:: BK 6 [bk] {"position":"1874,2046","size":"100,100"}
+How does that decoding take place? 
+
+Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by [[local repetition->BK Repetition]], or recognition of [[cliche->BK Cliche]].
+
+[[Next->BK 7]]
+
+
+:: BK Repetition [bk] {"position":"1999,2046","size":"100,100"}
+In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:
+
+	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span>
+	<span class="script">ENID:	Why do you think?</span>
+
+Enid’s question in response to Derek’s question suggests that “blue” stands here for “why”, and the sentence is intelligible as “So why didn’t anyone let you know.” Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.
+
+
+:: BK Cliche 1 [bk] {"position":"2268,2046","size":"100,100"}
+Cliche is a particularly interesting tool for Churchill to use in light of this technological reading given the term’s etymology.
+
+The term ‘cliche’ is, literally, a technical term used by 19th century printers, coming from the verb ‘clicher’ meaning to click and signifying a stereotype block (stereotype’s etymology is similarly grounded in the printing press). If a printer had a particular phrase that they knew they’d have to use over and over again, they’d often keep have a set block with those words on it. The word cliche was chosen for otomotopaeic reasons, to echo the sound of a mold from a printing press striking metal - although ‘click’ has its own associations now, of course. Even “type,” that literary phrase to describe someone whose character is more general and indicative of a class of persons than individuated, appears to be etymologically related to the process of technologically reproducing language via printing. These phrases are early examples of linguistic memes: viral idioms with a disposition that inclines them towards replication, mutation, and dissemination through the mental gene pool.
+
+
+:: BK 7 [bk] {"position":"1874,2196","size":"100,100"}
+These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend - a fact made more clear to me while editing this section and having to read some of the quotations out loud. 
+
+Even by the eleventh and final scene, an exchange like: 
+
+<span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
+<span class="script">MRS PLANT:		<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?</span>
+<span class="script">DEREK:		<<ket If Ket>> <<bl you b>> like. Or not.</span>
+
+is mostly comprehensible.
+
+[[Next->BK 8]]
+
+
+:: BK 8 [bk] {"position":"1875,2346","size":"100,100"}
+Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that “<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?” is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting, of course, in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
+
+He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same [[language game]]. Hence, perhaps, Churchill’s tongue-in-cheek admission that “Blue Kettle” was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
+
+[[Next->BK 9]]
+
+
+:: language game [bk] {"position":"1999,2346","size":"100,100"}
+<h1>7</h1>
+In the practice of the use of language [[2->Witt 2]] one party calls out the words, the other acts on them. In instruction in the language the following process will occur: the learner names the objects; that is, he utters the word when the teacher points to the stone. ---And there will be this still simpler exercise: the pupil repeats the words after the teacher-----both of these being processes resembling language. 	
+
+ We can also think of the whole process of using words in [[2->Witt 2]] as one of those games by means of which children learn their native language. I will call these games <em>"language-games"</em> and will sometimes speak of a primitive language as a language-game. 
+
+And the processes of naming the stones and of repeating words after someone might also be called language-games. Think of much of the use words in games like ring-a-ring-a-roses. 	
+
+I shall also call the whole, consisting of language and the actions into which it is woven, the "language-game".
+
+
+:: BK 9 [bk] {"position":"1865,2502","size":"100,100"}
+Along those lines, we will turn to the information theoretical binary of [[signal]] and [[noise]]. 
+
+Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the [[lossy]] compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
+
+The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise,’ or email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. 
+
+[[Next->BK 10]]
+
+
+:: BK 10 [bk] {"position":"1865,2652","size":"100,100"}
+In the context of this play, then, we might think about the virus as a deliberate introduction of noise into an otherwise clear signal. As the infection grows, the signal becomes more and more muddled, until (on the page, at least) there’s nothing but noise. The cognitive work of reading or of making sense of the play is the work of noise reduction - of working around the infected language to arrive at the real, important meaning underneath. Importantly, the framework of ‘signal’ and ‘noise’ implies just this sort of reader, one that can convert raw data into meaningful information. The signal, under this framework, is the stuff the receiver cares about; the noise is interference. That the play’s plot Mcguffin and the virus is the point of the play, however, gestures to the provisional and contingent division of signal from noise.
+
+[[Next->BK 11]]
+
+
+:: BK 11 [bk] {"position":"1865,2802","size":"100,100"}
+If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the [[glitch]], following [[Ross Menkman’s 2010 Glitch Manifesto->Menkman, Ross. Glitch Manifesto.]]. 
+
+[[Next->BK 12]]
+
+
+:: Ross Menkman’s 2010 Glitch Manifesto {"position":"1990,2802","size":"100,100"}
+Link to pdf w/ introductory blurb.
+
+
+:: BK 12 [bk] {"position":"1874,2946","size":"100,100"}
+I would like, however, to argue, that the aesthetic experience of the glitch is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in “Blue Kettle” put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the glitch is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently glitched image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of “Blue Kettle” is, for Churchill, the point of the play. 
+
+[[Next->BK 13]]
+
+
+:: Critique of Judgment {"position":"1999,2946","size":"100,100"}
+Link to pdf with introductory blurb.
+
+
+:: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
+<<widget "blue">>
+	<<set _word to $args[0]>>
+	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
+	<<if _word.toUpperFirst() is _word>>
+		<<set _blueString to "<span class='blue'>Blue</span>">>
+	<<else>>
+		<<set _blueString to "<span class='blue'>blue</span>">>
+	<</if>>
+	<<cycle "_one">>
+		<<option _blueString selected>>
+		<<option _outputString>>
+	<</cycle>>
+<</widget>>
+
+<<widget "kettle">>
+	<<set _word to $args[0]>>
+	<<set _outputString to "<span class = 'kettle'>" + _word + "</span>">>
+	<<if _word.toUpperFirst() is _word>>
+		<<set _kettleString to "<span class='kettle'>Kettle</span>">>
+	<<else>>
+		<<set _kettleString to "<span class='kettle'>kettle</span>">>
+	<</if>>
+	<<cycle "_one">>
+		<<option _kettleString selected>>
+		<<option _outputString>>
+	<</cycle>>
+<</widget>>
+
+<<widget "bl">>
+	<<set _word to $args[0]>>
+	<<set _fragment to $args[1]>>
+	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
+	<<if _word.toUpperFirst() is _word>>
+		<<set _blueString to "<span class='blue'>" + _fragment + "</span>">>
+	<<else>>
+		<<set _blueString to "<span class='blue'>" + _fragment + "</span>">>
+	<</if>>
+	<<cycle "_one">>
+		<<option _blueString selected>>
+		<<option _outputString>>
+	<</cycle>>
+<</widget>>
+
+<<widget "ket">>
+	<<set _word to $args[0]>>
+	<<set _fragment to $args[1]>>
+	<<set _outputString to "<span class = 'kettle'>" + _word + "</span>">>
+	<<if _word.toUpperFirst() is _word>>
+		<<set _kettleString to "<span class='kettle'>" + _fragment + "</span>">>
+	<<else>>
+		<<set _kettleString to "<span class='kettle'>" + _fragment + "</span>">>
+	<</if>>
+	<<cycle "_one">>
+		<<option _kettleString selected>>
+		<<option _outputString>>
+	<</cycle>>
+<</widget>>
+
+<<widget "cite">>
+	<<set _page1 to $args[0]>>
+	<<if $args.length == 2>>
+		<<set _sourceTitle to $args[1]>>
+		<<set _outputString to "(" + $args[0] + ")">>
+	<<else>>
+		<<set _page2 to $args[1]>>
+		<<set _sourceTitle to $args[2]>>
+		<<set _outputString to "(" + _page1 + "-" + _page2 + ")">>
+	<</if>>
+	
+	<<link _outputString _sourceTitle>><</link>>
+	
+<</widget>>
+
+
+:: Caryl Churchill {"position":"4975,100","size":"100,100"}
+<<set _test2 to "Fruitcakes">>
+<<set _teststring to "<span class = 'blue'>" + _test2 + "</span>">>
+<<print _teststring>>
+
+	<<cycle "_one">>
+		<<set _outputString to "<span class = 'blue'>" + _test2 + "</span>">>
+
+		<<option "Blue" selected>>
+		<<option _teststring>>
+	<</cycle>>
+
+
+:: Y2K [bk] {"position":"2124,1306","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: virus [bk] {"position":"2249,1306","size":"100,100"}
+Infect the user's playthrough with the VIRUS, so they get random BLUES and KETTLES.
+
+
+:: Language is a Virus [bk] {"position":"1999,1456","size":"100,100"}
+Link to PDF.
+
+
+:: viruses [bk] {"position":"1999,1606","size":"100,100"}
+Virus images here for STUXNET and ILOVEYOU
+
+
+:: meme [bk] {"position":"2124,1606","size":"100,100"}
+Dawkins on meme (or something from the Beckett and Memes page)
+
+
+:: influenza [bk] {"position":"2249,1606","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: GENE [bk] {"position":"2005,1752","size":"100,100"}
+AGT TCG AGC CCT TGA CTT GAT TGT GCA TAC
+CGT GCT TGA GTC ATG TTG CAC AAC TTG TCG
+GTC TCA GTA TGC CCG TGA AAT GTA CAT GTC
+GGG TCC GAA TCT GAT TGC CCT TTG TGG AAC
+TGT GTG GCA TAG CTA GCC TGG GAC CCT TTG
+GGC TGC ACT TGA TTG TCA CCA GGT TGT TCT
+GTT GAA TCA TGA TCG GAC CCA CGT CGG CTG
+GCC GAC TTT GAC CGG AGT GGT TGT ACC TTG
+GTC AGG AAT TGA ACG
+
+
+:: BK 5 [bk] {"position":"1870,1905","size":"100,100"}
+This mode of informationally-informed reading, which I’m tentatively calling literary informatics, considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. 
+
+The naive [[schematic->informatic schematic]] for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but “Blue Kettle” has none. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that “performance provides the supplement that brings the textual DNA to theatrical life”; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.
+
+[[next->BK 6]]
+
+
+:: informatic schematic [bk] {"position":"2004,1897","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: BK Cliche [bk] {"position":"2134,2044","size":"100,100"}
+The recognition of [[cliches->BK Cliche 1]] and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:
+
+<span class="script">MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.</span>
+
+and
+
+<span class="script">MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?</span>
+	
+both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of “break” with “blue,” however, defamiliarizes the cliche, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.
+
+
+:: Witt 2 [bk] {"position":"2120,2351","size":"100,100"}
+<h1>2</h1>
+That philosophical concept of meaning has its place in a primitive idea of the way language functions.  But one can also say that it is the idea of a language more primitive than ours. 
+
+Let us imagine a language ...The language is meant to serve for communication between a builder <i>A</i> and an assistant <i>B</i>. <i>A</i> is building with building-stones; there are blocks, pillars, slabs and beams. <i>B</i> has to pass the stones, and that in the order in which <i>A</i> needs them. For this purpose they use a language consisting of the words 'block', 'pillar', 'slab', 'beam'. <i>A</i> calls them out; --<i>B</i> brings the stone which he has learnt to bring at such-and-such a call. -- Conceive this as a complete primitive language.
+
+
+:: signal [bk] {"position":"2015,2502","size":"100,100"}
+
+
+:: noise [bk] {"position":"2140,2502","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: BK 13 [bk] {"position":"1872,3097","size":"100,100"}
+Caryl Churchill’s later work, particularly her 2012 play <a href="https://especiallygreatliterature.com/laitwine.html">Love and Information,”</a> deals more squarely with the technological dissemination and corruption of human words and gestures via information technology, and with the potentially alienating consequences of that transmediation. In an era where the social gestures we use to constitute ourselves in relation to one another are increasingly mediated on technological substrates, and where the words we use are increasingly infected with viral language from Twitter and so forth, Churchill’s exploration of a “language virus” in Blue Kettle suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that “Blue Kettle” forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the “sames” and “big moods” and “on brands” of living in the information age.
+
+[[Return->Section 1: GESTURE]]
+
+
+:: StoryInterface 12 [nobr] {"position":"257,49","size":"100,100"}
+<div class="header">
+	<h4>Header Goes Here</h4>
+</div>
+
+<div id="story" role="main">
+	<div id="passages"></div>
+</div>
+
+
+:: PassageHeader 123 [nobr] {"position":"412,50","size":"100,100"}
+<<if tags().includes("bk")>>
+	<div id = "heading">
+		<h1> Blue Kettle! </h1>
+	</div>
+<</if>>
+
+
+:: HS 1 [hs] {"position":"1740,1302","size":"100,100"}
+<i>Her Story</i> is an interactive film wrapped in a database. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, “MURDER,” – and the game is ‘over’ only when the player decides they have seen enough. 
+
+[[Next->HS 2]]
+
+
+:: HS 2 [hs] {"position":"1740,1452","size":"100,100"}
+There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the interface – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
+
+[[Next->HS 3]]
+
+
+:: HS 3 [hs] {"position":"1740,1602","size":"100,100"}
+Loss, which [[Lev Manovich]] identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
+
+DIAGRAM GOES HERE.
+
+[[Next->HS 4]]
+
+
+:: Lev Manovich {"position":"5850,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: HS 4 [hs] {"position":"1738,1750","size":"100,100"}
+Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: “The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.”
+
+IMAGE OF BARLOW?
+
+[[Next->HS 5]]
+
+
+:: HS 5 [hs] {"position":"1736,1900","size":"100,100"}
+Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the “anti-glare filter” buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
+
+[[Next ->HS 6]]
+
+
+:: HS 6 [hs] {"position":"1736,2050","size":"100,100"}
+This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
+
+[[Next->HS 7]]
+
+
+:: MIRRORS {"position":"1618,2047","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: HS 7 [hs] {"position":"1738,2200","size":"100,100"}
+The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by “SB,” – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+
+[[Next->HS 8]]
+
+
+:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Benjamin’s aura [hs] {"position":"1615,2202","size":"100,100"}
+“In even the most perfect reproduction, one thing is lacking: the here and now of the work of art--its unique existence in a particular place. It is this unique existence--and nothing else--that bears the mark of the history to which the work has been subject.”
+
+“The authenticity of a thing is the quintessence of all that is transmissible in it from its origin on, ranging from its physical duration to the historical testimony relating to it.”
+
+[[Walter Benjamin, “The Work of Art in the Age of its Technological Reproducibility,” p21-22->Benjamin, Walter. "The Work of Art in the Age of its Technological Reproducibility"]]
+
+
+:: HS 8 [hs] {"position":"1740,2328","size":"100,100"}
+That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – “I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.” The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
+
+[[Next->HS 9]]
+
+
+:: HS 9 [hs] {"position":"1741,2473","size":"100,100"}
+This system can be provocatively described, I think, as what N. Katherine Hayles calls a “[[cognitive assemblage]]” – “tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.” The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of “reading” subject.
+
+[[Next->HS 10]]
+
+
+:: cognitive assemblage {"position":"1628,2473","size":"100,100"}
+“Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.”
+N. Katherine Hayles, 
+
+“Writing // Posthuman: The Literary Text as Cognitive Assemblage.” p3`
+
+
+:: HS 10 [hs] {"position":"1748,2603","size":"100,100"}
+It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that “I don’t think you will ‘read’ a better mystery novel this year.” This is a provocative statement; although other critics, particularly [[Emily Short]], have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
+
+[[Charles Rzepka]], a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the “puzzle element.” Rzepka defines the “puzzle element” as “the presentation of the mystery as an ongoing problem for the reader to solve” and foregrounds “its powers to engage the reader’s own reasoning abilities.” Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, “detective fiction,” or “stories of detection.” 
+
+[[Next->HS 11]]
+
+
+:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Emily Short {"position":"4500,225","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Charles Rzepka {"position":"4375,225","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Detective Fiction {"position":"1294,2606","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: HS 11 [hs] {"position":"1745,2728","size":"100,100"}
+But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in “SB”’s words at the ‘end’ of the game, to “understand why your mother did what she did.”
+
+[[Next->HS 12]]
+
+
+:: HS 12 [hs] {"position":"1747,2878","size":"100,100"}
+It is possible, then, to identify (as [[Emily Short]] does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, I’d argue, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
+
+[[Next->HS 13]]
+
+
+:: HS 13 [hs] {"position":"1747,3028","size":"100,100"}
+<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
+
+[[Return->Section 1: GESTURE]]
+
+
+:: EG 1 [eg] {"position":"3844,1268","size":"100,100"}
+Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i> Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.
+
+<video controls>
+<source src="assets/videos/quad.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[[Next->EG 2]]
+
+
+:: EG 2 {"position":"3844,1468","size":"100,100"}
+Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what [[Hugh Kenner]] in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. By "[[information]]" I will hear adopt [[Luciano Floridi]]’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner [[transcribed->Watt to Pascal]] sections of <i>[[Watt->Beckett, Samuel. Watt.]]</i> into Pascal code - or, more recently and thoroughly, [[Nick Montfort]] wrote <i>[[Megawatt->MW 1]]</i>. 
+
+[[Next->EG 3]]
+
+
+:: Hugh Kenner {"position":"5225,100","size":"100,100"}
+Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this text.
+
+
+:: Luciano Floridi {"position":"6351,103","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Watt to Pascal {"position":"3719,1468","size":"100,100"}
+<code>PROGRAM MrsGorman (Input, Output);
+CONST
+&emsp;Indifferent = 60;
+VAR
+&emsp;Thursday, Indisposed, Called : BOOLEAN;
+&emsp;Bed, Chair, Hearth, Fire, Window, Open : BOOLEAN;
+&emsp;Rand, Temperature : INTEGER;
+BEGIN {Main program}
+IF Thursday THEN
+&emsp;IF NOT (Indisposed)
+&emsp;&emsp;THEN Called := True
+&emsp;ELSE {If Indisposed}
+&emsp;&emsp;Called := False;
+&emsp;IF NOT Called THEN Random;
+&emsp;&emsp;IF Rand = 0 THEN (Bed)
+&emsp;&emsp;&emsp;ELSE {if Rand = 1 then}
+&emsp;&emsp;&emsp;BEGIN {Else}
+&emsp;&emsp;&emsp;&emsp;IF Temperature < Indifferent
+&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Hearth AND Fire)
+&emsp;&emsp;&emsp;&emsp;ELSE IF Temperature > Indifferent
+&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair AND Window AND Open)
+&emsp;&emsp;&emsp;&emsp;ELSE IF Temperature = Indifferent THEN
+&emsp;&emsp;&emsp;&emsp;&emsp;BEGIN {Else if}
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Random;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;IF Rand = 0
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Window AND NOT Open)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ELSE {if Rand = 1 then}
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Chair AND Hearth AND NOT Fire)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;END {Else If}
+&emsp;&emsp;&emsp;&emsp;&emsp;END {Else}
+END. {Main program}</code>
+
+<<cite 'Kenner 1987, 94' "Kenner, Hugh. The Mechanic Muse.">>
+
+<<return "Back">>
+
+
+:: EG 3 [eg] {"position":"3844,1768","size":"100,100"}
+Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: “Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2...” What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn “executed” by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play]], one that runs without a glitch, in perfect obedience to the will of the author. 
+
+[[Next->EG 4]]
+
+
+:: Quad script {"position":"3729,1766","size":"100,100"}
+<h1>[[Quad->Beckett, Samuel. Quad.]]</h1>
+A piece for four players, light and percussion.
+
+The players (1, 2, 3, 4) pace the given area, each following his particular course.
+
+Area: square. Length of side: 6 paces.
+
+<img src="assets/imgs/quad_script_1.png" alt="Quad diagram 1">
+
+Course 1: AC, CB, BA, AD, DB, BC, CD, DA
+Course 2: BA, AD, DB, BC, CD, DA, AC, CB
+Course 3: CD, DA, AC, CB, BA, AD, DB, BC
+Course 4: DB, BC, CD, DA, AC, CB, BA, AD
+
+1 enters at A, completes his course and is joined by 3. Together they complete their courses and are joined by 4. Together all three complete their courses and are joined by 2. Together all four complete their courses. Exit 1. 2, 3 and 4 continue and complete their courses. Exit 3. 2 and 4 continue and complete their courses. Exit 4. End of 1st series. 2 continues, opening 2nd series, completes his course and is joined by 1. Etc. Unbroken movement.
+
+1st series (as above): 1, 13, 134, 1342, 342, 42
+2nd series: 2, 21, 214, 2143, 143, 43
+3rd series: 3, 32, 321, 3214, 214, 14
+4th series: 4, 43, 432, 4321, 321, 21
+
+Four possible solos all given.
+
+Six possible duos all given (two twice).
+Four possible trios all given twice.
+
+Without interruption begin repeat and fade out on 1 pacing alone.
+
+Light (2)
+
+Dim on area from above fading out into dark.
+
+Four sources of differently coloured light clustered together.
+
+Each player has his particular light, to be turned on when he enters, kept on while he paces, turned off when he exits.
+
+Say 1 white, 2 yellow, 3 blue, 4 red. Then
+
+1st series: white, white + blue, white + blue + red, white + blue + red + yellow, blue + red + yellow, red + yellow.
+2nd series: yellow, yellow + white, yellow + white + red etc.
+
+All possible light combinations given.
+
+
+<b>Percussion</b>
+
+Four types of percussion, say drum, gong, triangle, wood block.
+
+Each player has his particular percussion, to sound when he enters, continue while he paces, cease when he exits.
+
+Say 1 drum, 2 gong, 3 triangle, 4 wood block. Then
+
+1st series: drum, drum + triangle, drum + triangle + wood block etc. Same system as for light.
+
+All possible percussion combinations given.
+
+Percussion intermittent in all combinations to allow footsteps alone to be heard at intervals.
+
+Pianissimo throughout.
+
+Percussionists barely visible in shadow on raised podium at back of set.
+
+<b>Footsteps</b>
+
+Each player has his particular sound.
+
+<b>Costumes</b>
+
+Gowns reaching to ground, cowls hiding faces.
+
+Each player has his particular colour corresponding to his light. 1 white, 2 yellow, 3 blue, 4 red.
+
+All possible costume combinations given.
+
+<b>Players</b>
+
+As alike in build as possible. Short and slight for preference.
+
+Some ballet training desirable. Adolescents a possibility. Sex indifferent.
+
+<b>Camera</b>
+
+Raised frontal. Fixed. Both players and percussionists in frame.
+
+<b>Time (3)</b>
+
+On basis of one pace per second and allowing for time lost at angles and centre approximately 25 minutes.
+
+<b>Problem (4)</b>
+
+Negotiation of E without rupture of rhythm when three or four players cross paths at this point. Or, if ruptures accepted, how best exploit?
+
+1. This original scenario (Quad I) was followed in the Stuttgart production by a variation (Quad II). (5)
+
+2. Abandoned as impracticable. Constant neutral light throughout.
+
+3. Overestimated. Quad I, fast tempo. 15' approx. Quad II, slow tempo, series 1 only, 5' approx.
+
+4. E supposed a danger zone. Hence deviation. Manoeuvre established at outset by first solo at first diagonal (CB). E.g. series 1:
+
+<img src="assets/imgs/quad_script_2.png" alt="Quad diagram 2">
+
+5. No colour, all four in identical white gowns, no percussion, footsteps only sound, slow tempo, series 1 only.
+
+<<return "Back">>
+
+
+:: automatic play [todo] {"position":"3020,2339","size":"100,100"}
+Proceeding from the [[schematic->informatic schematic]] whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. 
+
+That is:
+* the author's will is captured perfectly by a definitive script that leaves no room for interpretative divergence;
+* the director exectutes the script as doggedly as a computer running a Python script;
+* the actors follow the instructions of the script and the director perfectly; and
+* the audience is perfectly attentive and perfectly receptive.
+
+This automatic play is, however, an illusion whose premises reinscribe a Platonic notion of a play that exists as pure form and is always already corrupted by its embodiment on a stage. That said, it is an illusion with an intellectual and dramatic pedigree. 
+
+Consider [[Kleist's->Kleist, Heinrich von. On the Marionette Theater.]] piece "On the Marionette Theater", where his interlocutor posits the superiority of the marionette to the flesh-and-blood performer. If "the last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces... he could perform a dance with it that neither he nor any other skilled dancer of his time ... could equal." 
+
+In 1902, in <i><a target="_blank" href="https://www.gutenberg.org/files/49611/49611-h/49611-h.htm#Page_93">Samhain</a></i>, W. B. Yeats imagined actors restrained in barrels: "[I] had once asked a dramatic company to let me rehearse them in barrels that they might forget gesture and have their minds free to think of speech for a while. The barrels, I thought, might be on castors, so that I could shove them about with a pole when the action required it."
+
+Beckett took this idea further; see, for example, the urn-entombed characters of <i>Play</i>, or <i>Endgame</i>'s Hamm, pushed across the stage on castors. 
+
+(Add more scholarship here. This might need to be broken up into a multi-part footnote.)
+
+
+:: EG 4 [eg] {"position":"3844,1968","size":"100,100"}
+Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never “perfect,” as [[traces]] of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as [[Piotr Woycicki]] puts it, “a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures” <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for “time lost at angles and centre” <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.
+
+[[Next->EG 5]]
+
+
+:: traces {"position":"3719,1968","size":"100,100"}
+C.f. Derrida's notion of the "trace".
+
+<<return "Back">>
+
+
+:: Piotr Woycicki {"position":"5600,98","size":"100,100"}
+<a href="https://www.aber.ac.uk/en/tfts/staff-profiles/listing/profile/piw1/" target="_blank">Dr. Piotr Woycicki</a> is a Lecturer in Theater and New Media at Prifysgol Aberystwyth University. He is the author of the paper "[[Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]]"
+
+
+:: EG 5 [eg] {"position":"3844,2168","size":"100,100"}
+Yet <i>Quad</i> is a teleplay, not a play, and thus lacks the immediacy of the human body that would seem to emphasize this constitutive frailty. The dancers in Quad are both bodies and not-bodies, translated by their televisual medium into “[[the illusion of presence created by a pulsating beam of light moving rapidly across and down the face of a picture tube->Skriker TV Quote]]” <<cite "Carey, qtd in Klaver 374" "Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.'">>. The human body in <i>Quad</i> undergoes, then, a series of [[translations->Quad translations]]: the bodies of the dancers run the code of the script and translate authorial will into gesture, their bodies are filmed, the film is copied, the copies are broadcast, and so on. The human body is more and more alien after every step, having existed in representations incomprehensible to a human. The distance between the human subject watching the television and the dancer grows with every step save the initial, when the bodies ‘run’ the textual script. 
+
+[[Next->EG 6]]
+
+
+:: Elizabeth Klaver {"position":"5725,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Quad translations {"position":"3719,2168","size":"100,100"}
+This is how <i>Quad</i> works per the [[informatic->informatic schematic]] way of reading theatrical transcoding:
+* Samuel Beckett writes the script;
+* The script is disseminated
+* The actors, with the help of the director, gesture the script into being on the stage;
+* The camera records the actor; 
+* The camera's tapes are copied;
+* The copies are broadcasted over the airwaves to the television;
+* The television is watched by the audience.
+
+<img src = "assets/imgs/quad_transcodings.gif">
+
+<<return "Back">>
+
+
+:: EG 6 {"position":"3844,2368","size":"100,100"}
+Now, most people who now watch <i>Quad</i> do so on their computers – either through a local file, as bits that are themselves translated electrical variances saved locally, or streamed from data saved on a server in a bunker somewhere. Still, traces of the human remain a vital part of the teleplay – shuffling bodies invite empathy, identification, disgust, fear, the dancers sometimes shuffle more or less quickly, one can begin to identify secondary gender characteristics under the robes (or, at least, try to). [[A transcoded body is still a body.]]
+
+[[Next->EG 7]]
+
+
+:: EG 7 {"position":"3844,2568","size":"100,100"}
+Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, [[Lev Manovich]] calls the translation of media into code, and code into media, “[[transcoding]].” What I’d like to focus on here is how transcoding – turning media into data - is often a [[lossy]] process. The translation of data for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast. 
+
+[[Next ->EG 9]]
+
+
+:: transcoding {"position":"3719,2568","size":"100,100"}
+"In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
+
+<<return "Back">>
+
+
+:: lossy [todo] {"position":"3602,2569","size":"100,100"}
+Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
+
+Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes attest, analog media is continuous where digital media is not; nuances are often lost. 
+
+When a streamer watches a movie on, say, Netflix, the already-lossy digital file is compressed based on their internet speed. 
+
+MORE.
+
+<<return "Back">>
+
+
+:: EG 9 [eg] {"position":"3844,2768","size":"100,100"}
+On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>[[Quad II]]</i>, the second half of </i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss. 
+
+<<link "Bookmark!">>
+	<<set $bookmarks.pushUnique("[[EG 9]]")>>
+<</link>>
+
+
+<video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
+
+[[Next->EG 10]]
+
+
+:: Quad II {"position":"3719,2768","size":"100,100"}
+Add the video here.
+
+<<return "Back">>
+
+
+:: EG 10 {"position":"3844,2968","size":"100,100"}
+In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what [[Stephen Connor]] calls the “complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more” <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].
+
+[[Next->EG 11]]
+
+
+:: glitch {"position":"3719,2968","size":"100,100"}
+The glitch here is defined as both a technical term and as an aesthetic moment.
+
+From a technical perspective, a glitch is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
+
+From an aesthetic perspective, however, the glitch is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel that bears examination in its own right. This is often accompanied by a shift in the hermeneutic categorization of [[signal]] and [[noise]] as discrete; instead, under the sign of the glitch, the two together become a new signal.
+
+In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. ADD MORE.
+
+
+See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Manifesto->Menkman, Ross. Glitch Manifesto.]].
+
+<<return "Back">>
+
+
+:: EG Notes {"position":"3694,1068","size":"100,100"}
+
+
+:: EG 11 {"position":"3844,3168","size":"100,100"}
+What happens, then, when <i>Quad</i> is transcoded to thoroughgoing ‘new media’? There is of course a loss any time the teleplay is removed from its original context inasmuch as it is less ‘true’ to the will of the author, particularly for someone as concerned with the specificity of the medium as Beckett was. On the other hand, translating <i>Quad</i> to a digital medium can accentuate those elements present in the original work that lend themselves to such a translation: their algorithmic character, the translation of human body into signal, the repetition, and the potential (theoretical, at least) ‘filling in’ of the ellipsis indicated by the fade-out just before <i>Quad II</i>, which indicates a gap of ten-thousand years.
+
+[[Next->EG 12]]
+
+
+:: EG 12 {"position":"3844,3368","size":"100,100"}
+My adaptation of Quad, which I’ve named EndlessGame, was written in Unity and C# and is available for free <a target = "_blank" href = "www.especiallygreatliterature.com/endlessgame.html">here</a>. This would be a good time to 'play' it, if only for a few minutes.
+
+[[I played it->EG 13]]
+[[I can't play it now; show me what it looks like->EG 12.1]]
+
+
+:: EG 13 {"position":"3844,3568","size":"100,100"}
+In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. 
+
+[[Next->EG 14]]
+
+
+:: EG 12.1 {"position":"3719,3368","size":"100,100"}
+This is what EndlessGame looks like from the top-down view:
+<img src="assets/imgs/quad_sample.gif">Sample of EndlessGame.</img>
+
+You can also view the code at its <a target="_blank" href="https://github.com/DocEon/EndlessGame">GitHub repository.</a>.
+
+[[Next->EG 13]]
+
+
+:: digital adaptation of Quad {"position":"3719,3568","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Unity {"position":"3594,3568","size":"100,100"}
+Unity is a game engine that uses C# and a comple
+
+
+:: virtual reality {"position":"3469,3568","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: EG 14 [eg] {"position":"3844,3768","size":"100,100"}
+Using bodies of digital origin (as opposed to viewing bodies that have been digitized) forecloses certain modes of reading and opens up some others. Where the viewer of <i>Quad</i> can attempt to distinguish between the figures beyond their clothing, identify individualized gais, and try to infer their sex, the viewer of EndlessGame cannot because the avatars do not exceed their purpose as executors of the script in the same way that human bodies do. This attenuates the tension between the perfect pattern and its imperfect execution that Woycicki sees as the “focus of the performance” <<cite "140" 'Woycicki, Piotr. "Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad."'>>. 
+
+[[Next->EG 15]]
+
+
+:: EG 15 [eg] {"position":"3844,3968","size":"100,100"}
+On the other hand, there are certain possibilities that a program can instantiate that the televisual version could not; Beckett’s instruction regarding lighting, for example, which were abandoned for technical reasons, is possible in the adaptation. The programmed version can continue to run long after dancers would starve (hence its name). Indeed, for one week in 2019 I ran <i>EndlessGame</i> as an endless stream on my Twitch channel. It was not very popular. Each iteration of the program does not degrade, unlike the imperfect play of bodies on the televisual screen. Unless specifically programmed to do so, the gradual ten-thousand-year crawl towards silence that takes place between <i>Quad</i> and <i>Quad II</i> does not take place in <i>EndlessGame</i>. That said, even – maybe especially – digital texts like this are contingent; technology changes quickly, and programs are constantly being made inaccessible. As [[Nick Montfort]] and [[Noah Wardrip-Fruin]] write in "<a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">Acid-Free Bits</a>", QUOTE GOES HERE.
+
+Further, it takes electricity to animate the figures; entropy continues to increase.
+
+[[Next->EG 16]]
+
+
+:: Nick Montfort {"position":"6225,100","size":"100,100"}
+Montfort, an associate professor of digital media at MIT in the Program in Writing and Humanistic Studies, sees himself as borrowing from the Oulipo tradition “a mathematical approach to literature, supplemented with contemporary technological capabilities and the language of programming” (Malecka et al 84). 
+
+Acid-Free Bits
+
+
+:: EG 16 [eg] {"position":"3844,4168","size":"100,100"}
+The actors move at a constant speed, unless the viewer decides to become a player and adjusts the speed, lighting, or camera perspective via commands provided at boot. Adding interactivity to the piece of course changes it – it’s less ‘faithful.’ One major element that separates the original <i>Quad</i> from a stage-play is the fixed camera, which forces the viewer to see one thing; being able to ‘look around’ from the ‘danger zone’ is a very different experience and has a very different (but similarly disorienting) effect. The ‘player’ can also choose to follow a single dancer, in which case a camera is activated in the dancer’s hood. These different camera views create different structures of identification with the dancers themselves: from [[above]], they are small; from the [[middle]], they are menacing; from [[inside]], they are (ideally, at least) easier to identify with. VR THOUGHTS HERE?
+
+[[Next->EG 17]]
+
+
+:: above {"position":"3719,4168","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: middle {"position":"3594,4168","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: inside {"position":"3469,4168","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: EG 20 {"position":"3846,4903","size":"100,100"}
+A proper game version, where a player can control a dancer and attempt to ‘execute’ the code of the game, would encourage still another kind of identification – and in so doing move us further away from the ‘original’ text. “Loss” seems like the wrong word to use here, however, as what’s taking place is an opening-up of possibilities. Unlike the process of ‘lossy’ transcoding discussed earlier, transcoding Quad to EndlessGame permits a variety of novel ways of experiencing an extant text. This opening-up of possibilities underlines the way that Quad itself, by virtue of its subtractive principle – the minimal ‘content’ in the play, the pattern – calls attention to the constitutive role that the viewer has in making ‘sense’ of it – of turning the data into information, in other words. 
+
+[[Next->EG 21]]
+
+
+:: EG 21 [eg] {"position":"3846,5103","size":"100,100"}
+<i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>[[Quad III]]</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – make the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.  
+
+[[Next->EG 22]]
+
+
+:: Quad III {"position":"3596,5103","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: data into information {"position":"3721,5103","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: EG 22 [eg] {"position":"3846,5303","size":"100,100"}
+Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of information rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized avatar in a virtual world rather than as the meat into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.
+
+[[Back->Section 3: PRACTICE]]
+
+
+:: EG 17 [eg] {"position":"3844,4368","size":"100,100"}
+My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "www.especiallygreatliterature.com/quads/quadcode.html">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. Woycicki’s code, according to his documentation, animated his actors via [[keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together, like a standard animated cartoon.
+
+[[Next->EG 18]]
+
+
+:: EG 18 [eg] {"position":"3846,4503","size":"100,100"}
+With Unity, however, animation can be made more realistic by use of motion-capture data, which is provided free-of-charge with the personal edition of the free software. [[Motion-capture data]] is acquired by filming anonymous human actors in outfits covered in sensors. The sensors relay information about the gestures to computers, which convert that information to a series of vector values, each associated with a different part of the skeleton. Animating a figure in Unity, therefore, translates real human motion into code, and then applies that human motion to an artificial body. These animation clips are cut up so the steps loop properly. They are modularized and then looped to replicate apparent human motion; breaking up animations to look ‘natural’ paradoxically requires the modularization of artificial, inhuman clips. Applying the human animations to the default avatars knocked the code off-track – as soon as translated human gesture was returned to the system, it stopped being ‘perfect’ and required several lines of code to keep the actors from missing their cues.
+
+[[Next->EG 19]]
+
+
+:: Motion-capture data {"position":"3721,4503","size":"100,100"}
+Motion capture http://mocap.cs.cmu.edu/
+
+
+:: EG 19 [eg] {"position":"3846,4703","size":"100,100"}
+Close read mocap.
+
+[[Next->EG 20]]
+
+
+:: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
+<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to “employ every cell”, in [[Lisa Dwan]]’s words, to “push the sound out [...] at the speed of thought.” The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as [[Hannah Simpson]] puts it, “both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text” <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
+
+[[Next->AttT 3]]
+
+
+:: Not I {"position":"4319,1268","size":"100,100"}
+<i>Not I</i>, featuring Billie Whitelaw.
+
+<video controls autoplay>
+<source src="assets/videos/not_i.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<<return "Back">>
+
+
+:: Lisa Dwan {"position":"4250,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: automatic actor {"position":"4319,1468","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: AttT 1 {"position":"4444,1268","size":"100,100"}
+Samuel Beckett's play <i>[[Not I]]</i> was "written in English in spring 1972. First performed at the Forum Theater of the Lincoln Center, New York, in September 1972. First published by Faber and Faber, London, in 1973. First performed in Britain at the Royal Court Theatre, London, on 16 January 1973." <<cite "374" "Beckett, Samuel. The Complete Dramatic Works.">> Live, the play is generally staged in a totally dark theater save for a single spotlight illuminating the Mouth of the actress, who speaks the play's script at a breakneck pace. The script also calls for an Auditor, who is often omitted from actual performances. 
+
+BBC Production starring Billie Whitelaw:
+<video controls>
+<source src="assets/videos/not_i.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[[Next->AttT 2]]
+
+
+:: biological body as a machine {"position":"4194,1468","size":"100,100"}
+"that she might do well to ... groan ... on and off ... writhe she could not ... as if in actual agony ... but could not ... could not bring herself ... some flaw in her make-up ... incapable of deceit ... or the <u>machine</u> ... more likely the <u>machine</u> ... so disconnected ... never got the message ... or powerless to respond ..." <<cite "378" "Beckett, Samuel. The Complete Dramatic Works">>
+
+"but this other awful thought ... oh long after ... sudden flash ... even more awful if possible ... that feeling was coming back ... imagine! .. feeling coming back! .. starting at the top ... then working down ... the whole <u>machine</u> ... but no ... spared that ... the mouth alone ... so far ... ha!" <<cite "379" "380" "Beckett, Samuel. The Complete Dramatic Works">>
+
+<<return "Back">>
+
+
+:: AttT 3 {"position":"4444,1668","size":"100,100"}
+Another passage about Not I
+
+[[Next->AttT 4]]
+
+
+:: Beckett, Samuel. The Complete Dramatic Works. {"position":"5475,225","size":"100,100"}
+Beckett, Samuel. <i>The Complete Dramatic Works</i>. London: Faber and Faber. 2006.
+
+
+:: Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater." {"position":"5350,225","size":"100,100"}
+Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater." <i>Comparative Drama</i>, Winter 2015.
+
+
+:: Hannah Simpson {"position":"5350,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: MW 1 {"position":"3319,1268","size":"100,100"}
+[[Nick Montfort]]’s 2014 project <i>Megawatt</i> carries the algorithmic sections of Watt to their nth degree. Megawatt itself is the title of both a computer program – a several-hundred-line <a target="_blank" href="assets/code_snippets/megawatt.py">Python script</a> also available on <a target="_blank" href="http://nickm.com/code/megawatt.py">his own site</a> – and the <a target="_blank" href="assets/pdfs/megawatt.pdf">output of that program</a>, which (according to the documentation at the head of both the script and the output) “in many ways is like a standard novel” and, per the code's documentation,
+“leaves aside all of the more intelligible language of Beckett’s novel and is based, instead, on that which is most systematic and inscrutable. It does not just recreate these passages, although with minor changes the Megawatt code can be used to do so. In the new novel, rather, they are intensified by generating, using the same methods that Beckett used, significantly more text than is found in the already excessive Watt.”
+The novel version of Megawatt can, as of this writing, be purchased via the Harvard Bookstore’s Print On Demand service – that is, the Harvard Bookstore will run the code and print the output of the script like a traditional novel. This process recalls what [[Wai Chee Dimock]] writes about the status of the print novel in the Information age: “the fluid sequences flitting across the computer screen are not containers of meaning or data but sets of rules (algorithms) for generating themselves” (1378). Both the novel and the source code, however, are a ‘part’ of the text; as Hayles convincingly argues, “code must be considered as much a part of the ‘text’ of electronic literature as the screenic surface” (35). 
+
+
+[[Next->MW 2]]
+[[Nanowatt]]
+
+
+:: The Mechanic Muse {"position":"5219,1593","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Samuel Beckett {"position":"5475,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Love and Information {"position":"5044,918","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
+Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
+
+[[Next->PBR 2]]
+
+
+:: PBR 2 {"position":"3044,1468","size":"100,100"}
+Brad Haseman’s “performative research,” which he says is “intrinsically experiential and comes to the fore when the researcher creates new artistic forms for performance and exhibition, or designs user-led online games (...)” Haseman’s usage of “performative” is borrowed from [[J. L. Austin]]’s [[speech act theory]]. He emphasizes the primacy of the created object over as performative acts of research in and of itself; the artifacts “work performatively. They not only express the research, but in that expression become the research itself.” Thus blah blah blah.
+
+[[Next->PBR 3]]
+
+
+:: J. L. Austin {"position":"4125,350","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: speech act theory {"position":"2919,1468","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: PBR 3 {"position":"3044,1593","size":"100,100"}
+In critical making, conversely, the focus is on the “act of shared construction, joint conversation, and reflection” that happens during the process of creation. Unlike performative research, in critical making “the final prototypes are not intended to be displayed and to speak for themselves." Instead, the primary focus is on “using material production--making things--as part of an explicit practice of concept elaboration within the social study of technology.” Although critical making is generally associated with the creation of material rather than virtual objects, the emphasis placed on the “shared acts of making rather than the evocative object” has guided my work in this section. (CITATIONS NEEDED).
+
+[[Next->PBR 4]]
+
+
+:: PBR 4 {"position":"3044,1743","size":"100,100"}
+Importantly, though, my practice-based research is a series of adaptations rather than creations. This chapter, then, will be structured as a set of three experiments. I will begin each section with an explanation of the adapted text, with attention paid to what makes the text amenable to mechanical reproduction in the first place, and then move into an account of the process by which my adaptation was created as a way of drawing out features of the original texts. One of the guiding principles behind these adaptations is failure: although my goal is to do something that communicates some of what Beckett’s works do, something is inevitably lost in the translation from teleplay - or play - into what I’m going to loosely call a video game. 
+
+[[Next->PBR 5]]
+
+
+:: PBR 5 {"position":"3044,1893","size":"100,100"}
+Although Beckett’s resistance to intermedial adaptation is sometimes, I think, overstated, the position of ‘player’ in a game - the position that these adaptations force the user into -  is radically different from that of ‘audience member’ or ‘viewer’ or even ‘actor,’ and as such neither of these adaptations are faithful ones. Examining the ways in which they fail, however, is a useful way to think about what makes the original plays succeed. I offer failure here, then, as a reading strategy rather than as a judge of worthiness. Of course, making something that only fails would be a questionable - and dispiriting - use of time. As such, the secondary goal here is to look at what does work. Much is inevitably lost in translation, but some is, I hope, gained. So I’ll also be thinking about how that position of ‘player’ is a potentially powerful one, and how these adaptations offer a different angle into these texts.
+
+[[Next->PBR 6]]
+
+
+:: PBR 6 {"position":"3044,2043","size":"100,100"}
+Something about Brecht. Closing to this section.
+
+[[Return->Section 3: PRACTICE]]
+
+
+:: AttT 4 {"position":"4444,1868","size":"100,100"}
+One more passage about Not I.
+
+[[Next->AttT 5]]
+
+
+:: AttT 5 {"position":"4444,2068","size":"100,100"}
+In <i>[[Almost to the Tick]]</i>, my second Beckett transcoding, the player types out the words of Beckett’s script. Each time they compete a phrase, a recording plays, with the Mouth uttering aloud the words typed. The mouth is just off center of the screen, lined up (roughly) with the player’s mouth; below, ghostly white letters float towards the mouth when typed.
+
+You should play through the [[game->Almost to the Tick]] once before proceeding - or, if you don't have a Windows computer, watch the linked [[video->Almost to the Tick]].
+
+[[Next->AttT 6]]
+
+
+:: Almost to the Tick {"position":"4319,2068","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: AttT 6 {"position":"4444,2268","size":"100,100"}
+This transcoding has more iterations than the others. The primary prototype used Billie Whitelaw’s 1973 recording for the Beckett on Film project, viewable [[here->Not I]]. This is not without its problems, legal and otherwise. For one, the video remains under copyright, like much of the material under examination in this chapter. Although my use falls, I contend, under the doctrine of [[fair use]], that contention is contentious.
+
+
+:: fair use {"position":"4319,2268","size":"100,100"}
+In American copyright law, fair use is a legal doctrine that "<a target="_blank" href="assets/pdfs/fairuse.pdf"> promotes freedom of expression by permitting the unlicensed use of copyright-protected works in certain circumstances.</a> [[Section 107 of the Copyright Act]] provides the statuatory framework for determining whether something is a fair use and identifies certain types of uses -- such as <b>criticism</b>, comment, news reporting, <b>teaching</b>, <b>scholarship</b>, and <b>research</b> -- as examples of activities that may qualify as fair use." To evaluate a question of fair use, there are four legal factors and one practical one:
+1) <i>Purpose and character of the use, including whether the use is of a commercial nature or is for nonprofit educational purposes.</i>;
+2) <i>The nature of the copyrighted work</i>;
+3) <i>The amount and substantiality of the portion used in relation to the copyrighted work as a whole</i> - a question which often turns on whether or not the "heart" of the work is used; and 
+4) <i>The effect of the use upon the potential market for or value of the copyrighted work</i>.
+
+Pragmatically, however, fair use is governed by a system of norms agreed upon by publishers and lawyers. Entities with the financial resources to hire enough more lawyers generally win these cases.
+
+[[Information should be free.]]
+
+<<return "Back">>
+
+
+:: Section 107 of the Copyright Act {"position":"4194,2268","size":"100,100"}
+"107. Limitations on exclusive rights: Fair use
+Notwithstanding the provisions of sections 106 and 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copyright. In determining whether the use made of a work in any particular case is a fair use the factors to be considered shall include—
+
+(1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+
+(2) the nature of the copyrighted work;
+
+(3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
+
+(4) the effect of the use upon the potential market for or value of the copyrighted work.
+
+The fact that a work is unpublished shall not itself bar a finding of fair use if such finding is made upon consideration of all the above factors."
+
+<<return "Back">>
+
+
+:: Information should be free. {"position":"4069,2268","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Nanowatt {"position":"3444,1268","size":"100,100"}
+Nanowatt, which is accessible at http://nickm.com/post/2013/12/video-of-nanowatt-online/ is “a single-loading VIC-20 demo” by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things. See also note xi. 
+
+<<return "Back">>
+
+
+:: Wai Chee Dimock {"position":"4250,350","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: MW 2 {"position":"3319,1393","size":"100,100"}
+A few problems immediately present themselves when trying to think about <i>Megawatt</i> alongside <i>Watt</i>. At first glance, it might make more sense to compare <i>Megawatt</i> (the novel) with Watt; they share a medium and a language. However, the code of <i>Megawatt</i> can be tweaked, by moving around a handful of pound signs, to accurately reproduce the sections in <i>Watt</i> from which it is drawn. For example, the relevant snippet of code for <i>Megawatt</i>’s intensification of the voices passage in <i>Watt</i> is as follows:
+<br>
+<code>## In Watt the voices = [‘sang’, ‘cried’, ‘stated’, ‘murmured’]<br>
+\## And Watt understood = [‘all’, ‘much’, ‘little’, ‘nothing’]<br>
+\## Here the voices did eight things and there are eight levels:<br>
+
+voices = [‘sang’, ‘cried’, ‘stated’, ‘murmured’, ‘babbled’, ‘chattered’, ‘ranted’, ‘whispered’]
+understood = [‘all’, ‘most’, ‘much’, ‘half’, ‘little’, ‘less’, ‘bits’, ‘nothing’]</code>
+
+The hash marks # indicate a ‘comment’ – that is, a metatextual element of the programming language that is there not for the computer but for the human reader of the code. Good code is itself a kind of text, layered with computer instructions and with human-readable documentation that clarifies the function of the computer code. The brackets indicate the initialization of a ‘list,’ which is a kind of data structure that can contain a series of elements (here, ‘strings,’ or series of characters – words, sentences, and so on). The commented lines provide the code to initialize the lists one would need to replicate Watt: that is, there are four kinds of voices ([‘sang’,’cried’,’stated’,’murmured’]) and four kinds of understanding. Replacing the contents of the longer lists at the bottom of the provided code – where the voices also babble, chatter, rant, and whisper – would cause the program’s output to replicate the section in Watt rather than expanding it as Megawatt does. One can also add more words to the existing list; the voices could also yammer, bicker, ballyhoo, and so on. A hypothetical Gigawatt could, without much programming, search the dictionary for every verb that describes an utterance and automatically generate a voice for every word; the resulting text would stretch for millions of pages, and would still end with the warning that these were only some of the voices. 
+
+[[Next->MW 3]]
+
+
+:: MW 3 {"position":"3319,1518","size":"100,100"}
+<i>Megawatt</i> expressly lays out the algorithm by which those sections of <i>Watt</i> might be composed. A reader who goes to the code rather than the novel has the interpretive work that Drew and Haahr point to – that is, the work the reader does in “sorting through the randomness and patterns in the text” in order to derive meaning – done for them (4). On the other hand, the act of decoding the code, parsing the comments, and then running the code on his or her own computer places the reader into a uniquely authorial position, whereby not merely the meaning but the words themselves that make up the pseudo-Beckettian text are generated as a direct consequence of their own agency. This new role for the reader is reflected in the licensing information that accompanies all of Montfort’s new media objects, each of which is explicitly licensed as free software – a declaration “which many authors of digital work share,” and which “goes beyond the traditional concept of authorship and copyright, inviting readers to participate creatively… Transferring literature to electronic media has changed the status of the reader, bringing him/her closer to the position of author than a reader of conventional literature” (86). Megawatt is licensed under the Open Source Initiative’s “ISC License,” which gives full permission to “use, copy, modify, and/or distribute” the work provided that the copyright notice appears in all copies. Contrast this to Beckett and his estate, for whom the work of art is proprietary and carefully curated. This shifting ethos as regards the control that the creator of the work of art has over the work’s adaptations and afterlives is indicative of a larger shift that has taken place as regards the status of the [[work of art in the age of mechanical and informational reproduction->Benjamin, Walter. "The Work of Art in the Age of its Technological Reproducibility"]]: away from the author and towards the authors.
+
+[[Next->MW 4]]
+
+
+:: Benjamin, Walter. "The Work of Art in the Age of its Technological Reproducibility" {"position":"5100,225","size":"100,100"}
+[[Walter Benjamin]]
+
+
+:: Walter Benjamin {"position":"5100,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: MW 4 {"position":"3319,1643","size":"100,100"}
+The algorithm from which the “short statement” about the “poor old lousy earth” can be written and rewritten is a manageable, human-readable piece of code that can be close-read like one might close-read the novel itself. In <i>Watt</i>, the statement goes three generations deep – i.e. from “my earth and my father’s and my mother’s.... and my father’s father’s father’s,” exhausting every possible combination of the two terms ‘father’ and ‘mother’ for each generation. In <i>Megawatt</i>, the operation is extended to the sixth generation – i.e. to “my mother’s mother’s mother’s mother’s mother’s mother’s” and so on. The code to produce this operation is as follows:
+
+<code>
+text.append('Inside were Mr Knott and Erskine and another. Before ' +
+&emsp;'leaving, this gentleman made the following short statement:')
+para = 'And the poor old lousy earth, my earth'
+def ancestor(depth):
+&emsp;if depth < 1:
+&emsp;&emsp;yield "
+&emsp;else:
+&emsp;&emsp;for parent in [' father’s', ' mother’s']:
+&emsp;&emsp;&emsp;for grandparent in list(ancestor(depth - 1)):
+&emsp;&emsp;&emsp;&emsp;yield parent + grandparent
+for possessive in ['my', 'other people’s']:
+
+\## Originally this is done for three generations, i.e.:<br>
+\##   for i in range(1,4)<br>
+\## Here the number of generations are doubled, so there are six:
+&emsp;for i in range(1,7):
+&emsp;&emsp;elders = ancestor(i)
+&emsp;&emsp;for elder in list(elders):
+&emsp;&emsp;&emsp;para = para + ' and ' + possessive + elder
+para = para + '.'
+text.append(para)
+</code>
+
+First, to parse: ‘append’ is a function that takes as its parameter a string (that is, takes the parenthetical text that follows its invocation) and adds that parameter to the list that calls it. So  <code>text.append(“New Entry”)</code> would make a new entry in the list named “text” that holds the string <code>New Entry</code>. <code>para</code> is the string variable where the code holds the generated lines that will be added to the <code>text</code> list and worked on through the rest of the code. <code>def ancestor(depth):</code> declares a new function – a new set of instructions that takes as a parameter an integer “depth” (how many generations deep we want, in this case) – and ‘yields’ the sentence in Wattese. Notably, the ancestor function is recursive; it calls itself within itself until the depth is exhausted <code>(if depth < 1)</code>. The ‘for’ loop simply runs until all of the conditions have been met – <code>for parent in [‘father’s’, mother’s’]</code>, for example, runs the code that follows with ‘father’s’ as a parameter and then ‘mother’s’ as a parameter. The loops actually start running with the line <code>for possessive in [‘my’, ‘other people’s’]:</code>; it runs twice, first for ‘my’ ancestors and then for ‘other peoples’’ ancestors. Each time it runs, it goes through the ancestor-code from depths 1 through 6 (<code>for i in range(1,7)</code>). The ancestors function generates a list of ancestors, which are added to the ‘para’ variable sequentially at <code>for elder in list(elders)</code>; and then all of this output is written to the larger list <code>text</code> with the last provided line.
+
+[[Next->MW 5]]
+
+
+:: MW 5 {"position":"3319,1768","size":"100,100"}
+This code is, hard as it might be to believe for someone without a coding background, remarkably human-readable and straightforward. There are lucid comments that explain where the constants 1 and 7 come from in the main loop, and Montfort uses variable names that make it clear what each variable stands in for, and what each list contains. For a programmer, then, this algorithm expresses the ‘pattern’ that the reader is encouraged to decode when they read <i>Watt</i>. Further, it allows for the possibility of indefinitely extended iterations of the algorithm provided by the original novel. Changing the “7” to “10,” for example, carries out the operation to 9 generations rather than 6, which would in turn take up a great deal more space. That this part of the original text, along with other parts of Watt, can be formalized like this gestures towards the statement made just after the ‘short statement’ – that: 
+“if I could begin it all over again, knowing what I know now, the result would be the same. And if I could begin again a third time, knowing what I would know then, the result would be the same. And if I could begin it all over again a hundred times, knowing each time a little more than the time before, the result would always be the same, and the hundredth life as the first, and the hundred lives as once. A cat’s flux. But at this rate we shall be here all night” <<cite "47" "Beckett, Samuel. Watt.">>. 
+
+[[Next->MW 6]]
+
+
+:: Beckett, Samuel. Watt. {"position":"5473,461","size":"100,100"}
+Beckett, Samuel.
+
+
+:: MW 6 {"position":"3319,1893","size":"100,100"}
+In other words, that what happens happens again, and will continue to happen, in a cursed recursion. What breaks the loop here is a few lines of poetry that results in a “Haw!” of laughter. Something affective – comedy – seems capable of challenging the determinism of these logical structures that only seem to end where they do rather than, as they do in <i>Megawatt</i>, hundreds of pages later because to continue would exhaust the reader/listener. Of course, the subsequent statement made by <i>Watt</i>’s interlocutor tabulates the “laughs that strictly speaking are not laughs, but modes of ululation” – “the bitter, the hollow, and the mirthless” – and so on. Even that experience which exceeds tabulation is subject to the endless ratiocination and categorization of the broken mind-machines of Watt. Formalizing the algorithms that entrap Watt’s experience underscores the degree to which they leave something important out, the fundamentally impoverished state of language under the sign of the mechanical formula, and what Culik calls “descriptive (in)sufficiency of language” and “the (in)ability of a formal system to comprehend itself” (132). On the other hand, theorists of electronic literature and new media have pointed to randomization and automated texts as potentially liberatory; the process of <i>Megawatt</i>, whereby the reader, the compiler, the computer, the coder, and Beckett work in tandem to generate a new text, might, as Hayles puts it in a discussion of electronic literature, both reflect and enact “a new kind of subjectivity characterized by distributed cognition, networked agency that includes human and nonhuman actors, and fluid boundaries dispersed over actual and virtual locations” (37). Under this reading, we might think about how Megawatt fashions an “intermediation between computer code and human-only language, digital and analogue processing, and print and electronic media forms” (135) – about how porous the membrane becomes between author and reader, and how that porousness is reflected in many features of the new media landscape.
+
+[[Return->EG 2]]
+
+
+:: Beckett, Samuel. Quad. {"position":"5474,344","size":"100,100"}
+Beckett, Samuel. <i>Quad</i>. In <i>[[The Complete Dramatic Works->Beckett, Samuel. The Complete Dramatic Works.]]</i>. London: Faber and Faber, 2006. p 449-455.
+
+
+:: Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad. {"position":"5601,231","size":"100,100"}
+Woycicki, Piotr. "'Mathematical Aesthetic' as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad." <i>Journal of Beckett Studies</i> 21.2, 2012.
+
+
+:: Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.' {"position":"5725,225","size":"100,100"}
+Klaver, Elizabeth. "Samuel Beckett’s <i>Ohio Impromptu</i>, <i>Quad</i>, and <i>What Where</i>: <i>How It Is</i> in the Matrix of Text and Television." <i>Contemporary Literature</i>, 32. 1991.
+
+
+:: Skriker TV Quote {"position":"3594,2166","size":"100,100"}
+From [[The Skriker->Churchill, Caryl. The Skriker.]], [[Caryl Churchill]].
+
+<i>in which Lily tries to explain to the Skriker, an old fel fey, the television.</i>
+
+SKRIKER: So how does this work?
+
+LILY: How?
+
+SKRIKER: How does it-
+
+LILY: You want to turn it off?
+
+SKRIKER: No, how does that picture get here. From wherever.
+
+LILY: How does it <i>work</i>?
+
+SKRIKER: Yes.
+
+LILY: Oh, you know, I don't know, you know, it's -- isn't it the same in America?
+
+SKRIKER: Take your time. In your own words.
+
+LILY: It has to be plugged in so it's got power, right, electricity, so it's on so you can turn it on when you press the button, so the light's on and that shows it's on, ok?
+
+SKRIKER: But what's / the electricity --?
+
+LILY: It's got all these tubes / and anyway --
+
+SKRIKER: No how do you see / all over the world?
+
+LILY: And meanwhile, let's say this is something live we're seeing, there's a camera there pointing at the picture at the thing that is the picture, camera, you want me to explain -- the light gets in and there's the film, tape, the tape, it picks up the light somehow and it gets the picture _on_ it, don't ask me, and there you are if it was a tape like you hire a tape down the video shop / that's it, they
+
+SKRIKER: No, tell me.
+
+LILY: make a whole lot of copies.
+
+SKRIKER: It's happening <i>there</i> and it's / <i>here</i>
+
+LILY: I'm telling you, hang about, how it gets sent, I can't quite, through the air, if it's live, or even if it's not of course, if it happened before and they recorded -- say it's live, it's coming -- not the whole picture in the air obviously, it's in bits like waves like specks and you need an aerial / to
+
+SKRIKER: This is crap.
+
+LILY: catch it and changes it back into the picture / and it's not a solid thing, it's all dots
+
+SKRIKER: But how for fuck's sake?
+
+LILY: and lines if you look, I can't help it. If it's on the other side of the world they bounce it off a satellite yes I'm explaining satellite which is a thing they put up in space ok, they put it up I'm explaining that too and it's going round like a star, stars don't go round, like a moon but it looks like a star but moving about you sometimes see it at night, and it bounces off the satellite / all right --
+
+SKRIKER: What bounces off?
+
+LILY: The picture.
+
+SKRIKER: The picture bounces off?
+
+LILY: The waves, the -- what is this?
+
+SKRIKER: You're holding out on me.
+
+LILY: I don't have all the technical if you want the jargon if you want the detail you'll have to ask someone else.
+
+SKRIKER: Don't fuck with me.
+
+LILY: Look, / that's all I --
+
+<<return "Back">>
+
+
+:: A transcoded body is still a body. {"position":"3719,2368","size":"100,100"}
+The estrangement of the flesh-and-blood body effected by the move to digital life does not ultimately efface the body; instead, it creates, as McLuhan might say, extensions of the self. Bodies electric. 
+
+We still stylize these bodies according to comprehensible codes as a way of performing ourselves into being. The flexibility of those performances has a different set of contingencies associated with them, though many of these contingencies ultimately overlap.
+
+<<return "Back">>
+
+
+:: Stephen Connor {"position":"5975,100","size":"100,100"}
+Stephen Kevin Connor, FBA is a British literary scholar who wrote two books primarily about Beckett: <i>[[Samuel Beckett: Repetition, Theory, and Text->Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.]]</i> (1988) and <i>Beckett, Modernism, and the Material Imagination</i> (2014).
+
+
+:: Connor, Steven. Samuel Beckett: Repetition, Theory, and Text. {"position":"5975,225","size":"100,100"}
+Connor, Steven. <i>Samuel Beckett: Repetition, Theory, and Text.</i> Basil Blackwell Ltd. 1988.
+
+
+:: Kenner, Hugh. The Mechanic Muse. {"position":"5225,225","size":"100,100"}
+Kenner, Hugh. <i>The Mechanic Muse</i>. 1987.
+
+
+:: Noah Wardrip-Fruin {"position":"6100,100","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: keyframes {"position":"3719,4368","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Churchill, Caryl. The Skriker. {"position":"4975,225","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Manovich, Lev. The Language of New Media. {"position":"5850,225","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Menkman, Ross. Glitch Manifesto. {"position":"6476,101","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Oxford English Dictionary {"position":"6601,101","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: I 2 {"position":"1026,1202","size":"100,100"}
+Twenty-six years after the publication of <i>Snow Crash</i>, 10.7 million players logged onto the video game Fortnite on February 2, 2019 to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, “What is up Pleasant Park! Thank you for coming out today and making history today!” and urged his audience to participate: “Let me see everybody moving!” (Marshmello 2019). ‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to “do their favorite emote” in time with a bass drop, and “Let [him] see that Marsh Walk”– a [[$5-8->V-Bucks]] emote based on his signature dance move.
+
+VIDEO GOES HERE
+
+[[Next->I 3]]
+
+
+:: I 3 {"position":"1026,1352","size":"100,100"}
+These emotes, along with the hundreds of avatars (called ‘outfits’), toys, and other cosmetic add-ons on sale, account for Fortnite’s estimated two billion dollars in profit last year. While Fortnite is free to play, a player who chooses not to purchase any gestures or outfits is randomly assigned a new avatar with a random race and a random gender every time they start a game, and cannot express themselves via emote.  Like in <i>Snow Crash</i>, a player’s ability to pay determines their ability to express themselves, and even a rich player’s expressive range is limited to the gestures that the developers have motion-captured and programmed into the game. In Fortnite and in the Metaverse, the modes of social performance possible depend on the technological medium on which they are performed.
+
+[[Next->I 4]]
+
+
+:: I 4 {"position":"1026,1502","size":"100,100"}
+This situation is a microcosm of the broader condition of living in the information age, when memes rub shoulders with selfies, confessions, poems, and listicles on an online commons where humans near-constantly perform themselves into being on virtual stages. This dissertation takes as its starting question the moment when a human impulse is translated, transcoded, or transmediated onto a technological medium for dissemination, and considers how information, as a term that can describe both the human gesture and its technological afterlife, might help us describe that moment. I take as my primary object of study modern and contemporary drama and fiction, with a secondary interest in the technological afterlives of those objects, because those objects show a persistent concern with the process of technologization that the human gesture undergoes, and the kind of subject that that process produces. 
+
+[[Next->I 5]]
+
+
+:: Instructions {"position":"2269,363","size":"100,100"}
+If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back (or forward) with the arrows in the top right hand corner of the window. Don't use your browser's back button or you'll lose your progress.
+
+The most linear path forward is to begin with the [[Introduction->I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on  embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
+
+Alternatively, you could approach this text backwards, jumping right to the glossary and exploring what case studies articulate what terms.
+
+[A little more.]
+
+
+:: V-Bucks {"position":"1166,1215","size":"100,100"}
+The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks. Interestingly, the use of virtual currency also echoes <i>Snow Crash</i>’s two primary currencies, Kongbucks and Gippers. The proliferation of currency further estranges objects from their labor value.
+
+<<return "Back">>
+
+
+:: I 5 {"position":"1026,1652","size":"100,100"}
+The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or “informativity,” and believe that drama, as a genre fundamentally concerned with the problems of performance, will best allow me to articulate it.
+
+[[Next->I 6]]
+
+
+:: I 6 {"position":"1025,1802","size":"100,100"}
+The texts I’ve chosen stage these informational remediations of the self; just as importantly, the process that leads to a particular production of a play involves multiple more or less discrete transmediations that demonstrate the problems that come with a model of selfhood that depends on materially contingent media. One powerful way of thinking through these problems is performance theory. Judith Butler’s work on performative gestures and identity formation form an important conceptual bridge between [[information and selfhood]]. By coupling a kind of performative existentialism, whereby we are what we do, with the reflexive relationship between form and medium learned from media studies from Marshall McLuhan forward, I will argue that what we do depends on the media through which we do it, and therefore who we are depends on the media through which we interface with ourselves and the broader social world. By this logic, if a large proportion of the social gestures we perform are embodied and disseminated on technological substrates—if the body we stylize is the body electric—then the self that arises will be inflected by those technological substrates.
+
+[[Next->I 7]]
+
+
+:: I 7 {"position":"1023,1952","size":"100,100"}
+We must, however, challenge any supposition that suggests a purer, truer self that exists prior to its embodiment and expression; instead, I argue that theorizing identity through informativity allows for greater focus on the way that who we are changes when our gestures are embodied technologically. Understanding these modes of performing the self into being requires understanding what is gained and what is lost when thought is given flesh, and when that embodied thought is translated, transmediated, (or, to borrow Lev Manovich’s term) transcoded into digital form. In short, using information as a term to pinpoint the pattern that is translated and embedded into new material contexts will allow me to trace the remediations of the self that are undergone in the information age.
+
+[[Next->I 8]]
+
+
+:: I 8 {"position":"1023,2102","size":"100,100"}
+If the human subject can be meaningfully parsed as an informational pattern embodied on a variety of media, both biological and technological, a literary text can be even more naturally parsed informationally. Indeed, most literary texts we read in the 21st century spend at least some of their time as ones and zeroes, electrical variances on a spinning disks: in forms that are ordinarily thought of as informational. Even the fetishized paper book, which arguably remains  a better medium for some kinds of reading, is often written and edited on a word processor, typecast in LaTex, and sold online. Under this informational paradigm, the ink on the physical page that is ultimately produced is the data that must be decoded and made meaningful by the reader. Both the subject and object of the literary event can be conceptualized as informational, and using information as a common term between the reader and the text makes possible a theory of reading that illuminates the porous relationship between the reader and the text.
+
+[[Next->I 9]]
+
+
+:: information and selfhood {"position":"1155,1827","size":"100,100"}
+I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.
+
+
+:: I 9 {"position":"1023,2252","size":"100,100"}
+This computational mode of parsing the process of reading grows more complex, if starker, on the stage, where the word used for the playtext is the same as the word programmers use for small programs: a script, to be executed more or less faithfully. A playwright like Caryl Churchill, who often wrote in workshop settings in collaboration with her actors, might make the pun on script seem less active. Conversely, Samuel Beckett demanded absolute control over his actors: to take one example, he asked during the rehearsals for the 1957 premiére production of Endgame that “a certain phrase which occurs throughout the text be spoken in exactly the same way each time with the same tone, like a note of music played in an invariable way by the same instrument” (Blin in Simpson 2015).
+
+[[Next->I 10]]
+
+
+:: I 10 {"position":"1023,2402","size":"100,100"}
+My practice-based research, which takes Beckett’s already hyperdetermined Quad and transcodes it using the video game engine Unity, replaces the actors with computer-generated models animated by motion-capture data as a way of carrying out this absolute control to its (un)natural endpoint, a technologizing process that necessarily comes with its own gains and losses. There is, then, a continuum of contingency that comes into the process of stage production and of remediation more broadly. One task of this dissertation will be to look at a variety of informational remediations and examine the contingencies attendant upon them as they appear in literary works. Doing so will help me articulate the conditions under which people living in the information age perform themselves into being. Further, this framework also offers a way of reading modern and contemporary plays that uses information as a common term to explicate the complex processes of translation and mediation that take place between an author’s idea and an audience’s reception of an embodied performance.
+
+[[Next->I 11]]
+
+
+:: I 11 {"position":"1023,2552","size":"100,100"}
+This dissertation takes up drama as well as fiction and works of electronic literature in service of a larger argument about the fate of genre in the information age. The genre of a text is necessarily impacted by the particularity of its medium: in Beckett’s case, we can think about his insistence on the distinction between his plays, his teleplays, and his radio plays, and the slippage between ‘medium of transmission’ and ‘genre’ that this distinction suggests. One function of the technological mediation of the literary at this point in the information age, however, is to collapse disparate genres and forms under the broader umbrella of ‘content,’ a genre that includes social media posts, news articles, videos, podcasts, and a plethora of other information streams. The medium of the Internet puts personal expression like status updates alongside Samuel Beckett quotations and news stories. By placing the two in the same context, on the same stream, the medium invites its users to read the two as members of the same genre. Reified social gestures become legible as texts, and vice versa. 
+
+[[Next->I 12]]
+
+
+:: I 12 {"position":"1023,2702","size":"100,100"}
+Take, for example, the satire website Clickhole’s ‘blog post’ “The Time I Spent On A Commercial Whaling Ship Totally Changed My Perspective On The World,” credited to “Ishmael - Sailor,” whose title sits on a page above an image of a whale’s tail and the nearly unabridged text of <i>Moby Dick</i>. The article’s clickbait title recontextualizes a Great American Novel as bloggy self-expression. As Ryu Spaeth puts it in an article for The New Republic, the joke is that “even the greatest American Novel, digressions and weirdness and all, becomes vapid garbage as soon as it meets the internet” (2015). What Spaeth’s jeremiad misses is the way that Moby Dick already anticipates a collapsing of multiple genres into a single spout of content. That Clickhole omits the “Extracts” section that precedes “Call me Ishmael,” however, is ironic; Melville’s Sub-Sub-Librarian’s collection of “higgledy-piggledy whale statements” collected from the “long Vaticans and street-stalls of the earth” – vapid garbage indeed! – anticipates the aggregation and list generation that makes up so much of the content on the web. This dissertation takes up multiple genres to explore the relationship of the literary and the informational for the same reason Ishmael takes up multiple genres to describe the White Whale: the subject exceeds any one way of looking at it and can at best be imperfectly grasped.
+
+
+:: Floridi, Luciano. Information: A Very Short Introduction. {"position":"6353,223","size":"100,100"}
+Floridi, Luciano. <i>Information: A Very Short Introduction.</i> Oxford: Oxford University Press, 2010.
+
+
+:: information {"position":"3250,62","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Kleist, Heinrich von. On the Marionette Theater. {"position":"6124,523","size":"100,100"}
+<h1>On the Marionette Theatre</h1>
+
+<h2>by Heinrich von Kleist</h2>
+
+Translated by Idris Parry
+
+One evening in the winter of 1801 I met an old friend in a public park. He had recently been appointed principal dancer at the local theatre and was enjoying immense popularity with the audiences. I told him I had been surprised to see him more than once at the marionette theatre which had been put up in the market-place to entertain the public with dramatic burlesques interspersed with song and dance. He assured me that the mute gestures of these puppets gave him much satisfaction and told me bluntly that any dancer who wished to perfect his art could learn a lot from them.
+
+From the way he said this I could see it wasn't something which had just come into his mind, so I sat down to question him more closely about his reasons for this remarkable assertion.
+
+He asked me if I hadn't in fact found some of the dance movements of the puppets (and particularly of the smaller ones) very graceful. This I couldn't deny. A group of four peasants dancing the rondo in quick time couldn't have been painted more delicately by Teniers.
+
+I inquired about the mechanism of these figures. I wanted to know how it is possible, without having a maze of strings attached to one's fingers, to move the separate limbs and extremities in the rhythm of the dance. His answer was that I must not imagine each limb as being individually positioned and moved by the operator in the various phases of the dance. Each movement, he told me, has its centre of gravity; it is enough to control this within the puppet. The limbs, which are only pendulums, then follow mechanically of their own accord, without further help. He added that this movement is very simple. When the centre of gravity is moved in a straight line, the limbs describe curves. Often shaken in a purely haphazard way, the puppet falls into a kind of rhythmic movement which resembles dance.
+
+This observation seemed to me to throw some light at last on the enjoyment he said he got from the marionette theatre, but I was far from guessing the inferences he would draw from it later.
+
+I asked him if he thought the operator who controls these puppets should himself be a dancer or at least have some idea of beauty in the dance. He replied that if a job is technically easy it doesn't follow that it can be done entirely without sensitivity. The line the centre of gravity has to follow is indeed very simple, and in most cases, he believed, straight. When it is curved, the law of its curvature seems to be at the least of the first and at the most of the second order. Even in the latter case the line is only elliptical, a form of movement natural to the human body because of the joints, so this hardly demands any great skill from the operator. But, seen from another point of view, this line could be something very mysterious. It is nothing other than the path taken by the soul of the dancer. He doubted if this could be found unless the operator can transpose himself into the centre of gravity of the marionette. In other words, the operator dances.
+
+I said the operator's part in the business had been represented to me as something which can be done entirely without feeling - rather like turning the handle of a barrel-organ.
+
+"Not at all", he said. "In fact, there's a subtle relationship between the movements of his fingers and the movements of the puppets attached to them, something like the relationship between numbers and their logarithms or between asymptote and hyperbola." Yet he did believe this last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces, even produced, as I had suggested, by turning a handle.
+
+I told him I was astonished at the attention he was paying to this vulgar species of an art form. It wasn't just that he thought it capable of loftier development; he seemed to be working to this end himself.
+
+He smiled. He said he was confident that, if he could get a craftsman to construct a marionette to the specifications he had in mind, he could perform a dance with it which neither he nor any other skilled dancer of his time, not even Madame Vestris herself, could equal.
+
+"Have you heard", he asked, as I looked down in silence, "of those artificial legs made by English craftsmen for people who have been unfortunate enough to lose their own limbs?"
+
+I said I hadn't. I had never seen anything of this kind.
+
+"I'm sorry to hear that", he said, "because when I tell you these people dance with them, I'm almost afraid you won't believe me. What am I saying... dance? The range of their movements is in fact limited, but those they can perform they execute with a certainty and ease and grace which must astound the thoughtful observer."
+
+I said with a laugh that of course he had now found his man. The craftsman who could make such remarkable limbs could surely build a complete marionette for him, to his specifications.
+
+"And what", I asked, as he was looking down in some perplexity, "are the requirements you think of presenting to the ingenuity of this man?"
+
+"Nothing that isn't to be found in these puppets we see here," he replied: "proportion, flexibility, lightness .... but all to a higher degree. And especially a more natural arrangement of the centres of gravity."
+
+"And what is the advantage your puppets would have over living dancers?"
+
+"The advantage? First of all a negative one, my friend: it would never be guilty of affectation. For affectation is seen, as you know, when the soul, or moving force, appears at some point other than the centre of gravity of the movement. Because the operator controls with his wire or thread only this centre, the attached limbs are just what they should be.� lifeless, pure pendulums, governed only by the law of gravity. This is an excellent quality. You'll look for it in vain in most of our dancers."
+
+"Just look at that girl who dances Daphne", he went on. "Pursued by Apollo, she turns to look at him. At this moment her soul appears to be in the small of her back. As she bends, she look as if she's going to break, like a naiad after the school of Bernini. Or take that young fellow who dances Paris when he's standing among the three goddesses and offering the apple to Venus. His soul is in fact located (and it's a frightful thing to see) in his elbow."
+
+" Misconceptions like this are unavoidable," he said, " now that we've eaten of the tree of knowledge. But Paradise is locked and bolted, and the cherubim stands behind us. We have to go on and make the journey round the world to see if it is perhaps open somewhere at the back."
+
+This made me laugh. Certainly, I thought, the human spirit can't be in error when it is non-existent. I could see that he had more to say, so I begged him to go on.
+
+"In addition", he said, "these puppets have the advantage of being for all practical purposes weightless. They are not afflicted with the inertia of matter, the property most resistant to dance. The force which raises them into the air is greater than the one which draws them to the ground. What would our good Miss G. give to be sixty pounds lighter or to have a weight of this size as a counterbalance when she is performing her entrechats and pirouettes? Puppets need the ground only to glance against lightly, like elves, and through this momentary check to renew the swing of their limbs. We humans must have it to rest on, to recover from the effort of the dance. This moment of rest is clearly no part of the dance. The best we can do is make it as inconspicuous as possible..."
+
+My reply was that, no matter how cleverly he might present his paradoxes, he would never make me believe a mechanical puppet can be more graceful than a living human body. He countered this by saying that, where grace is concerned, it is impossible for man to come anywhere near a puppet. Only a god can equal inanimate matter in this respect. This is the point where the two ends of the circular world meet.
+
+I was absolutely astonished. I didn't know what to say to such extraordinary assertions.
+
+It seemed, he said, as he took a pinch of snuff, that I hadn't read the third chapter of the book of Genesis with sufficient attention. If a man wasn't familiar with that initial period of all human development, it would be difficult to have a fruitful discussion with him about later developments and even more difficult to talk about the ultimate situation.
+
+I told him I was well aware how consciousness can disturb natural grace. A young acquaintance of mine had as it were lost his innocence before my very eyes, and all because of a chance remark. He had never found his way back to that Paradise of innocence, in spite of all conceivable efforts. "But what inferences", I added, "can you draw from that?"
+
+He asked me what incident I had in mind.
+
+"About three years ago", I said, "I was at the baths with a young man who was then remarkably graceful. He was about fifteen, and only faintly could one see the first traces of vanity, a product of the favours shown him by women. It happened that we had recently seen in Paris the figure of the boy pulling a thorn out of his foot. The cast of the statue is well known; you see it in most German collections. My friend looked into a tall mirror just as he was lifting his foot to a stool to dry it, and he was reminded of the statue. He smiled and told me of his discovery. As a matter of fact, I'd noticed it too, at the same moment, but... I don't know if it was to test the quality of his apparent grace or to provide a salutary counter to his vanity... I laughed and said he must be imagining things. He blushed. He lifted his foot a second time, to show me, but the effort was a failure, as anybody could have foreseen. He tried it again a third time, a fourth time, he must have lifted his foot ten times, but it was in vain. He was quite unable to reproduce the same movement. What am I saying? The movements he made were so comical that I was hard put to it not to laugh.
+
+From that day, from that very moment, an extraordinary change came over this boy. He began to spend whole days before the mirror. His attractions slipped away from him, one after the other. An invisible and incomprehensible power seemed to settle like a steel net over the free play of his gestures. A year later nothing remained of the lovely grace which had given pleasure to all who looked at him. I can tell you of a man, still alive, who was a witness to this strange and unfortunate event. He can confirm it, word for word, just as I've described it."
+
+"In this connection", said my friend warmly, "I must tell you another story. You'll easily see how it fits in here. When I was on my way to Russia, I spent some time on the estate of a Baltic nobleman whose sons had a passion for fencing. The elder, in particular, who had just come down from the university, thought he was a bit of an expert. One morning, when I was in his room, he offered me a rapier. I accepted his challenge but, as it turned out, I had the better of him. It made him angry, and this increased his confusion. Nearly every thrust I made found its mark. At last his rapier flew into the corner of the room. As he picked it up he said, half in anger and half in jest, that he had met his master but that there is a master for everyone and everything - and now he proposed to lead me to mine. The brothers laughed loudly at this and shouted: "Come on, down to the shed!" They took me by the hand and led me outside to make the acquaintance of a bear which their father was rearing on the farm.
+
+"I was astounded to see the bear standing upright on his hind legs, his back against the post to which he was chained, his right paw raised ready for battle. He looked me straight in the eye. This was his fighting posture. I wasn't sure if I was dreaming, seeing such an opponent. They urged me to attack. "See if you can hit him!" they shouted. As I had now recovered somewhat from my astonishment I fell on him with my rapier. The bear made a slight movement with his paw and parried my thrust. I feinted, to deceive him. The bear did not move. I attacked again, this time with all the skill I could muster. I know I would certainly have thrust my way through to a human breast, but the bear made a slight movement with his paw and parried my thrust. By now I was almost in the same state as the elder brother had been: the bear's utter seriousness robbed me of my composure. Thrusts and feints followed thick and fast, the sweat poured off me, but in vain. It wasn't merely that he parried my thrusts like the finest fencer in the world; when I feinted to deceive him he made no move at all. No human fencer could equal his perception in this respect. He stood upright, his paw raised ready for battle, his eye fixed on mine as if he could read my soul there, and when my thrusts were not meant seriously he did not move. Do you believe this story?"
+
+"Absolutely", I said with joyful approval. "I'd believe it from a stranger, it's so probable. Why shouldn't I believe it from you?"
+
+"Now, my excellent friend," said my companion, "you are in possession of all you need to follow my argument. We see that in the organic world, as thought grows dimmer and weaker, grace emerges more brilliantly and decisively. But just as a section drawn through two lines suddenly reappears on the other side after passing through infinity, or as the image in a concave mirror turns up again right in front of us after dwindling into the distance, so grace itself returns when knowledge has as it were gone through an infinity. Grace appears most purely in that human form which either has no consciousness or an infinite consciousness. That is, in the puppet or in the god."
+
+"Does that mean", I said in some bewilderment, "that we must eat again of the tree of knowledge in order to return to the state of innocence?"
+
+"Of course", he said, "but that's the final chapter in the history of the world."
+
+<<return "Back">>
+
+
+:: Sandbox {"position":"1481.666666666667,254.16666666666674","size":"100,100"}
+<p>Test.</p>
+
+
+:: Test {"position":"1301.666666666667,134.16666666666674","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
+
+
+<div id="ui-first-row">
+<div class="left-button" id="back-button"><img src="assets/icons/back.png"><span class="left-text">BACK</span></div>
+<div class="right-button" id="sound-button">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></div>
+</div>
+
+<div id="ui-second-row">
+<div class="left-button" id="load-button"><img src="assets/icons/load.png" height=20px width=20px>LOAD</div>
+<div class="right-button" id="save-button">SAVE<img src="assets/icons/save.png" height=20px width=20px></div>
+</div>
+<div style="clear: both;"></div>
+
+<button type="button" class="collapsible">BOOKMARKS</button>
+<div class="bookmarks">
+<<if ndef $bookmarks>>
+<<set $bookmarks to ["lol", "wut"]>>
+<</if>>
+<<for _i to 0; _i lt $bookmarks.length; _i++>>
+<p>$bookmarks[_i]</p>
+<</for>>
+</div>
+<div id="bookmark-spacer"> </div>
+<div id=navigation-list>
+1: INTRODUCTION<br>
+2: GESTURE<br>
+3: COGNITION<br>
+4: PRACTICE<br>
+5: CONCLUSION<br>
+</div>
+
+<<script>>
+var save_button = document.getElementById("save-button");
+save_button.addEventListener("click", function() {
+	Save.slots.save(1);
+	});
+
+var load_button = document.getElementById("load-button");
+load_button.addEventListener("click", function() {
+	Save.slots.load(1);
+	});
+
+var back_button = document.getElementById("back-button");
+back_button.addEventListener("click", function() {
+	Engine.backward();
+	});
+	
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	if (State.variables.bookmark_active){ 
+	coll[i].classList.add("active")
+	}
+	else{
+	coll[i].nextElementSibling.style.maxHeight = "0px"
+	}
+    
+	coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+	  var scroll_height = content.scrollHeight + "px";
+	if (State.variables.bookmark_active)
+	{
+      content.style.maxHeight = "0px";
+	  State.variables.bookmark_active = false;
+    } 
+	else
+	{
+      content.style.maxHeight = scroll_height;
+	  State.variables.bookmark_active = true;
+    } 
+  });
+}
+<</script>>
+
+

@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+html {
+  height: 100%
+}
+
+.passage {
+  padding: 30px;
+}
+
+body.bk {
+  font-family: 'Merriweather', serif;
+  background-color: #DFE8F7;
+  font-size: 22px;
+  color: black;
+}
+
+body.bk #heading {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 40px;
+  margin: 0px;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+body.hs {
+  font-family: 'Consolas', serif;
+  background: linear-gradient(#0E1F78, #04031D);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-size: 22px;
+}
+
+body.hs #h {
+  font-family: 'Lato', sans-serif;
+}
+  
+#ui-bar {
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#ui-bar-body {
+  padding: 0;
+  margin: 0;
+}
+  
+#ui-first-row {
+  height: 40px;
+  background-color: #7E9890;
+  top: 0;
+}
+
+#ui-second-row {
+  background-color: #34403C;
+  width: 100%;
+  height: 40px;
+}
+
+#ui-second-row.after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#ui-bar-tray {
+  display: none;
+}
+
+#title {
+  display: none;
+}
+
+#ui-bar-body>:not(:first-child) {
+  margin-top: 0;
+}
+
+#menu {
+  display: none;
+}
+
+.left-button {
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+
+.left-button img {
+  float: left;
+  height: 20px;
+  width: 20px;
+  padding-right: 8px;
+}
+
+.left-button.hover {
+  color: blue;
+}
+.right-button {
+  box-sizing: border-box;
+  float: right;
+  line-height: 1;
+  text-align: right;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8px;
+}
+
+.right-button.hover {
+  color: blue;
+}
+
+.right-button img {
+  float: right;
+  height: 20px;
+  width: 20px;
+  padding-left: 8px;
+}
+
+#navigation-list {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 16px;
+  padding-top: 16px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+a.link-external::after {
+	visibility: hidden;
+	content: "";
+}
+
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  padding-bottom: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 24px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.bookmarks {
+  padding: 0 18px;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  line-height: 1;
+  transition: max-height 0.2s ease-out;
+  background-color: black;
+}
+
