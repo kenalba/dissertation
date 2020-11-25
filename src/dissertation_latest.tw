@@ -95,7 +95,7 @@ One of the first things Hiro Protagonist, the main character of Neal Stephenson�
 
 
 :: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
-This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EG 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
+This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EndlessGame 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
 
 [[Practice-Based Research Introduction / Overview / Methodology]]
 
@@ -159,7 +159,7 @@ The past two decades have seen an explosion of methodologies whereby scholars pr
 :: Case Study: ENDLESSGAME [eg] {"position":"3845,1066","size":"100,100"}
 This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
 
-[[Begin->EG 1]]
+[[Begin->EndlessGame 1]]
 
 
 :: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
@@ -652,7 +652,7 @@ It is possible, then, to identify (as [[Emily Short]] does, in her longer medita
 [[Return->Section 1: GESTURE]]
 
 
-:: EG 1 [eg] {"position":"3844,1268","size":"100,100"}
+:: EndlessGame 1 [eg] {"position":"3844,1268","size":"100,100"}
 Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i> Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.
 
 <video controls>
@@ -660,17 +660,17 @@ Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under t
 Your browser does not support the video tag.
 </video>
 
-[[Next->EG 2]]
+[[Next->EndlessGame 2]]
 
 
-:: EG 2 {"position":"3844,1468","size":"100,100"}
+:: EndlessGame 2 [eg] {"position":"3844,1468","size":"100,100"}
 Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what [[Hugh Kenner]] in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. By "[[information]]" I will hear adopt [[Luciano Floridi]]’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner [[transcribed->Watt to Pascal]] sections of <i>[[Watt->Beckett, Samuel. Watt.]]</i> into Pascal code - or, more recently and thoroughly, [[Nick Montfort]] wrote <i>[[Megawatt->MW 1]]</i>. 
 
-[[Next->EG 3]]
+[[Next->EndlessGame 3]]
 
 
 :: Hugh Kenner {"position":"5225,100","size":"100,100"}
-Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this text.
+Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]</i>. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this dissertation.
 
 
 :: Luciano Floridi {"position":"6351,103","size":"100,100"}
@@ -684,8 +684,8 @@ CONST
 VAR
 &emsp;Thursday, Indisposed, Called : BOOLEAN;
 &emsp;Bed, Chair, Hearth, Fire, Window, Open : BOOLEAN;
-&emsp;Rand, Temperature : INTEGER;
-BEGIN {Main program}
+&emsp;Rand, Temperature : INTEndlessGameER;
+BEndlessGameIN {Main program}
 IF Thursday THEN
 &emsp;IF NOT (Indisposed)
 &emsp;&emsp;THEN Called := True
@@ -694,13 +694,13 @@ IF Thursday THEN
 &emsp;IF NOT Called THEN Random;
 &emsp;&emsp;IF Rand = 0 THEN (Bed)
 &emsp;&emsp;&emsp;ELSE {if Rand = 1 then}
-&emsp;&emsp;&emsp;BEGIN {Else}
+&emsp;&emsp;&emsp;BEndlessGameIN {Else}
 &emsp;&emsp;&emsp;&emsp;IF Temperature < Indifferent
 &emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Hearth AND Fire)
 &emsp;&emsp;&emsp;&emsp;ELSE IF Temperature > Indifferent
 &emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair AND Window AND Open)
 &emsp;&emsp;&emsp;&emsp;ELSE IF Temperature = Indifferent THEN
-&emsp;&emsp;&emsp;&emsp;&emsp;BEGIN {Else if}
+&emsp;&emsp;&emsp;&emsp;&emsp;BEndlessGameIN {Else if}
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Random;
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;IF Rand = 0
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Window AND NOT Open)
@@ -715,10 +715,10 @@ END. {Main program}</code>
 <<return "Back">>
 
 
-:: EG 3 [eg] {"position":"3844,1768","size":"100,100"}
-Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: “Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2...” What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn “executed” by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play]], one that runs without a glitch, in perfect obedience to the will of the author. 
+:: EndlessGame 3 [eg] {"position":"3844,1768","size":"100,100"}
+Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: “Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2...” What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn “executed” by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a glitch, in perfect obedience to the will of the author. 
 
-[[Next->EG 4]]
+[[Next->EndlessGame 4]]
 
 
 :: Quad script {"position":"3729,1766","size":"100,100"}
@@ -829,7 +829,7 @@ Negotiation of E without rupture of rhythm when three or four players cross path
 <<return "Back">>
 
 
-:: automatic play [todo] {"position":"3020,2339","size":"100,100"}
+:: Automatic Play {"position":"3020,2339","size":"100,100"}
 Proceeding from the [[schematic->informatic schematic]] whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. 
 
 That is:
@@ -849,10 +849,10 @@ Beckett took this idea further; see, for example, the urn-entombed characters of
 (Add more scholarship here. This might need to be broken up into a multi-part footnote.)
 
 
-:: EG 4 [eg] {"position":"3844,1968","size":"100,100"}
+:: EndlessGame 4 [eg] {"position":"3844,1968","size":"100,100"}
 Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never “perfect,” as [[traces]] of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as [[Piotr Woycicki]] puts it, “a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures” <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for “time lost at angles and centre” <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.
 
-[[Next->EG 5]]
+[[Next->EndlessGame 5]]
 
 
 :: traces {"position":"3719,1968","size":"100,100"}
@@ -865,10 +865,10 @@ C.f. Derrida's notion of the "trace".
 <a href="https://www.aber.ac.uk/en/tfts/staff-profiles/listing/profile/piw1/" target="_blank">Dr. Piotr Woycicki</a> is a Lecturer in Theater and New Media at Prifysgol Aberystwyth University. He is the author of the paper "[[Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]]"
 
 
-:: EG 5 [eg] {"position":"3844,2168","size":"100,100"}
-Yet <i>Quad</i> is a teleplay, not a play, and thus lacks the immediacy of the human body that would seem to emphasize this constitutive frailty. The dancers in Quad are both bodies and not-bodies, translated by their televisual medium into “[[the illusion of presence created by a pulsating beam of light moving rapidly across and down the face of a picture tube->Skriker TV Quote]]” <<cite "Carey, qtd in Klaver 374" "Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.'">>. The human body in <i>Quad</i> undergoes, then, a series of [[translations->Quad translations]]: the bodies of the dancers run the code of the script and translate authorial will into gesture, their bodies are filmed, the film is copied, the copies are broadcast, and so on. The human body is more and more alien after every step, having existed in representations incomprehensible to a human. The distance between the human subject watching the television and the dancer grows with every step save the initial, when the bodies ‘run’ the textual script. 
+:: EndlessGame 5 [eg] {"position":"3844,2168","size":"100,100"}
+Yet <i>Quad</i> is a teleplay, not a play, and thus lacks the immediacy of the human body that would seem to emphasize this constitutive frailty. The dancers in Quad are both bodies and not-bodies, translated by their televisual medium into “[[the illusion of presence created by a pulsating beam of light moving rapidly across and down the face of a picture tube->From The Skriker]]” <<cite "Carey, qtd in Klaver 374" "Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.'">>. The human body in <i>Quad</i> undergoes, then, a series of [[translations->Quad translations]]: the bodies of the dancers run the code of the script and translate authorial will into gesture, their bodies are filmed, the film is copied, the copies are broadcast, and so on. The human body is more and more alien after every step, having existed in representations incomprehensible to a human. The distance between the human subject watching the television and the dancer grows with every step save the initial, when the bodies ‘run’ the textual script. 
 
-[[Next->EG 6]]
+[[Next->EndlessGame 6]]
 
 
 :: Elizabeth Klaver {"position":"5725,100","size":"100,100"}
@@ -885,21 +885,20 @@ This is how <i>Quad</i> works per the [[informatic->informatic schematic]] way o
 * The copies are broadcasted over the airwaves to the television;
 * The television is watched by the audience.
 
-<img src = "assets/imgs/quad_transcodings.gif">
-
+<img src = "assets/imgs/quad_transcoding.gif">
 <<return "Back">>
 
 
-:: EG 6 {"position":"3844,2368","size":"100,100"}
+:: EndlessGame 6 [eg] {"position":"3844,2368","size":"100,100"}
 Now, most people who now watch <i>Quad</i> do so on their computers – either through a local file, as bits that are themselves translated electrical variances saved locally, or streamed from data saved on a server in a bunker somewhere. Still, traces of the human remain a vital part of the teleplay – shuffling bodies invite empathy, identification, disgust, fear, the dancers sometimes shuffle more or less quickly, one can begin to identify secondary gender characteristics under the robes (or, at least, try to). [[A transcoded body is still a body.]]
 
-[[Next->EG 7]]
+[[Next->EndlessGame 7]]
 
 
-:: EG 7 {"position":"3844,2568","size":"100,100"}
+:: EndlessGame 7 [eg] {"position":"3844,2568","size":"100,100"}
 Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, [[Lev Manovich]] calls the translation of media into code, and code into media, “[[transcoding]].” What I’d like to focus on here is how transcoding – turning media into data - is often a [[lossy]] process. The translation of data for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast. 
 
-[[Next ->EG 9]]
+[[Next ->EndlessGame 9]]
 
 
 :: transcoding {"position":"3719,2568","size":"100,100"}
@@ -920,13 +919,13 @@ MORE.
 <<return "Back">>
 
 
-:: EG 9 [eg] {"position":"3844,2768","size":"100,100"}
-On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>[[Quad II]]</i>, the second half of </i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss. 
+:: EndlessGame 9 [eg] {"position":"3844,2768","size":"100,100"}
+On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss. 
 
 
 <video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
 
-[[Next->EG 10]]
+[[Next->EndlessGame 10]]
 
 
 :: Quad II {"position":"3719,2768","size":"100,100"}
@@ -935,10 +934,10 @@ Add the video here.
 <<return "Back">>
 
 
-:: EG 10 {"position":"3844,2968","size":"100,100"}
+:: EndlessGame 10 [eg] {"position":"3844,2968","size":"100,100"}
 In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what [[Stephen Connor]] calls the “complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more” <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].
 
-[[Next->EG 11]]
+[[Next->EndlessGame 11]]
 
 
 :: glitch {"position":"3719,2968","size":"100,100"}
@@ -956,35 +955,35 @@ See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Manifesto->M
 <<return "Back">>
 
 
-:: EG Notes {"position":"3694,1068","size":"100,100"}
+:: EndlessGame Notes {"position":"3694,1068","size":"100,100"}
 
 
-:: EG 11 {"position":"3844,3168","size":"100,100"}
+:: EndlessGame 11 [eg] {"position":"3844,3168","size":"100,100"}
 What happens, then, when <i>Quad</i> is transcoded to thoroughgoing ‘new media’? There is of course a loss any time the teleplay is removed from its original context inasmuch as it is less ‘true’ to the will of the author, particularly for someone as concerned with the specificity of the medium as Beckett was. On the other hand, translating <i>Quad</i> to a digital medium can accentuate those elements present in the original work that lend themselves to such a translation: their algorithmic character, the translation of human body into signal, the repetition, and the potential (theoretical, at least) ‘filling in’ of the ellipsis indicated by the fade-out just before <i>Quad II</i>, which indicates a gap of ten-thousand years.
 
-[[Next->EG 12]]
+[[Next->EndlessGame 12]]
 
 
-:: EG 12 {"position":"3844,3368","size":"100,100"}
-My adaptation of Quad, which I’ve named EndlessGame, was written in Unity and C# and is available for free <a target = "_blank" href = "www.especiallygreatliterature.com/endlessgame.html">here</a>. This would be a good time to 'play' it, if only for a few minutes.
+:: EndlessGame 12 [eg] {"position":"3844,3368","size":"100,100"}
+My adaptation of Quad, which I’ve named EndlessGame, was written in Unity and C# and is available for free <a target = "_blank" href = "http://www.especiallygreatliterature.com/endlessgame.html">here</a>. This would be a good time to 'play' it, if only for a few minutes.
 
-[[I played it->EG 13]]
-[[I can't play it now; show me what it looks like->EG 12.1]]
+[[I played it->EndlessGame 13]]
+[[I can't play it now; show me what it looks like->EndlessGame 12.1]]
 
 
-:: EG 13 {"position":"3844,3568","size":"100,100"}
+:: EndlessGame 13 [eg] {"position":"3844,3568","size":"100,100"}
 In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. 
 
-[[Next->EG 14]]
+[[Next->EndlessGame 14]]
 
 
-:: EG 12.1 {"position":"3719,3368","size":"100,100"}
+:: EndlessGame 12.1 [eg] {"position":"3719,3368","size":"100,100"}
 This is what EndlessGame looks like from the top-down view:
-<img src="assets/imgs/quad_sample.gif">Sample of EndlessGame.</img>
+<img src="assets/imgs/quad_sample.gif">
 
 You can also view the code at its <a target="_blank" href="https://github.com/DocEon/EndlessGame">GitHub repository.</a>.
 
-[[Next->EG 13]]
+[[Next->EndlessGame 13]]
 
 
 :: digital adaptation of Quad {"position":"3719,3568","size":"100,100"}
@@ -999,18 +998,18 @@ Unity is a game engine that uses C# and a comple
 Double-click this passage to edit it.
 
 
-:: EG 14 [eg] {"position":"3844,3768","size":"100,100"}
+:: EndlessGame 14 [eg] {"position":"3844,3768","size":"100,100"}
 Using bodies of digital origin (as opposed to viewing bodies that have been digitized) forecloses certain modes of reading and opens up some others. Where the viewer of <i>Quad</i> can attempt to distinguish between the figures beyond their clothing, identify individualized gais, and try to infer their sex, the viewer of EndlessGame cannot because the avatars do not exceed their purpose as executors of the script in the same way that human bodies do. This attenuates the tension between the perfect pattern and its imperfect execution that Woycicki sees as the “focus of the performance” <<cite "140" 'Woycicki, Piotr. "Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad."'>>. 
 
-[[Next->EG 15]]
+[[Next->EndlessGame 15]]
 
 
-:: EG 15 [eg] {"position":"3844,3968","size":"100,100"}
+:: EndlessGame 15 [eg] {"position":"3844,3968","size":"100,100"}
 On the other hand, there are certain possibilities that a program can instantiate that the televisual version could not; Beckett’s instruction regarding lighting, for example, which were abandoned for technical reasons, is possible in the adaptation. The programmed version can continue to run long after dancers would starve (hence its name). Indeed, for one week in 2019 I ran <i>EndlessGame</i> as an endless stream on my Twitch channel. It was not very popular. Each iteration of the program does not degrade, unlike the imperfect play of bodies on the televisual screen. Unless specifically programmed to do so, the gradual ten-thousand-year crawl towards silence that takes place between <i>Quad</i> and <i>Quad II</i> does not take place in <i>EndlessGame</i>. That said, even – maybe especially – digital texts like this are contingent; technology changes quickly, and programs are constantly being made inaccessible. As [[Nick Montfort]] and [[Noah Wardrip-Fruin]] write in "<a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">Acid-Free Bits</a>", QUOTE GOES HERE.
 
 Further, it takes electricity to animate the figures; entropy continues to increase.
 
-[[Next->EG 16]]
+[[Next->EndlessGame 16]]
 
 
 :: Nick Montfort {"position":"6225,100","size":"100,100"}
@@ -1019,10 +1018,10 @@ Montfort, an associate professor of digital media at MIT in the Program in Writi
 Acid-Free Bits
 
 
-:: EG 16 [eg] {"position":"3844,4168","size":"100,100"}
+:: EndlessGame 16 [eg] {"position":"3844,4168","size":"100,100"}
 The actors move at a constant speed, unless the viewer decides to become a player and adjusts the speed, lighting, or camera perspective via commands provided at boot. Adding interactivity to the piece of course changes it – it’s less ‘faithful.’ One major element that separates the original <i>Quad</i> from a stage-play is the fixed camera, which forces the viewer to see one thing; being able to ‘look around’ from the ‘danger zone’ is a very different experience and has a very different (but similarly disorienting) effect. The ‘player’ can also choose to follow a single dancer, in which case a camera is activated in the dancer’s hood. These different camera views create different structures of identification with the dancers themselves: from [[above]], they are small; from the [[middle]], they are menacing; from [[inside]], they are (ideally, at least) easier to identify with. VR THOUGHTS HERE?
 
-[[Next->EG 17]]
+[[Next->EndlessGame 17]]
 
 
 :: above {"position":"3719,4168","size":"100,100"}
@@ -1037,52 +1036,44 @@ Double-click this passage to edit it.
 Double-click this passage to edit it.
 
 
-:: EG 20 {"position":"3846,4903","size":"100,100"}
-A proper game version, where a player can control a dancer and attempt to ‘execute’ the code of the game, would encourage still another kind of identification – and in so doing move us further away from the ‘original’ text. “Loss” seems like the wrong word to use here, however, as what’s taking place is an opening-up of possibilities. Unlike the process of ‘lossy’ transcoding discussed earlier, transcoding Quad to EndlessGame permits a variety of novel ways of experiencing an extant text. This opening-up of possibilities underlines the way that Quad itself, by virtue of its subtractive principle – the minimal ‘content’ in the play, the pattern – calls attention to the constitutive role that the viewer has in making ‘sense’ of it – of turning the data into information, in other words. 
+:: EndlessGame 17 [eg] {"position":"3844,4368","size":"100,100"}
+My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. Woycicki’s code, according to his documentation, animated his actors via [[keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together, like a standard animated cartoon.
 
-[[Next->EG 21]]
-
-
-:: EG 21 [eg] {"position":"3846,5103","size":"100,100"}
-<i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>[[Quad III]]</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – make the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.  
-
-[[Next->EG 22]]
+[[Next->EndlessGame 18]]
 
 
-:: Quad III {"position":"3596,5103","size":"100,100"}
-Double-click this passage to edit it.
+:: EndlessGame 18 [eg] {"position":"3846,4503","size":"100,100"}
+With Unity, however, animation can be made more realistic by use of motion-capture data, which is provided free-of-charge with the personal edition of the free software. [[Motion-capture data]] is acquired by filming anonymous human actors in outfits covered in sensors. The sensors relay information about the gestures to computers, which convert that information to a series of vector values, each associated with a different part of the skeleton. Animating a figure in Unity, therefore, translates real human motion into code, and then applies that human motion to an artificial body. These animation clips are cut up so the steps loop properly. They are modularized and then looped to replicate apparent human motion; breaking up animations to look ‘natural’ paradoxically requires the modularization of artificial, inhuman clips. Applying the human animations to the default avatars knocked the code off-track – as soon as translated human gesture was returned to the system, it stopped being ‘perfect’ and required several lines of code to keep the actors from missing their cues.
+
+[[Next->EndlessGame 19]]
+
+
+:: EndlessGame 19 [eg] {"position":"3846,4903","size":"100,100"}
+A proper game version, where a player can control a dancer and attempt to ‘execute’ the code of the game, would encourage still another kind of identification – and in so doing move us further away from the ‘original’ text. “Loss” seems like the wrong word to use here, however, as what’s taking place is an opening-up of possibilities. Unlike the process of ‘lossy’ transcoding discussed earlier, transcoding <i>Quad</i> to EndlessGame permits a variety of novel ways of experiencing an extant text. This opening-up of possibilities underlines the way that <i>Quad</i> itself, by virtue of its subtractive principle – the minimal ‘content’ in the play, the repeated, simple pattern – calls attention to the constitutive role that the viewer has in making ‘sense’ of it – of turning the [[data]] into [[information]], in other words. 
+
+[[Next->EndlessGame 20]]
+
+
+:: EndlessGame 20 [eg] {"position":"3846,5103","size":"100,100"}
+<i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – make the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.  
+<i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – make the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.  
+
+[[Next->EndlessGame 21]]
 
 
 :: data into information {"position":"3721,5103","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: EG 22 [eg] {"position":"3846,5303","size":"100,100"}
+:: EndlessGame 21 [eg] {"position":"3846,5303","size":"100,100"}
 Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of information rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized avatar in a virtual world rather than as the meat into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.
 
 [[Back->Section 3: PRACTICE]]
 
 
-:: EG 17 [eg] {"position":"3844,4368","size":"100,100"}
-My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "www.especiallygreatliterature.com/quads/quadcode.html">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. Woycicki’s code, according to his documentation, animated his actors via [[keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together, like a standard animated cartoon.
-
-[[Next->EG 18]]
-
-
-:: EG 18 [eg] {"position":"3846,4503","size":"100,100"}
-With Unity, however, animation can be made more realistic by use of motion-capture data, which is provided free-of-charge with the personal edition of the free software. [[Motion-capture data]] is acquired by filming anonymous human actors in outfits covered in sensors. The sensors relay information about the gestures to computers, which convert that information to a series of vector values, each associated with a different part of the skeleton. Animating a figure in Unity, therefore, translates real human motion into code, and then applies that human motion to an artificial body. These animation clips are cut up so the steps loop properly. They are modularized and then looped to replicate apparent human motion; breaking up animations to look ‘natural’ paradoxically requires the modularization of artificial, inhuman clips. Applying the human animations to the default avatars knocked the code off-track – as soon as translated human gesture was returned to the system, it stopped being ‘perfect’ and required several lines of code to keep the actors from missing their cues.
-
-[[Next->EG 19]]
-
-
 :: Motion-capture data {"position":"3721,4503","size":"100,100"}
 Motion capture http://mocap.cs.cmu.edu/
 
-
-:: EG 19 [eg] {"position":"3846,4703","size":"100,100"}
-Close read mocap.
-
-[[Next->EG 20]]
 
 
 :: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
@@ -1150,12 +1141,11 @@ Double-click this passage to edit it.
 
 :: MW 1 {"position":"3319,1268","size":"100,100"}
 [[Nick Montfort]]’s 2014 project <i>Megawatt</i> carries the algorithmic sections of Watt to their nth degree. Megawatt itself is the title of both a computer program – a several-hundred-line <a target="_blank" href="assets/code_snippets/megawatt.py">Python script</a> also available on <a target="_blank" href="http://nickm.com/code/megawatt.py">his own site</a> – and the <a target="_blank" href="assets/pdfs/megawatt.pdf">output of that program</a>, which (according to the documentation at the head of both the script and the output) “in many ways is like a standard novel” and, per the code's documentation,
-“leaves aside all of the more intelligible language of Beckett’s novel and is based, instead, on that which is most systematic and inscrutable. It does not just recreate these passages, although with minor changes the Megawatt code can be used to do so. In the new novel, rather, they are intensified by generating, using the same methods that Beckett used, significantly more text than is found in the already excessive Watt.”
-The novel version of Megawatt can, as of this writing, be purchased via the Harvard Bookstore’s Print On Demand service – that is, the Harvard Bookstore will run the code and print the output of the script like a traditional novel. This process recalls what [[Wai Chee Dimock]] writes about the status of the print novel in the Information age: “the fluid sequences flitting across the computer screen are not containers of meaning or data but sets of rules (algorithms) for generating themselves” (1378). Both the novel and the source code, however, are a ‘part’ of the text; as Hayles convincingly argues, “code must be considered as much a part of the ‘text’ of electronic literature as the screenic surface” (35). 
+<blockquote>“leaves aside all of the more intelligible language of Beckett’s novel and is based, instead, on that which is most systematic and inscrutable. It does not just recreate these passages, although with minor changes the Megawatt code can be used to do so. In the new novel, rather, they are intensified by generating, using the same methods that Beckett used, significantly more text than is found in the already excessive Watt.”</blockquote>The novel version of Megawatt can, as of this writing, be purchased via the Harvard Bookstore’s Print On Demand service – that is, the Harvard Bookstore will run the code and print the output of the script like a traditional novel. This process recalls what [[Wai Chee Dimock]] writes about the status of the print novel in the Information age: “the fluid sequences flitting across the computer screen are not containers of meaning or data but sets of rules (algorithms) for generating themselves” (1378). Both the novel and the source code, however, are a ‘part’ of the text; as Hayles convincingly argues, “code must be considered as much a part of the ‘text’ of electronic literature as the screenic surface” (35). 
 
+See also [[Nanowatt]], a related Montfort adaptation of the same Beckett piece.
 
 [[Next->MW 2]]
-[[Nanowatt]]
 
 
 :: The Mechanic Muse {"position":"5219,1593","size":"100,100"}
@@ -1272,7 +1262,7 @@ Double-click this passage to edit it.
 
 
 :: Nanowatt {"position":"3444,1268","size":"100,100"}
-Nanowatt, which is accessible at http://nickm.com/post/2013/12/video-of-nanowatt-online/ is “a single-loading VIC-20 demo” by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things. See also note xi. 
+Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is “a single-loading VIC-20 demo” by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
 
 <<return "Back">>
 
@@ -1291,13 +1281,13 @@ A few problems immediately present themselves when trying to think about <i>Mega
 voices = [‘sang’, ‘cried’, ‘stated’, ‘murmured’, ‘babbled’, ‘chattered’, ‘ranted’, ‘whispered’]
 understood = [‘all’, ‘most’, ‘much’, ‘half’, ‘little’, ‘less’, ‘bits’, ‘nothing’]</code>
 
-The hash marks # indicate a ‘comment’ – that is, a metatextual element of the programming language that is there not for the computer but for the human reader of the code. Good code is itself a kind of text, layered with computer instructions and with human-readable documentation that clarifies the function of the computer code. The brackets indicate the initialization of a ‘list,’ which is a kind of data structure that can contain a series of elements (here, ‘strings,’ or series of characters – words, sentences, and so on). The commented lines provide the code to initialize the lists one would need to replicate Watt: that is, there are four kinds of voices ([‘sang’,’cried’,’stated’,’murmured’]) and four kinds of understanding. Replacing the contents of the longer lists at the bottom of the provided code – where the voices also babble, chatter, rant, and whisper – would cause the program’s output to replicate the section in Watt rather than expanding it as Megawatt does. One can also add more words to the existing list; the voices could also yammer, bicker, ballyhoo, and so on. A hypothetical Gigawatt could, without much programming, search the dictionary for every verb that describes an utterance and automatically generate a voice for every word; the resulting text would stretch for millions of pages, and would still end with the warning that these were only some of the voices. 
+The hash marks # indicate a ‘comment’ – that is, a metatextual element of the programming language that is there not for the computer but for the human reader of the code. Good code is itself text, layered with computer instructions and with human-readable documentation that clarifies the function of the computer code. The brackets indicate the initialization of a ‘list,’ which is a kind of data structure that can contain a series of elements (here, ‘strings,’ or series of characters – words, sentences, and so on). The commented lines provide the code to initialize the lists one would need to replicate <i>Watt</i>: that is, there are four kinds of voices ([‘sang’,’cried’,’stated’,’murmured’]) and four kinds of understanding. Replacing the contents of the longer lists at the bottom of the provided code – where the voices also babble, chatter, rant, and whisper – would cause the program’s output to replicate the section in <i>Watt</i> rather than expanding it as <i>Megawatt</i> does. One can also add more words to the existing list; the voices could also yammer, bicker, ballyhoo, and so on. A hypothetical <i>Gigawatt</i> could, without much programming, search the dictionary for every verb that describes an utterance and automatically generate a voice for every word; the resulting text would stretch for millions of pages, and would still (correctly) end with the warning that these were only some of the voices. 
 
 [[Next->MW 3]]
 
 
 :: MW 3 {"position":"3319,1518","size":"100,100"}
-<i>Megawatt</i> expressly lays out the algorithm by which those sections of <i>Watt</i> might be composed. A reader who goes to the code rather than the novel has the interpretive work that Drew and Haahr point to – that is, the work the reader does in “sorting through the randomness and patterns in the text” in order to derive meaning – done for them (4). On the other hand, the act of decoding the code, parsing the comments, and then running the code on his or her own computer places the reader into a uniquely authorial position, whereby not merely the meaning but the words themselves that make up the pseudo-Beckettian text are generated as a direct consequence of their own agency. This new role for the reader is reflected in the licensing information that accompanies all of Montfort’s new media objects, each of which is explicitly licensed as free software – a declaration “which many authors of digital work share,” and which “goes beyond the traditional concept of authorship and copyright, inviting readers to participate creatively… Transferring literature to electronic media has changed the status of the reader, bringing him/her closer to the position of author than a reader of conventional literature” (86). Megawatt is licensed under the Open Source Initiative’s “ISC License,” which gives full permission to “use, copy, modify, and/or distribute” the work provided that the copyright notice appears in all copies. Contrast this to Beckett and his estate, for whom the work of art is proprietary and carefully curated. This shifting ethos as regards the control that the creator of the work of art has over the work’s adaptations and afterlives is indicative of a larger shift that has taken place as regards the status of the [[work of art in the age of mechanical and informational reproduction->Benjamin, Walter. "The Work of Art in the Age of its Technological Reproducibility"]]: away from the author and towards the authors.
+<i>Megawatt</i> expressly lays out the algorithm by which those sections of <i>Watt</i> might be composed. A reader who goes to the code rather than the novel has the interpretive work that Drew and Haahr point to – that is, the work the reader does in “sorting through the randomness and patterns in the text” in order to derive meaning – done for them (4). On the other hand, the act of decoding the code, parsing the comments, and then running the code on their own computer places the reader into a uniquely authorial position, whereby not merely the meaning but the words themselves that make up the pseudo-Beckettian text are generated as a direct consequence of their own agency. This new role for the reader is reflected in the licensing information that accompanies all of Montfort’s new media objects, each of which is explicitly licensed as free software – a declaration “which many authors of digital work share,” and which “goes beyond the traditional concept of authorship and copyright, inviting readers to participate creatively… Transferring literature to electronic media has changed the status of the reader, bringing him/her closer to the position of author than a reader of conventional literature” (86). Megawatt is licensed under the Open Source Initiative’s “ISC License,” which gives full permission to “use, copy, modify, and/or distribute” the work provided that the copyright notice appears in all copies. Contrast this to Beckett and his estate, for whom the work of art is proprietary, carefully curated, and litigiously protected. This shifting ethos as regards the control that the creator of the work of art has over the work’s adaptations and afterlives is indicative of a larger shift that has taken place as regards the status of the [[work of art in the age of mechanical and informational reproduction->Benjamin, Walter. "The Work of Art in the Age of its Technological Reproducibility"]]: away from the author and towards the authors.
 
 [[Next->MW 4]]
 
@@ -1344,7 +1334,8 @@ First, to parse: ‘append’ is a function that takes as its parameter a string
 
 :: MW 5 {"position":"3319,1768","size":"100,100"}
 This code is, hard as it might be to believe for someone without a coding background, remarkably human-readable and straightforward. There are lucid comments that explain where the constants 1 and 7 come from in the main loop, and Montfort uses variable names that make it clear what each variable stands in for, and what each list contains. For a programmer, then, this algorithm expresses the ‘pattern’ that the reader is encouraged to decode when they read <i>Watt</i>. Further, it allows for the possibility of indefinitely extended iterations of the algorithm provided by the original novel. Changing the “7” to “10,” for example, carries out the operation to 9 generations rather than 6, which would in turn take up a great deal more space. That this part of the original text, along with other parts of Watt, can be formalized like this gestures towards the statement made just after the ‘short statement’ – that: 
-“if I could begin it all over again, knowing what I know now, the result would be the same. And if I could begin again a third time, knowing what I would know then, the result would be the same. And if I could begin it all over again a hundred times, knowing each time a little more than the time before, the result would always be the same, and the hundredth life as the first, and the hundred lives as once. A cat’s flux. But at this rate we shall be here all night” <<cite "47" "Beckett, Samuel. Watt.">>. 
+<blockquote>“if I could begin it all over again, knowing what I know now, the result would be the same. And if I could begin again a third time, knowing what I would know then, the result would be the same. And if I could begin it all over again a hundred times, knowing each time a little more than the time before, the result would always be the same, and the hundredth life as the first, and the hundred lives as once. A cat’s flux. But at this rate we shall be here all night”</blockquote>
+<<cite "47" "Beckett, Samuel. Watt.">>. 
 
 [[Next->MW 6]]
 
@@ -1354,9 +1345,9 @@ Beckett, Samuel.
 
 
 :: MW 6 {"position":"3319,1893","size":"100,100"}
-In other words, that what happens happens again, and will continue to happen, in a cursed recursion. What breaks the loop here is a few lines of poetry that results in a “Haw!” of laughter. Something affective – comedy – seems capable of challenging the determinism of these logical structures that only seem to end where they do rather than, as they do in <i>Megawatt</i>, hundreds of pages later because to continue would exhaust the reader/listener. Of course, the subsequent statement made by <i>Watt</i>’s interlocutor tabulates the “laughs that strictly speaking are not laughs, but modes of ululation” – “the bitter, the hollow, and the mirthless” – and so on. Even that experience which exceeds tabulation is subject to the endless ratiocination and categorization of the broken mind-machines of Watt. Formalizing the algorithms that entrap Watt’s experience underscores the degree to which they leave something important out, the fundamentally impoverished state of language under the sign of the mechanical formula, and what Culik calls “descriptive (in)sufficiency of language” and “the (in)ability of a formal system to comprehend itself” (132). On the other hand, theorists of electronic literature and new media have pointed to randomization and automated texts as potentially liberatory; the process of <i>Megawatt</i>, whereby the reader, the compiler, the computer, the coder, and Beckett work in tandem to generate a new text, might, as Hayles puts it in a discussion of electronic literature, both reflect and enact “a new kind of subjectivity characterized by distributed cognition, networked agency that includes human and nonhuman actors, and fluid boundaries dispersed over actual and virtual locations” (37). Under this reading, we might think about how Megawatt fashions an “intermediation between computer code and human-only language, digital and analogue processing, and print and electronic media forms” (135) – about how porous the membrane becomes between author and reader, and how that porousness is reflected in many features of the new media landscape.
+In other words, that which happens, happens again, and will continue to happen in a cursed recursion. What breaks the loop here is a few lines of poetry that results in a “Haw!” of laughter. Something affective – comedy – challenges the determinism of these logical structures that only seem to end where they do rather than, as they do in <i>Megawatt</i>, hundreds of pages later because to continue would exhaust the reader/listener. Of course, the subsequent statement made by <i>Watt</i>’s interlocutor tabulates the “laughs that strictly speaking are not laughs, but modes of ululation” – “the bitter, the hollow, and the mirthless” – and so on. Even that experience which exceeds tabulation is subject to the endless ratiocination and categorization of the broken mind-machines of <i>Watt</i>. Formalizing the algorithms that entrap Watt’s experience underscores the degree to which they leave something important out, the fundamentally impoverished state of language under the sign of the mechanical formula, and what Culik calls “descriptive (in)sufficiency of language” and “the (in)ability of a formal system to comprehend itself” (132). On the other hand, theorists of electronic literature and new media have pointed to randomization and automated texts as potentially liberatory; the process of <i>Megawatt</i>, whereby the reader, the compiler, the computer, the coder, and Beckett work in tandem to generate a new text, might, as Hayles puts it in a discussion of electronic literature, both reflect and enact “a new kind of subjectivity characterized by distributed cognition, networked agency that includes human and nonhuman actors, and fluid boundaries dispersed over actual and virtual locations” (37). Under this reading, we might think about how Megawatt fashions an “intermediation between computer code and human-only language, digital and analogue processing, and print and electronic media forms” (135) – about how porous the membrane becomes between author and reader, and how that porousness is reflected in many features of the new media landscape.
 
-[[Return->EG 2]]
+[[Return->EndlessGame 2]]
 
 
 :: Beckett, Samuel. Quad. {"position":"5474,344","size":"100,100"}
@@ -1371,8 +1362,10 @@ Woycicki, Piotr. "'Mathematical Aesthetic' as a Strategy for Performance: A Vect
 Klaver, Elizabeth. "Samuel Beckett’s <i>Ohio Impromptu</i>, <i>Quad</i>, and <i>What Where</i>: <i>How It Is</i> in the Matrix of Text and Television." <i>Contemporary Literature</i>, 32. 1991.
 
 
-:: Skriker TV Quote {"position":"3594,2166","size":"100,100"}
-From [[The Skriker->Churchill, Caryl. The Skriker.]], [[Caryl Churchill]].
+:: From The Skriker {"position":"3594,2166","size":"100,100"}
+From 
+<h1>[[The Skriker->Churchill, Caryl. The Skriker.]]</h1>
+[[Caryl Churchill]].
 
 <i>in which Lily tries to explain to the Skriker, an old fel fey, the television.</i>
 
@@ -1583,9 +1576,7 @@ Double-click this passage to edit it.
 
 :: Kleist, Heinrich von. On the Marionette Theater. {"position":"6124,523","size":"100,100"}
 <h1>On the Marionette Theatre</h1>
-
 <h2>by Heinrich von Kleist</h2>
-
 Translated by Idris Parry
 
 One evening in the winter of 1801 I met an old friend in a public park. He had recently been appointed principal dancer at the local theatre and was enjoying immense popularity with the audiences. I told him I had been surprised to see him more than once at the marionette theatre which had been put up in the market-place to entertain the public with dramatic burlesques interspersed with song and dance. He assured me that the mute gestures of these puppets gave him much satisfaction and told me bluntly that any dancer who wished to perfect his art could learn a lot from them.
