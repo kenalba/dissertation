@@ -41,7 +41,8 @@ for (i = 0; i < coll.length; i++) {
 
 :: Beginning [StoryInit]
 <<set $bookmarks to []>>
-<<UIBar.unstow(true)>>
+<<set UIBar.unstow(true)>>
+
 :: PassageHeader
 
 :: PassageFooter
@@ -972,7 +973,7 @@ My adaptation of Quad, which I’ve named EndlessGame, was written in Unity and 
 
 
 :: EndlessGame 13 [eg] {"position":"3844,3568","size":"100,100"}
-In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. 
+In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad->Digital Adaptations of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. 
 
 [[Next->EndlessGame 14]]
 
@@ -986,12 +987,20 @@ You can also view the code at its <a target="_blank" href="https://github.com/Do
 [[Next->EndlessGame 13]]
 
 
-:: digital adaptation of Quad {"position":"3719,3568","size":"100,100"}
-Double-click this passage to edit it.
+:: Digital Adaptations of Quad {"position":"3719,3568","size":"100,100"}
+EndlessGame is not the only digital adaptation of <i>Quad</i>.
 
+In his [[article in the September 2012 issue of Samuel Beckett Studies->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]], Piotyr Woycicki writes about an adaptation he created. He links to <a target="_blank" href="http://pwoycicki.wix.com/quad">his own website</a>, which houses a Flash implementation of a program made in QBasic. Unfortunately, modern browsers can't run Flash and modern operating systems can't run applications written in QBasic. Less than 8 years later, the adaptation is <a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">already obsolete.</a> His adaptation uses [[keyframes->Keyframes]] rather than [[motion-capture data->Motion-capture data]].
+
+The Frank-Ratchye STUDIO for Creative Inquiry, out of Carnegie Mellon University produced an <a target="_blank" href="https://studioforcreativeinquiry.org/project/quad">adaptation</a> in 2011 that straddles the line between virtual and physical. Director <a target="_blank" href="https://studioforcreativeinquiry.org/people/matt-gray">Matt Gray</a> used four iCreate (Roomba) robots and computer vision software to implement <i>Quad</i> as code and embody it. As the summary of their project suggests, the adaptation ends up revealing each robot's "subtle quirks and characteristics as individuals." Again, the constituitive drama of the production ends up being how the actors necessarily fail at implementation.
+
+<video controls>
+<source src="assets/videos/quad_cmu.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 :: Unity {"position":"3594,3568","size":"100,100"}
-Unity is a game engine that uses C# and a comple
+<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game.
 
 
 :: virtual reality {"position":"3469,3568","size":"100,100"}
@@ -1037,7 +1046,7 @@ Double-click this passage to edit it.
 
 
 :: EndlessGame 17 [eg] {"position":"3844,4368","size":"100,100"}
-My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. Woycicki’s code, according to his documentation, animated his actors via [[keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together, like a standard animated cartoon.
+My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. [[Piotyr Woycicki’s adaptation->digital adaptation of Quad]], according to his documentation, animates his actors via [[keyframes->Keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together like an animated cartoon.
 
 [[Next->EndlessGame 18]]
 
@@ -1456,9 +1465,18 @@ Kenner, Hugh. <i>The Mechanic Muse</i>. 1987.
 Double-click this passage to edit it.
 
 
-:: keyframes {"position":"3719,4368","size":"100,100"}
-Double-click this passage to edit it.
+:: Keyframes {"position":"3719,4368","size":"100,100"}
+Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia</a>, a key frame (or keyframe) in animation and filmmaking is "a drawing or shot that defines the starting and ending points of any smooth transition. These are called frames because their position in time is measured in frames on a strip of film or on a digital video editing timeline. A sequence of key frames defines which movement the viewer will see, whereas the position of the key frames on the film, video, or animation defines the timing of the movement. Because only two or three key frames over the span of a second do not create the illusion of movement, the remaining frames are filled with 'inbetweens'"
 
+For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages [[motion-capture data->Motion-capture data]] to transcode captured [[meatspace->Meatspace]] gestures into data that can be used to animate a model.
+
+:: Meatspace
+Meatspace is the analog inversion of cyberspace: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:
+
+"For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">>
+
+:: Gibson, William. Neuromancer.
+Gibson, William. <i>Neuromancer</i>. Ace City Books, 1983.
 
 :: Churchill, Caryl. The Skriker. {"position":"4975,225","size":"100,100"}
 Double-click this passage to edit it.
