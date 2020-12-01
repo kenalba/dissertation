@@ -554,14 +554,21 @@ The binary gets used in a much broader context online, where web forum administr
 	&lt;&lt;set _page1 to $args[0]&gt;&gt;
 	&lt;&lt;if $args.length == 2&gt;&gt;
 		&lt;&lt;set _sourceTitle to $args[1]&gt;&gt;
-		&lt;&lt;set _outputString to &quot;(&quot; + $args[0] + &quot;)&quot;&gt;&gt;
+		&lt;&lt;set _outputString to &quot;(&quot; + _page1 + &quot;)&quot;&gt;&gt;
+		&lt;&lt;set _citation_text to &quot;(&quot; + Story.get(_sourceTitle).text + &quot; p&quot; + _page1 + &quot;)&quot;&gt;&gt;
 	&lt;&lt;else&gt;&gt;
 		&lt;&lt;set _page2 to $args[1]&gt;&gt;
 		&lt;&lt;set _sourceTitle to $args[2]&gt;&gt;
 		&lt;&lt;set _outputString to &quot;(&quot; + _page1 + &quot;-&quot; + _page2 + &quot;)&quot;&gt;&gt;
+		&lt;&lt;set _citation_text to &quot;(&quot; + Story.get(_sourceTitle).text + &quot; p&quot; + _page1 + &quot;-&quot; + _page2 + &quot;)&quot;&gt;&gt;
 	&lt;&lt;/if&gt;&gt;
 	
-	&lt;&lt;link _outputString _sourceTitle&gt;&gt;&lt;&lt;/link&gt;&gt;
+	
+
+	&lt;&lt;cycle &quot;_citation&quot; autoselect&gt;&gt;
+		&lt;&lt;option _outputString&gt;&gt;
+		&lt;&lt;option _citation_text&gt;&gt;
+	&lt;&lt;/cycle&gt;&gt;
 	
 &lt;&lt;/widget&gt;&gt;
 

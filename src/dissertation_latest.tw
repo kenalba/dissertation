@@ -374,14 +374,21 @@ Link to pdf with introductory blurb.
 	<<set _page1 to $args[0]>>
 	<<if $args.length == 2>>
 		<<set _sourceTitle to $args[1]>>
-		<<set _outputString to "(" + $args[0] + ")">>
+		<<set _outputString to "(" + _page1 + ")">>
+		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + ")">>
 	<<else>>
 		<<set _page2 to $args[1]>>
 		<<set _sourceTitle to $args[2]>>
 		<<set _outputString to "(" + _page1 + "-" + _page2 + ")">>
+		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + ")">>
 	<</if>>
 	
-	<<link _outputString _sourceTitle>><</link>>
+	
+
+	<<cycle "_citation" autoselect>>
+		<<option _outputString>>
+		<<option _citation_text>>
+	<</cycle>>
 	
 <</widget>>
 
