@@ -110,6 +110,7 @@ html {
 
 .passage {
   padding: 30px;
+  max-width: 800px;
 }
 
 body.bk {
@@ -158,9 +159,14 @@ img {
 .bottom_navbar {
   display: table;
   width: 100%;
+  max-width: 800px;
+  position: fixed;
+  padding-bottom: 100px;
+  bottom: 0;
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   font-size: 22px;
+  border-top: 1px solid;
 
 }
 
@@ -180,6 +186,7 @@ img {
   display: table-cell;
   width: 33%;
   text-align: left;
+  padding-top: 8px;
   padding-left: 40px;
 }
 
@@ -187,6 +194,7 @@ img {
   display: table-cell;
   width: 33%;
   text-align: center;
+  padding-top: 8px;
 }
 
 .bottom_next_button {
@@ -194,6 +202,7 @@ img {
   width: 33%;
   text-align: right;
   padding-right: 40px;
+  padding-top: 8px;
 }
 /* twine-user-stylesheet #2: "ui_bar.css" */
 #ui-bar {
@@ -419,9 +428,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }</script><tw-passagedata pid="1" name="Beginning" tags="StoryInit" position="100,100" size="100,100">&lt;&lt;set $bookmarks to []&gt;&gt;
-&lt;&lt;set UIBar.unstow(true)&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="PassageHeader" tags="" position="225,100" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="PassageFooter" tags="nobr" position="350,100" size="100,100">&lt;hr&gt;
-
-&lt;div class=&quot;bottom_navbar&quot;&gt;
+&lt;&lt;set UIBar.unstow(true)&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="PassageHeader" tags="" position="225,100" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="PassageFooter" tags="nobr" position="350,100" size="100,100">&lt;div class=&quot;bottom_navbar&quot;&gt;
 	&lt;div class=&quot;bottom_row&quot;&gt;
 		&lt;div class=&quot;bottom_previous_button&quot;&gt;
 			&lt;&lt;if def _last_passage&gt;&gt;

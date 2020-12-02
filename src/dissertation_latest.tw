@@ -46,8 +46,6 @@ for (i = 0; i < coll.length; i++) {
 :: PassageHeader
 
 :: PassageFooter [nobr]
-<hr>
-
 <div class="bottom_navbar">
 	<div class="bottom_row">
 		<div class="bottom_previous_button">
