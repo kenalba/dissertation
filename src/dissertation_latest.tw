@@ -50,14 +50,17 @@ for (i = 0; i < coll.length; i++) {
 <div class="bottom_navbar">
 	<div class="bottom_row">
 		<div class="bottom_previous_button">
-			<<back "PREVIOUS">>
+			<<if State.length > 1>>
+				<i class='material-icons'><<back "keyboard_arrow_left">></i>
+			<</if>>
 		</div>
 		<div class="bottom_bookmark_button">
-			<<bookmark>>
+			<i class='material-icons'><<bookmark>></i>
 		</div>
 		<div class="bottom_next_button">
 			<<if def _next_passage>>
-				[[NEXT->_next_passage]]
+				<<set _keyboard to "keyboard_arrow_right">>
+				<i class='material-icons'><<link _keyboard _next_passage>><</link>></i>
 			<</if>>
 		</div>
 	</div>
@@ -149,9 +152,9 @@ for (i = 0; i < coll.length; i++) {
 	<<set _passage_link to "[[" + passage() + "]]">>
 	<<if def setup.bookmarks>>
 		<<if setup.bookmarks.includes(_passage_link)>>
-			Bookmarked.
+			bookmark
 		<<else>>
-			<<linkreplace "BOOKMARK" t8n>>Bookmark added!
+			<<linkreplace "bookmark_outline" t8n>>bookmark
 					<<if setup.bookmarks.length < 10>>
 						<<set setup.bookmarks.pushUnique(_passage_link)>>
 					<<elseif setup.bookmarks.length == 10>>
@@ -163,7 +166,7 @@ for (i = 0; i < coll.length; i++) {
 			<</linkreplace>>
 		<</if>>
 	<<else>>
-		<<linkreplace "BOOKMARK" t8n>>Bookmark added!
+		<<linkreplace "bookmark_outline" t8n>>bookmark
 			<<set setup.bookmarks to [_passage_link]>>
 			<<set $bookmarks to setup.bookmarks>>
 			<<replace #bookmark_list>><<include BookmarkList>><</replace>>
@@ -171,6 +174,119 @@ for (i = 0; i < coll.length; i++) {
 	<</if>>
 <</widget>>
 
+:: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
+
+
+<div id="ui-first-row">
+	<div class="left-button" id="restart-button"><span class="left-text"><i class="material-icons">refresh</i> RESTART</span></div>
+	<div class="right-button" id="sound-button"><span class="right-text">OFF <i class="material-icons">volume_off</i></span></div>
+</div>
+
+<div id="ui-second-row">
+	<div class="left-button" id="load-button"><span class="left-text"><i class="material-icons">history</i> LOAD</span></div>
+	<div class="right-button" id="save-button"><span class="right-text">SAVE <i class="material-icons">save</i></span></div>
+</div>
+
+<div style="clear: both;"></div>
+
+<div id="title-row">
+	<div id="current_page"><<print passage()>></div>
+</div>
+<hr>
+<div class="bookmarks">
+	
+	<button type="button" class="collapsible">BOOKMARKS</button>
+
+	<<if ndef setup.bookmarks>>
+		<<if def $bookmarks>>
+			<<set setup.bookmarks to $bookmarks>>
+		<</if>>
+	<</if>>
+
+	<<if setup.bookmarks is []>>
+		<<if $bookmarks is not []>>
+			<<set setup.bookmarks to $bookmarks>>
+		<</if>>
+	<</if>>
+
+	<div id="bookmark_list">
+		<<include BookmarkList>>
+	</div>
+
+	<div id="bookmark-spacer"> </div>
+
+</div>
+
+<hr>
+
+<div id="navigation-list">
+	[[a. CONTENTS->Table of Contents]]<br>
+	[[b. INTRODUCTION->I 1]]<br>
+	<br>
+	[[1. GESTURE->Section 1: GESTURE]]<br>
+	[[2. COGNITION->Section 2: COGNITION]]<br>
+	[[3. PRACTICE->Section 3: PRACTICE]]<br>
+	<br>
+	[[c. CONCLUSION->C 1]]<br>
+</div>
+
+
+<<script>>
+var save_button = document.getElementById("save-button");
+save_button.addEventListener("click", function() {
+	Save.slots.save(1);
+	});
+
+var load_button = document.getElementById("load-button");
+load_button.addEventListener("click", function() {
+	Save.slots.load(1);
+	});
+
+var back_button = document.getElementById("restart-button");
+back_button.addEventListener("click", function() {
+	Engine.restart();
+	});
+	
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	if (State.variables.bookmark_active){ 
+	coll[i].classList.add("active")
+	}
+	else{
+	coll[i].nextElementSibling.style.maxHeight = "0px"
+	}
+    
+	coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+	  var scroll_height = content.scrollHeight + "px";
+	if (State.variables.bookmark_active)
+	{
+      content.style.maxHeight = "0px";
+	  State.variables.bookmark_active = false;
+    } 
+	else
+	{
+      content.style.maxHeight = scroll_height;
+	  State.variables.bookmark_active = true;
+    } 
+  });
+}
+<</script>>
+
+:: BookmarkList [nobr]
+
+<<if def setup.bookmarks>>
+	<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
+		<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
+	<</for>>
+<<elseif def $bookmarks>>
+	<<for _i to 0; _i lt $bookmarks.length; _i++>>
+		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
+	<</for>>
+<</if>>
 
 :: Start {"position":"2596,143","size":"100,100"}
 Here's where we start!
@@ -1907,118 +2023,3 @@ From that day, from that very moment, an extraordinary change came over this boy
 
 :: Test {"position":"1301.666666666667,134.16666666666674","size":"100,100"}
 Double-click this passage to edit it.
-
-
-:: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
-
-
-<div id="ui-first-row">
-	<div class="left-button" id="back-button"><span class="left-text"><img src="assets/icons/back.png">BACK</span></div>
-	<div class="right-button" id="sound-button"><span class="right-text">OFF<img src="assets/icons/volume_off.png" height=20px width=20px></span></div>
-</div>
-
-<div id="ui-second-row">
-	<div class="left-button" id="load-button"><span class="left-text"><img src="assets/icons/load.png" height=20px width=20px>LOAD</span></div>
-	<div class="right-button" id="save-button"><span class="right-text">SAVE<img src="assets/icons/save.png" height=20px width=20px></span></div>
-</div>
-
-<div style="clear: both;"></div>
-
-<div id="title-row">
-	<div id="current_page"><<print passage()>></div>
-</div>
-<hr>
-<div class="bookmarks">
-	
-	<button type="button" class="collapsible">BOOKMARKS</button>
-
-	<<if ndef setup.bookmarks>>
-		<<if def $bookmarks>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
-	<</if>>
-
-	<<if setup.bookmarks is []>>
-		<<if $bookmarks is not []>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
-	<</if>>
-
-	<div id="bookmark_list">
-		<<include BookmarkList>>
-	</div>
-
-	<div id="bookmark-spacer"> </div>
-
-</div>
-
-<hr>
-
-<div id="navigation-list">
-	[[a. CONTENTS->Table of Contents]]<br>
-	[[b. INTRODUCTION->I 1]]<br>
-	<br>
-	[[1. GESTURE->Section 1: GESTURE]]<br>
-	[[2. COGNITION->Section 2: COGNITION]]<br>
-	[[3. PRACTICE->Section 3: PRACTICE]]<br>
-	<br>
-	[[c. CONCLUSION->C 1]]<br>
-</div>
-
-
-<<script>>
-var save_button = document.getElementById("save-button");
-save_button.addEventListener("click", function() {
-	Save.slots.save(1);
-	});
-
-var load_button = document.getElementById("load-button");
-load_button.addEventListener("click", function() {
-	Save.slots.load(1);
-	});
-
-var back_button = document.getElementById("back-button");
-back_button.addEventListener("click", function() {
-	Engine.backward();
-	});
-	
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-	if (State.variables.bookmark_active){ 
-	coll[i].classList.add("active")
-	}
-	else{
-	coll[i].nextElementSibling.style.maxHeight = "0px"
-	}
-    
-	coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-	  var scroll_height = content.scrollHeight + "px";
-	if (State.variables.bookmark_active)
-	{
-      content.style.maxHeight = "0px";
-	  State.variables.bookmark_active = false;
-    } 
-	else
-	{
-      content.style.maxHeight = scroll_height;
-	  State.variables.bookmark_active = true;
-    } 
-  });
-}
-<</script>>
-
-:: BookmarkList [nobr]
-
-<<if def setup.bookmarks>>
-	<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
-		<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
-	<</for>>
-<<elseif def $bookmarks>>
-	<<for _i to 0; _i lt $bookmarks.length; _i++>>
-		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
-	<</for>>
-<</if>>

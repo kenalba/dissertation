@@ -6,6 +6,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+#ui-bar i {
+  font-size: 20px !important;
+}
+
 #ui-bar hr {
   margin-left: 16px;
   margin-right: 16px;
@@ -20,6 +24,7 @@
   background-color: #7E9890;
   top: 0;
 }
+
 
 #ui-second-row {
   background-color: #34403C;
@@ -64,10 +69,8 @@
   user-select: none;
 }
 
-.left-button img {
+.left-button i {
   float: left;
-  height: 20px;
-  width: 20px;
   padding-right: 8px;
 }
 
@@ -105,10 +108,8 @@
   border-bottom: 1px solid;
 }
 
-.right-button img {
+.right-button i {
   float: right;
-  height: 20px;
-  width: 20px;
   padding-left: 8px;
 }
 

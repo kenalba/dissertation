@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 html {
   height: 100%;
@@ -70,26 +71,32 @@ img {
   bottom: 0;
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 48px !important;
   user-select: none;
+  line-height: 1;
 }
 
 .bottom_navbar a {
   color: white;
   padding: 8px;
-  background: rgba(17, 17, 17, .5)
+  background: rgba(17, 17, 17, .9);
+  line-height: 1;
+}
 
+.bottom_navbar i {
+  font-size: 48px;
 }
 
 .bottom_navbar a:hover {
   color: #7E9890;
+  text-decoration: none;
 }
 
 .bottom_row {
   display: table-row;
 }
 
-.bottom_previous_button {
+#bottom_previous_button {
   display: table-cell;
   width: 33%;
   text-align: left;
