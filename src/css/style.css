@@ -14,7 +14,7 @@ html {
 body.bk {
   font-family: 'Merriweather', serif;
   background-color: #DFE8F7;
-  font-size: 22px;
+  font-size: 18px;
   color: black;
 }
 
@@ -52,4 +52,45 @@ video {
 img {
   display: block;
   margin: 0 auto;
+}
+
+.bottom_navbar {
+  display: table;
+  width: 100%;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  font-size: 22px;
+
+}
+
+.bottom_navbar a {
+  color: white;
+}
+
+.bottom_navbar a:hover {
+
+}
+
+.bottom_row {
+  display: table-row;
+}
+
+.bottom_previous_button {
+  display: table-cell;
+  width: 33%;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.bottom_bookmark_button {
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+}
+
+.bottom_next_button {
+  display: table-cell;
+  width: 33%;
+  text-align: right;
+  padding-right: 40px;
 }
