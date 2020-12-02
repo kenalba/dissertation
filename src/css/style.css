@@ -55,26 +55,31 @@ img {
   margin: 0 auto;
 }
 
+.bottom_spacer {
+  padding-bottom: 140px;
+
+}
 .bottom_navbar {
   display: table;
   width: 100%;
   max-width: 800px;
   position: fixed;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   bottom: 0;
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   font-size: 22px;
-  border-top: 1px solid;
-
 }
 
 .bottom_navbar a {
   color: white;
+  padding: 8px;
+  background: rgba(17, 17, 17, .5)
+
 }
 
 .bottom_navbar a:hover {
-
+  
 }
 
 .bottom_row {
@@ -87,6 +92,7 @@ img {
   text-align: left;
   padding-top: 8px;
   padding-left: 40px;
+
 }
 
 .bottom_bookmark_button {
