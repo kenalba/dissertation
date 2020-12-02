@@ -50,9 +50,7 @@ for (i = 0; i < coll.length; i++) {
 <div class="bottom_navbar">
 	<div class="bottom_row">
 		<div class="bottom_previous_button">
-			<<if def _last_passage>>
-				[[PREVIOUS->_last_passage]]
-			<</if>>
+			<<return "PREVIOUS">>
 		</div>
 		<div class="bottom_bookmark_button">
 			<<bookmark>>

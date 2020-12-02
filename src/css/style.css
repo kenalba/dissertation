@@ -69,6 +69,7 @@ img {
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   font-size: 22px;
+  user-select: none;
 }
 
 .bottom_navbar a {
@@ -79,7 +80,7 @@ img {
 }
 
 .bottom_navbar a:hover {
-  
+  color: #7E9890;
 }
 
 .bottom_row {

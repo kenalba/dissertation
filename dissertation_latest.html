@@ -170,6 +170,7 @@ img {
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   font-size: 22px;
+  user-select: none;
 }
 
 .bottom_navbar a {
@@ -180,7 +181,7 @@ img {
 }
 
 .bottom_navbar a:hover {
-  
+  color: #7E9890;
 }
 
 .bottom_row {
@@ -438,9 +439,7 @@ for (i = 0; i < coll.length; i++) {
 &lt;div class=&quot;bottom_navbar&quot;&gt;
 	&lt;div class=&quot;bottom_row&quot;&gt;
 		&lt;div class=&quot;bottom_previous_button&quot;&gt;
-			&lt;&lt;if def _last_passage&gt;&gt;
-				[[PREVIOUS-&gt;_last_passage]]
-			&lt;&lt;/if&gt;&gt;
+			&lt;&lt;return &quot;PREVIOUS&quot;&gt;&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;bottom_bookmark_button&quot;&gt;
 			&lt;&lt;bookmark&gt;&gt;
