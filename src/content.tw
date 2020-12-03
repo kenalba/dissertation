@@ -1,293 +1,3 @@
-:: StoryTitle
-Dissertation
-
-
-:: StoryData
-{
-	"ifid": "AD0660F8-FF49-46A8-B178-0AF39F853F11",
-	"format": "SugarCube",
-	"format-version": "2.31.1",
-	"start": "Instructions",
-	"zoom": 1
-}
-
-
-:: Story Stylesheet [stylesheet]
-
-:: Story JavaScript [script]
-postrender["Associate Special Passages"] = function (content, taskName) {
-	setPageElement("story-title", "StoryTitle", Story.title);
-	setPageElement("story-banner","StoryBanner");
-	setPageElement("story-subtitle","StorySubtitle");
-	setPageElement("story-author","StoryAuthor");
-	setPageElement("story-caption","StoryCaption");
-}
-
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-
-
-:: Beginning [StoryInit]
-<<set $bookmarks to []>>
-<<set UIBar.unstow(true)>>
-
-:: PassageHeader
-
-:: PassageFooter [nobr]
-<div class="bottom_spacer"></div>
-<div class="bottom_navbar">
-	<div class="bottom_row">
-		<div class="bottom_previous_button">
-			<<if State.length > 1>>
-				<i class='material-icons'><<back "keyboard_arrow_left">></i>
-			<</if>>
-		</div>
-		<div class="bottom_bookmark_button">
-			<i class='material-icons'><<bookmark>></i>
-		</div>
-		<div class="bottom_next_button">
-			<<if def _next_passage>>
-				<<set _keyboard to "keyboard_arrow_right">>
-				<i class='material-icons'><<link _keyboard _next_passage>><</link>></i>
-			<</if>>
-		</div>
-	</div>
-</div>
-
-:: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
-
-<<widget "blue">>
-	<<set _word to $args[0]>>
-	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
-	<<if _word.toUpperFirst() is _word>>
-		<<set _blueString to "<span class='blue'>Blue</span>">>
-	<<else>>
-		<<set _blueString to "<span class='blue'>blue</span>">>
-	<</if>>
-	<<cycle "_one">>
-		<<option _blueString selected>>
-		<<option _outputString>>
-	<</cycle>>
-<</widget>>
-
-<<widget "kettle">>
-	<<set _word to $args[0]>>
-	<<set _outputString to "<span class = 'kettle'>" + _word + "</span>">>
-	<<if _word.toUpperFirst() is _word>>
-		<<set _kettleString to "<span class='kettle'>Kettle</span>">>
-	<<else>>
-		<<set _kettleString to "<span class='kettle'>kettle</span>">>
-	<</if>>
-	<<cycle "_one">>
-		<<option _kettleString selected>>
-		<<option _outputString>>
-	<</cycle>>
-<</widget>>
-
-<<widget "bl">>
-	<<set _word to $args[0]>>
-	<<set _fragment to $args[1]>>
-	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
-	<<if _word.toUpperFirst() is _word>>
-		<<set _blueString to "<span class='blue'>" + _fragment + "</span>">>
-	<<else>>
-		<<set _blueString to "<span class='blue'>" + _fragment + "</span>">>
-	<</if>>
-	<<cycle "_one">>
-		<<option _blueString selected>>
-		<<option _outputString>>
-	<</cycle>>
-<</widget>>
-
-<<widget "ket">>
-	<<set _word to $args[0]>>
-	<<set _fragment to $args[1]>>
-	<<set _outputString to "<span class = 'kettle'>" + _word + "</span>">>
-	<<if _word.toUpperFirst() is _word>>
-		<<set _kettleString to "<span class='kettle'>" + _fragment + "</span>">>
-	<<else>>
-		<<set _kettleString to "<span class='kettle'>" + _fragment + "</span>">>
-	<</if>>
-	<<cycle "_one">>
-		<<option _kettleString selected>>
-		<<option _outputString>>
-	<</cycle>>
-<</widget>>
-
-<<widget "cite">>
-	<<set _page1 to $args[0]>>
-	<<if $args.length == 2>>
-		<<set _sourceTitle to $args[1]>>
-		<<set _outputString to "(" + _page1 + ")">>
-		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + ")">>
-	<<else>>
-		<<set _page2 to $args[1]>>
-		<<set _sourceTitle to $args[2]>>
-		<<set _outputString to "(" + _page1 + "-" + _page2 + ")">>
-		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + ")">>
-	<</if>>
-	
-	
-
-	<<cycle "_citation" autoselect>>
-		<<option _outputString>>
-		<<option _citation_text>>
-	<</cycle>>
-	
-<</widget>>
-
-<<widget "bookmark">>
-	<<set _passage_link to "[[" + passage() + "]]">>
-	<<if def setup.bookmarks>>
-		<<if setup.bookmarks.includes(_passage_link)>>
-			bookmark
-		<<else>>
-			<<linkreplace "bookmark_outline" t8n>>bookmark
-					<<if setup.bookmarks.length < 10>>
-						<<set setup.bookmarks.pushUnique(_passage_link)>>
-					<<elseif setup.bookmarks.length == 10>>
-						<<set setup.bookmarks.deleteAt(0)>>
-						<<set setup.bookmarks.pushUnique(_passage_link)>>
-					<</if>>
-					<<set $bookmarks to setup.bookmarks>>
-					<<replace #bookmark_list>><<include BookmarkList>><</replace>>
-			<</linkreplace>>
-		<</if>>
-	<<else>>
-		<<linkreplace "bookmark_outline" t8n>>bookmark
-			<<set setup.bookmarks to [_passage_link]>>
-			<<set $bookmarks to setup.bookmarks>>
-			<<replace #bookmark_list>><<include BookmarkList>><</replace>>
-		<</linkreplace>>
-	<</if>>
-<</widget>>
-
-:: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
-
-
-<div id="ui-first-row">
-	<div class="left-button" id="restart-button"><span class="left-text"><i class="material-icons">refresh</i> RESTART</span></div>
-	<div class="right-button" id="sound-button"><span class="right-text">OFF <i class="material-icons">volume_off</i></span></div>
-</div>
-
-<div id="ui-second-row">
-	<div class="left-button" id="load-button"><span class="left-text"><i class="material-icons">history</i> LOAD</span></div>
-	<div class="right-button" id="save-button"><span class="right-text">SAVE <i class="material-icons">save</i></span></div>
-</div>
-
-<div style="clear: both;"></div>
-
-<div id="title-row">
-	<div id="current_page"><<print passage()>></div>
-</div>
-<hr>
-<div class="bookmarks">
-	
-	<button type="button" class="collapsible">BOOKMARKS</button>
-
-	<<if ndef setup.bookmarks>>
-		<<if def $bookmarks>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
-	<</if>>
-
-	<<if setup.bookmarks is []>>
-		<<if $bookmarks is not []>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
-	<</if>>
-
-	<div id="bookmark_list">
-		<<include BookmarkList>>
-	</div>
-
-	<div id="bookmark-spacer"> </div>
-
-</div>
-
-<hr>
-
-<div id="navigation-list">
-	[[a. CONTENTS->Table of Contents]]<br>
-	[[b. INTRODUCTION->I 1]]<br>
-	<br>
-	[[1. GESTURE->Section 1: GESTURE]]<br>
-	[[2. COGNITION->Section 2: COGNITION]]<br>
-	[[3. PRACTICE->Section 3: PRACTICE]]<br>
-	<br>
-	[[c. CONCLUSION->C 1]]<br>
-</div>
-
-
-<<script>>
-var save_button = document.getElementById("save-button");
-save_button.addEventListener("click", function() {
-	Save.slots.save(1);
-	});
-
-var load_button = document.getElementById("load-button");
-load_button.addEventListener("click", function() {
-	Save.slots.load(1);
-	});
-
-var back_button = document.getElementById("restart-button");
-back_button.addEventListener("click", function() {
-	Engine.restart();
-	});
-	
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-	if (State.variables.bookmark_active){ 
-	coll[i].classList.add("active")
-	}
-	else{
-	coll[i].nextElementSibling.style.maxHeight = "0px"
-	}
-    
-	coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-	  var scroll_height = content.scrollHeight + "px";
-	if (State.variables.bookmark_active)
-	{
-      content.style.maxHeight = "0px";
-	  State.variables.bookmark_active = false;
-    } 
-	else
-	{
-      content.style.maxHeight = scroll_height;
-	  State.variables.bookmark_active = true;
-    } 
-  });
-}
-<</script>>
-
-:: BookmarkList [nobr]
-
-<<if def setup.bookmarks>>
-	<<for _i to 0; _i lt setup.bookmarks.length; _i++>>
-		<div class="bookmark_link"><<print setup.bookmarks[_i]>></div>
-	<</for>>
-<<elseif def $bookmarks>>
-	<<for _i to 0; _i lt $bookmarks.length; _i++>>
-		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
-	<</for>>
-<</if>>
-
 :: Start {"position":"2596,143","size":"100,100"}
 Here's where we start!
 
@@ -297,7 +7,7 @@ Here's where we start!
 
 
 :: Table of Contents {"position":"3239,838","size":"100,100"}
-[[I 1]]
+[[Introduction->I 1]]
 
 [[Section 1: GESTURE]]
 
@@ -310,22 +20,22 @@ Here's where we start!
 [[Annotated Bibliography]]
 
 
-:: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
-[[Case Study: BLUE KETTLE]] - 75% done
+:: Section 1: GESTURE {"playosition":"1801,1007","size":"100,100"}
+[[Case Study: BLUE KETTLE]] - (waiting for links)
 
-[[Case Study: HER STORY]] - 50% done
+[[Case Study: HER STORY]] - (waiting for links)
 
-[[Case Study: THE DIAMOND AGE]] - (Being Written)
+[[Case Study: THE DIAMOND AGE]] - (being written)
 
 [[Real Life: ????]]
 
 
 :: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
-[[Case Study: PHAEDRUS]]
+[[Case Study: PHAEDRUS]] - (being written)
 
-[[Case Study: KRAPP'S LAST TAPE]]
+[[Case Study: KRAPP'S LAST TAPE]] - (waiting for links)
 
-[[Meatspace: THE ALT-RIGHT]]
+[[Meatspace: THE ALT-RIGHT]] - (waiting for links)
 
 
 :: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
@@ -333,25 +43,25 @@ This section will shift focus to several texts that I’ve chosen to adapt - [[S
 
 [[Practice-Based Research Introduction / Overview / Methodology]]
 
-[[Case Study: ENDLESSGAME]] (this is the one I want you to look at, Carrie!)
+[[Case Study: ENDLESSGAME]] - (Presentation fodder!)
 
-[[Case Study: ALMOST TO THE TICK]] (in progress)
+[[Case Study: ALMOST TO THE TICK]] - (waiting for links)
 
-[[Case Study: LOVE AND INFORMATION]] (in progress)
+[[Case Study: LOVE AND INFORMATION]] - (being written)
 
-[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] (not started)
+[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] - (being written)
 
 
 :: Conclusion {"position":"2896,468","size":"100,100"}
-Double-click this passage to edit it.
+No conclusions just yet, but I'll arrive at some in time, I'm sure.
 
 
 :: Annotated Bibliography {"position":"3397,477","size":"100,100"}
-Double-click this passage to edit it.
+There are many sources, and they're all wonderful! They're just not here yet.
 
 
 :: Case Study: THE DIAMOND AGE {"position":"1437,1180","size":"100,100"}
-Double-click this passage to edit it.
+In progress.
 
 
 :: Case Study: HER STORY [hs] {"position":"1740,1152","size":"100,100"}
@@ -365,8 +75,141 @@ Double-click this passage to edit it.
 :: Case Study: BLUE KETTLE [bk] {"position":"1872,1139","size":"100,100"}
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
 
-<<silently>><<set _next_passage to "BK 1">><</silently>>
+<<silently>><<set _next_passage to "Blue Kettle 1">><</silently>>
 
+
+:: Blue Kettle 1 [bk nobr] {"position":"1890,1302","size":"100,100"}
+<p>[[Caryl Churchill]]’s “Blue Kettle” is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of “Blue Kettle” is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words “a [[McGuffin]]”. Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, “was [its] destruction.” </p>
+
+<p>The agent of this destruction is what she calls a “[[virus]]”: over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word “<span class="blue">blue</span>” or the word “<span class="kettle">kettle</span>.” This begins in the second scene, where Derek says “You don’t have to <<blue "mess">> anything up”; by the fifth scene, we have lines like “I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even “<span class="blue">blue</span>” and “<span class="kettle">kettle</span>” have been replaced by their constitutive parts: Mrs. Plant’s final line, “<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?”, is responded to, with appropriate finality, with Derek’s “<span class="blue">B</span>. <span class="kettle">K.</span>”</p>
+
+<<silently>><<set _next_passage to "Blue Kettle 2">><</silently>>
+
+
+:: McGuffin [bk] {"position":"1999,1306","size":"100,100"}
+A McGuffin is a cinematic term, coming from Hitchcock, to signify a sort of plot device that is not in itself important - consider, for example, the Maltese Falcon or the briefcase full of gold in Pulp Fiction.
+
+
+:: Blue Kettle 2 [bk] {"position":"1874,1452","size":"100,100"}
+Contemporary reviews of the play were positive, if occasionally befuddled, but returned again and again to the metaphor of a “linguistic virus” to describe the proliferation of “<<blue blue>>" and "<<kettle kettle>>" through the dialogue - a good decade before Churchill herself used it in the aforequoted foreword. Matt Wolf’s review for American Theater states that the play “concerns the breakdown of language - words and letters as a sort of virus that by play’s end have made a mockery of meaning”; Charles McNulty’s review for the Village Voice is titled “[[Language is a Virus]]” and suggests that “the linguistic equivalent of the [[Y2K]] virus spreads insidiously” through the play; and Gerard Raymond, also writing for The Village Voice, notes that Max Stafford-Clark, the play’s director, refers to the “language virus” as the heart of the play. Contemporary criticism has been similarly invested in the metaphor of the virus, but - like the reviews - has done little to consider the metaphor’s implications.
+
+<<silently>><<set _next_passage to "Blue Kettle 3">><</silently>>
+
+
+:: Blue Kettle 3 [bk] {"position":"1874,1606","size":"100,100"}
+Viruses can be broken up into three categories, more or less: a biological virus, like [[influenza]], a computer virus, like [[ILOVEYOU->viruses]] or [[STUXNET->viruses]], and a viral idea, or a [[meme]]. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
+
+<<silently>><<set _next_passage to "Blue Kettle 4">><</silently>>
+
+
+:: Blue Kettle 4 [bk] {"position":"1873,1752","size":"100,100"}
+Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, A Number, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in “Blue Kettle” itself, when Derek converses with one of his marks, Mrs. Oliver, about family:
+
+<span class = "script">MRS OLIVER:	Do you believe in heredity?</span>
+<span class = "script">DEREK: 		A bit.</span>
+
+The same scene goes on, however, to discuss something closer to the memetic version of replication:
+
+<span class = "script">MRS OLIVER:	But then there’s how you’re brought up. There’s family jokes.</span>
+<span class = "script">DEREK: 	Exactly.</span>
+<span class = "script">MRS OLIVER:	I mean I look at you and you could be anyone.</span>
+
+However, thinking about “<span class="blue">blue</span> <span class = "kettle">kettle</span>” as a kind of computer virus suggests a way of reading the play with information theory - and that reading provides a provocative vocabulary for considering the mediation between sense and nonsense that the play stages. 
+
+<<silently>><<set _next_passage to "Blue Kettle 5">><</silently>>
+
+
+:: Blue Kettle 6 [bk] {"position":"1874,2046","size":"100,100"}
+How does that decoding take place? 
+
+Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by [[local repetition->Blue Kettle Repetition]], or recognition of [[cliche->Blue Kettle Cliche]].
+
+<<silently>><<set _next_passage to "Blue Kettle 7">><</silently>>
+
+
+:: Blue Kettle Repetition [bk] {"position":"1999,2046","size":"100,100"}
+In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:
+
+	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span>
+	<span class="script">ENID:	Why do you think?</span>
+
+Enid’s question in response to Derek’s question suggests that “blue” stands here for “why”, and the sentence is intelligible as “So why didn’t anyone let you know.” Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.
+
+
+:: Blue Kettle Cliche 1 [bk] {"position":"2268,2046","size":"100,100"}
+Cliche is a particularly interesting tool for Churchill to use in light of this technological reading given the term’s etymology.
+
+The term ‘cliche’ is, literally, a technical term used by 19th century printers, coming from the verb ‘clicher’ meaning to click and signifying a stereotype block (stereotype’s etymology is similarly grounded in the printing press). If a printer had a particular phrase that they knew they’d have to use over and over again, they’d often keep have a set block with those words on it. The word cliche was chosen for otomotopaeic reasons, to echo the sound of a mold from a printing press striking metal - although ‘click’ has its own associations now, of course. Even “type,” that literary phrase to describe someone whose character is more general and indicative of a class of persons than individuated, appears to be etymologically related to the process of technologically reproducing language via printing. These phrases are early examples of linguistic memes: viral idioms with a disposition that inclines them towards replication, mutation, and dissemination through the mental gene pool.
+
+
+:: Blue Kettle 7 [bk] {"position":"1874,2196","size":"100,100"}
+These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend - a fact made more clear to me while editing this section and having to read some of the quotations out loud. 
+
+Even by the eleventh and final scene, an exchange like: 
+
+<span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
+<span class="script">MRS PLANT:		<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?</span>
+<span class="script">DEREK:		<<ket If Ket>> <<bl you b>> like. Or not.</span>
+
+is mostly comprehensible.
+
+<<silently>><<set _next_passage to "Blue Kettle 8">><</silently>>
+
+
+:: Blue Kettle 8 [bk] {"position":"1875,2346","size":"100,100"}
+Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that “<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?” is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting, of course, in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
+
+He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same [[language game]]. Hence, perhaps, Churchill’s tongue-in-cheek admission that “Blue Kettle” was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
+
+<<silently>><<set _next_passage to "Blue Kettle 9">><</silently>>
+
+
+:: language game [bk] {"position":"1999,2346","size":"100,100"}
+<h1>7</h1>
+In the practice of the use of language [[2->Witt 2]] one party calls out the words, the other acts on them. In instruction in the language the following process will occur: the learner names the objects; that is, he utters the word when the teacher points to the stone. ---And there will be this still simpler exercise: the pupil repeats the words after the teacher-----both of these being processes resembling language. 	
+
+ We can also think of the whole process of using words in [[2->Witt 2]] as one of those games by means of which children learn their native language. I will call these games <em>"language-games"</em> and will sometimes speak of a primitive language as a language-game. 
+
+And the processes of naming the stones and of repeating words after someone might also be called language-games. Think of much of the use words in games like ring-a-ring-a-roses. 	
+
+I shall also call the whole, consisting of language and the actions into which it is woven, the "language-game".
+
+
+:: Blue Kettle 9 [bk] {"position":"1865,2502","size":"100,100"}
+Along those lines, we will turn to the information theoretical binary of [[signal]] and [[noise]]. 
+
+Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the [[lossy]] compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
+
+The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise,’ or email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. 
+
+<<silently>><<set _next_passage to "Blue Kettle 10">><</silently>>
+
+
+:: Blue Kettle 10 [bk] {"position":"1865,2652","size":"100,100"}
+In the context of this play, then, we might think about the virus as a deliberate introduction of noise into an otherwise clear signal. As the infection grows, the signal becomes more and more muddled, until (on the page, at least) there’s nothing but noise. The cognitive work of reading or of making sense of the play is the work of noise reduction - of working around the infected language to arrive at the real, important meaning underneath. Importantly, the framework of ‘signal’ and ‘noise’ implies just this sort of reader, one that can convert raw data into meaningful information. The signal, under this framework, is the stuff the receiver cares about; the noise is interference. That the play’s plot Mcguffin and the virus is the point of the play, however, gestures to the provisional and contingent division of signal from noise.
+
+<<silently>><<set _next_passage to "Blue Kettle 11">><</silently>>
+
+
+:: Blue Kettle 11 [bk] {"position":"1865,2802","size":"100,100"}
+If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the [[glitch]], following [[Ross Menkman’s 2010 Glitch Manifesto->Menkman, Ross. Glitch Manifesto.]]. 
+
+<<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
+
+
+:: Ross Menkman’s 2010 Glitch Manifesto {"position":"1990,2802","size":"100,100"}
+Link to pdf w/ introductory blurb.
+
+
+:: Blue Kettle 12 [bk] {"position":"1874,2946","size":"100,100"}
+I would like, however, to argue, that the aesthetic experience of the glitch is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in “Blue Kettle” put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the glitch is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently glitched image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of “Blue Kettle” is, for Churchill, the point of the play. 
+
+<<silently>><<set _next_passage to "Blue Kettle 13">><</silently>>
+
+:: Blue Kettle 13 [bk] {"position":"1872,3097","size":"100,100"}
+Caryl Churchill’s later work, particularly her 2012 play <a href="https://especiallygreatliterature.com/laitwine.html">Love and Information,”</a> deals more squarely with the technological dissemination and corruption of human words and gestures via information technology, and with the potentially alienating consequences of that transmediation. In an era where the social gestures we use to constitute ourselves in relation to one another are increasingly mediated on technological substrates, and where the words we use are increasingly infected with viral language from Twitter and so forth, Churchill’s exploration of a “language virus” in Blue Kettle suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that “Blue Kettle” forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the “sames” and “big moods” and “on brands” of living in the information age.
+
+[[Return->Section 1: GESTURE]]
 
 :: Real Life: ???? {"position":"1440,1054","size":"100,100"}
 Double-click this passage to edit it.
@@ -625,135 +468,6 @@ Double-click this passage to edit it.
 Double-click this passage to edit it.
 
 
-:: BK 1 [bk tbar] {"position":"1890,1302","size":"100,100"}
-[[Caryl Churchill]]’s “Blue Kettle” is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of “Blue Kettle” is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words “a [[McGuffin]]”. Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, “was [its] destruction.” 
-
-The agent of this destruction is what she calls a “[[virus]]”: over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word “<span class="blue">blue</span>” or the word “<span class="kettle">kettle</span>.” This begins in the second scene, where Derek says “You don’t have to <<blue "mess">> anything up”; by the fifth scene, we have lines like “I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even “<span class="blue">blue</span>” and “<span class="kettle">kettle</span>” have been replaced by their constitutive parts: Mrs. Plant’s final line, “<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?”, is responded to, with appropriate finality, with Derek’s “<span class="blue">B</span>. <span class="kettle">K.</span>”
-
-<<silently>><<set _next_passage to "BK 2">><</silently>>
-
-
-:: McGuffin [bk] {"position":"1999,1306","size":"100,100"}
-A McGuffin is a cinematic term, coming from Hitchcock, to signify a sort of plot device that is not in itself important - consider, for example, the Maltese Falcon or the briefcase full of gold in Pulp Fiction.
-
-
-:: BK 2 [bk] {"position":"1874,1452","size":"100,100"}
-Contemporary reviews of the play were positive, if occasionally befuddled, but returned again and again to the metaphor of a “linguistic virus” to describe the proliferation of “<<blue blue>>" and "<<kettle kettle>>" through the dialogue - a good decade before Churchill herself used it in the aforequoted foreword. Matt Wolf’s review for American Theater states that the play “concerns the breakdown of language - words and letters as a sort of virus that by play’s end have made a mockery of meaning”; Charles McNulty’s review for the Village Voice is titled “[[Language is a Virus]]” and suggests that “the linguistic equivalent of the [[Y2K]] virus spreads insidiously” through the play; and Gerard Raymond, also writing for The Village Voice, notes that Max Stafford-Clark, the play’s director, refers to the “language virus” as the heart of the play. Contemporary criticism has been similarly invested in the metaphor of the virus, but - like the reviews - has done little to consider the metaphor’s implications.
-
-<<silently>><<set _next_passage to "BK 3">><</silently>>
-
-
-:: BK 3 [bk] {"position":"1874,1606","size":"100,100"}
-Viruses can be broken up into three categories, more or less: a biological virus, like [[influenza]], a computer virus, like [[ILOVEYOU->viruses]] or [[STUXNET->viruses]], and a viral idea, or a [[meme]]. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
-
-<<silently>><<set _next_passage to "BK 4">><</silently>>
-
-
-:: BK 4 [bk] {"position":"1873,1752","size":"100,100"}
-Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, A Number, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in “Blue Kettle” itself, when Derek converses with one of his marks, Mrs. Oliver, about family:
-
-<span class = "script">MRS OLIVER:	Do you believe in heredity?</span>
-<span class = "script">DEREK: 		A bit.</span>
-
-The same scene goes on, however, to discuss something closer to the memetic version of replication:
-
-<span class = "script">MRS OLIVER:	But then there’s how you’re brought up. There’s family jokes.</span>
-<span class = "script">DEREK: 	Exactly.</span>
-<span class = "script">MRS OLIVER:	I mean I look at you and you could be anyone.</span>
-
-However, thinking about “<span class="blue">blue</span> <span class = "kettle">kettle</span>” as a kind of computer virus suggests a way of reading the play with information theory - and that reading provides a provocative vocabulary for considering the mediation between sense and nonsense that the play stages. 
-
-<<silently>><<set _next_passage to "BK 5">><</silently>>
-
-
-:: BK 6 [bk] {"position":"1874,2046","size":"100,100"}
-How does that decoding take place? 
-
-Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by [[local repetition->BK Repetition]], or recognition of [[cliche->BK Cliche]].
-
-<<silently>><<set _next_passage to "BK 7">><</silently>>
-
-
-:: BK Repetition [bk] {"position":"1999,2046","size":"100,100"}
-In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:
-
-	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span>
-	<span class="script">ENID:	Why do you think?</span>
-
-Enid’s question in response to Derek’s question suggests that “blue” stands here for “why”, and the sentence is intelligible as “So why didn’t anyone let you know.” Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.
-
-
-:: BK Cliche 1 [bk] {"position":"2268,2046","size":"100,100"}
-Cliche is a particularly interesting tool for Churchill to use in light of this technological reading given the term’s etymology.
-
-The term ‘cliche’ is, literally, a technical term used by 19th century printers, coming from the verb ‘clicher’ meaning to click and signifying a stereotype block (stereotype’s etymology is similarly grounded in the printing press). If a printer had a particular phrase that they knew they’d have to use over and over again, they’d often keep have a set block with those words on it. The word cliche was chosen for otomotopaeic reasons, to echo the sound of a mold from a printing press striking metal - although ‘click’ has its own associations now, of course. Even “type,” that literary phrase to describe someone whose character is more general and indicative of a class of persons than individuated, appears to be etymologically related to the process of technologically reproducing language via printing. These phrases are early examples of linguistic memes: viral idioms with a disposition that inclines them towards replication, mutation, and dissemination through the mental gene pool.
-
-
-:: BK 7 [bk] {"position":"1874,2196","size":"100,100"}
-These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend - a fact made more clear to me while editing this section and having to read some of the quotations out loud. 
-
-Even by the eleventh and final scene, an exchange like: 
-
-<span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
-<span class="script">MRS PLANT:		<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?</span>
-<span class="script">DEREK:		<<ket If Ket>> <<bl you b>> like. Or not.</span>
-
-is mostly comprehensible.
-
-<<silently>><<set _next_passage to "BK 8">><</silently>>
-
-
-:: BK 8 [bk] {"position":"1875,2346","size":"100,100"}
-Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that “<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?” is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting, of course, in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
-
-He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same [[language game]]. Hence, perhaps, Churchill’s tongue-in-cheek admission that “Blue Kettle” was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
-
-<<silently>><<set _next_passage to "BK 9">><</silently>>
-
-
-:: language game [bk] {"position":"1999,2346","size":"100,100"}
-<h1>7</h1>
-In the practice of the use of language [[2->Witt 2]] one party calls out the words, the other acts on them. In instruction in the language the following process will occur: the learner names the objects; that is, he utters the word when the teacher points to the stone. ---And there will be this still simpler exercise: the pupil repeats the words after the teacher-----both of these being processes resembling language. 	
-
- We can also think of the whole process of using words in [[2->Witt 2]] as one of those games by means of which children learn their native language. I will call these games <em>"language-games"</em> and will sometimes speak of a primitive language as a language-game. 
-
-And the processes of naming the stones and of repeating words after someone might also be called language-games. Think of much of the use words in games like ring-a-ring-a-roses. 	
-
-I shall also call the whole, consisting of language and the actions into which it is woven, the "language-game".
-
-
-:: BK 9 [bk] {"position":"1865,2502","size":"100,100"}
-Along those lines, we will turn to the information theoretical binary of [[signal]] and [[noise]]. 
-
-Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the [[lossy]] compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
-
-The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise,’ or email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. 
-
-<<silently>><<set _next_passage to "BK 10">><</silently>>
-
-
-:: BK 10 [bk] {"position":"1865,2652","size":"100,100"}
-In the context of this play, then, we might think about the virus as a deliberate introduction of noise into an otherwise clear signal. As the infection grows, the signal becomes more and more muddled, until (on the page, at least) there’s nothing but noise. The cognitive work of reading or of making sense of the play is the work of noise reduction - of working around the infected language to arrive at the real, important meaning underneath. Importantly, the framework of ‘signal’ and ‘noise’ implies just this sort of reader, one that can convert raw data into meaningful information. The signal, under this framework, is the stuff the receiver cares about; the noise is interference. That the play’s plot Mcguffin and the virus is the point of the play, however, gestures to the provisional and contingent division of signal from noise.
-
-<<silently>><<set _next_passage to "BK 11">><</silently>>
-
-
-:: BK 11 [bk] {"position":"1865,2802","size":"100,100"}
-If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the [[glitch]], following [[Ross Menkman’s 2010 Glitch Manifesto->Menkman, Ross. Glitch Manifesto.]]. 
-
-<<silently>><<set _next_passage to "BK 12">><</silently>>
-
-
-:: Ross Menkman’s 2010 Glitch Manifesto {"position":"1990,2802","size":"100,100"}
-Link to pdf w/ introductory blurb.
-
-
-:: BK 12 [bk] {"position":"1874,2946","size":"100,100"}
-I would like, however, to argue, that the aesthetic experience of the glitch is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in “Blue Kettle” put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the glitch is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently glitched image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of “Blue Kettle” is, for Churchill, the point of the play. 
-
-<<silently>><<set _next_passage to "BK 13">><</silently>>
-
-
 :: Critique of Judgment {"position":"1999,2946","size":"100,100"}
 Link to pdf with introductory blurb.
 
@@ -806,20 +520,20 @@ GCC GAC TTT GAC CGG AGT GGT TGT ACC TTG
 GTC AGG AAT TGA ACG
 
 
-:: BK 5 [bk] {"position":"1870,1905","size":"100,100"}
+:: Blue Kettle 5 [bk] {"position":"1870,1905","size":"100,100"}
 This mode of informationally-informed reading, which I’m tentatively calling literary informatics, considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. 
 
 The naive [[schematic->informatic schematic]] for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but “Blue Kettle” has none. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that “performance provides the supplement that brings the textual DNA to theatrical life”; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.
 
-<<silently>><<set _next_passage to "BK 6">><</silently>>
+<<silently>><<set _next_passage to "Blue Kettle 6">><</silently>>
 
 
 :: informatic schematic [bk] {"position":"2004,1897","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: BK Cliche [bk] {"position":"2134,2044","size":"100,100"}
-The recognition of [[cliches->BK Cliche 1]] and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:
+:: Blue Kettle Cliche [bk] {"position":"2134,2044","size":"100,100"}
+The recognition of [[cliches->Blue Kettle Cliche 1]] and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:
 
 <span class="script">MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.</span>
 
@@ -842,12 +556,6 @@ Let us imagine a language ...The language is meant to serve for communication be
 
 :: noise [bk] {"position":"2140,2502","size":"100,100"}
 Double-click this passage to edit it.
-
-
-:: BK 13 [bk] {"position":"1872,3097","size":"100,100"}
-Caryl Churchill’s later work, particularly her 2012 play <a href="https://especiallygreatliterature.com/laitwine.html">Love and Information,”</a> deals more squarely with the technological dissemination and corruption of human words and gestures via information technology, and with the potentially alienating consequences of that transmediation. In an era where the social gestures we use to constitute ourselves in relation to one another are increasingly mediated on technological substrates, and where the words we use are increasingly infected with viral language from Twitter and so forth, Churchill’s exploration of a “language virus” in Blue Kettle suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that “Blue Kettle” forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the “sames” and “big moods” and “on brands” of living in the information age.
-
-[[Return->Section 1: GESTURE]]
 
 
 :: StoryInterface 12 [nobr] {"position":"257,49","size":"100,100"}
@@ -1251,9 +959,6 @@ This is how <i>Quad</i> works per the [[informatic->informatic schematic]] way o
 :: transcoding {"position":"3719,2568","size":"100,100"}
 "In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
 
-<<return "Back">>
-
-
 :: lossy [todo] {"position":"3602,2569","size":"100,100"}
 Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
 
@@ -1263,7 +968,6 @@ When a streamer watches a movie on, say, Netflix, the already-lossy digital file
 
 MORE.
 
-<<return "Back">>
 
 
 :: EndlessGame 9 [eg nobr] {"position":"3844,2768","size":"100,100"}
@@ -1911,16 +1615,24 @@ Take, for example, the satire website Clickhole’s ‘blog post’ “The Time 
 :: information and selfhood {"position":"1155,1827","size":"100,100"}
 I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.
 
+:: Title Page
+<h1>Dissertation</h1>
+a dissertation in Twine by Ken Alba
+Last updated 12/2/2020
+
+If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
 
 :: Instructions {"position":"2269,363","size":"100,100"}
-If you haven't played a Twine story before, this interface might be unfamiliar. The first thing you need to know is that you can always go back with the arrow on the top of the left hand sidebar. You can also save or load your readthrough. Don't use your browser's back button or you'll lose your progress.
+If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the bottom bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, view the title of your current passage, or view your bookmarks. The bottom bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
 
 The most linear path forward is to begin with the [[Introduction->I 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
-Alternatively, you could approach this text backwards, jumping right to the glossary and exploring what case studies articulate what terms.
+Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to the collapsable BOOKMARKS menu on your sidebar. Note that you can only save up to ten bookmarks; any past that and you'll start pushing old ones out of your list.
 
-Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your passage in the collapsable BOOKMARKS menu on your sidebar. Note that you can only save up to ten bookmarks; any past that and you'll start pushing old ones out of your list.
+Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
 
+Thanks, and enjoy!
+-Ken
 [[Table of Contents]]
 
 
