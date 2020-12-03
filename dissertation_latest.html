@@ -486,7 +486,16 @@ for (i = 0; i < coll.length; i++) {
 			&lt;&lt;/if&gt;&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="Widgets" tags="widget nobr" position="138,60" size="100,100">&lt;&lt;widget &quot;blue&quot;&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="Widgets" tags="widget nobr" position="138,60" size="100,100">&lt;&lt;widget &quot;cycler&quot;&gt;&gt;
+	&lt;&lt;set _word1 to $args[0]&gt;&gt;
+	&lt;&lt;set _word2 to $args[1]&gt;&gt;
+	&lt;&lt;cycle &quot;_receiver&quot;&gt;&gt;
+		&lt;&lt;option _word1 selected&gt;&gt;
+		&lt;&lt;option _word2&gt;&gt;
+	&lt;&lt;/cycle&gt;&gt;
+&lt;&lt;/widget&gt;&gt;
+
+&lt;&lt;widget &quot;blue&quot;&gt;&gt;
 	&lt;&lt;set _word to $args[0]&gt;&gt;
 	&lt;&lt;set _outputString to &quot;&lt;span class = &#39;blue&#39;&gt;&quot; + _word + &quot;&lt;/span&gt;&quot;&gt;&gt;
 	&lt;&lt;if _word.toUpperFirst() is _word&gt;&gt;
@@ -590,6 +599,15 @@ for (i = 0; i < coll.length; i++) {
 			&lt;&lt;replace #bookmark_list&gt;&gt;&lt;&lt;include BookmarkList&gt;&gt;&lt;&lt;/replace&gt;&gt;
 		&lt;&lt;/linkreplace&gt;&gt;
 	&lt;&lt;/if&gt;&gt;
+&lt;&lt;/widget&gt;&gt;
+
+&lt;&lt;widget &quot;get_table_of_contents&quot;&gt;&gt;
+	&lt;&lt;set _tag to $args[0]&gt;&gt;
+	&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, _tag)&gt;&gt;
+	&lt;&lt;for _i to 0; _i lt _passages.length; _i++&gt;&gt;
+		[[_passages[_i].title]]
+	&lt;&lt;/for&gt;&gt;
+	There are &lt;&lt;print _passages.length&gt;&gt; passages tagged with &lt;&lt;print _tag&gt;&gt;.
 &lt;&lt;/widget&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="StoryCaption" tags="nobr" position="1295,287.49999999999994" size="100,100">&lt;div id=&quot;ui-first-row&quot;&gt;
 	&lt;div class=&quot;left-button&quot; id=&quot;restart-button&quot;&gt;&lt;span class=&quot;left-text&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;refresh&lt;/i&gt; RESTART&lt;/span&gt;&lt;/div&gt;
 	&lt;div class=&quot;right-button&quot; id=&quot;sound-button&quot;&gt;&lt;span class=&quot;right-text&quot;&gt;OFF &lt;i class=&quot;material-icons&quot;&gt;volume_off&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;
@@ -725,7 +743,7 @@ Thanks, and enjoy!
 
 [[Conclusion]]
 
-[[Annotated Bibliography]]</tw-passagedata><tw-passagedata pid="35" name="Section 1: GESTURE" tags="" position="600,475" size="100,100">[[Case Study: BLUE KETTLE]] - (waiting for links)
+[[Annotated Bibliography]]</tw-passagedata><tw-passagedata pid="35" name="Section 1: GESTURE" tags="" position="1801,1007" size="100,100">[[Case Study: BLUE KETTLE]] - (waiting for links)
 
 [[Case Study: HER STORY]] - (waiting for links)
 
@@ -1197,7 +1215,7 @@ See [[Blue Kettle-&gt;Case Study: BLUE KETTLE]] and [[Menkman&#39;s Glitch Studi
 
 &lt;p&gt;You can also view the code at its &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/DocEon/EndlessGame&quot;&gt;GitHub repository.&lt;/a&gt;.&lt;/p&gt;
 
-&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;EndlessGame 13&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="171" name="Digital Adaptations of Quad" tags="eg nobr" position="3719,3568" size="100,100">&lt;p&gt;EndlessGame is not the only digital adaptation of &lt;i&gt;Quad&lt;/i&gt;.&lt;/p&gt;
+&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;EndlessGame 13&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="171" name="Digital Adaptations of Quad" tags="nobr" position="3719,3568" size="100,100">&lt;p&gt;EndlessGame is not the only digital adaptation of &lt;i&gt;Quad&lt;/i&gt;.&lt;/p&gt;
 
 &lt;p&gt;In his [[article in the September 2012 issue of Samuel Beckett Studies-&gt;Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]], Piotyr Woycicki writes about an adaptation he created. He links to &lt;a target=&quot;_blank&quot; href=&quot;http://pwoycicki.wix.com/quad&quot;&gt;his own website&lt;/a&gt;, which houses a Flash implementation of a program made in QBasic. Unfortunately, modern browsers can&#39;t run Flash and modern operating systems can&#39;t run applications written in QBasic. Less than 8 years later, the adaptation is &lt;a target=&quot;_blank&quot; href = &quot;assets/pdfs/acid_free_bits.pdf&quot;&gt;already obsolete.&lt;/a&gt; His adaptation uses [[keyframes-&gt;Keyframes]] rather than [[motion-capture data-&gt;Motion-capture data]].&lt;/p&gt;
 

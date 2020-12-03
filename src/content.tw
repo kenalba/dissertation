@@ -42,7 +42,7 @@ Thanks, and enjoy!
 [[Annotated Bibliography]]
 
 
-:: Section 1: GESTURE {"playosition":"1801,1007","size":"100,100"}
+:: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
 [[Case Study: BLUE KETTLE]] - (waiting for links)
 
 [[Case Study: HER STORY]] - (waiting for links)
@@ -1017,7 +1017,7 @@ See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Studies Mani
 <<silently>><<set _next_passage to "EndlessGame 13">><</silently>>
 
 
-:: Digital Adaptations of Quad [eg nobr] {"position":"3719,3568","size":"100,100"}
+:: Digital Adaptations of Quad [nobr] {"position":"3719,3568","size":"100,100"}
 <p>EndlessGame is not the only digital adaptation of <i>Quad</i>.</p>
 
 <p>In his [[article in the September 2012 issue of Samuel Beckett Studies->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]], Piotyr Woycicki writes about an adaptation he created. He links to <a target="_blank" href="http://pwoycicki.wix.com/quad">his own website</a>, which houses a Flash implementation of a program made in QBasic. Unfortunately, modern browsers can't run Flash and modern operating systems can't run applications written in QBasic. Less than 8 years later, the adaptation is <a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">already obsolete.</a> His adaptation uses [[keyframes->Keyframes]] rather than [[motion-capture data->Motion-capture data]].</p>

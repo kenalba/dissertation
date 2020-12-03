@@ -68,6 +68,15 @@ for (i = 0; i < coll.length; i++) {
 
 :: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
 
+<<widget "cycler">>
+	<<set _word1 to $args[0]>>
+	<<set _word2 to $args[1]>>
+	<<cycle "_receiver">>
+		<<option _word1 selected>>
+		<<option _word2>>
+	<</cycle>>
+<</widget>>
+
 <<widget "blue">>
 	<<set _word to $args[0]>>
 	<<set _outputString to "<span class = 'blue'>" + _word + "</span>">>
@@ -172,6 +181,15 @@ for (i = 0; i < coll.length; i++) {
 			<<replace #bookmark_list>><<include BookmarkList>><</replace>>
 		<</linkreplace>>
 	<</if>>
+<</widget>>
+
+<<widget "get_table_of_contents">>
+	<<set _tag to $args[0]>>
+	<<set _passages to Story.lookup("tags", _tag)>>
+	<<for _i to 0; _i lt _passages.length; _i++>>
+		[[_passages[_i].title]]
+	<</for>>
+	There are <<print _passages.length>> passages tagged with <<print _tag>>.
 <</widget>>
 
 :: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
