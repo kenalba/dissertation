@@ -707,9 +707,9 @@ It is possible, then, to identify (as [[Emily Short]] does, in her longer medita
 [[Return->Section 1: GESTURE]]
 
 
-:: EndlessGame 1 [eg] {"position":"3844,1268","size":"100,100"}
-Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i> Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.
-
+:: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
+<p>Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i> Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
+<br>
 <video controls>
 <source src="assets/videos/quad.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -718,8 +718,8 @@ Your browser does not support the video tag.
 <<silently>><<set _next_passage to "EndlessGame 2">><</silently>>
 
 
-:: EndlessGame 2 [eg] {"position":"3844,1468","size":"100,100"}
-Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what [[Hugh Kenner]] in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. By "[[information]]" I will hear adopt [[Luciano Floridi]]’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner [[transcribed->Watt to Pascal]] sections of <i>[[Watt->Beckett, Samuel. Watt.]]</i> into Pascal code - or, more recently and thoroughly, [[Nick Montfort]] wrote <i>[[Megawatt->MW 1]]</i>. 
+:: EndlessGame 2 [eg nobr] {"position":"3844,1468","size":"100,100"}
+<p>Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what [[Hugh Kenner]] in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. By "[[information]]" I will hear adopt [[Luciano Floridi]]’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner [[transcribed->Watt to Pascal]] sections of <i>[[Watt->Beckett, Samuel. Watt.]]</i> into Pascal code - or, more recently and thoroughly, [[Nick Montfort]] wrote <i>[[Megawatt->MW 1]]</i>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 3">><</silently>>
 
@@ -770,8 +770,8 @@ END. {Main program}</code>
 <<return "Back">>
 
 
-:: EndlessGame 3 [eg] {"position":"3844,1768","size":"100,100"}
-Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: “Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2...” What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn “executed” by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a glitch, in perfect obedience to the will of the author. 
+:: EndlessGame 3 [eg nobr] {"position":"3844,1768","size":"100,100"}
+<p>Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: “Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2...” What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn “executed” by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a glitch, in perfect obedience to the will of the author. </p>
 
 <<silently>><<set _next_passage to "EndlessGame 4">><</silently>>
 
@@ -1616,11 +1616,13 @@ Take, for example, the satire website Clickhole’s ‘blog post’ “The Time 
 I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.
 
 :: Title Page
-<h1>Dissertation</h1>
+<h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba
 Last updated 12/2/2020
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
+
+If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface and on [[the EndlessGame section->Case Study: ENDLESSGAME]]
 
 :: Instructions {"position":"2269,363","size":"100,100"}
 If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the bottom bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, view the title of your current passage, or view your bookmarks. The bottom bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
