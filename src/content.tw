@@ -483,7 +483,7 @@ This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which 
 
 
 :: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
-Double-click this passage to edit it.
+A case study about my <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of [[Caryl Churchill]]'s <i>Love and Information</i> into Twine. This may be omittable in the defended dissertation, but there is room for expansion here.
 
 
 :: Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW {"position":"5694,1043","size":"100,100"}
@@ -610,12 +610,8 @@ DIAGRAM GOES HERE.
 <<silently>><<set _next_passage to "HS 4">><</silently>>
 
 
-:: Lev Manovich {"position":"5850,100","size":"100,100"}
-Double-click this passage to edit it.
-
-
 :: appunwrapper interview {"position":"1618,1746","size":"100,100"}
-Double-click this passage to edit it.
+Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
 
 
 :: HS 4 [hs] {"position":"1738,1750","size":"100,100"}
@@ -682,7 +678,7 @@ N. Katherine Hayles,
 :: HS 10 [hs] {"position":"1748,2603","size":"100,100"}
 It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly [[Emily Short]], have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
 
-[[Charles Rzepka]], a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
+Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
 
 <<silently>><<set _next_passage to "HS 11">><</silently>>
 
@@ -692,10 +688,6 @@ Double-click this passage to edit it.
 
 
 :: Emily Short {"position":"4500,225","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Charles Rzepka {"position":"4375,225","size":"100,100"}
 Double-click this passage to edit it.
 
 
@@ -740,10 +732,6 @@ Your browser does not support the video tag.
 
 :: Hugh Kenner {"position":"5225,100","size":"100,100"}
 Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]</i>. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this dissertation.
-
-
-:: Luciano Floridi {"position":"6351,103","size":"100,100"}
-Double-click this passage to edit it.
 
 
 :: Watt to Pascal {"position":"3719,1468","size":"100,100"}
@@ -915,7 +903,7 @@ Beckett took this idea further; see, for example, the urn-entombed characters of
 
 
 :: EndlessGame 4 [eg nobr] {"position":"3844,1968","size":"100,100"}
-<p>Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never "perfect," as [[traces]] of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as [[Piotr Woycicki]] puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.</p>
+<p>Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never "perfect," as [[traces]] of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as Piotr Woycicki puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 5">><</silently>>
 
@@ -934,12 +922,8 @@ C.f. Derrida's notion of the "trace".
 <<silently>><<set _next_passage to "EndlessGame 6">><</silently>>
 
 
-:: Elizabeth Klaver {"position":"5725,100","size":"100,100"}
-Double-click this passage to edit it.
-
-
 :: Quad translations {"position":"3719,2168","size":"100,100"}
-This is how <i>Quad</i> works per the [[informatic->informatic schematic]] way of reading theatrical transcoding:
+This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of reading theatrical transcoding:
 * Samuel Beckett writes the script;
 * The script is disseminated
 * The actors, with the help of the director, gesture the script into being on the stage;
@@ -966,6 +950,7 @@ This is how <i>Quad</i> works per the [[informatic->informatic schematic]] way o
 :: transcoding {"position":"3719,2568","size":"100,100"}
 "In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
 
+
 :: lossy [todo] {"position":"3602,2569","size":"100,100"}
 Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
 
@@ -973,7 +958,7 @@ Loss is not unique to digital transcoding. Consider the process by which a 70mm 
 
 When a streamer watches a movie on, say, Netflix, the already-lossy digital file is compressed based on their internet speed. 
 
-MORE.
+This passage requires expansion..
 
 
 :: EndlessGame 9 [eg nobr] {"position":"3844,2768","size":"100,100"}
@@ -990,20 +975,17 @@ MORE.
 <<silently>><<set _next_passage to "EndlessGame 11">><</silently>>
 
 
-:: glitch {"position":"3719,2968","size":"100,100"}
+:: glitch [todo] {"position":"3719,2968","size":"100,100"}
 The glitch here is defined as both a technical term and as an aesthetic moment.
 
 From a technical perspective, a glitch is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
 
 From an aesthetic perspective, however, the glitch is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of [[signal]] and [[noise]] as discrete; instead, under the sign of the glitch, the two switch places and become a new signal.
 
-In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. EXPAND.
+In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. This passage requires expansion.
 
 
 See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Studies Manifesto->Menkman, Ross. Glitch Studies Manifesto.]].
-
-
-:: EndlessGame Notes {"position":"3694,1068","size":"100,100"}
 
 
 :: EndlessGame 11 [eg nobr] {"position":"3844,3168","size":"100,100"}
@@ -1051,8 +1033,8 @@ Your browser does not support the video tag.
 <a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game.
 
 
-:: virtual reality {"position":"3469,3568","size":"100,100"}
-Double-click this passage to edit it.
+:: virtual reality [todo] {"position":"3469,3568","size":"100,100"}
+This passage requires expansion.
 
 
 :: EndlessGame 14 [eg nobr] {"position":"3844,3768","size":"100,100"}
@@ -1099,8 +1081,8 @@ Double-click this passage to edit it.
 <<silently>><<set _next_passage to "EndlessGame 21">><</silently>>
 
 
-:: data into information {"position":"3721,5103","size":"100,100"}
-Double-click this passage to edit it.
+:: data into information [todo] {"position":"3721,5103","size":"100,100"}
+This passage requires expansion.
 
 
 :: EndlessGame 21 [eg nobr] {"position":"3846,5303","size":"100,100"}
@@ -1109,13 +1091,13 @@ Double-click this passage to edit it.
 [[Back->Section 3: PRACTICE]]
 
 
-:: Motion-capture data {"position":"3721,4503","size":"100,100"}
-Motion capture http://mocap.cs.cmu.edu/
+:: Motion-capture data [todo] {"position":"3721,4503","size":"100,100"}
+Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
 
 
 
 :: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
-<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as [[Hannah Simpson]] puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
+<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
 
 <<silently>><<set _next_passage to "AttT 3">><</silently>>
 
@@ -1130,10 +1112,6 @@ Your browser does not support the video tag.
 
 
 :: Lisa Dwan {"position":"4250,100","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: automatic actor {"position":"4319,1468","size":"100,100"}
 Double-click this passage to edit it.
 
 
@@ -1159,10 +1137,6 @@ Your browser does not support the video tag.
 Another passage about Not I
 
 <<silently>><<set _next_passage to "AttT 4">><</silently>>
-
-
-:: Hannah Simpson {"position":"5350,100","size":"100,100"}
-Double-click this passage to edit it.
 
 
 :: Megawatt 1 [mw nobr] {"position":"3319,1268","size":"100,100"}
@@ -1213,8 +1187,8 @@ Double-click this passage to edit it.
 Double-click this passage to edit it.
 
 
-:: Love and Information {"position":"5044,918","size":"100,100"}
-Double-click this passage to edit it.
+:: Love and Information [todo] {"position":"5044,918","size":"100,100"}
+
 
 
 :: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
@@ -1441,14 +1415,6 @@ We still stylize these bodies according to comprehensible codes as a way of perf
 Stephen Kevin Connor, FBA is a British literary scholar who wrote two books primarily about Beckett: <i>[[Samuel Beckett: Repetition, Theory, and Text->Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.]]</i> (1988) and <i>Beckett, Modernism, and the Material Imagination</i> (2014).
 
 
-:: Connor, Steven. Samuel Beckett: Repetition, Theory, and Text. {"position":"5975,225","size":"100,100"}
-Connor, Steven. <i>Samuel Beckett: Repetition, Theory, and Text.</i> Basil Blackwell Ltd. 1988.
-
-
-:: Kenner, Hugh. The Mechanic Muse. {"position":"5225,225","size":"100,100"}
-Kenner, Hugh. <i>The Mechanic Muse</i>. 1987.
-
-
 :: Keyframes {"position":"3719,4368","size":"100,100"}
 Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia</a>, a key frame (or keyframe) in animation and filmmaking is "a drawing or shot that defines the starting and ending points of any smooth transition. These are called frames because their position in time is measured in frames on a strip of film or on a digital video editing timeline. A sequence of key frames defines which movement the viewer will see, whereas the position of the key frames on the film, video, or animation defines the timing of the movement. Because only two or three key frames over the span of a second do not create the illusion of movement, the remaining frames are filled with 'inbetweens'"
 
@@ -1458,9 +1424,6 @@ For animation, a keyframe can be thought of like a single snapshot of a stop-mot
 Meatspace is the analog inversion of cyberspace: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:
 
 "For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">>
-
-:: Gibson, William. Neuromancer.
-Gibson, William. <i>Neuromancer</i>. Ace City Books, 1983.
 
 :: Churchill, Caryl. The Skriker. {"position":"4975,225","size":"100,100"}
 Double-click this passage to edit it.
@@ -1545,9 +1508,6 @@ The precise dollar value of these cosmetic items is difficult to pinpoint becaus
 
 :: C 1
 A conclusion will go here.
-
-:: Floridi, Luciano. Information: A Very Short Introduction. {"position":"6353,223","size":"100,100"}
-Floridi, Luciano. <i>Information: A Very Short Introduction.</i> Oxford: Oxford University Press, 2010.
 
 
 :: Information [nobr] {"position":"3250,62","size":"100,100"}
