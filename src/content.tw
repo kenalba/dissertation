@@ -12,7 +12,10 @@ Last updated 12/3/2020
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
 
-If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface and on [[the EndlessGame section->Case Study: ENDLESSGAME]].
+If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface, on the [[introduction->Introduction 1]], and on [[the EndlessGame section->Case Study: ENDLESSGAME]].
+
+<label for="bar">Progress within the story</label>
+<progress id="bar" value="32" max="100">3</progress>
 
 :: Instructions {"position":"2269,363","size":"100,100"}
 If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the bottom bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, view the title of your current passage, or view your bookmarks. The bottom bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
@@ -981,22 +984,9 @@ This passage requires expansion..
 
 
 :: EndlessGame 10 [eg nobr] {"position":"3844,2968","size":"100,100"}
-<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what [[Stephen Connor]] calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].</p>
+<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what Stephen Connor calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].</p>
 
 <<silently>><<set _next_passage to "EndlessGame 11">><</silently>>
-
-
-:: glitch [todo] {"position":"3719,2968","size":"100,100"}
-The glitch here is defined as both a technical term and as an aesthetic moment.
-
-From a technical perspective, a glitch is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
-
-From an aesthetic perspective, however, the glitch is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of [[signal]] and [[noise]] as discrete; instead, under the sign of the glitch, the two switch places and become a new signal.
-
-In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. This passage requires expansion.
-
-
-See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Studies Manifesto->Menkman, Ross. Glitch Studies Manifesto.]].
 
 
 :: EndlessGame 11 [eg nobr] {"position":"3844,3168","size":"100,100"}
@@ -1086,7 +1076,7 @@ This passage requires expansion.
 
 
 :: EndlessGame 20 [eg nobr] {"position":"3846,5103","size":"100,100"}
-<p><i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – make the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.</p>
+<p><i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – synthesize the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 21">><</silently>>
 
