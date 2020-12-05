@@ -239,7 +239,7 @@ for (i = 0; i < coll.length; i++) {
 
 <div id="navigation-list">
 	[[a. CONTENTS->Table of Contents]]<br>
-	[[b. INTRODUCTION->I 1]]<br>
+	[[b. INTRODUCTION->Introduction 1]]<br>
 	<br>
 	[[1. GESTURE->Section 1: GESTURE]]<br>
 	[[2. COGNITION->Section 2: COGNITION]]<br>

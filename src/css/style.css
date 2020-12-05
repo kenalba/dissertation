@@ -41,7 +41,7 @@ body.hs {
   font-family: 'Consolas', serif;
   background: linear-gradient(#0E1F78, #04031D);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vh;
   color: white;
   font-size: 22px;
 }
@@ -61,15 +61,14 @@ img {
 }
 
 .bottom_spacer {
-  padding-bottom: 120px;
+  padding-bottom: 5vh;
 
 }
 
 .bottom_navbar {
-  transition: none !important;
   position: fixed;
   width: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 10vh;
   bottom: 0;
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
@@ -129,6 +128,8 @@ img {
 #story {
   margin-left: 19em;
   margin-right: 30px;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 
 #passages {
