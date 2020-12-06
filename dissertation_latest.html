@@ -103,14 +103,14 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 
 
 html {
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   font-size: 18px;
 }
 
@@ -341,7 +341,7 @@ a.link-external::after {
 }
 
 #header-buttons a {
-  font-size: 24px;
+  font-size: 32px;
   color: white;
 }
 .nav-button {
@@ -526,13 +526,8 @@ for (i = 0; i < coll.length; i++) {
 			bookmark
 		&lt;&lt;else&gt;&gt;
 			&lt;&lt;linkreplace &quot;bookmark_outline&quot; t8n&gt;&gt;bookmark
-					&lt;&lt;if setup.bookmarks.length &lt; 10&gt;&gt;
-						&lt;&lt;set setup.bookmarks.pushUnique(_passage_link)&gt;&gt;
-					&lt;&lt;elseif setup.bookmarks.length == 10&gt;&gt;
-						&lt;&lt;set setup.bookmarks.deleteAt(0)&gt;&gt;
-						&lt;&lt;set setup.bookmarks.pushUnique(_passage_link)&gt;&gt;
-					&lt;&lt;/if&gt;&gt;
-					&lt;&lt;set $bookmarks to setup.bookmarks&gt;&gt;
+				&lt;&lt;set setup.bookmarks.pushUnique(_passage_link)&gt;&gt;
+				&lt;&lt;set $bookmarks to setup.bookmarks&gt;&gt;
 			&lt;&lt;/linkreplace&gt;&gt;
 		&lt;&lt;/if&gt;&gt;
 	&lt;&lt;else&gt;&gt;
@@ -628,11 +623,11 @@ Last updated 12/3/2020
 
 If you know what you&#39;re doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
 
-If you&#39;re here for the December presentation, you can explore whatever you&#39;d like but I&#39;d especially like to get feedback on the user interface, on the [[introduction-&gt;Introduction 1]], and on [[the EndlessGame section-&gt;Case Study: ENDLESSGAME]].</tw-passagedata><tw-passagedata pid="34" name="Instructions" tags="" position="2269,363" size="100,100">If you&#39;ve never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the bottom bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, view the title of your current passage, or view your bookmarks. The bottom bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
+If you&#39;re here for the December presentation, you can explore whatever you&#39;d like but I&#39;d especially like to get feedback on the user interface, on the [[introduction-&gt;Introduction 1]], and on [[the EndlessGame section-&gt;Case Study: ENDLESSGAME]].</tw-passagedata><tw-passagedata pid="34" name="Instructions" tags="" position="2269,363" size="100,100">If you&#39;ve never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
 
-The most linear path forward is to begin with the [[Introduction-&gt;Introduction 1]], which sets up most of my concerns. However, you can also jump right into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second-&gt;Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
+The most linear path forward is to begin with the [[Introduction-&gt;Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second-&gt;Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
-Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to the collapsable BOOKMARKS menu on your sidebar. Note that you can only save up to ten bookmarks; any past that and you&#39;ll start pushing old ones out of your list.
+Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar.
 
 Finally, note that this is, at present, a work in progress. Some links aren&#39;t filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
 

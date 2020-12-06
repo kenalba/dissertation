@@ -186,13 +186,8 @@ for (i = 0; i < coll.length; i++) {
 			bookmark
 		<<else>>
 			<<linkreplace "bookmark_outline" t8n>>bookmark
-					<<if setup.bookmarks.length < 10>>
-						<<set setup.bookmarks.pushUnique(_passage_link)>>
-					<<elseif setup.bookmarks.length == 10>>
-						<<set setup.bookmarks.deleteAt(0)>>
-						<<set setup.bookmarks.pushUnique(_passage_link)>>
-					<</if>>
-					<<set $bookmarks to setup.bookmarks>>
+				<<set setup.bookmarks.pushUnique(_passage_link)>>
+				<<set $bookmarks to setup.bookmarks>>
 			<</linkreplace>>
 		<</if>>
 	<<else>>
