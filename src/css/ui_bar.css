@@ -1,9 +1,11 @@
 #ui-bar {
-  font-size: 14px;
+  font-size: 18px;
   color: white;
   background-color: black;
-  width: 300px;
+  width: auto;
+  letter-spacing: 1px;
   font-family: 'Source Code Pro', monospace;
+  border-right: transparent;
 }
 
 #ui-bar i {
@@ -14,115 +16,14 @@
   margin-left: 16px;
   margin-right: 16px;
 }
+
 #ui-bar-body {
-  padding: 0;
-  margin: 0;
-}
-  
-#ui-first-row {
-  height: 40px;
-  background-color: #7E9890;
-  top: 0;
-}
-
-
-#ui-second-row {
-  background-color: #34403C;
-  width: 100%;
-  height: 40px;
-}
-
-#ui-second-row.after {
-  content: "";
-  display: table;
-  clear: both;
-}
-#ui-bar-tray {
-  display: none;
-}
-
-#title {
-  display: none;
-}
-
-#ui-bar-body>:not(:first-child) {
-  margin-top: 0;
-}
-
-#menu {
-  display: none;
-}
-
-.left-button {
-  box-sizing: border-box;
-  float: left;
   text-align: left;
-  line-height: 1;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 700;
-  width: 50%;
-  height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 8px;
-  user-select: none;
-}
-
-.left-button i {
-  float: left;
-  padding-right: 8px;
-}
-
-.left-text {
-  transition: .2s;
-  border-bottom: 2px solid transparent;
-}
-
-.left-text:hover {
-  border-bottom: 1px solid;
-}
-
-.right-button {
-  box-sizing: border-box;
-  float: right;
-  line-height: 1;
-  text-align: right;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 700;
-  width: 50%;
-  height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 8px;
-  user-select: none;
-}
-
-.right-text {
-  transition: .2s;
-  border-bottom: 2px solid transparent;
-}
-
-.right-text:hover {
-  border-bottom: 1px solid;
-}
-
-.right-button i {
-  float: right;
-  padding-left: 8px;
-}
-
-#title-row {
-  line-height: 1.5;
-  height: 160px;
-  padding-top: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 24px;
-  font-size: 24px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+  padding: 0;
+  overflow: inherit;
 }
 
 a.link-external::after {
@@ -130,64 +31,8 @@ a.link-external::after {
 	content: "";
 }
 
-.collapsible {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  padding: 16px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 24px;
-}
-
-.active, .collapsible:hover {
-  background-color: black;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  padding-right: 8px;
-  margin-left: 8px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-#bookmark_list {
-  font-size: 16px;
-  padding: 0 18px;
-  text-align: left;
-  overflow: hidden;
-  line-height: 1;
-  transition: max-height 0.2s ease-out;
-  background-color: black;
-}
-
-#bookmark_list a {
-  color: white;
-  margin-left: 16px;
-  line-height: 2;
-  transition: .2s;
-  border-bottom: 2px solid transparent;
-}
-
-#bookmark_list a:hover {
-  color: #7E9890;
-  border-bottom: 2px solid;
-}
-
 #navigation-list {
-  font-size: 18px;
-  text-align: left;
-  margin-left: 16px;
+  user-select: pointer;
 }
 
 #navigation-list a {
@@ -196,6 +41,72 @@ a.link-external::after {
 }
 
 #navigation-list a:hover {
-  color: #7E9890;
+  color: #A5DAED;
   border-bottom: 2px solid;
+}
+
+#settings-list {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 80px;
+  line-height: 24px;
+}
+
+.settings-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.settings-button:hover {
+  color: #A5DAED;
+  transition: .2s;
+}
+
+#settings-list i {
+  font-size: 24px !important;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+#settings-list a {
+  color: white;
+}
+
+.settings-text {
+  padding-top: 2px;
+  display: inline-block;
+  padding-bottom: 2px;
+  vertical-align: middle;
+}
+
+#header-buttons a {
+  font-size: 24px;
+  color: white;
+}
+.nav-button {
+    height: 32px;
+    width: 32px;
+    background-color: white;
+    color: black;
+    padding: 5px 11px 7px 11px;
+    margin-right: 24px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+  
+#ui-bar-tray {
+  display: none;
+}
+
+#title {
+  display: none;
+}
+
+#menu {
+  display: none;
 }

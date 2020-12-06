@@ -43,9 +43,31 @@ for (i = 0; i < coll.length; i++) {
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
 
-:: PassageHeader
-
 :: PassageFooter [nobr]
+	<div id="title-row">
+		<<print passage()>><<total_passages>>
+		<span id="top-bookmark-button">
+			<i class='material-icons'>
+				<<bookmark>>
+			</i>
+		</span>
+	<br>
+
+	<div id="header-buttons">
+		<span class="top-back-button">
+			<<if State.length > 1>>
+				<<back "<-">>
+			<</if>>
+		</span>
+
+		<span class="top-forward-button">
+			<<if def _next_passage>>
+				<<link "->" _next_passage>><</link>>
+			<</if>>
+		</span>
+	</div>
+
+:: PassageFooter OLD [nobr]
 <div class="bottom_spacer"></div>
 <div class="bottom_navbar">
 	<div class="bottom_row">
@@ -171,14 +193,12 @@ for (i = 0; i < coll.length; i++) {
 						<<set setup.bookmarks.pushUnique(_passage_link)>>
 					<</if>>
 					<<set $bookmarks to setup.bookmarks>>
-					<<replace #bookmark_list>><<include BookmarkList>><</replace>>
 			<</linkreplace>>
 		<</if>>
 	<<else>>
 		<<linkreplace "bookmark_outline" t8n>>bookmark
 			<<set setup.bookmarks to [_passage_link]>>
 			<<set $bookmarks to setup.bookmarks>>
-			<<replace #bookmark_list>><<include BookmarkList>><</replace>>
 		<</linkreplace>>
 	<</if>>
 <</widget>>
@@ -192,64 +212,53 @@ for (i = 0; i < coll.length; i++) {
 	There are <<print _passages.length>> passages tagged with <<print _tag>>.
 <</widget>>
 
-:: StoryCaption [nobr] {"position":"1295,287.49999999999994","size":"100,100"}
-
-
-<div id="ui-first-row">
-	<div class="left-button" id="restart-button"><span class="left-text"><i class="material-icons">refresh</i> RESTART</span></div>
-	<div class="right-button" id="sound-button"><span class="right-text">OFF <i class="material-icons">volume_off</i></span></div>
-</div>
-
-<div id="ui-second-row">
-	<div class="left-button" id="load-button"><span class="left-text"><i class="material-icons">history</i> LOAD</span></div>
-	<div class="right-button" id="save-button"><span class="right-text">SAVE <i class="material-icons">save</i></span></div>
-</div>
-
-<div style="clear: both;"></div>
-
-<div id="title-row">
-	<div id="current_page"><<print passage()>></div>
-</div>
-<hr>
-<div class="bookmarks">
-	
-	<button type="button" class="collapsible">BOOKMARKS</button>
-
-	<<if ndef setup.bookmarks>>
-		<<if def $bookmarks>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
+<<widget "total_passages">>
+	<<set _tags to tags()>>
+	<<if _tags.includes("intro")>>
+		<<set _passages to Story.lookup("tags", "intro")>>
+	<<elseif _tags.includes("bk")>>
+		<<set _passages to Story.lookup("tags", "bk")>>
+	<<elseif _tags.includes("hs")>>
+		<<set _passages to Story.lookup("tags", "hs")>>
+	<<elseif _tags.includes("tda")>>
+		<<set _passages to Story.lookup("tags", "tda")>>
+	<<elseif _tags.includes("ph")>>
+		<<set _passages to Story.lookup("tags", "ph")>>
+	<<elseif _tags.includes("klt")>>
+		<<set _passages to Story.lookup("tags", "klt")>>
+	<<elseif _tags.includes("tar")>>
+		<<set _passages to Story.lookup("tags", "tar")>>
+	<<elseif _tags.includes("eg")>>
+		<<set _passages to Story.lookup("tags", "eg")>>
+	<<elseif _tags.includes("attt")>>
+		<<set _passages to Story.lookup("tags", "attt")>>
+	<<elseif _tags.includes("lai")>>
+		<<set _passages to Story.lookup("tags", "lai")>>
 	<</if>>
-
-	<<if setup.bookmarks is []>>
-		<<if $bookmarks is not []>>
-			<<set setup.bookmarks to $bookmarks>>
-		<</if>>
+	<<if def _passages>>
+		<<print " / " + _passages.length>>
 	<</if>>
+<</widget>>
 
-	<div id="bookmark_list">
-		<<include BookmarkList>>
-	</div>
-
-	<div id="bookmark-spacer"> </div>
-
-</div>
-
-<hr>
+:: StoryCaption [nobr]
 
 <div id="navigation-list">
-	[[a. CONTENTS->Table of Contents]]<br>
-	[[b. INTRODUCTION->Introduction 1]]<br>
-	<br>
-	[[1. GESTURE->Section 1: GESTURE]]<br>
-	[[2. COGNITION->Section 2: COGNITION]]<br>
-	[[3. PRACTICE->Section 3: PRACTICE]]<br>
-	<br>
-	[[c. CONCLUSION->C 1]]<br>
+	<<link '<div class= "nav-link"><span class="nav-button">a</span> introduction</div>' 'Introduction 1'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">1</span> GESTURE</div>' 'Section 1: GESTURE'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">2</span> COGNITION</div>' 'Section 2: COGNITION'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">3</span> PRACTICE</div>' 'Section 3: PRACTICE'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''C 1'>><</link>><br>
 </div>
 
+<div id="settings-list">
+	<<link '<div class="settings-button" id="bookmark-link"><i class="material-icons">bookmark</i> <span class="settings-text">Bookmarks</span></div>' 'Bookmarks'>><</link>>
+	<div class="settings-button" id="restart-button"><i class="material-icons">refresh</i> <span class="settings-text">Restart</span></div>
+	<div class="settings-button" id="save-button"><i class="material-icons">save</i> <span class="settings-text">Save</span></div>
+	<div class="settings-button" id="load-button"><i class="material-icons">history</i> <span class="settings-text">Load</span></div>
+</div>
 
 <<script>>
+
 var save_button = document.getElementById("save-button");
 save_button.addEventListener("click", function() {
 	Save.slots.save(1);
@@ -264,37 +273,11 @@ var back_button = document.getElementById("restart-button");
 back_button.addEventListener("click", function() {
 	Engine.restart();
 	});
-	
-var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-	if (State.variables.bookmark_active){ 
-	coll[i].classList.add("active")
-	}
-	else{
-	coll[i].nextElementSibling.style.maxHeight = "0px"
-	}
-    
-	coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-	  var scroll_height = content.scrollHeight + "px";
-	if (State.variables.bookmark_active)
-	{
-      content.style.maxHeight = "0px";
-	  State.variables.bookmark_active = false;
-    } 
-	else
-	{
-      content.style.maxHeight = scroll_height;
-	  State.variables.bookmark_active = true;
-    } 
-  });
-}
 <</script>>
 
-:: BookmarkList [nobr]
+
+:: Bookmarks [nobr]
 
 <<if def setup.bookmarks>>
 	<<for _i to 0; _i lt setup.bookmarks.length; _i++>>

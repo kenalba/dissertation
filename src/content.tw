@@ -14,8 +14,6 @@ If you know what you're doing, you can go right to the [[Table of Contents]]. Ot
 
 If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface, on the [[introduction->Introduction 1]], and on [[the EndlessGame section->Case Study: ENDLESSGAME]].
 
-<label for="bar">Progress within the story</label>
-<progress id="bar" value="32" max="100">3</progress>
 
 :: Instructions {"position":"2269,363","size":"100,100"}
 If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface items: the sidebar and the bottom bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, view the title of your current passage, or view your bookmarks. The bottom bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
@@ -162,7 +160,7 @@ There are many sources, and they're all wonderful! They're just not here yet.
 In progress.
 
 
-:: Case Study: HER STORY [hs] {"position":"1740,1152","size":"100,100"}
+:: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
 <h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
 
 <i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
@@ -170,7 +168,7 @@ In progress.
 <<silently>><<set _next_passage to "HS 1">><</silently>>
 
 
-:: Case Study: BLUE KETTLE [bk] {"position":"1872,1139","size":"100,100"}
+:: Case Study: BLUE KETTLE {"position":"1872,1139","size":"100,100"}
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
 
 <<silently>><<set _next_passage to "Blue Kettle 1">><</silently>>
@@ -546,7 +544,7 @@ The past two decades have seen an explosion of methodologies whereby scholars pr
 <<silently>><<set _next_passage to "PBR 1">><</silently>>
 
 
-:: Case Study: ENDLESSGAME [eg] {"position":"3845,1066","size":"100,100"}
+:: Case Study: ENDLESSGAME {"position":"3845,1066","size":"100,100"}
 This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
 
 <<silently>><<set _next_passage to "EndlessGame 1">><</silently>>
@@ -577,7 +575,7 @@ Caryl Churchill is the British playwright of [[The Skriker]], [[Love and Informa
 Link to PDF.
 
 
-:: GENE [bk] {"position":"2005,1752","size":"100,100"}
+:: GENE {"position":"2005,1752","size":"100,100"}
 AGT TCG AGC CCT TGA CTT GAT TGT GCA TAC
 CGT GCT TGA GTC ATG TTG CAC AAC TTG TCG
 GTC TCA GTA TGC CCG TGA AAT GTA CAT GTC
@@ -616,116 +614,100 @@ That philosophical concept of meaning has its place in a primitive idea of the w
 Let us imagine a language ...The language is meant to serve for communication between a builder <i>A</i> and an assistant <i>B</i>. <i>A</i> is building with building-stones; there are blocks, pillars, slabs and beams. <i>B</i> has to pass the stones, and that in the order in which <i>A</i> needs them. For this purpose they use a language consisting of the words 'block', 'pillar', 'slab', 'beam'. <i>A</i> calls them out; --<i>B</i> brings the stone which he has learnt to bring at such-and-such a call. -- Conceive this as a complete primitive language.
 
 
-:: HS 1 [hs] {"position":"1740,1302","size":"100,100"}
-<i>Her Story</i> is an interactive film wrapped in a database. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
+:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
+<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
 
-<<silently>><<set _next_passage to "HS 2">><</silently>>
-
-
-:: HS 2 [hs] {"position":"1740,1452","size":"100,100"}
-There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the interface – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
-
-<<silently>><<set _next_passage to "HS 3">><</silently>>
+<<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 
-:: HS 3 [hs] {"position":"1740,1602","size":"100,100"}
-Loss, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
+:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
+There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
+
+<<silently>><<set _next_passage to "Her Story 3">><</silently>>
+
+
+:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
+[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
 
 DIAGRAM GOES HERE.
 
-<<silently>><<set _next_passage to "HS 4">><</silently>>
+<<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
 
 :: appunwrapper interview {"position":"1618,1746","size":"100,100"}
 Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
 
 
-:: HS 4 [hs] {"position":"1738,1750","size":"100,100"}
+:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
 Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
 
 IMAGE OF BARLOW?
 
-<<silently>><<set _next_passage to "HS 5">><</silently>>
+<<silently>><<set _next_passage to "Her Story 5">><</silently>>
 
 
-:: HS 5 [hs] {"position":"1736,1900","size":"100,100"}
+:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
 Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
 
-<<silently>><<set _next_passage to "HS 6">><</silently>>
+<<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
 
-:: HS 6 [hs] {"position":"1736,2050","size":"100,100"}
+:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
 This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
 
-<<silently>><<set _next_passage to "HS 7">><</silently>>
+<<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
 
 :: MIRRORS {"position":"1618,2047","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: HS 7 [hs] {"position":"1738,2200","size":"100,100"}
+:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
 The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
 
-<<silently>><<set _next_passage to "HS 8">><</silently>>
+<<silently>><<set _next_passage to "Her Story 8">><</silently>>
 
 
 :: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: HS 8 [hs] {"position":"1740,2328","size":"100,100"}
+:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
 That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
 
-<<silently>><<set _next_passage to "HS 9">><</silently>>
+<<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
 
-:: HS 9 [hs] {"position":"1741,2473","size":"100,100"}
+:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
 This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
 
-<<silently>><<set _next_passage to "HS 10">><</silently>>
+<<silently>><<set _next_passage to "Her Story 10">><</silently>>
 
 
-:: cognitive assemblage {"position":"1628,2473","size":"100,100"}
-"Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings."
-N. Katherine Hayles, 
-
-"Writing // Posthuman: The Literary Text as Cognitive Assemblage." p3`
-
-
-:: HS 10 [hs] {"position":"1748,2603","size":"100,100"}
-It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly [[Emily Short]], have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
+:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
+It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
 
 Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
 
-<<silently>><<set _next_passage to "HS 11">><</silently>>
+<<silently>><<set _next_passage to "Her Story 11">><</silently>>
 
 
 :: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
 Double-click this passage to edit it.
 
-
-:: Emily Short {"position":"4500,225","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Detective Fiction {"position":"1294,2606","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: HS 11 [hs] {"position":"1745,2728","size":"100,100"}
+:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
 But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
 
-<<silently>><<set _next_passage to "HS 12">><</silently>>
+<<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
 
-:: HS 12 [hs] {"position":"1747,2878","size":"100,100"}
-It is possible, then, to identify (as [[Emily Short]] does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, I’d argue, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
+:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
+It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
 
-<<silently>><<set _next_passage to "HS 13">><</silently>>
+<<silently>><<set _next_passage to "Her Story 13">><</silently>>
 
 
-:: HS 13 [hs] {"position":"1747,3028","size":"100,100"}
+:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
 <i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
 [[Return->Section 1: GESTURE]]
@@ -956,66 +938,52 @@ This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of
 
 
 :: EndlessGame 7 [eg nobr] {"position":"3844,2568","size":"100,100"}
-<p>Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, Lev Manovich calls the translation of media into code, and code into media, "[[transcoding]]." What I’d like to focus on here is how transcoding – turning media into data - is often a [[lossy]] process. The translation of data for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
+<p>Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, Lev Manovich calls the translation of media into code, and code into media, "[[transcoding]]." What I’d like to focus on here is how transcoding – turning media into data - is often a [[lossy->Loss]] process. The translation of data for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
 
-<<silently>><<set _next_passage to "EndlessGame 9">><</silently>>
-
-
-:: transcoding {"position":"3719,2568","size":"100,100"}
-"In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
+<<silently>><<set _next_passage to "EndlessGame 8">><</silently>>
 
 
-:: lossy [todo] {"position":"3602,2569","size":"100,100"}
-Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
-
-Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes attest, analog media is continuous where digital media is not; nuances are often lost. 
-
-When a streamer watches a movie on, say, Netflix, the already-lossy digital file is compressed based on their internet speed. 
-
-This passage requires expansion..
-
-
-:: EndlessGame 9 [eg nobr] {"position":"3844,2768","size":"100,100"}
+:: EndlessGame 8 [eg nobr] {"position":"3844,2768","size":"100,100"}
 <p>On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss.</p>
 
 <video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
 
+<<silently>><<set _next_passage to "EndlessGame 9">><</silently>>
+
+
+:: EndlessGame 9 [eg nobr] {"position":"3844,2968","size":"100,100"}
+<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what Stephen Connor calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].</p>
+
 <<silently>><<set _next_passage to "EndlessGame 10">><</silently>>
 
 
-:: EndlessGame 10 [eg nobr] {"position":"3844,2968","size":"100,100"}
-<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what Stephen Connor calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].</p>
+:: EndlessGame 10 [eg nobr] {"position":"3844,3168","size":"100,100"}
+<p>What happens, then, when <i>Quad</i> is transcoded to thoroughgoing ‘new media’? There is of course a loss any time the teleplay is removed from its original context inasmuch as it is less ‘true’ to the will of the author, particularly for someone as concerned with the specificity of the medium as Beckett was. On the other hand, translating <i>Quad</i> to a digital medium can accentuate those elements present in the original work that lend themselves to such a translation: their algorithmic character, the translation of human body into signal, the repetition, and the potential (theoretical, at least) ‘filling in’ of the ellipsis indicated by the fade-out just before <i>Quad II</i>, which indicates a gap of ten-thousand years.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 11">><</silently>>
 
 
-:: EndlessGame 11 [eg nobr] {"position":"3844,3168","size":"100,100"}
-<p>What happens, then, when <i>Quad</i> is transcoded to thoroughgoing ‘new media’? There is of course a loss any time the teleplay is removed from its original context inasmuch as it is less ‘true’ to the will of the author, particularly for someone as concerned with the specificity of the medium as Beckett was. On the other hand, translating <i>Quad</i> to a digital medium can accentuate those elements present in the original work that lend themselves to such a translation: their algorithmic character, the translation of human body into signal, the repetition, and the potential (theoretical, at least) ‘filling in’ of the ellipsis indicated by the fade-out just before <i>Quad II</i>, which indicates a gap of ten-thousand years.</p>
-
-<<silently>><<set _next_passage to "EndlessGame 12">><</silently>>
-
-
-:: EndlessGame 12 [eg nobr] {"position":"3844,3368","size":"100,100"}
+:: EndlessGame 11 [eg nobr] {"position":"3844,3368","size":"100,100"}
 <p>My adaptation of Quad, which I’ve named EndlessGame, was written in Unity and C# and is available for free <a target = "_blank" href = "http://www.especiallygreatliterature.com/endlessgame.html">here</a>.</p>
 <p>This would be a good time to 'play' it, if only for a few minutes.</p>
 
-[[I played it->EndlessGame 13]]<br>
-[[I can't play it now; show me what it looks like->EndlessGame 12.1]]
+[[I played it->EndlessGame 12]]<br>
+[[I can't play it now; show me what it looks like->EndlessGame 13]]
 
 
-:: EndlessGame 13 [eg nobr] {"position":"3844,3568","size":"100,100"}
+:: EndlessGame 12 [eg nobr] {"position":"3844,3568","size":"100,100"}
 <p>In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad->Digital Adaptations of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. </p>
 
 <<silently>><<set _next_passage to "EndlessGame 14">><</silently>>
 
 
-:: EndlessGame 12.1 [eg nobr] {"position":"3719,3368","size":"100,100"}
+:: EndlessGame 13 [eg nobr] {"position":"3719,3368","size":"100,100"}
 <p>This is what EndlessGame looks like from the top-down view:</p>
 <img src="assets/imgs/quad_sample.gif">
 
 <p>You can also view the code at its <a target="_blank" href="https://github.com/DocEon/EndlessGame">GitHub repository.</a>.</p>
 
-<<silently>><<set _next_passage to "EndlessGame 13">><</silently>>
+<<silently>><<set _next_passage to "EndlessGame 14">><</silently>>
 
 
 :: Digital Adaptations of Quad [nobr] {"position":"3719,3568","size":"100,100"}
@@ -1030,16 +998,9 @@ This passage requires expansion..
 Your browser does not support the video tag.
 </video>
 
-:: Unity {"position":"3594,3568","size":"100,100"}
-<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game.
-
-
-:: virtual reality [todo] {"position":"3469,3568","size":"100,100"}
-This passage requires expansion.
-
 
 :: EndlessGame 14 [eg nobr] {"position":"3844,3768","size":"100,100"}
-<p>Using bodies of digital origin (as opposed to viewing bodies that have been digitized) forecloses certain modes of reading and opens up some others. Where the viewer of <i>Quad</i> can attempt to distinguish between the figures beyond their clothing, identify individualized gais, and try to infer their sex, the viewer of EndlessGame cannot because the avatars do not exceed their purpose as executors of the script in the same way that human bodies do. This attenuates the tension between the perfect pattern and its imperfect execution that Woycicki sees as the "focus of the performance" <<cite "140" 'Woycicki, Piotr. "Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad."'>>.</p>
+<p>Using bodies of digital origin (as opposed to viewing bodies that have been digitized) forecloses certain modes of reading and opens up some others. Where the viewer of <i>Quad</i> can attempt to distinguish between the figures beyond their clothing, identify individualized gais, and try to infer their sex, the viewer of EndlessGame cannot because the avatars do not exceed their purpose as executors of the script in the same way that human bodies do. This attenuates the tension between the perfect pattern and its imperfect execution that Woycicki sees as the "focus of the performance" <<cite "140" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 15">><</silently>>
 
@@ -1058,7 +1019,7 @@ This passage requires expansion.
 
 
 :: EndlessGame 17 [eg nobr] {"position":"3844,4368","size":"100,100"}
-<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. [[Piotyr Woycicki’s adaptation->digital adaptation of Quad]], according to his documentation, animates his actors via [[keyframes->Keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together like an animated cartoon.</p>
+<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. [[Piotyr Woycicki’s adaptation->Digital Adaptations of Quad]], according to his documentation, animates his actors via [[keyframes->Keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together like an animated cartoon.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 18">><</silently>>
 
@@ -1085,11 +1046,6 @@ This passage requires expansion.
 <p>Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of [[information->Information]] rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized avatar in a virtual world rather than as the meat into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.</p>
 
 [[Back->Section 3: PRACTICE]]
-
-
-:: Motion-capture data [todo] {"position":"3721,4503","size":"100,100"}
-Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
-
 
 
 :: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}

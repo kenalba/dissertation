@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600,700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 
@@ -12,42 +12,17 @@ html {
   font-size: 18px;
 }
 
+body {
+  background: black;
+}
 .passage {
   padding: 30px;
   max-width: 800px;
 }
 
-body.bk {
-  font-family: 'Merriweather', serif;
-  background-color: #DFE8F7;
-  font-size: 18px;
-  color: black;
-}
-
-body.bk #heading {
-  background-color: black;
-  color: white;
-  display: flex;
-  padding: 40px;
-  margin: 0px;
-}
-
 .blue {
   color: blue;
   font-weight: bold;
-}
-
-body.hs {
-  font-family: 'Consolas', serif;
-  background: linear-gradient(#0E1F78, #04031D);
-  background-repeat: no-repeat;
-  background-size: 100vh;
-  color: white;
-  font-size: 22px;
-}
-
-body.hs #h {
-  font-family: 'Lato', sans-serif;
 }
 
 video {
@@ -58,6 +33,41 @@ video {
 img {
   display: block;
   margin: 0 auto;
+}
+
+#title-row {
+  font-family: 'Source Code Pro', monospace;
+  color: #F5ED49;
+  display: block;
+  vertical-align: middle;
+  user-select: none;
+  position: fixed;
+  top: 0;
+  padding-top: 70px;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+#title-row i {
+  color: white;
+  padding-left: 10px;
+}
+
+#title-row a:hover {
+  color: #A5DAED;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#top-bookmark-button {
+  font-size: 24px !important;
+  color: white;
+  padding-left: 10px;
+}
+
+#top-bookmark-button a {
+  font-size: 24px !important;
+  color: white;
 }
 
 .bottom_spacer {
@@ -128,8 +138,8 @@ img {
 #story {
   margin-left: 19em;
   margin-right: 30px;
-  max-height: 85vh;
   overflow-y: auto;
+  margin-top: 160px;
 }
 
 #passages {

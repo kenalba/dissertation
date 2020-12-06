@@ -20,6 +20,19 @@ The noise is the part of the message that's not [[signal]].
 <p>Finally, for some philosophers of information, information makes up the fundamental structure of reality. "[[Informational structural realism->Informational Structural Realism]]", as it is called, posits a phenomenology whereby every "it" derives from a "bit."</p>
 
 
+:: Interface [definition nobr todo]
+
+
+:: Database [definition nobr todo]
+
+
+:: cognitive assemblage [definition todo] {"position":"1628,2473","size":"100,100"}
+"Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings."
+N. Katherine Hayles, 
+
+"Writing // Posthuman: The Literary Text as Cognitive Assemblage." p3`
+
+
 :: Shannon Information [definition nobr]
 <p>Claude Shannon, the so-called father of information theory, spent World War II as a mathematician and electrical engineer working on cryptography at Bell Labs. He needed a quantifiable and mathematically manipulable definition of information for that work. For his specific purposes - cryptography and the creation of a mathematical theory of communication -  he defined information as:<p>
 <b>"a measure of one’s freedom of choice when one selects a message… the amount of information is defined, in the simplest cases, to be measured by the logarithm of the number of available choices"</b> <<cite "9" "Shannon, Claude E. The Mathematical Theory of Communication.">>.</p>
@@ -50,7 +63,7 @@ The noise is the part of the message that's not [[signal]].
 
 <p>These two definitions are in conflict with one another, however. The philosophical definition gestures towards a percept prior to its interpolation in higher-order human cognition, outside of ideology. The technical one instead refers to patterns that exist within systems designed ([[generally->AI]])by people for people. This conflation is key to the epistemological sleight-of-hand undergirding some contemporary discourse around data, whereby conclusions arrived at via its manipulation project a patina of problematic and ersatz objectivity while in fact reifying and rearticulating the biases of designers who are overwhelmingly homogenous.</p>
 
-<p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which [[information->Information]] is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of [[data into information->data to information]] (and gather that data in the first place) are always historically contingent and often dangerous.</p>
+<p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which [[information->Information]] is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of [[data into information]] (and gather that data in the first place) are always historically contingent and often dangerous.</p>
 
 
 :: AI [definition]
@@ -60,8 +73,9 @@ A can of worms I've not yet cracked.
 :: information and selfhood [definition nobr] {"position":"1155,1827","size":"100,100"}
 I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.
 
-:: fair use [definition] {"position":"4319,2268","size":"100,100"}
+:: Fair Use [definition] {"position":"4319,2268","size":"100,100"}
 In American copyright law, fair use is a legal doctrine that "<a target="_blank" href="assets/pdfs/fairuse.pdf"> promotes freedom of expression by permitting the unlicensed use of copyright-protected works in certain circumstances.</a> [[Section 107 of the Copyright Act]] provides the statuatory framework for determining whether something is a fair use and identifies certain types of uses -- such as <b>criticism</b>, comment, news reporting, <b>teaching</b>, <b>scholarship</b>, and <b>research</b> -- as examples of activities that may qualify as fair use." To evaluate a question of fair use, there are four legal factors and one practical one:
+
 1) <i>Purpose and character of the use, including whether the use is of a commercial nature or is for nonprofit educational purposes.</i>;
 2) <i>The nature of the copyrighted work</i>;
 3) <i>The amount and substantiality of the portion used in relation to the copyrighted work as a whole</i> - a question which often turns on whether or not the "heart" of the work is used; and 
@@ -161,6 +175,32 @@ From an aesthetic perspective, however, the glitch is a moment when less becomes
 In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. This passage requires expansion.
 
 See [[Blue Kettle->Case Study: BLUE KETTLE]], [[Menkman's Glitch Studies Manifesto->Menkman, Ross. Glitch Studies Manifesto.]], and my discussion of the glitch in the context of [[Kant's account of aesthetic experience of beauty->Kant's Glitch]].
+
+
+:: transcoding [definition] {"position":"3719,2568","size":"100,100"}
+"In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
+
+
+:: Loss [definition todo] {"position":"3602,2569","size":"100,100"}
+Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
+
+Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes attest, analog media is continuous where digital media is not; nuances are often lost. 
+
+When a streamer watches a movie on, say, Netflix, the already-lossy digital file is compressed based on their internet speed. 
+
+This passage requires expansion.
+
+:: Unity [definition] {"position":"3594,3568","size":"100,100"}
+<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game.
+
+
+:: virtual reality [definition todo] {"position":"3469,3568","size":"100,100"}
+This passage requires expansion.
+
+
+:: Motion-capture data [definition todo] {"position":"3721,4503","size":"100,100"}
+Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
+
 
 :: Kant's Glitch [definition todo]
 
