@@ -13,7 +13,7 @@ The noise is the part of the message that's not <<define "signal" "Signal">>. Se
 
 <p>A similarly broad definition with more obvious applications to literary theory and to the problems at hand in this project is anthropologist <<define "Gregory Bateson's" "Bateson Information">>. Bateson's information can be glossed as "a difference that makes a difference" <<cite "1972" "Bateson, Gregory. Steps to an Ecology of Mind.">></p>
 
-<p>Philosopher of Information Luciano Floridi's gloss of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">> rests somewhere between Bateson's and Shannon's; it is more precise than the anthropologist's and less strictly mathematical than the engineer's. Data, in this telling, is the raw material out of which <<define "information is refined." "data into information">>. That said, it contains three terms that themselves require further definition: <<define "meaning" "Meaning">>, <<define "well-ordered" "Well-Ordered">>, and <<define "data" "Data">>.</p>
+<p>Philosopher of Information Luciano Floridi's gloss of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">> rests somewhere between Bateson's and Shannon's; it is more precise than the anthropologist's and less strictly mathematical than the engineer's. Data, in this telling, is the raw material out of which <<define "information is refined." "data into information">> That said, it contains three terms that themselves require further definition: <<define "meaning" "Meaning">>, <<define "well-ordered" "Well-Ordered">>, and <<define "data" "Data">>.</p>
 
 <p>However, as interventions from feminist scholars such as [[Catherine D'Ignazio]] and [[Lauren Klein]] demonstrate, these instrumental definitions can elide the degree to which information is always situated in and co-constituitive of culture - and, as such, can replicate and reify existing structures of [[oppression->Noble, Safiya. Algorithms of Oppression]]. In <i>[[Data Feminism]]</i>, D'Ignazio and Klein define information usefully as "definition goes here."</p> 
 
@@ -28,6 +28,12 @@ C.f. Derrida's notion of the "trace".
 :: Database [definition nobr todo]
 
 
+:: Meaning [definition nobr todo]
+<p>For the Wittgenstein of the <i>Philosophical Investigations</i>, the meaning of a word depends on how it is used within a particular language-game. In other words, meaning depends on usage. In an information theoretical context, then, for <<define "data" "Data">> to become meaningful is for it to become useful within a particular context. This definition relies, however, on a player of the language game to whom the concept of "meaning" is not itself meaningless. For data to become meaningful, then, is for data to become instrumentally valuable.</p>
+
+<p>Troublingly, however, this use-based notion of meaning moves all information into the realm of the subjective except inasmuch as a language game is consensual and universal. </p>
+
+<p>This definition requires expansion.</p>
 :: cognitive assemblage [definition todo] {"position":"1628,2473","size":"100,100"}
 "Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings."
 N. Katherine Hayles, 
@@ -59,11 +65,11 @@ N. Katherine Hayles,
 
 
 :: Data [definition nobr]
-<p>Data comes from the Latin <i>datum</i>, meaning "that which is given." In philosophy, the term is used to refer to things like sense datum that are "immediately apprehended by or presented to the mind or senses" ([[OED->Oxford English Dictionary]]).</p>
+<p>Data comes from the Latin <i>datum</i>, meaning "that which is given." In philosophy, the term is used to refer to things like sense datum that are "immediately apprehended by or presented to the mind or senses" <<cite "OED" "Oxford English Dictionary">>.</p>
 
 <p>In computing, on the other hand, that same dictionary defines data as "the quantities, characters, or symbols on which operations are performed by a computer and which may be stored or transmitted in the form of electrical signals and held on recording media" - that is, the grist out of which computer systems generate and represent meaningful information.</p>
 
-<p>These two definitions are in conflict with one another, however. The philosophical definition gestures towards a percept prior to its interpolation in higher-order human cognition, outside of ideology. The technical one instead refers to patterns that exist within systems designed ([[generally->AI]])by people for people. This conflation is key to the epistemological sleight-of-hand undergirding some contemporary discourse around data, whereby conclusions arrived at via its manipulation project a patina of problematic and ersatz objectivity while in fact reifying and rearticulating the biases of designers who are overwhelmingly homogenous.</p>
+<p>These two definitions are in conflict with one another, however. The philosophical definition gestures towards a percept prior to its interpolation in higher-order human cognition, outside of ideology. The technical one instead refers to patterns that exist within systems designed ([[generally->AI]]) by people for people. This conflation is key to the epistemological sleight-of-hand undergirding some contemporary discourse around data, whereby conclusions arrived at via its manipulation project a patina of problematic and ersatz objectivity while in fact reifying and rearticulating the biases of designers who are overwhelmingly homogenous.</p>
 
 <p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which <<define "information" "Information">> is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of <<define "data into information">> (and gather that data in the first place) are always historically contingent and often problematic.</p>
 
@@ -125,7 +131,7 @@ Double-click this passage to edit it.
 
 
 :: Informatic Schematic [definition todo] {"position":"2004,1897","size":"100,100"}
-Double-click this passage to edit it.
+More to be written here.
 
 
 :: Benjamin’s aura [hs definition] {"position":"1615,2202","size":"100,100"}
