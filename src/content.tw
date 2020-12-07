@@ -12,7 +12,7 @@ Last updated 12/3/2020
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
 
-If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface, on the [[introduction->Introduction 1]], and on [[the EndlessGame section->Case Study: ENDLESSGAME]].
+If you're here for the December presentation, you can explore whatever you'd like but I'd especially like to get feedback on the user interface, on the [[introduction->Introduction 1]], and on [[the EndlessGame section->Case Study: ENDLESSGAME]]. You should still look at the [[instructions->Instructions]], though.
 
 
 :: Instructions {"position":"2269,363","size":"100,100"}
@@ -21,6 +21,8 @@ If you've never used Twine before, it might be helpful to orient yourself before
 The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start.
 
 Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar.
+
+The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.
 
 Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
 
@@ -255,26 +257,15 @@ is mostly comprehensible.
 :: Blue Kettle 8 [bk] {"position":"1875,2346","size":"100,100"}
 Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that "<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?" is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting, of course, in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
 
-He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same [[language game]]. Hence, perhaps, Churchill’s tongue-in-cheek admission that "Blue Kettle" was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
+He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same <<excerpt "language game" "Language Game">>. Hence, perhaps, Churchill’s tongue-in-cheek admission that "Blue Kettle" was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
 
 <<silently>><<set _next_passage to "Blue Kettle 9">><</silently>>
 
 
-:: language game [bk] {"position":"1999,2346","size":"100,100"}
-<h1>7</h1>
-In the practice of the use of language [[2->Wittgenstein 2]] one party calls out the words, the other acts on them. In instruction in the language the following process will occur: the learner names the objects; that is, he utters the word when the teacher points to the stone. ---And there will be this still simpler exercise: the pupil repeats the words after the teacher-----both of these being processes resembling language. 	
-
- We can also think of the whole process of using words in [[2->Wittgenstein 2]] as one of those games by means of which children learn their native language. I will call these games <em>"language-games"</em> and will sometimes speak of a primitive language as a language-game. 
-
-And the processes of naming the stones and of repeating words after someone might also be called language-games. Think of much of the use words in games like ring-a-ring-a-roses. 	
-
-I shall also call the whole, consisting of language and the actions into which it is woven, the "language-game".
-
-
 :: Blue Kettle 9 [bk] {"position":"1865,2502","size":"100,100"}
-Along those lines, we will turn to the information theoretical binary of [[signal]] and [[noise]]. 
+Along those lines, we will turn to the information theoretical binary of <<define "signal" "Signal">> and <<define "noise" "Noise">>. 
 
-Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the [[lossy]] compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
+Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the <<define "lossy" "Loss">> compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
 
 The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise,’ or email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. 
 
@@ -288,13 +279,13 @@ In the context of this play, then, we might think about the virus as a deliberat
 
 
 :: Blue Kettle 11 [bk] {"position":"1865,2802","size":"100,100"}
-If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the [[glitch]], following [[Ross Menkman’s 2010 Glitch Studies Manifesto->Menkman, Ross. Glitch Studies Manifesto.]]. 
+If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the <<define "glitch" "Glitch">>, following [[Ross Menkman’s 2010 Glitch Studies Manifesto->Menkman, Ross. Glitch Studies Manifesto.]]. 
 
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
 
 :: Ross Menkman’s 2010 Glitch StudiesManifesto {"position":"1990,2802","size":"100,100"}
-<a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the [[glitch]] it describes. The work emphasizes how the [[noise]] necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
+<a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
 
 
 :: Blue Kettle 12 [bk] {"position":"1874,2946","size":"100,100"}
@@ -607,13 +598,6 @@ and
 both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of "break" with "blue," however, defamiliarizes the cliche, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.
 
 
-:: Wittgenstein 2 [bk] {"position":"2120,2351","size":"100,100"}
-<h1>2</h1>
-That philosophical concept of meaning has its place in a primitive idea of the way language functions.  But one can also say that it is the idea of a language more primitive than ours. 
-
-Let us imagine a language ...The language is meant to serve for communication between a builder <i>A</i> and an assistant <i>B</i>. <i>A</i> is building with building-stones; there are blocks, pillars, slabs and beams. <i>B</i> has to pass the stones, and that in the order in which <i>A</i> needs them. For this purpose they use a language consisting of the words 'block', 'pillar', 'slab', 'beam'. <i>A</i> calls them out; --<i>B</i> brings the stone which he has learnt to bring at such-and-such a call. -- Conceive this as a complete primitive language.
-
-
 :: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
 <i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
 
@@ -714,7 +698,7 @@ It is possible, then, to identify (as Emily Short does, in her longer meditation
 
 
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
-<p>Quad "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i> Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
+<p>Samuel Beckett's <i>Quad</i> "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i>Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
 <br>
 <video controls>
 <source src="assets/videos/quad.mp4" type="video/mp4">
@@ -725,161 +709,20 @@ Your browser does not support the video tag.
 
 
 :: EndlessGame 2 [eg nobr] {"position":"3844,1468","size":"100,100"}
-<p>Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what Hugh Kenner in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. "[[Information->Information]]" is a complicated term to define - see the note for a more robust attempt at definition. Provisionally, here, I will proceed with Luciano Floridi’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner [[transcribed->Watt to Pascal]] sections of <i>[[Watt->Beckett, Samuel. Watt.]]</i> into Pascal code - or, more recently and thoroughly, Nick Montfort wrote <i>[[Megawatt->Megawatt 1]]</i>.</p>
+<p>Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what Hugh Kenner in [[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]] called "transparent technology," Kenner argues that Beckett carried modernism "into the intangible realm of information theory… our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>. <<define "Information" "Information">> is a complicated term to define - see the note for a more robust attempt at definition. Provisionally, here, I will proceed with Luciano Floridi’s definition – that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense – in the same way that Kenner <<excerpt "transcribed" "Watt to Pascal">> sections of <i>Watt</i> into Pascal code - or, more recently and thoroughly, Nick Montfort wrote <i>[[Megawatt->Megawatt 1]]</i>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 3">><</silently>>
 
 
-:: Watt to Pascal {"position":"3719,1468","size":"100,100"}
-<code>PROGRAM MrsGorman (Input, Output);
-CONST
-&emsp;Indifferent = 60;
-VAR
-&emsp;Thursday, Indisposed, Called : BOOLEAN;
-&emsp;Bed, Chair, Hearth, Fire, Window, Open : BOOLEAN;
-&emsp;Rand, Temperature : INTEndlessGameER;
-BEndlessGameIN {Main program}
-IF Thursday THEN
-&emsp;IF NOT (Indisposed)
-&emsp;&emsp;THEN Called := True
-&emsp;ELSE {If Indisposed}
-&emsp;&emsp;Called := False;
-&emsp;IF NOT Called THEN Random;
-&emsp;&emsp;IF Rand = 0 THEN (Bed)
-&emsp;&emsp;&emsp;ELSE {if Rand = 1 then}
-&emsp;&emsp;&emsp;BEndlessGameIN {Else}
-&emsp;&emsp;&emsp;&emsp;IF Temperature < Indifferent
-&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Hearth AND Fire)
-&emsp;&emsp;&emsp;&emsp;ELSE IF Temperature > Indifferent
-&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair AND Window AND Open)
-&emsp;&emsp;&emsp;&emsp;ELSE IF Temperature = Indifferent THEN
-&emsp;&emsp;&emsp;&emsp;&emsp;BEndlessGameIN {Else if}
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Random;
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;IF Rand = 0
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;THEN (Chair and Window AND NOT Open)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ELSE {if Rand = 1 then}
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Chair AND Hearth AND NOT Fire)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;END {Else If}
-&emsp;&emsp;&emsp;&emsp;&emsp;END {Else}
-END. {Main program}</code>
-
-<<cite '94' "Kenner, Hugh. The Mechanic Muse.">>
-
 
 :: EndlessGame 3 [eg nobr] {"position":"3844,1768","size":"100,100"}
-<p>Quad’s [[script->Quad script]] is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: "Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2..." What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a glitch, in perfect obedience to the will of the author. </p>
+<p>Quad’s <<excerpt "script" "Quad script">> is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: "Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2..." What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a glitch, in perfect obedience to the will of the author. </p>
 
 <<silently>><<set _next_passage to "EndlessGame 4">><</silently>>
 
 
-:: Quad script {"position":"3729,1766","size":"100,100"}
-<h1>[[Quad->Beckett, Samuel. Quad.]]</h1>
-A piece for four players, light and percussion.
-
-The players (1, 2, 3, 4) pace the given area, each following his particular course.
-
-Area: square. Length of side: 6 paces.
-
-<img src="assets/imgs/quad_script_1.png" alt="Quad diagram 1">
-
-Course 1: AC, CB, BA, AD, DB, BC, CD, DA
-Course 2: BA, AD, DB, BC, CD, DA, AC, CB
-Course 3: CD, DA, AC, CB, BA, AD, DB, BC
-Course 4: DB, BC, CD, DA, AC, CB, BA, AD
-
-1 enters at A, completes his course and is joined by 3. Together they complete their courses and are joined by 4. Together all three complete their courses and are joined by 2. Together all four complete their courses. Exit 1. 2, 3 and 4 continue and complete their courses. Exit 3. 2 and 4 continue and complete their courses. Exit 4. End of 1st series. 2 continues, opening 2nd series, completes his course and is joined by 1. Etc. Unbroken movement.
-
-1st series (as above): 1, 13, 134, 1342, 342, 42
-2nd series: 2, 21, 214, 2143, 143, 43
-3rd series: 3, 32, 321, 3214, 214, 14
-4th series: 4, 43, 432, 4321, 321, 21
-
-Four possible solos all given.
-
-Six possible duos all given (two twice).
-Four possible trios all given twice.
-
-Without interruption begin repeat and fade out on 1 pacing alone.
-
-Light (2)
-
-Dim on area from above fading out into dark.
-
-Four sources of differently coloured light clustered together.
-
-Each player has his particular light, to be turned on when he enters, kept on while he paces, turned off when he exits.
-
-Say 1 white, 2 yellow, 3 blue, 4 red. Then
-
-1st series: white, white + blue, white + blue + red, white + blue + red + yellow, blue + red + yellow, red + yellow.
-2nd series: yellow, yellow + white, yellow + white + red etc.
-
-All possible light combinations given.
-
-
-<b>Percussion</b>
-
-Four types of percussion, say drum, gong, triangle, wood block.
-
-Each player has his particular percussion, to sound when he enters, continue while he paces, cease when he exits.
-
-Say 1 drum, 2 gong, 3 triangle, 4 wood block. Then
-
-1st series: drum, drum + triangle, drum + triangle + wood block etc. Same system as for light.
-
-All possible percussion combinations given.
-
-Percussion intermittent in all combinations to allow footsteps alone to be heard at intervals.
-
-Pianissimo throughout.
-
-Percussionists barely visible in shadow on raised podium at back of set.
-
-<b>Footsteps</b>
-
-Each player has his particular sound.
-
-<b>Costumes</b>
-
-Gowns reaching to ground, cowls hiding faces.
-
-Each player has his particular colour corresponding to his light. 1 white, 2 yellow, 3 blue, 4 red.
-
-All possible costume combinations given.
-
-<b>Players</b>
-
-As alike in build as possible. Short and slight for preference.
-
-Some ballet training desirable. Adolescents a possibility. Sex indifferent.
-
-<b>Camera</b>
-
-Raised frontal. Fixed. Both players and percussionists in frame.
-
-<b>Time (3)</b>
-
-On basis of one pace per second and allowing for time lost at angles and centre approximately 25 minutes.
-
-<b>Problem (4)</b>
-
-Negotiation of E without rupture of rhythm when three or four players cross paths at this point. Or, if ruptures accepted, how best exploit?
-
-1. This original scenario (Quad I) was followed in the Stuttgart production by a variation (Quad II). (5)
-
-2. Abandoned as impracticable. Constant neutral light throughout.
-
-3. Overestimated. Quad I, fast tempo. 15' approx. Quad II, slow tempo, series 1 only, 5' approx.
-
-4. E supposed a danger zone. Hence deviation. Manoeuvre established at outset by first solo at first diagonal (CB). E.g. series 1:
-
-<img src="assets/imgs/quad_script_2.png" alt="Quad diagram 2">
-
-5. No colour, all four in identical white gowns, no percussion, footsteps only sound, slow tempo, series 1 only.
-
-
 :: Automatic Play {"position":"3020,2339","size":"100,100"}
-Proceeding from the [[schematic->informatic schematic]] whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. 
+Proceeding from the <<define "schematic" "Informatic Schematic">> whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. 
 
 That is:
 * the author's will is captured perfectly by a definitive script that leaves no room for interpretative divergence;
@@ -889,7 +732,7 @@ That is:
 
 This automatic play is, however, an illusion whose premises reinscribe a Platonic notion of a play that exists as pure form and is always already corrupted by its embodiment on a stage. That said, it is an illusion with an intellectual and dramatic pedigree. 
 
-Consider [[Kleist's->Kleist, Heinrich von. On the Marionette Theater.]] piece "On the Marionette Theater", where his interlocutor posits the superiority of the marionette to the flesh-and-blood performer. If "the last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces... he could perform a dance with it that neither he nor any other skilled dancer of his time ... could equal." 
+Consider Heinrich von Kleist's piece "<<excerpt "On the Marionette Theater" "Kleist, Heinrich von. On the Marionette Theater.">>", where his interlocutor posits the superiority of the marionette to the flesh-and-blood performer. If "the last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces... he could perform a dance with it that neither he nor any other skilled dancer of his time ... could equal." 
 
 In 1902, in <i><a target="_blank" href="https://www.gutenberg.org/files/49611/49611-h/49611-h.htm#Page_93">Samhain</a></i>, W. B. Yeats imagined actors restrained in barrels: "[I] had once asked a dramatic company to let me rehearse them in barrels that they might forget gesture and have their minds free to think of speech for a while. The barrels, I thought, might be on castors, so that I could shove them about with a pole when the action required it."
 
@@ -899,21 +742,16 @@ Beckett took this idea further; see, for example, the urn-entombed characters of
 
 
 :: EndlessGame 4 [eg nobr] {"position":"3844,1968","size":"100,100"}
-<p>Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never "perfect," as [[traces]] of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as Piotr Woycicki puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.</p>
+<p>Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never "perfect," as <<define "traces" "Trace">> of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as Piotr Woycicki puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>. This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">> – any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 5">><</silently>>
-
-
-:: traces {"position":"3719,1968","size":"100,100"}
-C.f. Derrida's notion of the "trace".
-
 
 :: Piotr Woycicki {"position":"5600,98","size":"100,100"}
 <a href="https://www.aber.ac.uk/en/tfts/staff-profiles/listing/profile/piw1/" target="_blank">Dr. Piotr Woycicki</a> is a Lecturer in Theater and New Media at Prifysgol Aberystwyth University. He is the author of the paper "[[Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]]"
 
 
 :: EndlessGame 5 [eg nobr] {"position":"3844,2168","size":"100,100"}
-<p>Yet <i>Quad</i> is a teleplay, not a play, and thus lacks the immediacy of the human body that would seem to emphasize this constitutive frailty. The dancers in Quad are both bodies and not-bodies, translated by their televisual medium into "[[the illusion of presence created by a pulsating beam of light moving rapidly across and down the face of a picture tube->From The Skriker]]" <<cite "374" "Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.'">>. The human body in <i>Quad</i> undergoes, then, a series of [[translations->Quad translations]]: the bodies of the dancers run the code of the script and translate authorial will into gesture, their bodies are filmed, the film is copied, the copies are broadcast, and so on. The human body is more and more alien after every step, having existed in representations incomprehensible to a human. The distance between the human subject watching the television and the dancer grows with every step save the initial, when the bodies ‘run’ the textual script.</p>
+<p>Yet <i>Quad</i> is a teleplay, not a play, and thus lacks the immediacy of the human body that would seem to emphasize this constitutive frailty. The dancers in Quad are both bodies and not-bodies, translated by their televisual medium into "<<excerpt "the illusion of presence created by a pulsating beam of light moving rapidly across and down the face of a picture tube" "From The Skriker">>"" <<cite "374" "Klaver, Elizabeth. 'Samuel Beckett’s Ohio Impromptu, Quad, and What Where: How It Is in the Matrix of Text and Television.'">>. The human body in <i>Quad</i> undergoes, then, a series of [[translations->Quad translations]]: the bodies of the dancers run the code of the script and translate authorial will into gesture, their bodies are filmed, the film is copied, the copies are broadcast, and so on. The human body is more and more alien after every step, having existed in representations incomprehensible to a human. The distance between the human subject watching the television and the dancer grows with every step save the initial, when the bodies ‘run’ the textual script.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 6">><</silently>>
 
@@ -938,13 +776,13 @@ This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of
 
 
 :: EndlessGame 7 [eg nobr] {"position":"3844,2568","size":"100,100"}
-<p>Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, Lev Manovich calls the translation of media into code, and code into media, "[[transcoding]]." What I’d like to focus on here is how transcoding – turning media into data - is often a [[lossy->Loss]] process. The translation of data for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
+<p>Computer science offers a provocative way of reading these translations. In <i>[[The Language of New Media->Manovich, Lev. The Language of New Media.]]</i>, Lev Manovich calls the translation of media into code, and code into media, <<define "transcoding" "Transcoding">>. What I’d like to focus on here is how transcoding is often a <<define "lossy" "Loss">> process. The translation of <<define "data" "Data">> for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 8">><</silently>>
 
 
 :: EndlessGame 8 [eg nobr] {"position":"3844,2768","size":"100,100"}
-<p>On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – [[audiovisual fuzziness, a loss of color->noise]], and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss.</p>
+<p>On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – <<define "audiovisual fuzziness, a loss of color" "noise">>, and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss.</p>
 
 <video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
 
@@ -952,7 +790,7 @@ This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of
 
 
 :: EndlessGame 9 [eg nobr] {"position":"3844,2968","size":"100,100"}
-<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what Stephen Connor calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the [[glitch]].</p>
+<p>In other words, each one of these translations loses some data along the way, and <i>Quad</i>, taken together with <i>Quad II</i>, seems attuned to this degradation. However, the process is not merely subtractive. New creative work is done when the Beckettian text is transcoded. In addition, then, to the hermeneutic of loss, it is worth looking at what new interpretive strategies become possible in light of new adaptations. This reading strategy of tabulating what is lost and what is gained specifically enacts what Stephen Connor calls the "complex play between reduction and addition, in which to repeat oneself, and therefore to say progressively less, seems, uncannily, always to involve saying more" <<cite "11" "Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.">>. It means invoking the <<define "glitch" "Glitch">>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 10">><</silently>>
 
@@ -972,7 +810,7 @@ This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of
 
 
 :: EndlessGame 12 [eg nobr] {"position":"3844,3568","size":"100,100"}
-<p>In <i>EndlessGame</i>, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad->Digital Adaptations of Quad]] that’s been made, but it is the first one to be made in [[Unity]] or to run in [[virtual reality]]. </p>
+<p>In EndlessGame, four default avatars (vaguely masculine bodies with blank faces named Alpha; vaguely female bodies named Beta were also available), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It’s not the first [[digital adaptation of Quad->Digital Adaptations of Quad]] that’s been made, but it is the first one to be made in <<define "Unity" "Unity">> or to run in <<define "virtual reality" "Virtual Reality">>. </p>
 
 <<silently>><<set _next_passage to "EndlessGame 14">><</silently>>
 
@@ -989,7 +827,7 @@ This is how <i>Quad</i> works per my [[informatic->informatic schematic]] way of
 :: Digital Adaptations of Quad [nobr] {"position":"3719,3568","size":"100,100"}
 <p>EndlessGame is not the only digital adaptation of <i>Quad</i>.</p>
 
-<p>In his [[article in the September 2012 issue of Samuel Beckett Studies->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]], Piotyr Woycicki writes about an adaptation he created. He links to <a target="_blank" href="http://pwoycicki.wix.com/quad">his own website</a>, which houses a Flash implementation of a program made in QBasic. Unfortunately, modern browsers can't run Flash and modern operating systems can't run applications written in QBasic. Less than 8 years later, the adaptation is <a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">already obsolete.</a> His adaptation uses [[keyframes->Keyframes]] rather than [[motion-capture data->Motion-capture data]].</p>
+<p>In his [[article in the September 2012 issue of Samuel Beckett Studies->Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.]], Piotyr Woycicki writes about an adaptation he created. He links to <a target="_blank" href="http://pwoycicki.wix.com/quad">his own website</a>, which houses a Flash implementation of a program made in QBasic. Unfortunately, modern browsers can't run Flash and modern operating systems can't run applications written in QBasic. Less than 8 years later, the adaptation is <a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">already obsolete.</a> His adaptation uses <<define "keyframes" "Keyframes">> rather than <<define "motion-capture data" "Motion-capture data">>.</p>
 
 <p>The Frank-Ratchye STUDIO for Creative Inquiry, out of Carnegie Mellon University produced an <a target="_blank" href="https://studioforcreativeinquiry.org/project/quad">adaptation</a> in 2011 that straddles the line between virtual and physical. Director <a target="_blank" href="https://studioforcreativeinquiry.org/people/matt-gray">Matt Gray</a> used four iCreate (Roomba) robots and computer vision software to implement <i>Quad</i> as code and embody it. As the summary of their project suggests, the adaptation ends up revealing each robot's "subtle quirks and characteristics as individuals." Again, the constituitive drama of the production ends up being how the actors necessarily fail at implementation.</p>
 
@@ -1006,7 +844,7 @@ Your browser does not support the video tag.
 
 
 :: EndlessGame 15 [eg nobr] {"position":"3844,3968","size":"100,100"}
-<p>On the other hand, there are certain possibilities that a program can instantiate that the televisual version could not; Beckett’s instruction regarding lighting, for example, which were abandoned for technical reasons, is possible in the adaptation. The programmed version can continue to run long after dancers would starve (hence its name). Indeed, for one week in 2019 I ran <i>EndlessGame</i> as an endless stream on my Twitch channel. It was not very popular. Each iteration of the program does not degrade, unlike the imperfect play of bodies on the televisual screen. Unless specifically programmed to do so, the gradual ten-thousand-year crawl towards silence that takes place between <i>Quad</i> and <i>Quad II</i> does not take place in <i>EndlessGame</i>. That said, even – maybe especially – digital texts like this are contingent; technology changes quickly, and programs are constantly being made inaccessible. As Nick Montfort and Noah Wardrip-Fruin write in "<a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">Acid-Free Bits</a>", "a piece of electronic literature written for a Macintosh in the 1980s may be unreadable on the Macs in a college computer lab today."</p>
+<p>On the other hand, there are certain possibilities that a program can instantiate that the televisual version could not; Beckett’s instruction regarding lighting, for example, which were abandoned for technical reasons, is possible in the adaptation. The programmed version can continue to run long after dancers would starve (hence its name). Indeed, for one week in 2019 I ran EndlessGame as a looped stream on my Twitch channel. It was not very popular. Each iteration of the program does not degrade, unlike the imperfect play of bodies on the televisual screen. Unless specifically programmed to do so, the gradual ten-thousand-year crawl towards silence that takes place between <i>Quad</i> and <i>Quad II</i> does not take place in <i>EndlessGame</i>. That said, even – maybe especially – digital texts like this are contingent; technology changes quickly, and programs are constantly being made inaccessible. As Nick Montfort and Noah Wardrip-Fruin write in "<a target="_blank" href = "assets/pdfs/acid_free_bits.pdf">Acid-Free Bits</a>", "a piece of electronic literature written for a Macintosh in the 1980s may be unreadable on the Macs in a college computer lab today."</p>
 
 <p>Further, it takes electricity to animate the figures; in the broadest possible sense, entropy continues to increase.</p>
 
@@ -1019,31 +857,31 @@ Your browser does not support the video tag.
 
 
 :: EndlessGame 17 [eg nobr] {"position":"3844,4368","size":"100,100"}
-<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. [[Piotyr Woycicki’s adaptation->Digital Adaptations of Quad]], according to his documentation, animates his actors via [[keyframes->Keyframes]], whereby the creator manually poses the actor for each frame and then runs the frames together like an animated cartoon.</p>
+<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via keyframes or motion-capture data. [[Piotyr Woycicki’s adaptation->Digital Adaptations of Quad]], according to his documentation, animates his actors via <<define "keyframes" "Keyframes">>, whereby the creator manually poses the actor for each frame and then runs the frames together like an animated cartoon.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 18">><</silently>>
 
 
 :: EndlessGame 18 [eg nobr] {"position":"3846,4503","size":"100,100"}
-<p>With Unity, however, animation can be made more realistic by use of motion-capture data, which is provided free-of-charge with the personal edition of the free software. [[Motion-capture data]] is acquired by filming anonymous human actors in outfits covered in sensors. The sensors relay information about the gestures to computers, which convert that information to a series of vector values, each associated with a different part of the skeleton. Animating a figure in Unity, therefore, translates real human motion into code, and then applies that human motion to an artificial body. These animation clips are cut up so the steps loop properly. They are modularized and then looped to replicate apparent human motion; breaking up animations to look ‘natural’ paradoxically requires the modularization of artificial, inhuman clips. Applying the human animations to the default avatars knocked the code off-track – as soon as translated human gesture was returned to the system, it stopped being ‘perfect’ and required several lines of code to keep the actors from missing their cues.</p>
+<p>With Unity, however, animation can be made more realistic by use of motion-capture data, which is provided free-of-charge with the personal edition of the free software. <<define "Motion-capture data" "Motion-capture data">> is acquired by filming anonymous human actors in outfits covered in sensors. The sensors relay information about the gestures to computers, which convert that information to a series of vector values, each associated with a different part of the skeleton. Animating a figure in Unity, therefore, translates real human motion into code, and then applies that human motion to an artificial body. These animation clips are cut up so the steps loop properly. They are modularized and then looped to replicate apparent human motion; breaking up animations to look ‘natural’ paradoxically requires the modularization of artificial, inhuman clips. Applying the human animations to the default avatars knocked the code off-track – as soon as translated human gesture was returned to the system, it stopped being ‘perfect’ and required several lines of code to keep the actors from missing their cues.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 19">><</silently>>
 
 
 :: EndlessGame 19 [eg nobr] {"position":"3846,4903","size":"100,100"}
-<p>A proper game version, where a player can control a dancer and attempt to ‘execute’ the code of the game, would encourage still another kind of identification – and in so doing move us further away from the ‘original’ text. "Loss" seems like the wrong word to use here, however, as what’s taking place is an opening-up of possibilities. Unlike the process of ‘lossy’ transcoding discussed earlier, transcoding <i>Quad</i> to EndlessGame permits a variety of novel ways of experiencing an extant text. This opening-up of possibilities underlines the way that <i>Quad</i> itself, by virtue of its subtractive principle – the minimal ‘content’ in the play, the repeated, simple pattern – calls attention to the constitutive role that the viewer has in making ‘sense’ of it – of turning the [[data->Data]] into [[information->Information]], in other words.</p>
+<p>A proper game version, where a player can control a dancer and attempt to ‘execute’ the code of the game, would encourage still another kind of identification – and in so doing move us further away from the ‘original’ text. <<define "Loss">> seems like the wrong word to use here, however, as what’s taking place is an opening up of possibilities. Unlike the process of lossy transcoding discussed earlier, transcoding <i>Quad</i> to EndlessGame permits a variety of novel ways of experiencing an extant text. This opening-up of possibilities underlines the way that <i>Quad</i> itself, by virtue of its Beckettian principal of subtraction – the minimal ‘content’ in the play, the repeated, simple pattern – calls attention to the constitutive role that the viewer has in making ‘sense’ of it – of turning the <<define "data" "Data">> into <<define "information" "Information">>, in other words.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 20">><</silently>>
 
 
 :: EndlessGame 20 [eg nobr] {"position":"3846,5103","size":"100,100"}
-<p><i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – synthesize the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, [[loss->lossy]] falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of data into meaning – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.</p>
+<p><i>Quad</i>’s dramatization of the way that each repetition of a gesture loses some meaning, that each copy signifies less, parallels provocatively the process by which <i>Quad</i> is disseminated into the world as a series of increasingly damaged copies, steps on the way to the quiet of <i>Quad II</i> and, projecting forward, the silence and stillness of a hypothetical <i>Quad III</i>. The way that this emptying out of meaning forces the viewer to make some sense of the patterns in the teleplay and unify it under some interpretive framework – synthesize the [[data into information]] – is emphasized in <i>EndlessGame</i>, where the viewer has the power to actually change the pattern in minute ways that do not, ultimately, ‘change’ what happens. However, <<define "loss" "Loss">> falls short as a way of thinking about this recombinatory power of the human mind, the way that reading strategies themselves depend not on a text’s fidelity to an idealized original but the degree to which they suggest something to the reader. What creating an adaptation of <i>Quad</i>, or ‘playing’ <i>EndlessGame</i>, ultimately calls attention to is the authorial role that the viewer has in the presence of the text, and suggests a way of thinking about reading as the ordering of <<define "data" "Data">> into <<define "meaning" "Meaning">> – the running of a code. Interpretation then becomes the flipside of loss, the way that meaning, having been emptied out via repetition, re-enters the system.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 21">><</silently>>
 
 
 :: EndlessGame 21 [eg nobr] {"position":"3846,5303","size":"100,100"}
-<p>Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of [[information->Information]] rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized avatar in a virtual world rather than as the meat into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.</p>
+<p>Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of <<define "information" "Information">> rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized <<define "avatar" "Avatar">> in a virtual world rather than as the <<define "meat" "Meatspace">> into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.</p>
 
 [[Back->Section 3: PRACTICE]]
 
@@ -1236,74 +1074,6 @@ In other words, that which happens, happens again, and will continue to happen i
 [[Return->EndlessGame 2]]
 
 
-:: From The Skriker {"position":"3594,2166","size":"100,100"}
-<h1>[[The Skriker->Churchill, Caryl. The Skriker.]]</h1>
-[[Caryl Churchill]].
-
-<i>A passage in which Lily tries to explain to the Skriker, an old fel fey, the television.</i>
-
-SKRIKER: So how does this work?
-
-LILY: How?
-
-SKRIKER: How does it-
-
-LILY: You want to turn it off?
-
-SKRIKER: No, how does that picture get here. From wherever.
-
-LILY: How does it <i>work</i>?
-
-SKRIKER: Yes.
-
-LILY: Oh, you know, I don't know, you know, it's -- isn't it the same in America?
-
-SKRIKER: Take your time. In your own words.
-
-LILY: It has to be plugged in so it's got power, right, electricity, so it's on so you can turn it on when you press the button, so the light's on and that shows it's on, ok?
-
-SKRIKER: But what's / the electricity --?
-
-LILY: It's got all these tubes / and anyway --
-
-SKRIKER: No how do you see / all over the world?
-
-LILY: And meanwhile, let's say this is something live we're seeing, there's a camera there pointing at the picture at the thing that is the picture, camera, you want me to explain -- the light gets in and there's the film, tape, the tape, it picks up the light somehow and it gets the picture _on_ it, don't ask me, and there you are if it was a tape like you hire a tape down the video shop / that's it, they
-
-SKRIKER: No, tell me.
-
-LILY: make a whole lot of copies.
-
-SKRIKER: It's happening <i>there</i> and it's / <i>here</i>
-
-LILY: I'm telling you, hang about, how it gets sent, I can't quite, through the air, if it's live, or even if it's not of course, if it happened before and they recorded -- say it's live, it's coming -- not the whole picture in the air obviously, it's in bits like waves like specks and you need an aerial / to
-
-SKRIKER: This is crap.
-
-LILY: catch it and changes it back into the picture / and it's not a solid thing, it's all dots
-
-SKRIKER: But how for fuck's sake?
-
-LILY: and lines if you look, I can't help it. If it's on the other side of the world they bounce it off a satellite yes I'm explaining satellite which is a thing they put up in space ok, they put it up I'm explaining that too and it's going round like a star, stars don't go round, like a moon but it looks like a star but moving about you sometimes see it at night, and it bounces off the satellite / all right --
-
-SKRIKER: What bounces off?
-
-LILY: The picture.
-
-SKRIKER: The picture bounces off?
-
-LILY: The waves, the -- what is this?
-
-SKRIKER: You're holding out on me.
-
-LILY: I don't have all the technical if you want the jargon if you want the detail you'll have to ask someone else.
-
-SKRIKER: Don't fuck with me.
-
-LILY: Look, / that's all I --
-
-
-
 :: A transcoded body is still a body. {"position":"3719,2368","size":"100,100"}
 The estrangement of the flesh-and-blood body effected by the move to digital life does not ultimately efface the body; instead, it creates, as McLuhan might say, extensions of the self. Bodies electric. 
 
@@ -1325,80 +1095,6 @@ A conclusion will go here.
 :: N. Katherine Hayles
 N. Katherine Hayles is a scholar of literature and technology whose texts have been foundational to my work. (This footnote needs expansion.)
 
-
-:: Kleist, Heinrich von. On the Marionette Theater. [nobr] {"position":"6124,523","size":"100,100"}
-<h1>On the Marionette Theatre</h1>
-<h2>by Heinrich von Kleist</h2>
-<h3>Translated by Idris Parry</h3>
-<p>One evening in the winter of 1801 I met an old friend in a public park. He had recently been appointed principal dancer at the local theatre and was enjoying immense popularity with the audiences. I told him I had been surprised to see him more than once at the marionette theatre which had been put up in the market-place to entertain the public with dramatic burlesques interspersed with song and dance. He assured me that the mute gestures of these puppets gave him much satisfaction and told me bluntly that any dancer who wished to perfect his art could learn a lot from them.</p>
-
-<p>From the way he said this I could see it wasn't something which had just come into his mind, so I sat down to question him more closely about his reasons for this remarkable assertion.</p>
-
-<p>He asked me if I hadn't in fact found some of the dance movements of the puppets (and particularly of the smaller ones) very graceful. This I couldn't deny. A group of four peasants dancing the rondo in quick time couldn't have been painted more delicately by Teniers.</p>
-
-<p>I inquired about the mechanism of these figures. I wanted to know how it is possible, without having a maze of strings attached to one's fingers, to move the separate limbs and extremities in the rhythm of the dance. His answer was that I must not imagine each limb as being individually positioned and moved by the operator in the various phases of the dance. Each movement, he told me, has its centre of gravity; it is enough to control this within the puppet. The limbs, which are only pendulums, then follow mechanically of their own accord, without further help. He added that this movement is very simple. When the centre of gravity is moved in a straight line, the limbs describe curves. Often shaken in a purely haphazard way, the puppet falls into a kind of rhythmic movement which resembles dance.</p>
-
-<p>This observation seemed to me to throw some light at last on the enjoyment he said he got from the marionette theatre, but I was far from guessing the inferences he would draw from it later.</p>
-
-<p>I asked him if he thought the operator who controls these puppets should himself be a dancer or at least have some idea of beauty in the dance. He replied that if a job is technically easy it doesn't follow that it can be done entirely without sensitivity. The line the centre of gravity has to follow is indeed very simple, and in most cases, he believed, straight. When it is curved, the law of its curvature seems to be at the least of the first and at the most of the second order. Even in the latter case the line is only elliptical, a form of movement natural to the human body because of the joints, so this hardly demands any great skill from the operator. But, seen from another point of view, this line could be something very mysterious. It is nothing other than the path taken by the soul of the dancer. He doubted if this could be found unless the operator can transpose himself into the centre of gravity of the marionette. In other words, the operator dances.</p>
-
-<p>I said the operator's part in the business had been represented to me as something which can be done entirely without feeling - rather like turning the handle of a barrel-organ.</p>
-
-<p>"Not at all", he said. "In fact, there's a subtle relationship between the movements of his fingers and the movements of the puppets attached to them, something like the relationship between numbers and their logarithms or between asymptote and hyperbola." Yet he did believe this last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces, even produced, as I had suggested, by turning a handle.</p>
-
-<p>I told him I was astonished at the attention he was paying to this vulgar species of an art form. It wasn't just that he thought it capable of loftier development; he seemed to be working to this end himself.</p>
-
-<p>He smiled. He said he was confident that, if he could get a craftsman to construct a marionette to the specifications he had in mind, he could perform a dance with it which neither he nor any other skilled dancer of his time, not even Madame Vestris herself, could equal.</p>
-
-<p>"Have you heard", he asked, as I looked down in silence, "of those artificial legs made by English craftsmen for people who have been unfortunate enough to lose their own limbs?"</p>
-
-<p>I said I hadn't. I had never seen anything of this kind.</p>
-
-<p>"I'm sorry to hear that", he said, "because when I tell you these people dance with them, I'm almost afraid you won't believe me. What am I saying... dance? The range of their movements is in fact limited, but those they can perform they execute with a certainty and ease and grace which must astound the thoughtful observer."</p>
-
-<p>I said with a laugh that of course he had now found his man. The craftsman who could make such remarkable limbs could surely build a complete marionette for him, to his specifications.</p>
-
-<p>"And what", I asked, as he was looking down in some perplexity, "are the requirements you think of presenting to the ingenuity of this man?"</p>
-
-<p>"Nothing that isn't to be found in these puppets we see here," he replied: "proportion, flexibility, lightness .... but all to a higher degree. And especially a more natural arrangement of the centres of gravity."</p>
-
-<p>"And what is the advantage your puppets would have over living dancers?"</p>
-
-<p>"The advantage? First of all a negative one, my friend: it would never be guilty of affectation. For affectation is seen, as you know, when the soul, or moving force, appears at some point other than the centre of gravity of the movement. Because the operator controls with his wire or thread only this centre, the attached limbs are just what they should be.� lifeless, pure pendulums, governed only by the law of gravity. This is an excellent quality. You'll look for it in vain in most of our dancers."</p>
-
-<p>"Just look at that girl who dances Daphne", he went on. "Pursued by Apollo, she turns to look at him. At this moment her soul appears to be in the small of her back. As she bends, she look as if she's going to break, like a naiad after the school of Bernini. Or take that young fellow who dances Paris when he's standing among the three goddesses and offering the apple to Venus. His soul is in fact located (and it's a frightful thing to see) in his elbow."</p>
-
-<p>"Misconceptions like this are unavoidable," he said, " now that we've eaten of the tree of knowledge. But Paradise is locked and bolted, and the cherubim stands behind us. We have to go on and make the journey round the world to see if it is perhaps open somewhere at the back."</p>
-
-<p>This made me laugh. Certainly, I thought, the human spirit can't be in error when it is non-existent. I could see that he had more to say, so I begged him to go on.</p>
-
-<p>"In addition", he said, "these puppets have the advantage of being for all practical purposes weightless. They are not afflicted with the inertia of matter, the property most resistant to dance. The force which raises them into the air is greater than the one which draws them to the ground. What would our good Miss G. give to be sixty pounds lighter or to have a weight of this size as a counterbalance when she is performing her entrechats and pirouettes? Puppets need the ground only to glance against lightly, like elves, and through this momentary check to renew the swing of their limbs. We humans must have it to rest on, to recover from the effort of the dance. This moment of rest is clearly no part of the dance. The best we can do is make it as inconspicuous as possible..."</p>
-
-<p>My reply was that, no matter how cleverly he might present his paradoxes, he would never make me believe a mechanical puppet can be more graceful than a living human body. He countered this by saying that, where grace is concerned, it is impossible for man to come anywhere near a puppet. Only a god can equal inanimate matter in this respect. This is the point where the two ends of the circular world meet.</p>
-
-<p>I was absolutely astonished. I didn't know what to say to such extraordinary assertions.</p>
-
-<p>It seemed, he said, as he took a pinch of snuff, that I hadn't read the third chapter of the book of Genesis with sufficient attention. If a man wasn't familiar with that initial period of all human development, it would be difficult to have a fruitful discussion with him about later developments and even more difficult to talk about the ultimate situation.</p>
-
-<p>I told him I was well aware how consciousness can disturb natural grace. A young acquaintance of mine had as it were lost his innocence before my very eyes, and all because of a chance remark. He had never found his way back to that Paradise of innocence, in spite of all conceivable efforts. "But what inferences", I added, "can you draw from that?"</p>
-
-<p>He asked me what incident I had in mind.</p>
-
-<p>"About three years ago", I said, "I was at the baths with a young man who was then remarkably graceful. He was about fifteen, and only faintly could one see the first traces of vanity, a product of the favours shown him by women. It happened that we had recently seen in Paris the figure of the boy pulling a thorn out of his foot. The cast of the statue is well known; you see it in most German collections. My friend looked into a tall mirror just as he was lifting his foot to a stool to dry it, and he was reminded of the statue. He smiled and told me of his discovery. As a matter of fact, I'd noticed it too, at the same moment, but... I don't know if it was to test the quality of his apparent grace or to provide a salutary counter to his vanity... I laughed and said he must be imagining things. He blushed. He lifted his foot a second time, to show me, but the effort was a failure, as anybody could have foreseen. He tried it again a third time, a fourth time, he must have lifted his foot ten times, but it was in vain. He was quite unable to reproduce the same movement. What am I saying? The movements he made were so comical that I was hard put to it not to laugh.</p>
-
-<p>From that day, from that very moment, an extraordinary change came over this boy. He began to spend whole days before the mirror. His attractions slipped away from him, one after the other. An invisible and incomprehensible power seemed to settle like a steel net over the free play of his gestures. A year later nothing remained of the lovely grace which had given pleasure to all who looked at him. I can tell you of a man, still alive, who was a witness to this strange and unfortunate event. He can confirm it, word for word, just as I've described it."</p>
-
-<p>"In this connection", said my friend warmly, "I must tell you another story. You'll easily see how it fits in here. When I was on my way to Russia, I spent some time on the estate of a Baltic nobleman whose sons had a passion for fencing. The elder, in particular, who had just come down from the university, thought he was a bit of an expert. One morning, when I was in his room, he offered me a rapier. I accepted his challenge but, as it turned out, I had the better of him. It made him angry, and this increased his confusion. Nearly every thrust I made found its mark. At last his rapier flew into the corner of the room. As he picked it up he said, half in anger and half in jest, that he had met his master but that there is a master for everyone and everything - and now he proposed to lead me to mine. The brothers laughed loudly at this and shouted: "Come on, down to the shed!" They took me by the hand and led me outside to make the acquaintance of a bear which their father was rearing on the farm.</p>
-
-<p>"I was astounded to see the bear standing upright on his hind legs, his back against the post to which he was chained, his right paw raised ready for battle. He looked me straight in the eye. This was his fighting posture. I wasn't sure if I was dreaming, seeing such an opponent. They urged me to attack. "See if you can hit him!" they shouted. As I had now recovered somewhat from my astonishment I fell on him with my rapier. The bear made a slight movement with his paw and parried my thrust. I feinted, to deceive him. The bear did not move. I attacked again, this time with all the skill I could muster. I know I would certainly have thrust my way through to a human breast, but the bear made a slight movement with his paw and parried my thrust. By now I was almost in the same state as the elder brother had been: the bear's utter seriousness robbed me of my composure. Thrusts and feints followed thick and fast, the sweat poured off me, but in vain. It wasn't merely that he parried my thrusts like the finest fencer in the world; when I feinted to deceive him he made no move at all. No human fencer could equal his perception in this respect. He stood upright, his paw raised ready for battle, his eye fixed on mine as if he could read my soul there, and when my thrusts were not meant seriously he did not move. Do you believe this story?"</p>
-
-<p>"Absolutely", I said with joyful approval. "I'd believe it from a stranger, it's so probable. Why shouldn't I believe it from you?"</p>
-
-<p>"Now, my excellent friend," said my companion, "you are in possession of all you need to follow my argument. We see that in the organic world, as thought grows dimmer and weaker, grace emerges more brilliantly and decisively. But just as a section drawn through two lines suddenly reappears on the other side after passing through infinity, or as the image in a concave mirror turns up again right in front of us after dwindling into the distance, so grace itself returns when knowledge has as it were gone through an infinity. Grace appears most purely in that human form which either has no consciousness or an infinite consciousness. That is, in the puppet or in the god."</p>
-
-<p>"Does that mean", I said in some bewilderment, "that we must eat again of the tree of knowledge in order to return to the state of innocence?"</p>
-
-<p>"Of course", he said, "but that's the final chapter in the history of the world."</p>
 
 :: Hugh Kenner {"position":"5225,100","size":"100,100"}
 Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]</i>. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this dissertation.

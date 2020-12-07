@@ -45,14 +45,14 @@ for (i = 0; i < coll.length; i++) {
 
 :: PassageFooter [nobr]
 	<div id="title-row">
-		<<print passage()>><<total_passages>>
+		<span id="top-passage-text"><<print passage()>><<total_passages>></span>
 		<span id="top-bookmark-button">
 			<i class='material-icons'>
 				<<bookmark>>
 			</i>
 		</span>
 	<br>
-
+	<br>
 	<div id="header-buttons">
 		<span class="top-back-button">
 			<<if State.length > 1>>
@@ -67,26 +67,6 @@ for (i = 0; i < coll.length; i++) {
 		</span>
 	</div>
 
-:: PassageFooter OLD [nobr]
-<div class="bottom_spacer"></div>
-<div class="bottom_navbar">
-	<div class="bottom_row">
-		<div class="bottom_previous_button">
-			<<if State.length > 1>>
-				<i class='material-icons'><<back "keyboard_arrow_left">></i>
-			<</if>>
-		</div>
-		<div class="bottom_bookmark_button">
-			<i class='material-icons'><<bookmark>></i>
-		</div>
-		<div class="bottom_next_button">
-			<<if def _next_passage>>
-				<<set _keyboard to "keyboard_arrow_right">>
-				<i class='material-icons'><<link _keyboard _next_passage>><</link>></i>
-			<</if>>
-		</div>
-	</div>
-</div>
 
 :: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
 
@@ -167,16 +147,38 @@ for (i = 0; i < coll.length; i++) {
 		<<set _page2 to $args[1]>>
 		<<set _sourceTitle to $args[2]>>
 		<<set _outputString to "(" + _page1 + "-" + _page2 + ")">>
-		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + ")">>
+		<<set _citation_text to "<span class='citation-link'>(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + "))</span>">>
 	<</if>>
 	
 	
-
+	<span class='citation-link'>
 	<<cycle "_citation" autoselect>>
 		<<option _outputString>>
 		<<option _citation_text>>
 	<</cycle>>
+	</span>
 	
+<</widget>>
+
+
+<<widget "define">>
+	<<set _label to $args[0]>>
+	<<if $args.length == 2>>
+		<<set _destination to $args[1]>>
+		<span class= "definition-link">[[_label->_destination]]</span>
+	<<else>>
+		<span class= "definition-link">[[_label]]</span>
+	<</if>>
+<</widget>>
+
+<<widget "excerpt">>
+	<<set _label to $args[0]>>
+	<<if $args.length == 2>>
+		<<set _destination to $args[1]>>
+		<span class= "excerpt-link">[[_label->_destination]]</span>
+	<<else>>
+		<span class= "excerpt-link">[[_label]]</span>
+	<</if>>
 <</widget>>
 
 <<widget "bookmark">>

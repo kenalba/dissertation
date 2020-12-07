@@ -1,24 +1,26 @@
 
 
-:: signal [definition] {"position":"2015,2502","size":"100,100"}
-The signal is the part of a message that's not [[noise]].
+:: Signal [definition] {"position":"2015,2502","size":"100,100"}
+The signal is the part of a message that's not <<define "noise" "Noise">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
-:: noise [definition] {"position":"2140,2502","size":"100,100"}
-The noise is the part of the message that's not [[signal]].
+:: Noise [definition] {"position":"2140,2502","size":"100,100"}
+The noise is the part of the message that's not <<define "signal" "Signal">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
 :: Information [definition nobr] {"position":"3250,62","size":"100,100"}
 <p>The concept of ‘information’ is both central to this project and incredibly challenging to define. As Maurice Lee puts it, "the only thing on which scholars of information agree is that no one agrees on what information is" <<cite "12" "Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution.">>. A comparative analysis of popular definitions of information demonstrates how impossible it is to divorce such a definition from its instrumental context; as such, I've provided below a few pithy definitions. Clicking into each link will bring you to the necessary contexts.
 
-<p>A common starting point is engineer [[Claude Shannon's->Shannon Information]]: information is "a measure of one’s freedom of choice when one selects a message… the amount of information is defined, in the simplest cases, to be measured by the logarithm of the number of available choices" <<cite "9" "Shannon, Claude E. The Mathematical Theory of Communication.">>.</p>
+<p>A common starting point is engineer <<define "Claude Shannon's" "Shannon Information">>: information is "a measure of one’s freedom of choice when one selects a message… the amount of information is defined, in the simplest cases, to be measured by the logarithm of the number of available choices" <<cite "9" "Shannon, Claude E. The Mathematical Theory of Communication.">>.</p>
 
-<p>A similarly broad definition with more obvious applications to literary theory and to the problems at hand in this project is anthropologist [[Gregory Bateson's->Bateson Information]]. Bateson's information can be glossed as "a difference that makes a difference" <<cite "1972" "Bateson, Gregory. Steps to an Ecology of Mind.">></p>
+<p>A similarly broad definition with more obvious applications to literary theory and to the problems at hand in this project is anthropologist <<define "Gregory Bateson's" "Bateson Information">>. Bateson's information can be glossed as "a difference that makes a difference" <<cite "1972" "Bateson, Gregory. Steps to an Ecology of Mind.">></p>
 
-<p>Philosopher of Information Luciano Floridi's gloss of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">> rests somewhere between Bateson's and Shannon's; it is more precise than the anthropologist's and less strictly mathematical than the engineer's. [[Data is the raw material out of which information is refined.->data into information]]. That said, it contains three terms that themselves require further definition: [[meaning->Meaning]], [[well-ordered->Well-Ordered]], and [[data->Data]].</p>
+<p>Philosopher of Information Luciano Floridi's gloss of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">> rests somewhere between Bateson's and Shannon's; it is more precise than the anthropologist's and less strictly mathematical than the engineer's. Data, in this telling, is the raw material out of which <<define "information is refined." "data into information">>. That said, it contains three terms that themselves require further definition: <<define "meaning" "Meaning">>, <<define "well-ordered" "Well-Ordered">>, and <<define "data" "Data">>.</p>
 
 <p>However, as interventions from feminist scholars such as [[Catherine D'Ignazio]] and [[Lauren Klein]] demonstrate, these instrumental definitions can elide the degree to which information is always situated in and co-constituitive of culture - and, as such, can replicate and reify existing structures of [[oppression->Noble, Safiya. Algorithms of Oppression]]. In <i>[[Data Feminism]]</i>, D'Ignazio and Klein define information usefully as "definition goes here."</p> 
 
-<p>Finally, for some philosophers of information, information makes up the fundamental structure of reality. "[[Informational structural realism->Informational Structural Realism]]", as it is called, posits a phenomenology whereby every "it" derives from a "bit."</p>
+<p>Finally, for some philosophers of information, information makes up the fundamental structure of reality. <<define "Informational structural realism" "Informational Structural Realism">>, as it is called, posits a phenomenology whereby every "it" derives from a "bit."</p>
 
+:: Trace [definition todo] {"position":"3719,1968","size":"100,100"}
+C.f. Derrida's notion of the "trace".
 
 :: Interface [definition nobr todo]
 
@@ -45,11 +47,11 @@ N. Katherine Hayles,
 
 <blockquote>[...] There are an infinite number of differences around and within the piece of chalk. There are differences between the chalk and the rest of the universe, between the chalk and the sun or the moon. [...] Of this infinitude, we select a very limited number, which become information. In fact, what we mean by information—the elementary unit of information—is a difference which makes a difference, and it is able to make a difference because the neural pathways along which it travels and is continually transformed are themselves provided with energy. <<cite "58" "Bateson, Gregory. Steps to an Ecology of Mind.">></blockquote>
 
-<p>In short, information is "a [[difference->Derridean Difference]] that makes a difference."" The first 'difference' is, in its simplest form, a bit – a portmanteau for ‘binary digit,’ a zero or a one. The latter, however, pushes the informational out of the realm of mathematics and into the purview of the humanities. To make a difference is to have meaning, which implies a receiver capable of construing meaning. For N. Katherine Hayles as well as Bateson, this receiver can be one of a number of cognitive systems - a human mind, a smart phone, an e-reader - that processes data and embeds it in a particular context.</p>
+<p>In short, information is "a <<define "difference" "Derridean Difference">> that makes a difference."" The first 'difference' is, in its simplest form, a bit – a portmanteau for ‘binary digit,’ a zero or a one. The latter, however, pushes the informational out of the realm of mathematics and into the purview of the humanities. To make a difference is to have meaning, which implies a receiver capable of construing meaning. For N. Katherine Hayles as well as Bateson, this receiver can be one of a number of cognitive systems - a human mind, a smart phone, an e-reader - that processes data and embeds it in a particular context.</p>
 
 
 :: Derridean Difference [definition nobr]
-<p>Any discussion of difference with reference to the humanities must grapple with its most common appearance in contemporary theory through Derrida. Although scholars have drawn connections between Bateson’s 'difference' and Derrida’s (see especially White <<cite '17' '35' 'White, Michael. "Narrative Practices and Community Assignments."'>>), there are several major discontinuities between the two systems, the primary of which is epistemological. Whereas Bateson’s 'difference' acts as a channel between a map and a territory, Derridean poststructuralism rejects the existence of a territory itself. Bateson’s epistemology is thus ultimately foundational inasmuch as it claims a relationship between the object (the chalk) and the differences that make up the information we have about that chalk, and Derrida’s is (in extremely broad strokes) antifoundationalist inasmuch as difference says nothing about the chalk as a thing in itself and instead says something about the process of 'making sense' as a constant process of deferral.</p>
+<p>Any discussion of difference with reference to the humanities must grapple with its most common appearance in contemporary theory through Derrida, as différance. Although scholars have drawn connections between Bateson’s 'difference' and Derrida’s (see especially White <<cite '17' '35' 'White, Michael. "Narrative Practices and Community Assignments."'>>), there are several major discontinuities between the two systems, the primary of which is epistemological. Whereas Bateson’s 'difference' acts as a channel between a map and a territory, Derridean poststructuralism rejects the existence of a territory itself. Bateson’s epistemology is thus ultimately foundational inasmuch as it claims a relationship between the object (the chalk) and the differences that make up the information we have about that chalk, and Derrida’s is (in extremely broad strokes) antifoundationalist inasmuch as difference says nothing about the chalk as a thing in itself and instead says something about the process of 'making sense' as a constant process of deferral.</p>
 
 
 :: Informational Structural Realism [definition nobr]
@@ -63,7 +65,7 @@ N. Katherine Hayles,
 
 <p>These two definitions are in conflict with one another, however. The philosophical definition gestures towards a percept prior to its interpolation in higher-order human cognition, outside of ideology. The technical one instead refers to patterns that exist within systems designed ([[generally->AI]])by people for people. This conflation is key to the epistemological sleight-of-hand undergirding some contemporary discourse around data, whereby conclusions arrived at via its manipulation project a patina of problematic and ersatz objectivity while in fact reifying and rearticulating the biases of designers who are overwhelmingly homogenous.</p>
 
-<p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which [[information->Information]] is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of [[data into information]] (and gather that data in the first place) are always historically contingent and often dangerous.</p>
+<p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which <<define "information" "Information">> is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of <<define "data into information">> (and gather that data in the first place) are always historically contingent and often problematic.</p>
 
 
 :: AI [definition]
@@ -90,7 +92,7 @@ Pragmatically, however, fair use is governed by a system of norms agreed upon by
 I have more to say here, but I haven't said it yet.
 
 
-:: Speech Act Theory [definition] {"position":"2919,1468","size":"100,100"}
+:: Speech Act Theory [definition todo] {"position":"2919,1468","size":"100,100"}
 Double-click this passage to edit it.
 
 
@@ -102,27 +104,27 @@ Double-click this passage to edit it.
 
 <p>THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
 
-:: Y2K [definition] {"position":"2124,1306","size":"100,100"}
+:: Y2K [definition todo] {"position":"2124,1306","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: virus [definition] {"position":"2249,1306","size":"100,100"}
+:: virus [definition todo] {"position":"2249,1306","size":"100,100"}
 Infect the user's playthrough with the VIRUS, so they get random BLUES and KETTLES.
 
 
-:: viruses [definition] {"position":"1999,1606","size":"100,100"}
+:: viruses [definition todo] {"position":"1999,1606","size":"100,100"}
 Virus images here for STUXNET and ILOVEYOU
 
 
-:: meme [definition] {"position":"2124,1606","size":"100,100"}
+:: meme [definition todo] {"position":"2124,1606","size":"100,100"}
 Dawkins on meme (or something from the Beckett and Memes page)
 
 
-:: influenza [definition] {"position":"2249,1606","size":"100,100"}
+:: influenza [definition todo] {"position":"2249,1606","size":"100,100"}
 Double-click this passage to edit it.
 
 
-:: informatic schematic [definition] {"position":"2004,1897","size":"100,100"}
+:: Informatic Schematic [definition todo] {"position":"2004,1897","size":"100,100"}
 Double-click this passage to edit it.
 
 
@@ -136,12 +138,18 @@ Double-click this passage to edit it.
 :: Keyframes [definition] {"position":"3719,4368","size":"100,100"}
 Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia</a>, a key frame (or keyframe) in animation and filmmaking is "a drawing or shot that defines the starting and ending points of any smooth transition. These are called frames because their position in time is measured in frames on a strip of film or on a digital video editing timeline. A sequence of key frames defines which movement the viewer will see, whereas the position of the key frames on the film, video, or animation defines the timing of the movement. Because only two or three key frames over the span of a second do not create the illusion of movement, the remaining frames are filled with 'inbetweens'"
 
-For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages [[motion-capture data->Motion-capture data]] to transcode captured [[meatspace->Meatspace]] gestures into data that can be used to animate a model.
+For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages <<define "motion-capture data" "Motion-capture data">> to transcode captured <<define "meatspace" "Meatspace">> gestures into data that can be used to animate a model.
 
 :: Meatspace [definition]
-Meatspace is the analog inversion of cyberspace: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:
+Meatspace is the analog inversion of <<define "cyberspace">>: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:
 
 "For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">>
+
+:: Cyberspace [definition todo]
+Not meatspace! Online, chummers. Requires expansion.
+
+:: Avatar [definition todo ]
+An avatar is the electric body one projects oneself into and through in order to exist on digital platforms. (Expand.)
 
 :: Section 107 of the Copyright Act [definition] {"position":"4194,2268","size":"100,100"}
 "107. Limitations on exclusive rights: Fair use
@@ -158,19 +166,19 @@ Notwithstanding the provisions of sections 106 and 106A, the fair use of a copyr
 The fact that a work is unpublished shall not itself bar a finding of fair use if such finding is made upon consideration of all the above factors."
 
 :: data into information [definition] {"position":"3721,5103","size":"100,100"}
-The most naive way of expressing the distinction between [[data->Data]] and [[information->Information]] is to rely on Luciano Floridi's definition of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. In this telling, data are the raw material out of which instrumentally useful information is made. In other words, as Lisa Gitelman and Virginia Jackson put it in the introduction to <i>'Raw Data' is an Oxymoron</i>, "data are apparently before the fact" <<cite "2" "Gitelman, Lisa. 'Raw Data' is an Oxymoron.">>.
+The most naive way of expressing the distinction between <<define "data" "Data">> and <<define "information" "Information">> is to rely on Luciano Floridi's definition of information as "meaningful, well-ordered data" <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. In this telling, data are the raw material out of which instrumentally useful information is made. In other words, as Lisa Gitelman and Virginia Jackson put it in the introduction to <i>'Raw Data' is an Oxymoron</i>, "data are apparently before the fact" <<cite "2" "Gitelman, Lisa. 'Raw Data' is an Oxymoron.">>.
 
 Instrumentally, then, we can think about data as 'preprocessed' information that needs to be mined and refined until it's meaningful, like the raw sense data of [[Kantian cognition->Critique of Judgment]] that precedes the operations of the imagination and the understanding. Zeroes and ones, serialized dictionaries, and electrical variances become lights on a screen that make words, images, and other media with meaning; the former is data, the latter information.
 
 However, as Gitelman's title suggests, this definition fails to account for the way in which data have to be "imagined <i>as</i> data to exist and function as such, and the imagination of data entails an interpretive base" <<cite "3" "Gitelman, Lisa. 'Raw Data' is an Oxymoron.">> -- and, as research and news stories on everything from cameras that can't see people of color to algorithms that re-enact redlining have demonstrated, an interpretive base is awfully close to an interpretive bias. Data cannot be prior to interpretation because its extraction is accomplished by human-made tools that can reflect the biases, blind spots, and bad motives of their engineers. Garbage in, garbage out.
 
 
-:: glitch [definition todo] {"position":"3719,2968","size":"100,100"}
+:: Glitch [definition todo] {"position":"3719,2968","size":"100,100"}
 The glitch here is defined as both a technical term and as an aesthetic moment.
 
 From a technical perspective, a glitch is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
 
-From an aesthetic perspective, however, the glitch is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of [[signal]] and [[noise]] as discrete; instead, under the sign of the glitch, the two switch places, intermingle, and become a new signal. 
+From an aesthetic perspective, however, the glitch is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of <<define "signal" "Signal">> and <<define "noise" "Noise">> as discrete; instead, under the sign of the glitch, the two switch places, intermingle, and become a new signal. 
 
 In the context of informational performativity, we might think about the glitch as a mode of resistance to binary oppositions imposed by platforms. This passage requires expansion.
 
@@ -182,7 +190,7 @@ See [[Blue Kettle->Case Study: BLUE KETTLE]], [[Menkman's Glitch Studies Manifes
 
 
 :: Loss [definition todo] {"position":"3602,2569","size":"100,100"}
-Data takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
+<<define "Data">> takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
 
 Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes attest, analog media is continuous where digital media is not; nuances are often lost. 
 
@@ -191,7 +199,7 @@ When a streamer watches a movie on, say, Netflix, the already-lossy digital file
 This passage requires expansion.
 
 :: Unity [definition] {"position":"3594,3568","size":"100,100"}
-<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game.
+<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create [[EndlessGame->Case Study: ENDLESSGAME]] and [[Almost to the Tick->Case Study: ALMOST TO THE TICK]].
 
 
 :: virtual reality [definition todo] {"position":"3469,3568","size":"100,100"}
