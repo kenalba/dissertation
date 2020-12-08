@@ -38,7 +38,6 @@ img {
 #title-row {
   font-family: 'Source Code Pro', monospace;
   color: #F5ED49;
-  font-size: ;
   display: block;
   vertical-align: middle;
   user-select: none;
@@ -46,6 +45,7 @@ img {
   top: 0;
   padding-top: 75px;
   padding-bottom: 12px;
+  margin-left: -1px;
   background: rgba(0, 0, 0, 1);
   width: 100%;
   line-height: 1;
