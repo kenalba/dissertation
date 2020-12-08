@@ -1,4 +1,8 @@
-
+:: Glossary [nobr]
+<<set _passages to Story.lookup("tags", "definition")>>
+<<for _i to 0; _i lt _passages.length; _i++>>
+		<<define _passages[_i].title>><br>
+<</for>>
 
 :: Signal [definition] {"position":"2015,2502","size":"100,100"}
 The signal is the part of a message that's not <<define "noise" "Noise">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
@@ -34,6 +38,8 @@ C.f. Derrida's notion of the "trace".
 <p>Troublingly, however, this use-based notion of meaning moves all information into the realm of the subjective except inasmuch as a language game is consensual and universal. </p>
 
 <p>This definition requires expansion.</p>
+
+
 :: cognitive assemblage [definition todo] {"position":"1628,2473","size":"100,100"}
 "Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings."
 N. Katherine Hayles, 
@@ -78,8 +84,16 @@ N. Katherine Hayles,
 A can of worms I've not yet cracked.
 
 
-:: information and selfhood [definition nobr] {"position":"1155,1827","size":"100,100"}
-I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.
+:: information and selfhood [definition nobr todo] {"position":"1155,1827","size":"100,100"}
+<p>I’m thinking, here, of gestures - and stylizations of the body more broadly - as encoded and embodied bundles of information in relation to the theory of performativity primarily explored in Butler’s <i>Gender Trouble</i> and <i>Bodies That Matter</i>.</p>
+
+<p>For Butler, the subject is constituted by their performative acts, the platform of which is the body. Butler’s primary focus in "Performative Acts and Gender Constitution: An Essay in Phenomenology and Feminist Theory" (published originally in <i>Theater Journal</i>) is the way gender is constituted through iterated performative acts. With the phenomenological theory of ‘acts’ as a jumping off point, which "seeks to explain the mundane way in which social agents constitute social reality through language, gesture, and all manner of symbolic social sign" <<cite "519" "Butler, Judith. 'Performative Acts and Gender Constitution.'">> Butler discusses the way in which the body works as an “historical idea” and “a set of possibilities to be continually realized.” Consequently, the body is a materializing of possibilities that one “does” (although it’s a mistake to locate agency in the doer of the body, as she clarifies. Gender thus is a “corporeal style” <<cite "522" "Butler, Judith. 'Performative Acts and Gender Constitution.'">> a mode of performing repeated, stylized acts which “compels the body to conform to an historical idea of ‘woman’” and to “induce the body to become a cultural sign” as a “sustained and repeated corporeal project” <<cite "522" "Butler, Judith. 'Performative Acts and Gender Constitution.'">>.</p>
+
+<p>Butler’s argument is compelling, but I’d like to push back against the primacy of the body as the organ and the site of these performative acts. The goal of this study, then, is to relocate Butler’s theoretical achievements – in which the world is a stage on which subjects “construct the social fiction of their own psychological interiority” <<cite "528" "Butler, Judith. 'Performative Acts and Gender Constitution.'">> – to some of the new virtual worlds that have opened themselves up with the advent of the information age. As we migrate to new worlds – become "amphibious,"" as Kurt Vonnegut put it in the short story <i>Unready to Wear</i> – it makes less and less sense, I argue, to privilege the material body as the instrument with which one plays oneself. Further, the disjunct between one’s online persona and one’s material body – and the degree of choice one has in crafting an online persona – suggests certain hopeful possibilities insofar as agency is concerned. The inseparable nature of the relationship between the body and the mind (if my reader will forgive a strategic use of the classic Cartesian division) invalidates the premise of a subject who exists prior to the performative acts which constitute them as a subject, but the embodied mind of the “player” behind the computer who controls their persona –does- exist prior to the stylization of that persona. </p>
+
+<p>The question running through this dissertation is thus: how does this decentered notion of the subject change once the stage on which identity is performed is untethered from a body which always ‘speaks’ itself? Consequently, I will focus on new ways in which the subject is embodied. If we are willing to accept the premise of ‘social reality,’ we oughtn’t privilege social reality grounded in materiality (or, at least, it can be a useful exercise to deprivilege that social reality in favor of the new virtual worlds offered to us through our computers, our iDevices, and so on). Haraway gestures in this direction in her <i>Cyborg Manifesto</i>, naming “the boundary between physical and nonphysical” as “very imprecise” in the age of technology (589) and discussing the body as a text which can be recoded and rewritten.  My premise is that virtual worlds change the way gender narrowly and identity broadly is constituted in social reality, and that the constitution of these new stages has implications for the fate of the subject in the information age. A secondary question is the shifting place of agency and subjectivity more broadly: given that the “player” –does- actually preexist the persona, is the relationship between the two different than that between the mind and the body in a Butlerian schema? </p>
+
+<p>The argument in its broadest terms, then, is that the insistence on the body as the instrument and the canvas on which performative acts are inscribed is no longer germane – or, at least, that <<define "virtual worlds" "Cyberspace">> offer new, radically different modes of embodiment - and that the information revolution has provided new stages on which subjects can constitute themselves.</p>
 
 :: Fair Use [definition] {"position":"4319,2268","size":"100,100"}
 In American copyright law, fair use is a legal doctrine that "<a target="_blank" href="assets/pdfs/fairuse.pdf"> promotes freedom of expression by permitting the unlicensed use of copyright-protected works in certain circumstances.</a> [[Section 107 of the Copyright Act]] provides the statuatory framework for determining whether something is a fair use and identifies certain types of uses -- such as <b>criticism</b>, comment, news reporting, <b>teaching</b>, <b>scholarship</b>, and <b>research</b> -- as examples of activities that may qualify as fair use." To evaluate a question of fair use, there are four legal factors and one practical one:
@@ -122,8 +136,14 @@ Infect the user's playthrough with the VIRUS, so they get random BLUES and KETTL
 Virus images here for STUXNET and ILOVEYOU
 
 
-:: meme [definition todo] {"position":"2124,1606","size":"100,100"}
-Dawkins on meme (or something from the Beckett and Memes page)
+:: meme [definition nobr] {"position":"2124,1606","size":"100,100"}
+<p>The biologist Richard Dawkins introduced the term "meme" in his 1976 book <i>The Selfish Gene</i>. For him, a meme – from the Greek root <i>mimeme</i>, meaning imitation – is a "replicator" in the "soup of human culture," a "unit of cultural transmission, or a unit of imitation" <<cite "192" "Dawkins, Richard. The Selfish Gene.">>. His examples include "tunes, ideas, catch-phrases, clothes, fashions, ways of making pots or of building arches." A meme-complex, or "memeplex,"" is a collection of these memes that tend to replicate together. Crucially, not all memes are created equal: Dawkins suggests that “longevity, fecundity, and <<define "copying-fidelity" "Loss">> determine how well a unit of culture will replicate and spread through the meme pool <<cite "192" "Dawkins, Richard. The Selfish Gene">>. For many memeticists, these phrases and ideas both parasitize the mind and form it; as Daniel Dennett puts it in his 1991 book <i>Consciousness Explained</i>, “the haven all memes depend on reaching is the human mind, but a human mind is itself an artifact created when memes restructure a human brain in order to make it a better habitat for memes” <<cite "207" "Dennett, Daniel. Consciousness Explained.">> In other words, the meme perspective articulates a reflexive relationship between <<define "information" "Information">>-as-content and consciousness-as-form; individuals arise out of the collection of memes in their minds.</p>
+
+<p>The term is commonly (and often interchangeably) used alongside <<define "viral" "Virus">> to describe units of information that spread from person to person across the Internet. Limor Shifman argues that the meme is the "best concept to encapsulate some of the most fundamental aspects of the Internet," providing a vocabulary to examine the “gradual propagation from individuals to society, reproduction via copying and imitation, and diffusion through selection and competition” that units of culture undergo <<cite "18" "Shifman, Limor. Memes in Digital Culture.">>. This approaches the way that ‘meme’ gets used online: as a way of describing the cultural flotsam of the Internet.</p>
+
+<p>Michele Knobel and Colin Lankshear gloss this vernacular use of the term meme, which better describes the particular way in which memes operate online, "to describe the rapid uptake and spread of a 'particular idea presented as a written text, image, <<define "language 'move'" "Language Game">>, or some other unit of cultural stuff” <<cite "202" "Lankshear, Colin, and Michele Knobel. New Literacies.">>. The way that the meaning of the word meme has mutated, from Dawkins’ definition to this vernacular use, has been taken by Dawkins and others to be indicative of the way that memes themselves function; in a speech given at the Cannes Film Festival, Dawkins announced that "the very idea of the meme has itself mutated and evolved in a new direction. An Internet meme is a hijacking of the original idea. Instead of mutating by random chance […] Internet memes are altered deliberately by human activity. In some cases, this can take the form of genuinely creative art" <<cite "4:08" "Dawkins, Richard. Just for Hits.">>. Although this distinction is a helpful one, it elides the fact that many Internet memes are mutated not by humans but instead by <<define "computers" "AI">>, or by a collaboration between humans and machines. Still, the difference between a meme in the classic sense and an Internet meme is not as great as it might seem; indeed, the latter is primarily a subset of the former, and drawing a hard distinction between memes with digital material supports and memes with analogue supports is only helpful inasmuch as the difference between the two is instructive.</p>
+
+For some examples of memes, see the <<excerpt "Meme Gallery">>.
 
 
 :: influenza [definition todo] {"position":"2249,1606","size":"100,100"}
@@ -147,15 +167,31 @@ Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia<
 For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages <<define "motion-capture data" "Motion-capture data">> to transcode captured <<define "meatspace" "Meatspace">> gestures into data that can be used to animate a model.
 
 :: Meatspace [definition]
-Meatspace is the analog inversion of <<define "cyberspace">>: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:
+<p>Meatspace is the analog inversion of <<define "cyberspace" "Cyberspace">>: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:</p>
 
-"For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">>
+<p>"For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">></p>
 
-:: Cyberspace [definition todo]
-Not meatspace! Online, chummers. Requires expansion.
+:: Cyberspace [definition nobr]
+<p>"Cyberspace" is a now-dated term referring to the online world as the digital inversion of <<define "meatspace" "Meatspace">>. As Lincoln Dahlberg writes in a 1998 article, cyberspace is a "virtual meeting place" that, at that point, was seen as "providing the basis for the revitalisation of the public sphere and democracy" - in other words, a would-be utopian update to Jürgen Habermas's "public sphere" <<cite "1" "Dahlberg, Lincoln. Cyberspace and the Public Sphere: Exploring the Democratic Potential of the Net.">>. Dahlberg's article is prescient inasmuch as it identifies the consolidation of cyberspace under the aegis of capital, in the form of telecommunication and technology companies, as reason to be wary of over-utopian theorizing.</p>
+
+<p>Chip Morningstar and F. Randall Farmer's piece in the 2003 <i>New Media Reader</i>, defines cyberspace less in terms of its technological support and more in terms of the "interactions among the actors within it" <<cite "664" "Morningstar, Chip, and Farmer, F. Randall. The Lessons of Lucasfilm's Habitat.">>. In this telling, cyberspace is first and foremost a "many-participant environment" where various sorts of actors come together, converse, and interact.</p>
+
+<p>For myself, the term cyberspace brings to mind two platforms where I grew up - <<define "MUDs" "MUD">> and <<define "World of Warcraft">>. I spent hours of every day in these virtual worlds, inhabiting textual and graphical <<define "personae" "Persona">> with bodies radically different from my own and answering to names with no connection to my own. I made friends that I remain in contact with to this day; I was the best man at one such friend's wedding. On many days, I spent more time online than off, and the social behavior with which I gestured myself into being was platformed in this cyberspace.</p>
+
+<p>Of course, this was a more radical idea in 2019 than it became in 2020, when many of the knowledge workers who I assume are the audience for this dissertation found themselves living their lives in cyberspace, struggling against the <<define "lossy" "Loss">> constraints of platforms like Zoom.</p>
+
+
+:: MUD [definition todo]
+<p>MUD stands for "Multi-User Dungeon" and describes a once-popular genre of multiplayer text-based roleplaying games that preceded massively multiplayer online RPGs like <<define "World of Warcraft">>. They worked a bit like a multiplayer version of early adventure games like Zork; users (often volunteers) wrote room descriptions, monster descriptions, in-world books, and indeed whole worlds, and then wrote characters to explore those worlds.</p>
+
+<p>I would estimate that I spent around 3500 hours on MUDs between the age of 15 and 25; I met my first girlfriend on one, through out-of-character chats, and made many friends with whom I remain close. I spent around 1000 hours as Adrian Fripp, a very important druid and one-time king, and on many days spent more time as him than as Ken Alba. Spending that much time as someone else necessarily changes the player; I would not be who I am without the time I spent growing up in this particular kind of world. Without MUDs, many of the questions that have animated my research into performance and identity would never have occurred to me.</p>
 
 :: Avatar [definition todo ]
-An avatar is the electric body one projects oneself into and through in order to exist on digital platforms. (Expand.)
+An avatar is the electric body one projects oneself into and through in order to exist on digital platforms. Avatars are often, but not always, graphical in nature, and range from the simple "@" symbol of 1980's <i>Rogue/i> and other early dungeon crawlers to the infinitely customizable bodies available in contemporary video games like <i>Dragon Age</i> or <i>VR Chat</i>. 
+
+
+:: Persona [definition nobr]
+<p>The word "person" stems etymologically from the Latin <i>persona</i>, meaning "mask used by a player / character in a play – or the part played by a person in life, character, role, position" <<cite "OED" "Oxford English Dictionary">> "Person" and "persona" suggest two ways of understanding personhood: in one, the subject is their individuality, their mind, their personality – in a word, their self. In the other, a person is constituted by the way their identity is performed and perceived by other people – a sort of constructed, intersubjective social identity made up by the masks they wear. This decentered subject has been the object of critical study for decades now. Judith Butler, in particular, has provided insight into the way a subject is constituted by their iterated performative acts, the organ of which is the body. Her argument is compelling, but as we migrate to new, digital worlds, it makes less sense to privilege the material body over the <<define "avatar" "Avatar">> as the instrument with which one plays oneself.</p>
 
 :: Section 107 of the Copyright Act [definition] {"position":"4194,2268","size":"100,100"}
 "107. Limitations on exclusive rights: Fair use
@@ -180,7 +216,7 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 
 
 :: Glitch [definition todo] {"position":"3719,2968","size":"100,100"}
-The glitch here is defined as both a technical term and as an aesthetic moment.
+The <span class="glitch" data-text="glitch">glitch</span> here is defined as both a technical term and as an aesthetic moment.
 
 From a technical perspective, a glitch is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
 

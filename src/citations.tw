@@ -1,3 +1,9 @@
+:: Bibliography [nobr]
+<<set _passages to Story.lookup("tags", "citation")>>
+<<for _i to 0; _i lt _passages.length; _i++>>
+		<<print _passages[_i].text>>
+<</for>>
+
 :: Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution. [citation]
 
 Lee, Maurice. <i>Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution.</i> Princeton, NJ: Princeton University Press, 2019.
@@ -77,5 +83,23 @@ Gibson, William. <i>Neuromancer</i>. Ace City Books, 1983.
 :: Floridi, Luciano. Information: A Very Short Introduction. [citation] {"position":"6353,223","size":"100,100"}
 Floridi, Luciano. <i>Information: A Very Short Introduction.</i> Oxford: Oxford University Press, 2010.
 
-:: Gitelman, Lisa. 'Raw Data' is an Oxymoron.
+:: Gitelman, Lisa. 'Raw Data' is an Oxymoron. [citation]
 Gitelman, Lisa, ed. <i>"Raw Data" is an Oxymoron</i>. MIT Press, 2013.
+
+:: Dawkins, Richard. The Selfish Gene. [citation]
+Dawkins, Richard. <i>The Selfish Gene</i>. Oxford University Press, 2006.
+
+:: Dennett, Daniel. Consciousness Explained. [citation] 
+Dennett, Daniel. <i>Consciousness Explained</i>. New York: Back Bay Books, 1991.
+
+:: Shifman, Limor. Memes in Digital Culture. [citation]
+Shifman, Limor. <i>Memes in Digital Culture</i>. Cambridge, Massachussets: MIT Press, 2014.
+
+:: Lankshear, Colin, and Michele Knobel. New Literacies. [citation]
+Lankshear, Colin, and Michele Knobel. <i>New Literacies</i>. 3rd Edition. New York, NY: McGraw-Hill Open University Press, 2011.
+
+:: Dawkins, Richard. Just for Hits. [citation]
+Dawkins, Richard. 2013. "Just For Hits - Richard Dawkins." Filmed Cannes, France. Video, 4:08. <a target="_blank" href="https://www.youtube.com/watch?v=GFn-ixX9edg"> .
+
+:: Butler, Judith. 'Performative Acts and Gender Constitution.' [citation]
+Butler, Judith. “Performative Acts and Gender Constitution: An Essay on Phenomenology and Feminist Theory.” <i>Theater Journal</i>, Vol. 40, No. 4. (Dec., 1988), pp519-531.

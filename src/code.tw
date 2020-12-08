@@ -215,6 +215,7 @@ for (i = 0; i < coll.length; i++) {
 
 <<widget "total_passages">>
 	<<set _tags to tags()>>
+	<<unset _passages>>
 	<<if _tags.includes("intro")>>
 		<<set _passages to Story.lookup("tags", "intro")>>
 	<<elseif _tags.includes("bk")>>
