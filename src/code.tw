@@ -254,9 +254,9 @@ for (i = 0; i < coll.length; i++) {
 
 <div id="settings-list">
 	<<link '<div class="settings-button" id="bookmark-link"><i class="material-icons">bookmark</i> <span class="settings-text">Bookmarks</span></div>' 'Bookmarks'>><</link>>
-	<div class="settings-button" id="restart-button"><i class="material-icons">refresh</i> <span class="settings-text">Restart</span></div>
 	<div class="settings-button" id="save-button"><i class="material-icons">save</i> <span class="settings-text">Save</span></div>
 	<div class="settings-button" id="load-button"><i class="material-icons">history</i> <span class="settings-text">Load</span></div>
+	<div class="settings-button" id="restart-button"><i class="material-icons">refresh</i> <span class="settings-text">Restart</span></div>
 </div>
 
 <<script>>
