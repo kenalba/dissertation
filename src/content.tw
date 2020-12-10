@@ -167,7 +167,7 @@ In progress.
 
 <i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
 
-<<silently>><<set _next_passage to "HS 1">><</silently>>
+<<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
 
 :: Case Study: BLUE KETTLE {"position":"1872,1139","size":"100,100"}
