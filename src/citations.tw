@@ -1,7 +1,7 @@
 :: Bibliography [nobr]
 <<set _passages to Story.lookup("tags", "citation")>>
 <<for _i to 0; _i lt _passages.length; _i++>>
-		<<print _passages[_i].text>>
+		<<print _passages[_i].text>><br>
 <</for>>
 
 :: Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution. [citation]
@@ -99,7 +99,7 @@ Shifman, Limor. <i>Memes in Digital Culture</i>. Cambridge, Massachussets: MIT P
 Lankshear, Colin, and Michele Knobel. <i>New Literacies</i>. 3rd Edition. New York, NY: McGraw-Hill Open University Press, 2011.
 
 :: Dawkins, Richard. Just for Hits. [citation]
-Dawkins, Richard. 2013. "Just For Hits - Richard Dawkins." Filmed Cannes, France. Video, 4:08. <a target="_blank" href="https://www.youtube.com/watch?v=GFn-ixX9edg"> .
+Dawkins, Richard. 2013. "Just For Hits - Richard Dawkins." Filmed Cannes, France. Video, 4:08. <a target="_blank" href="https://www.youtube.com/watch?v=GFn-ixX9edg">Link</a>.
 
 :: Butler, Judith. 'Performative Acts and Gender Constitution.' [citation]
 Butler, Judith. “Performative Acts and Gender Constitution: An Essay on Phenomenology and Feminist Theory.” <i>Theater Journal</i>, Vol. 40, No. 4. (Dec., 1988), pp519-531.
