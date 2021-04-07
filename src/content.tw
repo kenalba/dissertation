@@ -24,6 +24,7 @@ Throughout, you can use the links on the sidebar to jump to a particular section
 
 The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.
 
+Try out [[Scroll Mode]]
 Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
 
 Thanks, and enjoy!
@@ -44,6 +45,40 @@ Thanks, and enjoy!
 
 [[Annotated Bibliography]]
 
+
+:: Scroll Mode [nobr]
+
+<<set $scroll_position to 500>>
+<a href="#bottom">Bottom button.</a>
+<button onclick="window.scrollTo(0, $scroll_position);"> click to scroll down 500 pixels </button>
+
+<br>
+<br>
+<br>
+
+	<<script>>
+		let scrolling = false;
+		
+		var all_passages = document.getElementById("passages");
+
+		all_passages.scroll = () => {
+			scrolling = true;
+		};
+		setInterval(()=> {
+			if (scrolling) {
+				scrolling = false;
+				console.log("Detecting scrolling.");
+				State.variables.scroll_position = all_passages.scrollTop;
+				console.log(State.variables.scroll_position)
+			}
+
+		}, 300); 
+	<</script>>
+
+<<scroll_case_study "eg">>
+
+
+<a name="bottom">Bottom.</a>
 
 :: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
 [[Case Study: BLUE KETTLE]] - (waiting for links)
@@ -284,7 +319,7 @@ If the play’s plot is unimportant and the ‘purpose’ of the play is its own
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
 
-:: Ross Menkman’s 2010 Glitch StudiesManifesto {"position":"1990,2802","size":"100,100"}
+:: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
 <a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
 
 

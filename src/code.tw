@@ -169,9 +169,9 @@ for (i = 0; i < coll.length; i++) {
 	<<set _label to $args[0]>>
 	<<if $args.length == 2>>
 		<<set _destination to $args[1]>>
-		<span class= "definition-link">[[_label->_destination]]</span>
+		<span class= "definition-link"><a name = "_destination">[[_label->_destination]]</a></span>
 	<<else>>
-		<span class= "definition-link">[[_label]]</span>
+		<span class= "definition-link"><a name = "_label">[[_label]]</a></span>
 	<</if>>
 <</widget>>
 
@@ -240,6 +240,30 @@ for (i = 0; i < coll.length; i++) {
 	<<if def _passages>>
 		<<print " / " + _passages.length>>
 	<</if>>
+<</widget>>
+
+<<widget "scroll_case_study">>
+/* Takes two arguments: a tag to print, Bool include_glossary, Bool include_excerpts, and Bool make_anchors */ 
+
+	<<set _tag to $args[0]>>
+	<<set _passages to Story.lookup("tags", _tag)>>
+
+	<<for _i to 0; _i lt _passages.length; _i++>>
+		<span class = "scroll_mode_passage">
+
+			<span class = "scroll_mode_page_number">
+				_i
+			</span>
+
+			<span class = "scroll_mode_passage_text">
+				<<nobr>>
+					<<include _passages[_i].title>>
+				<</nobr>>
+			</span>
+
+		</span>
+	<</for>>
+
 <</widget>>
 
 :: StoryCaption [nobr]
