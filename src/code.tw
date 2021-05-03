@@ -167,13 +167,27 @@ for (i = 0; i < coll.length; i++) {
 
 <<widget "define">>
 	<<set _label to $args[0]>>
-	<<if $args.length == 2>>
-		<<set _destination to $args[1]>>
-		<span class= "definition-link"><a name = "_destination">[[_label->_destination]]</a></span>
+	<<if $scroll_mode>>
+		<<if $args.length == 2>>
+			<<set _destination to $args[1]>>
+			<span class= "definition-link"><a href= "#_destination">_label</a></span>
+		<<else>>
+			<span class= "definition-link"><a href= "#_label">_label</a></span>
+		<</if>>
 	<<else>>
-		<span class= "definition-link"><a name = "_label">[[_label]]</a></span>
+			<<set _label to $args[0]>>
+		<<if $args.length == 2>>
+			<<set _destination to $args[1]>>
+			<span class= "definition-link">[[_label->_destination]]</span>
+		<<else>>
+			<span class= "definition-link">[[_label]]</span>
 	<</if>>
 <</widget>>
+
+
+			<span class= "definition-link"><a href= "#_destination">_label</a></span>
+
+
 
 <<widget "excerpt">>
 	<<set _label to $args[0]>>
@@ -257,15 +271,29 @@ for (i = 0; i < coll.length; i++) {
 
 			<span class = "scroll_mode_passage_text">
 				<<nobr>>
-					<<include _passages[_i].title>>
+					<a name="_passages[_i].title"></a><<include _passages[_i].title>>
 				<</nobr>>
 			</span>
 
 		</span>
 	<</for>>
 
+	<<if _include_glossary>>
+	GLOSSARY
+	<</endif>>
 <</widget>>
 
+
+/* 
+ 	recordScroll() {
+        this.scroll_data.push(this.state.scroll_top);
+    }
+
+    handleScroll(e) {
+        const scroll_top = e.target.scrollTop;
+        this.setState({scroll_top});
+    } 
+*/
 :: StoryCaption [nobr]
 
 <div id="navigation-list">

@@ -10,6 +10,21 @@ The signal is the part of a message that's not <<define "noise" "Noise">>. See a
 :: Noise [definition] {"position":"2140,2502","size":"100,100"}
 The noise is the part of the message that's not <<define "signal" "Signal">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
+:: Inforg [definition todo]
+Define this!
+
+:: Viduity [definition todo]
+Use the definitions from Krapp's Last Tape.
+
+:: Prosthetic [definition todo]
+Define this!
+
+:: Multiple Drafts [definition todo]
+Define this!
+
+:: Wetware [definition todo]
+Define this!
+
 :: Information [definition nobr] {"position":"3250,62","size":"100,100"}
 <p>The concept of ‘information’ is both central to this project and incredibly challenging to define. As Maurice Lee puts it, "the only thing on which scholars of information agree is that no one agrees on what information is" <<cite "12" "Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution.">>. A comparative analysis of popular definitions of information demonstrates how impossible it is to divorce such a definition from its instrumental context; as such, I've provided below a few pithy definitions. Clicking into each link will bring you to the necessary contexts.
 
@@ -111,6 +126,12 @@ Pragmatically, however, fair use is governed by a system of norms agreed upon by
 :: Information should be free. [definition todo] {"position":"4069,2268","size":"100,100"}
 I have more to say here, but I haven't said it yet.
 
+:: Feedback Loop [definition todo]
+Define this!
+
+:: Hyperhistory [definition todo]
+Define this!
+
 :: Information Age [definition todo]
 The Information Age needs more info here. See floridi.
 
@@ -189,7 +210,19 @@ Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia<
 
 For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages <<define "motion-capture data" "Motion-capture data">> to transcode captured <<define "meatspace" "Meatspace">> gestures into data that can be used to animate a model.
 
-:: Meatspace [definition]
+:: Thought Experiment [definition todo]
+Define this!
+
+:: Zuhanden [definition todo]
+Define this!
+
+:: Vorhanden [definition todo]
+Define this!
+
+:: Narrative Self [definition todo]
+Define this!
+
+:: Meatspace [definition nobr]
 <p>Meatspace is the analog inversion of <<define "cyberspace" "Cyberspace">>: the world of physical "meat suits" (that is, bodies). The term often attributed to William Gibson, who describes the meat/cyber binary in <i>Neuromancer</i> thusly:</p>
 
 <p>"For Case, who’d lived for the bodiless exultation of cyberspace, it was the Fall. In the bars he’d frequented as a cowboy hotshot, the elite stance involved a certain relaxed contempt for the flesh. The body was meat. Case fell into the prison of his own flesh." <<cite "6" "Gibson, William. Neuromancer.">></p>
@@ -203,8 +236,10 @@ For animation, a keyframe can be thought of like a single snapshot of a stop-mot
 
 <p>Of course, this was a more radical idea in 2019 than it became in 2020, when many of the knowledge workers who I assume are the audience for this dissertation found themselves living their lives in cyberspace, struggling against the <<define "lossy" "Loss">> constraints of platforms like Zoom.</p>
 
+:: Cyborg [definition todo]
+A definition goes here.
 
-:: MUD [definition todo]
+:: MUD [definition todo nobr]
 <p>MUD stands for "Multi-User Dungeon" and describes a once-popular genre of multiplayer text-based roleplaying games that preceded massively multiplayer online RPGs like <<define "World of Warcraft">>. They worked a bit like a multiplayer version of early adventure games like Zork; users (often volunteers) wrote room descriptions, monster descriptions, in-world books, and indeed whole worlds, and then wrote characters to explore those worlds.</p>
 
 <p>I would estimate that I spent around 3500 hours on MUDs between the age of 15 and 25; I met my first girlfriend on one, through out-of-character chats, and made many friends with whom I remain close. I spent around 1000 hours as Adrian Fripp, a very important druid and one-time king, and on many days spent more time as him than as Ken Alba. Spending that much time as someone else necessarily changes the player; I would not be who I am without the time I spent growing up in this particular kind of world. Without MUDs, many of the questions that have animated my research into performance and identity would never have occurred to me.</p>
@@ -274,6 +309,14 @@ This passage requires expansion.
 :: Motion-capture data [definition todo] {"position":"3721,4503","size":"100,100"}
 Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
 
+:: Cognition [definition todo]
+Define this!
+
+:: Memory [definition todo]
+Define this!
+
+:: Cognitive Loops [definition todo]
+Define this!
 
 :: Kant's Glitch [definition todo]
 
