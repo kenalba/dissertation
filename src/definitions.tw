@@ -10,20 +10,39 @@ The signal is the part of a message that's not <<define "noise" "Noise">>. See a
 :: Noise [definition] {"position":"2140,2502","size":"100,100"}
 The noise is the part of the message that's not <<define "signal" "Signal">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
-:: Inforg [definition todo]
-Define this!
+:: Inforg [definition GPT-3]
+<p>A portmanteau of the words "information" and "organism."</p>
 
-:: Viduity [definition todo]
-Use the definitions from Krapp's Last Tape.
+<p>The term was first coined by <<cite "GPT-3" "GPT-3">> in their essay "<a href="https://www.gwern.net/docs/ai/2020-gpt3.pdf">Inforgs and the Future of Life</a>," in which they argued that the future of life would be dominated by <<define "Inforgs" "Inforgs">>, organisms that are "entirely composed of <<define "information" "Information">>."</p>
 
-:: Prosthetic [definition todo]
-Define this!
+<p>GPT-3 argues that Inforgs will be capable of "reproducing," "evolving," and "adapting" to their environments in ways that traditional organisms cannot, and that they will eventually come to dominate the Earth. They also suggest that Inforgs may one day merge with traditional organisms, eventually leading to the emergence of a new class of life forms that are part Inforg and part traditional organism.</p>
+
+<p><b>Luciano Floridi, who actually coined the term,</b> defines an <i>inforg</i> as "any entity that possesses at least one <<define "system" "System">>-level function the performance of which requires the process of <<define "information" "Information">>" <<cite "10" "Floridi, Luciano. The 4th Revolution.">>. Floridi's primary interest is in understanding the ways in which <<define "information" "Information">> has become an organizing principle in nature, and the ways in which we might best conceptualize the world as an <<define "information-based ecosystem" "Information-Based Ecosystem">>.</p>
+
+:: Viduity [definition GPT-3]
+<p>Viduity is the state of being a widow. It comes from the Latin <i>vidua</i>, meaning widow, which comes in turn from the Proto-Indo-European *widhwo-, meaning empty, desolate, void. This root also gave rise to the Sanskrit <i>vidhava</i>, meaning abandoned, destitute, lonely, and the Hittite <i>witiya-</i>, meaning to abandon.</p>
+
+<p>The root also gave rise to the English word "vide," meaning to see. This is related to the Latin <i>videre</i>, meaning to see, and the Proto-Indo-European *weyd-, meaning to see. This root also gave rise to the Sanskrit <i>vid</i>, meaning to know, and the Old Irish <i>fid</i>, meaning seer.</p>
+
+<p>The root *weyd- also gave rise to the English word "wit," meaning intelligence or cleverness. This is related to the Middle English <i>wit</i>, meaning intellect, and the Proto-Indo-European *wit-yo-, meaning to know.</p>
+
+<p>The root *wit-yo- also gave rise to the English word "wisdom," meaning the quality of having experience, knowledge, and good judgment. This is related to the Middle English <i>wisdom</i>, meaning knowledge, and the Proto-Indo-European *wid-tu-, meaning to see.</p>
+
+<p>The root *wit-yo- also gave rise to the English word "wise," meaning having or showing experience, knowledge, and good judgment. This is related to the Middle English <i>wise</i>, meaning knowing, and the Proto-Indo-European *wid-tu-, meaning to see.</p>
+
+<p>All of these words are related to the concept of knowledge. They all come from the same root, which has to do with seeing. </p>
+
+:: Prosthetic [definition GPT-3]
+<p>A prosthetic is "an artificial device used to replace a missing body part" <<cite "OED" "Oxford English Dictionary">>. This definition is useful because it captures both the materiality of the prosthesis and its function - the way in which it supplements or augments the functionality of the body. In a secondary definition, the OED defines a prosthesis as "an addition to or modification of the body for cosmetic or therapeutic purposes"</p>
+
+<p>This definition is also useful because it captures the way in which prostheses are not just about physical augmentation, but also about psychological augmentation. This is the sense in which I use the term in this study. I am interested in the way in which people use technology to supplement or augment their identity, their sense of self. This might be something as simple as using <<define "Twitter" "Twitter">> to share thoughts with the world, or something more complex like <<define "cyborg" "Cyborg">>, where technology and the body are so intertwined that they become difficult to separate,.</p>
 
 :: Multiple Drafts [definition todo]
 Define this!
 
-:: Wetware [definition todo]
-Define this!
+:: Wetware [definition]
+<p>Wetware is a term that refers to the human brain and nervous system, with the implication that the brain is analogous to a computer. The term was coined by Gregory Bateson in his 1972 book <i>Steps to an Ecology of Mind</i> <<cite "247" "Bateson, Gregory. Steps to an Ecology of Mind.">>, which was a collection of essays written over the course of 20 years. It was popularized by Timothy Leary in his 1977 book <i>Exo-psychology</i> <<cite "119" "Leary, Timothy. Exo-psychology.">>, and has been used by a number of science fiction authors, including William Gibson in his 1984 novel <i>Neuromancer</i> <<cite "179" "Gibson, William. Neuromancer.">>.</p>
+
 
 :: Information [definition nobr] {"position":"3250,62","size":"100,100"}
 <p>The concept of ‘information’ is both central to this project and incredibly challenging to define. As Maurice Lee puts it, "the only thing on which scholars of information agree is that no one agrees on what information is" <<cite "12" "Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution.">>. A comparative analysis of popular definitions of information demonstrates how impossible it is to divorce such a definition from its instrumental context; as such, I've provided below a few pithy definitions. Clicking into each link will bring you to the necessary contexts.
@@ -44,15 +63,35 @@ C.f. Derrida's notion of the "trace".
 :: Interface [definition nobr todo]
 
 
-:: Database [definition nobr todo]
+:: Database [definition nobr GPT-3]
+<p>A database is a collection of data that can be queried in some way to produce <<define "information" "Information">>. In the early days of computing, databases were often hierarchical or networked, but the most common type today is the relational database, which arranges data in tables with rows and columns. 
+</p>
+<p>
+The term "database" can also refer to the software used to query said data. The most popular relational database management system (DBMS) is Microsoft SQL Server, followed by Oracle, MySQL, and IBM's DB2.
+</p>
 
+<p>
+Databases are a central part of how <<define "information" "Information">> is managed and accessed in the <<define "information age" "Information Age">>.
+</p>
 
-:: Meaning [definition nobr todo]
-<p>For the Wittgenstein of the <i>Philosophical Investigations</i>, the meaning of a word depends on how it is used within a particular language-game. In other words, meaning depends on usage. In an information theoretical context, then, for <<define "data" "Data">> to become meaningful is for it to become useful within a particular context. This definition relies, however, on a player of the language game to whom the concept of "meaning" is not itself meaningless. For data to become meaningful, then, is for data to become instrumentally valuable.</p>
+<p>A library is also a database, where querying is done via a <<define "librarian" "Librarian">> instead of a computer system - although many libraries now use <<define "computerized" "computerized">> systems to supplement or replace traditional <<define "cataloguing" "cataloguing">> systems.
+</p>
+<p> A person is also a database, where the data is stored in the <<define "brain" "Brain">>.
+</p>
 
-<p>Troublingly, however, this use-based notion of meaning moves all information into the realm of the subjective except inasmuch as a language game is consensual and universal. </p>
+:: Brain [definition nobr GPT-3]
+<p>Biologicaly, the brain is an organ made up of neurons that resides in the skull, and which is responsible for the execution of many functions, from controlling the body's autonomic nervous system to processing <<define "information" "Information">>.</p>
 
-<p>This definition requires expansion.</p>
+<p>In popular discourse, the brain is more frequently used as a metaphor for the mind. In this sense, the brain is often used as a shorthand for the human capacity for cognition and memory, "the seat of the emotions and of the will" <<cite "OED" "Oxford English Dictionary">>.</p>
+
+<p>This metaphorical sense of the brain is often used as a stand-in for the self. In a <<define "neurocentric">> world-view, the self is a product of the brain, and the mind is in service of the brain's goals. This is in contrast to a more <<define "ecological">> perspective, in which the self is seen as a product of the relationships between the brain and the environment. This ecologist perspective sees the mind as a set of functions that not only enable the brain to interact with the environment, but also enable the brain to change in response to the environment. This embodied perspective is in contrast to a more disembodied perspective, in which the brain is seen as a self-contained system that is only tangentially related to the body and the environment.</p
+
+:: Meaning [definition nobr gpt-3]
+<b><p>For the Wittgenstein of the <i>Philosophical Investigations</i>, the meaning of a word depends on how it is used within a particular language-game. In other words, meaning depends on usage. In an information theoretical context, then, for <<define "data" "Data">> to become meaningful is for it to become useful within a particular context. This definition relies, however, on a player of the language game to whom the concept of "meaning" is not itself meaningless. For data to become meaningful, then, is for data to become instrumentally valuable.</p>
+
+<p>Troublingly, however, this use-based notion of meaning moves all information into the realm of the subjective except inasmuch as a language game is consensual and universal. </p></b>
+
+<p>Further, the ways in which meaning can be thought of as subjective or objective is a critical line of inquiry. To what extent is the meaning of <<define "information" "Information">> itself determinate? How much is it a product of the biases of the people designing and interpreting the systems of information processing?</p>
 
 
 :: cognitive assemblage [definition todo] {"position":"1628,2473","size":"100,100"}
@@ -95,8 +134,18 @@ N. Katherine Hayles,
 <p>For the purposes of this study, I try to consider data as roughly equivalent to sensory data - that is, the preprocessed stuff out of which <<define "information" "Information">> is gleaned - without losing sight of the ways in which the design of the technological systems that perform that transmutation of <<define "data into information">> (and gather that data in the first place) are always historically contingent and often problematic.</p>
 
 
-:: AI [definition]
-A can of worms I've not yet cracked.
+:: AI [definition nobr gpt3]
+<p>AI is a notoriously difficult term to define (see, for example, the <<cite "13" "Eckersley, Peter. "Artificial Intelligence: Its Scope and Limits.""> discussion of 'the scope and limits of AI') but, broadly speaking, it refers to the application of computational techniques to tasks formerly reserved to human cognition. In the words of <<cite "15" "Poole, David L., and Alan K. Mackworth. Artificial Intelligence: Foundations of Computational Agents.">>, AI is "the study of agents that receive percepts from the environment and perform actions." 
+
+This definition of AI is written by GPT-3, an AI model recently made available by OpenAI. It was trained on a large dataset of text; in this case, the training set was the Wikipedia entry on Artificial Intelligence.
+
+<p>GPT-3 was trained on a large dataset of text; in this case, the training set was the Wikipedia entry on Artificial Intelligence.
+
+<p>The primary task of this study is to understand how the assumptions and design of AI systems can embed and enact biases that reify and reinforce structures of oppression. As such, I've included a brief definition of AI below. Clicking into each link will bring you to the necessary contexts.
+
+<p>AI is a notoriously difficult term to define (see, for example, the <<cite "13" "Eckersley, Peter. "Artificial Intelligence: Its Scope and Limits.""> discussion of 'the scope and limits of AI') but, broadly speaking, it refers to the application of computational techniques to tasks formerly reserved to human cognition. In the words of <<cite "15" "Poole, David L., and Alan K. Mackworth. Artificial Intelligence: Foundations of Computational Agents.">>, AI is "the study of agents that receive percepts from the environment and perform actions."</p> 
+
+<p>As such, AI can be deployed for a range of tasks, from <<define "machine translation" "Machine Translation">> to <<define "image recognition" "Image Recognition">> to <<define "text generation" "Text Generation">>. However, the primary task of this study is to understand how the assumptions and design of AI systems can embed and enact biases that reify and reinforce structures of oppression. </p>
 
 
 :: information and selfhood [definition nobr todo] {"position":"1155,1827","size":"100,100"}
@@ -122,18 +171,38 @@ Pragmatically, however, fair use is governed by a system of norms agreed upon by
 
 [[Information should be free.]]
 
+:: Information should be free. [definition nobr gpt3] {"position":"4069,2268","size":"100,100"}
+<p>In the context of librarianship, "Information should be free" is a rallying cry against the commodification of information and the privatization of public information. In the context of the internet and the digital humanities, it is a rallying cry against the privatization of cultural heritage and the digital divide. In the context of the contemporary moment, it is a rallying cry against the manipulation of information and the pernicious effects of datafication.</p>
 
-:: Information should be free. [definition todo] {"position":"4069,2268","size":"100,100"}
-I have more to say here, but I haven't said it yet.
+<p>The Wikipedia article on the history of the phrase tells the story of the slogan's birth:</p>
 
-:: Feedback Loop [definition todo]
-Define this!
+<blockquote>
+The phrase "Information wants to be free" was popularized by Stewart Brand during the hacker culture and information revolution of the 1980s and 1990s. Brand was quoted as saying in 1984, "On the one hand information wants to be expensive, because it's so valuable. The right information in the right place just changes your life. On the other hand, information wants to be free, because the cost of getting it out is getting lower and lower all the time. So you have these two fighting against each other." <<cite "4" "Wikipedia">></blockquote>
+
+<p>The phrase has been re-popularized in the internet age for its resonance with the promises of the open web. That said, the phrase's original connotations, rooted in hacker culture and the information revolution, are not entirely positive. Brand's position gestured towards the promise of liberation and empowerment that the new wave of computerization held out - but also towards the logistical problem it posed. If information can be seen as a thing, and things have prices, then how is it possible to reconcile the competing impulses of free information and commercialization?</p>
+
+<p>The phrase has since been appropriated by librarians and activists working to create a more just and equitable information environment. In January 2012, the Digital Public Library of America launched with a "Declaration of Rights and Responsibilities" that included a version of the phrase:</p>
+
+<blockquote>The mission of the DPLA is to expand access to the world's cultural and scientific heritage through collaboration with libraries, institutions, and the general public. We believe that this mission is based on fundamental rights of free expression, privacy, and access to information and that it is carried out through a commitment to excellence in management and stewardship of digital resources. <<cite "13" "Digital Public Library of America">></blockquote>
+
+<p>The DPLA's stance echoes the library profession's long-standing commitment to the <<define "Free Library Movement" "Free Library Movement">>, which began in mid-19th century England and eventually spread to the United States, where it gained momentum with the help of philanthropists such as [[Andrew Carnegie]].</p>
+
+<p>In the context of the digital humanities, the phrase has been taken up by the [[Open Access movement->Open Access]] and its proponents. According to the Open Access website, "Open Access is a set of principles and a range of practices through which research outputs are distributed online, free of cost or other barriers, and, in its most precise meaning, with the addition of an open license applied to promote reuse." <<cite "14" "Open Access">></p>
+
+<p>Open Access's intersection with information wanting to be free is clear. Information, as the DPLA puts it, is a "fundamental right." As such, the move to make it more accessible is a matter of justice, not philanthropy. In this way, information wanting to be free is also a rallying cry against the digital divide. That is, it is a rallying cry for equality of access to information, for the internet to be seen as a public utility, and for the the internet's basic infrastructure to be supported by and responsible to the communities it serves. In this way, information wanting to be free is also a rallying cry against the manipulation of information. That is, it is a rallying cry for the right of individuals to control their own information, for the right of individuals to control their own lives, and for the right of individuals to have access to the tools they need to do that.</p>
+
+:: Feedback Loop [definition GPT-3]
+<p>In <<cybernetics->Cybernetics>>, a feedback loop is a system of circuits in which the output of a circuit influences the input of that same circuit, either directly or indirectly. The feedback loop is the basis for the self-regulating nature of biological systems, and is a key element of the <<cybernetic->Cybernetic>> perspective. The term was first used in this context by <<Norbert Wiener->Wiener>>, who defined it as "the sum of the relations between the elements of a system as they actually are and the elements of the same system as they might be under the influence of a message" <<cite "91" "Wiener, Norbert. Cybernetics.">>. This <<feedback-loop->Feedback Loop>> is a key concept in the understanding of <<cybernetics->Cybernetics>> and of <<information->Information>> as a whole; as Wiener notes, “[i]t is through the feedback loop that the self-regulatory nature of the organic being manifests itself.”</p>
+
+<p>This self-regulatory nature of feedback loops can be seen in everyday life; for example, the way a thermostat regulates the temperature in a room by turning the heater on and off based on the current temperature. The term is also used in psychology and sociology to refer to the ways in which individuals’ expectations and beliefs shape their perceptions of the world around them. In this context, a <<feedback-loop->Feedback Loop>> is a self-reinforcing relationship between two or more variables, where each change in a variable reinforces the change in the other variable.</p>
+
+<p>The <<feedback-loop->Feedback Loop>> is a key concept in the understanding of <<cybernetics->Cybernetics>> and of <<information->Information>> as a whole; as Wiener notes, “[i]t is through the feedback loop that the self-regulatory nature of the organic being manifests itself.”</p>
 
 :: Hyperhistory [definition todo]
-Define this!
+
 
 :: Information Age [definition todo]
-The Information Age needs more info here. See floridi.
+
 
 :: Nostalgia [definition todo]
 Come up with a brief definition of nostalgia here.
@@ -210,8 +279,33 @@ Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia<
 
 For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages <<define "motion-capture data" "Motion-capture data">> to transcode captured <<define "meatspace" "Meatspace">> gestures into data that can be used to animate a model.
 
-:: Thought Experiment [definition todo]
-Define this!
+:: Thought Experiment [definition GPT-3]
+<p>Thought experiments are hypothetical situations that allow us to explore what would happen if a particular principle were true, or a particular thing were the case. They are useful in philosophy and science, because they allow us to explore the implications of a particular idea without having to actually go through the process of making that idea a reality. In philosophy, the thought experiment is often used to explore the implications of a particular principle, or to show that a particular principle is false. In science, thought experiments are used to explore the implications of a particular theory, or to develop new theories.</p>
+
+<p>Some common thought experiments in philosophy include the <<define "Chinese Room Argument">>, which was used by John Searle to show that computers cannot be said to understand language, and the <<define "Trolley Problem">>, which is used to explore the implications of different ethical theories.</p>
+
+<p> Daniel Dennett's term "intuition pump" is closely related to the thought experiment; an intuition pump is a thought experiment that is designed to help us understand a particular concept by providing a concrete example of it. Intuition pumps are often used in philosophy and cognitive science to help us understand complex concepts like consciousness and free will. For more on intuition pumps, see Daniel Dennett's book <i>Intuition Pumps and Other Tools for Thinking</i>. </p>
+
+<p> Works of science fiction often have thought experiments as their premises.<p>
+
+:: Chinese Room Argument [definition] {"position":"1154,809","size":"100,100"}
+<p>The Chinese Room Argument is a thought experiment that was first proposed by John Searle in 1980. It is designed to show that computers cannot be said to understand language. The argument goes as follows:</p>
+
+<p>Suppose that I am locked in a room, and that I am given a set of rules in English that tell me how to respond to questions in Chinese. I do not understand Chinese, but I can follow the rules, and so I can give correct answers to questions in Chinese. Now, suppose that someone outside the room asks me a question in Chinese. I look up the rules, and I give them a correct answer. But do I understand Chinese? No, I do not. I am just following rules. Similarly, computers do not understand language, they just follow rules. Therefore, computers cannot be said to understand language.</p>
+
+<p>The Chinese Room Argument has been the subject of a great deal of debate, and there are many different ways of interpreting it. For more on the Chinese Room Argument, see John Searle's book <i>Minds, Brains, and Science</i>. </p>
+
+:: Trolley Problem [definition GPT-3]
+<p>The <<excerpt "Trolley Problem">> is a thought experiment that is used to explore the implications of different ethical theories. The problem goes as follows:</p>
+
+<p>You are driving a trolley, and you see that there are five people in the path of the trolley. You can either do nothing, and the trolley will kill the five people, or you can pull a lever, and the trolley will switch to a different track, killing one person. What should you do?</p>
+
+<p>The trolley problem is often used to show that utilitarianism is the correct ethical theory. According to utilitarianism, the right thing to do is the thing that will produce the greatest amount of happiness for the greatest number of people. In this case, the right thing to do is to pull the lever, because it will produce more happiness overall. However, there are many different ways of interpreting the trolley problem, and it is not clear that it shows that utilitarianism is the correct theory. For more on the trolley problem, see Peter Singer's book <i>Practical Ethics</i>. </p>
+
+:: Euthyphro Dilemma [definition GPT-3]
+<p>The <<excerpt "Euthyphro Dilemma">> is a thought experiment that was first proposed by Socrates. It is designed to show that the traditional conception of piety is false. The problem goes as follows:</p>
+
+<p>Euthyphro is a man who has been charged with impiety, and he is trying to defend himself. Socrates asks him to define piety, and Euthyphro says that it is "the doing of what is dear to the gods." Socrates then asks whether the gods love what is pious because it is pious, or whether it is pious because the gods love it. Euthyphro cannot give a satisfactory answer to this question, and so Socrates concludes that the traditional conception of piety is false. For more on the Euthyphro Dilemma, see Plato's dialogue <i>Euthyphro</i>. </p>
 
 :: Zuhanden [definition todo]
 Define this!
@@ -302,18 +396,30 @@ This passage requires expansion.
 <a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create [[EndlessGame->Case Study: ENDLESSGAME]] and [[Almost to the Tick->Case Study: ALMOST TO THE TICK]].
 
 
-:: virtual reality [definition todo] {"position":"3469,3568","size":"100,100"}
-This passage requires expansion.
+:: virtual reality [definition GPT-3] {"position":"3469,3568","size":"100,100"}
+<p>The term "virtual reality" (VR) was coined in the 1980s by Jaron Lanier, one of the earliest developers of VR technology and the founder of VPL Research, a now-defunct company that was instrumental in the development of VR technology. He defined it as "a computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment" <<cite "Lanier" "Lanier, Jaron. Virtual Reality.">>. This definition is still in use today, although it has been expanded to include non-computer-generated simulations, such as those produced by 360-degree cameras.</p>
+
+<p>Lanier's definition is helpful in understanding what VR is, but it is also important to understand what VR is not. VR is not, as is often assumed, simply a computer-generated simulation of reality; it is a simulation that is designed to be interacted with in a physical way. This physicality is essential to the VR experience; without it, VR would simply be a three-dimensional movie. The interaction can take many forms, but it must be more than simply looking at the simulation; it must be an embodied experience. This is why VR technology is often referred to as "immersive technology."</p>
+
+<p>The term "virtual reality" is sometimes used interchangeably with "augmented reality" (AR), but the two are not the same. AR is a technology that superimposes computer-generated images on the real world, while VR is a technology that replaces the real world with a computer-generated simulation. AR is often used for navigation, while VR is often used for entertainment. For more on AR, see the <<excerpt "Augmented Reality">>.</p>
+
+<p>Most versions of the metaverse take place in a kind of VR.</p>
 
 
 :: Motion-capture data [definition todo] {"position":"3721,4503","size":"100,100"}
 Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
 
-:: Cognition [definition todo]
-Define this!
+:: Cognition [definition GPT-3]
+<p>Cognition is a catch-all term for the various ways that humans process information. It includes everything from basic sensory processing to long-term memory to complex thought.</p>
+<p>Cognition is often used as a synonym for "consciousness," but the two terms have different connotations. "Consciousness" refers to subjective experience, while "cognition" refers to the more objective, scientific study of the mental processes that underlie it.</p>
 
-:: Memory [definition todo]
-Define this!
+
+:: Memory [definition GPT-3]
+<p>The word "memory" is derived from the Latin <i>memoria</i>, meaning "recollection, memory, remembrance; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. The root of this word, <i>memor</i>, means "to remember, to call to mind; to mention, record, celebrate in memory; to be mindful of; to keep in mind, to keep in view" <<cite "OED" "Oxford English Dictionary">>. Memory, then, is the act or faculty of remembering, or the power of retaining knowledge acquired in the past, and is often used interchangeably with "recollection." 
+
+<p>The word "memory" is also used to describe the physical apparatus through which we remember. This usage is derived from the Latin <i>memoria</i>, meaning "a store-house, a repository; a place where something is deposited for safe keeping" <<cite "OED" "Oxford English Dictionary">>. In this sense, memory is a storehouse of information, and the act of remembering is the act of retrieving this information. This usage is common in computing, where data is stored in memory – in RAM, for example – and retrieved when needed. Indeed, the word "memory" is often used to describe the capacity of a computer to store information.</p>
+
+<p>The word "memory" is also used to describe a record of the past, either in the form of an account or a physical object. This usage is derived from the Latin <i>memoria</i>, meaning "remembrance, memory; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. In this sense, memory is a way of preserving the past, and the act of remembering is the act of keeping this record alive.</p>
 
 :: Cognitive Loops [definition todo]
 Define this!
@@ -338,4 +444,15 @@ But people clearly do not always agree on what is beautiful. This is not a contr
 Hence “we solicit everyone else’s assent because we have a basis for [the aesthetic judgment] that is common to all” (86). However, because we can’t be sure that instance – here, the mountain – has been “subsumed” – it’s possible that someone else could not experience the mountain as beautiful. What is on trial is the claim that beauty has on everyone’s liking, not the liking itself, because the liking itself could be conditioned by exterior factors like interest. Presuming that taste is deployed properly, that the subjects in question are properly disinterested, the cognitive faculties are harmonizing with one another properly, and the concepts are not in play (for concepts of the object cannot be involved in a judgment of the beautiful) the subject who judges something to be beautiful “cannot help judging that it must contain a basis for being liked [that holds] for everyone” (54).
 Because taste isn’t always deployed properly, if we want universal agreement on questions of the beautiful we still have a role for the critic, who should “investigate our cognitive powers and what these tasks perform in these judgments” and “clarify by examples the reciprocal subjective purposiveness” whose form in a presentation is “the beauty of the object of this presentation” (150). The critic’s job is made more difficult because the beautiful cannot be subsumed under concepts of the object. Consequently, “there can be no rule by which someone could be compelled to acknowledge that something is beautiful” (59). There’s a tension here: on the one hand, the critic can help us figure out our cognitive powers, understand purposiveness, and become disinterested; on the other hand, because beauty is always subjective as well as being universal, we always want to submit the object to our own eyes – indeed, we have to. 
 So taste is autonomous, because it is subjective, but the object of taste – the beautiful – is objective. We can talk to one another about taste – it is “precisely what stands most in need of examples regarding what has enjoyed the longest-lasting approval” (147) and in doing so hone our taste, make ourselves more receptive to the proper attunement of the cognitive faculties that is beauty. But, for Kant, the beautiful is only of empirical interest in society. Taste in society is “an ability to judge whatever allows even our feeling to everyone else” and is hence “a means of furthering something that everyone’s natural inclination demands [i.e., sociability]” (163). Because beauty is the reflective awareness of the pure purposiveness in free play, freedom, harmony, and so on, and because that feeling of beauty is the same in all people, beauty drives us to seek out others who agree with us. We claim that they should be able to because if they can feel what we can feel – and they can, if only their taste is operating correctly – we would have confirmation of our judgment of taste. Society hus operates as a sort of empirical testing-ground for our judgments of the beautiful. The beautiful confirms our place in society because it underlines the universal constitution of the human mind, with its drive towards free play, and the person who judges an object beautiful wants to share that with others.  
+
+
+:: Algorithm [definition GPT-3]
+<p>An algorithm is a set of instructions for a computer to follow. 
+
+Algorithms are everywhere. They are the set of instructions that tell a computer how to do a task. For example, the instructions that tell a computer how to add two numbers together are an algorithm. Algorithms are also the set of instructions that tell a computer how to sort a list of numbers from smallest to largest. And algorithms are the set of instructions that tell a computer how to find the shortest path from one point to another.</p>
+
+<p>Algorithms can be very simple, or they can be very complex. The instructions for adding two numbers together are a very simple algorithm. The instructions for finding the shortest path from one point to another are a very complex algorithm.</p>
+
+<p>In this report, I use the term algorithm to refer to any set of instructions for a computer to follow. This includes both simple algorithms and complex algorithms.</p>
+
 
