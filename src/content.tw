@@ -82,14 +82,18 @@ Thanks, and enjoy!
 <a name="bottom">Bottom.</a>
 
 :: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
-[[Case Study: BLUE KETTLE]] - (waiting for links)
 
-[[Case Study: HER STORY]] - (waiting for links)
+[[Frame->Section 1 Framing]]
 
-[[Case Study: THE DIAMOND AGE]] - (being written)
+[[Case Study: BLUE KETTLE]]
 
-[[Real Life: ????]]
+[[Case Study: HER STORY]]
 
+[[Case Study: ACHEWOOD]]
+
+[[Case Study: MA RAINEY'S BLACK BOTTOM]]
+
+[[Conclusion->Section 1 Conclusion]]
 
 :: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
 [[Case Study: PHAEDRUS]] - (being written)
@@ -206,14 +210,15 @@ In progress.
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
 
-:: Case Study: BLUE KETTLE {"position":"1872,1139","size":"100,100"}
+:: Case Study: BLUE KETTLE [nobr]
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
+<img style="max-width:100%" src="assets/imgs/blue_kettle_glitch_art_by_paul_klee.png" alt="Generated with Midjourney with prompt: 'blue kettle, glitch art, by paul klee'." title="Generated with Midjourney with prompt: 'blue kettle, glitch art, by paul klee'.">
 
 <<silently>><<set _next_passage to "Blue Kettle 1">><</silently>>
 
 
 :: Blue Kettle 1 [bk nobr] {"position":"1890,1302","size":"100,100"}
-<p>[[Caryl Churchill]]’s "Blue Kettle" is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of "Blue Kettle" is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words "a [[McGuffin]]". Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, "was [its] destruction." </p>
+<p>[[Caryl Churchill]]’s <i>Blue Kettle</i> is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of <i>Blue Kettle</i> is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words "a [[McGuffin]]". Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, "was [its] destruction." <<cite "viii" "Churchill, Caryl. Churchill Plays: 4">></p>
 
 <p>The agent of this destruction is what she calls a "[[virus]]": over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word "<span class="blue">blue</span>" or the word "<span class="kettle">kettle</span>." This begins in the second scene, where Derek says "You don’t have to <<blue "mess">> anything up"; by the fifth scene, we have lines like "I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even "<span class="blue">blue</span>" and "<span class="kettle">kettle</span>" have been replaced by their constitutive parts: Mrs. Plant’s final line, "<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?", is responded to, with appropriate finality, with Derek’s "<span class="blue">B</span>. <span class="kettle">K.</span>"</p>
 
@@ -225,73 +230,70 @@ A McGuffin is a cinematic term, coming from Hitchcock, to signify a sort of plot
 
 
 :: Blue Kettle 2 [bk] {"position":"1874,1452","size":"100,100"}
-Contemporary reviews of the play were positive, if occasionally befuddled, but returned again and again to the metaphor of a "linguistic virus" to describe the proliferation of "<<blue blue>>" and "<<kettle kettle>>" through the dialogue - a good decade before Churchill herself used it in the aforequoted foreword. Matt Wolf’s review for American Theater states that the play "concerns the breakdown of language - words and letters as a sort of virus that by play’s end have made a mockery of meaning"; Charles McNulty’s review for the Village Voice is titled "[[Language is a Virus]]" and suggests that "the linguistic equivalent of the [[Y2K]] virus spreads insidiously" through the play; and Gerard Raymond, also writing for The Village Voice, notes that Max Stafford-Clark, the play’s director, refers to the "language virus" as the heart of the play. Contemporary criticism has been similarly invested in the metaphor of the virus, but - like the reviews - has done little to consider the metaphor’s implications.
+Contemporary reviews of the play were positive, if occasionally befuddled, but returned again and again to the metaphor of a "linguistic virus" to describe the proliferation of "<<blue blue>>" and "<<kettle kettle>>" through the dialogue - a good decade before Churchill herself used it in the aforequoted foreword. Matt Wolf’s review for American Theater states that the play "concerns the breakdown of language - words and letters as a sort of virus that by play’s end have made a mockery of meaning" <<cite "1" "Wolf, Matt. True Blue and Dreamy">>; Charles McNulty’s review for the Village Voice is titled "Language is a Virus" and suggests that "the linguistic equivalent of the [[Y2K]] virus spreads insidiously" through the play <<cite "1" "McNulty, Charles. Language is a Virus">>; and Gerard Raymond, also writing for The Village Voice, notes that Max Stafford-Clark, the play’s director, refers to the "language virus" as the heart of the play <<cite "1" "Raymond, Gerard. Play and Anti-Play">>. Contemporary criticism has been similarly invested in the metaphor of the virus, but - like the reviews - has done little to consider the metaphor’s implications.
 
 <<silently>><<set _next_passage to "Blue Kettle 3">><</silently>>
 
 
 :: Blue Kettle 3 [bk] {"position":"1874,1606","size":"100,100"}
-Viruses can be broken up into three categories, more or less: a biological virus, like [[influenza]], a computer virus, like [[ILOVEYOU->viruses]] or [[STUXNET->viruses]], and a viral idea, or a [[meme]]. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
+<<define "Viruses" "virus">> can be broken up into three categories, more or less: a biological virus, like <<define "influenza">> or <<define "COVID-19">>, a computer virus, like <<define "ILOVEYOU">> or STUXNET, and a viral idea, or a <<define "meme">>. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
+
+<img style="max-width:100%" src="assets/imgs/virus_klee.png" alt="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'." title="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'.">
 
 <<silently>><<set _next_passage to "Blue Kettle 4">><</silently>>
 
 
-:: Blue Kettle 4 [bk] {"position":"1873,1752","size":"100,100"}
-Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, A Number, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in "Blue Kettle" itself, when Derek converses with one of his marks, Mrs. Oliver, about family:
-
-<span class = "script">MRS OLIVER:	Do you believe in heredity?</span>
-<span class = "script">DEREK: 		A bit.</span>
-
-The same scene goes on, however, to discuss something closer to the memetic version of replication:
-
-<span class = "script">MRS OLIVER:	But then there’s how you’re brought up. There’s family jokes.</span>
-<span class = "script">DEREK: 	Exactly.</span>
-<span class = "script">MRS OLIVER:	I mean I look at you and you could be anyone.</span>
-
-However, thinking about "<span class="blue">blue</span> <span class = "kettle">kettle</span>" as a kind of computer virus suggests a way of reading the play with information theory - and that reading provides a provocative vocabulary for considering the mediation between sense and nonsense that the play stages. 
+:: Blue Kettle 4 [bk nobr] {"position":"1873,1752","size":"100,100"}
+<p>Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, <i>A Number</i>, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in <i>Blue Kettle</i> itself, when Derek converses with one of his marks, Mrs. Oliver, about family:</p>
+<blockquote>
+<span class = "script">MRS OLIVER:	Do you believe in heredity?</span><br>
+<span class = "script">DEREK: 		A bit.</span><<cite "103" "Churchill, Caryl. Blue Kettle">>
+</blockquote>
+<p>The same scene goes on, however, to discuss something closer to the memetic version of replication:</p>
+<blockquote>
+<span class = "script">MRS OLIVER:	But then there’s how you’re brought up. There’s family jokes.</span><br>
+<span class = "script">DEREK: 	Exactly.</span><br>
+<span class = "script">MRS OLIVER:	I mean I look at you and you could be anyone.<<cite "103" "Churchill, Caryl. Blue Kettle">></span>
+</blockquote>
+<p>Thinking about "<span class="blue">blue</span> <span class = "kettle">kettle</span>" as a kind of computer virus suggests a way of reading the play with information theory - and that reading provides a provocative vocabulary for considering the mediation between sense and nonsense that the play stages. </p>
 
 <<silently>><<set _next_passage to "Blue Kettle 5">><</silently>>
 
 
-:: Blue Kettle 6 [bk] {"position":"1874,2046","size":"100,100"}
-How does that decoding take place? 
+:: Blue Kettle 6 [bk nobr] {"position":"1874,2046","size":"100,100"}
+<p>How does that decoding take place? </p>
 
-Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by [[local repetition->Blue Kettle Repetition]], or recognition of [[cliche->Blue Kettle Cliche]].
+<p>Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by local repetition or recognition of cliche.</p>
+
+<p>In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:</p>
+
+<blockquote>
+	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span><br>
+	<span class="script">ENID:	Why do you think?</span><<cite "105" "Churchill, Caryl. Blue Kettle">>
+</blockquote>
+
+<p>Enid’s question in response to Derek’s question suggests that "blue" stands here for "why", and the sentence is intelligible as "So why didn’t anyone let you know." Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.</p>
+
+<p>The recognition of <<define "clichés" "cliché">> and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:</p>
+<blockquote><span class="script">MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.<<cite "108" "Churchill, Caryl. Blue Kettle">></span></blockquote>
+<p>and</p>
+<blockquote><span class="script">MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?</span><<cite "110" "Churchill, Caryl. Blue Kettle">></blockquote>
+<p>both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of "break" with "blue," however, defamiliarizes the cliche, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.</p>
 
 <<silently>><<set _next_passage to "Blue Kettle 7">><</silently>>
 
-
-:: Blue Kettle Repetition [bk] {"position":"1999,2046","size":"100,100"}
-In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:
-
-	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span>
-	<span class="script">ENID:	Why do you think?</span>
-
-Enid’s question in response to Derek’s question suggests that "blue" stands here for "why", and the sentence is intelligible as "So why didn’t anyone let you know." Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.
-
-
-:: Blue Kettle Cliche 1 [bk] {"position":"2268,2046","size":"100,100"}
-Cliche is a particularly interesting tool for Churchill to use in light of this technological reading given the term’s etymology.
-
-The term ‘cliche’ is, literally, a technical term used by 19th century printers, coming from the verb ‘clicher’ meaning to click and signifying a stereotype block (stereotype’s etymology is similarly grounded in the printing press). If a printer had a particular phrase that they knew they’d have to use over and over again, they’d often keep have a set block with those words on it. The word cliche was chosen for otomotopaeic reasons, to echo the sound of a mold from a printing press striking metal - although ‘click’ has its own associations now, of course. Even "type," that literary phrase to describe someone whose character is more general and indicative of a class of persons than individuated, appears to be etymologically related to the process of technologically reproducing language via printing. These phrases are early examples of linguistic memes: viral idioms with a disposition that inclines them towards replication, mutation, and dissemination through the mental gene pool.
-
-
 :: Blue Kettle 7 [bk] {"position":"1874,2196","size":"100,100"}
-These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend - a fact made more clear to me while editing this section and having to read some of the quotations out loud. 
+These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend. Reading the quotations aloud sends this into sharp relief.
 
-Even by the eleventh and final scene, an exchange like: 
-
-<span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
+Even by the eleventh and final scene, an exchange like: <blockquote><span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
 <span class="script">MRS PLANT:		<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?</span>
-<span class="script">DEREK:		<<ket If Ket>> <<bl you b>> like. Or not.</span>
-
-is mostly comprehensible.
+<span class="script">DEREK:		<<ket If Ket>> <<bl you b>> like. Or not.</span><<cite "128" "Churchill, Caryl. Blue Kettle">></blockquote>is mostly comprehensible.
 
 <<silently>><<set _next_passage to "Blue Kettle 8">><</silently>>
 
 
 :: Blue Kettle 8 [bk] {"position":"1875,2346","size":"100,100"}
-Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that "<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?" is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting, of course, in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
+Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that "<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?" is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
 
 He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same <<excerpt "language game" "Language Game">>. Hence, perhaps, Churchill’s tongue-in-cheek admission that "Blue Kettle" was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
 
@@ -596,10 +598,6 @@ A case study about my <a target="_blank" href="https://especiallygreatliterature
 :: Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW {"position":"5694,1043","size":"100,100"}
 Double-click this passage to edit it.
 
-
-:: Critique of Judgment [todo] {"position":"1999,2946","size":"100,100"}
-KANT!
-
 :: Caryl Churchill [todo] {"position":"4975,100","size":"100,100"}
 Caryl Churchill is the British playwright of [[The Skriker]], [[Love and Information]], [[Blue Kettle->Case Study: BLUE KETTLE]], and many other plays.
 
@@ -626,18 +624,6 @@ This mode of informationally-informed reading, which I’m tentatively calling l
 The naive [[schematic->informatic schematic]] for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but "Blue Kettle" has none. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that "performance provides the supplement that brings the textual DNA to theatrical life"; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.
 
 <<silently>><<set _next_passage to "Blue Kettle 6">><</silently>>
-
-
-:: Blue Kettle Cliche [bk] {"position":"2134,2044","size":"100,100"}
-The recognition of [[cliches->Blue Kettle Cliche 1]] and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:
-
-<span class="script">MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.</span>
-
-and
-
-<span class="script">MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?</span>
-	
-both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of "break" with "blue," however, defamiliarizes the cliche, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.
 
 
 :: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
@@ -738,6 +724,112 @@ It is possible, then, to identify (as Emily Short does, in her longer meditation
 
 [[Return->Section 1: GESTURE]]
 
+
+:: Case Study: ACHEWOOD [nobr]
+<h1>I Have Weird Ideas About What It Means To Be A Man: Oughties Multimedia Masculinity in <i>Achewood</i></h1>
+
+<a href="https://achewood.com/2005/07/12/title.html"><img style="max-width:100%" src="assets/imgs/achewood_weird_ideas.png" alt="[A car. Beef is driving, Ray is in the passenger seat.] Ray: Heh! Check it out, Beef - we're behind one of those dudes who messes with the letters on his Toyota! [We see the back of the Toyota pickup in front - the TOYOTA logo simply reads a central 'OYO'.] Ray: 'OYO.'' I see that one a lot. What's he even tryin' to get across? [Beef has a mental image - it is the Toyota, the sign now reading 'I HAVE WEIRD IDEAS ABOUT WHAT IT MEANS TO BE A MAN']" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'I once lived next to an enterprising fellow who stripped the letters completely and had his own made, in the Toyota typeface, which spelled RAIDERS'"></a>
+
+<<silently>><<set _next_passage to "Achewood 1">><</silently>>
+
+:: Achewood 1 [aw nobr]
+<p>In 2007, Lev Grossman, writing for Time Magazine, named Chris Onstad’s webcomic Achewood the year’s best graphic novel, despite it not being a graphic novel in “every, or maybe any, traditional sense, since its primary venue is on the web.”<<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">> Achewood was a long-running webcomic by that point; Onstad published more than 2600 strips, mostly between 2001 and 2010, a run that earned it a place on the AV Club’s list of Best Comics of the 00’s.<<cite "*" "Heller, Jason, et al. 'The Best Comics of the '00s'">></p>
+<p>Like most works under examination in this document, Achewood is a difficult work to summarize or sort generically; in Grossman’s words, it “defies categorization or description, but a brief, futile effort at a synopsis might look something like this: A bunch of cats, some robots, a bear and an otter who's 5 years old, live together in a fictional neighborhood called Achewood, which you might usefully think of as a grown-up, suburban, stoned version of Pooh's Hundred Acre Wood.”<<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">> The comic is leavened with a healthy dose of <<define "'Mexican' Magical Realism">>, a fixation on cooking and food more broadly, a whip-smart comedic sensibility, an incredible ear for dialogue, and a myopic lack of female characters.</p>
+
+<<silently>><<set _next_passage to "Achewood 2">><</silently>>
+
+:: Achewood 2 [aw nobr]
+<p>What makes Achewood interesting from the perspective of <<define "informativity" "information and selfhood">> is its vast array of paratexts written in the voice and from the perspective of Onstad’s characters. In addition to the webcomic, Onstad has written: a cookbook with each recipe in the voice of a different character; three novellas written by misogynistic multiple-murderer “Nice Pete” Cropes; seven issues of a ‘zine by Cassandra “Roast Beef” Kazenzakis, who was called “the best new fictional character across any medium in at least a decade” by Rob Harvilla in the Village Voice; a long-running advice column by Ray Smuckles [in the style of Playboy/Penthouse]; and - most impressively - a series of 12 blogs, each written in the voice of a different character - including one blog written by “Chris,” Onstad’s author persona who appears very occasionally in the strip. Exactly one of the twelve blogs is written by a female character. The subject matter of all of this material is in many ways diverse - it’s certainly strange - but the central fixation is what it means to be a man in the 2000s.</p>
+
+<<silently>><<set _next_passage to "Achewood 3">><</silently>>
+
+:: Achewood 3 [aw nobr]
+<p>What Achewood’s heterogeneric, multimedial form reflects is its attitude towards masculinity as a fragmentary, discontinuous performance. The self-conscious utilization of multiple genera makes possible the presentation of a collection of characters who themselves already represent non-traditional forms of masculinity not merely as punch-lines but as fully fleshed-out and sympathetic fictional subjects - from Teodor, an anxious bear whose main passion is cooking, to Lyle, the alcoholic tiger with a talent for calligraphy, both of whose blogs reflect their respective passions. By disseminating its male characters’ interiorities across a variety of born-digital media, Achewood offers a model of what I’m calling multimedia masculinity. This model is of particular interest - and has particular explanatory power - in a contemporary moment where gender performance is increasingly multimedial and fragmented --strewn across multiple social media platforms as much as it is embodied and in person. I will focus here on one character — Ray Smuckles, one of Achewood’s two main cats.</p>
+
+<<silently>><<set _next_passage to "Achewood 4">><</silently>>
+
+:: Achewood 4 [aw nobr]
+<p>What do I mean by multimedia masculinity? The term takes as its point of departure Judith Butler’s insight that gender is a socially constructed system of norms that must be constantly performed and prescriptively regulated to maintain its illusion of stability - a “repeated stylization of the body, a set of repeated acts within a highly rigid regulatory frame that congeal over time to produce the appearance of substance.” However, this contemporary moment, where ‘embodiment’ is dematerialized to an unprecedented extent, warrants a close consideration of what ‘bodies’ are stylized to produce the appearance of a gendered substance. Considering masculinity from a multimedial perspective means doing just this: thinking about the different platforms, like social media, through and on which social gestures are performed.</p>
+
+<p>Multimedia masculinity, then, is a way of thinking about masculinity as it is performed through the bodies electric: in Facebook posts and tweets, on MMOs and Slack servers. Gender in this mode of thinking becomes something akin to genre; as Lauren Berlant puts it in The Female Complaint, “To call an identity like a sexual identity a genre is to think about it as something repeated, detailed, and stretched while retaining its intelligibility, its capacity to remain readable or audible across the field of all its variations.” Medium - or platform - vary, and inflect both gender and genre, so the kinds of masculinity that these different media make possible - and prevent - are necessarily inflected by the generic tropes and traits of the platform in question. </p>
+
+<<silently>><<set _next_passage to "Achewood 5">><</silently>>
+
+:: Achewood 5 [aw nobr]
+
+<p>A good point of entry for considering masculinity in Achewood is the 2006 arc “The Great Outdoor Fight,” which was the first story arc published in hardcover, by Dark Horse Press in 2008. The Great Outdoor Fight tracks Ray and Roast Beef as they compete in - and ultimately win - the eponymous fight. “Three days! Three acres! Three THOUSAND men! Only one will win THE GREAT OUTDOOR FIGHT!”</p>
+
+<img style="max-width:100%" src="assets/imgs/gof_poster.jpeg" alt="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight." title="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight.'">
+
+<<silently>><<set _next_passage to "Achewood 6">><</silently>>
+
+:: Achewood 6 [aw nobr]
+
+<p>Ray initially joins the Fight when he learns that his estranged father, Ramses Smuckles, was a previous winner, making him “B.O.C.” - Blood of Champion.</p>
+<a href="http://achewood.com/index.php?date=01312006"><img style="max-width:100%" src="assets/imgs/achewood_boc.png" alt="[Ray is on the phone.] Ray: Yeah, I'm callin' to register for the 2006 Great Outdoor Fight. Ray: What? Ray: Qualifyin' rounds be damned. I'm BOC. {{BOC = Blood-of-Champion.}} Ray: 1973. Rodney Leonard Stubbs. I'm his son. Ray: Hell yes I can prove it. You name the place. I call you or your local representative out. Ray: Okay, hold on. I gotta grab a pen. [Ray rummages through his dresser drawers for a pen.] Ray: Hey, sorry 'bout that. Yeah. Ramada Inn, by the airport, room 215. Thanks. [The note Ray has written is completely illegible - a large R, a large A, '2...5?', and what looks like some ??'s are scribbled on the page.] Ray: Oh, whose ass am I kicking? Yours, or another guy? Ray: Seriously? Envel??pe Martinez? Fight Champion 1997? Nice! Ray: Alright, thanks Aaron. [Ray begins dialing another phone number.] <<beep>><<bop>><<dootle>><<dop>> Ray: Envelope! It's Ray, across the street! Ray: Listen, man! You know how I agreed to stop callin' the police over your animatronic nativity scene? Ray: Yeah, I got a favor. {{Alt-text: The assumption of this comic is that you all are familiar with my neighbor}}
+" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'The assumption of this comic is that you all are familiar with my neighbor'"></a>
+
+<p>Conversely, Roast Beef, who is Ray’s best friend, uses his computer to hack himself an invitation to the fight.</p>
+<a href="https://achewood.com/2006/02/07/title.html"><img style="max-width:100%" src="assets/imgs/achewood_beef_hacking.png" alt="[Ray and Roast Beef are riding in a motorcycle with a sidecar.] Ray: How the hell did you get into the Fight, Beef?! Roast Beef: Let's just say their database is accessible via any networked computer Ray: You HACKED your way into the Fight? Ray: Still, man, you can't hack a massive furious Nazi from San Bernadino. You got to raise your fists! Roast Beef: I ain't need no Dell Inspirion to bust a man down on into his component pieces Ray: I know you like to read Nate Small and all, but when you ever been in any single fight? [Ray and Roast Beef are approaching a large, fenced-in compound.] Roast Beef: Well would you look at that here we are Roast Beef: Watch this [Roast Beef runs a guy over, breaking his leg.] Random Guy: AUGH! Ray: Dude! What the hell?! Roast Beef: He won't compete but he'll be fine in a few weeks Roast Beef: That part of the leg heals quickly Ray: You did that on purpose? Roast Beef: I ain't Frederick H. Coca-Cola but I do know something about building a brand [Roast Beef brings the motorcycle to a stop.] <<pouf>> [Roast Beef takes off his motorcycle helmet.] Roast Beef: Alright you want a hot dog or a Polish or anything {{Alt-Text: Probably a good idea to dust off a couple Polish before the big round}}" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'Alt-Text: Probably a good idea to dust off a couple Polish before the big round'"></a>
+
+<p>The twosome make their way through the Fight, eventually dispatching the competition, and the arc climaxes with a confrontation between Ray and his father. Ramses tells Ray that the only way to win the Fight is to beat his friend Beef raw.</p>
+
+<a href="https://achewood.com/2006/03/17/title.html"><img style="max-width:100%" src="assets/imgs/achewood_ray_and_ramses.png" alt="[Ray has recently been reunited with his father following his semi-victory in the Great Outdoor Fight] Ray: Dad! It's me, Ray! From... from Sondra, you know! Ramses Luther Smuckles: Easy, boy. Don't rap mush with me. Ramses: you in the goggles. What's your name. Roast Beef: Uh hello Mr. Smuckles my name is Roast Beef Ramses: Hush, Roast Beef. Roast Beef: Yes sir [A view of the control tower] Ramses: They told me my boy was int eh Fight this year! I been up in that tower since they raised the gate, watchin' you two. Ray: How'd we do, dad? How'd we look? Ramses: Roast Beef, do I have to hush him? Roast Beef: Hush Ray Ramses: You two's tight since small times, ain't you. Always fightin' as a team, Roast Beef usin' brains, Ray usin' brawn... Ramses: Problem IS, only one man can win this Fight! Ray: It's okay, dad, Beef said he'd lay it down for me! I'm gonna drop him easy. Ramses: I though you rookies might get up to as much. A lay-down ain't gonna fly with the men in the tower, you realize. They see anything short of a cold, ruthless ass-beatin', they'll bring out the Jeeps. Roast Beef: Oh not the Jeeps no Ray we ain't goin' that route please Ray: But... but I can't beat real on Beef! He's my oldest friend! Ramses: If that's the arrangement, you got to beat him 'till his blood runs, boy. You got to beat him 'till he can't crawl, see, or cry. Those are the rules, and all eyes are on you." title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'You made your bed, now severely beat your friends in it!'"></a>
+
+
+<p>Ray, though, refuses. He rejects the masculine code posited by his father and by the Fight as an establishment, declaring that they should “become the ruling body, dude!” and setting the whole field on fire.</p>
+
+<p> As he and Roast Beef ride off, Ray says, “Damn. This is a thing, isn’t it?” And Beef responds: “This is completely a thing. Our every move is the new tradition.” </p>
+<<silently>><<set _next_passage to "Achewood 7">><</silently>>
+
+:: Achewood 7 [aw nobr]
+<p>The storyline itself - a battle royale to determine who is manliest - is typical for comics in general, a medium with more than its fair share of supercharged combat in its DNA. In fact, Achewood has another arc, "The Badass Games", which explores similar territory — although there, the competitors prove their manliness by talking to a convict, befriending a dog, and baking a loaf of bread.</p>
+
+<a href="https://achewood.com/2006/06/09/title.html"><img style="max-width:100%" src="assets/imgs/achewood_badass_games.png" alt="[T??odor, Cornelius, Vlad, Lyle, & Pat are gathered facing Ray & Roast Beef. Ray is addressing them, Beef stands silently next to Ray.] Ray: Welcome to the BADASS GAMES! Ray: Badass men do not mess around! They get down to business IMMEDIATELY! Ray: Each of you take a place at one of the five tables when I say GO! Ray: Your first challenge: BAKE A LOAF OF BREAD USING THE PROVIDED FLOUR, WATER, YEAST, AND SALT! Vlad [angrily]: What is badass about bakink loaf of bread?! I am thinkink we are at least Ultimate Fightink against wino! Ray: Nothing is more old-school than baking your own damn staff of life! A dude who can walk into any kitchen in the world and make bread is COMPLETELY RAW! [SOON.] Beef [addressing a sad Lyle]: Lyle your yeast didn't bloom dogg I mean this is a top drawer failure by any measure in the book Ray [addressing a sad T??odor]: T??odor, I thought you knew how to cook? Your bread is hard and nasty. How long did you knead it for? A thousand minutes? A million? Ray [with Beef, addressing Cornelius]: Daaamn! What we got here, Cornelius? Cornelius: I omitted the yeast and made a fresh malloreddus pasta, which I rolled out using my flask. Ray: Malloreddus? Cornelius: It's an eggless Sardinian dough. My dear Iris Gambol learned to make it the summer we spent in Cagliari. '67? '68? It escapes me. [THEN.] Beef: Alright not only did Cornelius buck the rules but he made a recipe that his dead first wife taught him before we were born Ray: That is /hard/. Cornelius, hands down."></a>
+
+<<silently>><<set _next_passage to "Achewood 8">><</silently>>
+
+:: Achewood 8 [aw nobr]
+<p>Even Ray’s relationship with his father - and his attempt to validate his own masculinity by following in his father’s footsteps - follows generically stable story beats. The way the storyline plays out, however, is less typical. Ray and Beef win the fight primarily by their wits rather than by brawn, positing a model of masculinity grounded in friendship and in cleverness rather than in physical strength. More subversively, Ray and Beef ultimately violate the rules of the contest (and traditional masculinity) to win it on their own terms. This rejection of consensus codes that determine who is ‘manliest’ is typical of Achewood as a strip, which spends much more time on traditional domestic work like cooking than on fighting, and generally deflates any legitimately ‘manly’ display by its characters. Within the strip, Ray’s version of masculinity is performed through its inflection of a generically typical storyline. Ray’s actions get read against the generic tropes of the medium, against the standards of the fictional genre. By these standards, he’s manly because he wins the fight. What makes Ray different is that that same version of masculinity is then refracted, fragmented, consistently, in other mediums.</p>
+
+<p>ADD A BIT MORE.</p>
+
+<<silently>><<set _next_passage to "Achewood 9">><</silently>>
+
+:: Achewood 9 [aw nobr]
+<p>Ray’s Place, the long-running advice column “written by” Ray, is similarly grounded in gendered, medium-driven tropes that are ultimately undermined. Ray explicitly posits “Ray’s Place” as a “Playboy”-type advice column - “you know, real gentlemen’s stuff, but with a kind of hipness and adventure.” From the very first entry, however, Ray’s performance of masculinity undermines itself: “What does a real gentleman talk about, anyway? I guess a real gentleman doesn’t do the talking, but rather guides conversation in a clever yet undetectable way. Man, I ain’t no good at that.” Ray tries to emulate the Playboy voice, but stops after about a paragraph, saying, “I feel so phony … why don’t I just try to write in my normal style?” </p>
+
+<<silently <<set _next_passage to "Achewood 10">><</silently>>
+
+:: Achewood 10 [aw nobr]
+<p>This emulation and disavowal demonstrates how the slippage between genre and gender performativity gets even slipperier when translated textually, particularly in the first-person style. Many of the questions Ray answers early on in the column is standard “how to be a gentleman” Playboy-style material - first date etiquette, the right watch to buy, proper cocktail selections, and so forth. In fact, its pastiche was successful enough that GQ asked Onstad to produce a “Modern Gentleman’s Decision Making Flowchart,” which they published in their August 2008 issue. The advice column here functions like the conduct manual, which Berlant describes as a “pragmatic pedagogic genre, an opportunity for retraining a reader into something different and yet more herself.” Ray’s Place has a double function, then: on the one hand, it establishes the broad outlines of “male” as genre within the constraints of the medium (and genre) of “advice column”; and, on the other, it situates Ray, as a fictional character, within that category. </p>
+
+<<silently <<set _next_passage to "Achewood 11">><</silently>>
+
+:: Achewood 11 [aw nobr]
+<p>Then we have Ray’s personal blog. These blogs are a substantial piece of Achewood: in fact, the final comic strip of Achewood's main run, before its recent revival as a popular Patreon, directs the reader to Onstad’s final blog post, where he writes “the blogs are where I personally think the heart and soul of that universe live [...] in words I haven’t had to maddeningly jockey into tiny speech bubbles.” Here the material and generic conventions of the comic strip are figured as procrustean, like gender. Unlike the webcomic, with its generic punchlines and action sequences, and the advice column, with its performative and prescriptive enaction of masculinity, the personal blog is positioned as unvarnished and confessional. Ray’s blog alone is about 250 pages. In an early entry, for example, Ray describes how much he enjoys <i>Sex in the City</i> and wishes he could “hang with ladies like that [...] some ladies who tell it like it is and like to throw one back.” He explains his acquisition of the <i>Sex in the City</i> DVDs, however, as a mistake: he meant to order pornography. Even in the context of a personal blog aimed at his “chochachos” (a made up word Ray uses to describe his readers), Ray explains away his introduction to feminine culture by reasserting his masculinity. He’s pulled simultaneously towards the ‘feminized’ confessional genre of the online diary, which he engages elsewhere in the blogs, and being "maddeningly jockied" into the genre of masculinity. By reading his performance on the blogs alongside his other mediated selves, however, we can see how flimsy that masculinity is. Even as one of the arbiters of maleness within (and, for the superfans who can come up with an Achewood quote for every situation, without) the world of Achewood - writing advice columns for GQ, winning the Great Outdoor Fight - Ray’s membership in manliness as a genre is constantly in question and must constantly be reasserted.</p>
+
+<<silently <<set _next_passage to "Achewood 12">><</silently>>
+
+:: Achewood 12 [aw nobr]
+<p>Ray's multimedia masculinity is exemplary but not unique; one could look to Roast Beef’s alt zines or Nice Pete’s violently misogynistic novellas for other figurations of manliness refracted through and constrained by generic conventions. In Achewood and in contemporary online culture, social gestures refract through the mediums on which they are performed, become legible only in their generic contexts, and situate their performer within this complex matrix. Multimediated masculinity differs primarily in its triangulating function - individual performances across a broad band of media simultaneously provide the illusion of internal consistency (the ‘voice’ remains the same) and showcase how flexible, generically, any individual’s performance is. It also highlights the porousness of the boundary between mediated fictional characters and mediated ‘real’ persons; if our own personal production of ‘content’ through the various platforms on which we increasingly live our lives is self-consciously chosen, written in a way to conform with the twin generic demands of our media and our genders, then the gendered subject is always, to a greater or lesser degree, a fictional one.</p>
+
+<<silently <<set _next_passage to "Achewood 13">><</silently>>
+
+:: Achewood 13 [aw nobr]
+<p>An additional wrinkle arrived in 2023, when Onstad, working under the auspices of "New Tradition Labs", launched <a href="raybot.help">RayBot</a>, a GPT-powered chatbot hand-trained on the corpus of Ray's advice columns, his blog posts, the strips themselves, and novel training data written by Onstad himself. [ADD MORE HERE, noting my interview with Onstad: https://docs.google.com/document/d/15-LcJTISQ5SNz_56Rrm7KDTnDESqCGqefc2dXUmJQ3M/edit?pli=1#heading=h.d6pl9b3f8f37]</p>
+
+<<silently <<set _next_passage to "Achewood 14">><</silently>>
+
+:: Achewood 14 [aw nobr]
+<p> [More about Raybot the AI]</p>
+
+<<silently <<set _next_passage to "Achewood 15">><</silently>>
+
+:: Achewood 15 [aw nobr]
+<p>I do not mean to reinscribe face-to-face interaction as an escape from this generic double-bind; in-person social behavior, too, is governed by generic codes of acceptability and legibility. What multimedia masculinity offers is a way of illuminating these codes by deconstructing the boundary between the self-consciously constructed fictionality of, say, a cartoon cat, written into being on a variety of platforms, that selfsame cartoon cat's digital shadow as projected by an AI model onto the contemporary internet, and the analogous fictionality and multimodality of the narrative human subject in the information age.</p>
+
+[[Return->Section 1: GESTURE]]
 
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
 <p>Samuel Beckett's <i>Quad</i> "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i>Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
