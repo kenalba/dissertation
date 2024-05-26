@@ -35,6 +35,11 @@ img {
   margin: 0 auto;
 }
 
+figcaption {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 8px;
+}
 blockquote {
   background: #151E23;
   border-left: 5px solid #212746;

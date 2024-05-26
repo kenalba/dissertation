@@ -1,7 +1,7 @@
 :: Bibliography [nobr]
 <<set _passages to Story.lookup("tags", "citation")>>
 <<for _i to 0; _i lt _passages.length; _i++>>
-		<<print _passages[_i].text>><br>
+		<<print _passages[_i].text>><br><br>
 <</for>>
 
 :: Lee, Maurice. Overwhelmed: Literature, Aesthetics, and the Nineteenth-Century Information Revolution. [citation]
@@ -121,6 +121,9 @@ Dawkins, Richard. 2013. "Just For Hits - Richard Dawkins." Filmed Cannes, France
 :: Butler, Judith. 'Performative Acts and Gender Constitution.' [citation]
 Butler, Judith. “Performative Acts and Gender Constitution: An Essay on Phenomenology and Feminist Theory.” <i>Theater Journal</i>, Vol. 40, No. 4. (Dec., 1988), pp519-531.
 
+:: Butler, Judith. Gender Trouble. [citation]
+Butler, Judith. <i>Gender Trouble</i>. Routledge, 2006.
+
 :: ILOVEYOU - Wikipedia [citation]
 "ILOVEYOU." Wikipedia, Wikimedia Foundation. https://en.wikipedia.org/wiki/ILOVEYOU .
 
@@ -136,8 +139,35 @@ Raymond, Gerard. "Play and Anti-Play," The Village Voice, January 26, 1999.
 :: WHO COVID-19 Dashboard [citation]
 “Covid-19 Deaths | Who Covid-19 Dashboard.” World Health Organization, World Health Organization, data.who.int/dashboards/covid19/deaths?n=c. Accessed 28 Apr. 2024.
 
-:: Heller, Jason, et al. 'The Best Comics of the '00s'
+:: Heller, Jason, et al. 'The Best Comics of the '00s' [citation]
 Heller, Jason, et al. “The Best Comics of the ’00s.” The A.V. Club, 24 Nov. 2009, www.avclub.com/the-best-comics-of-the-00s-1798220915. 
 
-:: Grossman, Lev. ''Top 10 Graphic Novels.'
+:: Grossman, Lev. ''Top 10 Graphic Novels.' [citation]
 Grossman, Lev. “Top 10 Graphic Novels.” Time, Time Inc., 9 Dec. 2007, content.time.com/time/specials/2007/article/0,28804,1686204_1686244_1692006,00.html. 
+
+:: Gobart, R. Darren. 'On Performance and Selfhood in Caryl Churchill' [citation]
+Gobart, R. Darren. “On Performance and Selfhood in Caryl Churchill.” The Cambridge Companion to Caryl Churchill, Cambridge UP, Cambridge, pp. 105–124. 
+
+:: Soloski, Alexis. 'Who is the greatest living playwright?' [citation]
+Soloski, A. (2011). Who is the greatest living playwright? - The Village Voice. Who Is The Greatest Living Playwright? https://www.villagevoice.com/who-is-the-greatest-living-playwright/ 
+
+:: Wittgenstein, Ludwig. 'Philosophical Investigations' [citation]
+Wittgenstein, Ludwig. <i>Philosophical Investigations</i>. Trans. Anscombe, G.E.M. et al. Blackwell Publishing, 4th edition. 2009.
+
+:: Hershel Parker, Moby-Dick as Doubloon: Essays and Extracts [citation]
+Hershel Parker, Moby-Dick as Doubloon: Essays and Extracts (1851-1970). New York: W. W. Norton and Company, 1970.
+
+:: Berlant, Lauren. The Female Complaint. [citation]
+Berlant, L. G. <i>The female complaint: The Unfinished Business of sentimentality in American culture</i>. Duke University Press. 2008.
+
+:: Onstad, Chris. The Collected Ray's Place [citation]
+Onstad, Chris. <i>The Collected Ray's Place</i>. <i>achewood.com</i>
+
+:: Vreeland, Amy N. Seventeen Magazine as a Manual for 'Doing Gender' [citation]
+Vreeland, Amy N. Seventeen <i>Magazine as a Manual for "Doing Gender"</i>. 1996. College of William and Mary - Arts and Science, Masters Dissertation.
+
+:: Groeneveld, Elizabeth. Gender in Magazines [citation]
+Groeneveld, Elizabeth. "Gender in Magazines." <i>The Handbook of Magazine Studies</i>, ed. Sternadori, Miglena; Holmes, Tim. Wiley Blackwell, 2020.
+
+:: Bignell, Jonathan. Media Semiotics: An Introduction [citation]
+Bignell, Jonathan. <i>Media Semiotics: An Introduction</i>, 2e. Manchester University Press.
