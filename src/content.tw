@@ -813,14 +813,14 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 <blockquote>What does a real gentleman talk about, anyway? I guess a real gentleman doesn’t do the talking, but rather guides conversation in a clever yet undetectable way. Man, I ain’t no good at that.</blockquote>
 <p>Ray tries to emulate the <i>Playboy</i> voice in response to a reader's question about a decidedly unhip topic - "the right way to eat Mexican food":</p>
 <blockquote>GENTLE READER: few things in life are so uncomfortable as the enormous “wind bubbles” one’s body creates after eating some delicious, tempting Mexican food. And just what is it about Mexican food that creates such a troublesome atmosphere within us? The answer: it is a complex system of enzymatic  chemical reactions which occur when soft, starchy foods meet the digestive acids which naturally pool in our stomachs.</blockquote>
-<p>...but stops after about a paragraph, rejecting the inauthentic performance of traditional masculinity personified here by the voice of the anonymous Playboy writer:
+<p>...but stops after about a paragraph, rejecting the inauthentic performance of traditional masculinity personified here by the voice of the anonymous Playboy writer:</p>
 <blockquote>I feel so phony … why don’t I just try to write in my normal style?<<cite "3" "Onstad, Chris. The Collected Ray's Place">></blockquote>
 
 
 <<silently>><<set _next_passage to "Achewood 10">><</silently>>
 
 :: Achewood 10 [aw nobr]
-<p>That this misstepping moment occurs during an attempt to emulate the style of a so-called "men's <<define "magazine">> is telling. As other scholars have remarked, the magazine is an active site for the inscription, reification, and enforcement of gender norms. As Amy N. Vreeland writes of the girl's magazine <i>Seventeen</i>:
+<p>That this misstepping moment occurs during an attempt to emulate the style of a so-called "men's <<define "magazine">>" is telling. As other scholars have remarked, the magazine is an active site for the inscription, reification, and enforcement of gender norms. As Amy N. Vreeland writes of the girl's magazine <i>Seventeen</i>:
 <blockquote><i>Seventeen</i> and similar publications provide cultural "scripts" that fuel, shape, and maintain normative conceptions of appropriate teenage "femininity" in order to guide the creation of gender identity along dominant ideals. Hence, <i>Seventeen</i> can be considered a "gender manual".<<cite "v" "Vreeland, Amy N. Seventeen Magazine as a Manual for 'Doing Gender'">></blockquote>
 <p>Ray here tries, and fails, to write a gender manual via the generic trappings he attempted to emulate, citing a sense of inauthenticity - echoing his rejection of the cultural script of the Great Outdoor Fight and of manliness more generally.</p>
 <p>Even still, the advice column, like the magazine, functions like the conduct manual, which Berlant describes as a “pragmatic pedagogic genre, an opportunity for retraining a reader into something different and yet more herself” <<cite "12" "Berlant, Lauren. The Female Complaint.">> Ray’s Place has a triple function, then: it establishes the broad outlines of “male” as genre within the constraints of the medium (and genre) of “advice column”; it situates Ray, as a fictional character, within; and, thirdly, it allows Ray (and Onstad) to critique and deconstruct that genre - and its model of masculinity. </p>
@@ -834,7 +834,7 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 <a href="https://achewood.com/2008/09/10/title.html"><img style="max-width:100%" src="assets/imgs/achewood_flowchart.png"></a>
 <p><i>Gentlemen's Quarterly</i>, like <i>Playboy</i>, is a men's <<define "magazine">> that presents a model of masculinity and sells the reader everything they need to make that masculinity real, provided they have the necessary money. But Onstad's contribution to <i>GQ</i> is typically playful, irreverent, and deconstructive.</p>
 <p>First of all, the flow-chart itself is an atypical contribution to a magazine best known for its annual "Sexiest Man Alive" feature.</p>
-<p>More specifically, take the three scenarios that the flowchart lays out: "a potential sexual encounter", "a one hundred and twelve dollar trip to Whole Foods so I can cook a two-course dinner for my girlfriend", and "a round of golf with a new client". Each scenario is fairly typical fodder for an advice column and for a men's magazine more generally - and each is deconstructed in a typically Onstadian fashion. The round of golf is successful after Ray cracks an inappropriate joke about letting "some scientists chop off [his] dick"; the fancy dinner is replaced by "DUDEMEAL, a special meal for dudes at eleven PM", and the sexual encounter is mostly in Ray's own mind, spurred by nothing more than a "chick... absently toying with her necklace so hard".</p>
+<p>More specifically, take the three scenarios that the flowchart lays out: "a potential sexual encounter", "a one hundred and twelve dollar trip to Whole Foods so I can cook a two-course dinner for my girlfriend", and "a round of golf with a new client". Each scenario is fairly typical fodder for an advice column and for a men's magazine more generally - and each is deconstructed in a typically Onstadian fashion. The round of golf is successful after Ray cracks an inappropriate joke about letting "some scientists chop off [his] dick"; the fancy dinner is replaced by "DUDEMEAL, a special meal for dudes at eleven PM", and the sexual encounter is mostly in Ray's own mind, spurred by nothing more than a "chick... absently toying with her necklace so hard."</p>
 <p>In all three ostensibly masculine scenarios, Ray fails to perform as a good <i>GQ</i> reader ought to perform - yet each scenario ends in something like success.</p>
 
 
@@ -849,21 +849,8 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 
 :: Achewood 13 [aw nobr]
 <p>Ray's multimedia masculinity is exemplary but not unique; one could look to Roast Beef’s alt zines or Nice Pete’s violently misogynistic novellas for other figurations of manliness refracted through and constrained by generic conventions.</p>
-<p>In Achewood and in contemporary online culture, social gestures refract through the mediums on which they are performed, become legible only in their generic contexts, and situate their performer within this complex matrix. Multimediated masculinity differs primarily in its triangulating function - individual performances across a broad band of media simultaneously provide the illusion of internal consistency (the ‘voice’ remains the same) and showcase how flexible, generically, any individual’s performance is. It also highlights the porousness of the boundary between mediated fictional characters and mediated ‘real’ persons; if our own personal production of ‘content’ through the various platforms on which we increasingly live our lives is self-consciously chosen, written in a way to conform with the twin generic demands of our media and our genders, then the gendered subject is always, to a greater or lesser degree, a fictional one.</p>
-
-<<silently>><<set _next_passage to "Achewood 14">><</silently>>
-
-:: Achewood 14 [aw nobr]
-<p>An additional wrinkle arrived in 2023, when Onstad, working under the auspices of "New Tradition Labs", launched <a href="raybot.help">RayBot</a>, a GPT-powered chatbot hand-trained on the corpus of Ray's advice columns, his blog posts, the strips themselves, and novel training data written by Onstad himself. [ADD MORE HERE, noting my interview with Onstad: https://docs.google.com/document/d/15-LcJTISQ5SNz_56Rrm7KDTnDESqCGqefc2dXUmJQ3M/edit?pli=1#heading=h.d6pl9b3f8f37]</p>
-
-<<silently>><<set _next_passage to "Achewood 15">><</silently>>
-
-:: Achewood 15 [aw nobr]
-<p> [More about Raybot the AI]</p>
-
-<<silently>><<set _next_passage to "Achewood 16">><</silently>>
-
-:: Achewood 16 [aw nobr]
+<p>In Achewood and in contemporary online culture, social gestures refract through the mediums on which they are performed, become legible only in their generic contexts, and situate their performer within this complex matrix. Multimediated masculinity differs primarily in its triangulating function - individual performances across a broad band of media simultaneously provide the illusion of internal consistency (the ‘voice’ remains the same) and showcase how flexible, generically, any individual’s performance is.</p>
+<p>It also highlights the porousness of the boundary between mediated fictional characters and mediated ‘real’ persons; if our own personal production of ‘content’ through the various platforms on which we increasingly live our lives is self-consciously chosen, written in a way to conform with the twin generic demands of our media and our genders, then the gendered subject is always, to a greater or lesser degree, a fictional one.</p>
 <p>I do not mean to reinscribe face-to-face interaction as an escape from this generic double-bind; in-person social behavior, too, is governed by generic codes of acceptability and legibility. What multimedia masculinity offers is a way of illuminating these codes by deconstructing the boundary between the self-consciously constructed fictionality of, say, a cartoon cat, written into being on a variety of platforms, that selfsame cartoon cat's digital shadow as projected by an AI model onto the contemporary internet, and the analogous fictionality and multimodality of the narrative human subject in the information age.</p>
 
 [[Return->Section 1: GESTURE]]

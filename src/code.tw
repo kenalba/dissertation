@@ -259,6 +259,8 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<<set _passages to Story.lookup("tags", "attt")>>
 	<<elseif _tags.includes("lai")>>
 		<<set _passages to Story.lookup("tags", "lai")>>
+	<<elseif _tags.includes("aw")>>
+		<<set _passages to Story.lookup("tags", "aw")>>
 	<</if>>
 	<<if def _passages>>
 		<<print " / " + _passages.length>>
