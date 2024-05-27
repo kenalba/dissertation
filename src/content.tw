@@ -857,51 +857,110 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 
 :: Case Study: MA RAINEY'S BLACK BOTTOM [mrbb nobr]
 <h1>"Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i></h1>
-
-<video controls>
-<source src="assets/videos/mrbb.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<figure>
+	<video controls>
+	<source src="assets/videos/mrbb.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>"Ma Rainey's Black Bottom", as performed by Ma Rainey herself, recorded in 1924 and released by Paramount Records. This recording is in the public domain.</figcaption>
+</figure>
 <<silently>><<set _next_passage to "Ma Rainey 1">><</silently>>
 
 :: Ma Rainey 1 [mrbb nobr]
-<p>August Wilson’s 1982 play Ma Rainey’s Black Bottom opens in a recording studio, on two white men--Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label--testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control room.” Sturdyvant expects trouble from Rainey: “I don’t care what she calls herself,” he hollers at Irvin, “I’m not putting up with it. I just want to get her in here … record those songs on that list … and get her out. Just like clockwork, huh?” When Rainey ultimately arrives, however--after the white men, her band, and the play’s audience has been waiting for about an hour --she’s anything but clockwork. Whereas Sturdyvant wants a singing automaton he can record and sell, Rainey is defiantly and powerfully a human body from the moment she fills the stage.</p>
+<p>August Wilson’s 1982 play Ma Rainey’s Black Bottom opens in a recording studio, on two white men - Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label - testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control booth"<<cite "x" "Wilson, August. Ma Rainey's Black Bottom.">> that is, in most productions, located physically above the main stage, like a prison guard's tower. This distance spatializes Wilson's description of Sturdyvant as a man who is "preoccupied with money... insensitive to black performers and prefers to deal with them at arm's length" <<cite "17" "Wilson, August. Ma Rainey's Black Bottom.">></p>
+
+<<set _slides to ['assets/imgs/mr_nt_set.jpeg', 'assets/imgs/mr_netflix_set.png', 'assets/imgs/mr_wt_set.jpeg']>>
+	<figure>
+		<img style="width:100%" @src=[_slides[0]]>
+		<figcaption>The set for the National Theater's 2016 production of the play. The stained steel control room here especially recalls a guard tower. <br>Photo by Johan Persson courtesy of the National Theatre.</figcaption>
+	</figure>
+	<figure>
+		<img style="width:100%" @src=[_slides[2]]>
+		<figcaption>The set for the Writer's Theater 2019 production of the play. Note the conspicuous speaker that allows Irvin and Sturdyvant to give their orders without leaving the control room. <br>Photo by Michael Brosilow courtesy of New City Stage.</figcaption>
+	</figure>
+	<figure>
+		<img style="width:100%" @src=[_slides[1]]>
+		<figcaption>The set for Netflix's 2021 production of the play. Despite its cinematic medium, the Netflix adaptation largely confines itself to a stage set, with the exception of the conclusion. <br>Photo by David Lee courtesy of Netflix.</figcaption>
+	</figure>
+
 
 <<silently>><<set _next_passage to "Ma Rainey 2">><</silently>>
 
 :: Ma Rainey 2 [mrbb nobr]
-<p>	Wilson plays with this technologic/organic binary throughout the play: a technological whiteness, represented primarily by Sturdyvant, obsessed with clock-time and allied with the recording process, against a stubbornly embodied blackness, represented primarily although not exclusively by Rainey, who Wilson identifies with live performance and with the ‘real’ blues. The play stages a power struggle between these two poles, with Rainey insisting on her own bodiliness in the face of Sturdyvant and Irvin’s attempt to transmute her voice into a valuable commodity. Although this binary makes for compelling drama and speaks to the history of (largely white) exploitation of black musicians, it fails to capture the degree to which the historical Rainey took ownership of the recording technology that made her a household name - and threatens to renaturalize a rhetoric that equates blackness with an atavistic, primitive ‘soulfulness.’ This presentation will begin, then, by sketching out how Wilson stages this binary, before problematizing it with reference to the historical Rainey’s own stage show and to Wilson’s own words outside of the playtext.</p>
+
+<p>Sturdyvant expects trouble from Rainey: “I don’t care what she calls herself,” he hollers at Irvin, “I’m not putting up with it. I just want to get her in here … record those songs on that list … and get her out. Just like <<define "clockwork">>, huh?” <<cite "18" "Wilson, August. Ma Rainey's Black Bottom.">>. When Rainey ultimately arrives, however - after the white men, her band, and the play’s audience has been waiting for about an hour  - she’s anything but clockwork. Whereas Sturdyvant wants a singing automaton he can record and sell, Rainey is defiantly and powerfully a human body from the moment she fills the stage.</p>
+<p>	Wilson plays with this technologic/organic binary throughout the play: a technological whiteness, represented primarily by Sturdyvant, obsessed with clock-time and allied with the recording process, against a stubbornly embodied blackness, represented primarily although not exclusively by Rainey, who Wilson identifies with live performance and with the ‘real’ blues.</p>
+<p>The play stages a power struggle between these two poles, with Rainey insisting on her own bodiliness in the face of Sturdyvant and Irvin’s attempt to transmute her voice into a valuable commodity. Although this binary makes for compelling drama and speaks to the history of (largely white) exploitation of black musicians, it fails to capture the degree to which the historical Rainey took ownership of the recording technology that made her a household name - and threatens to renaturalize a rhetoric that equates blackness with an atavistic, primitive ‘soulfulness.’ This section will begin, then, by sketching out how Wilson stages this binary, before problematizing it with reference to the historical Rainey’s own stage show and to Wilson’s own words outside of the playtext.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 3">><</silently>>
 
 :: Ma Rainey 3 [mrbb nobr]
-<p>Ma Rainey’s recalcitrance throughout the recording session refers repeatedly back to her body. We’re told early in the play that she complained during a previous recording session of her sore throat. This time around, she starts by lambasting Sturdyvent for keeping the studio too cold: “Why you all keep it so cold in here? Sturdyvant try and pinch every penny he can. You all wanna make some records, you better put some heat on in here or give me back my coat” (53). And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, “All they want is my voice” (79).</p>
+
+<p>Through most of the play Sturdyvant is in a control-box, physically alienated from the recording session, and his commands come through a speaker in the recording studio. In contrast to Rainey, for whom lived experience is paramount, Sturdyvant’s speech suggests a subjectivity obsessed with <<define "clock-time" "clockwork">>. As I noted earlier, he wants the session to go “like clockwork;” when Rainey is late, he asks Irvin “Do you know what time it is? Have you looked at the clock?” <<cite "47" "Wilson, August. Ma Rainey's Black Bottom">>, and when Rainey wants to stop the session for her coca-cola, he tells her “Wait just a minute, Ma … you come in an hour late … we’re way behind schedule as it is.” Indeed, it’s easy to read Slow Drag’s declaration that “the white man don’t know how to have a good time <<cite "41" "Wilson, August. Ma Rainey's Black Bottom">> as an indictment of Sturdyvant’s technologized obsession with the clock. Sturdyvant himself, then, can be read as the clockwork man that he wants to make Rainey into, having thoroughly internalized a mechanized, penny-pinching, second-counting mode of living.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 4">><</silently>>
 
 :: Ma Rainey 4 [mrbb nobr]
-<p>This reference to the body makes sense inasmuch as the blues she sings is inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of “These Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles. As Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” (16) - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” (82). The title song, “Ma Rainey’s Black Bottom,” refers to a dance, but is also a reference to Rainey’s own (sexual) body.</p>
-<p>Hence Rainey’s figuration of the recording process as one of sexual violation: “As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on” (79). Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body.</p>
+
+<p>Conversely, Ma Rainey’s recalcitrance throughout the recording session refers repeatedly back to her body. We’re told early in the play that she complained during a previous recording session of her sore throat. This time around, she starts by lambasting Sturdyvent for keeping the studio too cold:</p>
+<blockquote>MA RAINEY: Why you all keep it so cold in here? Sturdyvant try and pinch every penny he can. You all wanna make some records, you better put some heat on in here or give me back my coat” <<cite "53" "Wilson, August. Ma Rainey's Black Bottom.">>.</blockquote>
+<p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, “All they want is my voice” <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 5">><</silently>>
 
 :: Ma Rainey 5 [mrbb nobr]
-<p>Indeed, through most of the play Sturdyvant is in a control-box, physically alienated from the recording session, and his commands come through a speaker in the recording studio. In contrast to Rainey, for whom lived experience is paramount, Sturdyvant’s speech suggests a subjectivity obsessed with clock-time. As I noted earlier, he wants the session to go “like clockwork;” when Rainey is late, he asks Irvin “Do you know what time it is? Have you looked at the clock?” (47), and when Rainey wants to stop the session for her coca-cola, he tells her “Wait just a minute, Ma … you come in an hour late … we’re way behind schedule as it is.” Indeed, it’s easy to read Slow Drag’s declaration that “the white man don’t know how to have a good time (41) as an indictment of Sturdyvant’s technologized obsession with the clock. Sturdyvant himself, then, can be read as the clockwork man that he wants to make Rainey into, having thoroughly internalized a mechanized, penny-pinching, second-counting mode of living.</p>
+
+<p>This reference to the body makes sense inasmuch as the blues she sings is inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of Those Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles.</p>
+<figure>
+	<video controls>
+	<source src="assets/videos/mr_tdom.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>"Those Dogs Of Mine" was recorded in 1924 by the historical Ma Rainey and released by Paramount Records. This recording is in the public domain.</figcaption>
+</figure>
+<blockquote>
+Out for a walk, I stopped to talk<br>
+Oh, how my corns did burn<br>
+I had to keep on the shady side of the street<br>
+To keep out the light of the sun<br>
+<br>
+Oh, Lord, these dogs of mine<br>
+They sure do worry me all the time<br>
+The reason why, I don't know<br>
+Sometimes I soak 'em in Sapolio <<cite "249" "Davis, Angela. Blues Legacies and Black Feminism.">>
+</blockquote>
+Similarly, the title song, “Ma Rainey’s Black Bottom,” refers to a dance, but is also a reference to Rainey’s own (sexual) body:</p>
+<blockquote> Want to see the dance you call the black bottom<br>
+I wanna learn that dance<br>
+Want to see the dance you call your big black bottom<br>
+That puts you in a trance<br>
+<br>
+All the boys in the neighborhood<br>
+They say your black bottom is really good<br>
+Come on and show me your black bottom<br>
+I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and Black Feminism.">>
+</blockquote>
+<p>This focus on the body is not atypical for the blues; unlike most other popular music of their era, the blues deviated in their "provocative and pervasive sexual -- including homosexual -- imagery" <<cite "3" "Davis, Angela. Blues Legacies and Black Feminism.">>. While not all of Rainey's music is focused on her body, Wilson's selection of songs that identify her music with her corporeal self highlights the difference between her and Sturdyvant, and sets up an oppositional relationship between her black body and the white technology of the recording studio; as Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” <<cite "16" "Nadel, Alan. May All Your Fences Have Gates.">> - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” <<cite "86" "Wilson, August. Ma Rainey's Black Bottom.">>.
+<p>This contrast is most vivid in Rainey’s figuration of the recording process as one of sexual violation:</o>
+<blockquote>As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on. <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">></blockquote> Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 6">><</silently>>
 
 :: Ma Rainey 6 [mrbb nobr]
-<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience, the Benjaminian aura par excellance, against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of transcoding more broadly and that echoes the historical violence perpetrated against African-Americans.  However, this disjunction isn’t as strong as might appears to be.</p>
+<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience, the Benjaminian aura par excellance, against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of transcoding more broadly and that echoes the historical violence perpetrated against African-Americans. However, this disjunction isn’t as strong as might appears to be.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 7">><</silently>>
 
 :: Ma Rainey 7 [mrbb nobr]
-<p>Let’s first think about the particularity of the vinyl record as medium. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s Phaedrus, which Socrates worries will “introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.” Lived experience has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” (42). Several thousand years later, Walter Benjamin wrote about how the gramophone record robs the voice of its particularity in time and in space, of its history and its aura. </p>
+<p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s Phaedrus, which Socrates worries will “introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.” Lived experience has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 8">><</silently>>
 
 :: Ma Rainey 8 [mrbb nobr]
-<p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium - see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s White Tears - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood” . In contrast with noiseless, lossless digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor. </p>
+<p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
+<p>In his memoir, musician Brian Eno is even more explicit, moving beyond praise of vinyl in and of itself towards a more thorough theory of technological nostalgia:</p>
+<blockquote>Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit — all of these will be cherished and emulated as soon as they can be avoided.<br>
+It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them. <<cite "283" "Eno, Brian. A Year With Swollen Appendices.">>
 <p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
 <blockquote>AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
 BILL MOYERS: What did it say?<br>
@@ -923,14 +982,14 @@ AUGUST WILSON: Well, it was someone speaking directly to me.</blockquote>
 <<silently>><<set _next_passage to "Ma Rainey 11">><</silently>>
 
 :: Ma Rainey 11 [mrbb nobr]
-<p>	By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in Ma Rainey’s Black Bottom is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product--the record--is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” (5), and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright. </p>
+<p>	By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in <i>Ma Rainey’s Black Bottom</i> is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product--the record--is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” (5), and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright. </p>
 
 <p>	Connect to informativity, and how Ma Rainey was both operating within a genre of performance and working against it.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 12">><</silently>>
 
 :: Ma Rainey 12 [mrbb nobr]
-<p> Conclude this section.</p>
+<p> Conclude this section. Gender, queerness, performance.</p>
 
 [[Return->Section 1: GESTURE]]
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}

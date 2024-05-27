@@ -17,6 +17,7 @@ body {
 }
 .passage {
   padding: 30px;
+  padding-top: 0px;
   max-width: 800px;
 }
 
@@ -35,11 +36,6 @@ img {
   margin: 0 auto;
 }
 
-figcaption {
-  font-size: 12px;
-  text-align: center;
-  padding-top: 8px;
-}
 blockquote {
   background: #151E23;
   border-left: 5px solid #212746;
@@ -47,6 +43,13 @@ blockquote {
   padding: 0.5em 10px;
 }
 
+figcaption {
+  font-size: 14px;
+  font-display: block;
+  font-style: italic;
+  padding:8px;
+  text-align: center;
+}
 #title-row {
   font-family: 'Source Code Pro', monospace;
   color: #F5ED49;
