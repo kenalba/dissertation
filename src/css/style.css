@@ -22,7 +22,7 @@ body {
 }
 
 .blue {
-  color: blue;
+  color: #2f92d2;
   font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ figcaption {
 }
 #title-row {
   font-family: 'Source Code Pro', monospace;
-  color: #F5ED49;
+  color: #feff37;
   display: block;
   vertical-align: middle;
   user-select: none;
@@ -113,17 +113,20 @@ figcaption {
 }
 
 .definition-link a {
-  color: #48B44A;
+  color: #51b241;
 }
 
 .excerpt-link a {
-  color: #E76428;
+  color: #f25a16;
 }
 
 .citation-link a {
   color: #9E9E9E;
 }
 
+.macro-cycle a {
+  color: #feff37;
+}
 .scroll_mode_page_number {
   position: relative;
   display: inline-block;
