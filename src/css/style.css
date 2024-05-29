@@ -26,6 +26,11 @@ body {
   font-weight: bold;
 }
 
+.kettle {
+  color: #fcb25d;
+  font-weight: bold;
+}
+
 video {
   display: block;
   margin: 0 auto;
@@ -258,4 +263,37 @@ a.link-external::after {
 
 #menu {
   display: none;
+}
+
+.blink1 {
+  animation-name: alternate;
+  animation-duration: 3000ms;
+}
+@keyframes alternate {
+  from { color: white; } /*color when visible*/
+  to   { color: #2f92d2; text-transform: uppercase }
+}
+.blink2 {
+  animation-name: alternate2;
+  animation-duration: 6000ms;
+}
+@keyframes alternate2 {
+  from { color: white } /*color when visible*/
+  to   { color: #2f92d2; text-transform: uppercase }
+}
+.blink3 {
+  animation-name: alternate3;
+  animation-duration: 9000ms;
+  }
+@keyframes alternate3 {
+  from { color: white } /*color when visible*/
+  to   { color: lightpink; text-transform: uppercase }
+}
+.blink4 {
+  animation-name: alternate4;
+  animation-duration: 14000ms;
+}
+@keyframes alternate4 {
+  from { color: white } /*color when visible*/
+  to   { color: lightgrey; text-transform: uppercase }
 }

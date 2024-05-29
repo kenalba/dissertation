@@ -214,15 +214,11 @@ In progress.
 
 
 :: Blue Kettle 1 [bk nobr] {"position":"1890,1302","size":"100,100"}
-<p>[[Caryl Churchill]]’s <i>Blue Kettle</i> is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of <i>Blue Kettle</i> is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words "a [[McGuffin]]". Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, "was [its] destruction." <<cite "viii" "Churchill, Caryl. Churchill Plays: 4">></p>
+<p>[[Caryl Churchill]]’s <i>Blue Kettle</i> is one half of a pair of one-act plays first produced and performed in Edinburgh and London in 1997; it received its American premiere at the Brooklyn Academy of Music in New York on January 27th, 1999, just about one year away from the ‘apocalypse’ virus [[Y2K]]. The plot of <i>Blue Kettle</i> is simple: a shabby con man, Derek, tricks five different elderly women into believing that he’s the long-lost son that each of them gave up for adoption in their youth. That is, he’s discovered that each woman gave up a child when they were younger, and he pretends to be their son, for reasons obscure to both the audience and Derek himself. This plot, however, is in Churchill’s own words "a [[McGuffin]].b" Churchill’s main intention towards the play, she writes in her foreword to the fourth volume of her collected drama, "was [its] destruction." <<cite "viii" "Churchill, Caryl. Churchill Plays: 4">></p>
 
-<p>The agent of this destruction is what she calls a "[[virus]]": over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word "<span class="blue">blue</span>" or the word "<span class="kettle">kettle</span>." This begins in the second scene, where Derek says "You don’t have to <<blue "mess">> anything up"; by the fifth scene, we have lines like "I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even "<span class="blue">blue</span>" and "<span class="kettle">kettle</span>" have been replaced by their constitutive parts: Mrs. Plant’s final line, "<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?", is responded to, with appropriate finality, with Derek’s "<span class="blue">B</span>. <span class="kettle">K.</span>"</p>
+<p>The agent of this destruction is what she calls a "[[virus]]": over the course of the play, the words that make up the dialogue begin to be replaced, with increasing frequency, with either the word "blue" or the word "kettle." This begins in the second scene, where Derek says "You don’t have to <<blue "mess">> anything up"; by the fifth scene, we have lines like "I can't <<blue "put">> it back in. What if they don’t <<blue "love">> me any <<blue "more">>?" By the end of the play, the infection is complete, and even "blue" and "kettle have been replaced by their constitutive parts: Mrs. Plant’s final line, "<span class="kettle">T</span> <span class="blue">b</span> <span class="kettle">k k k k l</span>?", is responded to, with appropriate finality, with Derek’s "<span class="blue">B</span>. <span class="kettle">K.</span>"</p>
 
 <<silently>><<set _next_passage to "Blue Kettle 2">><</silently>>
-
-
-:: McGuffin [nobr] {"position":"1999,1306","size":"100,100"}
-A McGuffin is a cinematic term, coming from Hitchcock, to signify a sort of plot device that is not in itself important - consider, for example, the Maltese Falcon or the briefcase full of gold in Pulp Fiction.
 
 
 :: Blue Kettle 2 [bk] {"position":"1874,1452","size":"100,100"}
@@ -233,14 +229,17 @@ Contemporary reviews of the play were positive, if occasionally befuddled, but r
 
 :: Blue Kettle 3 [bk] {"position":"1874,1606","size":"100,100"}
 <<define "Viruses" "virus">> can be broken up into three categories, more or less: a biological virus, like <<define "influenza">> or <<define "COVID-19">>, a computer virus, like <<define "ILOVEYOU">> or STUXNET, and a viral idea, or a <<define "meme">>. What these three sets of phenomena have in common is a focus on replication: a biological virus hijacks a cell’s machinery so that it replicates the virus rather than itself, a computer virus hijacks its host computer so that it replicates infected files, and a meme - closest to a linguistic virus - propagates and spreads across information networks via replication and both live in and constitute the minds of its hosts.
+<figure>
+	<img style="max-width:100%" src="assets/imgs/virus_klee.png" alt="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'." title="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'.">
+	<figcaption>Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'.</figcaption>
+</figure>
 
-<img style="max-width:100%" src="assets/imgs/virus_klee.png" alt="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'." title="Generated with Midjourney with prompt: 'blue, computer virus, memetic virus, virus, in the style of paul klee'.">
 
 <<silently>><<set _next_passage to "Blue Kettle 4">><</silently>>
 
 
 :: Blue Kettle 4 [bk nobr] {"position":"1873,1752","size":"100,100"}
-<p>Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, <i>A Number</i>, is a meditation on cloning, and her play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in <i>Blue Kettle</i> itself, when Derek converses with one of his marks, Mrs. Oliver, about family:</p>
+<p>Let's focus on these technological senses rather than the biological, in part because those critics who have remarked on the figure of the virus in Churchill’s work have done so in reference to her persistent interest in genetics (her most performed play, <i>A Number</i>, is a meditation on cloning, and her play <i>[[Love and Information]]</i> has a ‘scene’ that’s [[nothing but a DNA sequence spoken out loud)->GENE]].  Indeed, biological replication comes up in <i>Blue Kettle</i> itself, when Derek converses with one of his marks, Mrs. Oliver, about family:</p>
 <blockquote>
 <span class = "script">MRS OLIVER:	Do you believe in heredity?</span><br>
 <span class = "script">DEREK: 		A bit.</span><<cite "103" "Churchill, Caryl. Blue Kettle">>
@@ -259,9 +258,9 @@ Contemporary reviews of the play were positive, if occasionally befuddled, but r
 :: Blue Kettle 6 [bk nobr] {"position":"1874,2046","size":"100,100"}
 <p>How does that decoding take place? </p>
 
-<p>Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by local repetition or recognition of cliche.</p>
+<p>Let’s start with the experience of reading rather than the experience of seeing the play on a stage. The initial substitutions do not significantly impede the reader’s ability to understand what’s going on; a good portion of the substitutions in the first half of the play are made wholly comprehensible in their context, either by local repetition or recognition of <<define "cliché" "cliché">> .</p>
 
-<p>In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled (naturally, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly). So, for example:</p>
+<p>In the case of local repetition, one speaker will say something that’s been garbled by the virus, and their interlocutor will respond with a variation on the same sentence without its having been garbled. Importatnly, the characters understand one another’s _words_ perfectly, even if they understand one another’s (and their own) intentions but dimly. For example:</p>
 
 <blockquote>
 	<span class="script">DEREK: 	So <<blue "why">>didn’t anyone let you know?</span><br>
@@ -270,11 +269,15 @@ Contemporary reviews of the play were positive, if occasionally befuddled, but r
 
 <p>Enid’s question in response to Derek’s question suggests that "blue" stands here for "why", and the sentence is intelligible as "So why didn’t anyone let you know." Redundancy preserves intelligibility - although redundancy is the first thing omitted in most digital compression algorithms. These moments, too, replicate the process by which a virus replicates: it hijacks existing text.</p>
 
-<p>The recognition of <<define "clichés" "cliché">> and idioms is another cognitive algorithm that the reader can use to ‘decode’ the text. Phrases like:</p>
-<blockquote><span class="script">MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.<<cite "108" "Churchill, Caryl. Blue Kettle">></span></blockquote>
+<p>The recognition of <<define "clichés" "cliché">> and idioms is another cognitive algorithm that the reader can use to decode the text. Phrases like:</p>
+<blockquote>
+MRS VANE: 		I burnt all the letters and the two photographs. I made a clean <<blue break>>.<<cite "108" "Churchill, Caryl. Blue Kettle">>
+</blockquote>
 <p>and</p>
-<blockquote><span class="script">MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?</span><<cite "110" "Churchill, Caryl. Blue Kettle">></blockquote>
-<p>both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of "break" with "blue," however, defamiliarizes the cliche, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.</p>
+<blockquote>
+MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?<<cite "110" "Churchill, Caryl. Blue Kettle">>
+</blockquote>
+<p>both invoke the reader’s familiarity with well-worn phrases to fill in the gaps. The replacement of "break" with "blue," however, defamiliarizes the cliché, and the process of decoding the garbled language acts as a kind of productive friction that forces a reader to dwell on moments in the text that might otherwise be glossed over. Further, the specific replacements that take place - that is, ‘a clean blue’ for ‘a clean break’ - necessarily plays on whatever associations the reader has with the word ‘blue’ - cleanliness, water, sadness, whatever.</p>
 
 <<silently>><<set _next_passage to "Blue Kettle 7">><</silently>>
 
@@ -288,32 +291,39 @@ Even by the eleventh and final scene, an exchange like: <blockquote><span class=
 <<silently>><<set _next_passage to "Blue Kettle 8">><</silently>>
 
 
-:: Blue Kettle 8 [bk] {"position":"1875,2346","size":"100,100"}
-Again, though, that process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know - or, more intriguingly, suggests that the translation isn’t necessary: that the particular words might not matter, and that "<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?" is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. This becomes especially interesting in light of the play’s plot, McGuffin or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type. 
-
-He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same <<excerpt "language game" "PI #7">>. Hence, perhaps, Churchill’s tongue-in-cheek admission that "Blue Kettle" was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could make sense of.
+:: Blue Kettle 8 [bk nobr] {"position":"1875,2346","size":"100,100"}
+<p>That process of decoding - a sort of second kind of reading - forces the reader to translate from a language they don’t know. More intriguingly, it suggests that the translation isn’t necessary: that the particular words might not matter, and that "<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?" is instead understandable in its garbled form. The implication, then, is that words are interchangeable so long as the plots are simple enough and the meanings they’re meant to convey are common enough to infer. If the text is generically stable, then the language becomes less important; meaning operates like the <<define "Ship of Theseus">>, with successively more pieces removed without changing the text.</p>
+<p>This becomes especially interesting in light of the play’s plot, <<define "McGuffin">> or not: Derek attempts, over and over again, to supplement his mother, who suffers from advanced dementia and whose dialogue, when she appears, seems to be infected with a linguistic virus of another type:</p>
+<blockquote>
+DEREK: I'm finding all these <<blue old>> <<kettle women>> and <<kettle pretending>> to be their long lost son.<br>
+MOTHER: You didn't find me when I got lost in the garden and Mrs Molesworth says Look behind you, look behind you what could it be, what's going on behind me, I <<blue hear>> a shriek, what's behind me what's behind me.<br>
+DEREK: And what was it?<br>
+MOTHER: Sorry, <<blue love>>, what did you <<blue say>>?<<cite "119" "Churchill, Caryl. Blue Kettle">>
+</blockquote>
+<p>Derek's mother's linguistic issues are different in kind from the more general linguistic virus; she appears to be lost in distant memories and is unable to have a conversation with her son. Unlike the conversations later in the text, which can generally be followed despite the blues and the kettles, this conversation is verbally sound but lacks both sense and an emotional connection.</p>
+<p>He replaces her with more emotionally available women; if he ultimately succeeds with Mrs. Plant, he does so at the expense of his words. However, if she understands him, he understands her, and we (more or less) understand both of them, that may not be much of a loss. We’re all still playing the same <<excerpt "language game." "Language Game">> Hence, perhaps, Churchill’s tongue-in-cheek admission that <i>Blue Kettle</i> was a failure as an anti-play, and that it would have succeeded only if it went on for another two scenes, staging a true-blue disintegration of meaning that neither the reader nor the audience could comprehend.</p>
 
 <<silently>><<set _next_passage to "Blue Kettle 9">><</silently>>
 
 
-:: Blue Kettle 9 [bk] {"position":"1865,2502","size":"100,100"}
-Along those lines, we will turn to the information theoretical binary of <<define "signal" "Signal">> and <<define "noise" "Noise">>. 
+:: Blue Kettle 9 [bk nobr] {"position":"1865,2502","size":"100,100"}
+<p>Along those lines, we will turn to the information theoretical binary of <<define "signal" "Signal">> and <<define "noise." "Noise">></p>
 
-Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank">Facebook Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the <<define "lossy" "Loss">> compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things. 
+<p>Let’s say I want to send a voice message to you. I take out my phone, I record the message, and I send it to you via, say, <a href = "http://m.me/kenneth.alba" target = "_blank"> Messenger</a>. What I aim for you to get is the signal - the words I’m saying or sounds I’m making. All of the extraneous stuff - the unwanted modifications that the signal suffers during capture, storage, transmission, processing, or conversion - is noise. In this context, it might be a car horn from outside, some static because of the <<define "lossy" "Loss">> compression algorithm Facebook uses for audio files in the interest of bandwidth conservation, or any number of other things.</p>
 
-The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise,’ or email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. 
+<p>The binary gets used in a much broader context online, where web forum administrators might call on-topic posts the ‘signal’ and off-topic distractions ‘noise’. Email spam might be thought of as noise in opposition to the Important emails that your client might tag for you. Critically, the opposition presumes both a sender and a receiver that is capable of processing information - of making ‘sense’ of the message, and of having an intentional stance towards that message that makes the signal meaningful and the noise meaningless. This is a distinction worth bringing up inasmuch as the language of information theory, and of technology more broadly, is often given a kind of epistemological primacy that sidesteps questions of bias and imbues its object with an aura of objectivity. </p>
 
 <<silently>><<set _next_passage to "Blue Kettle 10">><</silently>>
 
 
 :: Blue Kettle 10 [bk] {"position":"1865,2652","size":"100,100"}
-In the context of this play, then, we might think about the virus as a deliberate introduction of noise into an otherwise clear signal. As the infection grows, the signal becomes more and more muddled, until (on the page, at least) there’s nothing but noise. The cognitive work of reading or of making sense of the play is the work of noise reduction - of working around the infected language to arrive at the real, important meaning underneath. Importantly, the framework of ‘signal’ and ‘noise’ implies just this sort of reader, one that can convert raw data into meaningful information. The signal, under this framework, is the stuff the receiver cares about; the noise is interference. That the play’s plot Mcguffin and the virus is the point of the play, however, gestures to the provisional and contingent division of signal from noise.
+<p>In the context of this play, then, we might think about the virus as a deliberate introduction of noise into an otherwise clear signal. As the infection grows, the signal becomes more and more muddled, until (on the page, at least) there’s nothing but noise. The cognitive work of making sense of the play is the work of noise reduction - of working around the infected language to arrive at the real, important meaning underneath. Importantly, the framework of ‘signal’ and ‘noise’ implies just this sort of reader, one that can convert raw data into meaningful information. The signal, under this framework, is the stuff the receiver cares about; the noise is interference. That the play’s plot is merely a <<define "McGuffin">> and the virus is the point of the play, however, gestures to the provisional and contingent division of signal from noise.</p>
 
 <<silently>><<set _next_passage to "Blue Kettle 11">><</silently>>
 
 
 :: Blue Kettle 11 [bk] {"position":"1865,2802","size":"100,100"}
-If the play’s plot is unimportant and the ‘purpose’ of the play is its own destruction, then the message being imparted from Churchill might well be the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the <<define "glitch" "Glitch">>, following [[Ross Menkman’s 2010 Glitch Studies Manifesto->Ross Menkman’s 2010 Glitch Studies Manifesto]]. 
+If <i>Blue Kettle</i>'s plot is unimportant and its purpose is its own destruction, then the message being imparted from Churchill is the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the <<define "glitch" "Glitch">>, following [[Ross Menkman’s 2010 Glitch Studies Manifesto->Ross Menkman’s 2010 Glitch Studies Manifesto]]. 
 
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
@@ -322,23 +332,44 @@ If the play’s plot is unimportant and the ‘purpose’ of the play is its own
 <a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
 
 
-:: Blue Kettle 12 [bk] {"position":"1874,2946","size":"100,100"}
-I would like, however, to argue, that the aesthetic experience of the <span class="glitch" data-text="glitch">glitch</span> is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in "Blue Kettle" put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the <span class="glitch" data-text="glitch">glitch</span> is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently glitched image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of "Blue Kettle" is, for Churchill, the point of the play. 
+:: Blue Kettle 12 [bk]
+I would like, however, to argue, that the aesthetic experience of the <span class="glitch" data-text="glitch">glitch</span> is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in "Blue Kettle" put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the <span class="glitch" data-text="glitch">glitch</span> is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently <span class="glitch" data-text="glitch">glitched</span> image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of <i>Blue Kettle</i> is, for Churchill, the point of the play. 
 
 <<silently>><<set _next_passage to "Blue Kettle 13">><</silently>>
 
-:: Blue Kettle 13 [bk] {"position":"1872,3097","size":"100,100"}
-Caryl Churchill’s later work, particularly her 2012 play <a href="https://especiallygreatliterature.com/laitwine.html"><i>Love and Information</i></a>, deals more squarely with the technological dissemination and corruption of human words and gestures via information technology, and with the potentially alienating consequences of that transmediation. In an era where the social gestures we use to constitute ourselves in relation to one another are increasingly mediated on technological substrates, and where the words we use are increasingly infected with viral language from Twitter and so forth, Churchill’s exploration of a "language virus" in Blue Kettle suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that "Blue Kettle" forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the "sames" and "big moods" and "on brands" of living in the information age.
+:: Blue Kettle 13 [bk nobr]
+<p>Caryl Churchill’s later work, particularly her 2012 play <i>[[Love and Information]]</i>, deals more squarely with the technological dissemination and corruption of human words and gestures via information technology, and with the potentially alienating consequences of that transmediation. The 2020s are an era where the social gestures we use to constitute ourselves in relation to one another are increasingly mediated on technological substrates, and where the words we use are increasingly infected with viral language from Twitter and so forth. As Patricia Lockwood puts it in her essay about the Internet titled "The Communal Mind":</p>
+<blockquote>But worth remembering: the mind had been, in its childhood, a place of play.<br>
+It had also once been the place where you sounded like yourself. Gradually it had become the place where we sounded like each other, through some erosion of wind or water on a self not nearly as firm as stone.<br><<cite "*" "Lockwood, Patricia. The Communal Mind.">>
+</blockquote>
+<p>Calvin Kasulke's 2021 novel <i>[[Several People Are Typing]]</i> explores similar territory; an epistolary novel set in a workplace's Slack server, it features a plotline where emojis - and, eventually, fragments of <<define "emojis" "emoji">> - replace language altogether, culminating in two characters breaking off a relationship thusly:</p>
+<blockquote>
+tripp<br>
+:bsup: :sup: :th:<br>
+:th:<br>
+:st: :y-: :y-: :y-:<br>
+:y-: :y-:<br>
+:y:<br>
+<br>
+Beverley<br>
+Don’t be dramatic.<br>
+I’m not being hurtful, I’m expressing regret. I’m not blaming you for anything.<br>
+<br>
+tripp<br>
+:y-: :sti: :y-:<br>
+:y-: :y-: :-:<br>
+[...]<br>
+Beverly<br>
+We're done, Tripp. Okay?<br>
+<br>
+tripp<br>
+:-:<br>
+:-:<br>
+:thumb:<br><<cite "228" "229" "Kasulke, Calvin. Several People Are Typing.">>
+</blockquote>
+<p>Churchill’s exploration of a "language virus" in <i>Blue Kettle</i> suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that "Blue Kettle" forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the "sames", emojis, "big moods" and "on brands" of living in the information age.</o>
 
 [[Return->Section 1: GESTURE]]
-
-:: Real Life: ???? {"position":"1440,1054","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Case Study: PHAEDRUS {"position":"2665,1177","size":"100,100"}
-Double-click this passage to edit it.
-
 
 :: Case Study: KRAPP'S LAST TAPE {"position":"2540,1175","size":"100,100"}
 
@@ -602,125 +633,15 @@ Double-click this passage to edit it.
 :: Language is a Virus [link] {"position":"1999,1456","size":"100,100"}
 Link to PDF.
 
-
-:: GENE {"position":"2005,1752","size":"100,100"}
-AGT TCG AGC CCT TGA CTT GAT TGT GCA TAC
-CGT GCT TGA GTC ATG TTG CAC AAC TTG TCG
-GTC TCA GTA TGC CCG TGA AAT GTA CAT GTC
-GGG TCC GAA TCT GAT TGC CCT TTG TGG AAC
-TGT GTG GCA TAG CTA GCC TGG GAC CCT TTG
-GGC TGC ACT TGA TTG TCA CCA GGT TGT TCT
-GTT GAA TCA TGA TCG GAC CCA CGT CGG CTG
-GCC GAC TTT GAC CGG AGT GGT TGT ACC TTG
-GTC AGG AAT TGA ACG
-
-
 :: Blue Kettle 5 [bk nobr] {"position":"1870,1905","size":"100,100"}
-<p>This mode of informationally-informed reading, which I’m tentatively calling literary informatics, considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. </p>
+<p>This mode of informationally-informed reading, which I’m tentatively calling "literary informatics", considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. </p>
 <p>The naive schematic for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but <i>Blue Kettle</i> has none. R. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that "performance provides the supplement that brings the textual DNA to theatrical life"<<cite "120" "Gobart, R. Darren. 'On Performance and Selfhood in Caryl Churchill'">>; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.</p>
-
-<img style="max-width:50%" src="assets/imgs/informatics_schematic.png">
+<figure>
+<img style="max-width:75%" src="assets/imgs/informatics_schematic.png" alt="The progression of the schematic, represented visually as a papercraft author thinking, then writing, then a book, then actors on a stage, then an audience, thinking.">
+<figcaption>Generated with Midjourney with various prompts and the static modifiers "papercraft" and "against a pure black background".</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Blue Kettle 6">><</silently>>
-
-
-:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
-<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
-
-<<silently>><<set _next_passage to "Her Story 2">><</silently>>
-
-
-:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
-There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
-
-<<silently>><<set _next_passage to "Her Story 3">><</silently>>
-
-
-:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
-[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
-
-DIAGRAM GOES HERE.
-
-<<silently>><<set _next_passage to "Her Story 4">><</silently>>
-
-
-:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
-Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
-
-
-:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
-Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
-
-IMAGE OF BARLOW?
-
-<<silently>><<set _next_passage to "Her Story 5">><</silently>>
-
-
-:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
-Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
-
-<<silently>><<set _next_passage to "Her Story 6">><</silently>>
-
-
-:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
-This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
-
-<<silently>><<set _next_passage to "Her Story 7">><</silently>>
-
-
-:: MIRRORS {"position":"1618,2047","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
-The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
-
-<<silently>><<set _next_passage to "Her Story 8">><</silently>>
-
-
-:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
-That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
-
-<<silently>><<set _next_passage to "Her Story 9">><</silently>>
-
-
-:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
-This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
-
-<<silently>><<set _next_passage to "Her Story 10">><</silently>>
-
-
-:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
-It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
-
-Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
-
-<<silently>><<set _next_passage to "Her Story 11">><</silently>>
-
-
-:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
-Double-click this passage to edit it.
-
-:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
-But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
-
-<<silently>><<set _next_passage to "Her Story 12">><</silently>>
-
-
-:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
-It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
-
-<<silently>><<set _next_passage to "Her Story 13">><</silently>>
-
-
-:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
-<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
-
-[[Return->Section 1: GESTURE]]
 
 
 :: Case Study: ACHEWOOD [nobr]
@@ -958,19 +879,18 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 
 :: Ma Rainey 8 [mrbb nobr]
 <p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
-<p>In his memoir, musician Brian Eno is even more explicit, moving beyond praise of vinyl in and of itself towards a more thorough theory of technological nostalgia:</p>
-<blockquote>Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit — all of these will be cherished and emulated as soon as they can be avoided.<br>
-It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them. <<cite "283" "Eno, Brian. A Year With Swollen Appendices.">>
 <p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
-<blockquote>AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
-BILL MOYERS: What did it say?<br>
-AUGUST WILSON: Well, it was someone speaking directly to me.</blockquote>
+<blockquote>
+	AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
+	BILL MOYERS: What did it say?<br>
+	AUGUST WILSON: Well, it was someone speaking directly to me.
+</blockquote>
 <p>Wilson’s description is intensely physical: he begins by describing the material conditions surrounding his finding Bessie Smith’s record, describes the “odd” label,” and talks about the experience of having to put the needle down on the record twenty-two straight times. His response, too, is both physical and emotional - he’s “literally stunned” by its beauty; the record “speaks directly to him,” and he has an “immediate emotional response.” The technological apparatus makes possible the very kind embodied experience that, in the play, it opposes.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
 
 :: Ma Rainey 9 [mrbb nobr]
-<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the Benjaminian aura for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that Ma Rainey’s Black Bottom threatens to do, Wilson here instead argues that the blues functioned--and functions--as its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”</p>
+<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <<define "Benjaminian aura" "Benjamin's aura">> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned (and functions-) s its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 10">><</silently>>
 
@@ -989,9 +909,109 @@ AUGUST WILSON: Well, it was someone speaking directly to me.</blockquote>
 <<silently>><<set _next_passage to "Ma Rainey 12">><</silently>>
 
 :: Ma Rainey 12 [mrbb nobr]
-<p> Conclude this section. Gender, queerness, performance.</p>
+<p>For Rainey, a larger-than-life</p>
 
 [[Return->Section 1: GESTURE]]
+
+
+:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
+<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
+
+<<silently>><<set _next_passage to "Her Story 2">><</silently>>
+
+
+:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
+There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
+
+<<silently>><<set _next_passage to "Her Story 3">><</silently>>
+
+
+:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
+[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
+
+DIAGRAM GOES HERE.
+
+<<silently>><<set _next_passage to "Her Story 4">><</silently>>
+
+
+:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
+Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
+
+
+:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
+Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
+
+IMAGE OF BARLOW?
+
+<<silently>><<set _next_passage to "Her Story 5">><</silently>>
+
+
+:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
+Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
+
+<<silently>><<set _next_passage to "Her Story 6">><</silently>>
+
+
+:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
+This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
+
+<<silently>><<set _next_passage to "Her Story 7">><</silently>>
+
+
+:: MIRRORS {"position":"1618,2047","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
+The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+
+<<silently>><<set _next_passage to "Her Story 8">><</silently>>
+
+
+:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
+That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
+
+<<silently>><<set _next_passage to "Her Story 9">><</silently>>
+
+
+:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
+This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
+
+<<silently>><<set _next_passage to "Her Story 10">><</silently>>
+
+
+:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
+It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
+
+Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
+
+<<silently>><<set _next_passage to "Her Story 11">><</silently>>
+
+
+:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
+Double-click this passage to edit it.
+
+:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
+But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
+
+<<silently>><<set _next_passage to "Her Story 12">><</silently>>
+
+
+:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
+It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
+
+<<silently>><<set _next_passage to "Her Story 13">><</silently>>
+
+
+:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
+<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
+
+[[Return->Section 1: GESTURE]]
+
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
 <p>Samuel Beckett's <i>Quad</i> "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i>Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
 <br>
@@ -1257,9 +1277,6 @@ understood = [‘all’, ‘most’, ‘much’, ‘half’, ‘little’, ‘le
 <<silently>><<set _next_passage to "Megawatt 4">><</silently>>
 
 
-:: Love and Information [todo] {"position":"5044,918","size":"100,100"}
-<i>Love and Information</i> is a modular play written by Caryl Churchill. It first opened at the Royal Court Theatre in September 2012. It is the focus of the third [[case study->Case Study: LOVE AND INFORMATION]] in this dissertation.
-
 :: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
 Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
 
@@ -1386,11 +1403,6 @@ Double-click this passage to edit it.
 :: C 1
 A conclusion will go here.
 
-
-:: N. Katherine Hayles
-N. Katherine Hayles is a scholar of literature and technology whose texts have been foundational to my work. (This footnote needs expansion.)
-
-
 :: Hugh Kenner {"position":"5225,100","size":"100,100"}
 Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]</i>. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this dissertation.
 
@@ -1399,18 +1411,3 @@ Hugh Kenner was a literary scholar whose work fused close reading with a prescie
 Montfort, an associate professor of digital media at MIT in the Program in Writing and Humanistic Studies, sees himself as borrowing from the Oulipo tradition "a mathematical approach to literature, supplemented with contemporary technological capabilities and the language of programming" (Malecka et al 84). 
 
 Acid-Free Bits
-
-
-:: Sandbox {"position":"1481.666666666667,254.16666666666674","size":"100,100"}
-<p>Test.</p>
-
-
-:: Test {"position":"1301.666666666667,134.16666666666674","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Samuel Beckett {"position":"5475,100","size":"100,100"}
-Double-click this passage to edit it.
-
-:: J. L. Austin {"position":"4125,350","size":"100,100"}
-Double-click this passage to edit it.

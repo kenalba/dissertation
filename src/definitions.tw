@@ -6,10 +6,10 @@
 <</for>>
 
 :: Signal [definition] {"position":"2015,2502","size":"100,100"}
-The signal is the part of a message that's not <<define "noise" "Noise">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
+The signal is the part of a message that's not <<define "noise." "Noise">> See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
-:: Noise [definition] {"position":"2140,2502","size":"100,100"}
-The noise is the part of the message that's not <<define "signal" "Signal">>. See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
+:: Noise[definition] {"position":"2140,2502","size":"100,100"}
+The noise is the part of the message that's not <<define "signal." "Signal">> See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
 :: Inforg [definition GPT-3]
 <p>A portmanteau of the words "information" and "organism."</p>
@@ -117,13 +117,13 @@ N. Katherine Hayles,
 <p>In short, information is "a <<define "difference" "Derridean Difference">> that makes a difference."" The first 'difference' is, in its simplest form, a bit – a portmanteau for ‘binary digit,’ a zero or a one. The latter, however, pushes the informational out of the realm of mathematics and into the purview of the humanities. To make a difference is to have meaning, which implies a receiver capable of construing meaning. For N. Katherine Hayles as well as Bateson, this receiver can be one of a number of cognitive systems - a human mind, a smart phone, an e-reader - that processes data and embeds it in a particular context.</p>
 
 :: Critique of Judgment [definition nobr GPT-3]
-<p>"Kant's Critique of Judgment," a cornerstone of Immanuel Kant's philosophical works, delves into the intricate relationship between aesthetics, nature, and human cognition. Within this philosophical masterpiece, Kant examines the faculties that govern our judgments of beauty, art, and the sublime, while also exploring the connections between aesthetics and morality.</p>
-<p>The Critique of Judgment consists of two main parts: the "Critique of Aesthetic Judgment" and the "Critique of Teleological Judgment." In the first part, Kant delves into aesthetics, pondering the nature of beauty and artistic experiences. He introduces the concept of "judgments of taste," which, according to Kant, are based on subjective feelings of pleasure without relying on a determinate concept. Kant's famous phrase, "Beauty is what pleases universally without a concept," encapsulates this perspective.</p>
+<p>Kant's </i>Critique of Judgment</i>, a cornerstone of his philosophical works, delves into the intricate relationship between aesthetics, nature, and human cognition. Within this philosophical masterpiece, Kant examines the faculties that govern our judgments of beauty, art, and the sublime, while also exploring the connections between aesthetics and morality.</p>
+<p><i>The Critique of Judgment</i> consists of two main parts: the "Critique of Aesthetic Judgment" and the "Critique of Teleological Judgment." In the first part, Kant delves into aesthetics, pondering the nature of beauty and artistic experiences. He introduces the concept of "judgments of taste," which, according to Kant, are based on subjective feelings of pleasure without relying on a determinate concept. Kant's famous phrase, "Beauty is what pleases universally without a concept," encapsulates this perspective.</p>
 <p>Kant explores how individuals reach consensus on matters of beauty, proposing that aesthetic judgments possess a certain universality, albeit rooted in shared human cognitive faculties. This universality, he suggests, bridges the gap between individual subjectivity and the realm of objective judgment, providing a fascinating intersection between the personal and the universal.</p>
-<p>The second part of the Critique of Judgment focuses on teleology, investigating how humans attribute purpose and design to nature. Kant introduces the concept of "reflective judgment," where we attempt to understand natural phenomena in terms of underlying principles and purposes. He posits that our attempts to explain the natural world through concepts of purpose reveal an innate human tendency to seek meaning and order in our surroundings.</p>
+<p>The second part of the <i>Critique of Judgment</i> focuses on teleology, investigating how humans attribute purpose and design to nature. Kant introduces the concept of "reflective judgment," where we attempt to understand natural phenomena in terms of underlying principles and purposes. He posits that our attempts to explain the natural world through concepts of purpose reveal an innate human tendency to seek meaning and order in our surroundings.</p>
 <p>Furthermore, Kant delves into the concept of the sublime—a notion that transcends the realm of the beautiful and encompasses feelings of awe and astonishment in the face of nature's vastness and power. The sublime, according to Kant, challenges our cognitive faculties and incites a sense of the limitless and the boundless.</p>
-<p>Kant's Critique of Judgment bridges his earlier works, the "Critique of Pure Reason" and the "Groundwork for the Metaphysics of Morals," as it explores the interplay between reason, aesthetic sensibility, and ethical considerations. It weaves together the threads of human experience, cognition, and moral reflection, inviting readers to contemplate the intricate tapestry that forms the fabric of our understanding of beauty, nature, and the human condition.</p>
-<p>In the realm of an English PhD, Kant's Critique of Judgment offers a treasure trove of themes ripe for exploration, including the intersection of aesthetics and ethics, the role of imagination in artistic experiences, and the ways in which aesthetic appreciation shapes our understanding of the world. Its ideas continue to influence discussions across philosophy, literature, art theory, and beyond, beckoning scholars to delve deeper into the intricate labyrinth of Kant's insights.</p>
+<p>Kant's <i>Critique of Judgment</i> bridges his earlier works, the <i>Critique of Pure Reason</i> and the <i>Groundwork for the Metaphysics of Morals,</i> as it explores the interplay between reason, aesthetic sensibility, and ethical considerations. It weaves together the threads of human experience, cognition, and moral reflection, inviting readers to contemplate  our understanding of beauty, nature, and the human condition.</p>
+<p>In the realm of a document like this, <i>Kant's Critique of Judgment</i> offers a treasure trove of themes ripe for exploration, including the intersection of aesthetics and ethics, the role of imagination in artistic experiences, and the ways in which aesthetic appreciation shapes our understanding of the world. Its ideas continue to influence discussions across philosophy, literature, art theory, and beyond, beckoning scholars to delve deeper into the intricate labyrinth of Kant's insights.</p>
 
 
 :: clockwork [definition nobr]
@@ -196,7 +196,9 @@ This definition of AI is written by GPT-3, an AI model recently made available b
 
 :: cliché [definition nobr]
 <p>The term ‘cliché’ is, literally, a technical term used by 19th century printers, coming from the verb ‘clicher’ meaning to click and signifying a stereotype block (stereotype’s etymology is similarly grounded in the printing press). If a printer had a particular phrase that they knew they’d have to use over and over again, they’d often keep have a set block with those words on it. The word cliché was chosen for otomotopaeic reasons, to echo the sound of a mold from a printing press striking metal - although ‘click’ has its own associations now, of course. Even "type," that literary phrase to describe someone whose character is more general and indicative of a class of persons than individuated, appears to be etymologically related to the process of technologically reproducing language via printing. These phrases are early examples of linguistic memes: viral idioms with a disposition that inclines them towards replication, mutation, and dissemination through the mental gene pool.</p>
-<img style="max-width:100%" src="assets/imgs/cliche.png" alt="Generated with Midjourney with prompt: 'echo the sound of a mold from a printing press striking metal, cliche, in the style of paul klee'." title="Generated with Midjourney with prompt: 'echo the sound of a mold from a printing press striking metal, cliche, in the style of paul klee'.">
+<figure>
+<img style="max-width:100%" src="assets/imgs/cliche.png" alt="Generated with Midjourney with prompt: 'echo the sound of a mold from a printing press striking metal, cliche, in the style of paul klee'.">
+<figcaption>Generated with Midjourney with prompt: 'echo the sound of a mold from a printing press striking metal, cliche, in the style of paul klee'.</figcaption>
 
 :: heterogeneric [definition nobr]
 <p>By "heterogeneric" I mean more than a text which features multiple genres, although that's certainly a valid definition for the term. For a text to be heterogeneric in the way I mean, it must knowingly participate - and in its participation comment on - in multiple genres over the course of its corpus.</p>
@@ -383,7 +385,7 @@ For some examples of memes, see the <<excerpt "Meme Gallery">>.
 More to be written here.
 
 
-:: Benjamin’s aura [hs definition] {"position":"1615,2202","size":"100,100"}
+:: Benjamin’s aura [definition todo] {"position":"1615,2202","size":"100,100"}
 "In even the most perfect reproduction, one thing is lacking: the here and now of the work of art--its unique existence in a particular place. It is this unique existence--and nothing else--that bears the mark of the history to which the work has been subject."
 
 "The authenticity of a thing is the quintessence of all that is transmissible in it from its origin on, ranging from its physical duration to the historical testimony relating to it."
@@ -503,29 +505,30 @@ Instrumentally, then, we can think about data as 'preprocessed' information that
 However, as Gitelman's title suggests, this definition fails to account for the way in which data have to be "imagined <i>as</i> data to exist and function as such, and the imagination of data entails an interpretive base" <<cite "3" "Gitelman, Lisa. 'Raw Data' is an Oxymoron.">> -- and, as research and news stories on everything from cameras that can't see people of color to algorithms that re-enact redlining have demonstrated, an interpretive base is awfully close to an interpretive bias. Data cannot be prior to interpretation because its extraction is accomplished by human-made tools that can reflect the biases, blind spots, and bad motives of their engineers. Garbage in, garbage out.
 
 
-:: Glitch [definition todo] {"position":"3719,2968","size":"100,100"}
-The <span class="glitch" data-text="glitch">glitch</span> here is defined as both a technical term and as an aesthetic moment.
+:: Glitch [definition nobr] {"position":"3719,2968","size":"100,100"}
+<p>The <span class="glitch" data-text="glitch">glitch</span> here is defined as both a technical term and as an aesthetic moment.</p>
 
-From a technical perspective, a <span class="glitch" data-text="glitch">glitch</span> is, per the [[OED->Oxford English Dictionary]], "A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour."
+<p>From a technical perspective, a <span class="glitch" data-text="glitch">glitch</span> is, per the OED:</p>
+<blockquote>A surge of current or a spurious electrical signal; also, in extended use, a sudden short-lived irregularity in behaviour.<<cite "*" "Oxford English Dictionary">></blockquote>
 
-From an aesthetic perspective, however, the <span class="glitch" data-text="glitch">glitch</span> is a moment when less becomes more, when the lossy contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of <<define "signal" "Signal">> and <<define "noise" "Noise">> as discrete; instead, under the sign of the <span class="glitch" data-text="glitch">glitch</span>, the two switch places, intermingle, and become a new signal. 
+<p>From an aesthetic perspective, however, the <span class="glitch" data-text="glitch">glitch</span> is a moment when less becomes more, when the <<define "lossy" "loss">> contingencies of digital being paradoxically give rise to the production of something novel. This is often accompanied by a shift in the hermeneutic categorization of <<define "signal" "Signal">> and <<define "noise" "Noise">> as discrete; instead, under the sign of the <span class="glitch" data-text="glitch">glitch</span>, the two switch places, intermingle, and become a new signal.</p> 
 
-In the context of informational performativity, we might think about the <span class="glitch" data-text="glitch">glitch</span> as a mode of resistance to binary oppositions imposed by platforms. This passage requires expansion.
+<p>In the context of informational performativity, we might think about the <span class="glitch" data-text="glitch">glitch</span> as a mode of resistance to binary oppositions imposed by platforms.</p>
 
-See [[Blue Kettle->Case Study: BLUE KETTLE]], [[Menkman's Glitch Studies Manifesto->Ross Menkman’s 2010 Glitch Studies Manifesto]], and my discussion of the <span class="glitch" data-text="glitch">glitch</span> in the context of [[Kant's account of aesthetic experience of beauty->Kant's Glitch]].
+<p>See [[Blue Kettle->Case Study: BLUE KETTLE]] and [[Menkman's Glitch Studies Manifesto->Ross Menkman’s 2010 Glitch Studies Manifesto]].</p>
 
-
-:: transcoding [definition] {"position":"3719,2568","size":"100,100"}
+:: transcoding [definition todo] {"position":"3719,2568","size":"100,100"}
 "In new media lingo, to 'transcode' something is to translate it into another format. The computerization of culture gradually accomplishes similar transcoding in relation to all cultural categories and concepts. That is, cultural categories and concepts are substituted, on the level of meaning and/or the language, by new ones which derive from computer’s ontology, epistemology and pragmatics. New media thus acts as a forerunner of this more general process of cultural re-conceptualization." <<cite "45" "Manovich, Lev. The Language of New Media.">>
 
 
-:: Loss [definition todo] {"position":"3602,2569","size":"100,100"}
-<<define "Data">> takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. 
-
-Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes attest, analog media is continuous where digital media is not; nuances are often lost. 
-
-When a streamer watches a movie on, say, Netflix, the already-lossy digital file is compressed based on their internet speed. 
-
+:: Loss [definition nobr] {"position":"3602,2569","size":"100,100"}
+<p><<define "Data">> takes up space to store and bandwidth to transmit. By utilizing compression algorithms, the amount of space that data takes up can be reduced. However, that compression is seldom a lossless - or reversible - process. Instead, data is ordinarily lost during compression. These compression algorithms undergird the systems by which media is transmitted online. </p>
+<p>Loss is not unique to digital transcoding. Consider the process by which a 70mm film is transcoded into a digital format. This process can be 'lossless' inasmuch as it produces an enormous video file that, in theory, could be used to print a new 70mm film. However, as the protestations of film-first afficionadoes and vinylheads attest, analog media is continuous where digital media is not; nuances are often lost.</p>
+<p>In his memoir, Brian Eno writes about the nostalgic premium that accompanies lossy media, and how that <<define "noise" "Noise">> can itself become the <<define "signal" "Signal">> that the user seeks out:</p>
+<blockquote>
+	Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit — all of these will be cherished and emulated as soon as they can be avoided.<br>
+	It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them. <<cite "283" "Eno, Brian. A Year With Swollen Appendices.">>
+</blockquote>
 
 :: Unity [definition] {"position":"3594,3568","size":"100,100"}
 <a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create [[EndlessGame->Case Study: ENDLESSGAME]] and [[Almost to the Tick->Case Study: ALMOST TO THE TICK]].
@@ -605,4 +608,29 @@ Algorithms are everywhere. They are the set of instructions that tell a computer
 <p>The first two of these categories, clothes and cosmetics, are two of the most conspicuous modes through which individuals stylize their bodies into gendered performances. In other words, men's and women's magazines tell their readers what it means to be a good man or woman and then sell them what they need to fashion themselves according to that ideal.</p>
 
 
-:: Teen Vogue [definition nobr]
+:: McGuffin [definition nobr] {"position":"1999,1306","size":"100,100"}
+<p>A McGuffin (usually styled "MacGuffin") is a cinematic term that signifies a sort of plot device that is not in itself important -- for example, the Maltese Falcon or the briefcase full of gold in Pulp Fiction. The term was coined by screenwriter Angus MacPhail but popularized by Alfred Hitchcock:</p>
+<figure>
+	<video controls>
+	<source src="assets/videos/macguffin.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>Alfred Hitchcock explaining the term "MacGuffin" in a 1972 interview with Dick Cavett. <<cite "*" "Cavett, Dick. 'Alfred Hitchcock'">></figcaption>
+</figure>
+<blockquote>
+It might be a Scottish name, taken from a story about two men on a train. One man says, "What's that package up there in the baggage rack?" And the other answers, "Oh, that's a MacGuffin." The first one asks, "What's a MacGuffin?" "Well," the other man says, "it's an apparatus for trapping lions in the Scottish Highlands." The first man says, "But there are no lions in the Scottish Highlands," and the other one answers, "Well then, that's no MacGuffin!" So you see that a MacGuffin is actually nothing at all.
+</blockquote>
+
+:: Love and Information [definition nobr] {"position":"5044,918","size":"100,100"}
+<p><i>Love and Information</i> is a modular play written by Caryl Churchill. It first opened at the Royal Court Theatre in September 2012. I have adapted it into Twine <a href="assets/projects/lai_twine.html">here</a>; this adaptation is the focus of the third [[case study->Case Study: LOVE AND INFORMATION]] in this dissertation.</p>
+<p>Please note that I expressly did <i>not</i> receive permission by the Churchill estate to create this adaptation (like my Beckett adaptations). however, because the work is scholarly, not-for-profit, transformative, and will have no impact on the sales of the original work, my usage constitutes <<define "Fair Use">> and is, I submit, defensible on those grounds.</p>
+
+:: Ship of Theseus [definition nobr]
+<p><span class="blink1">T</span><span class="blink2">h</span><span class="blink3">e</span> <span class="blink4">S</span><span class="blink1">h</span>i<span class="blink2">p</span> <span class="blink3">o</span><span class="blink4">f</span> <span class="blink1">T</span><span class="blink2">h</span><span class="blink1">e</span><span class="blink3">s</span><span class="blink2">e</span><span class="blink4">u</span><span class="blink1">s</span> is a <<define "thought experiment" "Thought Experiment">> about identity. In short, the thought experiment considers a ship that has some of its components replaced every year. At what point, the experiment asks, has the identity of the ship changed? It was memorably formulated by Plutarch:</p>
+<blockquote>
+The ship on which Theseus sailed with the youths and returned in safety, the thirty-oared galley, was preserved by the Athenians down to the time of Demetrius Phalereus. They took away the old timbers from time to time, and put new and sound ones in their places, so that the vessel became a standing illustration for the philosophers in the mooted question of growth, some declaring that it remained the same, others that it was not the same vessel.<<cite "x" "Plutarch. Lives: Theseus.">>
+</blockquote>
+
+:: emoji [definition nobr]
+<p>In the context of digital performativity, emoji perform a particuarly interesting function. As iconic representations of facial expressions and other stylizations of the body on chat platforms that ordinarily lack a visual component beyond embedded images and a profile photo, the emoji should be read as a <<define "gesture" "information and selfhood">> in the performative sense.</p>
+<p>Gretchen McCulloch has written that emoji function as emblems; that is, they have "precise forms and stable meanings" <<cite "161" "McCulloch, Gretchen. Because Internet.">> within particular contexts - and those meanings change when moved to different contexts. She argues that they contribute to digital embodiment by allowing people to provide tonal markers to plain text.</p>
