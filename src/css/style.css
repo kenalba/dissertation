@@ -176,6 +176,11 @@ a.link-external::after {
   content: "";
 }
 
+li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 #navigation-list {
   user-select: pointer;
 }
@@ -296,4 +301,8 @@ a.link-external::after {
 @keyframes alternate4 {
   from { color: white } /*color when visible*/
   to   { color: lightgrey; text-transform: uppercase }
+}
+
+.hidden {
+  display: none;
 }

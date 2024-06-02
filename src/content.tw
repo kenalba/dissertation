@@ -8,7 +8,7 @@ Here's where we start!
 :: Title Page
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba
-Last updated May 12, 2024
+Last updated June 1, 2024
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
 
@@ -78,39 +78,33 @@ Thanks, and enjoy!
 
 <a name="bottom">Bottom.</a>
 
-:: Section 1: GESTURE {"position":"1801,1007","size":"100,100"}
+:: Section 1: GESTURE [nobr]
 
-[[Frame->Section 1 Framing]]
+<<click "Show Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
+<div id="introduction" class="hidden">
+  <p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
+  <p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
+  <p>The second, "I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i>, explores how the multimedial, <<define "heterogeneric">> structure of Chris Onstad's webcoming <i>Achewood</i> takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online.</p>
+  <p>The third and final case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between August Wilson's fictionalized blueswoman Ma Rainey and the recording technologies that exploitative white men use to capture and sell her voice - and how the actual Ma Rainey's stage and gender performance undermines this black-body-white-technological binary.</p>
+  <p>The goal of this section is to articulate and demonstrate a theory of gesture that works within the framework of <<define "informativity" "information and selfhood ">>. Each case study aims to show how the specificity of the medium and the technologies of that medium - the stages, URLs, and records - condition the possible selves that can be acted into being, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
+  <<click "Hide Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
+</div>
+<hr class="solid">
+🫖 [[Case Study: BLUE KETTLE]] 🫖 <br>
 
-[[Case Study: BLUE KETTLE]]
+❤️‍🩹 [[Case Study: ACHEWOOD]] 🪵 <br>
 
-[[Case Study: ACHEWOOD]]
-
-[[Case Study: MA RAINEY'S BLACK BOTTOM]]
-
+🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <br>
+<hr class="solid">
 [[Conclusion->Section 1 Conclusion]]
 
 :: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
 
-[[Case Study: HER STORY]]
+🪞 [[Case Study: HER STORY]] 🪞
 
-[[Case Study: KRAPP'S LAST TAPE]] - (waiting for links)
+➿ [[Case Study: KRAPP'S LAST TAPE]] ➿ - (waiting for links)
 
-[[Meatspace: THE ALT-RIGHT]] - (waiting for links)
-
-
-:: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
-This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EndlessGame 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
-
-[[Practice-Based Research Introduction / Overview / Methodology]]
-
-[[Case Study: ENDLESSGAME]] - (Presentation fodder!)
-
-[[Case Study: ALMOST TO THE TICK]] - (waiting for links)
-
-[[Case Study: LOVE AND INFORMATION]] - (being written)
-
-[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] - (being written)
+🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 - (waiting for links)
 
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
@@ -138,7 +132,7 @@ This situation is a microcosm of the broader condition of living in the informat
 <<silently>><<set _next_passage to "Introduction 5">><</silently>>
 
 :: Introduction 5 [intro nobr] {"position":"1026,1652","size":"100,100"}
-The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or "informativity," and believe that drama, as a genre fundamentally concerned with the problems of performance, will best allow me to articulate it.
+The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or "informativity," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
 
 <<silently>><<set _next_passage to "Introduction 6">><</silently>>
 
@@ -174,7 +168,7 @@ My practice-based research, which takes Beckett’s already hyperdetermined Quad
 
 
 :: Introduction 11 [intro nobr] {"position":"1023,2552","size":"100,100"}
-This dissertation takes up drama as well as fiction and works of electronic literature in service of a larger argument about the fate of genre in the information age. The genre of a text is necessarily impacted by the particularity of its medium: in Beckett’s case, we can think about his insistence on the distinction between his plays, his teleplays, and his radio plays, and the slippage between ‘medium of transmission’ and ‘genre’ that this distinction suggests. One function of the technological mediation of the literary at this point in the information age, however, is to collapse disparate genres and forms under the broader umbrella of ‘content,’ a genre that includes social media posts, news articles, videos, podcasts, and a plethora of other information streams. The medium of the Internet puts personal expression like status updates alongside Samuel Beckett quotations and news stories. By placing the two in the same context, on the same stream, the medium invites its users to read the two as members of the same genre. Reified social gestures become legible as texts, and vice versa. 
+This dissertation takes up drama as well as fiction and works of electronic literature in service of a larger argument about the fate of <<define "genre">> in the information age. The genre of a text is necessarily impacted by the particularity of its medium: in Beckett’s case, we can think about his insistence on the distinction between his plays, his teleplays, and his radio plays, and the slippage between ‘medium of transmission’ and ‘genre’ that this distinction suggests. One function of the technological mediation of the literary at this point in the information age, however, is to collapse disparate genres and forms under the broader umbrella of ‘content,’ a genre that includes social media posts, news articles, videos, podcasts, and a plethora of other information streams. The medium of the Internet puts personal expression like status updates alongside Samuel Beckett quotations and news stories. By placing the two in the same context, on the same stream, the medium invites its users to read the two as members of the same genre. Reified social gestures become legible as texts, and vice versa. 
 
 <<silently>><<set _next_passage to "Introduction 12">><</silently>>
 
@@ -183,28 +177,8 @@ This dissertation takes up drama as well as fiction and works of electronic lite
 Take, for example, the satire website Clickhole’s ‘blog post’ "The Time I Spent On A Commercial Whaling Ship Totally Changed My Perspective On The World," credited to "Ishmael - Sailor," whose title sits on a page above an image of a whale’s tail and the nearly unabridged text of <i>Moby Dick</i>. The article’s clickbait title recontextualizes the <<define "heterogeneric">> Great American Novel as bloggy self-expression. As Ryu Spaeth puts it in an article for The New Republic, the joke is that "even the greatest American Novel, digressions and weirdness and all, becomes vapid garbage as soon as it meets the internet" (2015). What Spaeth’s jeremiad misses is the way that Moby Dick already anticipates a collapsing of multiple genres into a single spout of content. That Clickhole omits the "Extracts" section that precedes "Call me Ishmael," however, is ironic; Melville’s Sub-Sub-Librarian’s collection of "higgledy-piggledy whale statements" collected from the "long Vaticans and street-stalls of the earth" – vapid garbage indeed! – anticipates the aggregation and list generation that makes up so much of the content on the web. This dissertation takes up multiple genres to explore the relationship of the literary and the informational for the same reason Ishmael takes up multiple genres to describe the White Whale: the subject exceeds any one way of looking at it and can at best be imperfectly grasped.
 
 
-:: V-Bucks {"position":"1166,1215","size":"100,100"}
-The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks. Interestingly, the use of virtual currency also echoes <i>Snow Crash</i>’s two primary currencies, Kongbucks and Gippers. The proliferation of currency further estranges objects from their labor value.
-
 :: Conclusion {"position":"2896,468","size":"100,100"}
 No conclusions just yet, but I'll arrive at some in time, I'm sure.
-
-
-:: Annotated Bibliography {"position":"3397,477","size":"100,100"}
-There are many sources, and they're all wonderful! They're just not here yet.
-
-
-:: Case Study: THE DIAMOND AGE {"position":"1437,1180","size":"100,100"}
-In progress.
-
-
-:: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
-<h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
-
-<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
-
-<<silently>><<set _next_passage to "Her Story 1">><</silently>>
-
 
 :: Case Study: BLUE KETTLE [nobr]
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
@@ -254,6 +228,15 @@ Contemporary reviews of the play were positive, if occasionally befuddled, but r
 
 <<silently>><<set _next_passage to "Blue Kettle 5">><</silently>>
 
+:: Blue Kettle 5 [bk nobr] {"position":"1870,1905","size":"100,100"}
+<p>This mode of informationally-informed reading, which I’m tentatively calling "literary informatics", considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. </p>
+<p>The naive schematic for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but <i>Blue Kettle</i> has none. R. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that "performance provides the supplement that brings the textual DNA to theatrical life"<<cite "120" "Gobart, R. Darren. 'On Performance and Selfhood in Caryl Churchill'">>; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.</p>
+<figure>
+<img style="max-width:75%" src="assets/imgs/informatics_schematic.png" alt="The progression of the schematic, represented visually as a papercraft author thinking, then writing, then a book, then actors on a stage, then an audience, thinking.">
+<figcaption>Generated with Midjourney with various prompts and the static modifiers "papercraft" and "against a pure black background".</figcaption>
+</figure>
+
+<<silently>><<set _next_passage to "Blue Kettle 6">><</silently>>
 
 :: Blue Kettle 6 [bk nobr] {"position":"1874,2046","size":"100,100"}
 <p>How does that decoding take place? </p>
@@ -282,7 +265,7 @@ MRS VANE:		That’s good. So can we fix a <<blue date>> to do that?<<cite "110" 
 <<silently>><<set _next_passage to "Blue Kettle 7">><</silently>>
 
 :: Blue Kettle 7 [bk] {"position":"1874,2196","size":"100,100"}
-These modes of decoding, alongside things like learned genre-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend. Reading the quotations aloud sends this into sharp relief.
+These modes of decoding, alongside things like learned <<define "genre">>-savviness from having read other plays with similar arcs and a general understanding of how conversation tends to work, makes it possible for a careful reader to, with some difficulty, pick out a signal out of the virus’s noise. An audience member has a much easier time; as most of the contemporary reviews make clear, the fact that human bodies on stage are gesticulating and emoting along with their fragmented language - and the fact that performing or reading the lines aloud requires having a sense of what words have been replaced - makes the lines’ meanings much easier to comprehend. Reading the quotations aloud sends this into sharp relief.
 
 Even by the eleventh and final scene, an exchange like: <blockquote><span class="script">DEREK: 		<<ket She Tle>> died <<ket when ket>> I <<ket ket was>> a child.</span>
 <span class="script">MRS PLANT:		<<bl Is Bl>> <<bl that bl>> <<ket supposed ket>> <<bl to b>> <<bl be b>> <<bl an b>> excuse?</span>
@@ -368,6 +351,414 @@ tripp<br>
 :thumb:<br><<cite "228" "229" "Kasulke, Calvin. Several People Are Typing.">>
 </blockquote>
 <p>Churchill’s exploration of a "language virus" in <i>Blue Kettle</i> suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that "Blue Kettle" forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the "sames", emojis, "big moods" and "on brands" of living in the information age.</o>
+
+[[Return->Section 1: GESTURE]]
+
+:: Case Study: ACHEWOOD [nobr]
+<h1>"I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i></h1>
+
+<a href="https://achewood.com/2005/07/12/title.html"><img style="max-width:100%" src="assets/imgs/achewood_weird_ideas.png" alt="[A car. Beef is driving, Ray is in the passenger seat.] Ray: Heh! Check it out, Beef - we're behind one of those dudes who messes with the letters on his Toyota! [We see the back of the Toyota pickup in front - the TOYOTA logo simply reads a central 'OYO'.] Ray: 'OYO.'' I see that one a lot. What's he even tryin' to get across? [Beef has a mental image - it is the Toyota, the sign now reading 'I HAVE WEIRD IDEAS ABOUT WHAT IT MEANS TO BE A MAN']" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'I once lived next to an enterprising fellow who stripped the letters completely and had his own made, in the Toyota typeface, which spelled RAIDERS'"></a>
+
+<<silently>><<set _next_passage to "Achewood 1">><</silently>>
+
+:: Achewood 1 [aw nobr]
+<p>In 2007, Lev Grossman, writing for Time Magazine, named Chris Onstad’s webcomic <i>Achewood</i> the year’s best graphic novel, despite it not being a graphic novel in “every, or maybe any, traditional sense, since its primary venue is on the web.”<<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">> <i>Achewood</i> was a long-running webcomic by that point; Onstad published more than 2600 strips, mostly between 2001 and 2010, during a run that earned it a place on the AV Club’s list of Best Comics of the 00’s.<<cite "*" "Heller, Jason, et al. 'The Best Comics of the '00s'">></p>
+<p>Like most works under examination in this document, <i>Achewood</i> is a difficult work to summarize or sort generically; in Grossman’s words, it:</p>
+<blockquote>
+defies categorization or description, but a brief, futile effort at a synopsis might look something like this: A bunch of cats, some robots, a bear and an otter who's 5 years old, live together in a fictional neighborhood called Achewood, which you might usefully think of as a grown-up, suburban, stoned version of Pooh's Hundred Acre Wood. <<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">>
+</blockquote>
+The comic is leavened with a healthy dose of <<define "'Mexican' Magical Realism">>, a fixation on cooking and food more broadly, a whip-smart comedic sensibility, and an incredible ear for dialogue.</p>
+
+<<silently>><<set _next_passage to "Achewood 2">><</silently>>
+
+:: Achewood 2 [aw nobr]
+<p>What makes <i>Achewood</i> interesting from the perspective of <<define "informativity" "information and selfhood">> is its vast array of <<define "paratexts" "paratext">> written in the voice and from the perspective of Onstad’s characters. In addition to the webcomic, Onstad has written:</p>
+<ul>
+<li>a cookbook with each recipe in the voice of a different character;</li>
+<a href="https://www.patreon.com/Achewood/shop/achewood-cookbook-vol-1-303"><img style="max-width:75%" src="assets/imgs/achewood_cookbook.png"></a>
+<li>three novellas written by misogynistic multiple-murderer “Nice Pete” Cropes;</li>
+<a href="https://achewood.com/2013/10/04/title.html"><img style="max-width:75%" src="assets/imgs/nice_pete_on_women.png"></a>
+<li>seven issues of a ‘zine by Cassandra “Roast Beef” Kazenzakis, who was called “the best new fictional character across any medium in at least a decade” by Rob Harvilla in the Village Voice <<cite "*" "Harvilla, Rob. In Praise of Achewood: The Great Outdoor Fight">>;</li>
+<a href="assets/pdfs/do_a_thing_1.pdf"><img style="max-width:75%" src="assets/imgs/achewood_zine_header.png"></a>
+<li>a long-running advice column by Ray Smuckles, written ostensibly in the style of Playboy;</li>
+<a href="assets/pdfs/rays_place.pdf"><img style="max-width:75%" src="assets/imgs/achewood_rays_place_header.png"></a>
+<li>a plethora of new <a href="https://www.patreon.com/Achewood/posts">Patreon-only content</a>;</li>
+<li>and - most impressively - a series of 12 blogs, each written in the voice of a different character - including one blog written by “Chris,” Onstad’s author persona who appears very occasionally in the strip.</li>
+</ul>
+<p>Exactly one of the twelve blogs is written by a female character, and the strip itself is similarly focused on men. The subject matter of all of this material is in many ways diverse - it’s certainly strange - but the central fixation is what it means to be a man in the 2000s.</p>
+
+<<silently>><<set _next_passage to "Achewood 3">><</silently>>
+
+:: Achewood 3 [aw nobr]
+<p>What <i>Achewood</i>’s <<define "heterogeneric">>, <<define "multimedial">> form reflects is its attitude towards masculinity as a fragmentary, discontinuous performance. The self-conscious utilization of multiple genera makes possible the presentation of a collection of characters who themselves already represent non-traditional forms of masculinity not merely as punch-lines but as fully fleshed-out and sympathetic fictional subjects.</p>
+<p>Take Teodor, an anxious bear whose main passion is cooking, or Lyle, the alcoholic tiger with a talent for calligraphy, both of whose blogs reflect their respective passions. By disseminating its male characters’ interiorities across a variety of digital media, <i>Achewood</i> offers a model of what I’m calling "multimedia masculinity". This model is of particular interest - and has particular explanatory power - in a contemporary moment where gender performance is increasingly multimedial and fragmented - strewn across multiple social media platforms, Zooms, and other pages as much as it is embodied and in person.</p>
+
+<<silently>><<set _next_passage to "Achewood 4">><</silently>>
+
+:: Achewood 4 [aw nobr]
+<p>What do I mean by multimedia masculinity? The term takes as its point of departure Judith Butler’s insight that gender is a socially constructed system of norms that must be constantly performed and prescriptively regulated to maintain its illusion of stability - a</p>
+<blockquote>
+	repeated stylization of the body, a set of repeated acts within a highly rigid regulatory frame that congeal over time to produce the appearance of substance<<cite "33" "Butler, Judith. Gender Trouble.">>.
+</blockquote>
+<p>However, this contemporary moment, where ‘embodiment’ is dematerialized to an unprecedented extent, warrants a close consideration of what ‘bodies’ are stylized to produce the appearance of a gendered substance. Considering masculinity from a multimedial perspective means doing just this: thinking about the different platforms, like social media, through and on which social gestures are performed.</p>
+
+<p>Multimedia masculinity, then, is a way of thinking about masculinity as it is performed through the bodies electric: in Facebook posts and tweets, on MMOs and Slack servers. Gender in this mode of thinking becomes something akin to <<define "genre">>; as Lauren Berlant puts it:</p>
+<blockquote>
+	To call an identity like a sexual identity a genre is to think about it as something repeated, detailed, and stretched while retaining its intelligibility, its capacity to remain readable or audible across the field of all its variations <<cite "4" "Berlant, Lauren. The Female Complaint.">>
+</blockquote>
+<p><<define "medium" "Medium">> - or platform - vary, and inflect both gender and genre, so the kinds of masculinity that these different media make possible - and prevent - are necessarily inflected by the generic tropes and traits of the platform in question. This, then, is a rearticulation of my broader argument about <<define "informativity," "information and selfhood">> or of performance and selfhood on digital platforms.</p>
+
+<<silently>><<set _next_passage to "Achewood 5">><</silently>>
+
+:: Achewood 5 [aw nobr]
+
+<p>A good point of entry for considering masculinity in Achewood is the 2006 arc “The Great Outdoor Fight,” which was the first story arc published in hardcover, by Dark Horse Press in 2008. <i>The Great Outdoor Fight</i> tracks Ray and Roast Beef as they compete in - and ultimately win - the eponymous fight.</p>
+<p>The Fight is an excellent case study for the performance of masculinity because it is a "homosocial enactment" in exactly the way Michael Kimmel writes about:</p>
+<blockquote>
+	We test ourselves, perform heroic feats, take enormous risks, all because we want other men to grant us our manhood. Masculinity as a homosocial enactment is fraught with danger, with the risk of failure, and with intense relentless competition. <<cite "33" "Kimmel, Michael. The Gender of Desire.">>
+</blockquote>
+<p>For Kimmel, men become men when they are recognized as such by other men, and the structure and ritual of competition is a pretext for precisely this mode of enactment.</p>
+
+<blockquote>
+	Three days! Three acres! Three THOUSAND men! Only one will win THE GREAT OUTDOOR FIGHT!
+</blockquote>
+
+<img style="max-width:100%" src="assets/imgs/gof_poster.jpeg" alt="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight." title="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight.'">
+
+<<silently>><<set _next_passage to "Achewood 6">><</silently>>
+
+:: Achewood 6 [aw nobr]
+
+<p>Ray initially joins the Fight when he learns that his estranged father, Ramses Smuckles, was a previous winner, making him “B.O.C.” - Blood of Champion.</p>
+<a href="http://achewood.com/index.php?date=01312006"><img style="max-width:100%" src="assets/imgs/achewood_boc.png" alt="[Ray is on the phone.] Ray: Yeah, I'm callin' to register for the 2006 Great Outdoor Fight. Ray: What? Ray: Qualifyin' rounds be damned. I'm BOC. {{BOC = Blood-of-Champion.}} Ray: 1973. Rodney Leonard Stubbs. I'm his son. Ray: Hell yes I can prove it. You name the place. I call you or your local representative out. Ray: Okay, hold on. I gotta grab a pen. [Ray rummages through his dresser drawers for a pen.] Ray: Hey, sorry 'bout that. Yeah. Ramada Inn, by the airport, room 215. Thanks. [The note Ray has written is completely illegible - a large R, a large A, '2...5?', and what looks like some ??'s are scribbled on the page.] Ray: Oh, whose ass am I kicking? Yours, or another guy? Ray: Seriously? Envel??pe Martinez? Fight Champion 1997? Nice! Ray: Alright, thanks Aaron. [Ray begins dialing another phone number.] <<beep>><<bop>><<dootle>><<dop>> Ray: Envelope! It's Ray, across the street! Ray: Listen, man! You know how I agreed to stop callin' the police over your animatronic nativity scene? Ray: Yeah, I got a favor. {{Alt-text: The assumption of this comic is that you all are familiar with my neighbor}}
+" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'The assumption of this comic is that you all are familiar with my neighbor'"></a>
+
+<p>Conversely, Roast Beef, who is Ray’s best friend, uses his computer to hack himself an invitation to the fight.</p>
+<a href="https://achewood.com/2006/02/07/title.html"><img style="max-width:100%" src="assets/imgs/achewood_beef_hacking.png" alt="[Ray and Roast Beef are riding in a motorcycle with a sidecar.] Ray: How the hell did you get into the Fight, Beef?! Roast Beef: Let's just say their database is accessible via any networked computer Ray: You HACKED your way into the Fight? Ray: Still, man, you can't hack a massive furious Nazi from San Bernadino. You got to raise your fists! Roast Beef: I ain't need no Dell Inspirion to bust a man down on into his component pieces Ray: I know you like to read Nate Small and all, but when you ever been in any single fight? [Ray and Roast Beef are approaching a large, fenced-in compound.] Roast Beef: Well would you look at that here we are Roast Beef: Watch this [Roast Beef runs a guy over, breaking his leg.] Random Guy: AUGH! Ray: Dude! What the hell?! Roast Beef: He won't compete but he'll be fine in a few weeks Roast Beef: That part of the leg heals quickly Ray: You did that on purpose? Roast Beef: I ain't Frederick H. Coca-Cola but I do know something about building a brand [Roast Beef brings the motorcycle to a stop.] <<pouf>> [Roast Beef takes off his motorcycle helmet.] Roast Beef: Alright you want a hot dog or a Polish or anything {{Alt-Text: Probably a good idea to dust off a couple Polish before the big round}}" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'Alt-Text: Probably a good idea to dust off a couple Polish before the big round'"></a>
+
+<p>The twosome make their way through the Fight, eventually dispatching the competition, and the arc climaxes with a confrontation between Ray and his father. Ramses tells Ray that the only way to win the Fight is to beat his friend Beef raw - the man with the Blood of Champions has to "beat [his best friend] 'till his blood runs."</p>
+
+<a href="https://achewood.com/2006/03/17/title.html"><img style="max-width:100%" src="assets/imgs/achewood_ray_and_ramses.png" alt="[Ray has recently been reunited with his father following his semi-victory in the Great Outdoor Fight] Ray: Dad! It's me, Ray! From... from Sondra, you know! Ramses Luther Smuckles: Easy, boy. Don't rap mush with me. Ramses: you in the goggles. What's your name. Roast Beef: Uh hello Mr. Smuckles my name is Roast Beef Ramses: Hush, Roast Beef. Roast Beef: Yes sir [A view of the control tower] Ramses: They told me my boy was int eh Fight this year! I been up in that tower since they raised the gate, watchin' you two. Ray: How'd we do, dad? How'd we look? Ramses: Roast Beef, do I have to hush him? Roast Beef: Hush Ray Ramses: You two's tight since small times, ain't you. Always fightin' as a team, Roast Beef usin' brains, Ray usin' brawn... Ramses: Problem IS, only one man can win this Fight! Ray: It's okay, dad, Beef said he'd lay it down for me! I'm gonna drop him easy. Ramses: I though you rookies might get up to as much. A lay-down ain't gonna fly with the men in the tower, you realize. They see anything short of a cold, ruthless ass-beatin', they'll bring out the Jeeps. Roast Beef: Oh not the Jeeps no Ray we ain't goin' that route please Ray: But... but I can't beat real on Beef! He's my oldest friend! Ramses: If that's the arrangement, you got to beat him 'till his blood runs, boy. You got to beat him 'till he can't crawl, see, or cry. Those are the rules, and all eyes are on you." title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'You made your bed, now severely beat your friends in it!'"></a>
+<p>Ray, though, refuses. He rejects the masculine code posited by his father and by the Fight as an establishment, declaring that they should “become the ruling body, dude!” and setting the whole field on fire.</p>
+<p> As he and Roast Beef ride off, Ray says, “Damn. This is a thing, isn’t it?” And Beef responds: “This is completely a thing. Our every move is the new tradition.” This represents a rejection of the violent masculine code of his father in favor of a masculinity that privileges the homosocial bond Ray has with his childhood friend; for Ray and Beef, </p>
+<<silently>><<set _next_passage to "Achewood 7">><</silently>>
+
+:: Achewood 7 [aw nobr]
+<p>Ray’s relationship with his father - and his attempt to validate his own masculinity by following in his father’s footsteps - follows generically stable story beats. The way the storyline plays out, however, is less typical. Ray and Beef win the fight primarily by their wits rather than by brawn, positing a model of masculinity grounded in friendship and in cleverness rather than in physical strength.</p>
+<p>More subversively, Ray and Beef ultimately violate the rules of the contest (and traditional masculinity) to win it on their own terms. This rejection of consensus codes that determine who is ‘manliest’ is typical of Achewood as a strip, which spends much more time on traditional domestic work like cooking than on fighting, and generally deflates any legitimately ‘manly’ display by its characters. Within the strip, Ray’s version of masculinity is performed through its inflection of a generically typical storyline. Ray’s actions get read against the generic tropes of the medium, against the standards of the fictional genre. By these standards, he’s manly because he wins the fight.</p>
+
+<<silently>><<set _next_passage to "Achewood 8">><</silently>>
+
+:: Achewood 8 [aw nobr]
+<p>The storyline itself - a battle royale to determine who is manliest, against a backdrop of paternal judgment - is typical for comics in general, a <<define "medium">> with more than its fair share of supercharged combat in its DNA. In fact, Achewood has another arc, "The Badass Games", which explores similar territory — although there, the competitors prove their manliness by talking to a convict, befriending a dog, and baking a loaf of bread.</p>
+
+<a href="https://achewood.com/2006/06/09/title.html"><img style="max-width:100%" src="assets/imgs/achewood_badass_games.png" alt="[T??odor, Cornelius, Vlad, Lyle, & Pat are gathered facing Ray & Roast Beef. Ray is addressing them, Beef stands silently next to Ray.] Ray: Welcome to the BADASS GAMES! Ray: Badass men do not mess around! They get down to business IMMEDIATELY! Ray: Each of you take a place at one of the five tables when I say GO! Ray: Your first challenge: BAKE A LOAF OF BREAD USING THE PROVIDED FLOUR, WATER, YEAST, AND SALT! Vlad [angrily]: What is badass about bakink loaf of bread?! I am thinkink we are at least Ultimate Fightink against wino! Ray: Nothing is more old-school than baking your own damn staff of life! A dude who can walk into any kitchen in the world and make bread is COMPLETELY RAW! [SOON.] Beef [addressing a sad Lyle]: Lyle your yeast didn't bloom dogg I mean this is a top drawer failure by any measure in the book Ray [addressing a sad T??odor]: T??odor, I thought you knew how to cook? Your bread is hard and nasty. How long did you knead it for? A thousand minutes? A million? Ray [with Beef, addressing Cornelius]: Daaamn! What we got here, Cornelius? Cornelius: I omitted the yeast and made a fresh malloreddus pasta, which I rolled out using my flask. Ray: Malloreddus? Cornelius: It's an eggless Sardinian dough. My dear Iris Gambol learned to make it the summer we spent in Cagliari. '67? '68? It escapes me. [THEN.] Beef: Alright not only did Cornelius buck the rules but he made a recipe that his dead first wife taught him before we were born Ray: That is /hard/. Cornelius, hands down."></a>
+
+<p>Here, again, what makes the winner "manly" isn't his ability to fight; it's his ability to perform a domestic task. Cornelius wins because he "made a recipe that his dead first wife taught him."</p>
+<p>Even still, there are other texts - and even other webcomics - that showcase men cooking, being clever, and winning through friendship. What makes <i>Achewood</i> -- and Ray specifically -- different is that that same version of masculinity is then refracted, fragmented, consistently, in other mediums.</p>
+
+<<silently>><<set _next_passage to "Achewood 9">><</silently>>
+
+:: Achewood 9 [aw nobr]
+<p><i>Ray’s Place</i>, the long-running advice column “written by” Ray, is similarly grounded in gendered, medium-driven tropes that are ultimately undermined.<p>
+<a href="assets/pdfs/rays_place.pdf"><img style="max-width:75%" src="assets/imgs/achewood_rays_place_header.png"></a>
+<p>Ray explicitly posits “Ray’s Place” as a “<i>Playboy”</i>-type advice column:</p>
+<blockquote>At first I thought I would kind of have this “Playboy” type column—you know, real gentlemen’s stuff, but with kind of a sense of hipness and adventure. Good clothes, good food,
+high-end electronics and digital cigar cutters, maybe a little bit of etiquette and tips on personal grooming.</blockquote>
+<p>From the very first entry, however, Ray’s performance of masculinity undermines itself:</p>
+<blockquote>What does a real gentleman talk about, anyway? I guess a real gentleman doesn’t do the talking, but rather guides conversation in a clever yet undetectable way. Man, I ain’t no good at that.</blockquote>
+<p>Ray tries to emulate the <i>Playboy</i> voice in response to a reader's question about a decidedly unhip topic - "the right way to eat Mexican food":</p>
+<blockquote>GENTLE READER: few things in life are so uncomfortable as the enormous “wind bubbles” one’s body creates after eating some delicious, tempting Mexican food. And just what is it about Mexican food that creates such a troublesome atmosphere within us? The answer: it is a complex system of enzymatic  chemical reactions which occur when soft, starchy foods meet the digestive acids which naturally pool in our stomachs.</blockquote>
+<p>...but stops after about a paragraph, rejecting the inauthentic performance of traditional masculinity personified here by the voice of the anonymous Playboy writer:</p>
+<blockquote>I feel so phony … why don’t I just try to write in my normal style?<<cite "3" "Onstad, Chris. The Collected Ray's Place">></blockquote>
+
+
+<<silently>><<set _next_passage to "Achewood 10">><</silently>>
+
+:: Achewood 10 [aw nobr]
+<p>That this misstepping moment occurs during an attempt to emulate the style of a so-called "men's <<define "magazine">>" is telling. As other scholars have remarked, the magazine is an active site for the inscription, reification, and enforcement of gender norms. As Amy N. Vreeland writes of the girl's magazine <i>Seventeen</i>:
+<blockquote><i>Seventeen</i> and similar publications provide cultural "scripts" that fuel, shape, and maintain normative conceptions of appropriate teenage "femininity" in order to guide the creation of gender identity along dominant ideals. Hence, <i>Seventeen</i> can be considered a "gender manual."<<cite "v" "Vreeland, Amy N. Seventeen Magazine as a Manual for 'Doing Gender'">></blockquote>
+<p>Ray here tries, and fails, to write a gender manual via the generic trappings he attempted to emulate, citing a sense of inauthenticity - echoing his rejection of the cultural script of the Great Outdoor Fight and of manliness more generally.</p>
+<p>Even still, the advice column, like the magazine, functions like the conduct manual, which Berlant describes as a “pragmatic pedagogic <<define "genre">>, an opportunity for retraining a reader into something different and yet more herself” <<cite "12" "Berlant, Lauren. The Female Complaint.">> <i>Ray’s Place</i> has a triple function, then: it establishes the broad outlines of “male” as genre within the constraints of the medium (and genre) of “advice column”; it situates Ray, as a fictional character, within that genre; and, thirdly, it allows Ray (and Onstad) to critique and deconstruct that genre - and its model of masculinity. </p>
+
+<<silently>><<set _next_passage to "Achewood 11">><</silently>>
+
+
+:: Achewood 11 [aw nobr]
+<p>This emulation and disavowal demonstrates how the slippage between genre and gender performativity gets even slipperier when translated textually, particularly in the first-person style. Despite the deconstructive bent of the text, many of the questions Ray answers early on in the column is standard “how to be a gentleman” <i>Playboy</i>-style material - first date etiquette, the right watch to buy, proper cocktail selections, and so forth.</p>
+<p>Onstad's pastiche was successful enough that <i>GQ</i> asked Onstad to produce a “Modern Gentleman’s Decision Making Flowchart,” which they published in their August 2008 issue.</p>
+<a href="https://achewood.com/2008/09/10/title.html"><img style="max-width:100%" src="assets/imgs/achewood_flowchart.png"></a>
+<p><i>Gentlemen's Quarterly</i>, like <i>Playboy</i>, is a men's <<define "magazine">> that presents a model of masculinity and sells the reader everything they need to make that masculinity real, provided they have the necessary money. But Onstad's contribution to <i>GQ</i> is typically playful, irreverent, and deconstructive.</p>
+<p>First of all, the flow-chart itself is an atypical contribution to a magazine best known for its annual "Man of the Year" feature.</p>
+<p>More specifically, take the three scenarios that the flowchart lays out: "a potential sexual encounter", "a one hundred and twelve dollar trip to Whole Foods so I can cook a two-course dinner for my girlfriend", and "a round of golf with a new client". Each scenario is fairly typical fodder for an advice column and for a men's magazine more generally - and each is deconstructed in a typically Onstadian fashion. The round of golf is successful after Ray cracks an inappropriate joke about letting "some scientists chop off [his] dick"; the fancy dinner is replaced by "DUDEMEAL, a special meal for dudes at eleven PM", and the sexual encounter is mostly in Ray's own mind, spurred by nothing more than a "chick... absently toying with her necklace so hard."</p>
+<p>In all three ostensibly masculine scenarios, Ray fails to perform as a good <i>GQ</i> reader ought to perform - yet each scenario ends in something like success.</p>
+
+
+<<silently>><<set _next_passage to "Achewood 12">><</silently>>
+
+:: Achewood 12 [aw nobr]
+<p>Ray’s personal blog is an even more personal glimpse into the voice and personality of this fictional character. These blogs are a substantial piece of Achewood: in fact, the final comic strip of Achewood's main run, before its recent revival as a popular Patreon, directs the reader to Onstad’s final blog post, where he writes “the blogs are where I personally think the heart and soul of that universe live [...] in words I haven’t had to maddeningly jockey into tiny speech bubbles” <<cite "*" "Onstad, Chris. 'Some News to Wrap Up 2016'.">>. Onstad provocatively figures the material and generic conventions of the comic strip as procrustean, like gender.</p>
+<p>Unlike the webcomic, with its generic punchlines and action sequences, and the advice column, with its performative and prescriptive enaction of masculinity, the personal blog is positioned as unvarnished and confessional. Ray’s blog alone is about 250 pages. In an early entry, for example, Ray describes how much he enjoys <i>Sex in the City</i> and wishes he could “hang with ladies like that [...] some ladies who tell it like it is and like to throw one back.” He explains his acquisition of the <i>Sex in the City</i> DVDs, however, as a mistake: he meant to order pornography. Even in the context of a personal blog aimed at his “chochachos” (a made up word Ray uses to describe his readers), Ray explains away his introduction to feminine culture by reasserting his masculinity. He’s pulled simultaneously towards the ‘feminized’ confessional genre of the online diary, which he engages elsewhere in the blogs, and being "maddeningly jockied" into the genre of masculinity.</p>
+<p>By reading his performance on the blogs alongside his other mediated selves, however, we can see how flimsy that masculinity is. Even as one of the arbiters of maleness within (and, for the superfans who can come up with an Achewood quote for every situation, without) the world of Achewood - writing advice columns for <i>GQ</i>, winning the Great Outdoor Fight - Ray’s membership in manliness as a genre is constantly in question and must constantly be reasserted.</p>
+
+<<silently>><<set _next_passage to "Achewood 13">><</silently>>
+
+:: Achewood 13 [aw nobr todo]
+<p>In 2023, after a long period of silence, Onstad announced his return to web publishing with the release of <a href="https://raybot.help/">RayBot</a>, an LLM-powered bot trained on the combined corpus of <i>Achewood</i>, along with content written specifically to turn Raybot into an accurate mimic of Ray's inimitable voice.</p>
+<img src="assets/imgs/achewood_raybot.png" style="max-width:50%;">
+<p>In an interview I conducted with Onstad, he spoke about the challenge and the pressure of creating an "authentic" experience of Ray; </p>
+<p>
+
+<<silently>><<set _next_passage to "Achewood 14">><</silently>>
+
+:: Achewood 14 [aw nobr]
+<p>Ray's multimedia masculinity is exemplary but not unique; one could look to Roast Beef’s alt zines or Nice Pete’s violently misogynistic novellas for other figurations of manliness refracted through and constrained by generic conventions.</p>
+<p>In Achewood and in contemporary online culture, social gestures refract through the mediums on which they are performed, become legible only in their <<define "genre" "generic">> contexts, and situate their performer within this complex matrix. <<define "multimedial" "Multimediated">> masculinity differs primarily in its triangulating function - individual performances across a broad band of media simultaneously provide the illusion of internal consistency (the ‘voice’ remains the same) and showcase how flexible, generically, any individual’s performance is.</p>
+<p>It also highlights the porousness of the boundary between mediated fictional characters and mediated ‘real’ persons; if our own personal production of ‘content’ through the various platforms on which we increasingly live our lives is self-consciously chosen, written in a way to conform with the twin generic demands of our media and our genders, then the gendered subject is always, to a greater or lesser degree, a fictional one.</p>
+<p>I do not mean to reinscribe face-to-face interaction as an escape from this generic double-bind; in-person social behavior, too, is governed by generic codes of acceptability and legibility. What multimedia masculinity offers is a way of illuminating these codes by deconstructing the boundary between the self-consciously constructed fictionality of, say, a cartoon cat, written into being on a variety of platforms, that selfsame cartoon cat's digital shadow as projected by an AI model onto the contemporary internet, and the analogous fictionality and multimodality of the narrative human subject in the information age.</p>
+
+[[Return->Section 1: GESTURE]]
+
+:: Case Study: MA RAINEY'S BLACK BOTTOM [mrbb nobr]
+<h1>"Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i></h1>
+<figure>
+	<video controls>
+	<source src="assets/videos/mrbb.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>"Ma Rainey's Black Bottom", as performed by Ma Rainey herself, recorded in 1924 and released by Paramount Records. This recording is in the public domain.</figcaption>
+</figure>
+<<silently>><<set _next_passage to "Ma Rainey 1">><</silently>>
+
+:: Ma Rainey 1 [mrbb nobr]
+<p>August Wilson’s 1982 play Ma Rainey’s Black Bottom opens in a recording studio, on two white men - Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label - testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control booth"<<cite "x" "Wilson, August. Ma Rainey's Black Bottom.">> that is, in most productions, located physically above the main stage, like a prison guard's tower. This distance spatializes Wilson's description of Sturdyvant as a man who is "preoccupied with money... insensitive to black performers and prefers to deal with them at arm's length" <<cite "17" "Wilson, August. Ma Rainey's Black Bottom.">></p>
+
+<<set _slides to ['assets/imgs/mr_nt_set.jpeg', 'assets/imgs/mr_netflix_set.png', 'assets/imgs/mr_wt_set.jpeg']>>
+	<figure>
+		<img style="width:100%" @src=[_slides[0]]>
+		<figcaption>The set for the National Theater's 2016 production of the play. The stained steel control room here especially recalls a guard tower. <br>Photo by Johan Persson courtesy of the National Theatre.</figcaption>
+	</figure>
+	<figure>
+		<img style="width:100%" @src=[_slides[2]]>
+		<figcaption>The set for the Writer's Theater 2019 production of the play. Note the conspicuous speaker that allows Irvin and Sturdyvant to give their orders without leaving the control room. <br>Photo by Michael Brosilow courtesy of New City Stage.</figcaption>
+	</figure>
+	<figure>
+		<img style="width:100%" @src=[_slides[1]]>
+		<figcaption>The set for Netflix's 2021 production of the play. Despite its cinematic medium, the Netflix adaptation largely confines itself to a stage set, with the exception of the conclusion. <br>Photo by David Lee courtesy of Netflix.</figcaption>
+	</figure>
+
+
+<<silently>><<set _next_passage to "Ma Rainey 2">><</silently>>
+
+:: Ma Rainey 2 [mrbb nobr]
+
+<p>Sturdyvant expects trouble from Rainey: “I don’t care what she calls herself,” he hollers at Irvin, “I’m not putting up with it. I just want to get her in here … record those songs on that list … and get her out. Just like <<define "clockwork">>, huh?” <<cite "18" "Wilson, August. Ma Rainey's Black Bottom.">>. When Rainey ultimately arrives, however - after the white men, her band, and the play’s audience has been waiting for about an hour  - she’s anything but clockwork. Whereas Sturdyvant wants a singing automaton he can record and sell, Rainey is defiantly and powerfully a human body from the moment she fills the stage.</p>
+<p>	Wilson plays with this technologic/organic binary throughout the play: a technological whiteness, represented primarily by Sturdyvant, obsessed with clock-time and allied with the recording process, against a stubbornly embodied blackness, represented primarily although not exclusively by Rainey, who Wilson identifies with live performance and with the ‘real’ blues.</p>
+<p>The play stages a power struggle between these two poles, with Rainey insisting on her own bodiliness in the face of Sturdyvant and Irvin’s attempt to transmute her voice into a valuable commodity. Although this binary makes for compelling drama and speaks to the history of (largely white) exploitation of black musicians, it fails to capture the degree to which the historical Rainey took ownership of the recording technology that made her a household name - and threatens to renaturalize a rhetoric that equates blackness with an atavistic, primitive ‘soulfulness.’ This section will begin, then, by sketching out how Wilson stages this binary, before problematizing it with reference to the historical Rainey’s own stage show and to Wilson’s own words outside of the playtext.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 3">><</silently>>
+
+:: Ma Rainey 3 [mrbb nobr]
+
+<p>Through most of the play Sturdyvant is in a control-box, physically alienated from the recording session, and his commands come through a speaker in the recording studio. In contrast to Rainey, for whom lived experience is paramount, Sturdyvant’s speech suggests a subjectivity obsessed with <<define "clock-time" "clockwork">>. As I noted earlier, he wants the session to go “like clockwork;” when Rainey is late, he asks Irvin “Do you know what time it is? Have you looked at the clock?” <<cite "47" "Wilson, August. Ma Rainey's Black Bottom">>, and when Rainey wants to stop the session for her coca-cola, he tells her “Wait just a minute, Ma … you come in an hour late … we’re way behind schedule as it is.” Indeed, it’s easy to read Slow Drag’s declaration that “the white man don’t know how to have a good time <<cite "41" "Wilson, August. Ma Rainey's Black Bottom">> as an indictment of Sturdyvant’s technologized obsession with the clock. Sturdyvant himself, then, can be read as the clockwork man that he wants to make Rainey into, having thoroughly internalized a mechanized, penny-pinching, second-counting mode of living.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 4">><</silently>>
+
+:: Ma Rainey 4 [mrbb nobr]
+
+<p>Conversely, Ma Rainey’s recalcitrance throughout the recording session refers repeatedly back to her body. We’re told early in the play that she complained during a previous recording session of her sore throat. This time around, she starts by lambasting Sturdyvent for keeping the studio too cold:</p>
+<blockquote>MA RAINEY: Why you all keep it so cold in here? Sturdyvant try and pinch every penny he can. You all wanna make some records, you better put some heat on in here or give me back my coat” <<cite "53" "Wilson, August. Ma Rainey's Black Bottom.">>.</blockquote>
+<p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, “All they want is my voice” <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 5">><</silently>>
+
+:: Ma Rainey 5 [mrbb nobr]
+
+<p>This reference to the body makes sense inasmuch as the blues she sings is inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of Those Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles.</p>
+<figure>
+	<video controls>
+	<source src="assets/videos/mr_tdom.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>"Those Dogs Of Mine" was recorded in 1924 by the historical Ma Rainey and released by Paramount Records. This recording is in the public domain.</figcaption>
+</figure>
+<blockquote>
+Out for a walk, I stopped to talk<br>
+Oh, how my corns did burn<br>
+I had to keep on the shady side of the street<br>
+To keep out the light of the sun<br>
+<br>
+Oh, Lord, these dogs of mine<br>
+They sure do worry me all the time<br>
+The reason why, I don't know<br>
+Sometimes I soak 'em in Sapolio <<cite "249" "Davis, Angela. Blues Legacies and Black Feminism.">>
+</blockquote>
+Similarly, the title song, “Ma Rainey’s Black Bottom,” refers to a dance, but is also a reference to Rainey’s own (sexual) body:</p>
+<blockquote> Want to see the dance you call the black bottom<br>
+I wanna learn that dance<br>
+Want to see the dance you call your big black bottom<br>
+That puts you in a trance<br>
+<br>
+All the boys in the neighborhood<br>
+They say your black bottom is really good<br>
+Come on and show me your black bottom<br>
+I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and Black Feminism.">>
+</blockquote>
+<p>This focus on the body is not atypical for the blues; unlike most other popular music of their era, the blues deviated in their "provocative and pervasive sexual -- including homosexual -- imagery" <<cite "3" "Davis, Angela. Blues Legacies and Black Feminism.">>. While not all of Rainey's music is focused on her body, Wilson's selection of songs that identify her music with her corporeal self highlights the difference between her and Sturdyvant, and sets up an oppositional relationship between her black body and the white technology of the recording studio; as Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” <<cite "16" "Nadel, Alan. May All Your Fences Have Gates.">> - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” <<cite "86" "Wilson, August. Ma Rainey's Black Bottom.">>.
+<p>This contrast is most vivid in Rainey’s figuration of the recording process as one of sexual violation:</o>
+<blockquote>As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on. <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">></blockquote> Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 6">><</silently>>
+
+:: Ma Rainey 6 [mrbb nobr]
+<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience, the Benjaminian aura par excellance, against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of transcoding more broadly and that echoes the historical violence perpetrated against African-Americans. However, this disjunction isn’t as strong as might appears to be.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 7">><</silently>>
+
+:: Ma Rainey 7 [mrbb nobr]
+<p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s Phaedrus, which Socrates worries will “introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.” Lived experience has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 8">><</silently>>
+
+:: Ma Rainey 8 [mrbb nobr]
+<p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
+<p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
+<blockquote>
+	AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
+	BILL MOYERS: What did it say?<br>
+	AUGUST WILSON: Well, it was someone speaking directly to me.
+</blockquote>
+<p>Wilson’s description is intensely physical: he begins by describing the material conditions surrounding his finding Bessie Smith’s record, describes the “odd” label,” and talks about the experience of having to put the needle down on the record twenty-two straight times. His response, too, is both physical and emotional - he’s “literally stunned” by its beauty; the record “speaks directly to him,” and he has an “immediate emotional response.” The technological apparatus makes possible the very kind embodied experience that, in the play, it opposes.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
+
+:: Ma Rainey 9 [mrbb nobr]
+<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <<define "Benjaminian aura" "Benjamin's aura">> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned (and functions-) s its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 10">><</silently>>
+
+:: Ma Rainey 10 [mrbb nobr]
+<p>The real Ma Rainey did this same work of refusing to identify the technological with whiteness and instead claiming it as a part of her own show. Whereas Wilson’s Rainey sets up an opposition between her records and her touring - predictably privileging the latter - the historical Rainey brought the record right on stage. As Paige McGinley describes it in “Staging the Blues,” </p>
+<blockquote>The curtain rose, revealing a giant prop replica of a Victrola; a chorus dancer began to play a similarly outsized prop record on the phonograph. From inside the Victrola, not yet visible to spectators, Rainey began to sing her wildly popular “Moonshine Blues,” [...] At a climactic moment in the song, she emerged from the boxy set piece, glittering in a famously extravagant gown and jewels, to the great delight of her audience.</blockquote>
+<p>Rainey’s success as a recording artist meant that much of her audience would already have heard her voice in their own homes; her stage performance suggests that she embraced the reach and the popularity that the then-novel technology gave her, collapsing the distance Wilson imagines between the embodied and the technological. This does not, of course, undo the fundamentally exploitative relationship that existed between Rainey and her white producers at Paramount “Race” Records, any more than Rainey’s choice of a painted cotton field as a backdrop for her live shows undoes the violence of slavery. It does, however, demonstrate how Rainey as a savvy stage performer in her own right made use of the very technology that Sturdyvent hopes will make her superfluous. [note: sandra adell.]</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 11">><</silently>>
+
+:: Ma Rainey 11 [mrbb nobr]
+<p>	By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in <i>Ma Rainey’s Black Bottom</i> is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product--the record--is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” (5), and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright. </p>
+
+<p>	Connect to informativity, and how Ma Rainey was both operating within a genre of performance and working against it.</p>
+
+<<silently>><<set _next_passage to "Ma Rainey 12">><</silently>>
+
+:: Ma Rainey 12 [mrbb nobr]
+<p>For Rainey, a larger-than-life</p>
+
+[[Return->Section 1: GESTURE]]
+
+
+:: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
+<h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
+
+<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
+
+<<silently>><<set _next_passage to "Her Story 1">><</silently>>
+
+:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
+<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
+
+<<silently>><<set _next_passage to "Her Story 2">><</silently>>
+
+
+:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
+There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
+
+<<silently>><<set _next_passage to "Her Story 3">><</silently>>
+
+
+:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
+[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
+
+DIAGRAM GOES HERE.
+
+<<silently>><<set _next_passage to "Her Story 4">><</silently>>
+
+
+:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
+Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
+
+
+:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
+Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
+
+IMAGE OF BARLOW?
+
+<<silently>><<set _next_passage to "Her Story 5">><</silently>>
+
+
+:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
+Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
+
+<<silently>><<set _next_passage to "Her Story 6">><</silently>>
+
+
+:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
+This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
+
+<<silently>><<set _next_passage to "Her Story 7">><</silently>>
+
+
+:: MIRRORS {"position":"1618,2047","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
+The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+
+<<silently>><<set _next_passage to "Her Story 8">><</silently>>
+
+
+:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
+That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
+
+<<silently>><<set _next_passage to "Her Story 9">><</silently>>
+
+
+:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
+This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
+
+<<silently>><<set _next_passage to "Her Story 10">><</silently>>
+
+
+:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
+It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the <<define "genre">> of detective fiction.
+
+Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
+
+<<silently>><<set _next_passage to "Her Story 11">><</silently>>
+
+
+:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
+Double-click this passage to edit it.
+
+:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
+But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
+
+<<silently>><<set _next_passage to "Her Story 12">><</silently>>
+
+
+:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
+It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
+
+<<silently>><<set _next_passage to "Her Story 13">><</silently>>
+
+
+:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
+<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
 [[Return->Section 1: GESTURE]]
 
@@ -600,6 +991,18 @@ This radical traditionalism would be all too familiar to a playwright whose time
 
 Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal (2020, 1). Where Malone, however, states that he is "not much given to nostalgia" (MD 10), Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past. Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to "define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future" (2002, 55). This is partly a function of the topic of the play - it is no surprise that Krapp’s Last Tape spends most of its time on Krapp’s tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.
 
+
+:: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
+This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EndlessGame 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
+
+[[Practice-Based Research Introduction / Overview / Methodology]]
+
+♾️ [[Case Study: ENDLESSGAME]] ♾️ - (Presentation fodder!)
+
+❤️ [[Case Study: LOVE AND INFORMATION]] ℹ️ - (being written)
+
+[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] - (being written)
+
 :: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
 The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
 
@@ -621,396 +1024,8 @@ This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which 
 :: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
 A case study about my <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of [[Caryl Churchill]]'s <i>Love and Information</i> into Twine. This may be omittable in the defended dissertation, but there is room for expansion here.
 
-
 :: Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW {"position":"5694,1043","size":"100,100"}
 Double-click this passage to edit it.
-
-:: Caryl Churchill [nobr] {"position":"4975,100","size":"100,100"}
-<figure><img style="max-width:50%" src="assets/imgs/caryl_churchill_sketch.jpg"><figcaption>A sketch of Caryl Churchill by the Wikimedia user "Petticonifer", from 2022.</figcaption></figure>
-<p>Caryl Churchill is a British playwright whose work engages engages with themes of gender, power, technology, and language, among other things. She has written for the stage, for television, and for radio. In a 2011 poll by <i>The Village Voice</i>, 5 of the 20 dramatists polled rated her as the greatest liviing playwright<<cite "*" "Soloski, Alexis. 'Who is the greatest living playwright?'">></p>
-<p>This study engages specifically and in an extended fashion with two of her works: [[Love and Information]], which has here been adapted to Twine, and [[Blue Kettle->Case Study: BLUE KETTLE]], one of the case studies in the first chapter. An excerpt [[From The Skriker]] was also inspirational in the early drafting of this document.</p>
-
-:: Language is a Virus [link] {"position":"1999,1456","size":"100,100"}
-Link to PDF.
-
-:: Blue Kettle 5 [bk nobr] {"position":"1870,1905","size":"100,100"}
-<p>This mode of informationally-informed reading, which I’m tentatively calling "literary informatics", considers the literary text as a kind of code, a bundle of information written by the author and executed by the reader. It opens up a usefully novel mode of considering the process by which the literary text becomes the phenomenological experience of the audience. </p>
-<p>The naive schematic for this mode of reading is as follows: the playwright has a scene they imagine on stage. That image is transcoded, or remediated, into words, which are then printed onto the page of a script. Because exhaustively describing the full scenario to appear on stage would take pages and pages, the playwright compresses the totality of a scenario into dialogue, words on a page that are then expanded upon by the director and the actors. Sometimes there are more or less precise stage directions to guide that expansion, but <i>Blue Kettle</i> has none. R. Darren Gobart’s biological reading of the play, which focuses on DNA rather than on computer code, centers the fact that "performance provides the supplement that brings the textual DNA to theatrical life"<<cite "120" "Gobart, R. Darren. 'On Performance and Selfhood in Caryl Churchill'">>; a computational heuristic, however, foregrounds the role of the audience member in decoding and expanding the ultimate ‘message’ of the play.</p>
-<figure>
-<img style="max-width:75%" src="assets/imgs/informatics_schematic.png" alt="The progression of the schematic, represented visually as a papercraft author thinking, then writing, then a book, then actors on a stage, then an audience, thinking.">
-<figcaption>Generated with Midjourney with various prompts and the static modifiers "papercraft" and "against a pure black background".</figcaption>
-</figure>
-
-<<silently>><<set _next_passage to "Blue Kettle 6">><</silently>>
-
-
-:: Case Study: ACHEWOOD [nobr]
-<h1>I Have Weird Ideas About What It Means To Be A Man: Oughties Multimedia Masculinity in <i>Achewood</i></h1>
-
-<a href="https://achewood.com/2005/07/12/title.html"><img style="max-width:100%" src="assets/imgs/achewood_weird_ideas.png" alt="[A car. Beef is driving, Ray is in the passenger seat.] Ray: Heh! Check it out, Beef - we're behind one of those dudes who messes with the letters on his Toyota! [We see the back of the Toyota pickup in front - the TOYOTA logo simply reads a central 'OYO'.] Ray: 'OYO.'' I see that one a lot. What's he even tryin' to get across? [Beef has a mental image - it is the Toyota, the sign now reading 'I HAVE WEIRD IDEAS ABOUT WHAT IT MEANS TO BE A MAN']" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'I once lived next to an enterprising fellow who stripped the letters completely and had his own made, in the Toyota typeface, which spelled RAIDERS'"></a>
-
-<<silently>><<set _next_passage to "Achewood 1">><</silently>>
-
-:: Achewood 1 [aw nobr]
-<p>In 2007, Lev Grossman, writing for Time Magazine, named Chris Onstad’s webcomic Achewood the year’s best graphic novel, despite it not being a graphic novel in “every, or maybe any, traditional sense, since its primary venue is on the web.”<<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">> Achewood was a long-running webcomic by that point; Onstad published more than 2600 strips, mostly between 2001 and 2010, a run that earned it a place on the AV Club’s list of Best Comics of the 00’s.<<cite "*" "Heller, Jason, et al. 'The Best Comics of the '00s'">></p>
-<p>Like most works under examination in this document, Achewood is a difficult work to summarize or sort generically; in Grossman’s words, it “defies categorization or description, but a brief, futile effort at a synopsis might look something like this: A bunch of cats, some robots, a bear and an otter who's 5 years old, live together in a fictional neighborhood called Achewood, which you might usefully think of as a grown-up, suburban, stoned version of Pooh's Hundred Acre Wood.”<<cite "*" "Grossman, Lev. ''Top 10 Graphic Novels.'">> The comic is leavened with a healthy dose of <<define "'Mexican' Magical Realism">>, a fixation on cooking and food more broadly, a whip-smart comedic sensibility, an incredible ear for dialogue, and a myopic lack of female characters.</p>
-
-<<silently>><<set _next_passage to "Achewood 2">><</silently>>
-
-:: Achewood 2 [aw nobr]
-<p>What makes Achewood interesting from the perspective of <<define "informativity" "information and selfhood">> is its vast array of paratexts written in the voice and from the perspective of Onstad’s characters. In addition to the webcomic, Onstad has written:
-<ul>
-<li>a cookbook with each recipe in the voice of a different character;</li>
-<a href="https://www.patreon.com/Achewood/shop/achewood-cookbook-vol-1-303"><img style="max-width:75%" src="assets/imgs/achewood_cookbook.png"></a>
-<li>three novellas written by misogynistic multiple-murderer “Nice Pete” Cropes;</li>
-<a href="https://achewood.com/2013/10/04/title.html"><img style="max-width:75%" src="assets/imgs/nice_pete_on_women.png"></a>
-<li>seven issues of a ‘zine by Cassandra “Roast Beef” Kazenzakis, who was called “the best new fictional character across any medium in at least a decade” by Rob Harvilla in the Village Voice;</li>
-<a href="assets/pdfs/do_a_thing_1.pdf"><img style="max-width:75%" src="assets/imgs/achewood_zine_header.png"></a>
-<li>a long-running advice column by Ray Smuckles [in the style of Playboy/Penthouse];</li>
-<a href="assets/pdfs/rays_place.pdf"><img style="max-width:75%" src="assets/imgs/achewood_rays_place_header.png"></a>
-<li>a plethora of new Patreon-only content;</li>
-<li>and - most impressively - a series of 12 blogs, each written in the voice of a different character - including one blog written by “Chris,” Onstad’s author persona who appears very occasionally in the strip.</li>
-</ul>
-<p>Exactly one of the twelve blogs is written by a female character. The subject matter of all of this material is in many ways diverse - it’s certainly strange - but the central fixation is what it means to be a man in the 2000s.</p>
-
-<<silently>><<set _next_passage to "Achewood 3">><</silently>>
-
-:: Achewood 3 [aw nobr]
-<p>What Achewood’s <<define "heterogeneric">>, <<define "multimedial">> form reflects is its attitude towards masculinity as a fragmentary, discontinuous performance. The self-conscious utilization of multiple genera makes possible the presentation of a collection of characters who themselves already represent non-traditional forms of masculinity not merely as punch-lines but as fully fleshed-out and sympathetic fictional subjects - from Teodor, an anxious bear whose main passion is cooking, to Lyle, the alcoholic tiger with a talent for calligraphy, both of whose blogs reflect their respective passions. By disseminating its male characters’ interiorities across a variety of born-digital media, Achewood offers a model of what I’m calling multimedia masculinity. This model is of particular interest - and has particular explanatory power - in a contemporary moment where gender performance is increasingly multimedial and fragmented - strewn across multiple social media platforms as much as it is embodied and in person. I will focus here on one character — Ray Smuckles, one of Achewood’s two main cats.</p>
-
-<<silently>><<set _next_passage to "Achewood 4">><</silently>>
-
-:: Achewood 4 [aw nobr]
-<p>What do I mean by multimedia masculinity? The term takes as its point of departure Judith Butler’s insight that gender is a socially constructed system of norms that must be constantly performed and prescriptively regulated to maintain its illusion of stability - a “repeated stylization of the body, a set of repeated acts within a highly rigid regulatory frame that congeal over time to produce the appearance of substance" <<cite "33" "Butler, Judith. Gender Trouble.">>. However, this contemporary moment, where ‘embodiment’ is dematerialized to an unprecedented extent, warrants a close consideration of what ‘bodies’ are stylized to produce the appearance of a gendered substance. Considering masculinity from a multimedial perspective means doing just this: thinking about the different platforms, like social media, through and on which social gestures are performed.</p>
-
-<p>Multimedia masculinity, then, is a way of thinking about masculinity as it is performed through the bodies electric: in Facebook posts and tweets, on MMOs and Slack servers. Gender in this mode of thinking becomes something akin to genre; as Lauren Berlant puts it in The Female Complaint, “To call an identity like a sexual identity a genre is to think about it as something repeated, detailed, and stretched while retaining its intelligibility, its capacity to remain readable or audible across the field of all its variations <<cite "4" "Berlant, Lauren. The Female Complaint.">>. Medium - or platform - vary, and inflect both gender and genre, so the kinds of masculinity that these different media make possible - and prevent - are necessarily inflected by the generic tropes and traits of the platform in question. This, then, is a rearticulation of my broader argument about <<define "informativity" "information and selfhood">>, or of performance and selfhood on digital platforms.</p>
-
-<<silently>><<set _next_passage to "Achewood 5">><</silently>>
-
-:: Achewood 5 [aw nobr]
-
-<p>A good point of entry for considering masculinity in Achewood is the 2006 arc “The Great Outdoor Fight,” which was the first story arc published in hardcover, by Dark Horse Press in 2008. The Great Outdoor Fight tracks Ray and Roast Beef as they compete in - and ultimately win - the eponymous fight. “Three days! Three acres! Three THOUSAND men! Only one will win THE GREAT OUTDOOR FIGHT!”</p>
-
-<img style="max-width:100%" src="assets/imgs/gof_poster.jpeg" alt="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight." title="A poster for the fictional Great Outdoor Fight, featuring a train and a long text description of the fight.'">
-
-<<silently>><<set _next_passage to "Achewood 6">><</silently>>
-
-:: Achewood 6 [aw nobr]
-
-<p>Ray initially joins the Fight when he learns that his estranged father, Ramses Smuckles, was a previous winner, making him “B.O.C.” - Blood of Champion.</p>
-<a href="http://achewood.com/index.php?date=01312006"><img style="max-width:100%" src="assets/imgs/achewood_boc.png" alt="[Ray is on the phone.] Ray: Yeah, I'm callin' to register for the 2006 Great Outdoor Fight. Ray: What? Ray: Qualifyin' rounds be damned. I'm BOC. {{BOC = Blood-of-Champion.}} Ray: 1973. Rodney Leonard Stubbs. I'm his son. Ray: Hell yes I can prove it. You name the place. I call you or your local representative out. Ray: Okay, hold on. I gotta grab a pen. [Ray rummages through his dresser drawers for a pen.] Ray: Hey, sorry 'bout that. Yeah. Ramada Inn, by the airport, room 215. Thanks. [The note Ray has written is completely illegible - a large R, a large A, '2...5?', and what looks like some ??'s are scribbled on the page.] Ray: Oh, whose ass am I kicking? Yours, or another guy? Ray: Seriously? Envel??pe Martinez? Fight Champion 1997? Nice! Ray: Alright, thanks Aaron. [Ray begins dialing another phone number.] <<beep>><<bop>><<dootle>><<dop>> Ray: Envelope! It's Ray, across the street! Ray: Listen, man! You know how I agreed to stop callin' the police over your animatronic nativity scene? Ray: Yeah, I got a favor. {{Alt-text: The assumption of this comic is that you all are familiar with my neighbor}}
-" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'The assumption of this comic is that you all are familiar with my neighbor'"></a>
-
-<p>Conversely, Roast Beef, who is Ray’s best friend, uses his computer to hack himself an invitation to the fight.</p>
-<a href="https://achewood.com/2006/02/07/title.html"><img style="max-width:100%" src="assets/imgs/achewood_beef_hacking.png" alt="[Ray and Roast Beef are riding in a motorcycle with a sidecar.] Ray: How the hell did you get into the Fight, Beef?! Roast Beef: Let's just say their database is accessible via any networked computer Ray: You HACKED your way into the Fight? Ray: Still, man, you can't hack a massive furious Nazi from San Bernadino. You got to raise your fists! Roast Beef: I ain't need no Dell Inspirion to bust a man down on into his component pieces Ray: I know you like to read Nate Small and all, but when you ever been in any single fight? [Ray and Roast Beef are approaching a large, fenced-in compound.] Roast Beef: Well would you look at that here we are Roast Beef: Watch this [Roast Beef runs a guy over, breaking his leg.] Random Guy: AUGH! Ray: Dude! What the hell?! Roast Beef: He won't compete but he'll be fine in a few weeks Roast Beef: That part of the leg heals quickly Ray: You did that on purpose? Roast Beef: I ain't Frederick H. Coca-Cola but I do know something about building a brand [Roast Beef brings the motorcycle to a stop.] <<pouf>> [Roast Beef takes off his motorcycle helmet.] Roast Beef: Alright you want a hot dog or a Polish or anything {{Alt-Text: Probably a good idea to dust off a couple Polish before the big round}}" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'Alt-Text: Probably a good idea to dust off a couple Polish before the big round'"></a>
-
-<p>The twosome make their way through the Fight, eventually dispatching the competition, and the arc climaxes with a confrontation between Ray and his father. Ramses tells Ray that the only way to win the Fight is to beat his friend Beef raw.</p>
-
-<a href="https://achewood.com/2006/03/17/title.html"><img style="max-width:100%" src="assets/imgs/achewood_ray_and_ramses.png" alt="[Ray has recently been reunited with his father following his semi-victory in the Great Outdoor Fight] Ray: Dad! It's me, Ray! From... from Sondra, you know! Ramses Luther Smuckles: Easy, boy. Don't rap mush with me. Ramses: you in the goggles. What's your name. Roast Beef: Uh hello Mr. Smuckles my name is Roast Beef Ramses: Hush, Roast Beef. Roast Beef: Yes sir [A view of the control tower] Ramses: They told me my boy was int eh Fight this year! I been up in that tower since they raised the gate, watchin' you two. Ray: How'd we do, dad? How'd we look? Ramses: Roast Beef, do I have to hush him? Roast Beef: Hush Ray Ramses: You two's tight since small times, ain't you. Always fightin' as a team, Roast Beef usin' brains, Ray usin' brawn... Ramses: Problem IS, only one man can win this Fight! Ray: It's okay, dad, Beef said he'd lay it down for me! I'm gonna drop him easy. Ramses: I though you rookies might get up to as much. A lay-down ain't gonna fly with the men in the tower, you realize. They see anything short of a cold, ruthless ass-beatin', they'll bring out the Jeeps. Roast Beef: Oh not the Jeeps no Ray we ain't goin' that route please Ray: But... but I can't beat real on Beef! He's my oldest friend! Ramses: If that's the arrangement, you got to beat him 'till his blood runs, boy. You got to beat him 'till he can't crawl, see, or cry. Those are the rules, and all eyes are on you." title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'You made your bed, now severely beat your friends in it!'"></a>
-<p>Ray, though, refuses. He rejects the masculine code posited by his father and by the Fight as an establishment, declaring that they should “become the ruling body, dude!” and setting the whole field on fire.</p>
-<p> As he and Roast Beef ride off, Ray says, “Damn. This is a thing, isn’t it?” And Beef responds: “This is completely a thing. Our every move is the new tradition.” </p>
-<<silently>><<set _next_passage to "Achewood 7">><</silently>>
-
-:: Achewood 7 [aw nobr]
-<p>The storyline itself - a battle royale to determine who is manliest - is typical for comics in general, a medium with more than its fair share of supercharged combat in its DNA. In fact, Achewood has another arc, "The Badass Games", which explores similar territory — although there, the competitors prove their manliness by talking to a convict, befriending a dog, and baking a loaf of bread.</p>
-
-<a href="https://achewood.com/2006/06/09/title.html"><img style="max-width:100%" src="assets/imgs/achewood_badass_games.png" alt="[T??odor, Cornelius, Vlad, Lyle, & Pat are gathered facing Ray & Roast Beef. Ray is addressing them, Beef stands silently next to Ray.] Ray: Welcome to the BADASS GAMES! Ray: Badass men do not mess around! They get down to business IMMEDIATELY! Ray: Each of you take a place at one of the five tables when I say GO! Ray: Your first challenge: BAKE A LOAF OF BREAD USING THE PROVIDED FLOUR, WATER, YEAST, AND SALT! Vlad [angrily]: What is badass about bakink loaf of bread?! I am thinkink we are at least Ultimate Fightink against wino! Ray: Nothing is more old-school than baking your own damn staff of life! A dude who can walk into any kitchen in the world and make bread is COMPLETELY RAW! [SOON.] Beef [addressing a sad Lyle]: Lyle your yeast didn't bloom dogg I mean this is a top drawer failure by any measure in the book Ray [addressing a sad T??odor]: T??odor, I thought you knew how to cook? Your bread is hard and nasty. How long did you knead it for? A thousand minutes? A million? Ray [with Beef, addressing Cornelius]: Daaamn! What we got here, Cornelius? Cornelius: I omitted the yeast and made a fresh malloreddus pasta, which I rolled out using my flask. Ray: Malloreddus? Cornelius: It's an eggless Sardinian dough. My dear Iris Gambol learned to make it the summer we spent in Cagliari. '67? '68? It escapes me. [THEN.] Beef: Alright not only did Cornelius buck the rules but he made a recipe that his dead first wife taught him before we were born Ray: That is /hard/. Cornelius, hands down."></a>
-
-<<silently>><<set _next_passage to "Achewood 8">><</silently>>
-
-:: Achewood 8 [aw nobr]
-<p>Even Ray’s relationship with his father - and his attempt to validate his own masculinity by following in his father’s footsteps - follows generically stable story beats. The way the storyline plays out, however, is less typical. Ray and Beef win the fight primarily by their wits rather than by brawn, positing a model of masculinity grounded in friendship and in cleverness rather than in physical strength.</p>
-<p>More subversively, Ray and Beef ultimately violate the rules of the contest (and traditional masculinity) to win it on their own terms. This rejection of consensus codes that determine who is ‘manliest’ is typical of Achewood as a strip, which spends much more time on traditional domestic work like cooking than on fighting, and generally deflates any legitimately ‘manly’ display by its characters. Within the strip, Ray’s version of masculinity is performed through its inflection of a generically typical storyline. Ray’s actions get read against the generic tropes of the medium, against the standards of the fictional genre. By these standards, he’s manly because he wins the fight. What makes Ray different is that that same version of masculinity is then refracted, fragmented, consistently, in other mediums.</p>
-
-<<silently>><<set _next_passage to "Achewood 9">><</silently>>
-
-:: Achewood 9 [aw nobr]
-<p>Ray’s Place, the long-running advice column “written by” Ray, is similarly grounded in gendered, medium-driven tropes that are ultimately undermined.<p>
-<a href="assets/pdfs/rays_place.pdf"><img style="max-width:75%" src="assets/imgs/achewood_rays_place_header.png"></a>
-<p>Ray explicitly posits “Ray’s Place” as a “Playboy”-type advice column:</p>
-<blockquote>At first I thought I would kind of have this “Playboy” type column—you know, real gentlemen’s stuff, but with kind of a sense of hipness and adventure. Good clothes, good food,
-high-end electronics and digital cigar cutters, maybe a little bit of etiquette and tips on personal grooming.</blockquote>
-<p>From the very first entry, however, Ray’s performance of masculinity undermines itself:</p>
-<blockquote>What does a real gentleman talk about, anyway? I guess a real gentleman doesn’t do the talking, but rather guides conversation in a clever yet undetectable way. Man, I ain’t no good at that.</blockquote>
-<p>Ray tries to emulate the <i>Playboy</i> voice in response to a reader's question about a decidedly unhip topic - "the right way to eat Mexican food":</p>
-<blockquote>GENTLE READER: few things in life are so uncomfortable as the enormous “wind bubbles” one’s body creates after eating some delicious, tempting Mexican food. And just what is it about Mexican food that creates such a troublesome atmosphere within us? The answer: it is a complex system of enzymatic  chemical reactions which occur when soft, starchy foods meet the digestive acids which naturally pool in our stomachs.</blockquote>
-<p>...but stops after about a paragraph, rejecting the inauthentic performance of traditional masculinity personified here by the voice of the anonymous Playboy writer:</p>
-<blockquote>I feel so phony … why don’t I just try to write in my normal style?<<cite "3" "Onstad, Chris. The Collected Ray's Place">></blockquote>
-
-
-<<silently>><<set _next_passage to "Achewood 10">><</silently>>
-
-:: Achewood 10 [aw nobr]
-<p>That this misstepping moment occurs during an attempt to emulate the style of a so-called "men's <<define "magazine">>" is telling. As other scholars have remarked, the magazine is an active site for the inscription, reification, and enforcement of gender norms. As Amy N. Vreeland writes of the girl's magazine <i>Seventeen</i>:
-<blockquote><i>Seventeen</i> and similar publications provide cultural "scripts" that fuel, shape, and maintain normative conceptions of appropriate teenage "femininity" in order to guide the creation of gender identity along dominant ideals. Hence, <i>Seventeen</i> can be considered a "gender manual".<<cite "v" "Vreeland, Amy N. Seventeen Magazine as a Manual for 'Doing Gender'">></blockquote>
-<p>Ray here tries, and fails, to write a gender manual via the generic trappings he attempted to emulate, citing a sense of inauthenticity - echoing his rejection of the cultural script of the Great Outdoor Fight and of manliness more generally.</p>
-<p>Even still, the advice column, like the magazine, functions like the conduct manual, which Berlant describes as a “pragmatic pedagogic genre, an opportunity for retraining a reader into something different and yet more herself” <<cite "12" "Berlant, Lauren. The Female Complaint.">> Ray’s Place has a triple function, then: it establishes the broad outlines of “male” as genre within the constraints of the medium (and genre) of “advice column”; it situates Ray, as a fictional character, within; and, thirdly, it allows Ray (and Onstad) to critique and deconstruct that genre - and its model of masculinity. </p>
-
-<<silently>><<set _next_passage to "Achewood 11">><</silently>>
-
-
-:: Achewood 11 [aw nobr]
-<p>This emulation and disavowal demonstrates how the slippage between genre and gender performativity gets even slipperier when translated textually, particularly in the first-person style. Despite the deconstructive bent of the text, many of the questions Ray answers early on in the column is standard “how to be a gentleman” Playboy-style material - first date etiquette, the right watch to buy, proper cocktail selections, and so forth.</p>
-<p>Onstad's pastiche was successful enough that <i>GQ</i> asked Onstad to produce a “Modern Gentleman’s Decision Making Flowchart,” which they published in their August 2008 issue.</p>
-<a href="https://achewood.com/2008/09/10/title.html"><img style="max-width:100%" src="assets/imgs/achewood_flowchart.png"></a>
-<p><i>Gentlemen's Quarterly</i>, like <i>Playboy</i>, is a men's <<define "magazine">> that presents a model of masculinity and sells the reader everything they need to make that masculinity real, provided they have the necessary money. But Onstad's contribution to <i>GQ</i> is typically playful, irreverent, and deconstructive.</p>
-<p>First of all, the flow-chart itself is an atypical contribution to a magazine best known for its annual "Sexiest Man Alive" feature.</p>
-<p>More specifically, take the three scenarios that the flowchart lays out: "a potential sexual encounter", "a one hundred and twelve dollar trip to Whole Foods so I can cook a two-course dinner for my girlfriend", and "a round of golf with a new client". Each scenario is fairly typical fodder for an advice column and for a men's magazine more generally - and each is deconstructed in a typically Onstadian fashion. The round of golf is successful after Ray cracks an inappropriate joke about letting "some scientists chop off [his] dick"; the fancy dinner is replaced by "DUDEMEAL, a special meal for dudes at eleven PM", and the sexual encounter is mostly in Ray's own mind, spurred by nothing more than a "chick... absently toying with her necklace so hard."</p>
-<p>In all three ostensibly masculine scenarios, Ray fails to perform as a good <i>GQ</i> reader ought to perform - yet each scenario ends in something like success.</p>
-
-
-<<silently>><<set _next_passage to "Achewood 12">><</silently>>
-
-:: Achewood 12 [aw nobr]
-<p>Then we have Ray’s personal blog. These blogs are a substantial piece of Achewood: in fact, the final comic strip of Achewood's main run, before its recent revival as a popular Patreon, directs the reader to Onstad’s final blog post, where he writes “the blogs are where I personally think the heart and soul of that universe live [...] in words I haven’t had to maddeningly jockey into tiny speech bubbles.” Onstad provocatively figures the material and generic conventions of the comic strip as procrustean, like gender.</p>
-<p>Unlike the webcomic, with its generic punchlines and action sequences, and the advice column, with its performative and prescriptive enaction of masculinity, the personal blog is positioned as unvarnished and confessional. Ray’s blog alone is about 250 pages. In an early entry, for example, Ray describes how much he enjoys <i>Sex in the City</i> and wishes he could “hang with ladies like that [...] some ladies who tell it like it is and like to throw one back.” He explains his acquisition of the <i>Sex in the City</i> DVDs, however, as a mistake: he meant to order pornography. Even in the context of a personal blog aimed at his “chochachos” (a made up word Ray uses to describe his readers), Ray explains away his introduction to feminine culture by reasserting his masculinity. He’s pulled simultaneously towards the ‘feminized’ confessional genre of the online diary, which he engages elsewhere in the blogs, and being "maddeningly jockied" into the genre of masculinity.</p>
-<p>By reading his performance on the blogs alongside his other mediated selves, however, we can see how flimsy that masculinity is. Even as one of the arbiters of maleness within (and, for the superfans who can come up with an Achewood quote for every situation, without) the world of Achewood - writing advice columns for GQ, winning the Great Outdoor Fight - Ray’s membership in manliness as a genre is constantly in question and must constantly be reasserted.</p>
-
-<<silently>><<set _next_passage to "Achewood 13">><</silently>>
-
-:: Achewood 13 [aw nobr]
-<p>Ray's multimedia masculinity is exemplary but not unique; one could look to Roast Beef’s alt zines or Nice Pete’s violently misogynistic novellas for other figurations of manliness refracted through and constrained by generic conventions.</p>
-<p>In Achewood and in contemporary online culture, social gestures refract through the mediums on which they are performed, become legible only in their generic contexts, and situate their performer within this complex matrix. Multimediated masculinity differs primarily in its triangulating function - individual performances across a broad band of media simultaneously provide the illusion of internal consistency (the ‘voice’ remains the same) and showcase how flexible, generically, any individual’s performance is.</p>
-<p>It also highlights the porousness of the boundary between mediated fictional characters and mediated ‘real’ persons; if our own personal production of ‘content’ through the various platforms on which we increasingly live our lives is self-consciously chosen, written in a way to conform with the twin generic demands of our media and our genders, then the gendered subject is always, to a greater or lesser degree, a fictional one.</p>
-<p>I do not mean to reinscribe face-to-face interaction as an escape from this generic double-bind; in-person social behavior, too, is governed by generic codes of acceptability and legibility. What multimedia masculinity offers is a way of illuminating these codes by deconstructing the boundary between the self-consciously constructed fictionality of, say, a cartoon cat, written into being on a variety of platforms, that selfsame cartoon cat's digital shadow as projected by an AI model onto the contemporary internet, and the analogous fictionality and multimodality of the narrative human subject in the information age.</p>
-
-[[Return->Section 1: GESTURE]]
-
-:: Case Study: MA RAINEY'S BLACK BOTTOM [mrbb nobr]
-<h1>"Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i></h1>
-<figure>
-	<video controls>
-	<source src="assets/videos/mrbb.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-	</video>
-	<figcaption>"Ma Rainey's Black Bottom", as performed by Ma Rainey herself, recorded in 1924 and released by Paramount Records. This recording is in the public domain.</figcaption>
-</figure>
-<<silently>><<set _next_passage to "Ma Rainey 1">><</silently>>
-
-:: Ma Rainey 1 [mrbb nobr]
-<p>August Wilson’s 1982 play Ma Rainey’s Black Bottom opens in a recording studio, on two white men - Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label - testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control booth"<<cite "x" "Wilson, August. Ma Rainey's Black Bottom.">> that is, in most productions, located physically above the main stage, like a prison guard's tower. This distance spatializes Wilson's description of Sturdyvant as a man who is "preoccupied with money... insensitive to black performers and prefers to deal with them at arm's length" <<cite "17" "Wilson, August. Ma Rainey's Black Bottom.">></p>
-
-<<set _slides to ['assets/imgs/mr_nt_set.jpeg', 'assets/imgs/mr_netflix_set.png', 'assets/imgs/mr_wt_set.jpeg']>>
-	<figure>
-		<img style="width:100%" @src=[_slides[0]]>
-		<figcaption>The set for the National Theater's 2016 production of the play. The stained steel control room here especially recalls a guard tower. <br>Photo by Johan Persson courtesy of the National Theatre.</figcaption>
-	</figure>
-	<figure>
-		<img style="width:100%" @src=[_slides[2]]>
-		<figcaption>The set for the Writer's Theater 2019 production of the play. Note the conspicuous speaker that allows Irvin and Sturdyvant to give their orders without leaving the control room. <br>Photo by Michael Brosilow courtesy of New City Stage.</figcaption>
-	</figure>
-	<figure>
-		<img style="width:100%" @src=[_slides[1]]>
-		<figcaption>The set for Netflix's 2021 production of the play. Despite its cinematic medium, the Netflix adaptation largely confines itself to a stage set, with the exception of the conclusion. <br>Photo by David Lee courtesy of Netflix.</figcaption>
-	</figure>
-
-
-<<silently>><<set _next_passage to "Ma Rainey 2">><</silently>>
-
-:: Ma Rainey 2 [mrbb nobr]
-
-<p>Sturdyvant expects trouble from Rainey: “I don’t care what she calls herself,” he hollers at Irvin, “I’m not putting up with it. I just want to get her in here … record those songs on that list … and get her out. Just like <<define "clockwork">>, huh?” <<cite "18" "Wilson, August. Ma Rainey's Black Bottom.">>. When Rainey ultimately arrives, however - after the white men, her band, and the play’s audience has been waiting for about an hour  - she’s anything but clockwork. Whereas Sturdyvant wants a singing automaton he can record and sell, Rainey is defiantly and powerfully a human body from the moment she fills the stage.</p>
-<p>	Wilson plays with this technologic/organic binary throughout the play: a technological whiteness, represented primarily by Sturdyvant, obsessed with clock-time and allied with the recording process, against a stubbornly embodied blackness, represented primarily although not exclusively by Rainey, who Wilson identifies with live performance and with the ‘real’ blues.</p>
-<p>The play stages a power struggle between these two poles, with Rainey insisting on her own bodiliness in the face of Sturdyvant and Irvin’s attempt to transmute her voice into a valuable commodity. Although this binary makes for compelling drama and speaks to the history of (largely white) exploitation of black musicians, it fails to capture the degree to which the historical Rainey took ownership of the recording technology that made her a household name - and threatens to renaturalize a rhetoric that equates blackness with an atavistic, primitive ‘soulfulness.’ This section will begin, then, by sketching out how Wilson stages this binary, before problematizing it with reference to the historical Rainey’s own stage show and to Wilson’s own words outside of the playtext.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 3">><</silently>>
-
-:: Ma Rainey 3 [mrbb nobr]
-
-<p>Through most of the play Sturdyvant is in a control-box, physically alienated from the recording session, and his commands come through a speaker in the recording studio. In contrast to Rainey, for whom lived experience is paramount, Sturdyvant’s speech suggests a subjectivity obsessed with <<define "clock-time" "clockwork">>. As I noted earlier, he wants the session to go “like clockwork;” when Rainey is late, he asks Irvin “Do you know what time it is? Have you looked at the clock?” <<cite "47" "Wilson, August. Ma Rainey's Black Bottom">>, and when Rainey wants to stop the session for her coca-cola, he tells her “Wait just a minute, Ma … you come in an hour late … we’re way behind schedule as it is.” Indeed, it’s easy to read Slow Drag’s declaration that “the white man don’t know how to have a good time <<cite "41" "Wilson, August. Ma Rainey's Black Bottom">> as an indictment of Sturdyvant’s technologized obsession with the clock. Sturdyvant himself, then, can be read as the clockwork man that he wants to make Rainey into, having thoroughly internalized a mechanized, penny-pinching, second-counting mode of living.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 4">><</silently>>
-
-:: Ma Rainey 4 [mrbb nobr]
-
-<p>Conversely, Ma Rainey’s recalcitrance throughout the recording session refers repeatedly back to her body. We’re told early in the play that she complained during a previous recording session of her sore throat. This time around, she starts by lambasting Sturdyvent for keeping the studio too cold:</p>
-<blockquote>MA RAINEY: Why you all keep it so cold in here? Sturdyvant try and pinch every penny he can. You all wanna make some records, you better put some heat on in here or give me back my coat” <<cite "53" "Wilson, August. Ma Rainey's Black Bottom.">>.</blockquote>
-<p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, “All they want is my voice” <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 5">><</silently>>
-
-:: Ma Rainey 5 [mrbb nobr]
-
-<p>This reference to the body makes sense inasmuch as the blues she sings is inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of Those Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles.</p>
-<figure>
-	<video controls>
-	<source src="assets/videos/mr_tdom.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-	</video>
-	<figcaption>"Those Dogs Of Mine" was recorded in 1924 by the historical Ma Rainey and released by Paramount Records. This recording is in the public domain.</figcaption>
-</figure>
-<blockquote>
-Out for a walk, I stopped to talk<br>
-Oh, how my corns did burn<br>
-I had to keep on the shady side of the street<br>
-To keep out the light of the sun<br>
-<br>
-Oh, Lord, these dogs of mine<br>
-They sure do worry me all the time<br>
-The reason why, I don't know<br>
-Sometimes I soak 'em in Sapolio <<cite "249" "Davis, Angela. Blues Legacies and Black Feminism.">>
-</blockquote>
-Similarly, the title song, “Ma Rainey’s Black Bottom,” refers to a dance, but is also a reference to Rainey’s own (sexual) body:</p>
-<blockquote> Want to see the dance you call the black bottom<br>
-I wanna learn that dance<br>
-Want to see the dance you call your big black bottom<br>
-That puts you in a trance<br>
-<br>
-All the boys in the neighborhood<br>
-They say your black bottom is really good<br>
-Come on and show me your black bottom<br>
-I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and Black Feminism.">>
-</blockquote>
-<p>This focus on the body is not atypical for the blues; unlike most other popular music of their era, the blues deviated in their "provocative and pervasive sexual -- including homosexual -- imagery" <<cite "3" "Davis, Angela. Blues Legacies and Black Feminism.">>. While not all of Rainey's music is focused on her body, Wilson's selection of songs that identify her music with her corporeal self highlights the difference between her and Sturdyvant, and sets up an oppositional relationship between her black body and the white technology of the recording studio; as Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” <<cite "16" "Nadel, Alan. May All Your Fences Have Gates.">> - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” <<cite "86" "Wilson, August. Ma Rainey's Black Bottom.">>.
-<p>This contrast is most vivid in Rainey’s figuration of the recording process as one of sexual violation:</o>
-<blockquote>As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on. <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">></blockquote> Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 6">><</silently>>
-
-:: Ma Rainey 6 [mrbb nobr]
-<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience, the Benjaminian aura par excellance, against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of transcoding more broadly and that echoes the historical violence perpetrated against African-Americans. However, this disjunction isn’t as strong as might appears to be.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 7">><</silently>>
-
-:: Ma Rainey 7 [mrbb nobr]
-<p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s Phaedrus, which Socrates worries will “introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.” Lived experience has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 8">><</silently>>
-
-:: Ma Rainey 8 [mrbb nobr]
-<p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
-<p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
-<blockquote>
-	AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
-	BILL MOYERS: What did it say?<br>
-	AUGUST WILSON: Well, it was someone speaking directly to me.
-</blockquote>
-<p>Wilson’s description is intensely physical: he begins by describing the material conditions surrounding his finding Bessie Smith’s record, describes the “odd” label,” and talks about the experience of having to put the needle down on the record twenty-two straight times. His response, too, is both physical and emotional - he’s “literally stunned” by its beauty; the record “speaks directly to him,” and he has an “immediate emotional response.” The technological apparatus makes possible the very kind embodied experience that, in the play, it opposes.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
-
-:: Ma Rainey 9 [mrbb nobr]
-<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <<define "Benjaminian aura" "Benjamin's aura">> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned (and functions-) s its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 10">><</silently>>
-
-:: Ma Rainey 10 [mrbb nobr]
-<p>The real Ma Rainey did this same work of refusing to identify the technological with whiteness and instead claiming it as a part of her own show. Whereas Wilson’s Rainey sets up an opposition between her records and her touring - predictably privileging the latter - the historical Rainey brought the record right on stage. As Paige McGinley describes it in “Staging the Blues,” </p>
-<blockquote>The curtain rose, revealing a giant prop replica of a Victrola; a chorus dancer began to play a similarly outsized prop record on the phonograph. From inside the Victrola, not yet visible to spectators, Rainey began to sing her wildly popular “Moonshine Blues,” [...] At a climactic moment in the song, she emerged from the boxy set piece, glittering in a famously extravagant gown and jewels, to the great delight of her audience.</blockquote>
-<p>Rainey’s success as a recording artist meant that much of her audience would already have heard her voice in their own homes; her stage performance suggests that she embraced the reach and the popularity that the then-novel technology gave her, collapsing the distance Wilson imagines between the embodied and the technological. This does not, of course, undo the fundamentally exploitative relationship that existed between Rainey and her white producers at Paramount “Race” Records, any more than Rainey’s choice of a painted cotton field as a backdrop for her live shows undoes the violence of slavery. It does, however, demonstrate how Rainey as a savvy stage performer in her own right made use of the very technology that Sturdyvent hopes will make her superfluous. [note: sandra adell.]</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 11">><</silently>>
-
-:: Ma Rainey 11 [mrbb nobr]
-<p>	By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in <i>Ma Rainey’s Black Bottom</i> is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product--the record--is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” (5), and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright. </p>
-
-<p>	Connect to informativity, and how Ma Rainey was both operating within a genre of performance and working against it.</p>
-
-<<silently>><<set _next_passage to "Ma Rainey 12">><</silently>>
-
-:: Ma Rainey 12 [mrbb nobr]
-<p>For Rainey, a larger-than-life</p>
-
-[[Return->Section 1: GESTURE]]
-
-
-:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
-<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
-
-<<silently>><<set _next_passage to "Her Story 2">><</silently>>
-
-
-:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
-There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
-
-<<silently>><<set _next_passage to "Her Story 3">><</silently>>
-
-
-:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
-[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
-
-DIAGRAM GOES HERE.
-
-<<silently>><<set _next_passage to "Her Story 4">><</silently>>
-
-
-:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
-Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
-
-
-:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
-Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
-
-IMAGE OF BARLOW?
-
-<<silently>><<set _next_passage to "Her Story 5">><</silently>>
-
-
-:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
-Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
-
-<<silently>><<set _next_passage to "Her Story 6">><</silently>>
-
-
-:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
-This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
-
-<<silently>><<set _next_passage to "Her Story 7">><</silently>>
-
-
-:: MIRRORS {"position":"1618,2047","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
-The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
-
-<<silently>><<set _next_passage to "Her Story 8">><</silently>>
-
-
-:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
-That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
-
-<<silently>><<set _next_passage to "Her Story 9">><</silently>>
-
-
-:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
-This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
-
-<<silently>><<set _next_passage to "Her Story 10">><</silently>>
-
-
-:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
-It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the genre of detective fiction.
-
-Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
-
-<<silently>><<set _next_passage to "Her Story 11">><</silently>>
-
-
-:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
-Double-click this passage to edit it.
-
-:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
-But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
-
-<<silently>><<set _next_passage to "Her Story 12">><</silently>>
-
-
-:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
-It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
-
-<<silently>><<set _next_passage to "Her Story 13">><</silently>>
-
-
-:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
-<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
-
-[[Return->Section 1: GESTURE]]
 
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
 <p>Samuel Beckett's <i>Quad</i> "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i>Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
@@ -1266,7 +1281,7 @@ Another passage about Not I
 voices = [‘sang’, ‘cried’, ‘stated’, ‘murmured’, ‘babbled’, ‘chattered’, ‘ranted’, ‘whispered’]<br>
 understood = [‘all’, ‘most’, ‘much’, ‘half’, ‘little’, ‘less’, ‘bits’, ‘nothing’]</code>
 
-<p>The hash marks # indicate a ‘comment’ – that is, a metatextual element of the programming language that is there not for the computer but for the human reader of the code. Good code is itself text, layered with computer instructions and with human-readable documentation that clarifies the function of the computer code. The brackets indicate the initialization of a ‘list,’ which is a kind of data structure that can contain a series of elements (here, ‘strings,’ or series of characters – words, sentences, and so on). The commented lines provide the code to initialize the lists one would need to replicate <i>Watt</i>: that is, there are four kinds of voices ([‘sang’,’cried’,’stated’,’murmured’]) and four kinds of understanding. Replacing the contents of the longer lists at the bottom of the provided code – where the voices also babble, chatter, rant, and whisper – would cause the program’s output to replicate the section in <i>Watt</i> rather than expanding it as <i>Megawatt</i> does. One can also add more words to the existing list; the voices could also yammer, bicker, ballyhoo, and so on. A hypothetical <i>Gigawatt</i> could, without much programming, search the dictionary for every verb that describes an utterance and automatically generate a voice for every word; the resulting text would stretch for millions of pages, and would still (correctly) end with the warning that these were only some of the voices.</p>
+<p>The hash marks # indicate a ‘comment’ – that is, a metatextual element of the programming language that is there not for the computer but for the human reader of the code. Good code is itself text, layered with computer instructions and with human-readable documentation that clarifies the function of the computer code. The brackets indicate the initialization of a ‘list,’ which is a kind of data structure that can contain a series of elements (here, ‘strings,’ or series of characters – words, sentences, and so on). The commented lines provide the code to initialize the lists one would need to replicate <i>Watt</i>: that is, there are four kinds of voices ([‘sang’,’cried’,’stated’,’murmured’]) and four kinds of understanding. Replacing the contents of the longer lists at the bottom of the provided code – where the voices also babble, chatter, rant, and whisper – would cause the program’s output to replicate the section in <i>Watt</i> rather than expanding it as <i>Megawatt</i> does. One can also add more words to the existing list; the voices could also yammer, bicker, ballyhoo, and so on. A hypothetical <i>Gigawatt</i> could, without much programming, search the dictionary for every verb that describes an <<define "utterance">> and automatically generate a voice for every word; the resulting text would stretch for millions of pages, and would still (correctly) end with the warning that these were only some of the voices.</p>
 
 <<silently>><<set _next_passage to "Megawatt 3">><</silently>>
 
@@ -1276,6 +1291,50 @@ understood = [‘all’, ‘most’, ‘much’, ‘half’, ‘little’, ‘le
 
 <<silently>><<set _next_passage to "Megawatt 4">><</silently>>
 
+:: Megawatt 4 {"position":"3319,1643","size":"100,100"}
+The algorithm from which the "short statement" about the "poor old lousy earth" can be written and rewritten is a manageable, human-readable piece of code that can be close-read like one might close-read the novel itself. In <i>Watt</i>, the statement goes three generations deep – i.e. from "my earth and my father’s and my mother’s.... and my father’s father’s father’s," exhausting every possible combination of the two terms ‘father’ and ‘mother’ for each generation. In <i>Megawatt</i>, the operation is extended to the sixth generation – i.e. to "my mother’s mother’s mother’s mother’s mother’s mother’s" and so on. The code to produce this operation is as follows:
+
+<code>
+text.append('Inside were Mr Knott and Erskine and another. Before ' +
+&emsp;'leaving, this gentleman made the following short statement:')
+para = 'And the poor old lousy earth, my earth'
+def ancestor(depth):
+&emsp;if depth < 1:
+&emsp;&emsp;yield "
+&emsp;else:
+&emsp;&emsp;for parent in [' father’s', ' mother’s']:
+&emsp;&emsp;&emsp;for grandparent in list(ancestor(depth - 1)):
+&emsp;&emsp;&emsp;&emsp;yield parent + grandparent
+for possessive in ['my', 'other people’s']:
+
+\## Originally this is done for three generations, i.e.:<br>
+\##   for i in range(1,4)<br>
+\## Here the number of generations are doubled, so there are six:
+&emsp;for i in range(1,7):
+&emsp;&emsp;elders = ancestor(i)
+&emsp;&emsp;for elder in list(elders):
+&emsp;&emsp;&emsp;para = para + ' and ' + possessive + elder
+para = para + '.'
+text.append(para)
+</code>
+
+First, to parse: ‘append’ is a function that takes as its parameter a string (that is, takes the parenthetical text that follows its invocation) and adds that parameter to the list that calls it. So  <code>text.append("New Entry")</code> would make a new entry in the list named "text" that holds the string <code>New Entry</code>. <code>para</code> is the string variable where the code holds the generated lines that will be added to the <code>text</code> list and worked on through the rest of the code. <code>def ancestor(depth):</code> declares a new function – a new set of instructions that takes as a parameter an integer "depth" (how many generations deep we want, in this case) – and ‘yields’ the sentence in Wattese. Notably, the ancestor function is recursive; it calls itself within itself until the depth is exhausted <code>(if depth < 1)</code>. The ‘for’ loop simply runs until all of the conditions have been met – <code>for parent in [‘father’s’, mother’s’]</code>, for example, runs the code that follows with ‘father’s’ as a parameter and then ‘mother’s’ as a parameter. The loops actually start running with the line <code>for possessive in [‘my’, ‘other people’s’]:</code>; it runs twice, first for ‘my’ ancestors and then for ‘other peoples’’ ancestors. Each time it runs, it goes through the ancestor-code from depths 1 through 6 (<code>for i in range(1,7)</code>). The ancestors function generates a list of ancestors, which are added to the ‘para’ variable sequentially at <code>for elder in list(elders)</code>; and then all of this output is written to the larger list <code>text</code> with the last provided line.
+
+<<silently>><<set _next_passage to "Megawatt 5">><</silently>>
+
+
+:: Megawatt 5 {"position":"3319,1768","size":"100,100"}
+This code is, hard as it might be to believe for someone without a coding background, remarkably human-readable and straightforward. There are lucid comments that explain where the constants 1 and 7 come from in the main loop, and Montfort uses variable names that make it clear what each variable stands in for, and what each list contains. For a programmer, then, this algorithm expresses the ‘pattern’ that the reader is encouraged to decode when they read <i>Watt</i>. Further, it allows for the possibility of indefinitely extended iterations of the algorithm provided by the original novel. Changing the "7" to "10," for example, carries out the operation to 9 generations rather than 6, which would in turn take up a great deal more space. That this part of the original text, along with other parts of Watt, can be formalized like this gestures towards the statement made just after the ‘short statement’ – that: 
+<blockquote>"if I could begin it all over again, knowing what I know now, the result would be the same. And if I could begin again a third time, knowing what I would know then, the result would be the same. And if I could begin it all over again a hundred times, knowing each time a little more than the time before, the result would always be the same, and the hundredth life as the first, and the hundred lives as once. A cat’s flux. But at this rate we shall be here all night"</blockquote>
+<<cite "47" "Beckett, Samuel. Watt.">>. 
+
+<<silently>><<set _next_passage to "Megawatt 6">><</silently>>
+
+
+:: Megawatt 6 {"position":"3319,1893","size":"100,100"}
+In other words, that which happens, happens again, and will continue to happen in a cursed recursion. What breaks the loop here is a few lines of poetry that results in a "Haw!" of laughter. Something affective – comedy – challenges the determinism of these logical structures that only seem to end where they do rather than, as they do in <i>Megawatt</i>, hundreds of pages later because to continue would exhaust the reader/listener. Of course, the subsequent statement made by <i>Watt</i>’s interlocutor tabulates the "laughs that strictly speaking are not laughs, but modes of ululation" – "the bitter, the hollow, and the mirthless" – and so on. Even that experience which exceeds tabulation is subject to the endless ratiocination and categorization of the broken mind-machines of <i>Watt</i>. Formalizing the algorithms that entrap Watt’s experience underscores the degree to which they leave something important out, the fundamentally impoverished state of language under the sign of the mechanical formula, and what Culik calls "descriptive (in)sufficiency of language" and "the (in)ability of a formal system to comprehend itself" (132). On the other hand, theorists of electronic literature and new media have pointed to randomization and automated texts as potentially liberatory; the process of <i>Megawatt</i>, whereby the reader, the compiler, the computer, the coder, and Beckett work in tandem to generate a new text, might, as Hayles puts it in a discussion of electronic literature, both reflect and enact "a new kind of subjectivity characterized by distributed cognition, networked agency that includes human and nonhuman actors, and fluid boundaries dispersed over actual and virtual locations" (37). Under this reading, we might think about how Megawatt fashions an "intermediation between computer code and human-only language, digital and analogue processing, and print and electronic media forms" (135) – about how porous the membrane becomes between author and reader, and how that porousness is reflected in many features of the new media landscape.
+
+[[Return->EndlessGame 2]]
 
 :: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
 Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
@@ -1340,52 +1399,6 @@ This transcoding has more iterations than the others. The primary prototype used
 Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is "a single-loading VIC-20 demo" by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
 
 
-:: Megawatt 4 {"position":"3319,1643","size":"100,100"}
-The algorithm from which the "short statement" about the "poor old lousy earth" can be written and rewritten is a manageable, human-readable piece of code that can be close-read like one might close-read the novel itself. In <i>Watt</i>, the statement goes three generations deep – i.e. from "my earth and my father’s and my mother’s.... and my father’s father’s father’s," exhausting every possible combination of the two terms ‘father’ and ‘mother’ for each generation. In <i>Megawatt</i>, the operation is extended to the sixth generation – i.e. to "my mother’s mother’s mother’s mother’s mother’s mother’s" and so on. The code to produce this operation is as follows:
-
-<code>
-text.append('Inside were Mr Knott and Erskine and another. Before ' +
-&emsp;'leaving, this gentleman made the following short statement:')
-para = 'And the poor old lousy earth, my earth'
-def ancestor(depth):
-&emsp;if depth < 1:
-&emsp;&emsp;yield "
-&emsp;else:
-&emsp;&emsp;for parent in [' father’s', ' mother’s']:
-&emsp;&emsp;&emsp;for grandparent in list(ancestor(depth - 1)):
-&emsp;&emsp;&emsp;&emsp;yield parent + grandparent
-for possessive in ['my', 'other people’s']:
-
-\## Originally this is done for three generations, i.e.:<br>
-\##   for i in range(1,4)<br>
-\## Here the number of generations are doubled, so there are six:
-&emsp;for i in range(1,7):
-&emsp;&emsp;elders = ancestor(i)
-&emsp;&emsp;for elder in list(elders):
-&emsp;&emsp;&emsp;para = para + ' and ' + possessive + elder
-para = para + '.'
-text.append(para)
-</code>
-
-First, to parse: ‘append’ is a function that takes as its parameter a string (that is, takes the parenthetical text that follows its invocation) and adds that parameter to the list that calls it. So  <code>text.append("New Entry")</code> would make a new entry in the list named "text" that holds the string <code>New Entry</code>. <code>para</code> is the string variable where the code holds the generated lines that will be added to the <code>text</code> list and worked on through the rest of the code. <code>def ancestor(depth):</code> declares a new function – a new set of instructions that takes as a parameter an integer "depth" (how many generations deep we want, in this case) – and ‘yields’ the sentence in Wattese. Notably, the ancestor function is recursive; it calls itself within itself until the depth is exhausted <code>(if depth < 1)</code>. The ‘for’ loop simply runs until all of the conditions have been met – <code>for parent in [‘father’s’, mother’s’]</code>, for example, runs the code that follows with ‘father’s’ as a parameter and then ‘mother’s’ as a parameter. The loops actually start running with the line <code>for possessive in [‘my’, ‘other people’s’]:</code>; it runs twice, first for ‘my’ ancestors and then for ‘other peoples’’ ancestors. Each time it runs, it goes through the ancestor-code from depths 1 through 6 (<code>for i in range(1,7)</code>). The ancestors function generates a list of ancestors, which are added to the ‘para’ variable sequentially at <code>for elder in list(elders)</code>; and then all of this output is written to the larger list <code>text</code> with the last provided line.
-
-<<silently>><<set _next_passage to "Megawatt 5">><</silently>>
-
-
-:: Megawatt 5 {"position":"3319,1768","size":"100,100"}
-This code is, hard as it might be to believe for someone without a coding background, remarkably human-readable and straightforward. There are lucid comments that explain where the constants 1 and 7 come from in the main loop, and Montfort uses variable names that make it clear what each variable stands in for, and what each list contains. For a programmer, then, this algorithm expresses the ‘pattern’ that the reader is encouraged to decode when they read <i>Watt</i>. Further, it allows for the possibility of indefinitely extended iterations of the algorithm provided by the original novel. Changing the "7" to "10," for example, carries out the operation to 9 generations rather than 6, which would in turn take up a great deal more space. That this part of the original text, along with other parts of Watt, can be formalized like this gestures towards the statement made just after the ‘short statement’ – that: 
-<blockquote>"if I could begin it all over again, knowing what I know now, the result would be the same. And if I could begin again a third time, knowing what I would know then, the result would be the same. And if I could begin it all over again a hundred times, knowing each time a little more than the time before, the result would always be the same, and the hundredth life as the first, and the hundred lives as once. A cat’s flux. But at this rate we shall be here all night"</blockquote>
-<<cite "47" "Beckett, Samuel. Watt.">>. 
-
-<<silently>><<set _next_passage to "Megawatt 6">><</silently>>
-
-
-:: Megawatt 6 {"position":"3319,1893","size":"100,100"}
-In other words, that which happens, happens again, and will continue to happen in a cursed recursion. What breaks the loop here is a few lines of poetry that results in a "Haw!" of laughter. Something affective – comedy – challenges the determinism of these logical structures that only seem to end where they do rather than, as they do in <i>Megawatt</i>, hundreds of pages later because to continue would exhaust the reader/listener. Of course, the subsequent statement made by <i>Watt</i>’s interlocutor tabulates the "laughs that strictly speaking are not laughs, but modes of ululation" – "the bitter, the hollow, and the mirthless" – and so on. Even that experience which exceeds tabulation is subject to the endless ratiocination and categorization of the broken mind-machines of <i>Watt</i>. Formalizing the algorithms that entrap Watt’s experience underscores the degree to which they leave something important out, the fundamentally impoverished state of language under the sign of the mechanical formula, and what Culik calls "descriptive (in)sufficiency of language" and "the (in)ability of a formal system to comprehend itself" (132). On the other hand, theorists of electronic literature and new media have pointed to randomization and automated texts as potentially liberatory; the process of <i>Megawatt</i>, whereby the reader, the compiler, the computer, the coder, and Beckett work in tandem to generate a new text, might, as Hayles puts it in a discussion of electronic literature, both reflect and enact "a new kind of subjectivity characterized by distributed cognition, networked agency that includes human and nonhuman actors, and fluid boundaries dispersed over actual and virtual locations" (37). Under this reading, we might think about how Megawatt fashions an "intermediation between computer code and human-only language, digital and analogue processing, and print and electronic media forms" (135) – about how porous the membrane becomes between author and reader, and how that porousness is reflected in many features of the new media landscape.
-
-[[Return->EndlessGame 2]]
-
-
 :: A transcoded body is still a body. {"position":"3719,2368","size":"100,100"}
 The estrangement of the flesh-and-blood body effected by the move to digital life does not ultimately efface the body; instead, it creates, as McLuhan might say, extensions of the self. Bodies electric. 
 
@@ -1395,19 +1408,5 @@ We still stylize these bodies according to comprehensible codes as a way of perf
 :: Stephen Connor {"position":"5975,100","size":"100,100"}
 Stephen Kevin Connor, FBA is a British literary scholar who wrote two books primarily about Beckett: <i>[[Samuel Beckett: Repetition, Theory, and Text->Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.]]</i> (1988) and <i>Beckett, Modernism, and the Material Imagination</i> (2014).
 
-
-:: Churchill, Caryl. The Skriker. {"position":"4975,225","size":"100,100"}
-Double-click this passage to edit it.
-
-
 :: C 1
 A conclusion will go here.
-
-:: Hugh Kenner {"position":"5225,100","size":"100,100"}
-Hugh Kenner was a literary scholar whose work fused close reading with a prescient eye for media specificity. He wrote four books that featured Samuel Beckett in a major way: <i>Samuel Beckett: A Critical Study</i> (1961), <i>The Stoic Comedians: Flaubert, Joyce, and Beckett</i> (1962), <i>A Reader's Guide to Samuel Beckett</i> (1973), and (most importantly for my research) 1987's <i>[[The Mechanic Muse->Kenner, Hugh. The Mechanic Muse.]]</i>. His <i>The Counterfeiters: An Historical Comedy</i> (1968) also bears on the work of this dissertation.
-
-
-:: Nick Montfort {"position":"6225,100","size":"100,100"}
-Montfort, an associate professor of digital media at MIT in the Program in Writing and Humanistic Studies, sees himself as borrowing from the Oulipo tradition "a mathematical approach to literature, supplemented with contemporary technological capabilities and the language of programming" (Malecka et al 84). 
-
-Acid-Free Bits
