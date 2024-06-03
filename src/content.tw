@@ -506,7 +506,7 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 :: Achewood 13 [aw nobr todo]
 <p>In 2023, after a long period of silence, Onstad announced his return to web publishing with the release of <a href="https://raybot.help/">RayBot</a>, an LLM-powered bot trained on the combined corpus of <i>Achewood</i>, along with content written specifically to turn Raybot into an accurate mimic of Ray's inimitable voice.</p>
 <img src="assets/imgs/achewood_raybot.png" style="max-width:50%;">
-<p>In an interview I conducted with Onstad, he spoke about the challenge and the pressure of creating an "authentic" experience of Ray; </p>
+<p>TODO: Add to this. Introduce technonecromancy, link to 36bb. This probably needs 2 passages.
 <p>
 
 <<silently>><<set _next_passage to "Achewood 14">><</silently>>
@@ -531,7 +531,7 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 <<silently>><<set _next_passage to "Ma Rainey 1">><</silently>>
 
 :: Ma Rainey 1 [mrbb nobr]
-<p>August Wilson’s 1982 play Ma Rainey’s Black Bottom opens in a recording studio, on two white men - Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label - testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control booth"<<cite "x" "Wilson, August. Ma Rainey's Black Bottom.">> that is, in most productions, located physically above the main stage, like a prison guard's tower. This distance spatializes Wilson's description of Sturdyvant as a man who is "preoccupied with money... insensitive to black performers and prefers to deal with them at arm's length" <<cite "17" "Wilson, August. Ma Rainey's Black Bottom.">></p>
+<p>August Wilson’s 1982 play <i>Ma Rainey’s Black Bottom</i> opens in a recording studio, on two white men - Irvin, Ma Rainey’s agent, and Sturdyvant, the owner of the studio and the record label - testing their technology in advance of a session with Rainey and her band. Irvin hooks up a microphone while Sturdyvant watches from above, ensconced in what the script calls the “control booth"<<cite "x" "Wilson, August. Ma Rainey's Black Bottom.">> that is, in most productions, located physically above the main stage, like a prison guard's tower. This distance spatializes Wilson's description of Sturdyvant as a man who is "preoccupied with money... insensitive to black performers and prefers to deal with them at arm's length" <<cite "17" "Wilson, August. Ma Rainey's Black Bottom.">></p>
 
 <<set _slides to ['assets/imgs/mr_nt_set.jpeg', 'assets/imgs/mr_netflix_set.png', 'assets/imgs/mr_wt_set.jpeg']>>
 	<figure>
@@ -568,13 +568,13 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 
 <p>Conversely, Ma Rainey’s recalcitrance throughout the recording session refers repeatedly back to her body. We’re told early in the play that she complained during a previous recording session of her sore throat. This time around, she starts by lambasting Sturdyvent for keeping the studio too cold:</p>
 <blockquote>MA RAINEY: Why you all keep it so cold in here? Sturdyvant try and pinch every penny he can. You all wanna make some records, you better put some heat on in here or give me back my coat” <<cite "53" "Wilson, August. Ma Rainey's Black Bottom.">>.</blockquote>
-<p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, “All they want is my voice” <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
+<p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences, rather than as the disembodied voice that Sturdyvant’s apparatus means to capture - as Rainey says, all they want is to take her "voice and trap it in them fancy boxes with all them buttons and dials" <<cite "78" "Wilson, August. Ma Rainey's Black Bottom">>. Rainey's attitude towards the technology of recording is dismissive and uninterested; she reduces the operations of the recording apparatus to gnomic "buttons and dials" while dialing in on the far more important, coercive power dynamics at play. Rainey's voice comes from her body, and her blues come from her body, but the process of recording that voice is fraught.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 5">><</silently>>
 
 :: Ma Rainey 5 [mrbb nobr]
 
-<p>This reference to the body makes sense inasmuch as the blues she sings is inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of Those Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles.</p>
+<p>Rainey's references to her body makes sense inasmuch as the blues she sings are inextricable from her corporeal self.  The first song that the audience sees her sing is a verse of "Those Dogs of Mine,” a song about her aching feet, after removing her shoes and rubbing her soles.</p>
 <figure>
 	<video controls>
 	<source src="assets/videos/mr_tdom.mp4" type="video/mp4">
@@ -604,30 +604,45 @@ They say your black bottom is really good<br>
 Come on and show me your black bottom<br>
 I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and Black Feminism.">>
 </blockquote>
-<p>This focus on the body is not atypical for the blues; unlike most other popular music of their era, the blues deviated in their "provocative and pervasive sexual -- including homosexual -- imagery" <<cite "3" "Davis, Angela. Blues Legacies and Black Feminism.">>. While not all of Rainey's music is focused on her body, Wilson's selection of songs that identify her music with her corporeal self highlights the difference between her and Sturdyvant, and sets up an oppositional relationship between her black body and the white technology of the recording studio; as Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” <<cite "16" "Nadel, Alan. May All Your Fences Have Gates.">> - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” <<cite "86" "Wilson, August. Ma Rainey's Black Bottom.">>.
-<p>This contrast is most vivid in Rainey’s figuration of the recording process as one of sexual violation:</o>
-<blockquote>As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on. <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">></blockquote> Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body.</p>
-
+<p>This focus on the body is not atypical for the blues; unlike most other popular music of their era, the blues deviated in their "provocative and pervasive sexual -- including homosexual -- imagery" <<cite "3" "Davis, Angela. Blues Legacies and Black Feminism.">>. While not all of Rainey's music is focused on her body, Wilson's selection of songs that identify her music with her corporeal self highlights the difference between her and Sturdyvant, and sets up an oppositional relationship between her black body and the white technology of the recording studio. As Alan Nadel writes, Rainey’s “singing isn’t something already formed but something formed in the act” <<cite "16" "Nadel, Alan. May All Your Fences Have Gates.">> - or in Rainey’s own words, that the blues are “life’s way of talking [...] you sing ‘cause that’s a way of understanding life” <<cite "86" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
 <<silently>><<set _next_passage to "Ma Rainey 6">><</silently>>
 
 :: Ma Rainey 6 [mrbb nobr]
-<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience, the Benjaminian aura par excellance, against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of transcoding more broadly and that echoes the historical violence perpetrated against African-Americans. However, this disjunction isn’t as strong as might appears to be.</p>
+<p>	According to this reading, then, Ma Rainey represents the blues - and blackness - as lived, embodied experience against a technologized whiteness that severs Ma Rainey’s music from its context, creating the disjunction of information from its temporo-spatial context that is endemic of <<define "transcoding">> more broadly and that echoes the historical violence perpetrated against African-Americans throughout the history of America.</p>
+<p>This contrast is most vivid in Rainey’s figuration of the recording process as one of sexual violation:</p>
+<blockquote>They don't care nothing about me. All they want is my voice. Well, I done learned that, and they gonna treat me like I want to be treated no matter how much it hurt them... As soon as they get my voice down on them recording machines, then it’s just like if I’d be some whore and they roll over and put their pants on. <<cite "79" "Wilson, August. Ma Rainey's Black Bottom.">></blockquote> 
+<p>Rainey’s simile recalls a history of white sexual violence against and exploitation of black female bodies, invoked elsewhere in the play through Levee’s story about his mother’s rape, but it also symbolically links her music with her sexualized body. Rainey has power in the recording studio because of her voice, and because she doesn't <i>need</i> to record her music to succeed - in fact, she prefers live performance. That power, though, is contested and contained by the technological exploitation of Sturdyvant and his ilk.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 7">><</silently>>
 
 :: Ma Rainey 7 [mrbb nobr]
-<p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s Phaedrus, which Socrates worries will “introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.” Lived experience has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
+<p>Wilson's play sketches out this opposition cleanly and consistently, but the particularity of the technologies in question, along with an examination of the historical Rainey's own live concerts, demonstrates how Rainey herself deconstructed this binary in her larger-than-life performance.</p>
+<p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of nostalgia. The earliest example of this may be the discussion of writing in Plato’s <i>Phaedrus</i>, which Socrates worries will:</p>
+<blockquote> ...introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.<<cite "*" "Plato. Phaedrus.">></blockquote>
+<p>Lived experience, by this account, has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 8">><</silently>>
 
 :: Ma Rainey 8 [mrbb nobr]
-<p>In the contemporary moment, however, vinyl records and other analog technology has acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
+<p>In the contemporary moment, however, vinyl records and other analog technology has itself acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with noiseless, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
 <p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
+
+<figure>
+	<video id="wilson_on_blues" controls>
+	<source src="assets/videos/wilson_on_blues.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>August Wilson being interviewed by Bill Moyers in 1988.</figcaption>
+	<script>
+	document.getElementById("wilson_on_blues").currentTime = 249;
+	</script>
+</figure>
 <blockquote>
 	AUGUST WILSON: [...] I used to collect 78 records that I would buy from the St Vincent de Paul store, at five cents apiece, and I did this indiscriminately [....] And one day in my sack of records there was a yellow-labeled record that had a typewritten label, which was kind of odd. And I put it on, and it was ”Nobody in Town Can Bake a Sweet Jelly Roll Like Mine.” It was by Bessie Smith, of course, and I listened to it, and I had one of those old 78s where you had to keep putting the needle in, and I recall I listened to the record 22 straight times. I had never in my life  -- [...] And just over and, you know. I had never heard anything like it — and I was literally stunned by its beauty. [...] And it spoke – there was an immediate emotional response.<br>
 	BILL MOYERS: What did it say?<br>
-	AUGUST WILSON: Well, it was someone speaking directly to me.
+	AUGUST WILSON: Well, it was someone speaking directly to me.<<cite "*" "Moyers, Bill, and August Wilson.">>
 </blockquote>
+
 <p>Wilson’s description is intensely physical: he begins by describing the material conditions surrounding his finding Bessie Smith’s record, describes the “odd” label,” and talks about the experience of having to put the needle down on the record twenty-two straight times. His response, too, is both physical and emotional - he’s “literally stunned” by its beauty; the record “speaks directly to him,” and he has an “immediate emotional response.” The technological apparatus makes possible the very kind embodied experience that, in the play, it opposes.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
