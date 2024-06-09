@@ -41,6 +41,26 @@ img {
   margin: 0 auto;
 }
 
+.guess-button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.correct {
+  background-color: green;
+  color: white;
+}
+.incorrect {
+  background-color: red;
+  color: white;
+}
+.editors_note {
+  display: none;
+}
+.show-editor-note {
+  display: block;
+}
+
 blockquote {
   background: #151E23;
   border-left: 5px solid #212746;

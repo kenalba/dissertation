@@ -22,6 +22,8 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 	setPageElement("story-caption","StoryCaption");
 }
 
+// Initialize correct and incorrect guess counters
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -67,6 +69,8 @@ for (i = 0; i < acc.length; i++) {
 :: Beginning [StoryInit]
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
+<<set $correctGuesses to 0>>
+<<set $incorrectGuesses to 0>>
 
 :: PassageFooter [nobr]
 	<div id="title-row">
@@ -178,8 +182,13 @@ for (i = 0; i < acc.length; i++) {
 	<<set _page1 to $args[0]>>
 	<<if $args.length == 2>>
 		<<set _sourceTitle to $args[1]>>
-		<<set _outputString to "(" + _page1 + ")">>
-		<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + ")">>
+		<<if _page1 == "*">>
+			<<set _outputString to "(n.p.)">>
+			<<set _citation_text to "(" + Story.get(_sourceTitle).text + ", Web)">>
+		<<else>>
+			<<set _outputString to "(" + _page1 + ")">>
+			<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + ")">>
+		<</if>>
 	<<else>>
 		<<set _page2 to $args[1]>>
 		<<set _sourceTitle to $args[2]>>
@@ -189,10 +198,10 @@ for (i = 0; i < acc.length; i++) {
 	
 	
 	<span class='citation-link'>
-	<<cycle "_citation" autoselect>>
-		<<option _outputString>>
-		<<option _citation_text>>
-	<</cycle>>
+		<<cycle "_citation" autoselect>>
+			<<option _outputString>>
+			<<option _citation_text>>
+		<</cycle>>
 	</span>
 	
 <</widget>>
@@ -311,6 +320,19 @@ for (i = 0; i < acc.length; i++) {
 
 
 /* 
+<<widget "guessing_game">>
+
+	<button class="guess-button" data-guess="alba">Alba</button>
+	<button class="guess-button" data-guess="gpt">GPT</button>
+	<span class="editors_note">Editors note: This passage was written by...</span>
+	<script>
+	  $(document).on('click', '.guess-button', function () {
+	    var guess = $(this).data('guess');
+	    var tags = State.passage.tags();
+	    console.log(guess);
+	  });
+	</script>
+<</widget>>
  	recordScroll() {
         this.scroll_data.push(this.state.scroll_top);
     }
