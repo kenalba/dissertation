@@ -80,7 +80,7 @@ Thanks, and enjoy!
 
 :: Section 1: GESTURE [nobr]
 
-<<click "Show Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
+<<click "Toggle Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
 <div id="introduction" class="hidden">
   <p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
   <p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
@@ -96,8 +96,11 @@ Thanks, and enjoy!
 
 🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <br>
 <hr class="solid">
-[[Conclusion->Section 1 Conclusion]]
-
+<<click "Toggle Conclusion">><<toggleclass "#conclusion" "hidden">><</click>><br>
+<div id="conclusion" class="hidden">
+  <p>Conclusion goes here.</p>
+  <<click "Hide Conclusion">><<toggleclass "#conclusion" "hidden">><</click>><br>
+</div>
 :: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
 
 🪞 [[Case Study: HER STORY]] 🪞
@@ -521,7 +524,7 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 
 [[Return->Section 1: GESTURE]]
 
-:: Case Study: MA RAINEY'S BLACK BOTTOM [mrbb nobr]
+:: Case Study: MA RAINEY'S BLACK BOTTOM [nobr]
 <h1>"Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i></h1>
 <figure>
 	<video controls>
@@ -667,20 +670,20 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 
 :: Ma Rainey 10 [mrbb nobr]
 <p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <<define "Benjaminian aura" "Benjamin's aura">> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned as its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”<<cite "*" "Moyers, Bill, and August Wilson.">></p>
+<p>And those recordings make it possible for us, too, to listen to the voice of Gertrude Rainey, who died at the age of 53 in 1939. Like photography, phonography is an elegiac art; to paraphrase Susan Sontag, all phonographs are <i>memento mori</i>, and testify to time's relentless melt. <<cite "15" "Sontag, Susan. On Photography.">> Writing specifically about the recorded voice, Friedrich Kittler notes that all phonographic recordings are always already posthumous, and that when a record is played it is always "a corpse that speaks" <<cite "83" "Kittler, Friedrich. Gramophone, Film, Typewriter.">>. The record is <<define "nostalgic" "Nostalgia">> by nature, but the undead voice can speak with startling vitality.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 11">><</silently>>
 
 :: Ma Rainey 11 [mrbb nobr]
-<p>The historical Gertrude "Ma" Rainey did this same work of refusing to identify the technological with whiteness and instead claiming it as a part of her own show. Whereas Wilson’s Rainey sets up an opposition between her records and her touring - privileging the latter - the real Rainey brought the record right on stage. As Paige McGinley describes it in “Staging the Blues,” </p>
-<blockquote>The curtain rose, revealing a giant prop replica of a Victrola; a chorus dancer began to play a similarly outsized prop record on the phonograph. From inside the Victrola, not yet visible to spectators, Rainey began to sing her wildly popular “Moonshine Blues,” [...] At a climactic moment in the song, she emerged from the boxy set piece, glittering in a famously extravagant gown and jewels, to the great delight of her audience.</blockquote>
-<p>Rainey’s success as a recording artist meant that much of her audience would already have heard her voice in their own homes; her stage performance suggests that she embraced the reach and the popularity that the then-novel technology gave her, collapsing the distance Wilson imagines between the embodied and the technological. This does not, of course, undo the fundamentally exploitative relationship that existed between Rainey and her white producers at Paramount “Race” Records, any more than Rainey’s choice of a painted cotton field as a backdrop for her live shows undoes the violence of slavery. It does, however, demonstrate how Rainey as a savvy stage performer in her own right made use of the very technology that Sturdyvent hopes will make her superfluous.</p>
+<p>In “Staging the Blues,” Paige McGinley recounts a secondhand description of one of the historical Ma Rainey's live performances:</p>
+<blockquote>Collectively, the audience began to call out, "The Phantuuhm." [...] The call referred to Rainey herself. Her presence was duly conjured by the Wildcats Jazz Band's instrumental blues and the audience's enthused chant: "The Phaaaaantuhm! The Phaaaaaantuhm!" The curtain rose, revealing a giant prop replica of a Victrola; a chorus dancer began to play a similarly outsized prop record on the phonograph. From inside the Victrola, not yet visible to spectators, Rainey began to sing her wildly popular “Moonshine Blues,” [...] At a climactic moment in the song, she emerged from the boxy set piece, glittering in a famously extravagant gown and jewels, to the great delight of her audience.<<cite "31" "McGinley, Paige. Staging the Blues.">></blockquote>
+<p>Whereas Wilson’s Rainey sets up an opposition between her records and her touring - privileging the latter - the real Rainey brought the record onto the stage. The historical Gertrude "Ma" Rainey refused to identify the technological with whiteness and instead claimed it as a part of her own show. Rainey’s success as a recording artist meant that much of her audience would already have heard her voice in their own homes; her stage performance suggests that she embraced the reach and the popularity that the then-novel technology gave her, collapsing the distance Wilson imagines between the embodied and the technological. This does not, of course, undo the fundamentally exploitative relationship that existed between Rainey and her white producers at Paramount “Race” Records, any more than Rainey’s choice of a painted cotton field as a backdrop for her live shows undoes the violence of slavery. It does, however, demonstrate how Rainey, as a savvy stage performer in her own right, made use of the very technology that Sturdyvent hopes will make her superfluous.</p>
+<p>And the call that "conjured" her, for "the Phantuhm", suggests a similar savviness to the way that the phonograph can only ever record a ghost, and that the voice that Sturdyvant and his machine captures is, at best, an echo.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 12">><</silently>>
 
 :: Ma Rainey 12 [mrbb nobr]
-<p>	By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in <i>Ma Rainey’s Black Bottom</i> is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product--the record--is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” <<cite "5" "Chude-Sokei, Louis. The Sound of Culture.">>, and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright. </p>
-
-<p>	Connect to informativity, and how Ma Rainey was both operating within a genre of performance and working against it.</p>
+<p>By reading Wilson’s play alongside his--and Rainey’s--own history, then, we can see that the conflict isn’t necessarily between a technology which is essentially white and a body that is essentially black; instead, the problem in <i>Ma Rainey’s Black Bottom</i> is historically contingent. Sturdyvent controls the recording apparatus, and Sturdyvent is exploitative, but the product-the record-is ultimately Rainey’s, available for a young Wilson to pick out of a bin and draw inspiration from years later. Rainey’s stage performance suggests how black music has functioned, in Louis Chude-Sokei’s words, as “the primary space of direct black interaction with technology and informatics” <<cite "5" "Chude-Sokei, Louis. The Sound of Culture.">>, and that the utilization of that technology makes possible the sort of emotional encounter, disjointed in time and space, whose absence Benjamin mourns and that Wilson, in the aforementioned interview, credits as so instrumental to his development as a playwright.</p>
 
 [[Return->Section 1: GESTURE]]
 

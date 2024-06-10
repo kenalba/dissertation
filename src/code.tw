@@ -285,6 +285,8 @@ for (i = 0; i < acc.length; i++) {
 		<<set _passages to Story.lookup("tags", "lai")>>
 	<<elseif _tags.includes("aw")>>
 		<<set _passages to Story.lookup("tags", "aw")>>
+	<<elseif _tags.includes("mrbb")>>
+			<<set _passages to Story.lookup("tags", "mrbb")>>
 	<</if>>
 	<<if def _passages>>
 		<<print " / " + _passages.length>>
