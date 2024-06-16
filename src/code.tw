@@ -22,7 +22,45 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 	setPageElement("story-caption","StoryCaption");
 }
 
-// Initialize correct and incorrect guess counters
+function showJumpScare() {
+    // Create an overlay div
+    var jumpScareDiv = document.createElement('div');
+    jumpScareDiv.id = 'jumpScare';
+    jumpScareDiv.style.position = 'fixed';
+    jumpScareDiv.style.top = '0';
+    jumpScareDiv.style.left = '0';
+    jumpScareDiv.style.width = '100%';
+    jumpScareDiv.style.height = '100%';
+    jumpScareDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    jumpScareDiv.style.zIndex = '9999';
+    jumpScareDiv.style.display = 'flex';
+    jumpScareDiv.style.justifyContent = 'center';
+    jumpScareDiv.style.alignItems = 'center';
+
+    // Add the jump scare video
+    var jumpScareVideo = document.createElement('video');
+    jumpScareVideo.src = 'assets/videos/jump_scare.mp4'; // Update with your video path
+    jumpScareVideo.currentTime = .5;
+    jumpScareVideo.autoplay = true;
+    jumpScareVideo.style.maxWidth = '100%';
+    jumpScareVideo.style.maxHeight = '100%';
+    jumpScareDiv.appendChild(jumpScareVideo);
+
+    // Add the jump scare div to the body
+    document.body.appendChild(jumpScareDiv);
+
+    // Remove the jump scare after the video ends
+    jumpScareVideo.onended = function() {
+        document.body.removeChild(jumpScareDiv);
+    };
+}
+
+// Define the widget
+Macro.add('murder', {
+    handler: function() {
+        showJumpScare();
+    }
+});
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -51,26 +89,9 @@ escape:"esc",plus:"+",mod:/Mac|iPod|iPhone|iPad/.test(navigator.platform)?"meta"
 this._directMap={};return this};d.prototype.stopCallback=function(a,b){if(-1<(" "+b.className+" ").indexOf(" mousetrap ")||D(b,this.target))return!1;if("composedPath"in a&&"function"===typeof a.composedPath){var c=a.composedPath()[0];c!==a.target&&(b=c)}return"INPUT"==b.tagName||"SELECT"==b.tagName||"TEXTAREA"==b.tagName||b.isContentEditable};d.prototype.handleKey=function(){return this._handleKey.apply(this,arguments)};d.addKeycodes=function(a){for(var b in a)a.hasOwnProperty(b)&&(n[b]=a[b]);p=null};
 d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){return function(){return a[b].apply(a,arguments)}}(b))};d.init();q.Mousetrap=d;"undefined"!==typeof module&&module.exports&&(module.exports=d);"function"===typeof define&&define.amd&&define(function(){return d})}})("undefined"!==typeof window?window:null,"undefined"!==typeof window?document:null);
 
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-
 :: Beginning [StoryInit]
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
-<<set $correctGuesses to 0>>
-<<set $incorrectGuesses to 0>>
 
 :: PassageFooter [nobr]
 	<div id="title-row">
@@ -183,8 +204,8 @@ for (i = 0; i < acc.length; i++) {
 	<<if $args.length == 2>>
 		<<set _sourceTitle to $args[1]>>
 		<<if _page1 == "*">>
-			<<set _outputString to "(n.p.)">>
-			<<set _citation_text to "(" + Story.get(_sourceTitle).text + ", Web)">>
+				<<set _outputString to "(" + "n.p." + ")">>
+				<<set _citation_text to "(" + Story.get(_sourceTitle).text + " n.p.)">>
 		<<else>>
 			<<set _outputString to "(" + _page1 + ")">>
 			<<set _citation_text to "(" + Story.get(_sourceTitle).text + " p" + _page1 + ")">>
@@ -198,10 +219,10 @@ for (i = 0; i < acc.length; i++) {
 	
 	
 	<span class='citation-link'>
-		<<cycle "_citation" autoselect>>
-			<<option _outputString>>
-			<<option _citation_text>>
-		<</cycle>>
+	<<cycle "_citation" autoselect>>
+		<<option _outputString>>
+		<<option _citation_text>>
+	<</cycle>>
 	</span>
 	
 <</widget>>
@@ -285,8 +306,6 @@ for (i = 0; i < acc.length; i++) {
 		<<set _passages to Story.lookup("tags", "lai")>>
 	<<elseif _tags.includes("aw")>>
 		<<set _passages to Story.lookup("tags", "aw")>>
-	<<elseif _tags.includes("mrbb")>>
-			<<set _passages to Story.lookup("tags", "mrbb")>>
 	<</if>>
 	<<if def _passages>>
 		<<print " / " + _passages.length>>
@@ -317,24 +336,10 @@ for (i = 0; i < acc.length; i++) {
 
 	<<if _include_glossary>>
 	GLOSSARY
-	<</endif>>
+	<</if>>
 <</widget>>
-
 
 /* 
-<<widget "guessing_game">>
-
-	<button class="guess-button" data-guess="alba">Alba</button>
-	<button class="guess-button" data-guess="gpt">GPT</button>
-	<span class="editors_note">Editors note: This passage was written by...</span>
-	<script>
-	  $(document).on('click', '.guess-button', function () {
-	    var guess = $(this).data('guess');
-	    var tags = State.passage.tags();
-	    console.log(guess);
-	  });
-	</script>
-<</widget>>
  	recordScroll() {
         this.scroll_data.push(this.state.scroll_top);
     }

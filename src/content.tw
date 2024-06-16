@@ -135,7 +135,7 @@ This situation is a microcosm of the broader condition of living in the informat
 <<silently>><<set _next_passage to "Introduction 5">><</silently>>
 
 :: Introduction 5 [intro nobr] {"position":"1026,1652","size":"100,100"}
-The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or "informativity," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
+The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or "<<define "informativity" "information and selfhood">>," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
 
 <<silently>><<set _next_passage to "Introduction 6">><</silently>>
 
@@ -314,8 +314,6 @@ If <i>Blue Kettle</i>'s plot is unimportant and its purpose is its own destructi
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
 
-:: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
-<a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
 
 
 :: Blue Kettle 12 [bk]
@@ -691,104 +689,104 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 :: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
 <h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
 
-<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>
+<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>.
 
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
-:: Her Story 1 [hs] {"position":"1740,1302","size":"100,100"}
-<i>Her Story</i> is an interactive film wrapped in a [[database->Database]]. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in words, and the database returns only the first five videos, chronologically, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, "MURDER," – and the game is ‘over’ only when the player decides they have seen enough. 
+:: Her Story 1 [hs nobr]
+<p><i>Her Story</i> is an interactive film wrapped in a <<define "database" "Database">>. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in search queries, and the database returns only the first five videos, in the chronology of the film-world, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span>, – and the game is ‘over’ only when the player decides they have seen enough.</p>
+
+<figure>
+	<img style="max-width:100%" src="assets/imgs/hs_murder.png" alt="The starting screen of 'Her Story'.">
+	<figcaption>When the user starts the game, the search term "murder" is pre-filled, and they can view four videos where the word "murder" occurs.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
-
-:: Her Story 2 [hs] {"position":"1740,1452","size":"100,100"}
-There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to focus on the [[interface->Interface]] – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. UI and UX design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.
+:: Her Story 2 [hs nobr]
+<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface" "Interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of <<define "presence">> for the player. <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their <<define "much-ballyhooed death" "death of the author">>.</p>
 
 <<silently>><<set _next_passage to "Her Story 3">><</silently>>
 
+:: Her Story 3 [hs nobr]
+<p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "nondiegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
+<p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the nondiegetic music:</p>
+<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.</blockquote></p>
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_diagram_1.png" alt="A frame from one of the recorded videos in Her Story.">
+	<figcaption>The first level: the audiovideo recording of Viva Seifart's character in police custody.</figcaption>
+</figure>
 
-:: Her Story 3 [hs] {"position":"1740,1602","size":"100,100"}
-[[Loss]], which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have nondiegetic music and the clips have diegetic audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_diagram_2.png" alt="A monitor frame containing the LOGIC interface.">
+	<figcaption>The second level: an old monitor with an obsolete, fictional operating system. The user can hear the occasional click of a mouse or flicker of a flourescent light bulb.</figcaption>
+</figure>
 
-DIAGRAM GOES HERE.
-
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_diagram_3.png" alt="A Macbook Pro with a screenshot containing Her Story, along with other stuff in the background.">
+	<figcaption>The third level: the player of the game on a modern laptop, with nondiegetic music cues.</figcaption>
+</figure>
 <<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
+:: Her Story 4 [hs nobr]
+<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player's <<define "avatar" "Avatar">> becomes most visible when rendered invisible by the anti-glare feature.</p>
 
-:: appunwrapper interview {"position":"1618,1746","size":"100,100"}
-Original interview available <a target="blank" href="https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/">here</a>. A .pdf copy is also available <a target="_blank" href="assets/pdfs/app_unwrapper_interview">here</a>.
-
-
-:: Her Story 4 [hs] {"position":"1738,1750","size":"100,100"}
-Indeed, in an [[interview->appunwrapper interview]] Barlow noted exactly that separation as the purpose of the nondiegetic music: "The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference."
-
-IMAGE OF BARLOW?
+<figure>
+	<video controls>
+	<source src="assets/videos/hs_filter.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>Toggling the "anti-glare" filter disables the nostalgic trappings of the CRT monitor and calls attention to the situatedness of the player's avatar.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Her Story 5">><</silently>>
 
 
-:: Her Story 5 [hs] {"position":"1736,1900","size":"100,100"}
-Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player character becomes most visible when rendered invisible by the anti-glare feature.
+:: Her Story 5 [hs] {"position":"1736,2050","size":"100,100"}
+<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]].</p>
+<p>It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.</p>
 
 <<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
-
-:: Her Story 6 [hs] {"position":"1736,2050","size":"100,100"}
-This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]]. It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player. 
+:: Her Story 6 [hs] {"position":"1738,2200","size":"100,100"}
+The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
 
 <<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
-
-:: MIRRORS {"position":"1618,2047","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 7 [hs] {"position":"1738,2200","size":"100,100"}
-The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+:: Her Story 7 [hs] {"position":"1740,2328","size":"100,100"}
+That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:</p> "
+<blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.</blockquote>
+<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">>, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld.</p>
 
 <<silently>><<set _next_passage to "Her Story 8">><</silently>>
 
 
-:: L.O.G.I.C. {"position":"1505,2207","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: Her Story 8 [hs] {"position":"1740,2328","size":"100,100"}
-That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review – "I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone." The notebook, here, functions alongside the game itself as a cognitive prosthesis, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld. 
+:: Her Story 8 [hs] {"position":"1741,2473","size":"100,100"}
+This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
 
 <<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
 
-:: Her Story 9 [hs] {"position":"1741,2473","size":"100,100"}
-This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
-
-<<silently>><<set _next_passage to "Her Story 10">><</silently>>
-
-
-:: Her Story 10 [hs] {"position":"1748,2603","size":"100,100"}
+:: Her Story 9 [hs] {"position":"1748,2603","size":"100,100"}
 It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the <<define "genre">> of detective fiction.
 
 Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
 
+<<silently>><<set _next_passage to "Her Story 10">><</silently>>
+
+:: Her Story 10 [hs] {"position":"1745,2728","size":"100,100"}
+But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
+
 <<silently>><<set _next_passage to "Her Story 11">><</silently>>
 
 
-:: Colin Campbell's Polygon Review {"position":"1619,2605","size":"100,100"}
-Double-click this passage to edit it.
-
-:: Her Story 11 [hs] {"position":"1745,2728","size":"100,100"}
-But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
+:: Her Story 11 [hs] {"position":"1747,2878","size":"100,100"}
+It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>.
 
 <<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
 
-:: Her Story 12 [hs] {"position":"1747,2878","size":"100,100"}
-It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>[[The Diamond Age->Case Study: THE DIAMOND AGE]]</i>.
-
-<<silently>><<set _next_passage to "Her Story 13">><</silently>>
-
-
-:: Her Story 13 [hs] {"position":"1747,3028","size":"100,100"}
+:: Her Story 12 [hs] {"position":"1747,3028","size":"100,100"}
 <i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
 [[Return->Section 1: GESTURE]]
@@ -1441,3 +1439,7 @@ Stephen Kevin Connor, FBA is a British literary scholar who wrote two books prim
 
 :: C 1
 A conclusion will go here.
+
+
+:: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
+<a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
