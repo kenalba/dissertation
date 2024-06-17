@@ -8,7 +8,7 @@ Here's where we start!
 :: Title Page
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba
-Last updated June 1, 2024
+Last updated June 16, 2024
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.
 
@@ -737,7 +737,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
 :: Her Story 4 [hs nobr]
-<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player's <<define "avatar" "Avatar">> becomes most visible when rendered invisible by the anti-glare feature.</p>
+<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player's <<define "avatar" "Avatar">> becomes visible when rendered invisible by the anti-glare feature.</p>
 
 <figure>
 	<video controls>
@@ -764,17 +764,19 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 
 <<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
-:: Her Story 6 [hs] {"position":"1738,2200","size":"100,100"}
-<p>The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects.</p>
+:: Her Story 6 [hs]
+<p>The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997).</p>
 
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
 	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter of the interviewee.</figcaption>
 </figure>
 
+<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects.</p>
+
 <<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
-:: Her Story 7 [hs] {"position":"1740,2328","size":"100,100"}
+:: Her Story 7 [hs] 
 That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:</p> "
 <blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.</blockquote>
 <p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">>, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld.</p>
