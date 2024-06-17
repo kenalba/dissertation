@@ -1,7 +1,7 @@
 :: Start {"position":"2596,143","size":"100,100"}
 Here's where we start!
 
-[[Instructions]]
+[[Guide]]
 
 [[Table of Contents]]
 
@@ -10,19 +10,19 @@ Here's where we start!
 a dissertation in Twine by Ken Alba
 Last updated June 1, 2024
 
-If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.
+If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.
 
-:: Instructions {"position":"2269,363","size":"100,100"}
+:: Guide {"position":"2269,363","size":"100,100"}
 If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
 
-The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking..
+The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking..
 
 Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. 
 
 The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.
 
 Try out [[Scroll Mode]]
-Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
+Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@bu.edu.
 
 Thanks, and enjoy!
 -Ken
@@ -34,7 +34,7 @@ Thanks, and enjoy!
 
 [[Section 1: GESTURE]]
 
-[[Section 2: COGNITION]]
+[[Section 2: MEMORY]]
 
 [[Section 3: PRACTICE]]
 
@@ -101,14 +101,14 @@ Thanks, and enjoy!
   <p>Conclusion goes here.</p>
   <<click "Hide Conclusion">><<toggleclass "#conclusion" "hidden">><</click>><br>
 </div>
-:: Section 2: COGNITION {"position":"2665,1052","size":"100,100"}
 
-🪞 [[Case Study: HER STORY]] 🪞
+:: Section 2: MEMORY [nobr]
 
-➿ [[Case Study: KRAPP'S LAST TAPE]] ➿ - (waiting for links)
+🪞 [[Case Study: HER STORY]] 🪞<br>
 
-🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 - (waiting for links)
+➿ [[Case Study: KRAPP'S LAST TAPE]] ➿ <br>
 
+🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 <br>
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
@@ -706,12 +706,20 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 :: Her Story 2 [hs nobr]
 <p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface" "Interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of <<define "presence">> for the player. <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their <<define "much-ballyhooed death" "death of the author">>.</p>
 
+<figure>
+	<video controls>
+	<source src="assets/videos/hs_readme.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>The game's readme file, embedded within the obsolete LOGIC system, is situated as a help file for an interface designed to help detectives trawling through evidence.</figcaption>
+</figure>
+
 <<silently>><<set _next_passage to "Her Story 3">><</silently>>
 
 :: Her Story 3 [hs nobr]
 <p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "nondiegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
 <p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the nondiegetic music:</p>
-<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.</blockquote></p>
+<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.</blockquote>
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_diagram_1.png" alt="A frame from one of the recorded videos in Her Story.">
 	<figcaption>The first level: the audiovideo recording of Viva Seifart's character in police custody.</figcaption>
@@ -742,14 +750,27 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Her Story 5">><</silently>>
 
 
-:: Her Story 5 [hs] {"position":"1736,2050","size":"100,100"}
-<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]].</p>
+:: Her Story 5 [hs nobr]
+<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, and so on.</p>
 <p>It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.</p>
+
+<figure>
+	<video controls>
+	<source src="assets/videos/hs_sexlife.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>The first clip that surfaces when the player searches for "sex" is an admonition: "Really? You're going to ask me about my sex life? Isn't that private?"</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
 :: Her Story 6 [hs] {"position":"1738,2200","size":"100,100"}
-The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+<p>The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects.</p>
+
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
+	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter of the interviewee.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
@@ -789,7 +810,7 @@ It is possible, then, to identify (as Emily Short does, in her longer meditation
 :: Her Story 12 [hs] {"position":"1747,3028","size":"100,100"}
 <i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
-[[Return->Section 1: GESTURE]]
+[[Return->Section 2: MEMORY]]
 
 :: Case Study: KRAPP'S LAST TAPE {"position":"2540,1175","size":"100,100"}
 

@@ -1,8 +1,12 @@
 :: Glossary [nobr]
 
 <<set _passages to Story.lookup("tags", "definition")>>
-<<for _i to 0; _i lt _passages.length; _i++>>
-	<<define _passages[_i].title>><br>
+<<set _sortedPassages = _passages.slice().sort(function(a, b) {
+    return a.title.localeCompare(b.title);
+})>>
+
+<<for _i to 0; _i lt _sortedPassages.length; _i++>>
+	<<define _sortedPassages[_i].title>><br>
 <</for>>
 
 :: Signal [definition nobr] {"position":"2015,2502","size":"100,100"}
@@ -647,7 +651,7 @@ The ship on which Theseus sailed with the youths and returned in safety, the thi
 <p>In the context of digital performativity, emoji perform a particuarly interesting function. As iconic representations of facial expressions and other stylizations of the body on chat platforms that ordinarily lack a visual component beyond embedded images and a profile photo, the emoji should be read as a <<define "gesture" "information and selfhood">> in the performative sense.</p>
 <p>Gretchen McCulloch has written that emoji function as emblems; that is, they have "precise forms and stable meanings" <<cite "161" "McCulloch, Gretchen. Because Internet.">> within particular contexts - and those meanings change when moved to different contexts. She argues that they contribute to digital embodiment by allowing people to provide tonal markers to plain text.</p>
 
-:: V-Bucks [definition]
+:: V-Bucks [definition nobr]
 <p>The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks, and users can earn V-Bucks for performing in-game actions.</p>
 <p>YouTuber Dan Olson, creator of the popular channel "Folding Ideas", has an excellent video on just this topic that also opens with a discussion of D.J. Marshmallow's concert but digs deeper into the way that Fortnite's economy as a whole is built to take advantage of its (mostly underage) players. In his words, "V-Bucks are used here, as in most other microtransaction games, as a means to bypass financial regulations involving held value and some regional laws regarding gambling... the use of V-Bucks allows [Fortnite publisher] Epic to obfuscate the assigned value of both in-game purchases and the value of V-Bucks themselves." <<cite "*" "Olson, Dan. 'Manufactured Discontent and Fortnite'.">></p>
 <figure>
@@ -768,3 +772,21 @@ Databases are a central part of how <<define "information" "Information">> is ma
 <p>I have coined the term "transdiegetic" to describe a shift, in media, from <<define "diegetic">> to <<define "non-diegetic">> sound, or vice versa. The change is usually quick and seamless, which may account for why it’s so much easier to catch on second, third, fourth viewings.</p>
 <p>The Coen Brothers are directors who use this technique often. For example, when <i>Miller’s Crossing</i>’s Leo is in bed listening to his phonograph blaring “Danny Boy,” the music is diegetic and indeed impacts the narrative – were it not for the volume of the music, he would hear his bodyguard get pumped full of lead downstairs. The song remains audible after Leo has jumped out the window to chase his would-be assassins, even though the phonograph has presumably burnt up from the house fire. It even swells when he fires his machine gun at the mooks’ getaway car. “Danny Boy” thus undergoes a transdiegetic shift. It begins as diegetic music but becomes nondiegetic as the scene progresses. Another more subtle example occurs in <i>Raising Arizona</i>: the theme of the lullaby that Holly sings to Little Nathan recurs in the Biker of the Apocalypse’s non-diegetic theme.</p>
 <p>Transdiegesis as a formal technique can subvert the traditionally voyeuristic role that a piece of media's reader/viewer/player has in relation to the characters; as an auditory analogue to the shot/reverse shot technique, transdiegetic moments often jar the player from one structure of identification into another.</p>
+
+:: mirror [definition nobr]
+<div style="text-align: center;">
+    <video id="cameraVideo" width="640" height="480" autoplay></video>
+    <br>
+    <button id="startCameraButton">Go To The Mirror</button>
+</div>
+
+<<script>>
+    // Start the camera function is now called on button click
+    // Ensure the function is called after the DOM is fully loaded
+    window.addEventListener('load', function() {
+        const startCameraButton = document.getElementById('startCameraButton');
+        if (startCameraButton) {
+            startCameraButton.addEventListener('click', startCamera);
+        }
+    });
+<</script>>

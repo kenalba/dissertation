@@ -769,6 +769,62 @@ li {
 	setPageElement("story-caption","StoryCaption");
 }
 
+// Function to stop the camera and release the video feed
+function stopCamera() {
+    const videoElement = document.getElementById('cameraVideo');
+    if (videoElement && videoElement.srcObject) {
+        const stream = videoElement.srcObject;
+        const tracks = stream.getTracks();
+        
+        tracks.forEach(function(track) {
+            track.stop();
+        });
+
+        videoElement.srcObject = null;
+    }
+}
+
+function startCamera() {
+    const videoElement = document.getElementById('cameraVideo');
+
+    if (!videoElement) {
+        console.error("Video element not found.");
+        alert("Video element not found.");
+        return;
+    }
+
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                videoElement.srcObject = stream;
+                videoElement.play();
+            })
+            .catch(function(error) {
+                console.error("Error accessing the camera: ", error);
+                alert("Unable to access the camera. Please check your permissions.");
+            });
+    } else {
+        console.error("Camera not supported on this device.");
+        alert("Camera not supported on this device.");
+    }
+}
+
+// Ensure the function is called after the DOM is fully loaded
+window.addEventListener('load', function() {
+    const startCameraButton = document.getElementById('startCameraButton');
+    if (startCameraButton) {
+        startCameraButton.addEventListener('click', startCamera);
+
+    }
+});
+
+// Stop the camera whenever a new passage is displayed
+$(document).on(':passagedisplay', function (ev) {
+    if (ev.passage.title !== 'Mirror') {
+        stopCamera();
+    }
+});
+
 function showJumpScare() {
     // Create an overlay div
     var jumpScareDiv = document.createElement('div');
@@ -1090,13 +1146,16 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 */</tw-passagedata><tw-passagedata pid="91" name="StoryCaption" tags="nobr" position="100,1225" size="100,100">&lt;div id=&quot;navigation-list&quot;&gt;
 	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;a&lt;/span&gt; introduction&lt;/div&gt;&#39; &#39;Introduction 1&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
 	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;1&lt;/span&gt; GESTURE&lt;/div&gt;&#39; &#39;Section 1: GESTURE&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
-	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;2&lt;/span&gt; COGNITION&lt;/div&gt;&#39; &#39;Section 2: COGNITION&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
+	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;2&lt;/span&gt; COGNITION&lt;/div&gt;&#39; &#39;Section 2: MEMORY&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
 	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;3&lt;/span&gt; PRACTICE&lt;/div&gt;&#39; &#39;Section 3: PRACTICE&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
 	&lt;&lt;link &#39;&lt;div class= &quot;nav-link&quot;&gt;&lt;span class=&quot;nav-button&quot;&gt;b&lt;/span&gt; conclusion&lt;/div&gt;&#39;&#39;C 1&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;br&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;settings-list&quot;&gt;
+	&lt;&lt;link &#39;&lt;div class= &quot;settings-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;help&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Guide&lt;/span&gt;&lt;/div&gt;&#39; &#39;Guide&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
+	&lt;&lt;link &#39;&lt;div class= &quot;settings-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;fact_check&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Glossary&lt;/span&gt;&lt;/div&gt;&#39; &#39;Glossary&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
 	&lt;&lt;link &#39;&lt;div class=&quot;settings-button&quot; id=&quot;bookmark-link&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;bookmark&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Bookmarks&lt;/span&gt;&lt;/div&gt;&#39; &#39;Bookmarks&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
+	&lt;br&gt;
 	&lt;div class=&quot;settings-button&quot; id=&quot;save-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;save&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Save&lt;/span&gt;&lt;/div&gt;
 	&lt;div class=&quot;settings-button&quot; id=&quot;load-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;history&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Load&lt;/span&gt;&lt;/div&gt;
 	&lt;div class=&quot;settings-button&quot; id=&quot;restart-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;refresh&lt;/i&gt; &lt;span class=&quot;settings-text&quot;&gt;Restart&lt;/span&gt;&lt;/div&gt;
@@ -1129,22 +1188,22 @@ back_button.addEventListener(&quot;click&quot;, function() {
 	&lt;&lt;/for&gt;&gt;
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Start" tags="" position="2596,143" size="100,100">Here&#39;s where we start!
 
-[[Instructions]]
+[[Guide]]
 
 [[Table of Contents]]</tw-passagedata><tw-passagedata pid="94" name="Title Page" tags="" position="475,1225" size="100,100">&lt;h1&gt;Literary Informatics&lt;/h1&gt;
 a dissertation in Twine by Ken Alba
 Last updated June 1, 2024
 
-If you know what you&#39;re doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Instructions]] for guidance.</tw-passagedata><tw-passagedata pid="95" name="Instructions" tags="" position="2269,363" size="100,100">If you&#39;ve never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
+If you know what you&#39;re doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</tw-passagedata><tw-passagedata pid="95" name="Guide" tags="" position="2269,363" size="100,100">If you&#39;ve never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
 
-The most linear path forward is to begin with the [[Introduction-&gt;Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second-&gt;Section 2: COGNITION]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you&#39;d prefer to begin with terms rather than case studies, the [[glossary-&gt;Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography-&gt;Bibliography]] to see what thinkers and text have informed my thinking..
+The most linear path forward is to begin with the [[Introduction-&gt;Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first-&gt;Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second-&gt;Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third-&gt;Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you&#39;re wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you&#39;d prefer to begin with terms rather than case studies, the [[glossary-&gt;Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography-&gt;Bibliography]] to see what thinkers and text have informed my thinking..
 
 Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. 
 
 The dissertation uses a color-coded system to let you know what you&#39;re getting into when you click a link. &lt;span style=&quot;color: #48B44A;&quot;&gt;Definitions are green&lt;/span&gt;, &lt;span style=&quot;color:#E76428;&quot;&gt;excerpts are orange&lt;/span&gt;, &lt;span style=&quot;color:#9E9E9E;&quot;&gt;citations are grey&lt;/span&gt;, and other &lt;span style=&quot;color:#68d;&quot;&gt;links are blue&lt;/span&gt;. This system is new and is not everywhere yet.
 
 Try out [[Scroll Mode]]
-Finally, note that this is, at present, a work in progress. Some links aren&#39;t filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@mit.edu.
+Finally, note that this is, at present, a work in progress. Some links aren&#39;t filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@bu.edu.
 
 Thanks, and enjoy!
 -Ken
@@ -1152,7 +1211,7 @@ Thanks, and enjoy!
 
 [[Section 1: GESTURE]]
 
-[[Section 2: COGNITION]]
+[[Section 2: MEMORY]]
 
 [[Section 3: PRACTICE]]
 
@@ -1210,11 +1269,11 @@ Thanks, and enjoy!
 &lt;div id=&quot;conclusion&quot; class=&quot;hidden&quot;&gt;
   &lt;p&gt;Conclusion goes here.&lt;/p&gt;
   &lt;&lt;click &quot;Hide Conclusion&quot;&gt;&gt;&lt;&lt;toggleclass &quot;#conclusion&quot; &quot;hidden&quot;&gt;&gt;&lt;&lt;/click&gt;&gt;&lt;br&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="99" name="Section 2: COGNITION" tags="" position="2665,1052" size="100,100">🪞 [[Case Study: HER STORY]] 🪞
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="99" name="Section 2: MEMORY" tags="nobr" position="1100,1225" size="100,100">🪞 [[Case Study: HER STORY]] 🪞&lt;br&gt;
 
-➿ [[Case Study: KRAPP&#39;S LAST TAPE]] ➿ - (waiting for links)
+➿ [[Case Study: KRAPP&#39;S LAST TAPE]] ➿ &lt;br&gt;
 
-🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 - (waiting for links)</tw-passagedata><tw-passagedata pid="100" name="Introduction 1" tags="intro nobr" position="1028,1070" size="100,100">One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel &lt;i&gt;Snow Crash&lt;/i&gt;, sees when he drops into the Metaverse is two young couples out on a date. &quot;[Hiro] is not,&quot; Stephenson amends, &quot;seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse&quot; 4(4). In &lt;i&gt;Snow Crash&lt;/i&gt;’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because &quot;it takes a lot more sophistication to render a realistic human face&quot; (45). The couples, on the other hand, &quot;can’t afford to have custom avatars made and don’t know how to write their own,&quot; so they’re stuck with &quot;off-the-shelf avatars&quot; (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
+🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 &lt;br&gt;</tw-passagedata><tw-passagedata pid="100" name="Introduction 1" tags="intro nobr" position="1028,1070" size="100,100">One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel &lt;i&gt;Snow Crash&lt;/i&gt;, sees when he drops into the Metaverse is two young couples out on a date. &quot;[Hiro] is not,&quot; Stephenson amends, &quot;seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse&quot; 4(4). In &lt;i&gt;Snow Crash&lt;/i&gt;’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because &quot;it takes a lot more sophistication to render a realistic human face&quot; (45). The couples, on the other hand, &quot;can’t afford to have custom avatars made and don’t know how to write their own,&quot; so they’re stuck with &quot;off-the-shelf avatars&quot; (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
 
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Introduction 2&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="101" name="Introduction 2" tags="intro nobr" position="1026,1202" size="100,100">Twenty-six years after the publication of &lt;i&gt;Snow Crash&lt;/i&gt;, 10.7 million players logged onto the video game Fortnite on February 2, 2019 to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, &quot;What is up Pleasant Park! Thank you for coming out today and making history today!&quot; and urged his audience to participate: &quot;Let me see everybody moving!&quot; (Marshmello 2019). ‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to &quot;do their favorite emote&quot; in time with a bass drop, and &quot;Let [him] see that Marsh Walk&quot;– a [[$5-8-&gt;V-Bucks]] emote based on his signature dance move.
 
@@ -1609,9 +1668,17 @@ I wanna learn that dance &lt;&lt;cite &quot;231&quot; &quot;232&quot; &quot;Davi
 
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 2&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="157" name="Her Story 2" tags="hs nobr" position="850,1975" size="100,100">&lt;p&gt;There’s much to admire about &lt;i&gt;Her Story&lt;/i&gt; – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the &lt;&lt;define &quot;interface&quot; &quot;Interface&quot;&gt;&gt; – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of &lt;&lt;define &quot;presence&quot;&gt;&gt; for the player. &lt;&lt;define &quot;UI&quot;&gt;&gt; and &lt;&lt;define &quot;UX&quot;&gt;&gt; design provides a site for the rediscovery of the author in the wake of their &lt;&lt;define &quot;much-ballyhooed death&quot; &quot;death of the author&quot;&gt;&gt;.&lt;/p&gt;
 
+&lt;figure&gt;
+	&lt;video controls&gt;
+	&lt;source src=&quot;assets/videos/hs_readme.mp4&quot; type=&quot;video/mp4&quot;&gt;
+	Your browser does not support the video tag.
+	&lt;/video&gt;
+	&lt;figcaption&gt;The game&#39;s readme file, embedded within the obsolete LOGIC system, is situated as a help file for an interface designed to help detectives trawling through evidence.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 3&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="158" name="Her Story 3" tags="hs nobr" position="975,1975" size="100,100">&lt;p&gt;&lt;&lt;define &quot;Loss&quot;&gt;&gt;, which Lev Manovich identified as a major feature of so-called &#39;new media&#39; almost 20 years ago, informs the game’s interface design. Although the game does have &lt;&lt;define &quot;nondiegetic&quot;&gt;&gt; music and the clips have &lt;&lt;define &quot;diegetic&quot;&gt;&gt; audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.&lt;/p&gt;
 &lt;p&gt;Indeed, in an &lt;a target=&quot;_blank&quot; href=&quot;assets/pdfs/app_unwrapper_interview.pdf&quot;&gt;interview&lt;/a&gt;, Barlow noted exactly that separation as the purpose of the nondiegetic music:&lt;/p&gt;
-&lt;blockquote&gt;The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;blockquote&gt;The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.&lt;/blockquote&gt;
 &lt;figure&gt;
 	&lt;img style=&quot;max-width:75%&quot; src=&quot;assets/imgs/hs_diagram_1.png&quot; alt=&quot;A frame from one of the recorded videos in Her Story.&quot;&gt;
 	&lt;figcaption&gt;The first level: the audiovideo recording of Viva Seifart&#39;s character in police custody.&lt;/figcaption&gt;
@@ -1636,10 +1703,23 @@ I wanna learn that dance &lt;&lt;cite &quot;231&quot; &quot;232&quot; &quot;Davi
 	&lt;figcaption&gt;Toggling the &quot;anti-glare&quot; filter disables the nostalgic trappings of the CRT monitor and calls attention to the situatedness of the player&#39;s avatar.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 5&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="160" name="Her Story 5" tags="hs" position="1736,2050" size="100,100">&lt;p&gt;This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made mirrors for a living, and so on. EXPAND [[MIRRORS]].&lt;/p&gt;
+&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 5&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="160" name="Her Story 5" tags="hs nobr" position="1225,1975" size="100,100">&lt;p&gt;This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made &lt;&lt;define &quot;mirrors&quot; &quot;mirror&quot;&gt;&gt; for a living, and so on.&lt;/p&gt;
 &lt;p&gt;It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.&lt;/p&gt;
 
-&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 6&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="161" name="Her Story 6" tags="hs" position="1738,2200" size="100,100">The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by &quot;SB,&quot; – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects. 
+&lt;figure&gt;
+	&lt;video controls&gt;
+	&lt;source src=&quot;assets/videos/hs_sexlife.mp4&quot; type=&quot;video/mp4&quot;&gt;
+	Your browser does not support the video tag.
+	&lt;/video&gt;
+	&lt;figcaption&gt;The first clip that surfaces when the player searches for &quot;sex&quot; is an admonition: &quot;Really? You&#39;re going to ask me about my sex life? Isn&#39;t that private?&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 6&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="161" name="Her Story 6" tags="hs" position="1738,2200" size="100,100">&lt;p&gt;The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by &quot;SB,&quot; – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997). The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img style=&quot;max-width:75%&quot; src=&quot;assets/imgs/hs_really_readme.png&quot; alt=&quot;A still screen from Her Story with the readme described above..&quot;&gt;
+	&lt;figcaption&gt;This file, &quot;REALLY_readme!!!!.txt, makes it clear that the player&#39;s avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter of the interviewee.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 7&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="162" name="Her Story 7" tags="hs" position="1740,2328" size="100,100">That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:&lt;/p&gt; &quot;
 &lt;blockquote&gt;I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.&lt;/blockquote&gt;
@@ -1657,7 +1737,7 @@ Charles Rzepka, a critic of the genre whose &lt;i&gt;[[Detective Fiction]]&lt;/i
 
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Her Story 12&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="167" name="Her Story 12" tags="hs" position="1747,3028" size="100,100">&lt;i&gt;Her Story&lt;/i&gt; is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
-[[Return-&gt;Section 1: GESTURE]]</tw-passagedata><tw-passagedata pid="168" name="Case Study: KRAPP&#39;S LAST TAPE" tags="" position="2540,1175" size="100,100">&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Krapp 1&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="169" name="Krapp 1" tags="klt nobr" position="1100,2100" size="100,100">&lt;p&gt;Krapp’s Last Tape stands out among Samuel Beckett’s drama for its sentimentality; in a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ &lt;&lt;cite &quot;115&quot; &quot;Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965&quot;&gt;&gt;. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel media technology to present and undermine a nostalgic vision of a brighter past.&lt;/p&gt;
+[[Return-&gt;Section 2: MEMORY]]</tw-passagedata><tw-passagedata pid="168" name="Case Study: KRAPP&#39;S LAST TAPE" tags="" position="2540,1175" size="100,100">&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;Krapp 1&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="169" name="Krapp 1" tags="klt nobr" position="1100,2100" size="100,100">&lt;p&gt;Krapp’s Last Tape stands out among Samuel Beckett’s drama for its sentimentality; in a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ &lt;&lt;cite &quot;115&quot; &quot;Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965&quot;&gt;&gt;. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel media technology to present and undermine a nostalgic vision of a brighter past.&lt;/p&gt;
 
 &lt;img src=&quot;assets/imgs/klt-john-hurt.jpg&quot; alt=&quot;John Hurt as Krapp, next to his tape recorder.&quot;&gt;
 
@@ -1951,8 +2031,12 @@ You should play through the [[game-&gt;Almost to the Tick]] once before proceedi
 &lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;AttT 6&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="262" name="Almost to the Tick" tags="" position="4319,2068" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="263" name="AttT 6" tags="" position="4444,2268" size="100,100">This transcoding has more iterations than the others. The primary prototype used Billie Whitelaw’s 1973 recording for the Beckett on Film project, viewable [[here-&gt;Not I]]. This is not without its problems, legal and otherwise. For one, the video remains under copyright, like much of the material under examination in this chapter. Although my use falls, I contend, under the doctrine of [[fair use-&gt;Fair Use]], that contention is contentious.</tw-passagedata><tw-passagedata pid="264" name="Nanowatt" tags="" position="3444,1268" size="100,100">Nanowatt, which is accessible &lt;a target=&quot;_blank&quot; href=&quot;http://nickm.com/post/2013/12/video-of-nanowatt-online/&quot;&gt;here&lt;/a&gt; is &quot;a single-loading VIC-20 demo&quot; by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.</tw-passagedata><tw-passagedata pid="265" name="A transcoded body is still a body." tags="" position="3719,2368" size="100,100">The estrangement of the flesh-and-blood body effected by the move to digital life does not ultimately efface the body; instead, it creates, as McLuhan might say, extensions of the self. Bodies electric. 
 
 We still stylize these bodies according to comprehensible codes as a way of performing ourselves into being. The flexibility of those performances has a different set of contingencies associated with them, though many of these contingencies ultimately overlap.</tw-passagedata><tw-passagedata pid="266" name="Stephen Connor" tags="" position="5975,100" size="100,100">Stephen Kevin Connor, FBA is a British literary scholar who wrote two books primarily about Beckett: &lt;i&gt;[[Samuel Beckett: Repetition, Theory, and Text-&gt;Connor, Steven. Samuel Beckett: Repetition, Theory, and Text.]]&lt;/i&gt; (1988) and &lt;i&gt;Beckett, Modernism, and the Material Imagination&lt;/i&gt; (2014).</tw-passagedata><tw-passagedata pid="267" name="C 1" tags="" position="850,3350" size="100,100">A conclusion will go here.</tw-passagedata><tw-passagedata pid="268" name="Ross Menkman’s 2010 Glitch Studies Manifesto" tags="" position="1990,2802" size="100,100">&lt;a target=&quot;blank&quot; href=&quot;assets/pdfs/glitch_manifesto.pdf&quot;&gt;Menkman&#39;s Glitch Studies Manifesto&lt;/a&gt; posits that &quot;the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma.&quot; Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman&#39;s maninfesto is a document whose form and content both embody the &lt;&lt;define &quot;glitch&quot; &quot;Glitch&quot;&gt;&gt; it describes. The work emphasizes how the &lt;&lt;define &quot;noise&quot; &quot;Noise&quot;&gt;&gt; necessarily involved in any communication channel is paradoxically both &quot;negatively defined&quot; and &quot;a positive, generative quality.&quot;</tw-passagedata><tw-passagedata pid="269" name="Glossary" tags="nobr" position="1100,3350" size="100,100">&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, &quot;definition&quot;)&gt;&gt;
-&lt;&lt;for _i to 0; _i lt _passages.length; _i++&gt;&gt;
-	&lt;&lt;define _passages[_i].title&gt;&gt;&lt;br&gt;
+&lt;&lt;set _sortedPassages = _passages.slice().sort(function(a, b) {
+    return a.title.localeCompare(b.title);
+})&gt;&gt;
+
+&lt;&lt;for _i to 0; _i lt _sortedPassages.length; _i++&gt;&gt;
+	&lt;&lt;define _sortedPassages[_i].title&gt;&gt;&lt;br&gt;
 &lt;&lt;/for&gt;&gt;</tw-passagedata><tw-passagedata pid="270" name="Signal" tags="definition nobr" position="2015,2502" size="100,100">The signal is the part of a message that&#39;s not &lt;&lt;define &quot;noise.&quot; &quot;Noise&quot;&gt;&gt; See also the case study for &lt;i&gt;[[Blue Kettle-&gt;Case Study: BLUE KETTLE]]&lt;/i&gt;.</tw-passagedata><tw-passagedata pid="271" name="Noise" tags="definition" position="2140,2502" size="100,100">The noise is the part of the message that&#39;s not &lt;&lt;define &quot;signal.&quot; &quot;Signal&quot;&gt;&gt; See also the case study for &lt;i&gt;[[Blue Kettle-&gt;Case Study: BLUE KETTLE]]&lt;/i&gt;.</tw-passagedata><tw-passagedata pid="272" name="Inforg" tags="definition GPT-3" position="225,3475" size="100,100">&lt;p&gt;A portmanteau of the words &quot;information&quot; and &quot;organism.&quot;&lt;/p&gt;
 
 &lt;p&gt;The term was first coined by &lt;&lt;cite &quot;GPT-3&quot; &quot;GPT-3&quot;&gt;&gt; in their essay &quot;&lt;a href=&quot;https://www.gwern.net/docs/ai/2020-gpt3.pdf&quot;&gt;Inforgs and the Future of Life&lt;/a&gt;,&quot; in which they argued that the future of life would be dominated by &lt;&lt;define &quot;Inforgs&quot; &quot;Inforgs&quot;&gt;&gt;, organisms that are &quot;entirely composed of &lt;&lt;define &quot;information&quot; &quot;Information&quot;&gt;&gt;.&quot;&lt;/p&gt;
@@ -2313,7 +2397,7 @@ It might be a Scottish name, taken from a story about two men on a train. One ma
 &lt;blockquote&gt;
 The ship on which Theseus sailed with the youths and returned in safety, the thirty-oared galley, was preserved by the Athenians down to the time of Demetrius Phalereus. They took away the old timbers from time to time, and put new and sound ones in their places, so that the vessel became a standing illustration for the philosophers in the mooted question of growth, some declaring that it remained the same, others that it was not the same vessel.&lt;&lt;cite &quot;*&quot; &quot;Plutarch. Lives: Theseus.&quot;&gt;&gt;
 &lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="351" name="emoji" tags="definition nobr" position="100,4475" size="100,100">&lt;p&gt;In the context of digital performativity, emoji perform a particuarly interesting function. As iconic representations of facial expressions and other stylizations of the body on chat platforms that ordinarily lack a visual component beyond embedded images and a profile photo, the emoji should be read as a &lt;&lt;define &quot;gesture&quot; &quot;information and selfhood&quot;&gt;&gt; in the performative sense.&lt;/p&gt;
-&lt;p&gt;Gretchen McCulloch has written that emoji function as emblems; that is, they have &quot;precise forms and stable meanings&quot; &lt;&lt;cite &quot;161&quot; &quot;McCulloch, Gretchen. Because Internet.&quot;&gt;&gt; within particular contexts - and those meanings change when moved to different contexts. She argues that they contribute to digital embodiment by allowing people to provide tonal markers to plain text.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="352" name="V-Bucks" tags="definition" position="225,4475" size="100,100">&lt;p&gt;The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks, and users can earn V-Bucks for performing in-game actions.&lt;/p&gt;
+&lt;p&gt;Gretchen McCulloch has written that emoji function as emblems; that is, they have &quot;precise forms and stable meanings&quot; &lt;&lt;cite &quot;161&quot; &quot;McCulloch, Gretchen. Because Internet.&quot;&gt;&gt; within particular contexts - and those meanings change when moved to different contexts. She argues that they contribute to digital embodiment by allowing people to provide tonal markers to plain text.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="352" name="V-Bucks" tags="definition nobr" position="225,4475" size="100,100">&lt;p&gt;The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks, and users can earn V-Bucks for performing in-game actions.&lt;/p&gt;
 &lt;p&gt;YouTuber Dan Olson, creator of the popular channel &quot;Folding Ideas&quot;, has an excellent video on just this topic that also opens with a discussion of D.J. Marshmallow&#39;s concert but digs deeper into the way that Fortnite&#39;s economy as a whole is built to take advantage of its (mostly underage) players. In his words, &quot;V-Bucks are used here, as in most other microtransaction games, as a means to bypass financial regulations involving held value and some regional laws regarding gambling... the use of V-Bucks allows [Fortnite publisher] Epic to obfuscate the assigned value of both in-game purchases and the value of V-Bucks themselves.&quot; &lt;&lt;cite &quot;*&quot; &quot;Olson, Dan. &#39;Manufactured Discontent and Fortnite&#39;.&quot;&gt;&gt;&lt;/p&gt;
 &lt;figure&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dPHPNgIihR0?si=zKkkqxo5KvNDwuD5&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -2370,7 +2454,22 @@ Databases are a central part of how &lt;&lt;define &quot;information&quot; &quot
 &lt;p&gt;Contrast with &lt;&lt;define &quot;non-diegetic&quot;&gt;&gt; and compare to &lt;&lt;define &quot;transdiegetic&quot;&gt;&gt;.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="373" name="non-diegetic" tags="definition nobr" position="350,4725" size="100,100">&lt;p&gt;Non-diegetic sound is not a part of the narrative as experienced by the characters. The audience can hear it, but it doesn’t exist inside the world of the media.&lt;/p&gt;
 &lt;p&gt;Contrast with &lt;&lt;define &quot;diegetic&quot;&gt;&gt; and compare to &lt;&lt;define &quot;transdiegetic&quot;&gt;&gt;.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="374" name="transdiegetic" tags="definition nobr" position="475,4725" size="100,100">&lt;p&gt;I have coined the term &quot;transdiegetic&quot; to describe a shift, in media, from &lt;&lt;define &quot;diegetic&quot;&gt;&gt; to &lt;&lt;define &quot;non-diegetic&quot;&gt;&gt; sound, or vice versa. The change is usually quick and seamless, which may account for why it’s so much easier to catch on second, third, fourth viewings.&lt;/p&gt;
 &lt;p&gt;The Coen Brothers are directors who use this technique often. For example, when &lt;i&gt;Miller’s Crossing&lt;/i&gt;’s Leo is in bed listening to his phonograph blaring “Danny Boy,” the music is diegetic and indeed impacts the narrative – were it not for the volume of the music, he would hear his bodyguard get pumped full of lead downstairs. The song remains audible after Leo has jumped out the window to chase his would-be assassins, even though the phonograph has presumably burnt up from the house fire. It even swells when he fires his machine gun at the mooks’ getaway car. “Danny Boy” thus undergoes a transdiegetic shift. It begins as diegetic music but becomes nondiegetic as the scene progresses. Another more subtle example occurs in &lt;i&gt;Raising Arizona&lt;/i&gt;: the theme of the lullaby that Holly sings to Little Nathan recurs in the Biker of the Apocalypse’s non-diegetic theme.&lt;/p&gt;
-&lt;p&gt;Transdiegesis as a formal technique can subvert the traditionally voyeuristic role that a piece of media&#39;s reader/viewer/player has in relation to the characters; as an auditory analogue to the shot/reverse shot technique, transdiegetic moments often jar the player from one structure of identification into another.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="375" name="Quad script" tags="excerpt" position="3729,1766" size="100,100">&lt;h1&gt;[[Quad-&gt;Beckett, Samuel. Quad.]]&lt;/h1&gt;
+&lt;p&gt;Transdiegesis as a formal technique can subvert the traditionally voyeuristic role that a piece of media&#39;s reader/viewer/player has in relation to the characters; as an auditory analogue to the shot/reverse shot technique, transdiegetic moments often jar the player from one structure of identification into another.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="375" name="mirror" tags="definition nobr" position="600,4725" size="100,100">&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;video id=&quot;cameraVideo&quot; width=&quot;640&quot; height=&quot;480&quot; autoplay&gt;&lt;/video&gt;
+    &lt;br&gt;
+    &lt;button id=&quot;startCameraButton&quot;&gt;Go To The Mirror&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;&lt;script&gt;&gt;
+    // Start the camera function is now called on button click
+    // Ensure the function is called after the DOM is fully loaded
+    window.addEventListener(&#39;load&#39;, function() {
+        const startCameraButton = document.getElementById(&#39;startCameraButton&#39;);
+        if (startCameraButton) {
+            startCameraButton.addEventListener(&#39;click&#39;, startCamera);
+        }
+    });
+&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="376" name="Quad script" tags="excerpt" position="3729,1766" size="100,100">&lt;h1&gt;[[Quad-&gt;Beckett, Samuel. Quad.]]&lt;/h1&gt;
 A piece for four players, light and percussion.
 
 The players (1, 2, 3, 4) pace the given area, each following his particular course.
@@ -2472,7 +2571,7 @@ Negotiation of E without rupture of rhythm when three or four players cross path
 
 &lt;img src=&quot;assets/imgs/quad_script_2.png&quot; alt=&quot;Quad diagram 2&quot;&gt;
 
-5. No colour, all four in identical white gowns, no percussion, footsteps only sound, slow tempo, series 1 only.</tw-passagedata><tw-passagedata pid="376" name="Watt to Pascal" tags="excerpt" position="3719,1468" size="100,100">&lt;code&gt;PROGRAM MrsGorman (Input, Output);
+5. No colour, all four in identical white gowns, no percussion, footsteps only sound, slow tempo, series 1 only.</tw-passagedata><tw-passagedata pid="377" name="Watt to Pascal" tags="excerpt" position="3719,1468" size="100,100">&lt;code&gt;PROGRAM MrsGorman (Input, Output);
 CONST
 &amp;emsp;Indifferent = 60;
 VAR
@@ -2504,7 +2603,7 @@ IF Thursday THEN
 &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;END {Else}
 END. {Main program}&lt;/code&gt;
 
-&lt;&lt;cite &#39;94&#39; &quot;Kenner, Hugh. The Mechanic Muse.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="377" name="From The Skriker" tags="excerpt" position="3594,2166" size="100,100">&lt;i&gt;an excerpt from&lt;/i&gt;
+&lt;&lt;cite &#39;94&#39; &quot;Kenner, Hugh. The Mechanic Muse.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="378" name="From The Skriker" tags="excerpt" position="3594,2166" size="100,100">&lt;i&gt;an excerpt from&lt;/i&gt;
 &lt;h1&gt;The Skriker&lt;/h1&gt;
 by [[Caryl Churchill]]
 
@@ -2568,17 +2667,17 @@ LILY: I don&#39;t have all the technical if you want the jargon if you want the 
 
 SKRIKER: Don&#39;t fuck with me.
 
-LILY: Look, / that&#39;s all I --</tw-passagedata><tw-passagedata pid="378" name="Wittgenstein 2" tags="excerpt" position="2120,2351" size="100,100">&lt;h1&gt;2&lt;/h1&gt;
+LILY: Look, / that&#39;s all I --</tw-passagedata><tw-passagedata pid="379" name="Wittgenstein 2" tags="excerpt" position="2120,2351" size="100,100">&lt;h1&gt;2&lt;/h1&gt;
 That philosophical concept of meaning has its place in a primitive idea of the way language functions.  But one can also say that it is the idea of a language more primitive than ours. 
 
-Let us imagine a language ...The language is meant to serve for communication between a builder &lt;i&gt;A&lt;/i&gt; and an assistant &lt;i&gt;B&lt;/i&gt;. &lt;i&gt;A&lt;/i&gt; is building with building-stones; there are blocks, pillars, slabs and beams. &lt;i&gt;B&lt;/i&gt; has to pass the stones, and that in the order in which &lt;i&gt;A&lt;/i&gt; needs them. For this purpose they use a language consisting of the words &#39;block&#39;, &#39;pillar&#39;, &#39;slab&#39;, &#39;beam&#39;. &lt;i&gt;A&lt;/i&gt; calls them out; --&lt;i&gt;B&lt;/i&gt; brings the stone which he has learnt to bring at such-and-such a call. -- Conceive this as a complete primitive language.</tw-passagedata><tw-passagedata pid="379" name="Language Game" tags="excerpt" position="1999,2346" size="100,100">&lt;h1&gt;7&lt;/h1&gt;
+Let us imagine a language ...The language is meant to serve for communication between a builder &lt;i&gt;A&lt;/i&gt; and an assistant &lt;i&gt;B&lt;/i&gt;. &lt;i&gt;A&lt;/i&gt; is building with building-stones; there are blocks, pillars, slabs and beams. &lt;i&gt;B&lt;/i&gt; has to pass the stones, and that in the order in which &lt;i&gt;A&lt;/i&gt; needs them. For this purpose they use a language consisting of the words &#39;block&#39;, &#39;pillar&#39;, &#39;slab&#39;, &#39;beam&#39;. &lt;i&gt;A&lt;/i&gt; calls them out; --&lt;i&gt;B&lt;/i&gt; brings the stone which he has learnt to bring at such-and-such a call. -- Conceive this as a complete primitive language.</tw-passagedata><tw-passagedata pid="380" name="Language Game" tags="excerpt" position="1999,2346" size="100,100">&lt;h1&gt;7&lt;/h1&gt;
 In the practice of the use of language &lt;&lt;excerpt &quot;2&quot; &quot;Wittgenstein 2&quot;&gt;&gt; one party calls out the words, the other acts on them. In instruction in the language the following process will occur: the learner names the objects; that is, he utters the word when the teacher points to the stone. ---And there will be this still simpler exercise: the pupil repeats the words after the teacher-----both of these being processes resembling language. 	
 
  We can also think of the whole process of using words in &lt;&lt;excerpt &quot;2&quot; &quot;Wittgenstein 2&quot;&gt;&gt; as one of those games by means of which children learn their native language. I will call these games &lt;em&gt;&quot;language-games&quot;&lt;/em&gt; and will sometimes speak of a primitive language as a language-game. 
 
 And the processes of naming the stones and of repeating words after someone might also be called language-games. Think of much of the use words in games like ring-a-ring-a-roses. 	
 
-I shall also call the whole, consisting of language and the actions into which it is woven, the &quot;language-game&quot;.</tw-passagedata><tw-passagedata pid="380" name="Kleist, Heinrich von. On the Marionette Theater." tags="excerpt nobr" position="6124,523" size="100,100">&lt;h1&gt;On the Marionette Theatre&lt;/h1&gt;
+I shall also call the whole, consisting of language and the actions into which it is woven, the &quot;language-game&quot;.</tw-passagedata><tw-passagedata pid="381" name="Kleist, Heinrich von. On the Marionette Theater." tags="excerpt nobr" position="6124,523" size="100,100">&lt;h1&gt;On the Marionette Theatre&lt;/h1&gt;
 &lt;h2&gt;by Heinrich von Kleist&lt;/h2&gt;
 &lt;h3&gt;Translated by Idris Parry&lt;/h3&gt;
 &lt;p&gt;One evening in the winter of 1801 I met an old friend in a public park. He had recently been appointed principal dancer at the local theatre and was enjoying immense popularity with the audiences. I told him I had been surprised to see him more than once at the marionette theatre which had been put up in the market-place to entertain the public with dramatic burlesques interspersed with song and dance. He assured me that the mute gestures of these puppets gave him much satisfaction and told me bluntly that any dancer who wished to perfect his art could learn a lot from them.&lt;/p&gt;
@@ -2649,7 +2748,7 @@ I shall also call the whole, consisting of language and the actions into which i
 
 &lt;p&gt;&quot;Does that mean&quot;, I said in some bewilderment, &quot;that we must eat again of the tree of knowledge in order to return to the state of innocence?&quot;&lt;/p&gt;
 
-&lt;p&gt;&quot;Of course&quot;, he said, &quot;but that&#39;s the final chapter in the history of the world.&quot;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="381" name="GENE" tags="" position="2005,1752" size="100,100">&lt;blockquote&gt;AGT TCG AGC CCT TGA CTT GAT TGT GCA TAC&lt;br&gt;
+&lt;p&gt;&quot;Of course&quot;, he said, &quot;but that&#39;s the final chapter in the history of the world.&quot;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="382" name="GENE" tags="" position="2005,1752" size="100,100">&lt;blockquote&gt;AGT TCG AGC CCT TGA CTT GAT TGT GCA TAC&lt;br&gt;
 CGT GCT TGA GTC ATG TTG CAC AAC TTG TCG&lt;br&gt;
 GTC TCA GTA TGC CCG TGA AAT GTA CAT GTC&lt;br&gt;
 GGG TCC GAA TCT GAT TGC CCT TTG TGG AAC&lt;br&gt;
@@ -2657,14 +2756,14 @@ TGT GTG GCA TAG CTA GCC TGG GAC CCT TTG&lt;br&gt;
 GGC TGC ACT TGA TTG TCA CCA GGT TGT TCT&lt;br&gt;
 GTT GAA TCA TGA TCG GAC CCA CGT CGG CTG&lt;br&gt;
 GCC GAC TTT GAC CGG AGT GGT TGT ACC TTG&lt;br&gt;
-GTC AGG AAT TGA ACG&lt;&lt;cite &quot;76&quot; &quot;Churchill, Caryl. Love and Information.&quot;&gt;&gt;&lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="382" name="Meme Gallery" tags="" position="225,4850" size="100,100">A bunch of memes will go here.</tw-passagedata><tw-passagedata pid="383" name="appunwrapper interview" tags="" position="1618,1746" size="100,100">Original interview available &lt;a target=&quot;blank&quot; href=&quot;https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/&quot;&gt;here&lt;/a&gt;. A .pdf copy is also available &lt;a target=&quot;_blank&quot; href=&quot;assets/pdfs/app_unwrapper_interview&quot;&gt;here&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="384" name="MGBs, Tanks, and Batmobiles" tags="excerpt nobr" position="475,4850" size="100,100">&lt;h2&gt;&lt;i&gt;From Stephenson, Neal. &quot;In The Beginning... Was The Command Line&quot;&lt;/i&gt;&lt;/h2&gt;
+GTC AGG AAT TGA ACG&lt;&lt;cite &quot;76&quot; &quot;Churchill, Caryl. Love and Information.&quot;&gt;&gt;&lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="383" name="Meme Gallery" tags="" position="350,4850" size="100,100">A bunch of memes will go here.</tw-passagedata><tw-passagedata pid="384" name="appunwrapper interview" tags="" position="1618,1746" size="100,100">Original interview available &lt;a target=&quot;blank&quot; href=&quot;https://www.appunwrapper.com/2015/07/10/help-interrogate-sam-barlow-about-her-story/&quot;&gt;here&lt;/a&gt;. A .pdf copy is also available &lt;a target=&quot;_blank&quot; href=&quot;assets/pdfs/app_unwrapper_interview&quot;&gt;here&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="385" name="MGBs, Tanks, and Batmobiles" tags="excerpt nobr" position="600,4850" size="100,100">&lt;h2&gt;&lt;i&gt;From Stephenson, Neal. &quot;In The Beginning... Was The Command Line&quot;&lt;/i&gt;&lt;/h2&gt;
 &lt;p&gt;Around the time that Jobs, Wozniak, Gates, and Allen were dreaming up these unlikely schemes, I was a teenager living in Ames, Iowa. One of my friends&#39; dads had an old MGB sports car rusting away in his garage. Sometimes he would actually manage to get it running and then he would take us for a spin around the block, with a memorable look of wild youthful exhiliration on his face; to his worried passengers, he was a madman, stalling and backfiring around Ames, Iowa and eating the dust of rusty Gremlins and Pintos, but in his own mind he was Dustin Hoffman tooling across the Bay Bridge with the wind in his hair.&lt;/p&gt;
 
 &lt;p&gt;In retrospect, this was telling me two things about people&#39;s relationship to technology. One was that romance and image go a long way towards shaping their opinions. If you doubt it (and if you have a lot of spare time on your hands) just ask anyone who owns a Macintosh and who, on those grounds, imagines him- or herself to be a member of an oppressed minority group.&lt;/p&gt;
 
 &lt;p&gt;The other, somewhat subtler point, was that interface is very important. Sure, the MGB was a lousy car in almost every way that counted: balky, unreliable, underpowered. But it was fun to drive. It was responsive. Every pebble on the road was felt in the bones, every nuance in the pavement transmitted instantly to the driver&#39;s hands. He could listen to the engine and tell what was wrong with it. The steering responded immediately to commands from his hands. To us passengers it was a pointless exercise in going nowhere--about as interesting as peering over someone&#39;s shoulder while he punches numbers into a spreadsheet. But to the driver it was an experience. For a short time he was extending his body and his senses into a larger realm, and doing things that he couldn&#39;t do unassisted.&lt;/p&gt;
 
-&lt;i&gt;See also &lt;&lt;excerpt &quot;HCI and GUI&quot;&gt;&gt;&lt;/i&gt;</tw-passagedata><tw-passagedata pid="385" name="HCI and GUI" tags="excerpt nobr" position="600,4850" size="100,100">&lt;h2&gt;&lt;i&gt;From Stephenson, Neal. &quot;In The Beginning... Was The Command Line&quot;&lt;/i&gt;&lt;/h2&gt;
+&lt;i&gt;See also &lt;&lt;excerpt &quot;HCI and GUI&quot;&gt;&gt;&lt;/i&gt;</tw-passagedata><tw-passagedata pid="386" name="HCI and GUI" tags="excerpt nobr" position="725,4850" size="100,100">&lt;h2&gt;&lt;i&gt;From Stephenson, Neal. &quot;In The Beginning... Was The Command Line&quot;&lt;/i&gt;&lt;/h2&gt;
 &lt;p&gt;We had a human/computer interface a hundred years before we had computers. When computers came into being around the time of the Second World War, humans, quite naturally, communicated with them by simply grafting them on to the already-existing technologies for translating letters into bits and vice versa: teletypes and punch card machines.&lt;/p&gt;
 
 &lt;p&gt;These embodied two fundamentally different approaches to computing. When you were using cards, you&#39;d punch a whole stack of them and run them through the reader all at once, which was called batch processing. You could also do batch processing with a teletype, as I have already described, by using the paper tape reader, and we were certainly encouraged to use this approach when I was in high school. But--though efforts were made to keep us unaware of this--the teletype could do something that the card reader could not. On the teletype, once the modem link was established, you could just type in a line and hit the return key. The teletype would send that line to the computer, which might or might not respond with some lines of its own, which the teletype would hammer out--producing, over time, a transcript of your exchange with the machine. This way of doing it did not even have a name at the time, but when, much later, an alternative became available, it was retroactively dubbed the Command Line Interface.&lt;/p&gt;

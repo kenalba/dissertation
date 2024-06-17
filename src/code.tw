@@ -22,6 +22,62 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 	setPageElement("story-caption","StoryCaption");
 }
 
+// Function to stop the camera and release the video feed
+function stopCamera() {
+    const videoElement = document.getElementById('cameraVideo');
+    if (videoElement && videoElement.srcObject) {
+        const stream = videoElement.srcObject;
+        const tracks = stream.getTracks();
+        
+        tracks.forEach(function(track) {
+            track.stop();
+        });
+
+        videoElement.srcObject = null;
+    }
+}
+
+function startCamera() {
+    const videoElement = document.getElementById('cameraVideo');
+
+    if (!videoElement) {
+        console.error("Video element not found.");
+        alert("Video element not found.");
+        return;
+    }
+
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                videoElement.srcObject = stream;
+                videoElement.play();
+            })
+            .catch(function(error) {
+                console.error("Error accessing the camera: ", error);
+                alert("Unable to access the camera. Please check your permissions.");
+            });
+    } else {
+        console.error("Camera not supported on this device.");
+        alert("Camera not supported on this device.");
+    }
+}
+
+// Ensure the function is called after the DOM is fully loaded
+window.addEventListener('load', function() {
+    const startCameraButton = document.getElementById('startCameraButton');
+    if (startCameraButton) {
+        startCameraButton.addEventListener('click', startCamera);
+
+    }
+});
+
+// Stop the camera whenever a new passage is displayed
+$(document).on(':passagedisplay', function (ev) {
+    if (ev.passage.title !== 'Mirror') {
+        stopCamera();
+    }
+});
+
 function showJumpScare() {
     // Create an overlay div
     var jumpScareDiv = document.createElement('div');
@@ -354,13 +410,16 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <div id="navigation-list">
 	<<link '<div class= "nav-link"><span class="nav-button">a</span> introduction</div>' 'Introduction 1'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">1</span> GESTURE</div>' 'Section 1: GESTURE'>><</link>><br>
-	<<link '<div class= "nav-link"><span class="nav-button">2</span> COGNITION</div>' 'Section 2: COGNITION'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">2</span> COGNITION</div>' 'Section 2: MEMORY'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">3</span> PRACTICE</div>' 'Section 3: PRACTICE'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''C 1'>><</link>><br>
 </div>
 
 <div id="settings-list">
+	<<link '<div class= "settings-button"><i class="material-icons">help</i> <span class="settings-text">Guide</span></div>' 'Guide'>><</link>>
+	<<link '<div class= "settings-button"><i class="material-icons">fact_check</i> <span class="settings-text">Glossary</span></div>' 'Glossary'>><</link>>
 	<<link '<div class="settings-button" id="bookmark-link"><i class="material-icons">bookmark</i> <span class="settings-text">Bookmarks</span></div>' 'Bookmarks'>><</link>>
+	<br>
 	<div class="settings-button" id="save-button"><i class="material-icons">save</i> <span class="settings-text">Save</span></div>
 	<div class="settings-button" id="load-button"><i class="material-icons">history</i> <span class="settings-text">Load</span></div>
 	<div class="settings-button" id="restart-button"><i class="material-icons">refresh</i> <span class="settings-text">Restart</span></div>
