@@ -155,7 +155,7 @@ figcaption {
 .scroll_mode_page_number {
   position: relative;
   display: inline-block;
-  left: -60px;
+  left: -120px;
 }
 
 .scroll_mode_passage_text {

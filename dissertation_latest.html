@@ -259,7 +259,7 @@ figcaption {
 .scroll_mode_page_number {
   position: relative;
   display: inline-block;
-  left: -60px;
+  left: -120px;
 }
 
 .scroll_mode_passage_text {
@@ -1083,6 +1083,8 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, &quot;intro&quot;)&gt;&gt;
 	&lt;&lt;elseif _tags.includes(&quot;bk&quot;)&gt;&gt;
 		&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, &quot;bk&quot;)&gt;&gt;
+	&lt;&lt;elseif _tags.includes(&quot;mrbb&quot;)&gt;&gt;
+		&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, &quot;mrbb&quot;)&gt;&gt;
 	&lt;&lt;elseif _tags.includes(&quot;hs&quot;)&gt;&gt;
 		&lt;&lt;set _passages to Story.lookup(&quot;tags&quot;, &quot;hs&quot;)&gt;&gt;
 	&lt;&lt;elseif _tags.includes(&quot;tda&quot;)&gt;&gt;
@@ -1117,7 +1119,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		&lt;span class = &quot;scroll_mode_passage&quot;&gt;
 
 			&lt;span class = &quot;scroll_mode_page_number&quot;&gt;
-				_i
+				_tag _i
 			&lt;/span&gt;
 
 			&lt;span class = &quot;scroll_mode_passage_text&quot;&gt;
@@ -1202,7 +1204,6 @@ Throughout, you can use the links on the sidebar to jump to a particular section
 
 The dissertation uses a color-coded system to let you know what you&#39;re getting into when you click a link. &lt;span style=&quot;color: #48B44A;&quot;&gt;Definitions are green&lt;/span&gt;, &lt;span style=&quot;color:#E76428;&quot;&gt;excerpts are orange&lt;/span&gt;, &lt;span style=&quot;color:#9E9E9E;&quot;&gt;citations are grey&lt;/span&gt;, and other &lt;span style=&quot;color:#68d;&quot;&gt;links are blue&lt;/span&gt;. This system is new and is not everywhere yet.
 
-Try out [[Scroll Mode]]
 Finally, note that this is, at present, a work in progress. Some links aren&#39;t filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@bu.edu.
 
 Thanks, and enjoy!
@@ -1221,8 +1222,6 @@ Thanks, and enjoy!
 
 [[Glossary]]</tw-passagedata><tw-passagedata pid="97" name="Scroll Mode" tags="nobr" position="850,1225" size="100,100">&lt;&lt;set $scroll_position to 500&gt;&gt;
 &lt;a href=&quot;#bottom&quot;&gt;Bottom button.&lt;/a&gt;
-&lt;button onclick=&quot;window.scrollTo(0, $scroll_position);&quot;&gt; click to scroll down 500 pixels &lt;/button&gt;
-
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
@@ -1246,10 +1245,12 @@ Thanks, and enjoy!
 		}, 300); 
 	&lt;&lt;/script&gt;&gt;
 
-&lt;&lt;scroll_case_study &quot;eg&quot;&gt;&gt;
-
-
-&lt;a name=&quot;bottom&quot;&gt;Bottom.&lt;/a&gt;</tw-passagedata><tw-passagedata pid="98" name="Section 1: GESTURE" tags="nobr" position="975,1225" size="100,100">&lt;&lt;click &quot;Toggle Introduction&quot;&gt;&gt;&lt;&lt;toggleclass &quot;#introduction&quot; &quot;hidden&quot;&gt;&gt;&lt;&lt;/click&gt;&gt;&lt;br&gt;
+&lt;&lt;scroll_case_study &quot;bk&quot;&gt;&gt;
+&lt;&lt;scroll_case_study &quot;aw&quot;&gt;&gt;
+&lt;&lt;scroll_case_study &quot;mrbb&quot;&gt;&gt;
+&lt;&lt;scroll_case_study &quot;hs&quot;&gt;&gt;
+&lt;&lt;scroll_case_study &quot;klt&quot;&gt;&gt;
+&lt;&lt;scroll_case_study &quot;tar&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Section 1: GESTURE" tags="nobr" position="975,1225" size="100,100">&lt;&lt;click &quot;Toggle Introduction&quot;&gt;&gt;&lt;&lt;toggleclass &quot;#introduction&quot; &quot;hidden&quot;&gt;&gt;&lt;&lt;/click&gt;&gt;&lt;br&gt;
 &lt;div id=&quot;introduction&quot; class=&quot;hidden&quot;&gt;
   &lt;p&gt;These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.&lt;/p&gt;
   &lt;p&gt;The first of these, &quot;A Play Infected with a Virus&quot;: Signal, Noise, and the Glitch in Caryl Churchill&#39;s &lt;i&gt;Blue Kettle&lt;/i&gt;, examines Caryl Churchill&#39;s play &lt;i&gt;Blue Kettle&lt;/i&gt;, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible &lt;&lt;define &quot;utterances&quot; &quot;utterance&quot;&gt;&gt; highlights the dynamic of &lt;&lt;define &quot;signal&quot;&gt;&gt;, &lt;&lt;define &quot;noise&quot;&gt;&gt;, and &lt;span class=&quot;glitch&quot; data-text=&quot;glitch&quot;&gt;glitch&lt;/span&gt; that conditions any &lt;&lt;define &quot;transcoded&quot; &quot;transcoding&quot;&gt;&gt; gesture.&lt;/p&gt;

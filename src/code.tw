@@ -344,6 +344,8 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<<set _passages to Story.lookup("tags", "intro")>>
 	<<elseif _tags.includes("bk")>>
 		<<set _passages to Story.lookup("tags", "bk")>>
+	<<elseif _tags.includes("mrbb")>>
+		<<set _passages to Story.lookup("tags", "mrbb")>>
 	<<elseif _tags.includes("hs")>>
 		<<set _passages to Story.lookup("tags", "hs")>>
 	<<elseif _tags.includes("tda")>>
@@ -378,7 +380,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<span class = "scroll_mode_passage">
 
 			<span class = "scroll_mode_page_number">
-				_i
+				_tag _i
 			</span>
 
 			<span class = "scroll_mode_passage_text">
