@@ -847,12 +847,17 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 [[Return->Section 2: MEMORY]]
 
 :: Case Study: KRAPP'S LAST TAPE {"position":"2540,1175","size":"100,100"}
-<h1>The Extended Mind, Looking Back: <i>Krapp's Last Tape</i></h1>
+<h1>Technostalgia and the Extended Mind in <i>Krapp's Last Tape</i></h1>
+
+<figure>
+	<img style="width:75%" src="assets/imgs/klt_tape_regret.png" alt="an abstract illustration of a tape recorder in the style of Paul Klree.">
+	<figcaption>Generated with Midjourney with the prompt "nostalgia, regret, reel-to-reel tape recorder, against a pure black background, by Paul Klee".</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Krapp 1">><</silently>>
 
 :: Krapp 1 [klt nobr]
-<p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality; in a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel media technology to present and undermine a nostalgic vision of a brighter past.</p>
+<p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality. In a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel <<define "medium">> technology to present and undermine a <<define "nostalgic" "Nostalgia">> vision of a brighter past.</p>
 
 <figure>
 	<video controls>
@@ -865,7 +870,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 2">><</silently>>
 
 :: Krapp 2 [klt nobr]
-<p>This ‘looking back’ looks like Krapp, surrounded by darkness, playing tapes of the person he once was and failing to construct a stable self that bridges the years between the old man listening and the young fools recording. Krapp’s situation was atypical for his historical moment but is quotidian in the  <<define "information age" "Information Age">>. Lived experience is recorded with or without our consent by a variety of technological apparatuses. That mediated experience becomes inseparable from ourselves as the content and ads that various platforms feed us, the <<define "database" "Database">> through which we remember ourselves, and the <<define "social gestures" "information and selfhood">> by which we perform ourselves into being online. Krapp’s treatment of <<define "nostalgia" "Nostalgia">> alongside media technology is not incidental: the technologisation of human experience often yields precisely the sentimental nostalgia that Krapp both engages in and problematizes.</p>
+<p>This ‘looking back’ looks like Krapp, surrounded by darkness, playing tapes recorded by the person he once was and failing to construct a stable self that bridges the years between the old man listening and the young fools recording. Krapp’s situation was atypical for his historical moment but is quotidian in the  <<define "information age" "Information Age">>. Lived experience is recorded with or without our consent by a variety of technological apparatuses. That mediated experience becomes inseparable from ourselves as the content and ads that various platforms feed us, the <<define "database" "Database">> through which we remember ourselves, and the <<define "social gestures" "information and selfhood">> by which we perform ourselves into being online. Krapp’s treatment of nostalgia alongside media technology is not incidental: the technologization of human experience often yields precisely the sentimental nostalgia that Krapp both engages in and problematizes.</p>
+
 
 <<silently>><<set _next_passage to "Krapp 3">><</silently>>
 
@@ -885,19 +891,24 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 5">><</silently>>
 
 :: Krapp 5 [klt nobr]
-<p>One mode of thinking through this postcognitivist subjectivity that arises out of Krapp’s relationship with his technological prostheses comes from the field of cognitive science. In 'The Extended Mind' (1998), Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes <<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>. For Clark and Chalmers, a student doing long division by hand is not just using the pen and paper as a tool; some of the work of cognition is actively platformed on the page. Because the mind is the seat of cognition, it makes sense to think about that student’s mind as extending beyond his skin and onto the page.</p>
+<p>One mode of thinking through this postcognitivist subjectivity that arises out of Krapp’s relationship with his technological prostheses comes from the field of cognitive science. In 'The Extended Mind' (1998), Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes.<<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
+<p>For Clark and Chalmers, a student doing long division by hand is not just using the pen and paper as a tool; some of the work of <<define "cognition">> is actively platformed on the page. Because the mind is the seat of cognition, it makes sense to think about that student’s mind as extending beyond his skin and onto the page. In cases like these:</p>
+<blockquote>the human organism is linked with an external entity in a two-way interaction, creating a coupled system that can be seen as a cognitive system in its own right. All the components in the system play an active causal role, and they jointly govern behaviour in the same sort of way that cognition usually does. If we remove the external component the system's behavioural competence will drop, just as it would if we removed part of its brain. Our thesis is that this sort of coupled process counts equally well as a cognitive process, whether or not it is wholly in the head.<<cite '8' '9' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>></blockquote>
+<p><i>n.b.: this paper features the best footnote I've ever read; the author line is footnoted, and the note reads "Authors are listed in order of degree of belief in the central thesis."</i></p>
 
 <<silently>><<set _next_passage to "Krapp 6">><</silently>>
 
 :: Krapp 6 [klt nobr]
-<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of <<define "cognitive loops" "Cognitive Loops">>.</p>
+<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of <<define "cognitive loops" "Cognitive Loops">> -- not unlike N. Katherine Hayles' <<define "cognitive assembalge">>.</p>
 
 <p>His dependence on these linguistic, technological prostheses to live the life he does, and the degree to which the life the audience sees is focused on the creation of further tapes, denaturalises the body as the sole spatial and cognitive seat of the subject. Krapp’s ‘mind’ is distributed, in other words, and this distributed mind implies a self distributed both in space and in time.</p>
 
 <<silently>><<set _next_passage to "Krapp 7">><</silently>>
 
 :: Krapp 7 [klt nobr]
-<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett "seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with multiple drafts and writing as a form of thinking" <<cite "283" "284" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>. This paradigm allows van Hulle to productively interrogate dichotomies like light/darkness and mind/body that have guided critical inquiry into the play for decades.</p>
+<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett</p>
+<blockquote>seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with multiple drafts and writing as a form of thinking" <<cite "283" "284" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>.</blockquote>
+<p>This paradigm allows van Hulle to productively interrogate dichotomies like light/darkness and mind/body that have guided critical inquiry into the play for decades.</p>
 
 <<silently>><<set _next_passage to "Krapp 8">><</silently>>
 
