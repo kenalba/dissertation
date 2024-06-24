@@ -41,25 +41,7 @@ img {
   margin: 0 auto;
 }
 
-.guess-button {
-  margin: 5px;
-  padding: 10px;
-  cursor: pointer;
-}
-.correct {
-  background-color: green;
-  color: white;
-}
-.incorrect {
-  background-color: red;
-  color: white;
-}
-.editors_note {
-  display: none;
-}
-.show-editor-note {
-  display: block;
-}
+
 
 blockquote {
   background: #151E23;
@@ -155,7 +137,7 @@ figcaption {
 .scroll_mode_page_number {
   position: relative;
   display: inline-block;
-  left: -120px;
+  left: -60px;
 }
 
 .scroll_mode_passage_text {
@@ -325,4 +307,78 @@ li {
 
 .hidden {
   display: none;
+}
+
+#score-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  background-color: transparent; /* Transparent background */
+  color: #2f92d2; /* Blue color for text */
+  border: 2px solid #2f92d2; /* Blue outline */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2f92d2; /* Blue background on hover */
+  color: white; /* White text on hover */
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+
+.guess-button {
+  margin: 2px;
+  padding: 4px;
+  cursor: pointer;
+}
+.correct {
+  background-color: green;
+  color: white;
+}
+.incorrect {
+  background-color: red;
+  color: white;
+}
+.editors_note {
+  display: none;
+}
+.show-editor-note {
+  display: block;
+}
+
+.glow {
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #51b241, 0 0 20px #51b241, 0 0 30px #51b241, 0 0 40px #51b241, 0 0 50px #51b241, 0 0 60px #51b241, 0 0 70px #51b241;
+  }
+  to {
+    text-shadow: 0 0 20px #51b241, 0 0 30px #51b241, 0 0 40px #51b241, 0 0 50px #51b241, 0 0 60px #51b241, 0 0 70px #51b241, 0 0 80px #51b241;
+  }
 }

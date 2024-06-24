@@ -22,21 +22,6 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 	setPageElement("story-caption","StoryCaption");
 }
 
-// Function to stop the camera and release the video feed
-function stopCamera() {
-    const videoElement = document.getElementById('cameraVideo');
-    if (videoElement && videoElement.srcObject) {
-        const stream = videoElement.srcObject;
-        const tracks = stream.getTracks();
-        
-        tracks.forEach(function(track) {
-            track.stop();
-        });
-
-        videoElement.srcObject = null;
-    }
-}
-
 function startCamera() {
     const videoElement = document.getElementById('cameraVideo');
 
@@ -68,13 +53,6 @@ window.addEventListener('load', function() {
     if (startCameraButton) {
         startCameraButton.addEventListener('click', startCamera);
 
-    }
-});
-
-// Stop the camera whenever a new passage is displayed
-$(document).on(':passagedisplay', function (ev) {
-    if (ev.passage.title !== 'Mirror') {
-        stopCamera();
     }
 });
 
@@ -149,6 +127,10 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
 
+<<set $score to 0>>
+<<set $guesses to 0>>
+<<set $guessed to []>>
+
 :: PassageFooter [nobr]
 	<div id="title-row">
 		<span id="top-passage-text"><<print passage()>><<total_passages>></span>
@@ -175,7 +157,13 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 				</i>
 			<</if>>
 		</span>
+/*		
+	<<if tags().includes("definition")>>
+		<<definitionGuess true>> 
+	<</if>>
 	</div>
+*/
+
 	<<script>>
 		Mousetrap.bind("right", function() {
 			$('#top-forward-link').click();
@@ -184,6 +172,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 			$('#top-back-button a').click();
 			});
 	<</script>>
+
 
 
 :: Widgets [widget nobr] {"position":"138,60","size":"100,100"}
@@ -397,6 +386,44 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 	<</if>>
 <</widget>>
 
+<<widget "definitionGuess">>
+  <<set _isAI to !tags().includes("gpt")>>
+  <<set _currentPassage to passage()>>
+
+	  <span class="guess-button" id="guess-human-$_currentPassage">
+		  <<button "Human">>
+		    <<set $guesses += 1>>
+		    $guessed.push[_currentPassage]
+		    <<if !_isAI>>
+		      <<set $score += 1>>
+		      console.log($score)
+		      <<run UI.alert("Correct! This passage was written by a human.")>>
+		    <<else>>
+		      <<run UI.alert("Incorrect. This passage was written by an AI.")>>
+		    <</if>>
+		  <</button>>
+		</span>
+
+	  <<button "AI">>
+	    <<set $guesses += 1>>
+	    $guessed.push[_currentPassage]
+	    <<if _isAI>>
+	      <<set $score += 1>>
+	    <<else>>
+	      <<run UI.alert("Incorrect. This passage was written by a human.")>>
+	    <</if>>
+	  <</button>>
+
+	<</widget>>
+
+	<<widget "sidebarScore">>
+		<<if $guesses > 0>>
+		  <div id="score-box">
+		    <p>Score: <<print $score>></p>
+		    <p>Guesses: <<print $guesses>></p>
+		  </div>
+		<<endif>>
+<</widget>>
 /* 
  	recordScroll() {
         this.scroll_data.push(this.state.scroll_top);
@@ -412,7 +439,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <div id="navigation-list">
 	<<link '<div class= "nav-link"><span class="nav-button">a</span> introduction</div>' 'Introduction 1'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">1</span> GESTURE</div>' 'Section 1: GESTURE'>><</link>><br>
-	<<link '<div class= "nav-link"><span class="nav-button">2</span> COGNITION</div>' 'Section 2: MEMORY'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">2</span> MEMORY</div>' 'Section 2: MEMORY'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">3</span> PRACTICE</div>' 'Section 3: PRACTICE'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''C 1'>><</link>><br>
 </div>

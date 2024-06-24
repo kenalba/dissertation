@@ -1,12 +1,8 @@
 :: Glossary [nobr]
 
 <<set _passages to Story.lookup("tags", "definition")>>
-<<set _sortedPassages = _passages.slice().sort(function(a, b) {
-    return a.title.localeCompare(b.title);
-})>>
-
-<<for _i to 0; _i lt _sortedPassages.length; _i++>>
-	<<define _sortedPassages[_i].title>><br>
+<<for _i to 0; _i lt _passages.length; _i++>>
+	<<define _passages[_i].title>><br>
 <</for>>
 
 :: Signal [definition nobr] {"position":"2015,2502","size":"100,100"}
@@ -61,6 +57,35 @@ Define this!
 <p>However, as interventions from feminist scholars such as [[Catherine D'Ignazio]] and [[Lauren Klein]] demonstrate, these instrumental definitions can elide the degree to which information is always situated in and co-constituitive of culture - and, as such, can replicate and reify existing structures of [[oppression->Noble, Safiya. Algorithms of Oppression]]. In <i>[[Data Feminism]]</i>, D'Ignazio and Klein define information usefully as "definition goes here."</p> 
 
 <p>Finally, for some philosophers of information, information makes up the fundamental structure of reality. <<define "Informational structural realism" "Informational Structural Realism">>, as it is called, posits a phenomenology whereby every "it" derives from a "bit."</p>
+
+:: Trace [definition todo] {"position":"3719,1968","size":"100,100"}
+C.f. Derrida's notion of the "trace".
+
+:: Interface [definition nobr todo]
+nothing yet
+
+:: Database [definition nobr GPT-3]
+<p>A database is a collection of data that can be queried in some way to produce <<define "information" "Information">>. In the early days of computing, databases were often hierarchical or networked, but the most common type today is the relational database, which arranges data in tables with rows and columns. 
+</p>
+<p>
+The term "database" can also refer to the software used to query said data. The most popular relational database management system (DBMS) is Microsoft SQL Server, followed by Oracle, MySQL, and IBM's DB2.
+</p>
+
+<p>
+Databases are a central part of how <<define "information" "Information">> is managed and accessed in the <<define "information age" "Information Age">>.
+</p>
+
+<p>A library is also a database, where querying is done via a <<define "librarian" "Librarian">> instead of a computer system - although many libraries now use <<define "computerized" "computerized">> systems to supplement or replace traditional <<define "cataloguing" "cataloguing">> systems.
+</p>
+<p> A person is also a database, where the data is stored in the <<define "brain" "Brain">>.
+</p>
+
+:: Brain [definition nobr GPT-3]
+<p>Biologicaly, the brain is an organ made up of neurons that resides in the skull, and which is responsible for the execution of many functions, from controlling the body's autonomic nervous system to processing <<define "information" "Information">>.</p>
+
+<p>In popular discourse, the brain is more frequently used as a metaphor for the mind. In this sense, the brain is often used as a shorthand for the human capacity for cognition and memory, "the seat of the emotions and of the will" <<cite "OED" "Oxford English Dictionary">>.</p>
+
+<p>This metaphorical sense of the brain is often used as a stand-in for the self. In a <<define "neurocentric">> world-view, the self is a product of the brain, and the mind is in service of the brain's goals. This is in contrast to a more <<define "ecological">> perspective, in which the self is seen as a product of the relationships between the brain and the environment. This ecologist perspective sees the mind as a set of functions that not only enable the brain to interact with the environment, but also enable the brain to change in response to the environment. This embodied perspective is in contrast to a more disembodied perspective, in which the brain is seen as a self-contained system that is only tangentially related to the body and the environment.</p
 
 :: Meaning [definition nobr gpt-3]
 <b><p>For the Wittgenstein of the <i>Philosophical Investigations</i>, the meaning of a word depends on how it is used within a particular language-game. In other words, meaning depends on usage. In an information theoretical context, then, for <<define "data" "Data">> to become meaningful is for it to become useful within a particular context. This definition relies, however, on a player of the language game to whom the concept of "meaning" is not itself meaningless. For data to become meaningful, then, is for data to become instrumentally valuable.</p>
@@ -283,6 +308,7 @@ The phrase "Information wants to be free" was popularized by Stewart Brand durin
 <blockquote>Sentimental longing for or regretful memory of a period of the past, esp. one in an individual's own lifetime; (also) sentimental imagining or evocation of a period of the past <<cite "*" "Oxford English Dictionary">></blockquote>
 <p>Etymologically, the term comes from the ancient Greek "νόστος", meaning "return home", and "αλγία", denoting pain. Literally, then, nostalgia is the pain from homecoming.</p>
 <p>Less literally, nostalgia is intimately tied to <<define "loss">>, the human impulse to view the past as rosier than the present. For <<define "media">>, this can present as a fond preference for the technologies of one's youth - hence the rise of vinyl and, later, of cassete tapes among nostalgic audiophiles.</p>
+<p>Some media forms are nostalgic by nature; photography, for example, is in Susan Sontag's telling, is both "a reminder of death" and an "invitation to sentimentality" that turns "the past into an object of tender regard" <<cite "71" "Sontag, Susan. On Photography">>.</p>
 <p>The nostalgic impulse is considerably more harmful in the political realm, where it often takes the form of a retrograde privileging of a counterfactual version of history and, in a move which is by definition conservative, seeks a return to that earlier time.</p>
 
 :: Speech Act Theory [definition nobr GPT-3]
@@ -495,9 +521,7 @@ An avatar is the electric body one projects oneself into and through in order to
 <p>Marshall McLuhan's famous dicta that "the medium is the message" and that a medium can be defined as a "extension of ourselves" gestures towards the co-constituitive relationship that media, <<define "genre">>, and <<define "identity and selfhood" "selfhood">> have in contributing to personal identity in the <<define "information age">>.</p>
 
 :: Persona [definition nobr]
-<p>The word “person” has an interesting history. On the one hand, there’s the common understanding of it, which the Oxford English Dictionary lists as the second entry: “an individual human being; a man, woman, or child.” On the other, it stems etymologically from the Latin persona, meaning “mask used by a player, character in a play, dramatic role, the part played by a person in life, character, role, position,” which gives “person” its first entry: “a role taken by a person.”  Most intriguing is “person”s sister word, persona, which remains in English and means “the aspect of a person’s character that is displayed to or perceived by others” <<cite "OED" "Oxford English Dictionary">>. These terms suggests two ways of understanding personhood: in one, the subject is constituted by their individuality, their mind, their personality – in a word, their self. In the other, a person is constituted by the way their identity is performed and perceived by other people – a sort of constructed social identity made up by the masks they wear. The former understanding presumes an autonomous subject and an autonomous will in a way predicated on a kind of essentialism; the latter is more in line with the insights provided by the postmodern turn, which has decentered the subject in radical and productive ways.</p>
-
-<p>This decentered subject has been the object of critical study for decades now. Judith Butler, in particular, has provided insight into the way a subject is constituted by their iterated <<define "performative acts" "information and selfhood">>, the organ of which is the body. Her argument is compelling, but as we migrate to new, digital worlds, it makes less sense to privilege the <<define "material body" "meatspace">> over the <<define "avatar" "Avatar">> as the instrument with which one plays oneself.</p>
+<p>The word "person" stems etymologically from the Latin <i>persona</i>, meaning "mask used by a player / character in a play – or the part played by a person in life, character, role, position" <<cite "OED" "Oxford English Dictionary">> "Person" and "persona" suggest two ways of understanding personhood: in one, the subject is their individuality, their mind, their personality – in a word, their self. In the other, a person is constituted by the way their identity is performed and perceived by other people – a sort of constructed, intersubjective social identity made up by the masks they wear. This decentered subject has been the object of critical study for decades now. Judith Butler, in particular, has provided insight into the way a subject is constituted by their iterated performative acts, the organ of which is the body. Her argument is compelling, but as we migrate to new, digital worlds, it makes less sense to privilege the material body over the <<define "avatar" "Avatar">> as the instrument with which one plays oneself.</p>
 
 :: Section 107 of the Copyright Act [definition] {"position":"4194,2268","size":"100,100"}
 "107. Limitations on exclusive rights: Fair use
@@ -651,7 +675,7 @@ The ship on which Theseus sailed with the youths and returned in safety, the thi
 <p>In the context of digital performativity, emoji perform a particuarly interesting function. As iconic representations of facial expressions and other stylizations of the body on chat platforms that ordinarily lack a visual component beyond embedded images and a profile photo, the emoji should be read as a <<define "gesture" "information and selfhood">> in the performative sense.</p>
 <p>Gretchen McCulloch has written that emoji function as emblems; that is, they have "precise forms and stable meanings" <<cite "161" "McCulloch, Gretchen. Because Internet.">> within particular contexts - and those meanings change when moved to different contexts. She argues that they contribute to digital embodiment by allowing people to provide tonal markers to plain text.</p>
 
-:: V-Bucks [definition nobr]
+:: V-Bucks [definition]
 <p>The precise dollar value of these cosmetic items is difficult to pinpoint because they are purchased with V-Bucks, which can be purchased with American dollars at an approximate rate of 100 V-Bucks per American dollar. Discounts are available with larger purchases, however; $24.99 will get you a ‘bonus’ 300 V-Bucks, and users can earn V-Bucks for performing in-game actions.</p>
 <p>YouTuber Dan Olson, creator of the popular channel "Folding Ideas", has an excellent video on just this topic that also opens with a discussion of D.J. Marshmallow's concert but digs deeper into the way that Fortnite's economy as a whole is built to take advantage of its (mostly underage) players. In his words, "V-Bucks are used here, as in most other microtransaction games, as a means to bypass financial regulations involving held value and some regional laws regarding gambling... the use of V-Bucks allows [Fortnite publisher] Epic to obfuscate the assigned value of both in-game purchases and the value of V-Bucks themselves." <<cite "*" "Olson, Dan. 'Manufactured Discontent and Fortnite'.">></p>
 <figure>
@@ -717,76 +741,3 @@ Greek etymology. Techne. Heidegger.
 <blockquote>I have been a soreheaded occupant of a file drawer labelled ‘science fiction’ … and I would like out, particularly since so many serious critics regularly mistake the drawer for a urinal.<<cite "781" "Vonnegut, Kurt. Science Fiction.">></blockquote>
 <p><<define "Medium" "medium">> might, too, be considered as procrustean; necessarily conditioned by the <<define "losses" "loss">> and particularities of its technological substrate, McLuhan's maxim might be rephrased to say that the medium must be massaged if it is to fit the meaning that it's supposed to.</p>
 <p>All that said, Procrustes is killed by Thesues, and we do not need to lay in the beds we've been made to fit. Queer, <span class="glitch" data-text="glitch"><<define "glitchy" "Glitch">></span>, <<define "heterogeneric">>, <<define "multimedial">> texts and subject all exceed, with a greater lesser degree of ecstacy, the bounds of their beds.</p>
-
-:: Trace [definition todo] {"position":"3719,1968","size":"100,100"}
-C.f. Derrida's notion of the "trace".
-
-:: Interface [definition nobr]
-<p>The etymology of "interface" is, as most etymologies are, suggestive. "Inter-" as a prefix denotes something "situated or occurring between things, or in the midst of something", which is no surprise. "Face", on the other hand, is generally here taken in its second meaning - "the surface, or one of the surfaces, of anything" - but, in the field of human-computer interface studies, overlaps significantly with the primary usage of "face" as "the front part of the head" <<cite "*" "Oxford English Dictionary">>. In other words, an "interface" is literally where two surfaces, or two faces, meet and interact, the site of information transmission and communication.</p>
-<p>The more contemporary (and, here, germane) definition of interface as "a means or place of interaction between two systems, organizations, etc.; a meeting-point or common ground between two parties, systems, or disciplines" was probably coined by Marshall McLuhan, who used it to describe the space where different historical eras met (e.g. "medieval pluralism" and "modern homogeneity and mechanism" <<cite "141" "McLuhan, Marshall. Gutenberg Galaxy.">></p>
-<p>In computing, "interface" has come to stand in for the means by which the user engages with their technology. <<define "UI">> designers optimize these user interfaces to make technological operation as appealing and delightful as possible. In <i>Being and the Screen: How the Digital Changes Perception</i>, Stéphane Vial glosses this meaning in reference to computer science specifically as:</p>
-<blockquote>a point of intersection between two systems where they can exchange <<define "information">> and therefore communicate, or <i>interact</i>... a means of enabling users to act and react with [computers] in order to simply use them.<<cite "194" "Vial, Stéphane. Being and the Screen.">></blockquote>
-<p>In his essay "In The Beginning... Was The Command Line", Neal Stephenson writes at length about the transition from the complex, word-based "command line" interface of older technology, where the user is responsible for "sending bits directly to the chip that's doing the arithmetic", to the graphical user interface, where the user's power is limited in the interest of providing a user-friendly experience. See <<excerpt "MGBs, Tanks, and Batmobiles">> and <<excerpt "HCI and GUI">> for more on the topic.</p>
-<p>Intruigingly, the <<define "LLM">> boom has seen a resurgance in word-based command-line-style interfaces; when interacting with an abstract agent like a large language model, a chat interface is powerful, flexible, and familiar; on the other hand, given that we mostly use this style of chat interface with other humans, it does accelerate the anthropomorphization of these models.</p>
-
-:: Database [definition nobr todo gpt]
-<p>A database is a collection of data that can be queried via a <<define "interface">> to produce <<define "information" "Information">>. In the early days of computing, databases were often hierarchical or networked, but the most common type today is the relational database, which arranges data in tables with rows and columns. 
-</p>
-<p>
-The term "database" can also refer to the software used to query said data. The most popular relational database management system (DBMS) is Microsoft SQL Server, followed by Oracle, MySQL, and IBM's DB2.
-</p>
-
-<p>
-Databases are a central part of how <<define "information" "Information">> is managed and accessed in the <<define "information age" "Information Age">>.
-</p>
-
-<p>A library is also a database, where querying is done via a <<define "librarian" "Librarian">> instead of a computer system - although many libraries now use <<define "computerized" "computerized">> systems to supplement or replace traditional <<define "cataloguing" "cataloguing">> systems.
-</p>
-<p> A person is also a database, where the data is stored in the <<define "brain" "Brain">>.
-</p>
-
-:: Brain [definition nobr gpt]
-<p>Biologicaly, the brain is an organ made up of neurons that resides in the skull, and which is responsible for the execution of many functions, from controlling the body's autonomic nervous system to processing <<define "information" "Information">>.</p>
-
-<p>In popular discourse, the brain is more frequently used as a metaphor for the mind. In this sense, the brain is often used as a shorthand for the human capacity for cognition and memory, "the seat of the emotions and of the will" <<cite "OED" "Oxford English Dictionary">>.</p>
-
-<p>This metaphorical sense of the brain is often used as a stand-in for the self. In a <<define "neurocentric">> world-view, the self is a product of the brain, and the mind is in service of the brain's goals. This is in contrast to a more <<define "ecological">> perspective, in which the self is seen as a product of the relationships between the brain and the environment. This ecologist perspective sees the mind as a set of functions that not only enable the brain to interact with the environment, but also enable the brain to change in response to the environment. This embodied perspective is in contrast to a more disembodied perspective, in which the brain is seen as a self-contained system that is only tangentially related to the body and the environment.</p>
-
-:: death of the author [definition nobr todo]
-
-:: UI [definition nobr todo]
-
-:: UX [definition nobr todo]
-
-:: presence [definition nobr todo]
-
-:: diegetic [definition nobr]
-<p>The term “diegetic” comes from the Greek διήγησις (diegesis), meaning literally “narration;” the noun, in English, has come to refer to narration or recitation. Diegetic music, then, is music that occurs as a part of the narrative.  A film’s characters can hear diegetic music. When <i>O Brother Where Art Thou</i>’s Soggy Bottom Boys take the stage and sing “In The Jailhouse Now” and the crowd sings along, the music is diegetic; another example comes from <i>Blood Simple</i>, where Maurice hits the jukebox and elicits the Four Tops’ “Same Old Song.”</p>
-<p>Contrast with <<define "non-diegetic">> and compare to <<define "transdiegetic">>.</p>
-
-:: non-diegetic [definition nobr]
-<p>Non-diegetic sound is not a part of the narrative as experienced by the characters. The audience can hear it, but it doesn’t exist inside the world of the media.</p>
-<p>Contrast with <<define "diegetic">> and compare to <<define "transdiegetic">>.</p>
-
-:: transdiegetic [definition nobr]
-<p>I have coined the term "transdiegetic" to describe a shift, in media, from <<define "diegetic">> to <<define "non-diegetic">> sound, or vice versa. The change is usually quick and seamless, which may account for why it’s so much easier to catch on second, third, fourth viewings.</p>
-<p>The Coen Brothers are directors who use this technique often. For example, when <i>Miller’s Crossing</i>’s Leo is in bed listening to his phonograph blaring “Danny Boy,” the music is diegetic and indeed impacts the narrative – were it not for the volume of the music, he would hear his bodyguard get pumped full of lead downstairs. The song remains audible after Leo has jumped out the window to chase his would-be assassins, even though the phonograph has presumably burnt up from the house fire. It even swells when he fires his machine gun at the mooks’ getaway car. “Danny Boy” thus undergoes a transdiegetic shift. It begins as diegetic music but becomes nondiegetic as the scene progresses. Another more subtle example occurs in <i>Raising Arizona</i>: the theme of the lullaby that Holly sings to Little Nathan recurs in the Biker of the Apocalypse’s non-diegetic theme.</p>
-<p>Transdiegesis as a formal technique can subvert the traditionally voyeuristic role that a piece of media's reader/viewer/player has in relation to the characters; as an auditory analogue to the shot/reverse shot technique, transdiegetic moments often jar the player from one structure of identification into another.</p>
-
-:: mirror [definition nobr]
-<div style="text-align: center;">
-    <video id="cameraVideo" width="640" height="480" autoplay></video>
-    <br>
-    <button id="startCameraButton">Go To The Mirror</button>
-</div>
-
-<<script>>
-    // Start the camera function is now called on button click
-    // Ensure the function is called after the DOM is fully loaded
-    window.addEventListener('load', function() {
-        const startCameraButton = document.getElementById('startCameraButton');
-        if (startCameraButton) {
-            startCameraButton.addEventListener('click', startCamera);
-        }
-    });
-<</script>>

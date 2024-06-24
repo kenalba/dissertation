@@ -8,41 +8,38 @@ Here's where we start!
 :: Title Page
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba
-Last updated June 16, 2024
+Last updated June 23, 2024
 
 If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.
 
-:: Guide {"position":"2269,363","size":"100,100"}
-If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.
+:: Guide [nobr]
+<p>If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, review this guide, jump to the glossary, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.</p>
 
-The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking..
+<p>The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking.</p>
 
-Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. 
+<p>Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. </p>
 
-The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.
+<p>The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.</p>
 
-Finally, note that this is, at present, a work in progress. Some links aren't filled out yet, and some of the code might not work. If you have any comments or questions, feel free to send me an email at kenalba@bu.edu.
+<p>If you're wondering why this dissertation is in Twine in the first place, you can jump right to the final case study in this document, which is a [[preposterous postmortem->Preposterous Postmortem 1]] of the format of this dissertation.</p>
 
 Thanks, and enjoy!
 -Ken
-[[Table of Contents]]
 
+:: Table of Contents [nobr]
 
-:: Table of Contents {"position":"3239,838","size":"100,100"}
-[[Introduction->Introduction 1]]
+[[Introduction->Introduction 1]]<br>
+<hr class="solid">
+[[Section 1: GESTURE]]<br>
 
-[[Section 1: GESTURE]]
+[[Section 2: MEMORY]]<br>
 
-[[Section 2: MEMORY]]
-
-[[Section 3: PRACTICE]]
-
-[[Conclusion]]
-
-[[Annotated Bibliography]]
-
-[[Glossary]]
-
+[[Section 3: PRACTICE]]<br>
+<hr class="solid">
+[[Conclusion]]<br>
+<hr class="solid">
+[[Glossary]]<br>
+[[Bibliography]]<br>
 :: Scroll Mode [nobr]
 
 <<set $scroll_position to 500>>
@@ -78,16 +75,7 @@ Thanks, and enjoy!
 <<scroll_case_study "tar">>
 
 :: Section 1: GESTURE [nobr]
-
-<<click "Toggle Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
-<div id="introduction" class="hidden">
-  <p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
-  <p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
-  <p>The second, "I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i>, explores how the multimedial, <<define "heterogeneric">> structure of Chris Onstad's webcoming <i>Achewood</i> takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online.</p>
-  <p>The third and final case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between August Wilson's fictionalized blueswoman Ma Rainey and the recording technologies that exploitative white men use to capture and sell her voice - and how the actual Ma Rainey's stage and gender performance undermines this black-body-white-technological binary.</p>
-  <p>The goal of this section is to articulate and demonstrate a theory of gesture that works within the framework of <<define "informativity" "information and selfhood ">>. Each case study aims to show how the specificity of the medium and the technologies of that medium - the stages, URLs, and records - condition the possible selves that can be acted into being, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
-  <<click "Hide Introduction">><<toggleclass "#introduction" "hidden">><</click>><br>
-</div>
+[[Introduction->Section 1 Introduction]]
 <hr class="solid">
 🫖 [[Case Study: BLUE KETTLE]] 🫖 <br>
 
@@ -95,19 +83,19 @@ Thanks, and enjoy!
 
 🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <br>
 <hr class="solid">
-<<click "Toggle Conclusion">><<toggleclass "#conclusion" "hidden">><</click>><br>
-<div id="conclusion" class="hidden">
-  <p>Conclusion goes here.</p>
-  <<click "Hide Conclusion">><<toggleclass "#conclusion" "hidden">><</click>><br>
-</div>
+[[Conclusions->Section 1 Conclusions]]
+<<silently>><<set _next_passage to "Section 1 Introduction">><</silently>>
 
 :: Section 2: MEMORY [nobr]
 
+<p>Introduction to Section 2 goes here.</p>
+<hr class="solid">
 🪞 [[Case Study: HER STORY]] 🪞<br>
 
 ➿ [[Case Study: KRAPP'S LAST TAPE]] ➿ <br>
 
 🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 <br>
+<hr class="solid">
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
@@ -181,6 +169,18 @@ Take, for example, the satire website Clickhole’s ‘blog post’ "The Time I 
 
 :: Conclusion {"position":"2896,468","size":"100,100"}
 No conclusions just yet, but I'll arrive at some in time, I'm sure.
+
+
+:: Section 1 Introduction [nobr]
+<p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
+<p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
+<p>The second, "I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i>, explores how the multimedial, <<define "heterogeneric">> structure of Chris Onstad's webcoming <i>Achewood</i> takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online.</p>
+<p>The third and final case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between August Wilson's fictionalized blueswoman Ma Rainey and the recording technologies that exploitative white men use to capture and sell her voice - and how the actual Ma Rainey's stage and gender performance undermines this black-body-white-technological binary.</p>
+<p>The goal of this section is to articulate and demonstrate a theory of gesture that works within the framework of <<define "informativity" "information and selfhood ">>. Each case study aims to show how the specificity of the medium and the technologies of that medium - the stages, URLs, and records - condition the possible selves that can be acted into being, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
+
+[[Return->Section 1: GESTURE]]
+
+<<silently>><<set _next_passage to "Case Study: BLUE KETTLE">><</silently>>
 
 :: Case Study: BLUE KETTLE [nobr]
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
@@ -577,7 +577,7 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 <p>And although her throat’s fine this time around, she stops the recording session when she realizes that she hasn’t been given a bottle of Coca-Cola. In each case, she exerts control over the recording session by insisting upon her status as an embodied human being, with bodily urges and preferences. Hence her stated preference for live performance over recordings; when Irvin protests against Ma Rainey having her stuttering nephew Sylvester perform the spoken introduction to her song, she replies to his "Ma, we don't have time" with:</p>
 <blockquote>If you wanna make a record, you gotta find time. I aint' playing with you, Irvin. I can walk out of here and go back to my tour. I got plenty fans. I don't need to go through all of this. Just go and get the boy a microphone <<cite "74" "Wilson, August. Ma Rainey's Black Bottom">>.</blockquote> 
 <p>Here Rainey directly mobilizes her body - threatening to <i>walk</i> out to her embodied tour - to take control over the microphone as a tool of the recording process.</p>
-<p>What Irvin and Sturdyvant's apparatus aims to capture, though, is some version of Ma Rainey that is outside of and separate from her body, a disembodied voice that the technological apparatus means to capture - as Rainey says, all they want is to take her "voice and trap it in them fancy boxes with all them buttons and dials" <<cite "78" "Wilson, August. Ma Rainey's Black Bottom">>. Rainey's attitude towards the technology of recording is dismissive and uninterested; she reduces the operations of the recording apparatus to gnomic "buttons and dials" while dialing in on the far more important, coercive power dynamics at play. Rainey's voice comes from her body, and her blues come from her body, and she uses that body and that voice to exert power over the recording process.</p>
+<p>What Irvin and Sturdyvant's <<define "apparatus">> aims to capture, though, is some version of Ma Rainey that is outside of and separate from her body, a disembodied voice that the technological apparatus means to capture - as Rainey says, all they want is to take her "voice and trap it in them fancy boxes with all them buttons and dials" <<cite "78" "Wilson, August. Ma Rainey's Black Bottom">>. Rainey's attitude towards the technology of recording is dismissive and uninterested; she reduces the operations of the recording apparatus to gnomic "buttons and dials" while dialing in on the far more important, coercive power dynamics at play. Rainey's voice comes from her body, and her blues come from her body, and she uses that body and that voice to exert power over the recording process.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 5">><</silently>>
 
@@ -638,7 +638,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <p>Wilson's play sketches out this opposition cleanly and consistently, but the particularity of the technologies in question, along with an examination of the historical Rainey's own live concerts, demonstrates how Rainey herself deconstructed this binary in her larger-than-life performance.</p>
 <p>Let’s first think about the particularity of the vinyl record as the medium onto which Rainey is being recorded, and through which Rainey will be disseminated. One trend we see as recording technology progresses is a moving window of <<define "nostalgia" "Nostalgia">>. The earliest example of this may be the discussion of writing in Plato’s <i>Phaedrus</i>, which Socrates worries will:</p>
 <blockquote> ...introduce forgetfulness into the soul of those who learn it: they will not practice using their memory because they will put their trust in writing, which is external and depends on signs that belong to others, instead of trying to remember from the inside.<<cite "*" "Plato. Phaedrus.">></blockquote>
-<p>Lived experience, by this account, has an aura that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
+<p>Lived experience, by this account, has an <span class="glow">aura</span> that dissipates when committed to paper via writing - we might think, here, of the rest of the band’s accusing Toledo’s of literacy getting him to the point where he has forgotten “how to laugh and have a good time. Just like the white man” <<cite "42" "Wilson, August. Ma Rainey's Black Bottom.">>.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
 
@@ -666,7 +666,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Ma Rainey 10">><</silently>>
 
 :: Ma Rainey 10 [mrbb nobr]
-<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <<define "Benjaminian aura" "Benjamin's aura">> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned as its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”<<cite "*" "Moyers, Bill, and August Wilson.">></p>
+<p>In the same interview, Wilson talks about the blues as an information communication technology itself, as a “philosophical system at work,” a “way of passing along information,” where the music provides an emotional context not unlike the <span class="glow"><<define "Benjaminian aura" "Benjamin's aura">></span> for the information that the song contains. Rather than reifying the opposition between white technology and black embodiedness, as I’ve argued that <i>Ma Rainey’s Black Bottom</i> threatens to do, Wilson here instead argues that the blues functioned as its own of discourse network whose message was that “there [is] a nobility to the lives of blacks in America.”<<cite "*" "Moyers, Bill, and August Wilson.">></p>
 <p>And those recordings make it possible for us, too, to listen to the voice of Gertrude Rainey, who died at the age of 53 in 1939. Like photography, phonography is an elegiac art; to paraphrase Susan Sontag, all phonographs are <i>memento mori</i>, and testify to time's relentless melt. <<cite "15" "Sontag, Susan. On Photography.">> Writing specifically about the recorded voice, Friedrich Kittler notes that all phonographic recordings are always already posthumous, and that when a record is played it is always "a corpse that speaks" <<cite "83" "Kittler, Friedrich. Gramophone, Film, Typewriter.">>. The record is <<define "nostalgic" "Nostalgia">> by nature, but the undead voice can speak with startling vitality.</p>
 
 <<silently>><<set _next_passage to "Ma Rainey 11">><</silently>>
@@ -684,12 +684,16 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 
 [[Return->Section 1: GESTURE]]
 
+:: Section 1 Conclusions [nobr]
+I don't want to jump to conclusions here, so I won't, but eventually I'm sure to arrive at some.
 
 :: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
 <h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
 
-<i>Note: if you haven't played </i>Her Story<i> yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a></i>.
-
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_cover_image.jpg" alt="Her Story: A Game About A Woman Talking To The">
+	<figcaption>Note: if you haven't played the game yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a>.</figcaption>
+</figure>
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
 :: Her Story 1 [hs nobr]
@@ -703,7 +707,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 :: Her Story 2 [hs nobr]
-<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface" "Interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of <<define "presence">> for the player. <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their <<define "much-ballyhooed death" "death of the author">>.</p>
+<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface" "Interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of <<define "presence">> for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their <<define "much-ballyhooed death" "death of the author">>.</p>
 
 <figure>
 	<video controls>
@@ -716,8 +720,8 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Her Story 3">><</silently>>
 
 :: Her Story 3 [hs nobr]
-<p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "nondiegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
-<p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the nondiegetic music:</p>
+<p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "non-diegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
+<p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the non-diegetic music:</p>
 <blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.</blockquote>
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_diagram_1.png" alt="A frame from one of the recorded videos in Her Story.">
@@ -736,6 +740,19 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
 :: Her Story 4 [hs nobr]
+<p><i>Her Story's</i> interface more generally situates itself as an obsolete police database, called LOGIC, that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, providing another layer of loss and <<define "noise">> beyond the CRT. Additionally, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997).</p>
+
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
+	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter / niece of the interviewees.</figcaption>
+</figure>
+
+<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with an <span class="glow"><<define "aura">></span>.</p>
+
+<<silently>><<set _next_passage to "Her Story 5">><</silently>>
+
+
+:: Her Story 5 [hs nobr]
 <p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player's <<define "avatar" "Avatar">> becomes visible when rendered invisible by the anti-glare feature.</p>
 
 <figure>
@@ -746,12 +763,25 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	<figcaption>Toggling the "anti-glare" filter disables the nostalgic trappings of the CRT monitor and calls attention to the situatedness of the player's avatar.</figcaption>
 </figure>
 
-<<silently>><<set _next_passage to "Her Story 5">><</silently>>
+<<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
+:: Her Story 6 [hs nobr]
+<p>If the user never discovers the anti-glare feature, then they become aware of their avatar's reflection at specific moments of discovery within the game. Occasional light effects in the play-world of Susan make her reflection more visible. Although the precise logic governing these light effects is difficult to pinpoint, numerous players have reported that it occurs when a particular pivotal discovery is made: for example, that Viva Siefert is playing not one but two women, or that these two women are identical twins.</p>
 
-:: Her Story 5 [hs nobr]
-<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections: the central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, and so on.</p>
-<p>It comments, too, on the nested structure of the game, where the player is encouraged – by the interface! - to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah, the daughter of the interviewee, as it is eventually revealed – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.</p>
+<figure>
+	<video controls>
+	<source src="assets/videos/hs_twin_siren.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>After the pivotal discovery that Hannah and Eve are twins, an offscreen siren makes the player's avatar's reflection more visible.</figcaption>
+</figure>
+
+<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections. The central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, the interviewee's names are both palindromic (Hannah and Eve), and the murder weapon is ultimately a shard of a mirror. The player sees Susan's face as a reflection of their own, positioned on the screen in such a way that her face mirrors the player's own; one needn't (and probably shouldn't) jump to Lacan to explore how this creates a robust <<define "apparatus">> for identification.</p>
+
+<<silently>><<set _next_passage to "Her Story 7">><</silently>>
+
+:: Her Story 7 [hs nobr]
+<p>The moment of recognition is emphasized by the nested structure of the game, where the player is encouraged by the interface to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.</p>
 
 <figure>
 	<video controls>
@@ -761,81 +791,96 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	<figcaption>The first clip that surfaces when the player searches for "sex" is an admonition: "Really? You're going to ask me about my sex life? Isn't that private?"</figcaption>
 </figure>
 
-<<silently>><<set _next_passage to "Her Story 6">><</silently>>
+<p>The player receives a similar admonition when they search for the keyword "twin", though that one is more misleading than sincere; the "twin" hypothesis seems the most plausible, according to my reading, in a way that sidesteps some familiar problems with multiple personality disorders in narrative.</p>
 
-:: Her Story 6 [hs]
-<p>The interface more generally situates itself as an obsolete police database, called [[L.O.G.I.C.]]. that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997).</p>
-
-<figure>
-	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
-	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter of the interviewee.</figcaption>
-</figure>
-
-<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with something akin to [[Benjamin’s aura]], which I’ve always thought of as the marks Entropy leaves on objects that persist in space and time with kind of particularity that is often – indeed, by Benjamin himself -  denied to technologically reproduced objects.</p>
-
-<<silently>><<set _next_passage to "Her Story 7">><</silently>>
-
-:: Her Story 7 [hs] 
-That absent transcript, is in many players’ experience (including mine, and that of several reviewers of the game) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate; investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:</p> "
-<blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.</blockquote>
-<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">>, to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld.</p>
+<p>These moments recall some of the best parts of other games, where the player is abruptly thrown from the distant position of player-controlling-an-avatar into a character within the game world; for example, in the horror-cum-dating-sim <i><<define "Doki Doki Literature Club">></i>, when the antagonist Monika shifts from addressing the user as the name they provided at the start of the game and, by digging through files on the player's computer, refers to them instead by their real name. Interface establishes relationships between subjects and objects, and games are uniquely suited to have moments that operate transdiegetically, that grab the player by their shirt and pull them through the screen.</p>
 
 <<silently>><<set _next_passage to "Her Story 8">><</silently>>
 
-
-:: Her Story 8 [hs] {"position":"1741,2473","size":"100,100"}
-This system can be provocatively described, I think, as what N. Katherine Hayles calls a "[[cognitive assemblage]]" – "tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings." The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper making porous the boundary between self and screen – gives rise to a different kind of "reading" subject.
+:: Her Story 8 [hs nobr] 
+<p>The game's absent transcript pushes that transdiegetic identification in part because it is in many players’ experience (including my own) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate, and investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:</p>
+<blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.<<cite "*" "Smith, Adam. Wot I Think: Her Story.">></blockquote>
+<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">> to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld.</p>
 
 <<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
 
-:: Her Story 9 [hs] {"position":"1748,2603","size":"100,100"}
-It makes sense, then, that <i>Polygon</i>’s Colin Campbell wrote, in an [[article->Colin Campbell's Polygon Review]] proclaiming <i>Her Story</i> the best video game of 2015, that "I don’t think you will ‘read’ a better mystery novel this year." This is a provocative statement; although other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes, I hold that it fits most comfortably within the <<define "genre">> of detective fiction.
-
-Charles Rzepka, a critic of the genre whose <i>[[Detective Fiction]]</i> takes a narratological and historicist approach, defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as "the presentation of the mystery as an ongoing problem for the reader to solve" and foregrounds "its powers to engage the reader’s own reasoning abilities." Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection." 
+:: Her Story 9 [hs nobr]
+<p>This system can be provocatively described, I think, as what N. Katherine Hayles calls a <<define "cognitive assemblage">>:</p>
+<blockquote>tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.<<cite "10" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">></blockquote> 
+<p>The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper, along with its funhouse of nested reflections, making porous the boundary between self and screen – gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms; for someone like Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
 
 <<silently>><<set _next_passage to "Her Story 10">><</silently>>
 
-:: Her Story 10 [hs] {"position":"1745,2728","size":"100,100"}
-But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player – we learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette the player occupies, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."
+:: Her Story 10 [hs nobr]
+<p>This subject, stretched between paper, screen, and keyboard, uniquely arises because of the game's <<define "multimedial">> and <<define "heterogeneric">> structure, which many of the game's contemporary reviewers commented on. The Washington Post's Michael Thomsen called <i>Her Story</i> a "beautiful amalgam of the cinema and video game formats [that] wouldn't work as a linear film" <<cite "*" "Thomsen, Micahel. 'Her Story' Review'">>, or that <i>Polygon</i>’s Colin Campbell proclaimed <i>Her Story</i> the best video game of 2015 by saying "I don’t think you will ‘read’ a better mystery novel this year" <<cite "*" "Kollar, Philip. Polygon's 2015 Games of the Year #1: Her Story">>.
+
+<p>This last is a provocative statement. Other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes. Short writes:</p>
+
+<blockquote>it's a Gothic story, fundamentally, the bones of Radcliffe and Bronte still visible under the wrappings of more modern genres. The duality of persons, the midwife, the poison, the significant pictures that are usually kept covered up; the obsession with mirrors and fairy-tales, doppelgangers and disguises, the forbidden places within the home, the family secrets preserved by servants, the false parentage. <<cite "*" "Short, Emily. Her Story, Further Reflections">></blockquote>
+
+<p>While I do not disagree with Short's assessment, I'd like to shift our focus to a <<define "genre">> which is a neighbor of the Gothic: detective fiction.</p>
 
 <<silently>><<set _next_passage to "Her Story 11">><</silently>>
 
+:: Her Story 11 [hs nobr]
+<p>Charles Rzepka defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as:</p>
 
-:: Her Story 11 [hs] {"position":"1747,2878","size":"100,100"}
-It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>.
+<blockquote>the presentation of the mystery as an ongoing problem for the reader to solve, and its powers to engage the reader’s own reasoning abilities.<<cite "10" "Rzepka, Charles. Detective Fiction.">></blockquote> 
+
+<p>Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection" as distinguished from a mystery story, which may lack the puzzle element.</p>
+
+<p>But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."</p>
 
 <<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
 
-:: Her Story 12 [hs] {"position":"1747,3028","size":"100,100"}
+:: Her Story 12 [hs nobr]
+<p>It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>.</p>
+
+<<silently>><<set _next_passage to "Her Story 13">><</silently>>
+
+
+:: Her Story 13 [hs nobr] {"position":"1747,3028","size":"100,100"}
 <i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
 
 [[Return->Section 2: MEMORY]]
 
 :: Case Study: KRAPP'S LAST TAPE {"position":"2540,1175","size":"100,100"}
+<h1>The Extended Mind, Looking Back: <i>Krapp's Last Tape</i></h1>
 
 <<silently>><<set _next_passage to "Krapp 1">><</silently>>
 
 :: Krapp 1 [klt nobr]
-<p>Krapp’s Last Tape stands out among Samuel Beckett’s drama for its sentimentality; in a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel media technology to present and undermine a nostalgic vision of a brighter past.</p>
+<p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality; in a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel media technology to present and undermine a nostalgic vision of a brighter past.</p>
 
-<img src="assets/imgs/klt-john-hurt.jpg" alt="John Hurt as Krapp, next to his tape recorder.">
+<figure>
+	<video controls>
+	<source src="assets/videos/klt_reel.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder<<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the Paris productions he directed in 1960 and 1970 <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">></figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Krapp 2">><</silently>>
 
 :: Krapp 2 [klt nobr]
-<p>This ‘looking back’ looks like Krapp, surrounded by darkness, playing tapes of the person he once was and failing to construct a stable self that bridges the years between the old man listening and the young fools recording. Krapp’s situation was atypical for his historical moment but is quotidian in the  <<define "information age" "Information Age">>. Lived experience is recorded with or without our consent by a variety of technological apparatuses. That mediated experience becomes inseparable from ourselves as the content and ads that various platforms feed us, the database through which we remember ourselves, and the social gestures by which we perform ourselves into being online. Krapp’s treatment of <<define "nostalgia" "Nostalgia">> alongside media technology is not incidental: the technologisation of human experience often yields precisely the sentimental nostalgia that Krapp both engages in and problematises.</p>
+<p>This ‘looking back’ looks like Krapp, surrounded by darkness, playing tapes of the person he once was and failing to construct a stable self that bridges the years between the old man listening and the young fools recording. Krapp’s situation was atypical for his historical moment but is quotidian in the  <<define "information age" "Information Age">>. Lived experience is recorded with or without our consent by a variety of technological apparatuses. That mediated experience becomes inseparable from ourselves as the content and ads that various platforms feed us, the <<define "database" "Database">> through which we remember ourselves, and the <<define "social gestures" "information and selfhood">> by which we perform ourselves into being online. Krapp’s treatment of <<define "nostalgia" "Nostalgia">> alongside media technology is not incidental: the technologisation of human experience often yields precisely the sentimental nostalgia that Krapp both engages in and problematizes.</p>
 
 <<silently>><<set _next_passage to "Krapp 3">><</silently>>
 
 :: Krapp 3 [klt nobr]
-<p>This chapter considers how Krapp’s relationships with the various cognitive apparatuses he surrounds himself with prefigures what subjectivity looks like in the information age. The subjectivity that arises out of the complex interactions between the listener and their <<define "prosthetic" "Prosthetic">> memory can be characterised as what Olga Beloborodova has called ‘postcognitivist’: a way of moving beyond the Cartesian framework to instead consider how Beckett’s fictional minds are more often than not ‘grounded in the interaction with their fictional storyworlds’ <<cite "1" "Beloborodova, Olga. Postcognitivist Beckett">>. Considering Krapp’s relationship with his tapes from a postcognitivist perspective suggests how the construction of an abiding subject in the information age simultaneously depends upon and is imperilled by the particular technologies that project the voice into the dark. With that in mind, the second half of this article explores how some users of the contemporary counterparts to Krapp’s tapes – online platforms like <<define "YouTube">>, <<define "Reddit">>, and <<define "4chan">> – weaponise the mediated nostalgia that infects Krapp’s relationship with his own past to construct a nationalist political identity built on the manufacture of collective counterfactual memory. .</p>
+<p>Krapp’s relationships with the various cognitive <<define "apparatuses" "apparatus">> he surrounds himself with prefigures what subjectivity looks like in the information age. The subjectivity that arises out of the complex interactions between the listener and their <<define "prosthetic" "Prosthetic">> memory can be characterised as what Olga Beloborodova has called ‘postcognitivist’: a way of moving beyond the Cartesian framework to instead consider how Beckett’s fictional minds are more often than not ‘grounded in the interaction with their fictional storyworlds’ <<cite "1" "Beloborodova, Olga. Postcognitivist Beckett">>. Considering Krapp’s relationship with his tapes from a postcognitivist perspective suggests how the construction of an abiding subject in the information age simultaneously depends upon and is imperilled by the particular technologies that project the voice into the dark.</p>
 
 <<silently>><<set _next_passage to "Krapp 4">><</silently>>
 
 :: Krapp 4 [klt nobr]
-<p>In 1975, Beckett told <<cycler "Pierre Chabert" "Pierre Chabert, who performed the role of Krapp in the Paris production of that year">>that Krapp should "become as much as possible one with the machine"<<cite "105" "Chabert, Pierre. ‘Samuel Beckett as Director’, in James Knowlson (ed.), Samuel Beckett: Krapp’s Last Tape Theatre Workbook">>. This direction turns Krapp into a kind of <<define "cyborg">> - characterised, by Donna Haraway among others, in large part by the breakdown of the boundary between the biological and the mechanical and between the material and the immaterial <<cite "11" "12" "Haraway, Donna. ‘A Cyborg Manifesto’.">>. Crucially, these borders do not break down neatly in Krapp; instead, the mechanical is personified and the biological becomes mechanized. Krapp’s particular postmodern subjectivity is complicated by biological and technological contingency in a way that demands a more specific paradigm than the cyborg. As N. Katherine Hayle argues, the audiotape in Krapp functions "not only as a theme, a metaphor, or a vehicle for expression but as a mode of relation that produce[s] a certain kind of postmodern subjectivity" <<cite "75" "Hayles, N. Katherine. How We Became Posthuman.">> - one that goes beyond Haraway’s leaky boundaries into something that is simultaneously more radical and more ubiquitous in the information age.</p>
+<p>In 1975, Beckett told <<cycler "Pierre Chabert" "Pierre Chabert, who performed the role of Krapp in the Paris production of that year">>that Krapp should "become as much as possible one with the machine"<<cite "105" "Chabert, Pierre. ‘Samuel Beckett as Director’, in James Knowlson (ed.), Samuel Beckett: Krapp’s Last Tape Theatre Workbook">>. This direction turns Krapp into a kind of <<define "cyborg" "Cyborg">> - characterised, by Donna Haraway among others, in large part by the breakdown of the boundary between the biological and the mechanical and between the material and the immaterial <<cite "11" "12" "Haraway, Donna. ‘A Cyborg Manifesto’.">>. Crucially, these borders do not break down neatly in Krapp; instead, the mechanical is personified and the biological becomes mechanized. Krapp’s particular postmodern subjectivity is complicated by biological and technological contingency in a way that demands a more specific paradigm than the cyborg. As N. Katherine Hayle argues, the audiotape in Krapp functions "not only as a theme, a metaphor, or a vehicle for expression but as a mode of relation that produce[s] a certain kind of postmodern subjectivity" <<cite "75" "Hayles, N. Katherine. How We Became Posthuman.">> - one that goes beyond Haraway’s leaky boundaries into something that is simultaneously more radical and more ubiquitous in the information age.</p>
+
+<figure>
+	<img src="assets/imgs/klt-john-hurt.jpg" alt="John Hurt as Krapp, next to his tape recorder.">
+	<figcaption>John Hurt as Krapp in the version of the play produced as a part of the 2001 <i>Beckett on Film</i> project.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Krapp 5">><</silently>>
 
@@ -852,17 +897,18 @@ It is possible, then, to identify (as Emily Short does, in her longer meditation
 <<silently>><<set _next_passage to "Krapp 7">><</silently>>
 
 :: Krapp 7 [klt nobr]
-<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett "seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with multiple drafts and writing as a form of thinking" (2012, 283-284). This paradigm allows van Hulle to productively interrogate dichotomies like light/darkness and mind/body that have guided critical inquiry into the play for decades.</p>
+<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett "seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with multiple drafts and writing as a form of thinking" <<cite "283" "284" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>. This paradigm allows van Hulle to productively interrogate dichotomies like light/darkness and mind/body that have guided critical inquiry into the play for decades.</p>
 
 <<silently>><<set _next_passage to "Krapp 8">><</silently>>
 
 :: Krapp 8 [klt nobr]
-<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question (2018, 240). Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "multiple drafts" "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition" "Cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
+<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>. Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "multiple drafts" "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition" "Cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 9">><</silently>>
 
 :: Krapp 9 [klt nobr]
-<p>Krapp exemplifies the centrality of interface in the production of this postcognitivist subjectivity; by slowing down the rate of information flow and embodying each element of the cognitive apparatus, the play productively stages the relationships that exist between ourselves and the platforms on which we store our memories and, in many ways, live our lives. This staging illuminates some of the potential problems that accompany this prostheticization of cognition. Memory-as-information becomes the key term in this form of reckoning, replacing Haraway’s cyborg with what Luciano Floridi calls an "<<define "inforg" "Inforg">>": a way of thinking about subjects that highlights the "intrinsically informational nature of human agents" (2010, 36).</p>
+<p>Krapp exemplifies the centrality of interface in the production of this postcognitivist subjectivity; by slowing down the rate of information flow and embodying each element of the cognitive apparatus, the play productively stages the relationships that exist between ourselves and the platforms on which we store our memories and, in many ways, live our lives. This staging illuminates some of the potential problems that accompany this prostheticization of cognition.</p>
+<p>Memory-as-information becomes the key term in this form of reckoning, replacing Haraway’s cyborg with what Luciano Floridi calls an "<<define "inforg" "Inforg">>": a way of thinking about subjects that highlights the "intrinsically informational nature of human agents" <<cite "36" "Floridi, Luciano. Information: A Very Short Introduction.">>.</p>
 
 <<silently>><<set _next_passage to "Krapp 10">><</silently>>
 
@@ -1043,21 +1089,16 @@ This radical traditionalism would be all too familiar to a playwright whose time
 Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal (2020, 1). Where Malone, however, states that he is "not much given to nostalgia" (MD 10), Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past. Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to "define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future" (2002, 55). This is partly a function of the topic of the play - it is no surprise that Krapp’s Last Tape spends most of its time on Krapp’s tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.
 
 
-:: Section 3: PRACTICE {"position":"4344,868","size":"100,100"}
-This section will shift focus to several texts that I’ve chosen to adapt - [[Samuel Beckett]]’s <i>[[Quad->EndlessGame 1]]</i> and <i>[[Not I]]</i>, along with [[Caryl Churchill]]’s <i>[[Love and Information]]</i>. I will articulate what makes them amenable to digital remediation, and discuss the gains and losses of the remediations I have performed. 
+:: Section 3: PRACTICE [nobr]
+<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
+<p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
 
-[[Practice-Based Research Introduction / Overview / Methodology]]
-
-♾️ [[Case Study: ENDLESSGAME]] ♾️
-
-❤️ [[Case Study: LOVE AND INFORMATION]] ℹ️ - (being written)
-
-[[Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW]] - (being written)
-
-:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
-The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
-
-<<silently>><<set _next_passage to "PBR 1">><</silently>>
+[[Practice-Based Research Introduction / Overview / Methodology]]<br>
+<hr class="solid">
+♾️ [[Case Study: ENDLESSGAME]] ♾️<br>
+🐦‍⬛ [[Case Study: 36 BLACKBIRDS]] 🐦‍⬛<br>
+🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
+<hr class="solid">
 
 
 :: Case Study: ENDLESSGAME {"position":"3845,1066","size":"100,100"}
@@ -1387,6 +1428,11 @@ In other words, that which happens, happens again, and will continue to happen i
 
 [[Return->EndlessGame 2]]
 
+:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
+The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
+
+<<silently>><<set _next_passage to "PBR 1">><</silently>>
+
 :: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
 Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
 
@@ -1465,3 +1511,88 @@ A conclusion will go here.
 
 :: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
 <a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
+
+:: Case Study: THIS DISSERTATION
+<h1>This Dissertation: A Preposterous Postmortem</h1>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 1">><</silently>>
+
+:: Preposterous Postmortem 1 [pp nobr]
+<p>I'm not sure, if I had to do it again, that I'd try writing my dissertation in Twine. I'm glad I have; the artifact I created as a result is different in kind from other dissertations, which is interesting, and the technical work I had to do to create it certainly helped me in my career, first at the MIT Digital Humanities Lab and second in my professional life as a product manager at a company that builds, among other things, nonlinear learning experiences.</p>
+<p>However, some of the features that made Twine appealing to me initially — the nonlinear structure, the robust support for digressions — exacerbated issues I have as a scholar. The codex and the book can digress, but its structure does not lend itself to distraction in quite the same way.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 2">><</silently>>
+
+:: Preposterous Postmortem 2 [pp nobr]
+<p>The definitions and [[Glossary]] stand as the most obvious example of this. To make them worth clicking, they needed to contain both descriptive information and argumentative material that relates to the document's thesis. This meant, however, spending a lot of time writing a lot of material that a more casual reader might not read. It also raised some of the same kinds of sequencing issues that an endnote- or footnote-heavy document might have; if the information is crucial to the argument, then it really ought to be in the body of the document, and if it's not crucial, then it may not need to be there at all.</p>
+<p>This, coupled with the document's general nonlinear structure, meant that I had less control over what the user had read at any given point in their reading. This had a negative impact, I think, on the conclusions of each case study; because so much argumentation and theoretical work was done off the main path, the conclusions were sometimes anticlimactic.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 3">><</silently>>
+
+:: Preposterous Postmortem 3 [pp nobr]
+<p>On the other hand, as I progressed in the document past the first chapter, I found the upside: because I'd already defined Benjamin's <span class="glow"><<define "aura" "Benjamin's aura">></span> in the case study on [[Ma Rainey's Black Bottom->Case Study: MA RAINEY'S BLACK BOTTOM]], I didn't need to define it again when discussing [[Her Story->Case Study: HER STORY]] — and the fact that the definition was active in both sections did some of the work of connecting the disparate case studies that make up the three primary sections of the document.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 4">><</silently>>
+
+:: Preposterous Postmortem 4 [pp nobr]
+<p>Because this document is concerned with the specificity of particular media — what possibilities a platform opens up, and which possibilities are closed — it was important to me to take particular advantage of the possibilities afforded by Twine. For the interactivity to be meaningful, it had to fulfill certain requirements:</p>
+<ol>
+	<li>It had to engage the reader of the document in a way that would be difficult to achieve in a traditional book or codex;</li>
+	<li>The mode of interactivity had to be connected to the object of study and to my argument in the case study;</li>
+	<li>Some third requirement.</li>
+</ol>
+<p>You can rate how well each section's interactivity met each of these three goals on the forthcoming pages, which lays out how each case study is interactive, along with a reflection on its success or failure.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 5">><</silently>>
+
+:: Preposterous Postmortem 5 [pp nobr]
+<p>For <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>, I wrote a custom macro to support the blockquotes from the text where <<blue "yes, like that">> and <<kettle "right, exactly, it toggles">> appear, allowing the user to toggle between the text and my best guess at the words replaced by the virus. This gives the case study a <<define "puzzle element">> — or, at least, foregrounds the <<define "puzzle element">> that's already <<blue "there">> in the play, and about which the <<kettle "case">> study is focused. The <<blue "reader">> can play along, testing how well their <<kettle "decoding">> of the <<blue "text">> matches my own. A more <<blue "advanced">> version of this <<kettle "feature">> might use an alert pop-up to let the <<blue "reader">> <<kettle "type">> in their best <<blue "guess">>, and <<kettle "keep">> a <<blue "persistent">> <<kettle "score">>.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 6">><</silently>>
+
+:: Preposterous Postmortem 6 [pp nobr]
+<p>For <i>[[Achewood->Case Study: ACHEWOOD]]</i>, the embedded images and links were intended to mirror the web of sources that, together, make up the multimedia masculinity of its characters. By embedding the cookbooks, blogs, comic pages, and chatbots directly into the document, I intended to provide my reader with something like the experience of apprehending a character through so many different channels, within so many different genres. This was only so successful, and only took so much advantage of Twine itself. I think this is the weakest case study in the dissertation.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 7">><</silently>>
+
+:: Preposterous Postmortem 7 [pp nobr]
+<p>For <i>[[Ma Rainey's Black Bottom->Case Study: MA RAINEY'S BLACK BOTTOM]]</i>, the goal was to embed as much music as possible and useful into the experience. Because the play is so concerned with the recorded voice, there is both value and interest in providing a direct portal to Ma Rainey's actual voice. There's something provocative about using the voice of a dead woman whose recordings no longer belong to anyone when the case study's argument is about that ownership. Additionally, it dovetailed nicely into the introduction of my discussion about <i>36 Blackbirds</i> and <<define "technonecromancy">> more generally. With more time, I would have embedded the audio directly into the pages rather than requiring the user to pause their experience to listen.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 8">><</silently>>
+
+:: Preposterous Postmortem 8 [pp nobr]
+<p>For <i>Her Story</i>, I embedded clips from the actual game, along with audio, in an attempt to let people who hadn't played the game experience some version of what they were missing. Because the game is made up of fractured interviews, experienced nonlinearly through short video clips, I thought there was a neat parallel to be made by embedding linear, contained clips into the experience. A more talented programmer than me would have attempted to mimic the database quality of <i>Her Story</i> in the structure of the case study itself, but that was beyond my abilities. Still, the sound and visuals afforded by the embedded clips allows the reader to have a richer understanding of the game — and, hopefully, of my argument.</p>
+
+<p>I was also able to include a pair of 'definitions' here that worked to make the reader experience something like the transdiegetic identification that the case study explores. The definition for <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span> isn't a definition at all; it's a jump scare of Mouth from <i>Not I</i>, meant to shock the reader and, by elevating their heart rate, pull them into the experience; similarly, the definition for <<define "mirror">> enables the user's camera and keeps the little green "recording" light on their laptop until they close the dissertation. Both cases are meant to make the user uncomfortable, and to bring them out of the position of a passive reading subject into something more active.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 9">><</silently>>
+
+:: Preposterous Postmortem 9 [pp nobr]
+<p>For <i>Krapp's Last Tape</i>, I </p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 10">><</silently>>
+
+:: Preposterous Postmortem 10 [pp nobr]
+<p>For the case study about the alt-right, I wanted to give the user a sense of what it is like to actually browse the sites under discussion: 4chan, Reddit, and (to a lesser extent) YouTube. Although many people are familiar with the latter two, 4chan is a relatively niche platform. Unfortunately, screenshots were difficult to acquire; every time I logged onto /b/, the main image board for 4chan, there was too much explicit racism and/or CSAM (child sexual assault material) for me to feel comfortable exposing my readers to.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 11">><</silently>>
+
+:: Preposterous Postmortem 11 [pp nobr]
+<p>For <i>EndlessGame</i>, </p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 12">><</silently>>
+
+:: Preposterous Postmortem 12 [pp nobr]
+<p>For <i>36 Blackbirds</i>, I included a page that allows the user to generate new poems in the style and format of the poems included in the book. Those generated poems can be submitted and, once reviewed, are viewable in a gallery that updates as often as I can update it.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 13">><</silently>>
+
+:: Preposterous Postmortem 13 [pp nobr]
+<p>Talk about the guessing game for the definitions.</p>
+
+<<silently>><<set _next_passage to "Preposterous Postmortem 14">><</silently>>
+
+:: Preposterous Postmortem 14 [pp nobr]
+<p>Summarize and conclude.</p>
+
+[[Return ->Section 3: PRACTICE]]
