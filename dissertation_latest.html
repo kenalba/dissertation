@@ -827,7 +827,7 @@ button:hover {
 
 function startCamera() {
     const videoElement = document.getElementById('cameraVideo');
-
+    console.log("Butt!")
     if (!videoElement) {
         console.error("Video element not found.");
         alert("Video element not found.");
@@ -850,14 +850,6 @@ function startCamera() {
     }
 }
 
-// Ensure the function is called after the DOM is fully loaded
-window.addEventListener('load', function() {
-    const startCameraButton = document.getElementById('startCameraButton');
-    if (startCameraButton) {
-        startCameraButton.addEventListener('click', startCamera);
-
-    }
-});
 
 function showJumpScare() {
     // Create an overlay div
@@ -2635,19 +2627,33 @@ The ship on which Theseus sailed with the youths and returned in safety, the thi
 &lt;p&gt;Transdiegesis as a formal technique can subvert the traditionally voyeuristic role that a piece of media&#39;s reader/viewer/player has in relation to the characters; as an auditory analogue to the shot/reverse shot technique, transdiegetic moments often jar the player from one structure of identification into another.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="403" name="mirror" tags="definition nobr" position="350,5100" size="100,100">&lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;video id=&quot;cameraVideo&quot; width=&quot;640&quot; height=&quot;480&quot; autoplay&gt;&lt;/video&gt;
     &lt;br&gt;
-    &lt;button id=&quot;startCameraButton&quot;&gt;Go To The Mirror&lt;/button&gt;
+    &lt;button id=&quot;startCameraButton&quot;&gt;Mirror&lt;/button&gt;
+    &lt;figcaption&gt;What do you mean you&#39;ve been spying on me, with this thing in my hand that is an eye?&lt;&lt;cite &quot;*&quot; &quot;Lockwood, Patricia. The Communal Mind.&quot;&gt;&gt;&lt;/figcaption&gt;
 &lt;/div&gt;
 
-&lt;&lt;script&gt;&gt;
-    // Start the camera function is now called on button click
-    // Ensure the function is called after the DOM is fully loaded
-    window.addEventListener(&#39;load&#39;, function() {
-        const startCameraButton = document.getElementById(&#39;startCameraButton&#39;);
-        if (startCameraButton) {
-            startCameraButton.addEventListener(&#39;click&#39;, startCamera);
-        }
-    });
-&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="404" name="Quad script" tags="excerpt" position="3729,1766" size="100,100">&lt;h1&gt;[[Quad-&gt;Beckett, Samuel. Quad.]]&lt;/h1&gt;
+&lt;script&gt;
+document.getElementById(&#39;startCameraButton&#39;).addEventListener(&#39;click&#39;, function() {
+    const videoElement = document.getElementById(&#39;cameraVideo&#39;);
+    
+    if (!videoElement) {
+        alert(&#39;Video element not found!&#39;);
+        return;
+    }
+
+    if (navigator.mediaDevices &amp;&amp; navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                videoElement.srcObject = stream;
+                videoElement.play();
+            })
+            .catch(function(error) {
+                alert(&#39;Error accessing the camera: &#39; + error.message);
+            });
+    } else {
+        alert(&#39;Camera not supported on this device.&#39;);
+    }
+});
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="404" name="Quad script" tags="excerpt" position="3729,1766" size="100,100">&lt;h1&gt;[[Quad-&gt;Beckett, Samuel. Quad.]]&lt;/h1&gt;
 A piece for four players, light and percussion.
 
 The players (1, 2, 3, 4) pace the given area, each following his particular course.

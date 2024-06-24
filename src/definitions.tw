@@ -778,16 +778,30 @@ Greek etymology. Techne. Heidegger.
 <div style="text-align: center;">
     <video id="cameraVideo" width="640" height="480" autoplay></video>
     <br>
-    <button id="startCameraButton">Go To The Mirror</button>
+    <button id="startCameraButton">Mirror</button>
+    <figcaption>What do you mean you've been spying on me, with this thing in my hand that is an eye?<<cite "*" "Lockwood, Patricia. The Communal Mind.">></figcaption>
 </div>
 
-<<script>>
-    // Start the camera function is now called on button click
-    // Ensure the function is called after the DOM is fully loaded
-    window.addEventListener('load', function() {
-        const startCameraButton = document.getElementById('startCameraButton');
-        if (startCameraButton) {
-            startCameraButton.addEventListener('click', startCamera);
-        }
-    });
-<</script>>
+<script>
+document.getElementById('startCameraButton').addEventListener('click', function() {
+    const videoElement = document.getElementById('cameraVideo');
+    
+    if (!videoElement) {
+        alert('Video element not found!');
+        return;
+    }
+
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                videoElement.srcObject = stream;
+                videoElement.play();
+            })
+            .catch(function(error) {
+                alert('Error accessing the camera: ' + error.message);
+            });
+    } else {
+        alert('Camera not supported on this device.');
+    }
+});
+</script>

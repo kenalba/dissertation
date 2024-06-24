@@ -24,7 +24,7 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 
 function startCamera() {
     const videoElement = document.getElementById('cameraVideo');
-
+    console.log("Butt!")
     if (!videoElement) {
         console.error("Video element not found.");
         alert("Video element not found.");
@@ -47,14 +47,6 @@ function startCamera() {
     }
 }
 
-// Ensure the function is called after the DOM is fully loaded
-window.addEventListener('load', function() {
-    const startCameraButton = document.getElementById('startCameraButton');
-    if (startCameraButton) {
-        startCameraButton.addEventListener('click', startCamera);
-
-    }
-});
 
 function showJumpScare() {
     // Create an overlay div
