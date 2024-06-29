@@ -808,12 +808,12 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 :: Her Story 9 [hs nobr]
 <p>This system can be provocatively described, I think, as what N. Katherine Hayles calls a <<define "cognitive assemblage">>:</p>
 <blockquote>tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.<<cite "10" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">></blockquote> 
-<p>The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper, along with its funhouse of nested reflections, making porous the boundary between self and screen – gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms; for someone like Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
+<p>The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper, along with its funhouse of nested reflections, making porous the boundary between self and screen – gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms; for someone like Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg" "Cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
 
 <<silently>><<set _next_passage to "Her Story 10">><</silently>>
 
 :: Her Story 10 [hs nobr]
-<p>This subject, stretched between paper, screen, and keyboard, uniquely arises because of the game's <<define "multimedial">> and <<define "heterogeneric">> structure, which many of the game's contemporary reviewers commented on. The Washington Post's Michael Thomsen called <i>Her Story</i> a "beautiful amalgam of the cinema and video game formats [that] wouldn't work as a linear film" <<cite "*" "Thomsen, Micahel. 'Her Story' Review'">>, or that <i>Polygon</i>’s Colin Campbell proclaimed <i>Her Story</i> the best video game of 2015 by saying "I don’t think you will ‘read’ a better mystery novel this year" <<cite "*" "Kollar, Philip. Polygon's 2015 Games of the Year #1: Her Story">>.
+<p>This subject, stretched between paper, screen, and keyboard, uniquely arises because of the game's <<define "multimedial">> and <<define "heterogeneric">> structure, which many of the game's contemporary reviewers commented on. The Washington Post's Michael Thomsen called <i>Her Story</i> a "beautiful amalgam of the cinema and video game formats [that] wouldn't work as a linear film" <<cite "*" "Thomsen, Michael. 'Her Story' Review'">>, or that <i>Polygon</i>’s Colin Campbell proclaimed <i>Her Story</i> the best video game of 2015 by saying "I don’t think you will ‘read’ a better mystery novel this year" <<cite "*" "Kollar, Philip. Polygon's 2015 Games of the Year #1: Her Story">>.
 
 <p>This last is a provocative statement. Other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes. Short writes:</p>
 
@@ -830,21 +830,25 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection" as distinguished from a mystery story, which may lack the puzzle element.</p>
 
-<p>But the puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."</p>
+<p>Of course, <<define "game studies" "ludology">> explores how the "ludic", or playful, side of games, alongside the narrative side, can create structures of identification, but the multimedial and heterogeneric status of <i>Her Story</i> usefully illuminates that this playful side predates the game as a medium -- and that detective fiction in particular can be thought of as a sort of prototype for some of the sttructures of identification permitted by video games and interactive fiction.</p>
 
 <<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
 
 :: Her Story 12 [hs nobr]
-<p>It is possible, then, to identify (as Emily Short does, in her longer meditation on the game) with Eve and with Hannah. This identification is most interesting, however, through Sarah – identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>.</p>
+<p>The puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."</p>
+<p>It is possible, then, to identify with Eve and with Hannah. This identification is most interesting, however, through Sarah –- identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. The ludic operation of the game, and the puzzle element, makes the user assemble her story themselves, and in so doing makes it that much closer to their own story.</p>
+<p>These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>. Something about lossy media seems to lend itself to explorations of lossy relationships; we watch old home movies to see who our parents were before they were our parents, and we listen to old records to hear Ma Rainey's voice from beyond the grave.</p>
 
 <<silently>><<set _next_passage to "Her Story 13">><</silently>>
 
 
 :: Her Story 13 [hs nobr] {"position":"1747,3028","size":"100,100"}
-<i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.
+<p><i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.</p>
 
 [[Return->Section 2: MEMORY]]
+
+<<silently>><<set _next_passage to "Case Study: KRAPP'S LAST TAPE">><</silently>>
 
 :: Case Study: KRAPP'S LAST TAPE [nobr]
 <h1>Technostalgia and the Extended Mind in <i>Krapp's Last Tape</i></h1>
@@ -857,14 +861,14 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 1">><</silently>>
 
 :: Krapp 1 [klt nobr]
-<p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality. In a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel <<define "medium">> technology to present and undermine a <<define "nostalgic" "Nostalgia">> vision of a brighter past.</p>
+<p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality. In a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel <<define "media" "medium">> technology to present and undermine a <<define "nostalgic" "Nostalgia">> vision of a brighter past.</p>
 
 <figure>
 	<video controls>
 	<source src="assets/videos/klt_reel.mp4" type="video/mp4">
 	Your browser does not support the video tag.
 	</video>
-	<figcaption>A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder<<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the Paris productions he directed in 1960 and 1970 <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">></figcaption>
+	<figcaption>A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder <<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the two Paris productions he directed <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">>.</figcaption>
 </figure>
 
 <<silently>><<set _next_passage to "Krapp 2">><</silently>>
@@ -891,7 +895,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 5">><</silently>>
 
 :: Krapp 5 [klt nobr]
-<p>One mode of thinking through this postcognitivist subjectivity that arises out of Krapp’s relationship with his technological prostheses comes from the field of cognitive science. In 'The Extended Mind' (1998), Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes.<<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
+<p>One mode of thinking through this postcognitivist subjectivity that arises out of Krapp’s relationship with his technological prostheses comes from the field of cognitive science. In their 1998 paper 'The Extended Mind', Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes <<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
 <p>For Clark and Chalmers, a student doing long division by hand is not just using the pen and paper as a tool; some of the work of <<define "cognition">> is actively platformed on the page. Because the mind is the seat of cognition, it makes sense to think about that student’s mind as extending beyond his skin and onto the page. In cases like these:</p>
 <blockquote>the human organism is linked with an external entity in a two-way interaction, creating a coupled system that can be seen as a cognitive system in its own right. All the components in the system play an active causal role, and they jointly govern behaviour in the same sort of way that cognition usually does. If we remove the external component the system's behavioural competence will drop, just as it would if we removed part of its brain. Our thesis is that this sort of coupled process counts equally well as a cognitive process, whether or not it is wholly in the head.<<cite '8' '9' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>></blockquote>
 <p><i>n.b.: this paper features the best footnote I've ever read; the author line is footnoted, and the note reads "Authors are listed in order of degree of belief in the central thesis."</i></p>
@@ -899,111 +903,136 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 6">><</silently>>
 
 :: Krapp 6 [klt nobr]
-<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of <<define "cognitive loops" "Cognitive Loops">> -- not unlike N. Katherine Hayles' <<define "cognitive assembalge">>.</p>
+<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of <<define "cognitive loops" "Cognitive Loops">> -- not unlike N. Katherine Hayles' <<define "cognitive assemblage">>.</p>
 
 <p>His dependence on these linguistic, technological prostheses to live the life he does, and the degree to which the life the audience sees is focused on the creation of further tapes, denaturalises the body as the sole spatial and cognitive seat of the subject. Krapp’s ‘mind’ is distributed, in other words, and this distributed mind implies a self distributed both in space and in time.</p>
+
+<figure>
+	<img style="width:75%" src="assets/imgs/klt_mind_body.png" alt="light/dark, mind/body, krapp's last tape, cognition, in the style of paul klee, against a pure black background .">
+	<figcaption>Generated with Midjourney with the prompt "light/dark, mind/body, krapp's last tape, cognition, in the style of paul klee, against a pure black background".</figcaption>
+</figure>
+
 
 <<silently>><<set _next_passage to "Krapp 7">><</silently>>
 
 :: Krapp 7 [klt nobr]
-<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett</p>
-<blockquote>seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with multiple drafts and writing as a form of thinking" <<cite "283" "284" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>.</blockquote>
+<p>Other critics have remarked on the applicability of the extended mind hypothesis, alongside other post-Cartesian, post-cognitivist frameworks, to Beckett’s work. Indeed, Dirk van Hulle’s paradigm for his genetic treatment of Krapp’s Last Tape is cognitive philosophy, and elsewhere he writes that Beckett:</p>
+<blockquote>seems to have anticipated some of the recent developments in cognitive science, notably by means of his hands-on experience with <<define "multiple drafts" "Multiple Drafts">> and writing as a form of thinking" <<cite "283" "284" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>.</blockquote>
 <p>This paradigm allows van Hulle to productively interrogate dichotomies like light/darkness and mind/body that have guided critical inquiry into the play for decades.</p>
+
+<figure>
+	<img style="width:75%" src="assets/imgs/klt_multiple_drafts.png" alt="multiple drafts, krapp's last tape, cognition, in the style of paul klee, against a pure black background.">
+	<figcaption>Generated with Midjourney with the prompt "multiple drafts, krapp's last tape, cognition, in the style of paul klee, against a pure black background".</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "Krapp 8">><</silently>>
 
 :: Krapp 8 [klt nobr]
-<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>. Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "multiple drafts" "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition" "Cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
+<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>. Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "multiple drafts" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition" "Cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 9">><</silently>>
 
 :: Krapp 9 [klt nobr]
-<p>Krapp exemplifies the centrality of interface in the production of this postcognitivist subjectivity; by slowing down the rate of information flow and embodying each element of the cognitive apparatus, the play productively stages the relationships that exist between ourselves and the platforms on which we store our memories and, in many ways, live our lives. This staging illuminates some of the potential problems that accompany this prostheticization of cognition.</p>
-<p>Memory-as-information becomes the key term in this form of reckoning, replacing Haraway’s cyborg with what Luciano Floridi calls an "<<define "inforg" "Inforg">>": a way of thinking about subjects that highlights the "intrinsically informational nature of human agents" <<cite "36" "Floridi, Luciano. Information: A Very Short Introduction.">>.</p>
+<p>Krapp exemplifies the centrality of <<define "interface">> in the production of this postcognitivist subjectivity; by slowing down the rate of information flow and embodying each element of the cognitive apparatus, the play productively stages the relationships that exist between ourselves and the platforms on which we store our memories and, in many ways, live our lives. This staging illuminates some of the potential problems that accompany this prostheticization of cognition.</p>
+<p>Memory-as-information becomes the key term in this form of reckoning, replacing Haraway’s cyborg with what Luciano Floridi calls an <<define "inforg" "Inforg">>: a way of thinking about subjects that highlights the "intrinsically informational nature of human agents" <<cite "36" "Floridi, Luciano. Information: A Very Short Introduction.">>.</p>
 
 <<silently>><<set _next_passage to "Krapp 10">><</silently>>
 
 :: Krapp 10 [klt nobr]
-<p>One-way information flow like Krapp’s use of the dictionary to look up the word "<<define "viduity" "Viduity">>" does not necessarily, for Clark and Chalmers, constitute extended cognition, although it is a sort of cognitive <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>. Instead, the interaction must be "two-way" in order to create a "coupled system that can be seen as a cognitive system in its own right." In a coupled system, information travels back and forth, creating feedback loops wherein "all the components in the system play an active causal role, and they jointly govern behavior in the same sort of way that cognition usually does" (1998, 3).</p>
+<p>One-way information flow like Krapp’s use of the dictionary to look up the word <<define "viduity" "Viduity">> does not necessarily, for Clark and Chalmers, constitute extended cognition, although Krapp's need to look up a word that he himself used years ago represents a cognitive <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>. Instead, the interaction must be "two-way" in order to create a "coupled system that can be seen as a cognitive system in its own right." In a coupled system, information travels back and forth, creating feedback loops wherein "all the components in the system play an active causal role, and they jointly govern behavior in the same sort of way that cognition usually does" <<cite '3' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
+<p>Most of what we see of Krapp’s life seems to be governed by his relationship with his tapes in this reciprocal way. To begin with, accessing his prosthetic memories requires information from his ledger and his dictionary. At 39, he spends his birthday "with closed eyes, separating the grain from the husks" and jotting down notes on the back of an envelope - that is, deciding what moments are "worth having when all the dust has settled" <<cite "217" "Beckett, Samuel. Krapp's Last Tape.">>. On his last tape, he notes his revelry in the word "spool" as the "happiest moment of the past half million" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
 
 <<silently>><<set _next_passage to "Krapp 11">><</silently>>
 
 :: Krapp 11 [klt nobr]
-<p>Most of what we see of Krapp’s life seems to be governed by his relationship with his tapes in this reciprocal way. To begin with, accessing his prosthetic memories requires information from his ledger and his dictionary. At 39, he spends his birthday "with closed eyes, separating the grain from the husks" and jotting down notes on the back of an envelope - that is, deciding what moments are "worth having when all the dust has settled" (2006, 217). On his last tape, he notes his revelry in the word "spool" as the "happiest moment of the past half million" (2006, 222).</p>
+<p>The memories he ends up recording are about the process of choosing, recording, and accessing other memories through his tapes. His fixation with the past, mediated through his lossy technological prostheses, governs his present actions to an increasing degree; in order to live within his past, he must spend his present keeping, locating, and playing his tapes. The way in which Krapp becomes inextricably enmeshed in these <<define "feedback loops" "Feedback Loop">> exemplifies the transition from history, where information communication technologies record and transmit data, to what Floridi calls <<define "hyperhistory" "Hyperhistory">>, where interactions with those same technologies become the object that is recorded, transmitted, and processed. Krapp’s life becomes a recording-in-progress, a collection of two-way feedback loops that enmesh his body into his technological devices and consign his bodily pleasures to a nostalgic past accessible only via audiotape.</p>
 
 <<silently>><<set _next_passage to "Krapp 12">><</silently>>
 
 :: Krapp 12 [klt nobr]
-<p>The memories he ends up recording are about the process of choosing, recording, and accessing other memories through his tapes. His fixation with the past, mediated through his technological prostheses, governs his present actions to an increasing degree; in order to live within his past, he must spend his present keeping, locating, and playing his tapes. The way in which Krapp becomes inextricably enmeshed in these <<define "feedback loops" "Feedback Loop">> exemplifies the transition from history, where information communication technologies record and transmit data, to what Floridi calls <<define "hyperhistory" "Hyperhistory">>, where interactions with those same technologies become the object that is recorded, transmitted, and processed. Krapp’s life becomes a recording-in-progress, a collection of two-way feedback loops that enmesh his body into his technological devices and consign his bodily pleasures to a nostalgic past accessible only via audiotape.</p>
+<p>For Chalmers and Clark, these two-way systems of organic and inorganic material must be reliably coupled with one another. This problem of ‘reliable coupling’ – of access that is continually available, and of a relatively frictionless interface - gets at one of the central paradoxes of the life of the inforg, which in turn underlines why <i>Krapp’s Last Tape</i> functions so well as a <<define "thought experiment" "Thought Experiment">> about cognitive inforgs. We are most fully ‘inforganic’ when the interface between our bodily selves and the technologies which co-constitute us is most transparent; when our phone’s batteries are fully charged, for example, we might be said to ‘know’ our friends’ cell phone numbers because the transparency of the interface means that the information is <<define "zuhanden" "Zuhanden">>, to borrow Heideggarian terminology, or ready-to-hand. On the other "hand," when that interface breaks down – when the device instead becomes <<define "vorhanden" "Vorhanden">> - we become aware of our technological prostheses as contingent apparatuses that can be removed from us. In other words, we are most cybernetic when we are least aware of it.</p>
 
 <<silently>><<set _next_passage to "Krapp 13">><</silently>>
 
 :: Krapp 13 [klt nobr]
-<p>For Chalmers and Clark, these two-way systems of organic and inorganic material must be reliably coupled with one another. This problem of ‘reliable coupling’ – of access that is continually available, and of a relatively frictionless interface - gets at one of the central paradoxes of the life of the inforg, which in turn underlines why Krapp’s Last Tape functions so well as a <<define "thought experiment" "Thought Experiment">> about cognitive inforgs. We are most fully ‘inforg’ when the interface between our bodily selves and the technologies which co-constitute us is most transparent; when our phone’s batteries are fully charged, for example, we might be said to ‘know’ our friends’ cell phone numbers because the transparency of the interface means that the information is <<define "zuhanden" "Zuhanden">>, to borrow Heideggarian terminology, or ready-to-hand. On the other "hand," when that interface breaks down – when the device instead becomes <<define "vorhanden" "Vorhanden">> - we become aware of our technological prostheses as contingent apparatuses that can be removed from us. In other words, we are most cybernetic when we are least aware of it.</p>
+
+<p>However, Krapp’s Last Tape and Beckett’s focus more generally on the fragility of the human body calls to our attention the fact that this central paradox of the inforg is active inside the skull as well as out. Human memory, Krapp demonstrates, is not categorically more reliably accessible; the interface between what might be called the <<define "narrative self" "Narrative Self">> and access to memory is also fallible, and its failure comes with an awareness of the self as a hybrid organism of mind and body – a body which is, in the reckoning of Hayles, "the original prosthesis we all learn to manipulate" <<cite "3" "Hayles, N. Katherine. How We Became Posthuman.">>.  Although Hayles’ reference to "body" is typically taken to mean one’s hands, feet, eyes, and so on, the inforg Krapp illuminates how individual systems of the brain can come to seem prosthetic themselves. By oscillating both prosthetic and organic memory between zuhanden and vorhanden, Beckett demonstrates the disintegration of the narrative self and, critically, that the idea of an integrated pre-technological subject is just as much a nostalgic illusion as the myth of a utopian future whereby the posthuman subject is perfectly integrated with their prosthetic mind.</p>
 
 <<silently>><<set _next_passage to "Krapp 14">><</silently>>
 
 :: Krapp 14 [klt nobr]
-<p>However, Krapp’s Last Tape and Beckett’s focus more generally on the fragility of the human body calls to our attention the fact that this central paradox of the inforg is active inside the skull as well as out. Human memory, Krapp demonstrates, is not categorically more reliably accessible; the interface between what might be called the <<define "narrative self" "Narrative Self">> and access to memory is also fallible, and its failure comes with an awareness of the self as a hybrid organism of mind and body – a body which is, in the reckoning of Hayles, "the original prosthesis we all learn to manipulate" (1999, 3).  Although Hayles’ reference to "body" is typically taken to mean one’s hands, feet, eyes, and so on, the inforg Krapp illuminates how individual systems of the brain can come to seem prosthetic themselves. By oscillating both prosthetic and organic memory between zuhanden and vorhanden, Beckett demonstrates the disintegration of the narrative self and, critically, that the idea of an integrated pre-technological subject is just as much a nostalgic illusion as the myth of a utopian future whereby the posthuman subject is perfectly integrated with their prosthetic mind.</p>
+
+<p>Krapp accesses his mechanized memories through an interface that is anything but seamless. The play spends a significant amount of time on the process Krapp undergoes in order to play a tape – to move from "staring vacuously" to his "listening posture" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">>. He retrieves his ledger and searches through the pages for the entry he wants. The stage directions specify his pawing past poorly-organised boxes – four, two, nine, seven, and only then to the ‘three’ that he’s looking for. Ejaculations like "the little rascal! The little scoundrel!" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">> personify these boxes in a way that makes the parallel between their disorganization and his own internal memory’s poorly indexed structure more conspicuous. Further, they emphasise the box and the tapes as something distinctly ‘other’ from Krapp’s conception of himself; the clunkiness of the interface forces Krapp to recognize the alterity of these technological artifacts.</p>
+
+!CLIP!
 
 <<silently>><<set _next_passage to "Krapp 15">><</silently>>
 
 :: Krapp 15 [klt nobr]
-<p>Krapp accesses his mechanized memories through an interface that is anything but seamless. The play spends a significant amount of time on the process Krapp undergoes in order to play a tape – to move from "staring vacuously" to his "listening posture" (2006, 216). He retrieves his ledger and searches through the pages for the entry he wants. The stage directions specify his pawing past poorly-organised boxes – four, two, nine, seven, and only then to the ‘three’ that he’s looking for. Ejaculations like "the little rascal! The little scoundrel!" ((2006, 216) personify these boxes in a way that makes the parallel between their disorganization and his own internal memory’s poorly indexed structure more conspicuous. Further, they emphasise the box and the tapes as something distinctly ‘other’ from Krapp’s conception of himself; the clunkiness of the interface forces Krapp to recognize the alterity of these technological artifacts.</p>
+
+<p>Eventually, though, he finds the third box, takes it down, rifles through the spools until he finds the desired fifth tape, and returns to the ledger. On the stage, this operation takes a significant amount of time; Krapp’s technological apparatus is mixed up and clanks and clatters in a way that undermines the smooth feedback loop endemic to a well-functioning inforg, like the clunky search interface in <i>Her Story</i>. Like his constipated digestive system, Krapp’s input-output stream is malfunctioning. The feedback loop between Krapp-as-conscious-mind and his own memories is just as unwieldy, as becomes clear in his perusal of the ledger’s entry. The precis baffles him:</p>
+<blockquote>Mother at rest at last... hm... the black ball... the dark nurse.... slight improvement in bowel condition... hm... memorable.... what? Equinox, memorable equinox. Memorable equinox? Farewell to – love.<<cite "217" "Beckett, Samuel. Krapp's Last Tape.">></blockquote>
 
 !CLIP!
+
+<p>The stage directions during his perusal repeat "puzzled" twice, has him staring blankly, and peering closely at the page to compensate for his nearsightedness. His notes fail to spark in him the memories they’re meant to point to, like a stale madeleine. His bodily infirmity and his age isolate him from his own memories even with access to notes about them. The focus, then, on Krapp’s inability to access his own memories even with the help of written technological prostheses gestures towards his internal mind’s memory’s status as an apparatus to which his access is unreliable; if the tapes and the ledger’s status as an external adjunct to his memory turn his technology into a part of his mind, then this failure to recall, measured alongside the spool-search, technologizes his biological memory by pointing to its own contingency, and thus dis-integrates the illusion of a unified subject.</p>
+
 
 <<silently>><<set _next_passage to "Krapp 16">><</silently>>
 
 :: Krapp 16 [klt nobr]
-<p>Eventually, though, he finds the third box, takes it down, rifles through the spools until he finds the desired fifth tape, and returns to the ledger. On the stage, this operation takes a significant amount of time; Krapp’s technological apparatus is mixed up and clanks and clatters in a way that undermines the smooth feedback loop endemic to a well-functioning inforg. Like his constipated digestive system, Krapp’s input-output stream is malfunctioning. The feedback loop between Krapp-as-conscious-mind and his own memories is just as unwieldy, as becomes clear in his perusal of the ledger’s entry. The precis – "Mother at rest at last... hm... the black ball... the dark nurse.... slight improvement in bowel condition... hm... memorable.... what? Equinox, memorable equinox. Memorable equinox? Farewell to – love" – baffles him. The stage directions during his perusal repeat "puzzled" twice, has him staring blankly, and peering closely at the page to compensate for his nearsightedness. These notes fail to spark in him the memories they’re meant to point to. His bodily infirmity and his age isolate him from his own memories even with access to notes about them. The focus, then, on Krapp’s inability to access his own memories even with the help of written technological prostheses gestures towards his internal mind’s memory’s status as an apparatus to which his access is unreliable; if the tapes and the ledger’s status as an external adjunct to his memory turn his technology into a part of his mind, then this failure to recall, measured alongside the spool-search, technologises his biological memory by pointing to its own contingency, and thus dis-integrating the illusion of a unified subject.</p>
 
-!CLIP!
+<p>Even while listening to his tape, Krapp’s access is flawed. Most obviously, Krapp is, according to the play’s stage directions, "hard of hearing" <<cite "215" "Beckett, Samuel. Krapp's Last Tape.">>. Krapp’s faulty sensory apparatus increases further the opacity of the interface between himself and his externalised memories. Consider, too, the other apparatus he has recourse to: his "old dictionary." When he hears his past self talk about his mother’s "long viduity," he mouths the word with ‘no sound.’ The lack of sound stands here for the lack of meaning the word has for Krapp. He looks up the word, is puzzled by the germane definition – the "state – or condition – of being – or remaining – a widow – or widower" <<cite "219" "Beckett, Samuel. Krapp's Last Tape.">> and dwells, instead on the supplementary definition – the "vidua bird," which he repeats with the same relish he has when revelling in the word "spoooooooool." Language here becomes a bodily thing, in the mouth and tongue, dissociated from its role as symbolic edifice. </p>
+ 
+! CLIP !
+
+<p>The <<define "noise" "Noise">> associated with the bodily execution of the text becomes more important than the <<define "signal" "Signal">> of the words' meaning.  The transmission of meaning fails to take place; instead, Krapp revels in the noise. Here we have another broken link in the cognitive chain; Krapp <<define "glitches" "Glitch">> like a malfunctioning algorithm.</p>
+
 
 <<silently>><<set _next_passage to "Krapp 17">><</silently>>
 
 :: Krapp 17 [klt nobr]
-<p>Even while listening to his tape, Krapp’s access is flawed. Most obviously, Krapp is, according to the play’s stage directions, ‘hard of hearing’ (2006, 215) : Krapp’s faulty sensory apparatus increases further the opacity of the interface between himself and his externalised memories. Consider, too, the other apparatus he has recourse to: his "old dictionary." When he hears his past self talk about his mother’s "long viduity," he mouths the word with ‘no sound.’ The lack of sound stands here for the lack of meaning the word has for Krapp. He looks up the word, is puzzled by the germane definition – the "state – or condition – of being – or remaining – a widow – or widower"(2006, 219) and dwells, instead on the supplementary definition – the "vidua bird," which he repeats with the same relish he has when revelling in the word "spoooooooool." Language here becomes a bodily thing, in the mouth and tongue, dissociated from its role as symbolic edifice. The <<define "noise" "Noise">> associated with the bodily execution of the text becomes more important than the <<define "signal" "Signal">> of the words' meaning.  The transmission of meaning fails to take place; instead, Krapp revels in the noise. Here we have another broken link in the cognitive chain; Krapp <<define "glitches" "Glitch">> like a malfunctioning algorithm.</p>
+
+<p>Krapp thus presents a pessimistic picture of the too-often-utopian cyborg, and suggests that this same pessimism might be valid for humanity more broadly. If the active externalism of the extended mind holds, then those of us living in the information age are all to a greater or lesser degree inforgs - and there are signs in <i>Krapp’s Last Tape</i> that Krapp's reliance on technological prostheses has resulted in his own mechanization. His movements are modularised, like those of the figures in <a href="https://especiallygreatliterature.com/beckett/english/drama/act_without_words_2.html" target="_blank"><i>Acts Without Words II</i></a> or <i>[[Quad->CASE STUDY: EndlessGame]]</i>, and he compulsively repeats memories and even phrases. A danger, then, of outsourcing too much of one’s mind to technological devices in the external world might be that one becomes more like them, more mechanical.</p>
+
+<p>In <i>Krapp’s Last Tape</i>, Beckett presents a vision of an inforg whose malfunctioning biology puts the lie to any nostalgic yearning for a past with a unified and stable subject at its center. This holds even when the purpose of that externalization is, in Eric Levy’s words:
+<blockquote>... not to return to the past, but to define [Krapp’s] identity through the annual progression of perspectives on the past" <<cite "55" "Levy, Eric. 'Krapp's Last Tape and the Beckettian Mimesis of Regret'.">>. </blockquote>
 
 <<silently>><<set _next_passage to "Krapp 18">><</silently>>
 
 :: Krapp 18 [klt nobr]
-<p>Krapp thus presents a pessimistic picture of the too-often-utopian cyborg, and suggests that this same pessimism might be valid for humanity more broadly. If the active externalism of the extended mind holds, then those of us living in the information age are all to a greater or lesser degree inforgs - and there are signs in <i>Krapp’s Last Tape</i> that his reliance on technological prostheses has resulted in his own mechanization. His movements are modularised, like those of the figures in <i>[[Acts Without Words II]]</i> or <i>[[Quad]]</i>, and he compulsively repeats memories and even phrases. A danger, then, of outsourcing too much of one’s mind to technological devices in the external world might be that one becomes more like them, more mechanical. In <i>Krapp’s Last Tape</i>, Beckett presents a vision of an inforg whose malfunctioning biology puts the lie to any nostalgic yearning for a past with a unified and stable subject at its center. This holds even when the purpose of that externalization is, in Eric Levy’s words, "not to return to the past, but to define [Krapp’s] identity through the annual progression of perspectives on the past" (2002, 55). This vision is in tension with the memory Krapp returns to again and again: a nostalgic, sentimental moment where he, as a body, presses against another body, looks her in the eye, and says "let me in" (2006, 223).</p>
+<p>This vision is in tension with the memory Krapp returns to again and again: a nostalgic, sentimental moment where he, as a body, presses against another body, looks her in the eye, and says "let me in" <<cite "223" "Beckett, Samuel. Krapp's Last Tape.">></p>
+
+<p>! CLIP ! </p>
+
+<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions not as a "potion for memory and for wisdom" but instead "introduces forgetfulness into the soul of those who learn it" because writing "is external and depends on signs that belong to others, instead of trying to remember from the inside" <<"*" "Plato. Phaedrus.">>. The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in all cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 19">><</silently>>
 
 :: Krapp 19 [klt nobr]
-<p>DISABILITY STUDIES LESSONS ABOUT THIS. Also, integrate into the rest of the reading.</p>
+
+<p>What conclusions, then, can be drawn about the contemporary inforg from the example of Krapp? First and foremost, the division between memories inside the skull - on <<define "wetware" "Wetware">>, to borrow William Gibson’s term - and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is no more or less accessible than his external, it makes sense to think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail.</p>
+
+<p>A more transparent interface shifts the information from vorhanden to zuhanden and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <I>Krapp’s Last Tape</I> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
+
 
 <<silently>><<set _next_passage to "Krapp 20">><</silently>>
 
 :: Krapp 20 [klt nobr]
-<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s [[Phaedrus]], where the technology of writing functions not as a "potion for memory and for wisdom" but instead "introduces forgetfulness into the soul of those who learn it" because writing "is external and depends on signs that belong to others, instead of trying to remember from the inside" (551-552). The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in both cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
 
-<<silently>><<set _next_passage to "Krapp 21">><</silently>>
-
-:: Krapp 21 [klt nobr]
-<p>What conclusions, then, can be drawn about the contemporary inforg from the example of Krapp? First and foremost, the division between memories inside the skull - on <<define "wetware" "Wetware">>, to borrow William Gibson’s term - and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is no more or less accessible than his external, it makes sense to think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail.</p>
-
-<<silently>><<set _next_passage to "Krapp 22">><</silently>>
-
-:: Krapp 22 [klt nobr]
-<p>A more transparent interface shifts the information from vorhanden to zuhanden and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <I>Krapp’s Last Tape</I> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
-
-<<silently>><<set _next_passage to "Krapp 23">><</silently>>
-
-:: Krapp 23 [klt nobr]
 <p>Krapp also demonstrates a central danger of overrelying on mediated memories to preserve the integrity of the subject separate from his or her world: a nostalgic obsession with a selectively curated version of the past. His obsession with this past, and his concomitant loss of the present, is an invisible epidemic in a technological moment where interfaces converge increasingly towards transparency. These conclusions can inform a way of reading the online subject broadly speaking. An illuminating and hateful case study is [[the American online alt-right->Meatspace: THE ALT-RIGHT]].</p>
 
+<<silently>><<set _next_passage to "Meatspace: THE ALT-RIGHT">><</silently>>
 
 :: Meatspace: THE ALT-RIGHT {"position":"2790,1177","size":"100,100"}
 
-(The Alt-Right Table of Contents goes here.)
+<h1>Technostalgia and Alt-Right Nationalism in 2020s America</h1>
+
 
 <<silently>><<set _next_passage to "The Alt-Right 1">><</silently>>
 
 :: The Alt-Right 1 [tar nobr]
-<p>A 2019 The New York Times article titled the "Making of a YouTube Radical" charts how 26-year-old Caleb Cain - and, with him, a growing population of disaffected young white men - have come to rely on media technologies to construct a cohesive, nostalgic political identity. The article, which charts Cain’s fall "down the alt-right rabbit hole," describes a man who "fell asleep to YouTube videos at night, his phone propped up on a pillow." Cain listens to a series of voices from the so-called "alt-right" that weaponise rhetorical appeals to an imagined racial and nationalist past. Like for [[Krapp]] the goal is the construction of a stable self in the face of obliteration: the perceived decay of a fictional nostalgic construction of "Western civilization" of which he, as a white male in America, is the natural and disinherited heir. The "voice in the dark" is technologically mediated and grounded in sentimental nostalgia. These platforms provide an endless stream of digital content that functions as a public prosthetic memory which constitutes, in men like Cain, a nationalist political identity.</p>
+<p>A 2019 The New York Times article titled the "Making of a YouTube Radical" charts how 26-year-old Caleb Cain - and, with him, a growing population of disaffected young white men - have come to rely on media technologies to construct a cohesive, nostalgic political identity. The article, which charts Cain’s fall "down the alt-right rabbit hole," describes a man who "fell asleep to YouTube videos at night, his phone propped up on a pillow." Cain listens to a series of voices from the so-called "alt-right" that weaponise rhetorical appeals to an imagined racial and nationalist past. Like for Krapp, the goal is the construction of a stable self in the face of obliteration: the perceived decay of a fictional nostalgic construction of "Western civilization" of which he, as a white male in America, is the natural and disinherited heir. The "voice in the dark" is technologically mediated and grounded in sentimental nostalgia. These platforms provide an endless stream of digital content that functions as a public prosthetic memory which constitutes, in men like Cain, a nationalist political identity.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 2">><</silently>>
 
@@ -1116,6 +1145,105 @@ Davies has convincingly argued that "Samuel Beckett’s postwar depictions of ph
 This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
 
 <<silently>><<set _next_passage to "EndlessGame 1">><</silently>>
+
+:: Case Study: 36 BLACKBIRDS
+<p>What author do you want to generate a Blackbird Poem of? Note that it might be unethical to generate a poem in the voice of someone who is still alive.</p>
+<input type="text" id="authorName" name="authorName"> <button id="generatePoem">Generate Poem</button>
+
+<div id="loadingSpinner" style="display:none;">Loading</div>
+<div id="poemOutput"></div>
+
+<script>
+var button = document.getElementById('generatePoem');
+console.log('Button element:', button);
+
+var loadingStates = ["Loading", "Loading.", "Loading..", "Loading..."];
+var loadingIndex = 0;
+var loadingInterval;
+
+function startLoadingSpinner() {
+    loadingInterval = setInterval(() => {
+        document.getElementById('loadingSpinner').innerText = loadingStates[loadingIndex];
+        loadingIndex = (loadingIndex + 1) % loadingStates.length;
+    }, 500);
+}
+
+function stopLoadingSpinner() {
+    clearInterval(loadingInterval);
+    document.getElementById('loadingSpinner').style.display = 'none';
+}
+
+if (button) {
+    button.addEventListener('click', function() {
+        console.log('Button clicked');
+
+        var authorName = document.getElementById('authorName').value;
+        var title = "36 Blackbirds";
+        
+        var openaiApiKey = '---'; // Replace with your OpenAI API key
+
+        console.log('Sending request to OpenAI');
+
+        document.getElementById('loadingSpinner').style.display = 'block';
+        startLoadingSpinner();
+        document.getElementById('poemOutput').innerHTML = '';
+
+        fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + openaiApiKey
+            },
+            body: JSON.stringify({
+                model: 'gpt-4o',
+                messages: [
+                    {
+                        role: 'system',
+                        content: `You are a creative writing PhD who has read reams of poetry and is familiar with the style of basically every author.`
+                    },
+                    {
+                        role: 'user',
+                        content: `Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response.`
+                    }
+                ],
+                max_tokens: 500
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: ' + response.statusText);
+            }
+            console.log('Response received');
+            return response.json();
+        })
+        .then(data => {
+            console.log('Data received from OpenAI:', data);
+            stopLoadingSpinner();
+            if (!data.choices || data.choices.length === 0) {
+                throw new Error('No choices returned from OpenAI API');
+            }
+            var poem = data.choices[0].message.content.trim();
+            poem = poem.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
+            document.getElementById('poemOutput').innerHTML = `<h2>${title}</h2><h3>a poem "by" ${authorName}</h3><blockquote>${poem}</blockquote>`;
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            stopLoadingSpinner();
+            document.getElementById('poemOutput').innerHTML = "<p>Error: " + error.message + "</p>";
+        });
+    });
+} else {
+    console.log('Button element not found');
+}
+</script>
+
+
+
+
+
+
+
+
 
 
 :: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
