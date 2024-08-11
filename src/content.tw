@@ -5,12 +5,61 @@ Here's where we start!
 
 [[Table of Contents]]
 
-:: Title Page
+:: Title Page [nobr]
 <h1>Literary Informatics</h1>
-a dissertation in Twine by Ken Alba
-Last updated June 23, 2024
+a dissertation in Twine by Ken Alba<br>
+Last updated July 14, 2024<br>
 
-If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.
+<p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
+
+
+:: Video Testing [nobr]
+<
+<<set _current_video to "Magee">>
+<<button "Magee">>
+	<<if _current_video is not "Magee">>
+		<<set _current_video to "Magee">>
+		<<toggleclass "#magee_video" "hidden">>
+		<<toggleclass "#pinter_video" "hidden">>
+	<</if>>
+<</button>>
+
+<<button "Pinter">>
+	<<if _current_video is not "Pinter">>
+		<<set _current_video to "Pinter">>
+		<<toggleclass "#magee_video" "hidden">>
+		<<toggleclass "#pinter_video" "hidden">>
+	<</if>>
+<</button>>
+
+<div id="magee_video">
+	<figure>
+		<video controls>
+		<source src="assets/videos/klt_magee_farewell.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+		<figcaption>Farewell to love, by Magee..</figcaption>
+	</figure>
+</div>
+
+<div id="pinter_video" class="hidden">
+	<figure>
+		<video controls>
+		<source src="assets/videos/klt_pinter_farewell.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+		<figcaption>Farewell to love, by Harold Pinter.</figcaption>
+	</figure>
+</div>
+<script>
+	let pinter_vid = document.getElementById("pinter_video");
+	let magee_vid = document.getElementById("magee_video");
+	console.log("Found videos!");
+	function pauseVid(video_name) { 
+			arguments[0].pause(); 
+			console.log("Pause!")
+	}
+</script>
 
 :: Guide [nobr]
 <p>If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, review this guide, jump to the glossary, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.</p>
@@ -40,6 +89,9 @@ Thanks, and enjoy!
 <hr class="solid">
 [[Glossary]]<br>
 [[Bibliography]]<br>
+
+[[Thirty-Six Blackbirds, 'by' 'Robert Frost']]
+
 :: Scroll Mode [nobr]
 
 <<set $scroll_position to 500>>
@@ -837,7 +889,9 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 :: Her Story 12 [hs nobr]
 <p>The puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."</p>
+
 <p>It is possible, then, to identify with Eve and with Hannah. This identification is most interesting, however, through Sarah –- identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. The ludic operation of the game, and the puzzle element, makes the user assemble her story themselves, and in so doing makes it that much closer to their own story.</p>
+
 <p>These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>. Something about lossy media seems to lend itself to explorations of lossy relationships; we watch old home movies to see who our parents were before they were our parents, and we listen to old records to hear Ma Rainey's voice from beyond the grave.</p>
 
 <<silently>><<set _next_passage to "Her Story 13">><</silently>>
@@ -964,7 +1018,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>Krapp accesses his mechanized memories through an interface that is anything but seamless. The play spends a significant amount of time on the process Krapp undergoes in order to play a tape – to move from "staring vacuously" to his "listening posture" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">>. He retrieves his ledger and searches through the pages for the entry he wants. The stage directions specify his pawing past poorly-organised boxes – four, two, nine, seven, and only then to the ‘three’ that he’s looking for. Ejaculations like "the little rascal! The little scoundrel!" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">> personify these boxes in a way that makes the parallel between their disorganization and his own internal memory’s poorly indexed structure more conspicuous. Further, they emphasise the box and the tapes as something distinctly ‘other’ from Krapp’s conception of himself; the clunkiness of the interface forces Krapp to recognize the alterity of these technological artifacts.</p>
 
-!CLIP!
+~~clip~~
 
 <<silently>><<set _next_passage to "Krapp 15">><</silently>>
 
@@ -983,11 +1037,10 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 :: Krapp 16 [klt nobr]
 
 <p>Even while listening to his tape, Krapp’s access is flawed. Most obviously, Krapp is, according to the play’s stage directions, "hard of hearing" <<cite "215" "Beckett, Samuel. Krapp's Last Tape.">>. Krapp’s faulty sensory apparatus increases further the opacity of the interface between himself and his externalised memories. Consider, too, the other apparatus he has recourse to: his "old dictionary." When he hears his past self talk about his mother’s "long viduity," he mouths the word with ‘no sound.’ The lack of sound stands here for the lack of meaning the word has for Krapp. He looks up the word, is puzzled by the germane definition – the "state – or condition – of being – or remaining – a widow – or widower" <<cite "219" "Beckett, Samuel. Krapp's Last Tape.">> and dwells, instead on the supplementary definition – the "vidua bird," which he repeats with the same relish he has when revelling in the word "spoooooooool." Language here becomes a bodily thing, in the mouth and tongue, dissociated from its role as symbolic edifice. </p>
- 
-! CLIP !
 
 <p>The <<define "noise" "Noise">> associated with the bodily execution of the text becomes more important than the <<define "signal" "Signal">> of the words' meaning.  The transmission of meaning fails to take place; instead, Krapp revels in the noise. Here we have another broken link in the cognitive chain; Krapp <<define "glitches" "Glitch">> like a malfunctioning algorithm.</p>
 
+!!! VIDUITY CLIP !!!
 
 <<silently>><<set _next_passage to "Krapp 17">><</silently>>
 
@@ -1147,6 +1200,10 @@ This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I
 <<silently>><<set _next_passage to "EndlessGame 1">><</silently>>
 
 :: Case Study: 36 BLACKBIRDS
+
+
+:: Generate Your Own Blackbird
+
 <p>What author do you want to generate a Blackbird Poem of? Note that it might be unethical to generate a poem in the voice of someone who is still alive.</p>
 <input type="text" id="authorName" name="authorName"> <button id="generatePoem">Generate Poem</button>
 
@@ -1236,14 +1293,6 @@ if (button) {
     console.log('Button element not found');
 }
 </script>
-
-
-
-
-
-
-
-
 
 
 :: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
