@@ -22,6 +22,45 @@ postrender["Associate Special Passages"] = function (content, taskName) {
 	setPageElement("story-caption","StoryCaption");
 }
 
+/*
+	<<scrolldown [duration]>>
+
+	duration : (optional) The length of time to animate the scroll, as the
+	           strings 'fast' or 'slow' or a valid CSS time value (e.g. 5s
+	           and 500ms).  The default duration is 'slow'.
+*/
+Macro.add('scrolldown', {
+	handler : function () {
+		var target   = document.scrollingElement || 'html,body';
+		var duration;
+
+		if (this.args.length > 0) {
+			switch (this.args[0]) {
+			case 'fast':
+			case 'slow':
+				duration = this.args[0];
+				break;
+			default:
+				try {
+					duration = Math.max(Engine.minDomActionDelay, Util.fromCssTime(this.args[0]));
+				}
+				catch (ex) {
+					return this.error(ex.message);
+				}
+				break;
+			}
+		}
+		else {
+			duration = 'slow';
+		}
+
+		setTimeout(function () {
+			$(target).animate({
+				scrollTop: $(document).height() - $(window).height()
+			}, duration);
+		}, Engine.minDomActionDelay);
+	}
+});
 function startCamera() {
     const videoElement = document.getElementById('cameraVideo');
     console.log("Butt!")
@@ -123,6 +162,8 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<set $guesses to 0>>
 <<set $guessed to []>>
 
+<<set $selectedBox to 0>>
+<<set $selectedSpool to "">>
 
 :: PassageFooter [nobr]
 	<div id="title-row">
@@ -417,16 +458,104 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		  </div>
 		<<endif>>
 <</widget>>
-/* 
- 	recordScroll() {
-        this.scroll_data.push(this.state.scroll_top);
-    }
 
-    handleScroll(e) {
-        const scroll_top = e.target.scrollTop;
-        this.setState({scroll_top});
-    } 
+
+
+<<widget "videoPlayerWidget">>
+<<set $spools to { "1" : 
+										{
+											"1" : {"filename" : "klt_pinter_letmein.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "hs_readme.mp4", "caption" : "test caption"},
+											"3" : {"filename" : "wilson_on_blues.mp4", "caption" : "testcaption"},
+											"4" : {"filename" : "klt_magee_viduity.mp4", "caption" : "test caption"},
+											"5" : {"filename" : "klt_reel.mp4", "caption" : 'A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder <<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the two Paris productions he directed <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">>.'}
+										},
+									"2" : 
+											{
+											"1" : {"filename" : "jump_scare.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "quad_cmu.mp4", "caption" : "test caption"},
+											"3" : {"filename" : "not_i.mp4", "caption" : "testcaption"},
+											"4" : {"filename" : "klt_magee_farewell.mp4", "caption" : "test caption"},
+											"5" : {"filename" : "macguffin.mp4", "caption" : "test caption"}
+										},
+									"3" : 
+											{
+											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "klt_magee_letmein.mp4", "caption" : "test caption"},
+											"3" : {"filename" : "klt_pinter_spool.mp4", "caption" : "testcaption"},
+											"4" : {"filename" : "klt_pinter_viduity.mp4", "caption" : "test caption"},
+											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+										},
+									"4" : 
+											{
+											"1" : {"filename" : "klt_magee_spool.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "klt_magee_viduity.mp4", "caption" : "test caption"},
+											"3" : {"filename" : "hs_filter.mp4", "caption" : "testcaption"},
+											"4" : {"filename" : "hs_filter.mp4", "caption" : "test caption"},
+											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+										},
+									"5" : 
+											{
+											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "wilson_on_blues.mp4", "caption" : "test caption"},
+											"3" : {"filename" : "quad_cmu.mp4", "caption" : "testcaption"},
+											"4" : {"filename" : "quad.mp4", "caption" : "test caption"},
+											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+										}
+									}
+									>>
+	<div id="videoSelector">
+	  <!-- Display box choices -->
+	  <<for _i to 1; _i lt 6; _i++>>
+	   	<<capture _i, $spools>>
+	    <<button "Box _i">>
+	    	<<set $selectedBox to _i>>
+	    	<<replace "#videoPlayer">>
+      	<</replace>>
+      	<<replace "#spoolSelector">>
+      		<<timed 50ms t8n>>\
+	      		<<for _j to 1; _j lt 6; _j++>>
+	      			<<capture _j>>
+		      			<<button "Spool _j">>
+		      				<<set $selectedSpool to _j>>
+			      				<<replace "#videoPlayer">>
+			      					<<timed 50ms t8n>>\
+			      						Box... $selectedBox... spool... $selectedSpool...
+			      					<</timed>>
+			      					<<set _filename to "assets/videos/" + $spools[$selectedBox][$selectedSpool]["filename"]>>
+			      					<<set _caption to $spools[$selectedBox][$selectedSpool]["caption"]>>
+											<figure>
+												<video controls autoplay>
+													<source @src=_filename type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<figcaption> 
+													_caption
+												</figcaption>
+											</figure>
+											<<scrolldown fast>>
+			      				<</replace>>
+		      			<</button>>
+		      		<</capture>>
+	      		<</for>>
+	      	<</timed>>
+      	<</replace>>
+      <</button>>
+      <</capture>>
+		<</for>>
+	</div>
+	<div id="spoolSelector"></div>
+	<div id="videoPlayer"></div>
+<</widget>>
+
+/*
+	<<scrolldown [duration]>>
+
+	duration : (optional) The length of time to animate the scroll, as the
+	           strings 'fast' or 'slow' or a valid CSS time value (e.g. 5s
+	           and 500ms).  The default duration is 'slow'.
 */
+
 :: StoryCaption [nobr]
 
 <div id="navigation-list">
@@ -479,3 +608,5 @@ back_button.addEventListener("click", function() {
 		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
 	<</for>>
 <</if>>
+
+:: Krapp Video Player [nobr]
