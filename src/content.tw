@@ -1,7 +1,7 @@
 :: Title Page [nobr]
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba<br>
-Last updated July 14, 2024<br>
+Last updated August 18, 2024<br>
 <p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
 
 :: Guide [nobr]
@@ -32,42 +32,6 @@ Thanks, and enjoy!
 <hr class="solid">
 [[Glossary]]<br>
 [[Bibliography]]<br>
-
-[[Thirty-Six Blackbirds, 'by' 'Robert Frost']]
-
-:: Scroll Mode [nobr]
-
-<<set $scroll_position to 500>>
-<a href="#bottom">Bottom button.</a>
-<br>
-<br>
-<br>
-
-	<<script>>
-		let scrolling = false;
-		
-		var all_passages = document.getElementById("passages");
-
-		all_passages.scroll = () => {
-			scrolling = true;
-		};
-		setInterval(()=> {
-			if (scrolling) {
-				scrolling = false;
-				console.log("Detecting scrolling.");
-				State.variables.scroll_position = all_passages.scrollTop;
-				console.log(State.variables.scroll_position)
-			}
-
-		}, 300); 
-	<</script>>
-
-<<scroll_case_study "bk">>
-<<scroll_case_study "aw">>
-<<scroll_case_study "mrbb">>
-<<scroll_case_study "hs">>
-<<scroll_case_study "klt">>
-<<scroll_case_study "tar">>
 
 :: Section 1: GESTURE [nobr]
 [[Introduction->Section 1 Introduction]]
