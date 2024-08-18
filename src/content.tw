@@ -1,15 +1,7 @@
-:: Start {"position":"2596,143","size":"100,100"}
-Here's where we start!
-
-[[Guide]]
-
-[[Table of Contents]]
-
 :: Title Page [nobr]
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba<br>
 Last updated July 14, 2024<br>
-
 <p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
 
 :: Guide [nobr]
@@ -710,7 +702,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 :: Her Story 2 [hs nobr]
-<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface" "Interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of <<define "presence">> for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their <<define "much-ballyhooed death" "death of the author">>.</p>
+<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.</p>
 
 <figure>
 	<video controls>
@@ -833,7 +825,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection" as distinguished from a mystery story, which may lack the puzzle element.</p>
 
-<p>Of course, <<define "game studies" "ludology">> explores how the "ludic", or playful, side of games, alongside the narrative side, can create structures of identification, but the multimedial and heterogeneric status of <i>Her Story</i> usefully illuminates that this playful side predates the game as a medium -- and that detective fiction in particular can be thought of as a sort of prototype for some of the sttructures of identification permitted by video games and interactive fiction.</p>
+<p>Of course, ludology explores how the "ludic", or playful, side of games, alongside the narrative side, can create structures of identification, but the multimedial and heterogeneric status of <i>Her Story</i> usefully illuminates that this playful side predates the game as a medium -- and that detective fiction in particular can be thought of as a sort of prototype for some of the sttructures of identification permitted by video games and interactive fiction.</p>
 
 <<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
@@ -871,6 +863,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <p><i>Footage of a Grundig reel-to-reel magnetic tape recorder is available in box 1, spool 5.</i></p>
 <<videoPlayerWidget>>
 
+/*
 <figure>
 	<video controls>
 	<source src="assets/videos/klt_reel.mp4" type="video/mp4">
@@ -878,6 +871,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	</video>
 	<figcaption>A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder <<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the two Paris productions he directed <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">>.</figcaption>
 </figure>
+*/
 
 <<silently>><<set _next_passage to "Krapp 2">><</silently>>
 
@@ -906,12 +900,13 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <p>One mode of thinking through this postcognitivist subjectivity that arises out of Krapp’s relationship with his technological prostheses comes from the field of cognitive science. In their 1998 paper 'The Extended Mind', Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes <<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
 <p>For Clark and Chalmers, a student doing long division by hand is not just using the pen and paper as a tool; some of the work of <<define "cognition">> is actively platformed on the page. Because the mind is the seat of cognition, it makes sense to think about that student’s mind as extending beyond his skin and onto the page. In cases like these:</p>
 <blockquote>the human organism is linked with an external entity in a two-way interaction, creating a coupled system that can be seen as a cognitive system in its own right. All the components in the system play an active causal role, and they jointly govern behaviour in the same sort of way that cognition usually does. If we remove the external component the system's behavioural competence will drop, just as it would if we removed part of its brain. Our thesis is that this sort of coupled process counts equally well as a cognitive process, whether or not it is wholly in the head.<<cite '8' '9' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>></blockquote>
+
 <p><i>n.b.: this paper features the best footnote I've ever read; the author line is footnoted, and the note reads "Authors are listed in order of degree of belief in the central thesis."</i></p>
 
 <<silently>><<set _next_passage to "Krapp 6">><</silently>>
 
 :: Krapp 6 [klt nobr]
-<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of <<define "cognitive loops" "Cognitive Loops">> -- not unlike N. Katherine Hayles' <<define "cognitive assemblage">>.</p>
+<p>This condition is generalized in a contemporary technological moment characterized by ubiquitous smartphones through which an increasing amount of cognition and recollection takes place. Krapp can be thought of, from the perspective of the extended mind, not as a mind bounded by his skin acted on by his tapes, his dictionary, and his ledger, but instead as an enmeshed system of cognitive loops not unlike N. Katherine Hayles' <<define "cognitive assemblage">>.</p>
 
 <p>His dependence on these linguistic, technological prostheses to live the life he does, and the degree to which the life the audience sees is focused on the creation of further tapes, denaturalises the body as the sole spatial and cognitive seat of the subject. Krapp’s ‘mind’ is distributed, in other words, and this distributed mind implies a self distributed both in space and in time.</p>
 
@@ -936,7 +931,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 8">><</silently>>
 
 :: Krapp 8 [klt nobr]
-<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>. Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "multiple drafts" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition" "Cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
+<p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>. Where Beloborodova and Velhurst have focused on Beckett’s radio plays, however, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to Krapp’s Last Tape primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age makes Krapp’s situation more general. Krapp, I argue, is a clear example of how <<define "cognition">> and <<define "memory" "Memory">> - and with them personal identity - can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interface between those platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 9">><</silently>>
 
@@ -955,18 +950,19 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 11">><</silently>>
 
 :: Krapp 11 [klt nobr]
-<p>The memories he ends up recording are about the process of choosing, recording, and accessing other memories through his tapes. His fixation with the past, mediated through his lossy technological prostheses, governs his present actions to an increasing degree; in order to live within his past, he must spend his present keeping, locating, and playing his tapes. The way in which Krapp becomes inextricably enmeshed in these <<define "feedback loops" "Feedback Loop">> exemplifies the transition from history, where information communication technologies record and transmit data, to what Floridi calls <<define "hyperhistory" "Hyperhistory">>, where interactions with those same technologies become the object that is recorded, transmitted, and processed. Krapp’s life becomes a recording-in-progress, a collection of two-way feedback loops that enmesh his body into his technological devices and consign his bodily pleasures to a nostalgic past accessible only via audiotape.</p>
+<p>The memories he ends up recording are about the process of choosing, recording, and accessing other memories through his tapes. His fixation with the past, mediated through his lossy technological prostheses, governs his present actions to an increasing degree; in order to live within his past, he must spend his present keeping, locating, and playing his tapes. The way in which Krapp becomes inextricably enmeshed in these feedback loops exemplifies the transition from history, where information communication technologies record and transmit data, to what Floridi calls <<define "hyperhistory" "Hyperhistory">>, where interactions with those same technologies become the object that is recorded, transmitted, and processed. Krapp’s life becomes a recording-in-progress, a collection of two-way feedback loops that enmesh his body into his technological devices and consign his bodily pleasures to a nostalgic past accessible only via audiotape.</p>
 
 <<silently>><<set _next_passage to "Krapp 12">><</silently>>
 
 :: Krapp 12 [klt nobr]
-<p>For Chalmers and Clark, these two-way systems of organic and inorganic material must be reliably coupled with one another. This problem of ‘reliable coupling’ – of access that is continually available, and of a relatively frictionless interface - gets at one of the central paradoxes of the life of the inforg, which in turn underlines why <i>Krapp’s Last Tape</i> functions so well as a <<define "thought experiment" "Thought Experiment">> about cognitive inforgs. We are most fully ‘inforganic’ when the interface between our bodily selves and the technologies which co-constitute us is most transparent; when our phone’s batteries are fully charged, for example, we might be said to ‘know’ our friends’ cell phone numbers because the transparency of the interface means that the information is <<define "zuhanden" "Zuhanden">>, to borrow Heideggarian terminology, or ready-to-hand. On the other "hand," when that interface breaks down – when the device instead becomes <<define "vorhanden" "Vorhanden">> - we become aware of our technological prostheses as contingent apparatuses that can be removed from us. In other words, we are most cybernetic when we are least aware of it.</p>
+<p>For Chalmers and Clark, these two-way systems of organic and inorganic material must be reliably coupled with one another. This problem of ‘reliable coupling’ – of access that is continually available, and of a relatively frictionless interface - gets at one of the central paradoxes of the life of the inforg, which in turn underlines why <i>Krapp’s Last Tape</i> functions so well as a <<define "thought experiment" "Thought Experiment">> about cognitive inforgs. We are most fully ‘inforganic’ when the interface between our bodily selves and the technologies which co-constitute us is most transparent; when our phone’s batteries are fully charged, for example, we might be said to ‘know’ our friends’ cell phone numbers because the transparency of the interface means that the information is <<define "zuhanden" "zuhanden and vorhanden">>, to borrow Heideggarian terminology, or ready-to-hand. On the other "hand," when that interface breaks down – when the device instead becomes <<define "vorhanden" "zuhanden and vorhanden">>, or present-at-hand - we become aware of our technological prostheses as contingent apparatuses that can be removed from us. In other words, we are most cybernetic when we are least aware of it.</p>
 
 <<silently>><<set _next_passage to "Krapp 13">><</silently>>
 
 :: Krapp 13 [klt nobr]
 
-<p>However, Krapp’s Last Tape and Beckett’s focus more generally on the fragility of the human body calls to our attention the fact that this central paradox of the inforg is active inside the skull as well as out. Human memory, Krapp demonstrates, is not categorically more reliably accessible; the interface between what might be called the <<define "narrative self" "Narrative Self">> and access to memory is also fallible, and its failure comes with an awareness of the self as a hybrid organism of mind and body – a body which is, in the reckoning of Hayles, "the original prosthesis we all learn to manipulate" <<cite "3" "Hayles, N. Katherine. How We Became Posthuman.">>.  Although Hayles’ reference to "body" is typically taken to mean one’s hands, feet, eyes, and so on, the inforg Krapp illuminates how individual systems of the brain can come to seem prosthetic themselves. By oscillating both prosthetic and organic memory between zuhanden and vorhanden, Beckett demonstrates the disintegration of the narrative self and, critically, that the idea of an integrated pre-technological subject is just as much a nostalgic illusion as the myth of a utopian future whereby the posthuman subject is perfectly integrated with their prosthetic mind.</p>
+<p>However, Krapp’s Last Tape and Beckett’s focus more generally on the fragility of the human body calls to our attention the fact that this central paradox of the inforg is active inside the skull as well as out. Human memory, Krapp demonstrates, is not categorically more reliably accessible; the interface between what might be called the <<define "narrative self" "Narrative Self">> and access to memory is also fallible, and its failure comes with an awareness of the self as a hybrid organism of mind and body – a body which is, in the reckoning of Hayles, "the original prosthesis we all learn to manipulate" <<cite "3" "Hayles, N. Katherine. How We Became Posthuman.">>.</p>
+<p>Although Hayles’ reference to "body" is typically taken to mean one’s hands, feet, eyes, and so on, the inforg Krapp illuminates how individual systems of the brain can come to seem prosthetic themselves. By oscillating both prosthetic and organic memory between zuhanden and vorhanden, Beckett demonstrates the disintegration of the narrative self and, critically, that the idea of an integrated pre-technological subject is just as much a nostalgic illusion as the myth of a utopian future whereby the posthuman subject is perfectly integrated with their prosthetic mind.</p>
 
 <<silently>><<set _next_passage to "Krapp 14">><</silently>>
 
@@ -1004,7 +1000,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>Krapp thus presents a pessimistic picture of the too-often-utopian cyborg, and suggests that this same pessimism might be valid for humanity more broadly. If the active externalism of the extended mind holds, then those of us living in the information age are all to a greater or lesser degree inforgs - and there are signs in <i>Krapp’s Last Tape</i> that Krapp's reliance on technological prostheses has resulted in his own mechanization. His movements are modularised, like those of the figures in <a href="https://especiallygreatliterature.com/beckett/english/drama/act_without_words_2.html" target="_blank"><i>Acts Without Words II</i></a> or <i>[[Quad->CASE STUDY: EndlessGame]]</i>, and he compulsively repeats memories and even phrases. A danger, then, of outsourcing too much of one’s mind to technological devices in the external world might be that one becomes more like them, more mechanical.</p>
 
-<p>In <i>Krapp’s Last Tape</i>, Beckett presents a vision of an inforg whose malfunctioning biology puts the lie to any nostalgic yearning for a past with a unified and stable subject at its center. This holds even when the purpose of that externalization is, in Eric Levy’s words:
+<p>In <i>Krapp’s Last Tape</i>, Beckett presents a vision of an inforg whose malfunctioning biology puts the lie to any nostalgic yearning for a past with a unified and stable subject at its center. This holds even when the purpose of that externalization is, in Eric Levy’s words:</p>
 <blockquote>... not to return to the past, but to define [Krapp’s] identity through the annual progression of perspectives on the past" <<cite "55" "Levy, Eric. 'Krapp's Last Tape and the Beckettian Mimesis of Regret'.">>. </blockquote>
 
 <<silently>><<set _next_passage to "Krapp 18">><</silently>>
@@ -1014,7 +1010,9 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <<videoPlayerWidget>>
 
-<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions not as a "potion for memory and for wisdom" but instead "introduces forgetfulness into the soul of those who learn it" because writing "is external and depends on signs that belong to others, instead of trying to remember from the inside" <<"*" "Plato. Phaedrus.">>. The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in all cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
+<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions:</p>
+<blockquote>not as potion for memory and for wisdom [but instead] introduces forgetfulness into the soul of those who learn it [because writing] is external and depends on signs that belong to others, instead of trying to remember from the inside<<cite "*" "Plato. Phaedrus.">>.</blockquote>
+<p>The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in all cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 19">><</silently>>
 
@@ -1033,34 +1031,50 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <<silently>><<set _next_passage to "Meatspace: THE ALT-RIGHT">><</silently>>
 
-:: Meatspace: THE ALT-RIGHT {"position":"2790,1177","size":"100,100"}
+:: Meatspace: THE ALT-RIGHT [nobr]
 
 <h1>Technostalgia and Alt-Right Nationalism in 2020s America</h1>
+
+<figure>
+	<video controls>
+	<source src="assets/videos/tar_info_superhighway.mp4" type="video/mp4" autoplay>
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>Nam June Paik, Electronic Superhighway: Continental U.S., Alaska, Hawaii, 1995, fifty-one channel video installation (including one closed-circuit television feed), custom electronics, neon lighting, steel and wood; color, sound, approx. 15 x 40 x 4 ft., Smithsonian American Art Museum, Gift of the artist, 2002.23, © Nam June Paik Estate.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "The Alt-Right 1">><</silently>>
 
 :: The Alt-Right 1 [tar nobr]
-<p>A 2019 The New York Times article titled the "Making of a YouTube Radical" charts how 26-year-old Caleb Cain - and, with him, a growing population of disaffected young white men - have come to rely on <<define "medium" "media">> technologies to construct a cohesive, nostalgic political identity. The article, which charts Cain’s fall "down the alt-right rabbit hole," describes a man who "fell asleep to YouTube videos at night, his phone propped up on a pillow" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>. Cain listens to a series of voices from the so-called "alt-right" that weaponise rhetorical appeals to an imagined racial and nationalist past. Like for [[Krapp->Case Study: KRAPP'S LAST TAPE]], the goal is the construction of a stable self in the face of obliteration: the perceived decay of a fictional <<define "nostalgic" "Nostalgia">> construction of "Western civilization" of which he, as a white male in America, is the natural and disinherited heir. The "voice in the dark" is technologically mediated and grounded in sentimental nostalgia. These platforms provide an endless stream of digital content that functions as a public <<define "prosthetic" "Prosthetic">> <<define "memory" "Memory">> which constitutes, in men like Cain, a nationalist political identity.</p>
+<p>A 2019 The New York Times article titled the "Making of a YouTube Radical" charts how 26-year-old Caleb Cain - and, with him, a growing population of disaffected young white men - have come to rely on <<define "media" "medium">> technologies to construct a cohesive, nostalgic political identity. The article, which charts Cain’s fall "down the alt-right rabbit hole," describes a man who "fell asleep to YouTube videos at night, his phone propped up on a pillow" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
+<p>Cain listens to a series of voices from the so-called "alt-right" that weaponise rhetorical appeals to an imagined racial and nationalist past. Like for [[Krapp->Case Study: KRAPP'S LAST TAPE]], the goal is the construction of a stable self in the face of obliteration: the perceived decay of a fictional <<define "nostalgic" "Nostalgia">> construction of "Western civilization" of which he, as a white male in America, is the natural and disinherited heir. The "voice in the dark" is technologically mediated and grounded in sentimental nostalgia. These platforms provide an endless stream of digital content that functions as a public <<define "prosthetic" "Prosthetic">> <<define "memory" "Memory">> which constitutes, in men like Cain, a nationalist political identity.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 2">><</silently>>
 
 :: The Alt-Right 2 [tar nobr]
-<p>"The Making of a YouTube Radical" catalogues the role of Youtube’s <<define "algorithm" "Algorithm">> and its alt-right content in "<<define "redpilling" "red pill">>," or radicalizing, angry young men with content that valorises "traditional" conservative values drawn from an imagined American past. This radicalization is often violent. In a 2019 statement before Congress, Michael C. McGarrity, the Assistant Director of the FBI’s Counterterrorism Division, stated that "individuals adhering to racially motivated violent extremism have been responsible for the most lethal incidents among domestic terrorists in recent years, and [...] the threat of violence and lethality posed by racially motivated violent extremists will continue". Critically, these violent extremists "are increasingly using social media for the distribution of propaganda, recruitment, target selection, and incitement of violence" <<cite "*" "McGarrity, Michael. 'Confronting White Supremecy'.">>.  In the information age, the mediated nostalgia that traps Krapp in his own past has become a dangerous weapon.</p>
+<p>"The Making of a YouTube Radical" catalogues the role of Youtube’s <<define "algorithm" "Algorithm">> and its alt-right content in "redpilling" or radicalizing, angry young men with content that valorises "traditional" conservative values drawn from an imagined American past. This radicalization is often violent. In a 2019 statement before Congress, Michael C. McGarrity, the Assistant Director of the FBI’s Counterterrorism Division, stated that:</p>
+<blockquote>... individuals adhering to racially motivated violent extremism have been responsible for the most lethal incidents among domestic terrorists in recent years, and [...] the threat of violence and lethality posed by racially motivated violent extremists will continue... [and these violent extremists] are increasingly using social media for the distribution of propaganda, recruitment, target selection, and incitement of violence<<cite "*" "McGarrity, Michael. 'Confronting White Supremecy'.">>.</blockquote>
+<p>In the information age, the mediated nostalgia that traps Krapp in his own past has become a dangerous weapon.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 3">><</silently>>
 
 :: The Alt-Right 3 [tar nobr]
-<p>The platforms that broadcast the voices which radicalise Cain et al are engineered to be as frictionless as possible. Each user on YouTube, for example, has a profile that Google (which owns YouTube) uses to serve them content. These profiles track what their users watch and start to offer them other videos based on what it ‘thinks’ they will engage with. Because Google makes most of their money off of advertising that is itself tailored to user profiles, enormous incentives exist to keep users watching videos. YouTube accomplishes this goal in several ways. Firstly, when a video on YouTube ends, another one - chosen by an algorithm, rather than by the user - begins. Unlike [[Krapp’s tapes->Krapp 14]], which must be taken from their tins and wound to the proper moment, it is easy to keep watching YouTube.</p>
+<p>The platforms that broadcast the voices which radicalise Cain et al are engineered to be as frictionless as possible. Each user on YouTube, for example, has a profile that Google (which owns YouTube) uses to serve them content. These profiles track what their users watch and start to offer them other videos based on what it ‘thinks’ they will engage with. Because Google makes most of their money off of advertising that is itself tailored to user profiles, enormous incentives exist to keep users watching videos. YouTube accomplishes this goal in several ways. Firstly, when a video on YouTube ends, another one - chosen by an algorithm, rather than by the user - begins. Unlike [[Krapp’s tapes->Krapp 14]], which must be taken from their tins and wound to the proper moment, it is <i>easy</i> to keep watching YouTube.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 4">><</silently>>
 
 :: The Alt-Right 4 [tar nobr]
-<p>Second, YouTube is available on most of the screens we have - the television screen, the computer screen, and the smartphone. The ubiquity of smartphones translates, for many people, to constant availability. [[Anyone with a data connection]] can watch YouTube anywhere, from the bathroom to the bedroom. Thirdly, YouTube (like all social networking platforms) hires an army of <<define "UI">> and <<define "UX">> designers who leverage a fantastic amount of user data to continually tweak the appearance, layout, and overall structure through which users view content. All of these factors contribute to YouTube’s ubiquity: according to a 2018 Pew Research Center report, a startling 94% of 18-to-24 year olds visit YouTube with some regularity.</p>
+<p>Second, YouTube is available on most of the screens we have - the television screen, the computer screen, and the smartphone. The ubiquity of smartphones translates, for many people, to constant availability. Anyone with a data connection can watch YouTube anywhere, from the bathroom to the bedroom.</p>
+<p>Thirdly, YouTube (like all social networking platforms) hires an army of <<define "UI">> and <<define "UX">> designers who leverage a fantastic amount of user data to continually tweak the appearance, layout, and overall structure through which users view content.</p>
+<p>All of these factors contribute to YouTube’s ubiquity: according to a 2018 Pew Research Center report, a startling 94% of 18-to-24 year olds visit YouTube with some regularity.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 5">><</silently>>
 
 :: The Alt-Right 5 [tar nobr]
-<p>Clark and Chalmers’ discussion of the constitutive role <<define "cognitive prostheses" "Prosthetic">> play in the Extended Mind is echoed in David Mogensen’s interview with Youtube’s UX lead, Scott Hines, who notes that he and his colleagues focus on "how YouTube aids people in their decision-making at every step of the journey across platforms" <<cite "*" "Mogensen, David. 'YouTube's ad UX leaders on how video ads have evolved'.">>. In other words, YouTube is a platform built with the idea of content, and design, driving behavior in addition to entertaining. This reciprocal relationship between viewer and content depends on "engagement" above all else - and, an engaged user is more financially valuable to YouTube, and so Google’s engineers are incentivised to privilege engagement above all else. This gives rise to products like Google’s "Reinforce" AI, which Roose calls a "long-term addiction machine [...] designed to maximise users’ engagement over time by predicting which recommendations would expand their tastes and get them to watch not just one more video but many more" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>. Indeed, according to Roose, the algorithm, which curates the user’s homepage and the "Up Next" sidebar that automatically plays at the termination of the previous video, accounts for more than 70% of all of the time spent on the website. Unlike Krapp, then, who ostensibly relies on his own ledger and his own will (whatever that means) to choose what tapes to listen to, a YouTube watcher in many ways has his or her ‘tapes’ chosen for them.</p>
+<p>Clark and Chalmers’ discussion of the constitutive role <<define "cognitive prostheses" "Prosthetic">> play in the Extended Mind is echoed in David Mogensen’s interview with Youtube’s UX lead, Scott Hines, who notes that he and his colleagues focus on "how YouTube aids people in their decision-making at every step of the journey across platforms" <<cite "*" "Mogensen, David. 'YouTube's ad UX leaders on how video ads have evolved'.">>.</p>
+<p>In other words, YouTube is a platform built with the idea of content, and design, driving behavior in addition to entertaining. This reciprocal relationship between viewer and content depends on "engagement" above all else - and, an engaged user is more financially valuable to YouTube, and so Google’s engineers are incentivised to privilege engagement above all else. This gives rise to products like Google’s "Reinforce" AI, which Roose calls a:</p>
+<blockquote> long-term addiction machine [...] designed to maximise users’ engagement over time by predicting which recommendations would expand their tastes and get them to watch not just one more video but many more" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</blockquote>
+<p>Indeed, according to Roose, the algorithm, which curates the user’s homepage and the "Up Next" sidebar that automatically plays at the termination of the previous video, accounts for more than 70% of all of the time spent on the website. Unlike Krapp, then, who ostensibly relies on his own ledger and his own will (whatever that means) to choose what tapes to listen to, a YouTube watcher in many ways has his or her ‘tapes’ chosen for them.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 6">><</silently>>
 
@@ -1070,13 +1084,17 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "The Alt-Right 7">><</silently>>
 
 :: The Alt-Right 7 [tar nobr]
-<p>Engagement on YouTube does not just mean watching videos, however; it also means ‘liking’ and commenting on those videos and in so doing participating in and contributing to the community. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with the extended mind, but diverges in its psychoanalytically inflected consideration of affect rather than cognition, drives rather than information, as the primary term in considering the subject; whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way. Numerous studies have linked this mode of engagement with addiction to the platform; for example, a 2017 study published in the Journal of Behavioral Addictions found that "content creation in YouTube had a closer relationship with YouTube addiction than content viewing" and, further, that "social gratification was found to have a significant influence on both types of YouTube activities" <<cite "*" "Balakrishnan, Janarthanan and Mark Griffiths. ‘Social Media Addiction: What is the role of content in YouTube’.">>.</p>
-
+<p>Engagement on YouTube does not just mean watching videos, however; it also means ‘liking’ and commenting on those videos and in so doing participating in and contributing to the community. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with the <<define "extended mind">>, but diverges in its psychoanalytically inflected consideration of affect rather than cognition, drives rather than information, as the primary term in considering the subject; whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way.</p>
+<p>Numerous studies have linked this mode of engagement with addiction to the platform; for example, a 2017 study published in the <i>Journal of Behavioral Addictions</i> found that:</p> 
+<blockquote>content creation in YouTube had a closer relationship with YouTube addiction than content viewing [...] (and) social gratification was found to have a significant influence on both types of YouTube activities"<<cite "*" "Balakrishnan, Janarthanan and Mark Griffiths. ‘Social Media Addiction: What is the role of content in YouTube’.">>.</blockquote>
 
 <<silently>><<set _next_passage to "The Alt-Right 8">><</silently>>
 
 :: The Alt-Right 8 [tar nobr]
-<p>Troublingly, the relationship between ideological extremity and high engagement seems to be linear; according to Manoel Ribeiro et al, whose 2019 study "Auditing Radicalization Pathways on YouTube" examines the radicalization pipeline from the so-called "Intellectual Dark Web" to the "alt-lite" and ultimately the "alt-right," more extreme content tends to have more engagement. This, coupled with the fact that users are more likely to return to content with which they have engaged, helps explain YouTube’s incentive to shepherd users from less to more extreme content <<cite "*" "Ribeiro, Manoel Horta et al. ‘Auditing Radicalization Pathways on YouTube'.">>. As Zeynep Tufecki wrote in a 2019 article in Scientific American, "YouTube’s algorithms will push whatever they deem engaging, and it appears they have figured out that wild claims, as well as hate speech and outrage peddling, can be particularly so" <<cite "*" "Tufecki, Zeynep. 'YouTube's Recommendation Algorithm Has a Dark Side'.">> Maximizing engagement - and, in so doing, maximizing profit - maximises addiction and radicalization.</p>
+<p>Troublingly, the relationship between ideological extremity and high engagement seems to be linear; according to Manoel Ribeiro et al, whose 2019 study "Auditing Radicalization Pathways on YouTube" examines the radicalization pipeline from the so-called "Intellectual Dark Web" to the "alt-lite" and ultimately the "alt-right," more extreme content tends to have more engagement. This, coupled with the fact that users are more likely to return to content with which they have engaged, helps explain YouTube’s incentive to shepherd users from less to more extreme content <<cite "*" "Ribeiro, Manoel Horta et al. ‘Auditing Radicalization Pathways on YouTube'.">>.</p>
+<p>As Zeynep Tufecki wrote in a 2019 article published in <i>Scientific American</i>:</p>
+<blockquote>"YouTube’s algorithms will push whatever they deem engaging, and it appears they have figured out that wild claims, as well as hate speech and outrage peddling, can be particularly so" <<cite "*" "Tufecki, Zeynep. 'YouTube's Recommendation Algorithm Has a Dark Side'.">> </blockquote>
+<p>Maximizing engagement - and, in so doing, maximizing profit - maximises addiction and radicalization.</p>
 
 
 <<silently>><<set _next_passage to "The Alt-Right 9">><</silently>>
@@ -1092,7 +1110,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <<videoPlayerWidget>>
 
-<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table - himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past. The material YouTube is engineered to push its users towards is fueled by a nostalgia analogous to Krapp’s own; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
+<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table - himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past.</p>
+<p>The material YouTube is engineered to push its users towards is fueled by a nostalgia analogous to Krapp’s own; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 11">><</silently>>
 
@@ -1102,29 +1121,40 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "The Alt-Right 12">><</silently>>
 
 :: The Alt-Right 12 [tar nobr]
-<p>The particular imagined past constructed by the online alt-right offers a return to a time "before feminism," where gender roles were more firmly codified. This return manifests as an often-violent online misogyny directed at cisgendered women, trans individuals, queer folk in general, and so-called "beta" males whose performance of masculinity somehow falls short. One major funnel to the alt-right, according to sociologist Rebecca Lewis, is Jordan Peterson, a tenured professor of psychology at the University of Toronto who was described by David Brooks of <i>The New York Times</i> as the "most influential public intellectual in the Western world" <<cite "*" "Brooks, David. 'The Jordan Peterson Moment'.">>. Peterson has a YouTube channel with more than 150 million views and gained international prominence in large part due to his highly public opposition to Canada’s proposed Bill C-16, which bans discrimination against people on the basis of gender identity or gender expression. His opposition was recorded and broadcasted in a series of wildly popular videos where he stated his refusal to refer to transgender students by their chosen pronouns, calling it "radically politically correct thinking" <<cite "*" "Beauchamp, Zack. ‘Jordan Peterson, the obscure Canadian psychologist turned right-wing celebrity, explained’.">>.</p>
+<p>The particular imagined past constructed by the online alt-right offers a return to a time "before feminism," where gender roles were more firmly codified. This return manifests as an often-violent online misogyny directed at cisgendered women, trans individuals, queer folk in general, and so-called "beta" males whose performance of masculinity somehow falls short. One major funnel to the alt-right, according to sociologist Rebecca Lewis, is Jordan Peterson, a tenured professor of psychology at the University of Toronto who was described by David Brooks of <i>The New York Times</i> as the "most influential public intellectual in the Western world" <<cite "*" "Brooks, David. 'The Jordan Peterson Moment'.">>.</p>
+<p>Peterson has a <a target="_blank" href="https://www.youtube.com/channel/UCL_f53ZEJxp8TtlOkHwMV9Q">YouTube channel</a> with more than 8.2 million subscribers, and gained international prominence in large part due to his highly public opposition to Canada’s proposed Bill C-16, which bans discrimination against people on the basis of gender identity or gender expression. His opposition was recorded and broadcasted in a series of wildly popular videos where he stated his refusal to refer to transgender students by their chosen pronouns, calling it "radically politically correct thinking" <<cite "*" "Beauchamp, Zack. ‘Jordan Peterson, the obscure Canadian psychologist turned right-wing celebrity, explained’.">>.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 13">><</silently>>
 
 :: The Alt-Right 13 [tar nobr]
-<p>His philosophy, such as it is, is a perfect encapsulation of the imagined past of alt-right: it is profoundly nostalgic and markedly hostile towards feminism, racial justice, women’s rights more broadly. He proudly states that white privilege is a farce, and in an interview with the New York Times prescribes "enforced monogamy" as the cure to violence committed by radicalized white men, arguing that "violent attacks are what happens when men do not have partners [...] and society needs to work to make sure those men are married" <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>. Peterson accompanies this nostalgic return to a past where women’s bodies and sexuality are even more controlled by patriarchal authority with "imagery from a hundred years ago" - a penchant for three-piece suits, wide lapels, and self-consciously archaic speech patterns that he calls a rediscovered tradition and "prairie populism." In place of Krapp sitting in the dark recording tapes for himself, the well-lit Peterson records and broadcasts a fictionalised version of the past grounded in idiosyncratic interpretations of biblical texts, self-help bromides, and casual misogyny. Peterson’s success depends on the media technology that broadcasts his nostalgic vision onto the computers and smartphones of the Caleb Cains across the globe.</p>
+<p>His philosophy, such as it is, is a perfect encapsulation of the imagined past of alt-right: it is profoundly nostalgic and markedly hostile towards feminism, racial justice, women’s rights more broadly. He proudly states that white privilege is a farce, and in an interview with the New York Times prescribes "enforced monogamy" as the cure to violence committed by radicalized white men, arguing that:</p>
+<blockquote>violent attacks are what happens when men do not have partners [...] and society needs to work to make sure those men are married <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>.</blockquote>
+<p>Peterson accompanies this nostalgic return to a past where women’s bodies and sexuality are even more controlled by patriarchal authority with:
+<blockquote>imagery from a hundred years ago - a penchant for three-piece suits, wide lapels, and self-consciously archaic speech patterns that he calls a rediscovered tradition and prairie populism <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>.</blockquote> 
+<p>In place of Krapp sitting in the dark recording tapes for himself, the well-lit Peterson records and broadcasts a fictionalised version of the past grounded in idiosyncratic interpretations of biblical texts, self-help bromides, and casual misogyny. Peterson’s success depends on the media technology that broadcasts his nostalgic vision onto the computers and smartphones of the Caleb Cains across the globe.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 14">><</silently>>
 
 :: The Alt-Right 14 [tar nobr]
-<p>Peterson’s audience crosses over substantially with "Gamergate", which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist critic Anita Sarkeesian, and a broader perception that a previously white male cultural space — video gaming — was being taken over by so-called ‘social justice warriors.’ Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">> like 4chan, the corners of YouTube we’ve been discussing, and the Reddit community "TheRedPill." This subreddit, which has been "quarantined" by Reddit for being "highly offensive or upsetting," defines feminism as "a doctrine of class hatred and violence" and defines the "Red Pill" itself as "the awareness of the dark truths surrounding human sexuality; hypergamy, women’s ‘Alpha Fucks / Beta Bucks’ strategies, society’s Feminine Imperative" and so forth <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>. Roose’s article on Caleb Cain, who himself was "red-pilled," defines it more succinctly as "an internet slang term for converting to far-right beliefs" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
+<p>Peterson’s audience crosses over substantially with "Gamergate", which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist critic Anita Sarkeesian, and a broader perception that a previously white male cultural space — video gaming — was being taken over by so-called ‘social justice warriors.’ Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">> like 4chan, the corners of YouTube we’ve been discussing, and the Reddit community "TheRedPill."</p>
+<p>This subreddit, which has been "quarantined" by Reddit for being "highly offensive or upsetting," defines feminism as "a doctrine of class hatred and violence" and defines the "Red Pill" itself as:</p>
+<blockquote>the awareness of the dark truths surrounding human sexuality; hypergamy, women’s ‘Alpha Fucks / Beta Bucks’ strategies, society’s Feminine Imperative, and so forth <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
+<p>Roose’s article on Caleb Cain, who himself was "red-pilled," defines it more succinctly as "an internet slang term for converting to far-right beliefs" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
 
 
 <<silently>><<set _next_passage to "The Alt-Right 15">><</silently>>
 
 :: The Alt-Right 15 [tar nobr]
-<p>It can be challenging to disentangle these different corners of the online alt-right from one another; most incels (short for "involuntary celibates", a label many of these disaffected white men affix to themselves) claim they’ve been red-pilled, for example, and many of them participated in Gamergate. Indeed, controversial YouTuber streamer PewDiePie, whose YouTube channel has nearly 26 billion views, posted a positive video review of Jordan Peterson’s <i>12 Rules to Live By</i>. What these groups share is a hatred of so-called "SJWs", or social justice warriors, which TheRedPill’s glossary defines as "individuals who involve themselves in some level of activism towards promoting a feminist or other equality-driven agenda [who] corrupt the idea of equality into misandry and the reduction of rights for white males" <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>. As hardly needs to be said at the time of this writing, the misogyny of the alt-right is inseparable from its racism, and both are rooted in nostalgia and propagated - or embodied - online.</p>
+<p>It can be challenging to disentangle these different corners of the online alt-right from one another; most incels (short for "involuntary celibates", a label many of these disaffected white men affix to themselves) claim they’ve been red-pilled, for example, and many of them participated in Gamergate. Indeed, controversial YouTuber streamer PewDiePie, whose YouTube channel has nearly 26 billion views, posted a positive video review of Jordan Peterson’s <i>12 Rules to Live By</i>. What these groups share is a hatred of so-called "SJWs", or social justice warriors, which TheRedPill’s glossary defines as:</p>
+<blockquote>individuals who involve themselves in some level of activism towards promoting a feminist or other equality-driven agenda [who] corrupt the idea of equality into misandry and the reduction of rights for white males" <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
+<p>The misogyny of the alt-right is inseparable from its racism, and both are rooted in nostalgia and propagated - or embodied - online.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 16">><</silently>>
 
 :: The Alt-Right 16 [tar nobr]
-<p>What kind of subjectivity arises when Cain, then, listens to well-heeled white nationalists like Richard Spencer describe a different kind of nostalgia, a counterfactual cultural memory of an imagined America? Krapp’s personal postmodern subjectivity is, in this latter case, swapped for a political subjectivity whose postmodern nature is masked by its self-conscious appeals to radical traditionalism and an outright hostility to (post)modernity as such. As Laurie Ouellette and Sarah Banet-Weiser argue, "one of the primary characteristics of the extreme right is nostalgia for a particular kind of identity: the white, heterosexual man" <<cite "5" "Oullette, Laurie and Sarah Banet-Weiser. ‘Special Issue: Media and the Extreme Right: Editor’s Introduction’.">>. By appealing to this nostalgia, alt-right celebrities (or "influencers", as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words,
-
+<p>What kind of subjectivity arises when Cain, then, listens to well-heeled white nationalists like Richard Spencer describe a different kind of nostalgia, a counterfactual cultural memory of an imagined America? Krapp’s personal postmodern subjectivity is, in this latter case, swapped for a political subjectivity whose postmodern nature is masked by its self-conscious appeals to radical traditionalism and an outright hostility to (post)modernity as such. As Laurie Ouellette and Sarah Banet-Weiser argue:</p>
+<blockquote> "one of the primary characteristics of the extreme right is nostalgia for a particular kind of identity: the white, heterosexual man" <<cite "5" "Oullette, Laurie and Sarah Banet-Weiser. ‘Special Issue: Media and the Extreme Right: Editor’s Introduction’.">>.</blockquote>
+<p>By appealing to this nostalgia, alt-right celebrities (or "influencers", as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words:</p>
 <blockquote>I don’t need to tell black people in this room to have an identity because you all have got it. You know who you are. But I will tell that to white people. Have a goddamn identity. Have a sense of yourself. Be a part of this family. You are not an individual, you are not just an American, you are not just a citizen, you are part of this family. <<cite "*" "Caplan, Jeff. ‘White nationalist’s appearance at Texas A&M draws hundreds of protesters’.">></blockquote>
 
 <p>Spencer’s rhetoric here dovetails with Cain’s own explanation for his transformation: "it appealed to me because it made me feel a sense of belonging" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>. If Krapp’s personal memories as recorded on magnetic tape can be thought of as an externalised memory, and if that memory is the material he uses to try and cobble together an identity, then these voices in the dark serve a similar function. Unlike Krapp, whose personal identity is under threat from the ravages of time and his own presumably imminent demise, the alt-right imagines a collective identity under siege by an army of social justice warriors whose commitment to equality would consign them to the ashbin of history. In so doing, they create an affective network within which a contemporary postcognitivist subject can become radicalized.</p>
@@ -1132,15 +1162,32 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "The Alt-Right 17">><</silently>>
 
 :: The Alt-Right 17 [tar nobr]
+<p>This radical traditionalism would be all too familiar to a Samuel Beckett, a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" (Jackson 2003, 253) via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐ Actualités Pathé‐Gaumont was focused on:</p>
+<blockquote>the revival of traditional culture (through the) celebration of France’s colonial empire (and the) so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength"(Bowles 2004, 52).</blockquote> 
+<o>Beckett lived with this propaganda; as William Davies remarks:</p>
+<blockquote>Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities (2020, 4).</blockquote>
+<p>This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" (qtd in Davies, 2020, 4). Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.</p>
+<p>Notably, "Twitter", which has been renamed "X" by alt-right edgelord and plutocrat Elon Musk, is referred to as "Vichy Twitter" by commentators on the left because of the algorithmic bias towards alt-right users and content that Musk has introduced.</p>
+
+<<silently>><<set _next_passage to "The Alt-Right 18">><</silently>>
+
+:: The Alt-Right 18 [tar nobr]
+<p>Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal (2020, 1). Where Malone, however, states that he is "not much given to nostalgia" (MD 10), Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past.</p>
+<p>Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to:
+<blockquote>define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future (2002, 55). </blockquote>
+<p>This is partly a function of the topic of the play - it is no surprise that <i>Krapp’s Last Tape</i> spends most of its time on Krapp’s last tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.</p>
+
+<<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
+
+:: The Alt-Right 19 [tar nobr]
+-- connect krapp convincingly to tar and clear up this transition. --
+
+<<silently>><<set _next_passage to "The Alt-Right 20">><</silently>>
+
+:: The Alt-Right 20 [tar nobr]
 <p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one. Other communities exist online, with their own collective memories, their own postcognitive subjectivities - and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of Twitter’s hashtag-oriented activism - and other modes of being in the Information Age. Beckett’s plays, with their embodiment of selves fractured in time and space and ultimate skepticism towards any natural unity of the self, are a powerful tool for understanding the fractured inforganic self.</p>
 
-
-:: Krapp Footnote
-
-This radical traditionalism would be all too familiar to a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" (Jackson 2003, 253) via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐ Actualités Pathé‐Gaumont was focused on "the revival of traditional culture" through the "celebration of France’s colonial empire" and the "so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength" (Bowles 2004, 52). Beckett lived with this propaganda; as William Davies remarks, "Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities" (2020, 4). This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" (qtd in Davies, 2020, 4). Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.[HS2] 
-
-Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal (2020, 1). Where Malone, however, states that he is "not much given to nostalgia" (MD 10), Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past. Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to "define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future" (2002, 55). This is partly a function of the topic of the play - it is no surprise that Krapp’s Last Tape spends most of its time on Krapp’s tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.
-
+<p>[[Return -> Section 3: MEMORY]]</p>
 
 :: Section 3: PRACTICE [nobr]
 <p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
@@ -1158,114 +1205,6 @@ Davies has convincingly argued that "Samuel Beckett’s postwar depictions of ph
 This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
 
 <<silently>><<set _next_passage to "EndlessGame 1">><</silently>>
-
-:: Case Study: 36 BLACKBIRDS
-
-
-:: Generate Your Own Blackbird
-
-<p>What author do you want to generate a Blackbird Poem of? Note that it might be unethical to generate a poem in the voice of someone who is still alive.</p>
-<input type="text" id="authorName" name="authorName"> <button id="generatePoem">Generate Poem</button>
-
-<div id="loadingSpinner" style="display:none;">Loading</div>
-<div id="poemOutput"></div>
-
-<script>
-var button = document.getElementById('generatePoem');
-console.log('Button element:', button);
-
-var loadingStates = ["Loading", "Loading.", "Loading..", "Loading..."];
-var loadingIndex = 0;
-var loadingInterval;
-
-function startLoadingSpinner() {
-    loadingInterval = setInterval(() => {
-        document.getElementById('loadingSpinner').innerText = loadingStates[loadingIndex];
-        loadingIndex = (loadingIndex + 1) % loadingStates.length;
-    }, 500);
-}
-
-function stopLoadingSpinner() {
-    clearInterval(loadingInterval);
-    document.getElementById('loadingSpinner').style.display = 'none';
-}
-
-if (button) {
-    button.addEventListener('click', function() {
-        console.log('Button clicked');
-
-        var authorName = document.getElementById('authorName').value;
-        var title = "36 Blackbirds";
-        
-        var openaiApiKey = '---'; // Replace with your OpenAI API key
-
-        console.log('Sending request to OpenAI');
-
-        document.getElementById('loadingSpinner').style.display = 'block';
-        startLoadingSpinner();
-        document.getElementById('poemOutput').innerHTML = '';
-
-        fetch('https://api.openai.com/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + openaiApiKey
-            },
-            body: JSON.stringify({
-                model: 'gpt-4o',
-                messages: [
-                    {
-                        role: 'system',
-                        content: `You are a creative writing PhD who has read reams of poetry and is familiar with the style of basically every author.`
-                    },
-                    {
-                        role: 'user',
-                        content: `Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response.`
-                    }
-                ],
-                max_tokens: 500
-            })
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: ' + response.statusText);
-            }
-            console.log('Response received');
-            return response.json();
-        })
-        .then(data => {
-            console.log('Data received from OpenAI:', data);
-            stopLoadingSpinner();
-            if (!data.choices || data.choices.length === 0) {
-                throw new Error('No choices returned from OpenAI API');
-            }
-            var poem = data.choices[0].message.content.trim();
-            poem = poem.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
-            document.getElementById('poemOutput').innerHTML = `<h2>${title}</h2><h3>a poem "by" ${authorName}</h3><blockquote>${poem}</blockquote>`;
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-            stopLoadingSpinner();
-            document.getElementById('poemOutput').innerHTML = "<p>Error: " + error.message + "</p>";
-        });
-    });
-} else {
-    console.log('Button element not found');
-}
-</script>
-
-
-:: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
-This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
-
-<<silently>><<set _next_passage to "AttT 1">><</silently>>
-
-
-:: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
-A case study about my <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of [[Caryl Churchill]]'s <i>Love and Information</i> into Twine. This may be omittable in the defended dissertation, but there is room for expansion here.
-
-:: Case Study: THIS VERY DOCUMENT, THE ONE YOU ARE BROWSING THROUGH RIGHT NOW {"position":"5694,1043","size":"100,100"}
-Double-click this passage to edit it.
 
 :: EndlessGame 1 [eg nobr] {"position":"3844,1268","size":"100,100"}
 <p>Samuel Beckett's <i>Quad</i> "was first transmitted in Germany by Süddeutscher Rundfunk in 1982 under the title <i>Quadrat 1 + 2</i>. It was first transmitted by BBC2 on 16 December 1982. First published by Faber and Faber, London, in 1984" <<cite "450" "Beckett, Samuel. The Complete Dramatic Works.">>. It is a piece for four dancers, each wearing different colored robe, tracing out a repetitive pattern on a grey stage with a black backdrop. The dancers exhaust every possible permutation of these patterns, and then the screen fades to black, after which the lights come back up on the same dancers tracing the same pattern, but slowly, without percussion or color.</p>
@@ -1455,6 +1394,113 @@ Your browser does not support the video tag.
 <p>Analogously, this kind of reading strategy offers a new way to look at what happens to human body under the sign of <<define "information" "Information">> rather than mere corporality – that is, when the body is transcoded and compressed into machine-readable, numerical information and then re-translated and expanded into a human-readable format, and how the gestures thereby translated persistently mean. In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric - that is, as a self-stylized <<define "avatar" "Avatar">> in a virtual world rather than as the <<define "meat" "Meatspace">> into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.</p>
 
 [[Back->Section 3: PRACTICE]]
+
+:: Case Study: 36 BLACKBIRDS
+
+Nothing Yet.
+
+
+:: Generate Your Own Blackbird
+
+<p>What author do you want to generate a Blackbird Poem of? Note that it might be unethical to generate a poem in the voice of someone who is still alive.</p>
+<input type="text" id="authorName" name="authorName"> <button id="generatePoem">Generate Poem</button>
+
+<div id="loadingSpinner" style="display:none;">Loading</div>
+<div id="poemOutput"></div>
+
+<script>
+var button = document.getElementById('generatePoem');
+console.log('Button element:', button);
+
+var loadingStates = ["Loading", "Loading.", "Loading..", "Loading..."];
+var loadingIndex = 0;
+var loadingInterval;
+
+function startLoadingSpinner() {
+    loadingInterval = setInterval(() => {
+        document.getElementById('loadingSpinner').innerText = loadingStates[loadingIndex];
+        loadingIndex = (loadingIndex + 1) % loadingStates.length;
+    }, 500);
+}
+
+function stopLoadingSpinner() {
+    clearInterval(loadingInterval);
+    document.getElementById('loadingSpinner').style.display = 'none';
+}
+
+if (button) {
+    button.addEventListener('click', function() {
+        console.log('Button clicked');
+
+        var authorName = document.getElementById('authorName').value;
+        var title = "36 Blackbirds";
+        
+        var openaiApiKey = '---'; // Replace with your OpenAI API key
+
+        console.log('Sending request to OpenAI');
+
+        document.getElementById('loadingSpinner').style.display = 'block';
+        startLoadingSpinner();
+        document.getElementById('poemOutput').innerHTML = '';
+
+        fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + openaiApiKey
+            },
+            body: JSON.stringify({
+                model: 'gpt-4o',
+                messages: [
+                    {
+                        role: 'system',
+                        content: `You are a creative writing expert and poet who has read reams of poetry and is familiar with the style of every well-known author.`
+                    },
+                    {
+                        role: 'user',
+                        content: `Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.`
+                    }
+                ],
+                max_tokens: 500
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: ' + response.statusText);
+            }
+            console.log('Response received');
+            return response.json();
+        })
+        .then(data => {
+            console.log('Data received from OpenAI:', data);
+            stopLoadingSpinner();
+            if (!data.choices || data.choices.length === 0) {
+                throw new Error('No choices returned from OpenAI API');
+            }
+            var poem = data.choices[0].message.content.trim();
+            poem = poem.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
+            document.getElementById('poemOutput').innerHTML = `<h2>${title}</h2><h3>a poem "by" ${authorName}</h3><blockquote>${poem}</blockquote>`;
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            stopLoadingSpinner();
+            document.getElementById('poemOutput').innerHTML = "<p>Error: " + error.message + "</p>";
+        });
+    });
+} else {
+    console.log('Button element not found');
+}
+</script>
+
+
+:: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
+This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
+
+<<silently>><<set _next_passage to "AttT 1">><</silently>>
+
+
+:: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
+A case study about my <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of [[Caryl Churchill]]'s <i>Love and Information</i> into Twine. This may be omittable in the defended dissertation, but there is room for expansion here.
 
 
 :: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}

@@ -61,6 +61,7 @@ Macro.add('scrolldown', {
 		}, Engine.minDomActionDelay);
 	}
 });
+
 function startCamera() {
     const videoElement = document.getElementById('cameraVideo');
     console.log("Butt!")
@@ -154,13 +155,15 @@ escape:"esc",plus:"+",mod:/Mac|iPod|iPhone|iPad/.test(navigator.platform)?"meta"
 this._directMap={};return this};d.prototype.stopCallback=function(a,b){if(-1<(" "+b.className+" ").indexOf(" mousetrap ")||D(b,this.target))return!1;if("composedPath"in a&&"function"===typeof a.composedPath){var c=a.composedPath()[0];c!==a.target&&(b=c)}return"INPUT"==b.tagName||"SELECT"==b.tagName||"TEXTAREA"==b.tagName||b.isContentEditable};d.prototype.handleKey=function(){return this._handleKey.apply(this,arguments)};d.addKeycodes=function(a){for(var b in a)a.hasOwnProperty(b)&&(n[b]=a[b]);p=null};
 d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){return function(){return a[b].apply(a,arguments)}}(b))};d.init();q.Mousetrap=d;"undefined"!==typeof module&&module.exports&&(module.exports=d);"function"===typeof define&&define.amd&&define(function(){return d})}})("undefined"!==typeof window?window:null,"undefined"!==typeof window?document:null);
 
-:: Beginning [StoryInit]
+:: StoryInit [StoryInit]
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
 
 <<set $score to 0>>
 <<set $guesses to 0>>
 <<set $guessed to []>>
+<<set $guess_values to {}>>
+<<set $guessingTutorial to false>>
 
 <<set $selectedBox to 0>>
 <<set $selectedSpool to "">>
@@ -179,7 +182,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<span id="top-back-button">
 			<<if State.length > 1>>
 				<i class='material-icons' id="top-back-icon">
-					<<back "west">>
+					<<return "west">>
 				</i>
 			<</if>>
 		</span>
@@ -191,12 +194,18 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 				</i>
 			<</if>>
 		</span>
-/*		
+
 	<<if tags().includes("definition")>>
-		<<definitionGuess true>> 
+		<<set _current_passage to passage()>>
+		<<if not $guessed.includes(_current_passage)>>
+			<<definitionGuess true>>
+		<<else>>
+			<<print $guess_values[passage()]>>
+		<</if>>
+		<<addclass "#passages" "spaced">>
 	<</if>>
 	</div>
-*/
+
 
 	<<script>>
 		Mousetrap.bind("right", function() {
@@ -421,43 +430,46 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <</widget>>
 
 <<widget "definitionGuess">>
+	<<if not $guessingTutorial>>
+		<<script Twinescript>>
+			Dialog.setup("Tutorial");
+			Dialog.wiki("You have unlocked the GUESSING GAME.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.");
+			Dialog.open();
+		<</script>>
+		<<set $guessingTutorial to true>>
+	<</if>>
   <<set _isAI to !tags().includes("gpt")>>
   <<set _currentPassage to passage()>>
 
-	  <span class="guess-button" id="guess-human-$_currentPassage">
+	  <span class="guess-button" id="guesser">
 		  <<button "Human">>
 		    <<set $guesses += 1>>
-		    $guessed.push[_currentPassage]
+		   	<<set $guessed.push(passage())>>
+		    <<if _isAI>>
+		      <<set $score += 1>>
+					<<set $guess_values[passage()] to "✅ Human ✅">>
+		    <<else>>
+					<<set $guess_values[passage()] to "❌ 🤖 ❌">>
+		    <</if>>
+				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
+				<<replace #story-caption>><<display "StoryCaption">><</replace>>
+		  <</button>>
+
+		  <<button "🤖">>
+		    <<set $guesses += 1>>
+		    <<set $guessed.push(passage())>>
 		    <<if !_isAI>>
 		      <<set $score += 1>>
-		      console.log($score)
-		      <<run UI.alert("Correct! This passage was written by a human.")>>
+		      <<set $guess_values[passage()] to "✅ 🤖 ✅">>
 		    <<else>>
-		      <<run UI.alert("Incorrect. This passage was written by an AI.")>>
+		    	<<set $guess_values[passage()] to "❌ Human ❌">>
 		    <</if>>
+				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
+				<<replace #story-caption>><<display "StoryCaption">><</replace>>
 		  <</button>>
-		</span>
-
-	  <<button "AI">>
-	    <<set $guesses += 1>>
-	    $guessed.push[_currentPassage]
-	    <<if _isAI>>
-	      <<set $score += 1>>
-	    <<else>>
-	      <<run UI.alert("Incorrect. This passage was written by a human.")>>
-	    <</if>>
-	  <</button>>
+	  </span>
 
 	<</widget>>
-
-	<<widget "sidebarScore">>
-		<<if $guesses > 0>>
-		  <div id="score-box">
-		    <p>Score: <<print $score>></p>
-		    <p>Guesses: <<print $guesses>></p>
-		  </div>
-		<<endif>>
-<</widget>>
 
 
 
@@ -566,9 +578,17 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''C 1'>><</link>><br>
 </div>
 
+
 <div id="settings-list">
+
 	<<link '<div class= "settings-button"><i class="material-icons">help</i> <span class="settings-text">Guide</span></div>' 'Guide'>><</link>>
 	<<link '<div class= "settings-button"><i class="material-icons">fact_check</i> <span class="settings-text">Glossary</span></div>' 'Glossary'>><</link>>
+		<<if $guesses > 0>>
+			  <span id="score-box">
+			    Score: <<print $score>>/<<print $guesses>>
+				</span>
+				<br>
+	<</if>>
 	<<link '<div class="settings-button" id="bookmark-link"><i class="material-icons">bookmark</i> <span class="settings-text">Bookmarks</span></div>' 'Bookmarks'>><</link>>
 	<br>
 	<div class="settings-button" id="save-button"><i class="material-icons">save</i> <span class="settings-text">Save</span></div>

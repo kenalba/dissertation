@@ -6,7 +6,10 @@
 })>>
 
 <<for _i to 0; _i lt _sortedPassages.length; _i++>>
-	<<define _sortedPassages[_i].title>><br>
+	<<define _sortedPassages[_i].title>>
+		<<if $guessed.includes(_sortedPassages[_i].title)>>
+			-- <<print $guess_values[_sortedPassages[_i].title]>>
+		<</if>><br>
 <</for>>
 
 :: Signal [definition nobr] {"position":"2015,2502","size":"100,100"}
@@ -15,16 +18,16 @@ The signal is the part of a message that's not <<define "noise." "Noise">> See a
 :: Noise[definition] {"position":"2140,2502","size":"100,100"}
 The noise is the part of the message that's not <<define "signal." "Signal">> See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
-:: Inforg [definition GPT-3]
+:: Inforg [definition gpt]
 <p>A portmanteau of the words "information" and "organism."</p>
 
 <p>The term was first coined by <<cite "GPT-3" "GPT-3">> in their essay "<a href="https://www.gwern.net/docs/ai/2020-gpt3.pdf">Inforgs and the Future of Life</a>," in which they argued that the future of life would be dominated by <<define "Inforgs" "Inforgs">>, organisms that are "entirely composed of <<define "information" "Information">>."</p>
 
 <p>GPT-3 argues that Inforgs will be capable of "reproducing," "evolving," and "adapting" to their environments in ways that traditional organisms cannot, and that they will eventually come to dominate the Earth. They also suggest that Inforgs may one day merge with traditional organisms, eventually leading to the emergence of a new class of life forms that are part Inforg and part traditional organism.</p>
 
-<p><b>Luciano Floridi, who actually coined the term,</b> defines an <i>inforg</i> as "any entity that possesses at least one <<define "system" "System">>-level function the performance of which requires the process of <<define "information" "Information">>" <<cite "10" "Floridi, Luciano. The 4th Revolution.">>. Floridi's primary interest is in understanding the ways in which <<define "information" "Information">> has become an organizing principle in nature, and the ways in which we might best conceptualize the world as an <<define "information-based ecosystem" "Information-Based Ecosystem">>.</p>
+<p><b>ed. note: Luciano Floridi, who actually coined the term,</b> defines an <i>inforg</i> as "any entity that possesses at least one <<define "system" "System">>-level function the performance of which requires the process of <<define "information" "Information">>" <<cite "10" "Floridi, Luciano. The 4th Revolution.">>. Floridi's primary interest is in understanding the ways in which <<define "information" "Information">> has become an organizing principle in nature, and the ways in which we might best conceptualize the world as an <<define "information-based ecosystem" "Information-Based Ecosystem">>.</p>
 
-:: Viduity [definition GPT-3]
+:: Viduity [definition gpt nobr]
 <p>Viduity is the state of being a widow. It comes from the Latin <i>vidua</i>, meaning widow, which comes in turn from the Proto-Indo-European *widhwo-, meaning empty, desolate, void. This root also gave rise to the Sanskrit <i>vidhava</i>, meaning abandoned, destitute, lonely, and the Hittite <i>witiya-</i>, meaning to abandon.</p>
 
 <p>The root also gave rise to the English word "vide," meaning to see. This is related to the Latin <i>videre</i>, meaning to see, and the Proto-Indo-European *weyd-, meaning to see. This root also gave rise to the Sanskrit <i>vid</i>, meaning to know, and the Old Irish <i>fid</i>, meaning seer.</p>
@@ -37,15 +40,18 @@ The noise is the part of the message that's not <<define "signal." "Signal">> Se
 
 <p>All of these words are related to the concept of knowledge. They all come from the same root, which has to do with seeing. </p>
 
-:: Prosthetic [definition GPT-3]
-<p>A prosthetic is "an artificial device used to replace a missing body part" <<cite "OED" "Oxford English Dictionary">>. This definition is useful because it captures both the materiality of the prosthesis and its function - the way in which it supplements or augments the functionality of the body. In a secondary definition, the OED defines a prosthesis as "an addition to or modification of the body for cosmetic or therapeutic purposes"</p>
+:: Prosthetic [definition nobr]
+<p>A prosthetic is "an artificial device used to replace a missing body part" <<cite "OED" "Oxford English Dictionary">>. This definition is useful because it captures both the materiality of the prosthesis and its function - the way in which it replaces the functionality of a part of body. In a secondary definition, the OED defines a prosthesis as "an addition to or modification of the body for cosmetic or therapeutic purposes", which gestures towards the flexibility of the term. On the one hand, you have "replacement"; on the other, "addition or modification." There's an interesting distinction here; in the former case, a prosthetic drives an "abnormal" body back to "normal" functionality. The latter is more flexible, though, and in my view more interesting, gesturing as it does towards the possibility of a prosthesis not oriented towards an imagined norm but instead towards the construction of a newer kind of human.</p>
 
-<p>This definition is also useful because it captures the way in which prostheses are not just about physical augmentation, but also about psychological augmentation. This is the sense in which I use the term in this study. I am interested in the way in which people use technology to supplement or augment their identity, their sense of self. This might be something as simple as using <<define "Twitter" "Twitter">> to share thoughts with the world, or something more complex like <<define "cyborg" "Cyborg">>, where technology and the body are so intertwined that they become difficult to separate,.</p>
+<p>This definition is also useful because it captures the way in which prostheses are not just about physical augmentation, but also about psychological augmentation. This is the sense in which I use the term in this study. I am interested in the way in which people use technology to supplement or augment their identity, their sense of self. This might be something as simple as using <<define "Twitter" "Twitter">> to share thoughts with the world, or something more complex like the <<define "cyborg" "Cyborg">>, where technology and the body are so intertwined that they become difficult to separate.</p>
 
-:: Multiple Drafts [definition todo]
-Define this!
+:: Multiple Drafts [definition nobr]
+<p>In <i>Consciousness, Explained</i>, Dan Dennett advances a theory of mind he calls the "Multiple Drafts model." He situates this model as a sharp departure from what he calls the "Cartesian Theater", whereby numerous perceptual and cognitive subystems come together in an "obscure 'center' of the mind/brain" where it "all comes together" and "consciousness happens" <<cite "39" "Dennett, Daniel. Consciousness Explained.">>. Conversely, the Multiple Drafts model posits that:</p>
+<blockquote>... all varieties of perception - indeed, all varieties of thought or mental activity - are accomplished in the brain by parallel, multitrack processes of interpretation and elaboration of sensory inputs. Information entering the nervous system is under continuous 'editorial revision.' [...] These editorial processes occur over large fractions of a second,
+during which time various additions, incorporations, emendations, and overwritings of content can occur, in various orders. <<cite "111" "112" "Dennett, Daniel. Consciousness Explained.">></blockquote>
+<p>Dirk van Hulle discusses how Beckett's late explorations of human consciousness anticipate the Multiple Drafts model, particularly in the work <a target="_blank" href="https://especiallygreatliterature.com/ceiling.html">Ceiling</a> (which I have adapted to Twine <a target="_blank" href="https://www.especiallygreatliterature.com/twineceiling.html">here</a>). For van Hulle, "Ceiling" is structured as a "succession of drafts", where each paragraph can be interpreted as a "stage or draft in the protagonist's cognitive process, according to Dennett's model." van Hulle goes one step further, in fact, arguing that "Ceiling" moves beyond the Multiple Drafts model by "integrating the reference to the ceiling in the cognitive process of coming to", thus also prefiguring the <<define "extended mind">> theory of consciousness<<cite "285" "van Hulle, Dirk. ‘The Extended Mind and Multiple Drafts: Beckett’s Models of the Mind and the Postcognitivist Paradigm,'">>.</p>
 
-:: Wetware [definition]
+:: Wetware [definition nobr]
 <p>Wetware is a term that refers to the human brain and nervous system, with the implication that the brain is analogous to a computer. The term was coined by Gregory Bateson in his 1972 book <i>Steps to an Ecology of Mind</i> <<cite "247" "Bateson, Gregory. Steps to an Ecology of Mind.">>, which was a collection of essays written over the course of 20 years. It was popularized by Timothy Leary in his 1977 book <i>Exo-psychology</i> <<cite "119" "Leary, Timothy. Exo-psychology.">>, and has been used by a number of science fiction authors, including William Gibson in his 1984 novel <i>Neuromancer</i> <<cite "179" "Gibson, William. Neuromancer.">>.</p>
 
 
@@ -65,7 +71,7 @@ Define this!
 :: Trace [definition todo] {"position":"3719,1968","size":"100,100"}
 C.f. Derrida's notion of the "trace".
 
-:: Interface [definition nobr]
+:: interface [definition nobr]
 <p>The etymology of "interface" is, as most etymologies are, suggestive. "Inter-" as a prefix denotes something "situated or occurring between things, or in the midst of something", which is no surprise. "Face", on the other hand, is generally here taken in its second meaning - "the surface, or one of the surfaces, of anything" - but, in the field of human-computer interface studies, overlaps significantly with the primary usage of "face" as "the front part of the head" <<cite "*" "Oxford English Dictionary">>. In other words, an "interface" is literally where two surfaces, or two faces, meet and interact, the site of information transmission and communication.</p>
 <p>The more contemporary (and, here, germane) definition of interface as "a means or place of interaction between two systems, organizations, etc.; a meeting-point or common ground between two parties, systems, or disciplines" was probably coined by Marshall McLuhan, who used it to describe the space where different historical eras met (e.g. "medieval pluralism" and "modern homogeneity and mechanism" <<cite "141" "McLuhan, Marshall. Gutenberg Galaxy.">></p>
 <p>In computing, "interface" has come to stand in for the means by which the user engages with their technology. <<define "UI">> designers optimize these user interfaces to make technological operation as appealing and delightful as possible. In <i>Being and the Screen: How the Digital Changes Perception</i>, Stéphane Vial glosses this meaning in reference to computer science specifically as:</p>
@@ -73,7 +79,7 @@ C.f. Derrida's notion of the "trace".
 <p>In his essay "In The Beginning... Was The Command Line", Neal Stephenson writes at length about the transition from the complex, word-based "command line" interface of older technology, where the user is responsible for "sending bits directly to the chip that's doing the arithmetic", to the graphical user interface, where the user's power is limited in the interest of providing a user-friendly experience. See <<excerpt "MGBs, Tanks, and Batmobiles">> and <<excerpt "HCI and GUI">> for more on the topic.</p>
 <p>Intruigingly, the <<define "LLM">> boom has seen a resurgance in word-based command-line-style interfaces; when interacting with an abstract agent like a large language model, a chat interface is powerful, flexible, and familiar; on the other hand, given that we mostly use this style of chat interface with other humans, it does accelerate the anthropomorphization of these models.</p>
 
-:: Database [definition nobr GPT-3]
+:: Database [definition nobr gpt]
 <p>A database is a collection of data that can be queried in some way to produce <<define "information" "Information">>. In the early days of computing, databases were often hierarchical or networked, but the most common type today is the relational database, which arranges data in tables with rows and columns. 
 </p>
 <p>
@@ -89,26 +95,19 @@ Databases are a central part of how <<define "information" "Information">> is ma
 <p> A person is also a database, where the data is stored in the <<define "brain" "Brain">>.
 </p>
 
-:: Brain [definition nobr GPT-3]
+:: Brain [definition nobr gpt]
 <p>Biologicaly, the brain is an organ made up of neurons that resides in the skull, and which is responsible for the execution of many functions, from controlling the body's autonomic nervous system to processing <<define "information" "Information">>.</p>
 
 <p>In popular discourse, the brain is more frequently used as a metaphor for the mind. In this sense, the brain is often used as a shorthand for the human capacity for cognition and memory, "the seat of the emotions and of the will" <<cite "OED" "Oxford English Dictionary">>.</p>
 
 <p>This metaphorical sense of the brain is often used as a stand-in for the self. In a <<define "neurocentric">> world-view, the self is a product of the brain, and the mind is in service of the brain's goals. This is in contrast to a more <<define "ecological">> perspective, in which the self is seen as a product of the relationships between the brain and the environment. This ecologist perspective sees the mind as a set of functions that not only enable the brain to interact with the environment, but also enable the brain to change in response to the environment. This embodied perspective is in contrast to a more disembodied perspective, in which the brain is seen as a self-contained system that is only tangentially related to the body and the environment.</p
 
-:: Meaning [definition nobr gpt-3]
+:: Meaning [definition nobr gpt]
 <b><p>For the Wittgenstein of the <i>Philosophical Investigations</i>, the meaning of a word depends on how it is used within a particular language-game. In other words, meaning depends on usage. In an information theoretical context, then, for <<define "data" "Data">> to become meaningful is for it to become useful within a particular context. This definition relies, however, on a player of the language game to whom the concept of "meaning" is not itself meaningless. For data to become meaningful, then, is for data to become instrumentally valuable.</p>
 
 <p>Troublingly, however, this use-based notion of meaning moves all information into the realm of the subjective except inasmuch as a language game is consensual and universal. </p></b>
 
 <p>Further, the ways in which meaning can be thought of as subjective or objective is a critical line of inquiry. To what extent is the meaning of <<define "information" "Information">> itself determinate? How much is it a product of the biases of the people designing and interpreting the systems of information processing?</p>
-
-
-:: cognitive assemblage [definition todo] {"position":"1628,2473","size":"100,100"}
-"Cognitive assemblages are tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings."
-N. Katherine Hayles, 
-
-"Writing // Posthuman: The Literary Text as Cognitive Assemblage." p3`
 
 
 :: Shannon Information [definition nobr]
@@ -125,8 +124,8 @@ N. Katherine Hayles,
 
 <p>In short, information is "a <<define "difference" "Derridean Difference">> that makes a difference."" The first 'difference' is, in its simplest form, a bit – a portmanteau for ‘binary digit,’ a zero or a one. The latter, however, pushes the informational out of the realm of mathematics and into the purview of the humanities. To make a difference is to have meaning, which implies a receiver capable of construing meaning. For N. Katherine Hayles as well as Bateson, this receiver can be one of a number of cognitive systems - a human mind, a smart phone, an e-reader - that processes data and embeds it in a particular context.</p>
 
-:: Critique of Judgment [definition nobr GPT-3]
-<p>Kant's </i>Critique of Judgment</i>, a cornerstone of his philosophical works, delves into the intricate relationship between aesthetics, nature, and human cognition. Within this philosophical masterpiece, Kant examines the faculties that govern our judgments of beauty, art, and the sublime, while also exploring the connections between aesthetics and morality.</p>
+:: Critique of Judgment [definition nobr gpt]
+<p>Kant's <i>Critique of Judgment</i>, a cornerstone of his philosophical works, delves into the intricate relationship between aesthetics, nature, and human cognition. Within this philosophical masterpiece, Kant examines the faculties that govern our judgments of beauty, art, and the sublime, while also exploring the connections between aesthetics and morality.</p>
 <p><i>The Critique of Judgment</i> consists of two main parts: the "Critique of Aesthetic Judgment" and the "Critique of Teleological Judgment." In the first part, Kant delves into aesthetics, pondering the nature of beauty and artistic experiences. He introduces the concept of "judgments of taste," which, according to Kant, are based on subjective feelings of pleasure without relying on a determinate concept. Kant's famous phrase, "Beauty is what pleases universally without a concept," encapsulates this perspective.</p>
 <p>Kant explores how individuals reach consensus on matters of beauty, proposing that aesthetic judgments possess a certain universality, albeit rooted in shared human cognitive faculties. This universality, he suggests, bridges the gap between individual subjectivity and the realm of objective judgment, providing a fascinating intersection between the personal and the universal.</p>
 <p>The second part of the <i>Critique of Judgment</i> focuses on teleology, investigating how humans attribute purpose and design to nature. Kant introduces the concept of "reflective judgment," where we attempt to understand natural phenomena in terms of underlying principles and purposes. He posits that our attempts to explain the natural world through concepts of purpose reveal an innate human tendency to seek meaning and order in our surroundings.</p>
@@ -267,7 +266,7 @@ Pragmatically, however, fair use is governed by a system of norms agreed upon by
 
 [[Information should be free.]]
 
-:: Information should be free. [definition nobr gpt3] {"position":"4069,2268","size":"100,100"}
+:: Information should be free. [definition nobr gpt] {"position":"4069,2268","size":"100,100"}
 <p>In the context of librarianship, "Information should be free" is a rallying cry against the commodification of information and the privatization of public information. In the context of the internet and the digital humanities, it is a rallying cry against the privatization of cultural heritage and the digital divide. In the context of the contemporary moment, it is a rallying cry against the manipulation of information and the pernicious effects of datafication.</p>
 
 <p>The Wikipedia article on the history of the phrase tells the story of the slogan's birth:</p>
@@ -286,13 +285,6 @@ The phrase "Information wants to be free" was popularized by Stewart Brand durin
 <p>In the context of the digital humanities, the phrase has been taken up by the [[Open Access movement->Open Access]] and its proponents. According to the Open Access website, "Open Access is a set of principles and a range of practices through which research outputs are distributed online, free of cost or other barriers, and, in its most precise meaning, with the addition of an open license applied to promote reuse." <<cite "14" "Open Access">></p>
 
 <p>Open Access's intersection with information wanting to be free is clear. Information, as the DPLA puts it, is a "fundamental right." As such, the move to make it more accessible is a matter of justice, not philanthropy. In this way, information wanting to be free is also a rallying cry against the digital divide. That is, it is a rallying cry for equality of access to information, for the internet to be seen as a public utility, and for the the internet's basic infrastructure to be supported by and responsible to the communities it serves. In this way, information wanting to be free is also a rallying cry against the manipulation of information. That is, it is a rallying cry for the right of individuals to control their own information, for the right of individuals to control their own lives, and for the right of individuals to have access to the tools they need to do that.</p>
-
-:: Feedback Loop [definition GPT-3]
-<p>In <<cybernetics->Cybernetics>>, a feedback loop is a system of circuits in which the output of a circuit influences the input of that same circuit, either directly or indirectly. The feedback loop is the basis for the self-regulating nature of biological systems, and is a key element of the <<cybernetic->Cybernetic>> perspective. The term was first used in this context by <<Norbert Wiener->Wiener>>, who defined it as "the sum of the relations between the elements of a system as they actually are and the elements of the same system as they might be under the influence of a message" <<cite "91" "Wiener, Norbert. Cybernetics.">>. This <<feedback-loop->Feedback Loop>> is a key concept in the understanding of <<cybernetics->Cybernetics>> and of <<information->Information>> as a whole; as Wiener notes, “[i]t is through the feedback loop that the self-regulatory nature of the organic being manifests itself.”</p>
-
-<p>This self-regulatory nature of feedback loops can be seen in everyday life; for example, the way a thermostat regulates the temperature in a room by turning the heater on and off based on the current temperature. The term is also used in psychology and sociology to refer to the ways in which individuals’ expectations and beliefs shape their perceptions of the world around them. In this context, a <<feedback-loop->Feedback Loop>> is a self-reinforcing relationship between two or more variables, where each change in a variable reinforces the change in the other variable.</p>
-
-<p>The <<feedback-loop->Feedback Loop>> is a key concept in the understanding of <<cybernetics->Cybernetics>> and of <<information->Information>> as a whole; as Wiener notes, “[i]t is through the feedback loop that the self-regulatory nature of the organic being manifests itself.”</p>
 
 :: Hyperhistory [definition nobr gpt]
 
@@ -320,7 +312,7 @@ The phrase "Information wants to be free" was popularized by Stewart Brand durin
 <p>Some media forms are nostalgic by nature; photography, for example, is in Susan Sontag's telling, is both "a reminder of death" and an "invitation to sentimentality" that turns "the past into an object of tender regard" <<cite "71" "Sontag, Susan. On Photography">>.</p>
 <p>The nostalgic impulse is considerably more harmful in the political realm, where it often takes the form of a retrograde privileging of a counterfactual version of history and, in a move which is by definition conservative, seeks a return to that earlier time.</p>
 
-:: Speech Act Theory [definition nobr GPT-3]
+:: Speech Act Theory [definition nobr gpt]
 <p>"Speech Act Theory," pioneered by J.L. Austin and further developed by subsequent scholars, explores the intricate dynamics of language beyond its mere propositional content. This theory delves into the idea that when individuals communicate, they not only convey information but also perform various actions, referred to as "speech acts," that have social, pragmatic, and often transformative implications.</p>
 <p>J.L. Austin's groundbreaking work in the mid-20th century challenged the traditional understanding of language as a tool primarily for describing reality. Instead, he highlighted the performative nature of language, wherein <<define "utterances" "utterance">> can serve as acts that influence the world and the interactions between individuals. Austin classified speech acts into three categories:</p>
 <ol>
@@ -374,7 +366,7 @@ Users are 4chan are anonymous - or Anonymous, depending on your perspective - an
 
 <p>THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
 
-:: Y2K [definition nobr GPT-3]
+:: Y2K [definition nobr gpt]
 
 <p>"Y2K," short for "Year 2000," refers to the global technological concern that emerged as the 20th century drew to a close. The Y2K issue was rooted in the way computer systems and software represented years using two-digit date formats (e.g., "99" for 1999). As the year 2000 approached, there was widespread apprehension that these systems would interpret "00" as the year 1900 instead of 2000, potentially causing significant malfunctions, errors, and disruptions across various sectors.</p>
 <p>Y2K garnered extensive attention due to the reliance of numerous critical systems, including financial institutions, utilities, transportation networks, and government agencies, on computer technology. Concerns included the potential for incorrect calculations, malfunctioning embedded systems, and data corruption, all of which could have far-reaching consequences for both daily life and global infrastructure.</p>
@@ -442,39 +434,42 @@ Per <a target="_blank" href="https://en.wikipedia.org/wiki/Key_frame">Wikipedia<
 
 For animation, a keyframe can be thought of like a single snapshot of a stop-motion animation. Each keyframe is (generally) manually posed. This works differently than animation which leverages <<define "motion-capture data" "Motion-capture data">> to transcode captured <<define "meatspace" "Meatspace">> gestures into data that can be used to animate a model.
 
-:: Thought Experiment [definition GPT-3]
+:: Thought Experiment [definition nobr gpt]
 <p>Thought experiments are hypothetical situations that allow us to explore what would happen if a particular principle were true, or a particular thing were the case. They are useful in philosophy and science, because they allow us to explore the implications of a particular idea without having to actually go through the process of making that idea a reality. In philosophy, the thought experiment is often used to explore the implications of a particular principle, or to show that a particular principle is false. In science, thought experiments are used to explore the implications of a particular theory, or to develop new theories.</p>
 
 <p>Some common thought experiments in philosophy include the <<define "Chinese Room Argument">>, which was used by John Searle to show that computers cannot be said to understand language, and the <<define "Trolley Problem">>, which is used to explore the implications of different ethical theories.</p>
 
-<p> Daniel Dennett's term "intuition pump" is closely related to the thought experiment; an intuition pump is a thought experiment that is designed to help us understand a particular concept by providing a concrete example of it. Intuition pumps are often used in philosophy and cognitive science to help us understand complex concepts like consciousness and free will. For more on intuition pumps, see Daniel Dennett's book <i>Intuition Pumps and Other Tools for Thinking</i>. </p>
+<p>Daniel Dennett's term "intuition pump" is closely related to the thought experiment; an intuition pump is a thought experiment that is designed to help us understand a particular concept by providing a concrete example of it. Intuition pumps are often used in philosophy and cognitive science to help us understand complex concepts like consciousness and free will. For more on intuition pumps, see Daniel Dennett's book <i>Intuition Pumps and Other Tools for Thinking</i>. </p>
 
-<p> Works of science fiction often have thought experiments as their premises.<p>
-
-:: Chinese Room Argument [definition] {"position":"1154,809","size":"100,100"}
+:: Chinese Room Argument [definition nobr gpt]
 <p>The Chinese Room Argument is a thought experiment that was first proposed by John Searle in 1980. It is designed to show that computers cannot be said to understand language. The argument goes as follows:</p>
-
-<p>Suppose that I am locked in a room, and that I am given a set of rules in English that tell me how to respond to questions in Chinese. I do not understand Chinese, but I can follow the rules, and so I can give correct answers to questions in Chinese. Now, suppose that someone outside the room asks me a question in Chinese. I look up the rules, and I give them a correct answer. But do I understand Chinese? No, I do not. I am just following rules. Similarly, computers do not understand language, they just follow rules. Therefore, computers cannot be said to understand language.</p>
-
+<blockquote>Suppose that I am locked in a room, and that I am given a set of rules in English that tell me how to respond to questions in Chinese. I do not understand Chinese, but I can follow the rules, and so I can give correct answers to questions in Chinese. Now, suppose that someone outside the room asks me a question in Chinese. I look up the rules, and I give them a correct answer. But do I understand Chinese? No, I do not. I am just following rules. Similarly, computers do not understand language, they just follow rules. Therefore, computers cannot be said to understand language.</blockquote>
 <p>The Chinese Room Argument has been the subject of a great deal of debate, and there are many different ways of interpreting it. For more on the Chinese Room Argument, see John Searle's book <i>Minds, Brains, and Science</i>. </p>
 
-:: Trolley Problem [definition GPT-3]
-<p>The <<excerpt "Trolley Problem">> is a thought experiment that is used to explore the implications of different ethical theories. The problem goes as follows:</p>
+:: Trolley Problem [definition gpt nobr]
+<p>The is a thought experiment that is used to explore the implications of different ethical theories. The problem goes as follows:</p>
 
 <p>You are driving a trolley, and you see that there are five people in the path of the trolley. You can either do nothing, and the trolley will kill the five people, or you can pull a lever, and the trolley will switch to a different track, killing one person. What should you do?</p>
 
-<p>The trolley problem is often used to show that utilitarianism is the correct ethical theory. According to utilitarianism, the right thing to do is the thing that will produce the greatest amount of happiness for the greatest number of people. In this case, the right thing to do is to pull the lever, because it will produce more happiness overall. However, there are many different ways of interpreting the trolley problem, and it is not clear that it shows that utilitarianism is the correct theory. For more on the trolley problem, see Peter Singer's book <i>Practical Ethics</i>. </p>
+<p>The trolley problem is often used to show that utilitarianism is the correct ethical theory. According to utilitarianism, the right thing to do is the thing that will produce the greatest amount of happiness for the greatest number of people. In this case, the right thing to do is to pull the lever, because it will produce more happiness overall. However, there are many different ways of interpreting the trolley problem, and it is not clear that it shows that utilitarianism is the correct theory. For more on the trolley problem, see Peter Singer's book <i>Practical Ethics</i>.</p>
 
-:: Euthyphro Dilemma [definition GPT-3]
+:: Euthyphro Dilemma [definition gpt]
 <p>The <<excerpt "Euthyphro Dilemma">> is a thought experiment that was first proposed by Socrates. It is designed to show that the traditional conception of piety is false. The problem goes as follows:</p>
 
 <p>Euthyphro is a man who has been charged with impiety, and he is trying to defend himself. Socrates asks him to define piety, and Euthyphro says that it is "the doing of what is dear to the gods." Socrates then asks whether the gods love what is pious because it is pious, or whether it is pious because the gods love it. Euthyphro cannot give a satisfactory answer to this question, and so Socrates concludes that the traditional conception of piety is false. For more on the Euthyphro Dilemma, see Plato's dialogue <i>Euthyphro</i>. </p>
 
-:: Zuhanden [definition todo]
-Define this!
+:: zuhanden and vorhanden [definition nobr]
+<p>John McQuarrie and Edward Robinson's translation of Martin Heideggers <i>Being and Time</i> contains a glossary of German Expressions which glosses "zuhanden" and "Zuhandenheit" as "ready-to-hand" and "readiness-to-hand", respectively <<cite "520" "Heidegger, Martin. Being and Time.">>. This term is contrasted with "vorhanden" and "Vorhandenheit", or "present-at-hand" and "presence-at-hand" <<cite "518" "Heidegger, Martin. Being and Time.">>. Where the ready-to-hand describes our "practical relationship to things that are handy or useful", the present-at-hand instead describes "our theoretical apprehension of a world made up of objects" <<cite "*" "Critchley, Simon. 'Being and Time, part 3: Being-in-the-world.'">>. Crucially, for Heidegger the zuhanden precedes the vorhanden; that is, practice precedes theory, and our initial apprehension of objects in the world is ordinarily and fundamentally oriented towards what those objects do and can be used for.</p>
 
-:: Vorhanden [definition todo]
-Define this!
+<p>What fascinates me is the relationship between zuhanden and vorhanden, and the way that a broken tool, a piece of equipment poorly suited for its purpose, announces its own presence as a result of its inutility. In Heidegger's words:</p>
+<blockquote>
+When we concern ourselves with something, the entities which are most closely ready-to-hand may be met as something unusable, not properly adapted for the use we have decided upon. The tool turns out to be damaged, or the material unsuitable. In each of these cases <i>equipment</i> is here, ready-to-hand. We discover its unusability, however, not by looking at it and establishing its properties, but rather by the circumspection of the dealings in which we use it. When its unusability is thus discovered, equipment becomes conspicuous. This <i>conspicuousness</i> presents the ready-to-hand equipment as in a certain un-readiness-to-hand. But this implies that what cannot be used just lies there; it shows itself as an equipmental Thing which looks so and so, and which, in its readiness-to-hand as looking that way, has constantly been present-at-hand too. Pure presence-at-hand announces itself in such equipment, but only to withdraw to the readiness-to-hand of something with which one concerns oneself - that is to say, of the sort of thing we find when we put it back into repair.<br>
+[...]<br>
+Similarly, when something ready-to-hand is found missing, though its everyday presence [zugegensein] has been so obvious that we have never taken any notice of it, this makes a <i>break</i> in those referential contexts which circumspection discovers. Our circumspection comes up against emptiness, and now sees for the first time <i>what</i> the missing article was ready-to-hand <i>with</i>, and <i>what</i> it was ready-to-hand <i>for</i>. The environment announces itself afresh<<cite "103" "105" "Heidegger, Martin. Being and Time.">>.
+</blockquote>
+
+<p>In other words, there is a character to a thing which announces itself only when the usefulness of that thing breaks down. This is particularly germane in the case of the <<define "cyborg">>, where biological and technological comes together to create a hybridized being. In the case of an <<define "inforg">> with an <<define "extended mind" "the extended mind">>, for example, it is only when the technological <<define "prosthetic">> breaks down - when, for example, the battery of the cell phone serving as my prosthetic memory runs out - that "pure presence-at-hand announces itself," the phone becomes vorhanden rather than zuhanden, and my own cyborg mode of being becomes conspicuous.</p>
+
 
 :: Narrative Self [definition nobr gpt]
 
@@ -585,7 +580,7 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 <a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create [[EndlessGame->Case Study: ENDLESSGAME]] and [[Almost to the Tick->Case Study: ALMOST TO THE TICK]].
 
 
-:: virtual reality [definition nobr GPT-3] {"position":"3469,3568","size":"100,100"}
+:: virtual reality [definition nobr gpt]
 <p>The term "virtual reality" (VR) was coined in the 1980s by Jaron Lanier, one of the earliest developers of VR technology and the founder of VPL Research, a now-defunct company that was instrumental in the development of VR technology. He defined it as "a computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment" <<cite "Lanier" "Lanier, Jaron. Virtual Reality.">>. This definition is still in use today, although it has been expanded to include non-computer-generated simulations, such as those produced by 360-degree cameras.</p>
 
 <p>Lanier's definition is helpful in understanding what VR is, but it is also important to understand what VR is not. VR is not, as is often assumed, simply a computer-generated simulation of reality; it is a simulation that is designed to be interacted with in a physical way. This physicality is essential to the VR experience; without it, VR would simply be a three-dimensional movie. The interaction can take many forms, but it must be more than simply looking at the simulation; it must be an embodied experience. This is why VR technology is often referred to as "immersive technology."</p>
@@ -595,7 +590,7 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 <p>Most versions of the metaverse take place in a kind of VR.</p>
 
 
-:: Motion-Capture Data [definition nobr GPT-3]
+:: Motion-Capture Data [definition nobr gpt]
 
 <p>"Motion-capture data" refers to the digital information captured and recorded from real-world movements and actions, typically using specialized technology known as motion-capture systems. These systems utilize various sensors, cameras, and markers to track and record the motions of objects or living beings, such as humans or animals, in order to create accurate and realistic representations of movement in virtual environments.</p>
 <p>The process of capturing motion involves placing markers or sensors on key points of the subject's body, which are then tracked as the subject moves. High-speed cameras or other sensor technologies record the spatial positions and orientations of these markers over time, generating a dataset that represents the intricate details of the subject's motion. This data can then be processed and translated into a digital format that can be applied to virtual characters, models, or animations.</p>
@@ -604,13 +599,27 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 <p>One of the challenges associated with motion-capture data is the sheer volume of information generated during the capture process. Raw motion-capture data may require processing to remove noise, calibrate measurements, and align data across multiple sensors or cameras. Moreover, accurately applying the captured data to virtual models or characters requires specialized software and techniques to ensure realistic and seamless animation.</p>
 Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
 
-:: Cognition [definition GPT-3]
-<p>Cognition is a catch-all term for the various ways that humans process information. It includes everything from basic sensory processing to long-term memory to complex thought.</p>
-<p>Cognition is often used as a synonym for "consciousness," but the two terms have different connotations. "Consciousness" refers to subjective experience, while "cognition" refers to the more objective, scientific study of the mental processes that underlie it.</p>
+:: cognition [definition nobr]
+<p>For N. Katherine Hayles, cognition can be defined as "the ability to sense information from the environment, interpret it, and act in contexts that connect it with meaning" <<cite "*" "Hayles, N. Katherine. The end of being human.">>.This definition is expansive, deliberately encapsulating processes performed by both biological and technological actors; specifically, Hayles extends cognition beyond the biological and describes how humans and culture more broadly are "forming strong symbiotic bonds with computational media" <<cite "*" "Hayles, N. Katherine. The end of being human.">>.
+<p>Hayles' definition is also pragmatic, echoing the Wittgensteinian maxim that the meaning of a word is its use in a language; active cognitition turns the raw material of the noumenal world into information rendered meaningful inasmuch as it drives actions in context.</p>
+<p>This broad definition of cognition is articulated as a spectrum, from "high cognition" like abstraction, language, and mathematics to "low cognition" like pattern recognition; as posthumans in the Haylesean sense of the term, humanity has moved towards exteriorizing nonconscious, low cognition to technological apparatuses, giving rise to <<define "cognitive assemblages" "cognitive assemblage">>. This argument echoes Clark and Chalmers' discussions of <<define "the extended mind">>; in both cases, cbiological and technological systems enmeshed in cybernetic, nonconscious loops of greater or lesser complexity embody and <i>produce</i> consciousness.</p>
 
+:: cognitive assemblage [definition nobr]
+<p>A cognitive assemblage is N. Katherine Hayles' term for what Chalmers and Clark call <<define "the extended mind">>. In her words, cognitive assemblages are:</p>
 
-:: Memory [definition GPT-3]
-<p>The word "memory" is derived from the Latin <i>memoria</i>, meaning "recollection, memory, remembrance; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. The root of this word, <i>memor</i>, means "to remember, to call to mind; to mention, record, celebrate in memory; to be mindful of; to keep in mind, to keep in view" <<cite "OED" "Oxford English Dictionary">>. Memory, then, is the act or faculty of remembering, or the power of retaining knowledge acquired in the past, and is often used interchangeably with "recollection." 
+<blockquote>tighter or looser collections of technical objects and human participants through which <<define "cognitions" "cognition">> circulate in the form of information, interpretations, and meanings <<cite "3" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">>. </blockquote>
+
+<p>Hayles differs from Chalmers and Clark in focus, among other things; for her, interpretation is central, and meaning is "oriented towards a pragmatist sense of the consequences of actions" <<cite "11" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">>.</p>
+
+:: the extended mind [definition nobr]
+<p><i>From [["The Extended Mind in Krapp's Last Tape"->Krapp 5]]</i></p>
+<p>In their 1998 paper 'The Extended Mind', Andy Clark and David Chalmers address the boundary between the mind and the rest of the world and ultimately advocate for what they call "active externalism," a way of thinking about the mind that acknowledges the active role of the environment, including technological devices, in driving cognitive processes <<cite '2' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
+<p>For Clark and Chalmers, a student doing long division by hand is not just using the pen and paper as a tool; some of the work of <<define "cognition">> is actively platformed on the page. Because the mind is the seat of cognition, it makes sense to think about that student’s mind as extending beyond his skin and onto the page. In cases like these:</p>
+<blockquote>the human organism is linked with an external entity in a two-way interaction, creating a coupled system that can be seen as a cognitive system in its own right. All the components in the system play an active causal role, and they jointly govern behaviour in the same sort of way that cognition usually does. If we remove the external component the system's behavioural competence will drop, just as it would if we removed part of its brain. Our thesis is that this sort of coupled process counts equally well as a cognitive process, whether or not it is wholly in the head.<<cite '8' '9' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>></blockquote>
+<p>This <<define "cybernetic entity" "cyborg">> can be compared usefully to Hayles' <<define "cognitive assemblage">>.</p>
+
+:: Memory [definition nobr]
+<p>The word "memory" is derived from the Latin <i>memoria</i>, meaning "recollection, memory, remembrance; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. The root of this word, <i>memor</i>, means "to remember, to call to mind; to mention, record, celebrate in memory; to be mindful of; to keep in mind, to keep in view" <<cite "OED" "Oxford English Dictionary">>. Memory, then, is the act or faculty of remembering, or the power of retaining knowledge acquired in the past, and is often used interchangeably with "recollection." </p>
 
 <p>The word "memory" is also used to describe the physical apparatus through which we remember. This usage is derived from the Latin <i>memoria</i>, meaning "a store-house, a repository; a place where something is deposited for safe keeping" <<cite "OED" "Oxford English Dictionary">>. In this sense, memory is a storehouse of information, and the act of remembering is the act of retrieving this information. This usage is common in computing, where data is stored in memory – in RAM, for example – and retrieved when needed. Indeed, the word "memory" is often used to describe the capacity of a computer to store information.</p>
 
@@ -756,11 +765,22 @@ Greek etymology. Techne. Heidegger.
 :: death of the author [definition nobr todo]
 <p>Add more.</p>
 
-:: UI [definition nobr todo]
+:: UI [definition nobr]
+<p>Working product designers (that is, the people who design the <<define "interface" "interfaces">> for apps, websites, and other interactive technological media) often distinguish between UI (user interface) and <<define "UX">> (user experience). As described in <<define "Figma">>'s resource library, UI refers to the "interactivity, look, and feel of a product screen or a website" <<cite "*" "UI vs. UX: What's the Difference Between UI & UX Design?">>. A UI designer might consider things like page layout, color scheme, font selection, and interactive elements. Realistically, a designer needs to be familiar with both UI and UX to create a good product. Figuratively, if a designer is like a writer, a UI "writer" would consider things like diction, character, plot, and punctuation to make a book enjoyable (or whatever else the book is meant to be).</p>
 
-:: UX [definition nobr todo]
+<p>For this dissertation, I had to think like a UI designer when selecting the colors, fonts, stylization of the different kinds of links, the presentation of videos and images, and so on.</p>
 
-:: presence [definition nobr todo]
+<p>I had help from my friend <a href="https://www.aliceclebeau.com/">Alice C. LeBeau</a>, who is a product designer by trade; over the course of creating this dissertation, I also became a professional product designer, which is a large part of my current full-time job.</p>
+
+:: UX [definition nobr]
+<p>Working product designers (that is, the people who design the <<define "interface" "interfaces">> for apps, websites, and other interactive technological media) often distinguish between UI (user interface) and <<define "UX">> (user experience). As described in <<define "Figma">>'s resource library, UX covers "a user's overall experience with the product or the website" <<cite "*" "UI vs. UX: What's the Difference Between UI & UX Design?">>. A UX designer considers how other products solve the problems that the product is meant to solve, the information architecture of the product, user feedback, and other things when designing a user experience. Figuratively, if a designer is like a writer, a UX "writer" would consider things like genre, market, audience, and the like to make sure a book does what it's supposed to do.</p>
+
+<p>For this dissertation, I had to think like a UX designer when defining its information architecture (that is, how the different case studies could be accessed and how they were arranged), its navigation elements, the interactive elements in each case study, and how to respond to some of the different feedback I received.</p>
+
+<p>I had help from my friend <a href="https://www.aliceclebeau.com/">Alice C. LeBeau</a>, who is a product designer by trade; over the course of creating this dissertation, I also became a professional product designer, which is a large part of my current full-time job.</p>
+
+:: Figma [defintiion nobr]
+<p>Figma is a software tool used by product designers to sketch out <<define "UX">> and <<define "UI">> specs which are implemented by software engineers to create interactive technological media like apps and websites. Most of this dissertation was initially in Figma and then implemented in Twine via a combination of TweeCode, Javascript, HTML, and CSS.</p>
 
 :: diegetic [definition nobr]
 <p>The term “diegetic” comes from the Greek διήγησις (diegesis), meaning literally “narration;” the noun, in English, has come to refer to narration or recitation. Diegetic music, then, is music that occurs as a part of the narrative.  A film’s characters can hear diegetic music. When <i>O Brother Where Art Thou</i>’s Soggy Bottom Boys take the stage and sing “In The Jailhouse Now” and the crowd sings along, the music is diegetic; another example comes from <i>Blood Simple</i>, where Maurice hits the jukebox and elicits the Four Tops’ “Same Old Song.”</p>
@@ -806,3 +826,6 @@ document.getElementById('startCameraButton').addEventListener('click', function(
     }
 });
 </script>
+
+:: red pill [definition nobr]
+TODO
