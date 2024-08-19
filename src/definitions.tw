@@ -18,7 +18,7 @@ The signal is the part of a message that's not <<define "noise." "Noise">> See a
 :: Noise[definition] {"position":"2140,2502","size":"100,100"}
 The noise is the part of the message that's not <<define "signal." "Signal">> See also the case study for <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>.
 
-:: Inforg [definition gpt]
+:nforg [definition gpt]
 <p>A portmanteau of the words "information" and "organism."</p>
 
 <p>The term was first coined by <<cite "GPT-3" "GPT-3">> in their essay "<a href="https://www.gwern.net/docs/ai/2020-gpt3.pdf">Inforgs and the Future of Life</a>," in which they argued that the future of life would be dominated by <<define "Inforgs" "Inforgs">>, organisms that are "entirely composed of <<define "information" "Information">>."</p>
@@ -514,8 +514,11 @@ Similarly, when something ready-to-hand is found missing, though its everyday pr
 
 <p>I would estimate that I spent around 3500 hours on MUDs between the age of 15 and 25; I met my first girlfriend on one, through out-of-character chats, and made many friends with whom I remain close. I spent around 1000 hours as Adrian Fripp, a very important druid and one-time king, and on many days spent more time as him than as Ken Alba. Spending that much time as someone else necessarily changes the player; I would not be who I am without the time I spent growing up in this particular kind of world. Without MUDs, many of the questions that have animated my research into performance and identity would never have occurred to me.</p>
 
-:: Avatar [definition todo]
-An avatar is the electric body one projects oneself into and through in order to exist on digital platforms. Avatars are often, but not always, graphical in nature, and range from the simple "@" symbol of 1980's <i>Rogue/i> and other early dungeon crawlers to the infinitely customizable bodies available in contemporary video games like <i>Dragon Age</i> or <i>VR Chat</i>. 
+:: avatar [definition nobr gpt]
+
+<p>An avatar is a digital representation or embodiment of a user within a virtual environment, such as a video game, social platform, or other interactive digital spaces. This representation can range from simple graphical icons or pictograms to highly detailed and customizable three-dimensional figures, often reflecting aspects of the user’s <<define "identity" "information and selfhood">>, preferences, or aspirations.</p>
+<p>The concept of the avatar, originating from the Sanskrit "avatāra," meaning the descent of a deity into the earthly realm, signifies the user’s ability to project themselves into a digital space, effectively "descending" into a virtual reality. This process of embodiment allows the user to interact within the environment, engage with other avatars, and navigate the complexities of virtual worlds.</p>
+<p>Avatars serve not merely as tools of interaction but as extensions of the self, often embodying aspects of the user’s personality or <<define "persona" "Persona">>. In some contexts, the avatar functions as a mask, concealing the user’s true identity, while in others, it reveals and amplifies certain characteristics, allowing for a form of self-expression that might be limited in the physical world.</p>
 
 :: multimedial [definition nobr]
 <p>A multimedial text is a text which exists on and across multiple platforms. In the era of "Big Marvel", this can be compared to the corporate world's zest for vertical integration, but the term ought to be untethered from capitalism's totalizing yoke and instead connected with texts, like <i>Achewood</i>, which exist online, on paper, in games, and, in short, across multiple <<define "medium" "media">> forms. A multimedial text may or may not be <<define "heterogeneric" "heterogeneric,">> but the terms are not equivalent. Although different media forms do lend themselves to different genres, the two terms are distinct inasmuch as 'media' focuses on platform and the materiality of the text - as film, as game, and paper book - and 'genre' focuses on the tropes, dramatic structure, and other distinguishing features of the text.</p>

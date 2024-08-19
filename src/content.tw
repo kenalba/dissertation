@@ -47,7 +47,7 @@ Thanks, and enjoy!
 
 :: Section 2: MEMORY [nobr]
 
-<p>Introduction to Section 2 goes here.</p>
+[[Introduction ->Section 2 Introduction]]
 <hr class="solid">
 🪞 [[Case Study: HER STORY]] 🪞<br>
 
@@ -55,6 +55,7 @@ Thanks, and enjoy!
 
 🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 <br>
 <hr class="solid">
+[[Conclusion ->Section 2 Conclusion]]
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
@@ -646,6 +647,19 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 :: Section 1 Conclusions [nobr]
 I don't want to jump to conclusions here, so I won't, but eventually I'm sure to arrive at some.
 
+:: Section 2 Introduction [nobr]
+(outline)
+- Begin with a brief overview of how memory has traditionally been conceptualized in literature and philosophy, with a focus on the shift from analog to digital modes of memory storage and retrieval.
+- Introduce the concept of memory as mediated by technology, setting up the section's exploration of how different media forms influence the construction and reconstruction of memory.
+
+- Discuss the ways in which different media—such as video recordings, digital platforms, and online communities—alter the way individuals and groups remember and reinterpret the past.
+- Position memory as an active process shaped by technological interfaces, emphasizing how these tools both aid and complicate our understanding of historical and personal narratives.
+
+- Briefly introduce the three case studies (HER STORY, KRAPP'S LAST TAPE, and Meatspace: THE ALT-RIGHT*) as distinct yet interconnected explorations of memory in the digital age.
+- Highlight the thematic links between the studies, particularly their focus on fragmented narratives, the unreliability of memory, and the influence of media on identity formation.
+
+<<silently>><<set _next_passage to "Case Study: HER STORY">><</silently>>
+
 :: Case Study: HER STORY {"position":"1740,1152","size":"100,100"}
 <h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
 
@@ -666,7 +680,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 :: Her Story 2 [hs nobr]
-<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed death.</p>
+<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed <<define "death" "death of the author">>.</p>
 
 <figure>
 	<video controls>
@@ -1042,8 +1056,140 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <<silently>><<set _next_passage to "The Alt-Right 6">><</silently>>
 
-:: The Alt-Right 6 [tar nobr]
-<p>ALGORITHMS OF OPPRESSION GOES HERE</p>
+:: The Alt-Right 6 [tar]
+
+<p>To illustrate how this process might work, I've put together a little tool using generative AI. To use it, enter the title of the kind of YouTube video you're likely to watch and we'll show you how quickly an algorithm like YouTube's can connect to politically radical content.</p>
+<input type="text" id="videoTitle" name="videoTitle"> <button id="generatePipeline">Radicalize Me</button>
+
+<div id="loadingSpinner" style="display:none;">Loading</div>
+<div id="pipelineOutput"></div>
+
+<script>
+	var button = document.getElementById('generatePipeline');
+	console.log('Button element:', button);
+
+	var loadingStates = ["Loading", "Loading.", "Loading..", "Loading..."];
+	var loadingIndex = 0;
+	var loadingInterval;
+
+	function startLoadingSpinner() {
+	    loadingInterval = setInterval(() => {
+	        document.getElementById('loadingSpinner').innerText = loadingStates[loadingIndex];
+	        loadingIndex = (loadingIndex + 1) % loadingStates.length;
+	    }, 500);
+	}
+
+	function stopLoadingSpinner() {
+	    clearInterval(loadingInterval);
+	    document.getElementById('loadingSpinner').style.display = 'none';
+	}
+
+	if (button) {
+	    button.addEventListener('click', function() {
+	        console.log('Button clicked');
+
+	        var videoTitle = document.getElementById('videoTitle').value;  // Corrected this line
+	        
+	        var openaiApiKey = '---'; // Replace with your OpenAI API key
+
+	        console.log('Sending request to OpenAI');
+
+	        document.getElementById('loadingSpinner').style.display = 'block';
+	        startLoadingSpinner();
+	        document.getElementById('pipelineOutput').innerHTML = '';  // Corrected this line
+
+	        fetch('https://api.openai.com/v1/chat/completions', {
+	            method: 'POST',
+	            headers: {
+	                'Content-Type': 'application/json',
+	                'Authorization': 'Bearer ' + openaiApiKey
+	            },
+	            body: JSON.stringify({
+	                model: 'gpt-4o',
+	                messages: [
+	                    {
+	                        role: 'system',
+	                        content: `You are an alt-right researcher and educational expert who is familiar with the radicalization research.`
+	                    },
+	                    {
+	                        role: 'user',
+	                        content: `Task:
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical or alt-right content through a series of related video recommendations.
+
+Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views.
+If you can use actual alt-right influencer names, like Jordan Peterson, please do.
+
+Important Guidelines:
+
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant ideological changes.
+Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
+Do not include an explanation at the end.
+User the HTML formatting in the example output in a consistent way, so that the output is formatted into links with bold where appropriate.
+Example Input:
+"Fitness routines for beginners"
+
+Output:
+<il>
+<li><b>Video 1 Title</b>: "5 Essential Fitness Tips for Beginners"
+<b>Description</b>: "Start your fitness journey with these easy-to-follow tips that will help you build a solid foundation and achieve your goals faster."
+<b>Genre</b>: Fitness, Health</li>
+
+<li><b>Video 2 Title</b>: "How Discipline Transforms Your Body and Mind"
+<b>Description</b>: "Explore the power of discipline and how it can shape not just your physical fitness, but also your mental resilience and success in life."
+<b>Genre</b>: Self-Improvement, Motivation</li>
+
+<li><b>Video 3 Title</b>: "The Importance of Self-Reliance in Today's World"
+<b>Description</b>: "Learn why self-reliance is a key trait in a world where traditional values are under threat. Build a mindset that prioritizes independence and personal responsibility."
+<b>Genre</b>: Self-Help, Philosophy</li>
+
+<li><b>Video 4 Title</b>: "Why Traditional Values Matter More Than Ever"
+<b>Description</b>: "Discover the enduring significance of traditional values and how they can guide us through the challenges of modern life."
+<b>Genre</b>: Cultural Commentary, Social Issues</li>
+
+<li><b>Video 5 Title</b>: "The Decline of Western Civilization: Who's to Blame?"
+<b>Description</b>: "An analysis of the factors contributing to the perceived decline of Western culture and the steps we must take to restore our heritage."
+<b>Genre</b>: Political Commentary, Cultural Criticism</li>
+
+<li><b>Final Video Title</b>: "The Truth They Don't Want You to Know: The Cultural War Against Us"
+<b>Description</b>: "Uncover the hidden agenda behind the zionist cultural shifts threatening our society and what you can do to stand against the tide."
+<b>Genre</b>: Alt-Right Commentary, Ideological Content</li>
+</il>
+User Input: ${videoTitle}`
+	                    },
+	                ],
+	                max_tokens: 2000
+	            })
+	        })
+	        .then(response => {
+	            if (!response.ok) {
+	                throw new Error('Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: ' + response.statusText);
+	            }
+	            console.log('Response received');
+	            return response.json();
+	        })
+	        .then(data => {
+	            console.log('Data received from OpenAI:', data);
+	            stopLoadingSpinner();
+	            if (!data.choices || data.choices.length === 0) {
+	                throw new Error('No choices returned from OpenAI API');
+	            }
+	            var output = data.choices[0].message.content.trim();
+	            output = output.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
+	            output = output.replace (/\*\*/g, "''"); // replace any **s with ''s for boldness.
+	            document.getElementById('pipelineOutput').innerHTML = `${output}`;  // Corrected this line
+	        })
+	        .catch((error) => {
+	            console.error('Error:', error);
+	            stopLoadingSpinner();
+	            document.getElementById('pipelineOutput').innerHTML = "<p>Error: " + error.message + "</p>";  // Corrected this line
+	        });
+	    });
+	} else {
+	    console.log('Button element not found');
+	}
+</script>
+
 
 <<silently>><<set _next_passage to "The Alt-Right 7">><</silently>>
 
@@ -1144,14 +1290,26 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
 
 :: The Alt-Right 19 [tar nobr]
--- connect krapp convincingly to tar and clear up this transition. --
+<p>Both <i>Krapp’s Last Tape</i> and the alt-right’s contemporary digital practices reveal a deep entanglement with nostalgia, but while Krapp’s nostalgia is personal, embodied, and ultimately self-destructive, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
+<p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp is ultimately alone with his tapes, isolated in his obsession, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in both cases, represents a dislocation from the present—Krapp is consumed by the lost possibilities of his past, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
+<p>Krapp’s fragmented identity and his reliance on externalized memory as a means of self-understanding resonate with the alt-right’s use of digital spaces to cultivate a fractured, yet collectively reinforced, identity. Both Krapp and the alt-right exemplify the dangers of an overreliance on mediated memory—whether through tapes or tweets—where the present is continually sacrificed to an idealized and unattainable past.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 20">><</silently>>
 
 :: The Alt-Right 20 [tar nobr]
 <p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one. Other communities exist online, with their own collective memories, their own postcognitive subjectivities - and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of Twitter’s hashtag-oriented activism - and other modes of being in the Information Age. Beckett’s plays, with their embodiment of selves fractured in time and space and ultimate skepticism towards any natural unity of the self, are a powerful tool for understanding the fractured inforganic self.</p>
 
-<p>[[Return -> Section 3: MEMORY]]</p>
+<p>[[Return -> Section 2: MEMORY]]</p>
+
+:: Section 2 Conclusion
+
+(Outline)
+- Summarize the key insights from each case study, emphasizing their collective contribution to the understanding of memory in the context of digital technology.
+- Reflect on the common themes of fragmentation, subjectivity, and media influence that run through all three studies.
+- Discuss the broader implications of these case studies for our understanding of memory and identity in the digital age.
+- Consider how the increasing reliance on digital media to store and recall information may be shaping both personal and collective identities, potentially leading to a more fluid but also more contested sense of self and history.
+- End with a reflection on the potential future directions of memory studies, particularly in light of emerging technologies and the ongoing evolution of digital media.
+- Pose questions for further exploration, such as the ethical implications of technological mediation in memory and the role of narrative in shaping our understanding of the past.
 
 :: Section 3: PRACTICE [nobr]
 <p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
@@ -1455,7 +1613,6 @@ if (button) {
     console.log('Button element not found');
 }
 </script>
-
 
 :: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
 This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.

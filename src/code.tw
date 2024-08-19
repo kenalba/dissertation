@@ -432,8 +432,8 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<widget "definitionGuess">>
 	<<if not $guessingTutorial>>
 		<<script Twinescript>>
-			Dialog.setup("Tutorial");
-			Dialog.wiki("You have unlocked the GUESSING GAME.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.");
+			Dialog.setup("Turing Trivia");
+			Dialog.wiki("You have unlocked TURING TRIVIA, a guessing game.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.<br><br>If you guess correctly, you'll see a ✅; incorrect answers are marked with an ❌.");
 			Dialog.open();
 		<</script>>
 		<<set $guessingTutorial to true>>
@@ -447,9 +447,9 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		   	<<set $guessed.push(passage())>>
 		    <<if _isAI>>
 		      <<set $score += 1>>
-					<<set $guess_values[passage()] to "✅ Human ✅">>
+					<<set $guess_values[passage()] to "✅ Human">>
 		    <<else>>
-					<<set $guess_values[passage()] to "❌ 🤖 ❌">>
+					<<set $guess_values[passage()] to "❌ 🤖">>
 		    <</if>>
 				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
 				<<replace #story-caption>><<display "StoryCaption">><</replace>>
@@ -460,9 +460,9 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		    <<set $guessed.push(passage())>>
 		    <<if !_isAI>>
 		      <<set $score += 1>>
-		      <<set $guess_values[passage()] to "✅ 🤖 ✅">>
+		      <<set $guess_values[passage()] to "✅ 🤖">>
 		    <<else>>
-		    	<<set $guess_values[passage()] to "❌ Human ❌">>
+		    	<<set $guess_values[passage()] to "❌ Human">>
 		    <</if>>
 				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
 				<<replace #story-caption>><<display "StoryCaption">><</replace>>
