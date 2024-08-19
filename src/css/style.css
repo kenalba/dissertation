@@ -36,6 +36,38 @@ video {
   margin: 0 auto;
 }
 
+#videoSelector button {
+  color: #feff37;
+  border: 0px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#videoSelector img {
+  height: 60px;
+  width: 60px;
+}
+
+#videoSelector button:hover {
+  background-color: #9E9E9E;
+}
+
+#spoolSelector button {
+  color: #feff37;
+  border: 0px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#spoolSelector img {
+  height: 60px;
+  width: 60px;
+}
+
+#spoolSelector button:hover {
+  background-color: #9E9E9E;
+}
+
 img {
   display: block;
   margin: 0 auto;
@@ -321,6 +353,20 @@ li {
   border-radius: 8px;
   margin-left: 40px;
   font-size: 16px;
+}
+
+.boxlabel {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.boxspool {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  display: block;
 }
 
 button {

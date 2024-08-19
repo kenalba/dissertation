@@ -647,7 +647,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 :: Section 1 Conclusions [nobr]
 I don't want to jump to conclusions here, so I won't, but eventually I'm sure to arrive at some.
 
-:: Section 2 Introduction [nobr]
+:: Section 2 Introduction
 (outline)
 - Begin with a brief overview of how memory has traditionally been conceptualized in literature and philosophy, with a focus on the shift from analog to digital modes of memory storage and retrieval.
 - Introduce the concept of memory as mediated by technology, setting up the section's exploration of how different media forms influence the construction and reconstruction of memory.
@@ -838,7 +838,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 :: Krapp 1 [klt nobr]
 <p><i>Krapp’s Last Tape</i> stands out among Samuel Beckett’s drama for its sentimentality. In a self-mocking statement from a 1958 letter to Donald McWhinnie at the BBC, Beckett described the play as ‘rather a s[e]ntimental affair in my best original English manner’ <<cite "115" "Beckett, Samuel. The Letters of Samuel Beckett, Volume III: 1957-1965">>. This sentimentality is primarily backwards-looking, obsessed as Krapp is with memory, and undercut by Krapp’s own cynicism throughout. Paradoxically, however, Krapp is the closest Beckett gets to science fiction, set on a late evening in the future and centred on a then-futuristic technology: the magnetic tape recorder. The play thus looks forward in order to look back, utilising then-novel <<define "media" "medium">> technology to present and undermine a <<define "nostalgic" "Nostalgia">> vision of a brighter past.</p>
 
-<p><i>Footage of a Grundig reel-to-reel magnetic tape recorder is available in box 1, spool 5.</i></p>
+<span class = boxlabel>Box 1, Spool 5: Footage of a Grundig reel-to-reel magnetic tape recorder in use.</span><br>
 <<videoPlayerWidget>>
 
 /*
@@ -948,6 +948,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>Krapp accesses his mechanized memories through an interface that is anything but seamless. The play spends a significant amount of time on the process Krapp undergoes in order to play a tape – to move from "staring vacuously" to his "listening posture" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">>. He retrieves his ledger and searches through the pages for the entry he wants. The stage directions specify his pawing past poorly-organised boxes – four, two, nine, seven, and only then to the ‘three’ that he’s looking for. Ejaculations like "the little rascal! The little scoundrel!" <<cite "216" "Beckett, Samuel. Krapp's Last Tape.">> personify these boxes in a way that makes the parallel between their disorganization and his own internal memory’s poorly indexed structure more conspicuous. Further, they emphasise the box and the tapes as something distinctly ‘other’ from Krapp’s conception of himself; the clunkiness of the interface forces Krapp to recognize the alterity of these technological artifacts.</p>
 
+<span class = boxlabel>Box 3, Spool 3: Harold Pinter as Krapp, looking up a tape in his ledger.</span><br>
+<span class = boxlabel>Box 4, Spool 1: Patrick Magee as Krapp, looking up a tape in his ledger.</span><br><br>
 <<videoPlayerWidget>>
 
 <<silently>><<set _next_passage to "Krapp 15">><</silently>>
@@ -957,6 +959,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <p>Eventually, though, he finds the third box, takes it down, rifles through the spools until he finds the desired fifth tape, and returns to the ledger. On the stage, this operation takes a significant amount of time; Krapp’s technological apparatus is mixed up and clanks and clatters in a way that undermines the smooth feedback loop endemic to a well-functioning inforg, like the clunky search interface in <i>Her Story</i>. Like his constipated digestive system, Krapp’s input-output stream is malfunctioning. The feedback loop between Krapp-as-conscious-mind and his own memories is just as unwieldy, as becomes clear in his perusal of the ledger’s entry. The precis baffles him:</p>
 <blockquote>Mother at rest at last... hm... the black ball... the dark nurse.... slight improvement in bowel condition... hm... memorable.... what? Equinox, memorable equinox. Memorable equinox? Farewell to – love.<<cite "217" "Beckett, Samuel. Krapp's Last Tape.">></blockquote>
 
+<span class = boxlabel>Box 5, Spool 4: Harold Pinter as Krapp, bidding farewell to love.</span><br>
+<span class = boxlabel>Box 2, Spool 4: Patrick Magee as Krapp, bidding farewell to love.</span><br>
 <<videoPlayerWidget>>
 
 <p>The stage directions during his perusal repeat "puzzled" twice, has him staring blankly, and peering closely at the page to compensate for his nearsightedness. His notes fail to spark in him the memories they’re meant to point to, like a stale madeleine. His bodily infirmity and his age isolate him from his own memories even with access to notes about them. The focus, then, on Krapp’s inability to access his own memories even with the help of written technological prostheses gestures towards his internal mind’s memory’s status as an apparatus to which his access is unreliable; if the tapes and the ledger’s status as an external adjunct to his memory turn his technology into a part of his mind, then this failure to recall, measured alongside the spool-search, technologizes his biological memory by pointing to its own contingency, and thus dis-integrates the illusion of a unified subject.</p>
@@ -970,6 +974,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>The <<define "noise" "Noise">> associated with the bodily execution of the text becomes more important than the <<define "signal" "Signal">> of the words' meaning.  The transmission of meaning fails to take place; instead, Krapp revels in the noise. Here we have another broken link in the cognitive chain; Krapp <<define "glitches" "Glitch">> like a malfunctioning algorithm.</p>
 
+<span class = boxlabel>Box 3, Spool 4: Harold Pinter as Krapp, mulling viduity.</span><br>
+<span class = boxlabel>Box 4, Spool 2: Patrick Magee as Krapp, mulling viduity.</span><br>
 <<videoPlayerWidget>>
 
 <<silently>><<set _next_passage to "Krapp 17">><</silently>>
@@ -986,6 +992,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 :: Krapp 18 [klt nobr]
 <p>This vision is in tension with the memory Krapp returns to again and again: a nostalgic, sentimental moment where he, as a body, presses against another body, looks her in the eye, and says "let me in" <<cite "223" "Beckett, Samuel. Krapp's Last Tape.">></p>
 
+<span class = boxlabel>Box 1, Spool 1: Harold Pinter as Krapp, remembering being a body.</span><br>
+<span class = boxlabel>Box 3, Spool 2: Patrick Magee as Krapp, remembering being a body.</span><br>
 <<videoPlayerWidget>>
 
 <p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions:</p>

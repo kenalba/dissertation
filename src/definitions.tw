@@ -7,9 +7,10 @@
 
 <<for _i to 0; _i lt _sortedPassages.length; _i++>>
 	<<define _sortedPassages[_i].title>>
-		<<if $guessed.includes(_sortedPassages[_i].title)>>
-			-- <<print $guess_values[_sortedPassages[_i].title]>>
-		<</if>><br>
+		<<if def setup.guessed>>
+		<<if setup.guessed.includes(_sortedPassages[_i].title)>>
+			-- <<print setup.guess_values[_sortedPassages[_i].title]>>
+		<</if>><</if>><br>
 <</for>>
 
 :: Signal [definition nobr] {"position":"2015,2502","size":"100,100"}
@@ -447,9 +448,9 @@ For animation, a keyframe can be thought of like a single snapshot of a stop-mot
 <p>The Chinese Room Argument has been the subject of a great deal of debate, and there are many different ways of interpreting it. For more on the Chinese Room Argument, see John Searle's book <i>Minds, Brains, and Science</i>. </p>
 
 :: Trolley Problem [definition gpt nobr]
-<p>The is a thought experiment that is used to explore the implications of different ethical theories. The problem goes as follows:</p>
+<p>The Trolley Problem is a thought experiment that is used to explore the implications of different ethical theories. The problem goes as follows:</p>
 
-<p>You are driving a trolley, and you see that there are five people in the path of the trolley. You can either do nothing, and the trolley will kill the five people, or you can pull a lever, and the trolley will switch to a different track, killing one person. What should you do?</p>
+<blockquote>You are driving a trolley, and you see that there are five people in the path of the trolley. You can either do nothing, and the trolley will kill the five people, or you can pull a lever, and the trolley will switch to a different track, killing one person. What should you do?</blockquote>
 
 <p>The trolley problem is often used to show that utilitarianism is the correct ethical theory. According to utilitarianism, the right thing to do is the thing that will produce the greatest amount of happiness for the greatest number of people. In this case, the right thing to do is to pull the lever, because it will produce more happiness overall. However, there are many different ways of interpreting the trolley problem, and it is not clear that it shows that utilitarianism is the correct theory. For more on the trolley problem, see Peter Singer's book <i>Practical Ethics</i>.</p>
 
@@ -521,7 +522,7 @@ Similarly, when something ready-to-hand is found missing, though its everyday pr
 <p>Avatars serve not merely as tools of interaction but as extensions of the self, often embodying aspects of the user’s personality or <<define "persona" "Persona">>. In some contexts, the avatar functions as a mask, concealing the user’s true identity, while in others, it reveals and amplifies certain characteristics, allowing for a form of self-expression that might be limited in the physical world.</p>
 
 :: multimedial [definition nobr]
-<p>A multimedial text is a text which exists on and across multiple platforms. In the era of "Big Marvel", this can be compared to the corporate world's zest for vertical integration, but the term ought to be untethered from capitalism's totalizing yoke and instead connected with texts, like <i>Achewood</i>, which exist online, on paper, in games, and, in short, across multiple <<define "medium" "media">> forms. A multimedial text may or may not be <<define "heterogeneric" "heterogeneric,">> but the terms are not equivalent. Although different media forms do lend themselves to different genres, the two terms are distinct inasmuch as 'media' focuses on platform and the materiality of the text - as film, as game, and paper book - and 'genre' focuses on the tropes, dramatic structure, and other distinguishing features of the text.</p>
+<p>A multimedial text is a text which exists on and across multiple platforms. In the era of "Big Marvel", this can be compared to the corporate world's zest for vertical integration, but the term ought to be untethered from capitalism's totalizing yoke and instead connected with texts, like <i>Achewood</i>, which exist online, on paper, in games, and, in short, across multiple <<define "medium" "media">> forms. A multimedial text may or may not be <<define "heterogeneric," "heterogeneric">> but the terms are not equivalent. Although different media forms do lend themselves to different genres, the two terms are distinct inasmuch as 'media' focuses on platform and the materiality of the text - as film, as game, and paper book - and 'genre' focuses on the tropes, dramatic structure, and other distinguishing features of the text.</p>
 
 :: medium [definition nobr]
 <p>Medium, often seen in this study in its plural "media" form, describes the technological substrate on which a given text is transmitted or appears. A text can be <<define "multimedial">>, in which case it appears on multiple media, or it appear via a single medium, like a paper book (although, even in this case, a book's <<define "paratext" "paratexts">> might well cross over into other media.</p>
@@ -588,7 +589,7 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 
 <p>Lanier's definition is helpful in understanding what VR is, but it is also important to understand what VR is not. VR is not, as is often assumed, simply a computer-generated simulation of reality; it is a simulation that is designed to be interacted with in a physical way. This physicality is essential to the VR experience; without it, VR would simply be a three-dimensional movie. The interaction can take many forms, but it must be more than simply looking at the simulation; it must be an embodied experience. This is why VR technology is often referred to as "immersive technology."</p>
 
-<p>The term "virtual reality" is sometimes used interchangeably with "augmented reality" (AR), but the two are not the same. AR is a technology that superimposes computer-generated images on the real world, while VR is a technology that replaces the real world with a computer-generated simulation. AR is often used for navigation, while VR is often used for entertainment. For more on AR, see the <<excerpt "Augmented Reality">>.</p>
+<p>The term "virtual reality" is sometimes used interchangeably with "augmented reality" (AR), but the two are not the same. AR is a technology that superimposes computer-generated images on the real world, while VR is a technology that replaces the real world with a computer-generated simulation. AR is often used for navigation, while VR is often used for entertainment.</p>
 
 <p>Most versions of the metaverse take place in a kind of VR.</p>
 
@@ -603,11 +604,13 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 Motion capture http://mocap.cs.cmu.edu/ . This passage requires expansion.
 
 :: cognition [definition nobr]
+
 <p>For N. Katherine Hayles, cognition can be defined as "the ability to sense information from the environment, interpret it, and act in contexts that connect it with meaning" <<cite "*" "Hayles, N. Katherine. The end of being human.">>.This definition is expansive, deliberately encapsulating processes performed by both biological and technological actors; specifically, Hayles extends cognition beyond the biological and describes how humans and culture more broadly are "forming strong symbiotic bonds with computational media" <<cite "*" "Hayles, N. Katherine. The end of being human.">>.
 <p>Hayles' definition is also pragmatic, echoing the Wittgensteinian maxim that the meaning of a word is its use in a language; active cognitition turns the raw material of the noumenal world into information rendered meaningful inasmuch as it drives actions in context.</p>
 <p>This broad definition of cognition is articulated as a spectrum, from "high cognition" like abstraction, language, and mathematics to "low cognition" like pattern recognition; as posthumans in the Haylesean sense of the term, humanity has moved towards exteriorizing nonconscious, low cognition to technological apparatuses, giving rise to <<define "cognitive assemblages" "cognitive assemblage">>. This argument echoes Clark and Chalmers' discussions of <<define "the extended mind">>; in both cases, cbiological and technological systems enmeshed in cybernetic, nonconscious loops of greater or lesser complexity embody and <i>produce</i> consciousness.</p>
 
 :: cognitive assemblage [definition nobr]
+
 <p>A cognitive assemblage is N. Katherine Hayles' term for what Chalmers and Clark call <<define "the extended mind">>. In her words, cognitive assemblages are:</p>
 
 <blockquote>tighter or looser collections of technical objects and human participants through which <<define "cognitions" "cognition">> circulate in the form of information, interpretations, and meanings <<cite "3" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">>. </blockquote>
@@ -757,6 +760,7 @@ Greek etymology. Techne. Heidegger.
 <p>Of course, the use of technology to hear from the dead is not particular to large language models. We do this when we listen to music recorded by now-dead musicians. Krapp does this when he plays back the young man he once was. The protagonist of <i>Her Story</i> trawls videotapes for hints of who her mother was. And so on.</p>
 
 :: procrustean [definition nobr]
+
 <p>The OED defines "procrustean" as "of, relating to, or resembling the practices of Procrustes; (hence) enforcing uniformity or conformity without regard to natural variation or individuality" <<cite "*" "Oxford English Dictionary">>. The Procrustes (Προκρούστης, roughly "the stretcher") of the definition was a Greek mythological figure who was famed for either stretching or cutting his victims' bodies so they could fit into an iron bed of fixed size:</p>
 <blockquote>In Eleusis, moreover, he out-wrestled Cercyon the Arcadian and killed him; and going on a little farther, at Erineüs, he killed Damastes, surnamed Procrustes, by compelling him to make his own body fit his bed, as he had been wont to do with those of strangers. And he did this in imitation of Heracles. For that hero punished those who offered him violence in the manner in which they had plotted to serve him...<<cite "x" "Plutarch. Lives: Theseus.">></blockquote>
 <p>The term has been generalized to refer to situations where arbitrary standards are imposed on heterogenous objects; for example, in computer science, a "Procrustean String" is a string of fixed length which is either padded with spaces or truncated to fit into an arbitrary length.</p>
@@ -765,8 +769,11 @@ Greek etymology. Techne. Heidegger.
 <p><<define "Medium" "medium">> might, too, be considered as procrustean; necessarily conditioned by the <<define "losses" "loss">> and particularities of its technological substrate, McLuhan's maxim might be rephrased to say that the medium must be massaged if it is to fit the meaning that it's supposed to.</p>
 <p>All that said, Procrustes is killed by Thesues, and we do not need to lay in the beds we've been made to fit. Queer, <span class="glitch" data-text="glitch"><<define "glitchy" "Glitch">></span>, <<define "heterogeneric">>, <<define "multimedial">> texts and subject all exceed, with a greater lesser degree of ecstacy, the bounds of their beds.</p>
 
-:: death of the author [definition nobr todo]
-<p>Add more.</p>
+:: death of the author [definition nobr gpt]
+
+<p>"Death of the Author" is a concept articulated by Roland Barthes in his seminal 1967 essay of the same name. In this essay, Barthes argues against the traditional literary criticism that seeks to understand a text through the intentions and biographical context of the author. Instead, Barthes posits that once a text is created, the author’s intentions and personal history become irrelevant to its interpretation. The text itself, in its plurality of meanings, becomes the primary site of meaning-making.</p>
+<p>Barthes’ notion of the "death" of the author challenges the hierarchical relationship between author and reader, suggesting that the reader plays a crucial role in generating meaning. By detaching the text from its origin, Barthes encourages a mode of reading where the text is freed from the constraints of authorial intent, allowing for a multiplicity of interpretations. This shift effectively democratizes the reading process, empowering the reader to derive meaning independent of the author’s influence.</p>
+<p>This concept was influential in the development of poststructuralist thought, particularly in its rejection of authorial authority and its embrace of the text as a space of open interpretation. "Death of the Author" has since become a foundational idea in literary theory, particularly within the realms of deconstruction and reader-response criticism.</p>
 
 :: UI [definition nobr]
 <p>Working product designers (that is, the people who design the <<define "interface" "interfaces">> for apps, websites, and other interactive technological media) often distinguish between UI (user interface) and <<define "UX">> (user experience). As described in <<define "Figma">>'s resource library, UI refers to the "interactivity, look, and feel of a product screen or a website" <<cite "*" "UI vs. UX: What's the Difference Between UI & UX Design?">>. A UI designer might consider things like page layout, color scheme, font selection, and interactive elements. Realistically, a designer needs to be familiar with both UI and UX to create a good product. Figuratively, if a designer is like a writer, a UI "writer" would consider things like diction, character, plot, and punctuation to make a book enjoyable (or whatever else the book is meant to be).</p>

@@ -159,11 +159,11 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
 
-<<set $score to 0>>
-<<set $guesses to 0>>
-<<set $guessed to []>>
-<<set $guess_values to {}>>
-<<set $guessingTutorial to false>>
+<<set setup.score to 0>>
+<<set setup.guesses to 0>>
+<<set setup.guessed to []>>
+<<set setup.guess_values to {}>>
+<<set setup.guessingTutorial to false>>
 
 <<set $selectedBox to 0>>
 <<set $selectedSpool to "">>
@@ -182,7 +182,10 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<span id="top-back-button">
 			<<if State.length > 1>>
 				<i class='material-icons' id="top-back-icon">
-					<<return "west">>
+					<<if def setup.guess_values>>
+
+					<</if>>
+						<<back "west">>
 				</i>
 			<</if>>
 		</span>
@@ -197,10 +200,10 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 
 	<<if tags().includes("definition")>>
 		<<set _current_passage to passage()>>
-		<<if not $guessed.includes(_current_passage)>>
+		<<if not setup.guessed.includes(_current_passage)>>
 			<<definitionGuess true>>
 		<<else>>
-			<<print $guess_values[passage()]>>
+			<<print setup.guess_values[passage()]>>
 		<</if>>
 		<<addclass "#passages" "spaced">>
 	<</if>>
@@ -430,41 +433,41 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <</widget>>
 
 <<widget "definitionGuess">>
-	<<if not $guessingTutorial>>
+	<<if not story.guessingTutorial>>
 		<<script Twinescript>>
 			Dialog.setup("Turing Trivia");
 			Dialog.wiki("You have unlocked TURING TRIVIA, a guessing game.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.<br><br>If you guess correctly, you'll see a ✅; incorrect answers are marked with an ❌.");
 			Dialog.open();
 		<</script>>
-		<<set $guessingTutorial to true>>
+		<<set story.guessingTutorial to true>>
 	<</if>>
   <<set _isAI to !tags().includes("gpt")>>
   <<set _currentPassage to passage()>>
 
 	  <span class="guess-button" id="guesser">
 		  <<button "Human">>
-		    <<set $guesses += 1>>
-		   	<<set $guessed.push(passage())>>
+		    <<set setup.guesses += 1>>
+		   	<<set setup.guessed.push(passage())>>
 		    <<if _isAI>>
-		      <<set $score += 1>>
-					<<set $guess_values[passage()] to "✅ Human">>
+		      <<set setup.score += 1>>
+					<<set setup.guess_values[passage()] to "✅ Human">>
 		    <<else>>
-					<<set $guess_values[passage()] to "❌ 🤖">>
+					<<set setup.guess_values[passage()] to "❌ 🤖">>
 		    <</if>>
-				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
+				<<replace #guesser t8n>><<print setup.guess_values[passage()]>><</replace>>
 				<<replace #story-caption>><<display "StoryCaption">><</replace>>
 		  <</button>>
 
 		  <<button "🤖">>
-		    <<set $guesses += 1>>
-		    <<set $guessed.push(passage())>>
+		    <<set setup.guesses += 1>>
+		    <<set setup.guessed.push(passage())>>
 		    <<if !_isAI>>
-		      <<set $score += 1>>
-		      <<set $guess_values[passage()] to "✅ 🤖">>
+		      <<set setup.score += 1>>
+		      <<set setup.guess_values[passage()] to "✅ 🤖">>
 		    <<else>>
-		    	<<set $guess_values[passage()] to "❌ Human">>
+		    	<<set setup.guess_values[passage()] to "❌ Human">>
 		    <</if>>
-				<<replace #guesser t8n>><<print $guess_values[passage()]>><</replace>>
+				<<replace #guesser t8n>><<print setup.guess_values[passage()]>><</replace>>
 				<<replace #story-caption>><<display "StoryCaption">><</replace>>
 		  <</button>>
 	  </span>
@@ -476,10 +479,10 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<widget "videoPlayerWidget">>
 <<set $spools to { "1" : 
 										{
-											"1" : {"filename" : "klt_pinter_letmein.mp4", "caption" : "test caption"},
+											"1" : {"filename" : "klt_pinter_letmein.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"2" : {"filename" : "hs_readme.mp4", "caption" : "test caption"},
 											"3" : {"filename" : "wilson_on_blues.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_magee_viduity.mp4", "caption" : "test caption"},
+											"4" : {"filename" : "klt_magee_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"5" : {"filename" : "klt_reel.mp4", "caption" : 'A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder <<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the two Paris productions he directed <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">>.'}
 										},
 									"2" : 
@@ -487,21 +490,21 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 											"1" : {"filename" : "jump_scare.mp4", "caption" : "test caption"},
 											"2" : {"filename" : "quad_cmu.mp4", "caption" : "test caption"},
 											"3" : {"filename" : "not_i.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_magee_farewell.mp4", "caption" : "test caption"},
+											"4" : {"filename" : "klt_magee_farewell.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"5" : {"filename" : "macguffin.mp4", "caption" : "test caption"}
 										},
 									"3" : 
 											{
 											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
-											"2" : {"filename" : "klt_magee_letmein.mp4", "caption" : "test caption"},
-											"3" : {"filename" : "klt_pinter_spool.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_pinter_viduity.mp4", "caption" : "test caption"},
+											"2" : {"filename" : "klt_magee_letmein.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
+											"3" : {"filename" : "klt_pinter_spool.mp4", "caption" : "Harold Pinter performing the role of Krapp in October 2006. This version was recorded and broadcast on BBC Four. Note the baked-in Portugeuse captions, which are an artifact of the version of this file downloaded via YouTube."},
+											"4" : {"filename" : "klt_pinter_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
 										},
 									"4" : 
 											{
-											"1" : {"filename" : "klt_magee_spool.mp4", "caption" : "test caption"},
-											"2" : {"filename" : "klt_magee_viduity.mp4", "caption" : "test caption"},
+											"1" : {"filename" : "klt_magee_spool.mp4", "caption" : "Patrick Magee performing the role of Krapp in a BBC production directed by Donald McWhinnie."},
+											"2" : {"filename" : "klt_magee_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"3" : {"filename" : "hs_filter.mp4", "caption" : "testcaption"},
 											"4" : {"filename" : "hs_filter.mp4", "caption" : "test caption"},
 											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
@@ -511,7 +514,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
 											"2" : {"filename" : "wilson_on_blues.mp4", "caption" : "test caption"},
 											"3" : {"filename" : "quad_cmu.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "quad.mp4", "caption" : "test caption"},
+											"4" : {"filename" : "klt_pinter_farewell.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
 											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
 										}
 									}
@@ -520,39 +523,43 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 	  <!-- Display box choices -->
 	  <<for _i to 1; _i lt 6; _i++>>
 	   	<<capture _i, $spools>>
-	    <<button "Box _i">>
-	    	<<set $selectedBox to _i>>
-	    	<<replace "#videoPlayer">>
-      	<</replace>>
-      	<<replace "#spoolSelector">>
-      		<<timed 50ms t8n>>\
-	      		<<for _j to 1; _j lt 6; _j++>>
-	      			<<capture _j>>
-		      			<<button "Spool _j">>
-		      				<<set $selectedSpool to _j>>
-			      				<<replace "#videoPlayer">>
-			      					<<timed 50ms t8n>>\
-			      						Box... $selectedBox... spool... $selectedSpool...
-			      					<</timed>>
-			      					<<set _filename to "assets/videos/" + $spools[$selectedBox][$selectedSpool]["filename"]>>
-			      					<<set _caption to $spools[$selectedBox][$selectedSpool]["caption"]>>
-											<figure>
-												<video controls autoplay>
-													<source @src=_filename type="video/mp4">
-													Your browser does not support the video tag.
-												</video>
-												<figcaption> 
-													_caption
-												</figcaption>
-											</figure>
-											<<scrolldown fast>>
-			      				<</replace>>
-		      			<</button>>
-		      		<</capture>>
-	      		<</for>>
-	      	<</timed>>
-      	<</replace>>
-      <</button>>
+	   	<<set _box_image to "assets/imgs/boxes/box-" + _i + "-inactive.png">>
+	    <span class="box_button" @id=_i>
+		    <<button [img[_box_image]]>>
+		    	<<set $selectedBox to _i>>
+		    	<<replace "#videoPlayer">>
+	      	<</replace>>
+	      	<<replace "#spoolSelector">>
+	      		<<timed 50ms t8n>>\
+		      		<<for _j to 1; _j lt 6; _j++>>
+		      			<<capture _j>>
+		      			<<set _spool_image to "assets/imgs/boxes/spool-" + _j + ".png">>
+			      			<<button [img[_spool_image]]>>
+			      				<<set $selectedSpool to _j>>
+				      				<<replace "#videoPlayer">>
+				      					<<timed 50ms t8n>>\
+				      						<span class = boxspool>Box... $selectedBox... spool... $selectedSpool...</span>
+				      					<</timed>>
+				      					<<set _filename to "assets/videos/" + $spools[$selectedBox][$selectedSpool]["filename"]>>
+				      					<<set _caption to $spools[$selectedBox][$selectedSpool]["caption"]>>
+												<figure>
+													<video controls autoplay>
+														<source @src=_filename type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<figcaption> 
+														_caption
+													</figcaption>
+												</figure>
+												<<scrolldown fast>>
+				      				<</replace>>
+			      			<</button>>
+			      		<</capture>>
+		      		<</for>>
+		      	<</timed>>
+	      	<</replace>>
+	      <</button>>
+	    </span>
       <</capture>>
 		<</for>>
 	</div>
@@ -583,9 +590,9 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 
 	<<link '<div class= "settings-button"><i class="material-icons">help</i> <span class="settings-text">Guide</span></div>' 'Guide'>><</link>>
 	<<link '<div class= "settings-button"><i class="material-icons">fact_check</i> <span class="settings-text">Glossary</span></div>' 'Glossary'>><</link>>
-		<<if $guesses > 0>>
+		<<if setup.guesses > 0>>
 			  <span id="score-box">
-			    Score: <<print $score>>/<<print $guesses>>
+			    Score: <<print setup.score>>/<<print setup.guesses>>
 				</span>
 				<br>
 	<</if>>
