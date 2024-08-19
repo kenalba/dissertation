@@ -1226,15 +1226,11 @@ User Input: ${videoTitle}`
 <p>For Clark and Chalmers, the extended vision of the mind is not limited to a single individual; although they consider more natural prostheses like a notebook that a person with Alzheimer’s might use to keep track of their daily routine (like Krapp’s ledger), they also suggest that a group of people brainstorming around a table might be another situation where cognition extends beyond the skin.</p>
 <p>Krapp’s case is interesting in part because his own reactions to his tapes highlights the very lack of self-identity over time that the tapes are meant to remedy: he finds it "hard to believe" he was "ever that young whelp. The voice! Jesus! The aspirations!" <<cite "218" "Beckett, Samuel. Krapp's Last Tape.">> and in his last tape refers to "that stupid bastard I took myself for thirty years ago, hard to believe I was ever as bad as that" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
 
-<<videoPlayerWidget>>
-
-<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table - himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past.</p>
-<p>The material YouTube is engineered to push its users towards is fueled by a nostalgia analogous to Krapp’s own; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
-
 <<silently>><<set _next_passage to "The Alt-Right 11">><</silently>>
 
 :: The Alt-Right 11 [tar nobr]
-<p>TALIA LEVIN GOES HERE</p>
+<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table - himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past.</p>
+<p>The material YouTube is engineered to push its users towards is fueled by a nostalgia analogous to Krapp’s own; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 12">><</silently>>
 
@@ -1259,7 +1255,6 @@ User Input: ${videoTitle}`
 <blockquote>the awareness of the dark truths surrounding human sexuality; hypergamy, women’s ‘Alpha Fucks / Beta Bucks’ strategies, society’s Feminine Imperative, and so forth <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
 <p>Roose’s article on Caleb Cain, who himself was "red-pilled," defines it more succinctly as "an internet slang term for converting to far-right beliefs" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
 
-
 <<silently>><<set _next_passage to "The Alt-Right 15">><</silently>>
 
 :: The Alt-Right 15 [tar nobr]
@@ -1280,31 +1275,33 @@ User Input: ${videoTitle}`
 <<silently>><<set _next_passage to "The Alt-Right 17">><</silently>>
 
 :: The Alt-Right 17 [tar nobr]
-<p>This radical traditionalism would be all too familiar to a Samuel Beckett, a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" (Jackson 2003, 253) via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐ Actualités Pathé‐Gaumont was focused on:</p>
-<blockquote>the revival of traditional culture (through the) celebration of France’s colonial empire (and the) so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength"(Bowles 2004, 52).</blockquote> 
-<o>Beckett lived with this propaganda; as William Davies remarks:</p>
-<blockquote>Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities (2020, 4).</blockquote>
-<p>This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" (qtd in Davies, 2020, 4). Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.</p>
+<p>This radical traditionalism would be all too familiar to a Samuel Beckett, a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" <<cite "253" "Jackson, Julian. France: The Dark Years.">> via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐Actualités Pathé‐Gaumont was focused on:</p>
+<blockquote>the revival of traditional culture (through the) celebration of France’s colonial empire (and the) so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength" <<cite "52" "Bowles, Brett. 'German newsreel propaganda in France'.">>.</blockquote> 
+<p>Beckett lived with this propaganda; as William Davies remarks:</p>
+<blockquote>Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>.</blockquote>
+<p>This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>. Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.</p>
 <p>Notably, "Twitter", which has been renamed "X" by alt-right edgelord and plutocrat Elon Musk, is referred to as "Vichy Twitter" by commentators on the left because of the algorithmic bias towards alt-right users and content that Musk has introduced.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 18">><</silently>>
 
+/*
 :: The Alt-Right 18 [tar nobr]
-<p>Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal (2020, 1). Where Malone, however, states that he is "not much given to nostalgia" (MD 10), Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past.</p>
+<p>Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal <<cite "1" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>. Where Malone, however, states that he is not much given to nostalgia, Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past.</p>
 <p>Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to:
-<blockquote>define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future (2002, 55). </blockquote>
+<blockquote>define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future <<cite "55" "Levy, Eric. 'Krapp's Last Tape and the Beckettian Mimesis of Regret'.">>. </blockquote>
 <p>This is partly a function of the topic of the play - it is no surprise that <i>Krapp’s Last Tape</i> spends most of its time on Krapp’s last tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
+*/
 
-:: The Alt-Right 19 [tar nobr]
+:: The Alt-Right 18 [tar nobr]
 <p>Both <i>Krapp’s Last Tape</i> and the alt-right’s contemporary digital practices reveal a deep entanglement with nostalgia, but while Krapp’s nostalgia is personal, embodied, and ultimately self-destructive, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
 <p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp is ultimately alone with his tapes, isolated in his obsession, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in both cases, represents a dislocation from the present—Krapp is consumed by the lost possibilities of his past, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
 <p>Krapp’s fragmented identity and his reliance on externalized memory as a means of self-understanding resonate with the alt-right’s use of digital spaces to cultivate a fractured, yet collectively reinforced, identity. Both Krapp and the alt-right exemplify the dangers of an overreliance on mediated memory—whether through tapes or tweets—where the present is continually sacrificed to an idealized and unattainable past.</p>
 
-<<silently>><<set _next_passage to "The Alt-Right 20">><</silently>>
+<<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
 
-:: The Alt-Right 20 [tar nobr]
+:: The Alt-Right 19 [tar nobr]
 <p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one. Other communities exist online, with their own collective memories, their own postcognitive subjectivities - and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of Twitter’s hashtag-oriented activism - and other modes of being in the Information Age. Beckett’s plays, with their embodiment of selves fractured in time and space and ultimate skepticism towards any natural unity of the self, are a powerful tool for understanding the fractured inforganic self.</p>
 
 <p>[[Return -> Section 2: MEMORY]]</p>
