@@ -577,7 +577,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 
 	        var videoTitle = document.getElementById('videoTitle').value;
 	        
-	        var openaiApiKey = 'sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb'; // Replace with your OpenAI API key
+	        var openaiApiKey = '---'; // Replace with your OpenAI API key
 
 	        console.log('Sending request to OpenAI');
 
