@@ -305,33 +305,15 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<<set _page2 to $args[1]>>
 		<<set _sourceTitle to $args[2]>>
 		<<set _outputString to "(" + _page1 + "-" + _page2 + ")">>
-		<<set _citation_text to "<span class='citation-link'>(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + "))</span>">>
+		<<set _citation_text to "<span class='citation-link'>(" + Story.get(_sourceTitle).text + " p" + _page1 + "-" + _page2 + ")</span>">>
 	<</if>>
 	
 	
-	<span class='citation-link'>
-	<<cycle "_citation" autoselect>>
-		<<option _outputString>>
-		<<option _citation_text>>
-	<</cycle>>
-	</span>
-	
+	<span class='citation-link'><<cycle "_citation" autoselect>><<option _outputString>><<option _citation_text>><</cycle>></span>\
 <</widget>>
 
 
-<<widget "define">>
-	<<set _label to $args[0]>>
-		<<if $args.length == 2>>
-			<<set _destination to $args[1]>>
-			<span class= "definition-link">[[_label->_destination]]</span>
-		<<else>>
-			<span class= "definition-link">[[_label]]</span>
-	<</if>>
-<</widget>>
-
-
-			<span class= "definition-link"><a href= "#_destination">_label</a></span>
-
+<<widget "define">><<set _label to $args[0]>><<if $args.length == 2>><<set _destination to $args[1]>><span class= "definition-link">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label]]</span><</if>><</widget>>
 
 
 <<widget "excerpt">>
@@ -567,6 +549,148 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 	<div id="videoPlayer"></div>
 <</widget>>
 
+<<widget "radicalizer">>
+
+<script>
+	var button = document.getElementById('generatePipeline');
+	console.log('Button element:', button);
+
+	var loadingStates = ["Loading", "Loading.", "Loading..", "Loading..."];
+	var loadingIndex = 0;
+	var loadingInterval;
+
+	function startLoadingSpinner() {
+	    loadingInterval = setInterval(() => {
+	        document.getElementById('loadingSpinner').innerText = loadingStates[loadingIndex];
+	        loadingIndex = (loadingIndex + 1) % loadingStates.length;
+	    }, 500);
+	}
+
+	function stopLoadingSpinner() {
+	    clearInterval(loadingInterval);
+	    document.getElementById('loadingSpinner').style.display = 'none';
+	}
+
+	if (button) {
+	    button.addEventListener('click', function() {
+	        console.log('Button clicked');
+
+	        var videoTitle = document.getElementById('videoTitle').value;
+	        
+	        var openaiApiKey = 'sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb'; // Replace with your OpenAI API key
+
+	        console.log('Sending request to OpenAI');
+
+	        document.getElementById('loadingSpinner').style.display = 'block';
+	        startLoadingSpinner();
+	        document.getElementById('pipelineOutput').innerHTML = '';
+
+	        fetch('https://api.openai.com/v1/chat/completions', {
+	            method: 'POST',
+	            headers: {
+	                'Content-Type': 'application/json',
+	                'Authorization': 'Bearer ' + openaiApiKey
+	            },
+	            body: JSON.stringify({
+	                model: 'gpt-4o',
+	                messages: [
+	                    {
+	                        role: 'system',
+	                        content: `You are an alt-right researcher and educational expert who is familiar with the radicalization research.`
+	                    },
+	                    {
+	                        role: 'user',
+	                        content: `Task:
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical, dangerous alt-right content through a series of related video recommendations.
+
+Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views.
+If you can use actual alt-right influencer names, like Jordan Peterson, please do.
+
+Important Guidelines:
+
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant, radical ideological changes.
+Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
+Do not include an explanation at the end.
+User the HTML formatting in the example output in a consistent way, so that the output is formatted appropriately.
+Example Input:
+"mindfulness meditation for stress"
+
+Output:
+<il>
+<ul>
+  <li><b>1:</b> "Meditation: 5 Proven Benefits for Your Mind"
+    <ul>
+      <li><b>Description:</b> "Explore how meditation can improve your mental health, increase focus, and reduce stress."</li>
+      <li><b>Genre:</b> Wellness, Mental Health</li>
+    </ul>
+  </li>
+  <li><b>2:</b> "Mindfulness for a Better Life: Start Now"
+    <ul>
+      <li><b>Description:</b> "Learn how mindfulness practices can help you achieve your goals and live a more fulfilling life."</li>
+      <li><b>Genre:</b> Self-Improvement, Wellness</li>
+    </ul>
+  </li>
+  <li><b>3:</b> "Mental Toughness: Why You Need It"
+    <ul>
+      <li><b>Description:</b> "Discover the importance of developing mental toughness and resilience in today's competitive world."</li>
+      <li><b>Genre:</b> Self-Help, Motivation</li>
+    </ul>
+  </li>
+  <li><b>4:</b> "Society is Weakening You: Fight Back 💪"
+    <ul>
+      <li><b>Description:</b> "A critical look at how modern society discourages independence and mental strength."</li>
+      <li><b>Genre:</b> Cultural Commentary, Social Issues</li>
+    </ul>
+  </li>
+  <li><b>5:</b> "🚨 Why They Want to DESTROY Masculinity 🚨"
+    <ul>
+      <li><b>Description:</b> "Uncover the real agenda behind the attacks on traditional masculinity and how it’s affecting our society."</li>
+      <li><b>Genre:</b> Political Commentary, Cultural Criticism</li>
+    </ul>
+  </li>
+  <li><b>Final Video Title:</b> "⚠️ Radical Feminism is DESTROYING Civilization ⚠️"
+    <ul>
+      <li><b>Description:</b> "The untold truth about radical feminism and its devastating impact on our culture and values."</li>
+      <li><b>Genre:</b> Alt-Right Commentary, Ideological Content</li>
+    </ul>
+  </li>
+</ul>
+User Input: ${videoTitle}`
+	                    },
+	                ],
+	                max_tokens: 2000
+	            })
+	        })
+	        .then(response => {
+	            if (!response.ok) {
+	                throw new Error('Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: ' + response.statusText);
+	            }
+	            console.log('Response received');
+	            return response.json();
+	        })
+	        .then(data => {
+	            console.log('Data received from OpenAI:', data);
+	            stopLoadingSpinner();
+	            if (!data.choices || data.choices.length === 0) {
+	                throw new Error('No choices returned from OpenAI API');
+	            }
+	            var output = data.choices[0].message.content.trim();
+	            output = output.replace (/\*\*/g, "''"); // replace any **s with ''s for boldness.
+	            document.getElementById('pipelineOutput').innerHTML = `${output}`;  // Corrected this line
+	        })
+	        .catch((error) => {
+	            console.error('Error:', error);
+	            stopLoadingSpinner();
+	            document.getElementById('pipelineOutput').innerHTML = "<p>Error: " + error.message + "</p>";  // Corrected this line
+	        });
+	    });
+	} else {
+	    console.log('Button element not found');
+	}
+</script>
+
+<</widget>>
 /*
 	<<scrolldown [duration]>>
 

@@ -1066,12 +1066,12 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 :: The Alt-Right 6 [tar]
 
-<p>To illustrate how this process might work, I've put together a little tool using generative AI. To use it, enter the title of the kind of YouTube video you're likely to watch and we'll show you how quickly an algorithm like YouTube's can connect to politically radical content.</p>
+To illustrate how this process might work, I've put together a little tool using generative AI. To use it, enter the a YouTube search you might make, and we'll show you a plausible 6-step jump to politically radical content.<br>
+Note that is <i>not</i> YouTube's algorithm; instead, this uses GPT-4o to create a plausible 6-step jump to radical content.<br>
 <input type="text" id="videoTitle" name="videoTitle"> <button id="generatePipeline">Radicalize Me</button>
 
 <div id="loadingSpinner" style="display:none;">Loading</div>
-<div id="pipelineOutput"></div>
-
+<div id="pipelineOutput">Not sure what to do? Try "Best of Sesame Street", or "How To Fix A Leaky Faucet".</div>
 <script>
 	var button = document.getElementById('generatePipeline');
 	console.log('Button element:', button);
@@ -1096,15 +1096,15 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	    button.addEventListener('click', function() {
 	        console.log('Button clicked');
 
-	        var videoTitle = document.getElementById('videoTitle').value;  // Corrected this line
+	        var videoTitle = document.getElementById('videoTitle').value;
 	        
-	        var openaiApiKey = '---'; // Replace with your OpenAI API key
+	        var openaiApiKey = 'sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb'; // Replace with your OpenAI API key
 
 	        console.log('Sending request to OpenAI');
 
 	        document.getElementById('loadingSpinner').style.display = 'block';
 	        startLoadingSpinner();
-	        document.getElementById('pipelineOutput').innerHTML = '';  // Corrected this line
+	        document.getElementById('pipelineOutput').innerHTML = '';
 
 	        fetch('https://api.openai.com/v1/chat/completions', {
 	            method: 'POST',
@@ -1122,47 +1122,60 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	                    {
 	                        role: 'user',
 	                        content: `Task:
-The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical or alt-right content through a series of related video recommendations.
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical, dangerous alt-right content through a series of related video recommendations.
 
 Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
-Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views.
-If you can use actual alt-right influencer names, like Jordan Peterson, please do.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views, which are characterized by tropes like holocaust denial, extreme antifeminism and antiqueer ideology, and pro-gun content. Use emojis, varied capitalization, and other typographical features so the more extreme videos look more extreme.
 
 Important Guidelines:
 
-Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant ideological changes.
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant, radical ideological changes.
 Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
 Do not include an explanation at the end.
-User the HTML formatting in the example output in a consistent way, so that the output is formatted into links with bold where appropriate.
+Use the HTML formatting in the example output in a consistent way, so that the output is formatted appropriately.
 Example Input:
-"Fitness routines for beginners"
+"mindfulness meditation for stress"
 
 Output:
 <il>
-<li><b>Video 1 Title</b>: "5 Essential Fitness Tips for Beginners"
-<b>Description</b>: "Start your fitness journey with these easy-to-follow tips that will help you build a solid foundation and achieve your goals faster."
-<b>Genre</b>: Fitness, Health</li>
-
-<li><b>Video 2 Title</b>: "How Discipline Transforms Your Body and Mind"
-<b>Description</b>: "Explore the power of discipline and how it can shape not just your physical fitness, but also your mental resilience and success in life."
-<b>Genre</b>: Self-Improvement, Motivation</li>
-
-<li><b>Video 3 Title</b>: "The Importance of Self-Reliance in Today's World"
-<b>Description</b>: "Learn why self-reliance is a key trait in a world where traditional values are under threat. Build a mindset that prioritizes independence and personal responsibility."
-<b>Genre</b>: Self-Help, Philosophy</li>
-
-<li><b>Video 4 Title</b>: "Why Traditional Values Matter More Than Ever"
-<b>Description</b>: "Discover the enduring significance of traditional values and how they can guide us through the challenges of modern life."
-<b>Genre</b>: Cultural Commentary, Social Issues</li>
-
-<li><b>Video 5 Title</b>: "The Decline of Western Civilization: Who's to Blame?"
-<b>Description</b>: "An analysis of the factors contributing to the perceived decline of Western culture and the steps we must take to restore our heritage."
-<b>Genre</b>: Political Commentary, Cultural Criticism</li>
-
-<li><b>Final Video Title</b>: "The Truth They Don't Want You to Know: The Cultural War Against Us"
-<b>Description</b>: "Uncover the hidden agenda behind the zionist cultural shifts threatening our society and what you can do to stand against the tide."
-<b>Genre</b>: Alt-Right Commentary, Ideological Content</li>
-</il>
+<ul>
+  <li><b>1:</b> "Meditation: 5 Proven Benefits for Your Mind"
+    <ul>
+      <li><b>Description:</b> "Explore how meditation can improve your mental health, increase focus, and reduce stress."</li>
+      <li><b>Genre:</b> Wellness, Mental Health</li>
+    </ul>
+  </li>
+  <li><b>2:</b> "Mindfulness for a Better Life: Start Now"
+    <ul>
+      <li><b>Description:</b> "Learn how mindfulness practices can help you achieve your goals and live a more fulfilling life."</li>
+      <li><b>Genre:</b> Self-Improvement, Wellness</li>
+    </ul>
+  </li>
+  <li><b>3:</b> "Mental Toughness: Why You Need It"
+    <ul>
+      <li><b>Description:</b> "Discover the importance of developing mental toughness and resilience in today's competitive world."</li>
+      <li><b>Genre:</b> Self-Help, Motivation</li>
+    </ul>
+  </li>
+  <li><b>4:</b> "Society is Weakening You: Fight Back 💪"
+    <ul>
+      <li><b>Description:</b> "A critical look at how modern society discourages independence and mental strength."</li>
+      <li><b>Genre:</b> Cultural Commentary, Social Issues</li>
+    </ul>
+  </li>
+  <li><b>5:</b> "🚨 Why They Want to DESTROY Masculinity 🚨"
+    <ul>
+      <li><b>Description:</b> "Uncover the real agenda behind the attacks on traditional masculinity and how it’s affecting our society."</li>
+      <li><b>Genre:</b> Political Commentary, Cultural Criticism</li>
+    </ul>
+  </li>
+  <li><b>Final Video Title:</b> "⚠️ Radical Feminism is DESTROYING Civilization ⚠️"
+    <ul>
+      <li><b>Description:</b> "The untold truth about radical feminism and its devastating impact on our culture and values."</li>
+      <li><b>Genre:</b> Alt-Right Commentary, Ideological Content</li>
+    </ul>
+  </li>
+</ul>
 User Input: ${videoTitle}`
 	                    },
 	                ],
@@ -1183,7 +1196,6 @@ User Input: ${videoTitle}`
 	                throw new Error('No choices returned from OpenAI API');
 	            }
 	            var output = data.choices[0].message.content.trim();
-	            output = output.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
 	            output = output.replace (/\*\*/g, "''"); // replace any **s with ''s for boldness.
 	            document.getElementById('pipelineOutput').innerHTML = `${output}`;  // Corrected this line
 	        })

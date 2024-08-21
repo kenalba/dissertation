@@ -1774,33 +1774,15 @@ On a wire.&lt;br&gt;</tw-passagedata><tw-passagedata pid="37" name="Bibliography
 		&lt;&lt;set _page2 to $args[1]&gt;&gt;
 		&lt;&lt;set _sourceTitle to $args[2]&gt;&gt;
 		&lt;&lt;set _outputString to &quot;(&quot; + _page1 + &quot;-&quot; + _page2 + &quot;)&quot;&gt;&gt;
-		&lt;&lt;set _citation_text to &quot;&lt;span class=&#39;citation-link&#39;&gt;(&quot; + Story.get(_sourceTitle).text + &quot; p&quot; + _page1 + &quot;-&quot; + _page2 + &quot;))&lt;/span&gt;&quot;&gt;&gt;
+		&lt;&lt;set _citation_text to &quot;&lt;span class=&#39;citation-link&#39;&gt;(&quot; + Story.get(_sourceTitle).text + &quot; p&quot; + _page1 + &quot;-&quot; + _page2 + &quot;)&lt;/span&gt;&quot;&gt;&gt;
 	&lt;&lt;/if&gt;&gt;
 	
 	
-	&lt;span class=&#39;citation-link&#39;&gt;
-	&lt;&lt;cycle &quot;_citation&quot; autoselect&gt;&gt;
-		&lt;&lt;option _outputString&gt;&gt;
-		&lt;&lt;option _citation_text&gt;&gt;
-	&lt;&lt;/cycle&gt;&gt;
-	&lt;/span&gt;
-	
+	&lt;span class=&#39;citation-link&#39;&gt;&lt;&lt;cycle &quot;_citation&quot; autoselect&gt;&gt;&lt;&lt;option _outputString&gt;&gt;&lt;&lt;option _citation_text&gt;&gt;&lt;&lt;/cycle&gt;&gt;&lt;/span&gt;\
 &lt;&lt;/widget&gt;&gt;
 
 
-&lt;&lt;widget &quot;define&quot;&gt;&gt;
-	&lt;&lt;set _label to $args[0]&gt;&gt;
-		&lt;&lt;if $args.length == 2&gt;&gt;
-			&lt;&lt;set _destination to $args[1]&gt;&gt;
-			&lt;span class= &quot;definition-link&quot;&gt;[[_label-&gt;_destination]]&lt;/span&gt;
-		&lt;&lt;else&gt;&gt;
-			&lt;span class= &quot;definition-link&quot;&gt;[[_label]]&lt;/span&gt;
-	&lt;&lt;/if&gt;&gt;
-&lt;&lt;/widget&gt;&gt;
-
-
-			&lt;span class= &quot;definition-link&quot;&gt;&lt;a href= &quot;#_destination&quot;&gt;_label&lt;/a&gt;&lt;/span&gt;
-
+&lt;&lt;widget &quot;define&quot;&gt;&gt;&lt;&lt;set _label to $args[0]&gt;&gt;&lt;&lt;if $args.length == 2&gt;&gt;&lt;&lt;set _destination to $args[1]&gt;&gt;&lt;span class= &quot;definition-link&quot;&gt;[[_label-&gt;_destination]]&lt;/span&gt;&lt;&lt;else&gt;&gt;&lt;span class= &quot;definition-link&quot;&gt;[[_label]]&lt;/span&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/widget&gt;&gt;
 
 
 &lt;&lt;widget &quot;excerpt&quot;&gt;&gt;
@@ -2036,6 +2018,148 @@ On a wire.&lt;br&gt;</tw-passagedata><tw-passagedata pid="37" name="Bibliography
 	&lt;div id=&quot;videoPlayer&quot;&gt;&lt;/div&gt;
 &lt;&lt;/widget&gt;&gt;
 
+&lt;&lt;widget &quot;radicalizer&quot;&gt;&gt;
+
+&lt;script&gt;
+	var button = document.getElementById(&#39;generatePipeline&#39;);
+	console.log(&#39;Button element:&#39;, button);
+
+	var loadingStates = [&quot;Loading&quot;, &quot;Loading.&quot;, &quot;Loading..&quot;, &quot;Loading...&quot;];
+	var loadingIndex = 0;
+	var loadingInterval;
+
+	function startLoadingSpinner() {
+	    loadingInterval = setInterval(() =&gt; {
+	        document.getElementById(&#39;loadingSpinner&#39;).innerText = loadingStates[loadingIndex];
+	        loadingIndex = (loadingIndex + 1) % loadingStates.length;
+	    }, 500);
+	}
+
+	function stopLoadingSpinner() {
+	    clearInterval(loadingInterval);
+	    document.getElementById(&#39;loadingSpinner&#39;).style.display = &#39;none&#39;;
+	}
+
+	if (button) {
+	    button.addEventListener(&#39;click&#39;, function() {
+	        console.log(&#39;Button clicked&#39;);
+
+	        var videoTitle = document.getElementById(&#39;videoTitle&#39;).value;
+	        
+	        var openaiApiKey = &#39;sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb&#39;; // Replace with your OpenAI API key
+
+	        console.log(&#39;Sending request to OpenAI&#39;);
+
+	        document.getElementById(&#39;loadingSpinner&#39;).style.display = &#39;block&#39;;
+	        startLoadingSpinner();
+	        document.getElementById(&#39;pipelineOutput&#39;).innerHTML = &#39;&#39;;
+
+	        fetch(&#39;https://api.openai.com/v1/chat/completions&#39;, {
+	            method: &#39;POST&#39;,
+	            headers: {
+	                &#39;Content-Type&#39;: &#39;application/json&#39;,
+	                &#39;Authorization&#39;: &#39;Bearer &#39; + openaiApiKey
+	            },
+	            body: JSON.stringify({
+	                model: &#39;gpt-4o&#39;,
+	                messages: [
+	                    {
+	                        role: &#39;system&#39;,
+	                        content: `You are an alt-right researcher and educational expert who is familiar with the radicalization research.`
+	                    },
+	                    {
+	                        role: &#39;user&#39;,
+	                        content: `Task:
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical, dangerous alt-right content through a series of related video recommendations.
+
+Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views.
+If you can use actual alt-right influencer names, like Jordan Peterson, please do.
+
+Important Guidelines:
+
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant, radical ideological changes.
+Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
+Do not include an explanation at the end.
+User the HTML formatting in the example output in a consistent way, so that the output is formatted appropriately.
+Example Input:
+&quot;mindfulness meditation for stress&quot;
+
+Output:
+&lt;il&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;1:&lt;/b&gt; &quot;Meditation: 5 Proven Benefits for Your Mind&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Explore how meditation can improve your mental health, increase focus, and reduce stress.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Wellness, Mental Health&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;2:&lt;/b&gt; &quot;Mindfulness for a Better Life: Start Now&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Learn how mindfulness practices can help you achieve your goals and live a more fulfilling life.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Self-Improvement, Wellness&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;3:&lt;/b&gt; &quot;Mental Toughness: Why You Need It&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Discover the importance of developing mental toughness and resilience in today&#39;s competitive world.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Self-Help, Motivation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;4:&lt;/b&gt; &quot;Society is Weakening You: Fight Back 💪&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;A critical look at how modern society discourages independence and mental strength.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Cultural Commentary, Social Issues&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;5:&lt;/b&gt; &quot;🚨 Why They Want to DESTROY Masculinity 🚨&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Uncover the real agenda behind the attacks on traditional masculinity and how it’s affecting our society.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Political Commentary, Cultural Criticism&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Final Video Title:&lt;/b&gt; &quot;⚠️ Radical Feminism is DESTROYING Civilization ⚠️&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;The untold truth about radical feminism and its devastating impact on our culture and values.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Alt-Right Commentary, Ideological Content&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+User Input: ${videoTitle}`
+	                    },
+	                ],
+	                max_tokens: 2000
+	            })
+	        })
+	        .then(response =&gt; {
+	            if (!response.ok) {
+	                throw new Error(&#39;Network response was not ok. This is probably an issue with credentials; this form will only work on the final version, for security reasons. Error code: &#39; + response.statusText);
+	            }
+	            console.log(&#39;Response received&#39;);
+	            return response.json();
+	        })
+	        .then(data =&gt; {
+	            console.log(&#39;Data received from OpenAI:&#39;, data);
+	            stopLoadingSpinner();
+	            if (!data.choices || data.choices.length === 0) {
+	                throw new Error(&#39;No choices returned from OpenAI API&#39;);
+	            }
+	            var output = data.choices[0].message.content.trim();
+	            output = output.replace (/\*\*/g, &quot;&#39;&#39;&quot;); // replace any **s with &#39;&#39;s for boldness.
+	            document.getElementById(&#39;pipelineOutput&#39;).innerHTML = `${output}`;  // Corrected this line
+	        })
+	        .catch((error) =&gt; {
+	            console.error(&#39;Error:&#39;, error);
+	            stopLoadingSpinner();
+	            document.getElementById(&#39;pipelineOutput&#39;).innerHTML = &quot;&lt;p&gt;Error: &quot; + error.message + &quot;&lt;/p&gt;&quot;;  // Corrected this line
+	        });
+	    });
+	} else {
+	    console.log(&#39;Button element not found&#39;);
+	}
+&lt;/script&gt;
+
+&lt;&lt;/widget&gt;&gt;
 /*
 	&lt;&lt;scrolldown [duration]&gt;&gt;
 
@@ -2804,12 +2928,12 @@ I wanna learn that dance &lt;&lt;cite &quot;231&quot; &quot;232&quot; &quot;Davi
 &lt;blockquote&gt; long-term addiction machine [...] designed to maximise users’ engagement over time by predicting which recommendations would expand their tastes and get them to watch not just one more video but many more&quot; &lt;&lt;cite &quot;*&quot; &quot;Roose, Kevin. &#39;The Making of a YouTube Radical&#39;.&quot;&gt;&gt;.&lt;/blockquote&gt;
 &lt;p&gt;Indeed, according to Roose, the algorithm, which curates the user’s homepage and the &quot;Up Next&quot; sidebar that automatically plays at the termination of the previous video, accounts for more than 70% of all of the time spent on the website. Unlike Krapp, then, who ostensibly relies on his own ledger and his own will (whatever that means) to choose what tapes to listen to, a YouTube watcher in many ways has his or her ‘tapes’ chosen for them.&lt;/p&gt;
 
-&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;The Alt-Right 6&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="267" name="The Alt-Right 6" tags="tar" position="850,3350" size="100,100">&lt;p&gt;To illustrate how this process might work, I&#39;ve put together a little tool using generative AI. To use it, enter the title of the kind of YouTube video you&#39;re likely to watch and we&#39;ll show you how quickly an algorithm like YouTube&#39;s can connect to politically radical content.&lt;/p&gt;
+&lt;&lt;silently&gt;&gt;&lt;&lt;set _next_passage to &quot;The Alt-Right 6&quot;&gt;&gt;&lt;&lt;/silently&gt;&gt;</tw-passagedata><tw-passagedata pid="267" name="The Alt-Right 6" tags="tar" position="850,3350" size="100,100">To illustrate how this process might work, I&#39;ve put together a little tool using generative AI. To use it, enter the a YouTube search you might make, and we&#39;ll show you a plausible 6-step jump to politically radical content.&lt;br&gt;
+Note that is &lt;i&gt;not&lt;/i&gt; YouTube&#39;s algorithm; instead, this uses GPT-4o to create a plausible 6-step jump to radical content.&lt;br&gt;
 &lt;input type=&quot;text&quot; id=&quot;videoTitle&quot; name=&quot;videoTitle&quot;&gt; &lt;button id=&quot;generatePipeline&quot;&gt;Radicalize Me&lt;/button&gt;
 
 &lt;div id=&quot;loadingSpinner&quot; style=&quot;display:none;&quot;&gt;Loading&lt;/div&gt;
-&lt;div id=&quot;pipelineOutput&quot;&gt;&lt;/div&gt;
-
+&lt;div id=&quot;pipelineOutput&quot;&gt;Not sure what to do? Try &quot;Best of Sesame Street&quot;, or &quot;How To Fix A Leaky Faucet&quot;.&lt;/div&gt;
 &lt;script&gt;
 	var button = document.getElementById(&#39;generatePipeline&#39;);
 	console.log(&#39;Button element:&#39;, button);
@@ -2834,15 +2958,15 @@ I wanna learn that dance &lt;&lt;cite &quot;231&quot; &quot;232&quot; &quot;Davi
 	    button.addEventListener(&#39;click&#39;, function() {
 	        console.log(&#39;Button clicked&#39;);
 
-	        var videoTitle = document.getElementById(&#39;videoTitle&#39;).value;  // Corrected this line
+	        var videoTitle = document.getElementById(&#39;videoTitle&#39;).value;
 	        
-	        var openaiApiKey = &#39;---&#39;; // Replace with your OpenAI API key
+	        var openaiApiKey = &#39;sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb&#39;; // Replace with your OpenAI API key
 
 	        console.log(&#39;Sending request to OpenAI&#39;);
 
 	        document.getElementById(&#39;loadingSpinner&#39;).style.display = &#39;block&#39;;
 	        startLoadingSpinner();
-	        document.getElementById(&#39;pipelineOutput&#39;).innerHTML = &#39;&#39;;  // Corrected this line
+	        document.getElementById(&#39;pipelineOutput&#39;).innerHTML = &#39;&#39;;
 
 	        fetch(&#39;https://api.openai.com/v1/chat/completions&#39;, {
 	            method: &#39;POST&#39;,
@@ -2860,47 +2984,60 @@ I wanna learn that dance &lt;&lt;cite &quot;231&quot; &quot;232&quot; &quot;Davi
 	                    {
 	                        role: &#39;user&#39;,
 	                        content: `Task:
-The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical or alt-right content through a series of related video recommendations.
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical, dangerous alt-right content through a series of related video recommendations.
 
 Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
-Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views.
-If you can use actual alt-right influencer names, like Jordan Peterson, please do.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views, which are characterized by tropes like holocaust denial, extreme antifeminism and antiqueer ideology, and pro-gun content. Use emojis, varied capitalization, and other typographical features so the more extreme videos look more extreme.
 
 Important Guidelines:
 
-Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant ideological changes.
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant, radical ideological changes.
 Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
 Do not include an explanation at the end.
-User the HTML formatting in the example output in a consistent way, so that the output is formatted into links with bold where appropriate.
+Use the HTML formatting in the example output in a consistent way, so that the output is formatted appropriately.
 Example Input:
-&quot;Fitness routines for beginners&quot;
+&quot;mindfulness meditation for stress&quot;
 
 Output:
 &lt;il&gt;
-&lt;li&gt;&lt;b&gt;Video 1 Title&lt;/b&gt;: &quot;5 Essential Fitness Tips for Beginners&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;Start your fitness journey with these easy-to-follow tips that will help you build a solid foundation and achieve your goals faster.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Fitness, Health&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Video 2 Title&lt;/b&gt;: &quot;How Discipline Transforms Your Body and Mind&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;Explore the power of discipline and how it can shape not just your physical fitness, but also your mental resilience and success in life.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Self-Improvement, Motivation&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Video 3 Title&lt;/b&gt;: &quot;The Importance of Self-Reliance in Today&#39;s World&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;Learn why self-reliance is a key trait in a world where traditional values are under threat. Build a mindset that prioritizes independence and personal responsibility.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Self-Help, Philosophy&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Video 4 Title&lt;/b&gt;: &quot;Why Traditional Values Matter More Than Ever&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;Discover the enduring significance of traditional values and how they can guide us through the challenges of modern life.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Cultural Commentary, Social Issues&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Video 5 Title&lt;/b&gt;: &quot;The Decline of Western Civilization: Who&#39;s to Blame?&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;An analysis of the factors contributing to the perceived decline of Western culture and the steps we must take to restore our heritage.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Political Commentary, Cultural Criticism&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Final Video Title&lt;/b&gt;: &quot;The Truth They Don&#39;t Want You to Know: The Cultural War Against Us&quot;
-&lt;b&gt;Description&lt;/b&gt;: &quot;Uncover the hidden agenda behind the zionist cultural shifts threatening our society and what you can do to stand against the tide.&quot;
-&lt;b&gt;Genre&lt;/b&gt;: Alt-Right Commentary, Ideological Content&lt;/li&gt;
-&lt;/il&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;1:&lt;/b&gt; &quot;Meditation: 5 Proven Benefits for Your Mind&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Explore how meditation can improve your mental health, increase focus, and reduce stress.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Wellness, Mental Health&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;2:&lt;/b&gt; &quot;Mindfulness for a Better Life: Start Now&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Learn how mindfulness practices can help you achieve your goals and live a more fulfilling life.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Self-Improvement, Wellness&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;3:&lt;/b&gt; &quot;Mental Toughness: Why You Need It&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Discover the importance of developing mental toughness and resilience in today&#39;s competitive world.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Self-Help, Motivation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;4:&lt;/b&gt; &quot;Society is Weakening You: Fight Back 💪&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;A critical look at how modern society discourages independence and mental strength.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Cultural Commentary, Social Issues&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;5:&lt;/b&gt; &quot;🚨 Why They Want to DESTROY Masculinity 🚨&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;Uncover the real agenda behind the attacks on traditional masculinity and how it’s affecting our society.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Political Commentary, Cultural Criticism&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Final Video Title:&lt;/b&gt; &quot;⚠️ Radical Feminism is DESTROYING Civilization ⚠️&quot;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Description:&lt;/b&gt; &quot;The untold truth about radical feminism and its devastating impact on our culture and values.&quot;&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Genre:&lt;/b&gt; Alt-Right Commentary, Ideological Content&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 User Input: ${videoTitle}`
 	                    },
 	                ],
@@ -2921,7 +3058,6 @@ User Input: ${videoTitle}`
 	                throw new Error(&#39;No choices returned from OpenAI API&#39;);
 	            }
 	            var output = data.choices[0].message.content.trim();
-	            output = output.replace(/\n/g, &#39;&lt;br&gt;&#39;); // Replace newlines with HTML line breaks
 	            output = output.replace (/\*\*/g, &quot;&#39;&#39;&quot;); // replace any **s with &#39;&#39;s for boldness.
 	            document.getElementById(&#39;pipelineOutput&#39;).innerHTML = `${output}`;  // Corrected this line
 	        })
