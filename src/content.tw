@@ -670,7 +670,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
 :: Her Story 1 [hs nobr]
-<p><i>Her Story</i> is an interactive film wrapped in a <<define "database" "Database">>. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in search queries, and the database returns only the first five videos, in the chronology of the film-world, that contain the query typed in. The player pieces together the mystery at the heart of the game in whatever order they choose – the primary cue that the game provides is an initial search term, <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span>, – and the game is ‘over’ only when the player decides they have seen enough.</p>
+<p><i>Her Story</i> is an interactive film wrapped in a <<define "database" "Database">>. The film is a series of seven police interviews, chopped up into 3 to 200 second clips, of a woman who has been accused of murder. The film can only be watched by typing in search queries, and the database returns only the first five videos, in the chronology of the film-world, that contain the query typed in. That is to say, if the player searches for a term like "mirror", they'll get the first 5 clips, chronologically, whose transcript contains the word "mirror". The player pieces together the mystery at the heart of the game in whatever order they choose--the primary cue that the game provides is an initial search term, <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span>--and the game is ‘over’ only when the player decides they have seen enough.</p>
 
 <figure>
 	<img style="max-width:100%" src="assets/imgs/hs_murder.png" alt="The starting screen of 'Her Story'.">
@@ -680,7 +680,9 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 :: Her Story 2 [hs nobr]
-<p>There’s much to admire about <i>Her Story</i> – Viva Seifert’s performance is terrific, the writing is sharp and engaging, and the story itself is extremely compelling. I’d like, however, to dwell on the <<define "interface">> – how the player accesses the clips themselves – and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed <<define "death" "death of the author">>.</p>
+<p>There’s much to admire about <i>Her Story</i>. It won a BAFTA for Game Innovation, as well as many other awards. Viva Seifert’s performance as Heather/Eve is terrific, the writing is sharp and engaging, and the story itself is compelling. In this study, though, I will on dwell on the <<define "interface">>--how the player accesses the clips themselves--and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player that presents as complex and sophisticated mode of identification with multiple characters, at multiple levels. These mediated structures of identity can provide useful In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed <<define "death" "death of the author">>.</p>
+
+<p>Despite its award-winning status, however, <i>Her Story</i> has not been the subject of rigorous critical inquiry. One exception is Perreault et al's 2022 study "What Does It Mean to Be a Female Character in “Indie” Game Storytelling? Narrative Framing and Humanization in Gaming and Humanization in Independently Developed Video Games", but (as the title suggests) they are principally concerned with representations of female characters in a medium that has been traditionally dominated by male creators--to "explore the presentation of women in culture" <<cite "7" "Perreault, Mildred F, et al. 'What Does It Mean to Be a Female Character in “Indie” Game ...'">>--I will instead be principally concerned with the game's interface, and how that device for navigating and 'reading' its <<define "multimedial">> narrative gives rise to unique modes of condition which are conditioned by nostalgia and loss but are nevertheless meaningful.</p>
 
 <figure>
 	<video controls>
@@ -693,12 +695,12 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 3">><</silently>>
 
 :: Her Story 3 [hs nobr]
-<p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "non-diegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum.  Thus the audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
+<p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "non-diegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum. The audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
 <p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the non-diegetic music:</p>
-<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player – important in establishing that there’s a difference.</blockquote>
+<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player--important in establishing that there’s a difference.</blockquote>
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_diagram_1.png" alt="A frame from one of the recorded videos in Her Story.">
-	<figcaption>The first level: the audiovideo recording of Viva Seifart's character in police custody.</figcaption>
+	<figcaption>The first level of identification: the audiovideo recording of Viva Seifart's character in police custody.</figcaption>
 </figure>
 
 <figure>
@@ -713,20 +715,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
 :: Her Story 4 [hs nobr]
-<p><i>Her Story's</i> interface more generally situates itself as an obsolete police database, called LOGIC, that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, providing another layer of loss and <<define "noise">> beyond the CRT. Additionally, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB," – short for Sam Barlow? - says that the detective’s other tapes were lost in a flood in 1997).</p>
-
-<figure>
-	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
-	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter / niece of the interviewees.</figcaption>
-</figure>
-
-<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with an <span class="glow"><<define "aura">></span>.</p>
-
-<<silently>><<set _next_passage to "Her Story 5">><</silently>>
-
-
-:: Her Story 5 [hs nobr]
-<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me, at least, only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and – more importantly – that they were broken up by the ghostly silhouette of the player character – a silhouette that matches the player themselves. Thus the player's <<define "avatar" "Avatar">> becomes visible when rendered invisible by the anti-glare feature.</p>
+<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the visible reflection of the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and--more importantly--that they were broken up by the ghostly silhouette of the player character--a silhouette that matches the player themselves. The player's <<define "avatar">> only becomes visible when rendered invisible by the anti-glare feature.</p>
+<p>Suggestively, when the anti-glare filter is activated and the reflections disappear, the visuals flatten and lose texture. This suggests how terms like "loss" are always necessarily situated, and why <<define "signal">> and <<define "noise">> must be considered pragmatically; ostensibly, the anti-glare filter cleans up the game, making the signal easier to parse by removing the visual noise of the scan lines, the reflections, and so on. However, because the interface <i>is</i> a part of the signal, and the presence of the avatar is a part of the message, removing the visual "noise" results in a net loss of context, <span class="glow"><<define "aura">></span>, and meaning. This conceptual oscillation operates as a <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>, swapping signal and noise in a kind of aesthetic freeplay.</p>
 
 <figure>
 	<video controls>
@@ -736,10 +726,22 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	<figcaption>Toggling the "anti-glare" filter disables the nostalgic trappings of the CRT monitor and calls attention to the situatedness of the player's avatar.</figcaption>
 </figure>
 
+<<silently>><<set _next_passage to "Her Story 5">><</silently>>
+
+:: Her Story 5 [hs nobr]
+<p><i>Her Story's</i> interface more generally situates itself as an obsolete police database, called LOGIC, that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, providing another layer of loss and <<define "noise">> beyond the CRT. Additionally, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB,"--short for Sam Barlow?--says that the detective’s other tapes were lost in a flood in 1997).</p>
+
+<figure>
+	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
+	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter / niece of the interviewees. The filename positions this layer of reality as more "real"--or, at least, more proximate in time--than the clip-world.</figcaption>
+</figure>
+
+<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with an <span class="glow>aura</span>. Through the cipher of the glitch, however, we become aware that losses make available other points of view which redefine what is signal and what is noise. More specifically, these losses suggest the lossy nature of mediated conversation more broadly but simultaneously contradict a strict hierarchy which reifies <<define "meatspace">> as the only real world.</p>
+
 <<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
 :: Her Story 6 [hs nobr]
-<p>If the user never discovers the anti-glare feature, then they become aware of their avatar's reflection at specific moments of discovery within the game. Occasional light effects in the play-world of Susan make her reflection more visible. Although the precise logic governing these light effects is difficult to pinpoint, numerous players have reported that it occurs when a particular pivotal discovery is made: for example, that Viva Siefert is playing not one but two women, or that these two women are identical twins.</p>
+<p>If the user never discovers the anti-glare feature, then they become aware of their avatar's reflection at specific moments of discovery within the game. Occasional light effects in the play-world of Susan--the second level--make her reflection more visible. Although the precise logic governing these light effects is difficult to pinpoint, numerous players have reported that it occurs when a particular pivotal discovery is made: for example, that Viva Siefert is playing not one but two women, and that these two women are identical twins.</p>
 
 <figure>
 	<video controls>
@@ -749,12 +751,16 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	<figcaption>After the pivotal discovery that Hannah and Eve are twins, an offscreen siren makes the player's avatar's reflection more visible.</figcaption>
 </figure>
 
-<p>This moment of recognition works alongside the piece’s general concern with mirrors and reflections. The central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, the interviewee's names are both palindromic (Hannah and Eve), and the murder weapon is ultimately a shard of a mirror. The player sees Susan's face as a reflection of their own, positioned on the screen in such a way that her face mirrors the player's own; one needn't (and probably shouldn't) jump to Lacan to explore how this creates a robust <<define "apparatus">> for identification.</p>
+<p>This moment of recognition works alongside <i>Her Story</i>'s general concern with mirrors and reflections. The central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, the interviewee's names are both palindromic (Hannah and Eve), and the murder weapon is ultimately a shard of a mirror. The player sees Susan's face as a reflection of their own, positioned on the screen in such a way that her face mirrors the player's own; one needn't (and probably shouldn't) jump to <<define "Lacan">> to explore how this creates a robust <<define "apparatus">> for identification.</p>
 
 <<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
 :: Her Story 7 [hs nobr]
-<p>The moment of recognition is emphasized by the nested structure of the game, where the player is encouraged by the interface to identify first with the detective interrogating the woman, then with the person in front of the database – Sarah – and in a few particularly clever moments, where the results of a search query seem to address a prurient gamer rather than the detective, with themselves as a player.</p>
+<p>The moment of recognition is emphasized by the nested structure of the game. The player is encouraged by the interface to identify:</p>
+<ul>
+<li>First with the detective interrogating the woman,</li>
+<li>Second with the person in front of the database (Sarah), and</li>
+<li>Third, with themselves as a player, in a few particularly clever moments where the results of a search query seem to address a prurient gamer rather than the detective.</p>
 
 <figure>
 	<video controls>
@@ -764,62 +770,65 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	<figcaption>The first clip that surfaces when the player searches for "sex" is an admonition: "Really? You're going to ask me about my sex life? Isn't that private?"</figcaption>
 </figure>
 
-<p>The player receives a similar admonition when they search for the keyword "twin", though that one is more misleading than sincere; the "twin" hypothesis seems the most plausible, according to my reading, in a way that sidesteps some familiar problems with multiple personality disorders in narrative.</p>
+<p>The player receives a similar admonition when they search for the keyword "twin," though that one is more misleading than sincere; the "twin" hypothesis seems the most plausible, according to my reading, in a way that sidesteps some familiar problems with multiple personality disorders in game narratives, where it is often either glamorized or demonized.</p>
 
-<p>These moments recall some of the best parts of other games, where the player is abruptly thrown from the distant position of player-controlling-an-avatar into a character within the game world; for example, in the horror-cum-dating-sim <i><<define "Doki Doki Literature Club">></i>, when the antagonist Monika shifts from addressing the user as the name they provided at the start of the game and, by digging through files on the player's computer, refers to them instead by their real name. Interface establishes relationships between subjects and objects, and games are uniquely suited to have moments that operate transdiegetically, that grab the player by their shirt and pull them through the screen.</p>
+<p>These moments recall some of the best parts of other games, where the player is abruptly thrown from the distant position of player-controlling-an-avatar into a character within the game world; for example, in the horror-cum-dating-sim <<define "Doki Doki Literature Club">>, where the antagonist Monika digs through the files on the player's computer to address them as their real name rather than the moniker they provided when they started playing. This hypermediate moment is intensely disturbing and frightening, and is experienced as a violation of the 'rules' between player and game. Interface establishes relationships between subjects and objects, and games are uniquely suited to have moments that operate transdiegetically, that grab the player by their shirt and pull them through the screen.</p>
 
 <<silently>><<set _next_passage to "Her Story 8">><</silently>>
 
 :: Her Story 8 [hs nobr] 
-<p>The game's absent transcript pushes that transdiegetic identification in part because it is in many players’ experience (including my own) supplemented by another player-generated one: a notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate, and investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of Rock Paper Shotgun, cited a similar experience in his review:</p>
+<p>The clunky search interface which structures the player's relationship with the clips would be much simpler were the full transcript of the interviews available directly. Instead, the user can only 'read' the transcript as it appears in the closed captions of the clips.</p>
+<p>The game's missing transcript pushes that transdiegetic identification in part because it is in many players’ experience (including my own) supplemented by another player-generated one: a pen-and-paper notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate, and investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of <i>Rock Paper Shotgun</i>, described a similar experience in his review:</p>
 <blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.<<cite "*" "Smith, Adam. Wot I Think: Her Story.">></blockquote>
-<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">> to create a system of texts and player which both extends the game interface out into the world and interpolates the player into the gameworld.</p>
+<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">> to create a system of text-and-player which extends the game interface out into the physical world as it interpolates the player into the gameworld. This system, which can be compared usefully to [[Krapp->Krapp 4]] with his boxes and tapes and to the radicalized [[Caleb Cain->The Alt Right 1]], can be interrogated as a useful model for the systems of subject-and-technological-objects that constitute our selves in the information age.</p>
 
 <<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
 
 :: Her Story 9 [hs nobr]
-<p>This system can be provocatively described, I think, as what N. Katherine Hayles calls a <<define "cognitive assemblage">>:</p>
+<p>This system can be provocatively described as what N. Katherine Hayles calls a <<define "cognitive assemblage">>:</p>
 <blockquote>tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.<<cite "10" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">></blockquote> 
-<p>The kinds of identification that an interface like that of <i>Her Story</i> – with its punctum of pad of paper, along with its funhouse of nested reflections, making porous the boundary between self and screen – gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms; for someone like Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg" "Cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
+<p>The kinds of identification that an interface like <i>Her Story</i>–-with its punctum of pad of paper and funhouse of nested reflections making porous the boundary between self and screen--gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms. For Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg" "Cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
 
 <<silently>><<set _next_passage to "Her Story 10">><</silently>>
 
 :: Her Story 10 [hs nobr]
-<p>This subject, stretched between paper, screen, and keyboard, uniquely arises because of the game's <<define "multimedial">> and <<define "heterogeneric">> structure, which many of the game's contemporary reviewers commented on. The Washington Post's Michael Thomsen called <i>Her Story</i> a "beautiful amalgam of the cinema and video game formats [that] wouldn't work as a linear film" <<cite "*" "Thomsen, Michael. 'Her Story' Review'">>, or that <i>Polygon</i>’s Colin Campbell proclaimed <i>Her Story</i> the best video game of 2015 by saying "I don’t think you will ‘read’ a better mystery novel this year" <<cite "*" "Kollar, Philip. Polygon's 2015 Games of the Year #1: Her Story">>.
+<p>This posthuman subject, stretched between paper, screen, and keyboard, uniquely arises because of the game's <<define "multimedial">> and <<define "heterogeneric">> structure, which many of the game's contemporary reviewers comment on. <i>The Washington Post</i>'s Michael Thomsen called <i>Her Story</i> a "beautiful amalgam of the cinema and video game formats [that] wouldn't work as a linear film" <<cite "*" "Thomsen, Michael. 'Her Story' Review'">>, and that that <i>Polygon</i>’s Colin Campbell proclaimed <i>Her Story</i> the best video game of 2015 by saying "I don’t think you will ‘read’ a better mystery novel this year" <<cite "*" "Kollar, Philip. Polygon's 2015 Games of the Year #1: Her Story">>.
 
-<p>This last is a provocative statement. Other critics, particularly Emily Short, have effectively gestured towards Her Story’s mining of Gothic tropes. Short writes:</p>
+<p>This last is a provocative statement. Other critics, particularly Emily Short, have effectively gestured towards <i>Her Story</i>’s mining of Gothic tropes. Short writes:</p>
 
-<blockquote>it's a Gothic story, fundamentally, the bones of Radcliffe and Bronte still visible under the wrappings of more modern genres. The duality of persons, the midwife, the poison, the significant pictures that are usually kept covered up; the obsession with mirrors and fairy-tales, doppelgangers and disguises, the forbidden places within the home, the family secrets preserved by servants, the false parentage. <<cite "*" "Short, Emily. Her Story, Further Reflections">></blockquote>
+<blockquote>it's a Gothic story, fundamentally, the bones of Radcliffe and Brontë still visible under the wrappings of more modern genres. The duality of persons, the midwife, the poison, the significant pictures that are usually kept covered up; the obsession with mirrors and fairy-tales, doppelgangers and disguises, the forbidden places within the home, the family secrets preserved by servants, the false parentage. <<cite "*" "Short, Emily. Her Story, Further Reflections">></blockquote>
 
 <p>While I do not disagree with Short's assessment, I'd like to shift our focus to a <<define "genre">> which is a neighbor of the Gothic: detective fiction.</p>
 
 <<silently>><<set _next_passage to "Her Story 11">><</silently>>
 
 :: Her Story 11 [hs nobr]
-<p>Charles Rzepka defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for those of us interested in interactive narrative – what Rzepka calls the "puzzle element." Rzepka defines the "puzzle element" as:</p>
+<p>Stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for Charles Rzepka, "detective fiction," or "stories of detection" as distinguished from a mystery story, which may lack the puzzle element.</p>
+
+<p>Rzepka defines detective fiction as featuring four elements: a detective, a mystery, an investigation, and – most usefully and intruigingly for an interactive narrative – what Rzepka calls the puzzle element, which Rzepka glosses as:</p>
 
 <blockquote>the presentation of the mystery as an ongoing problem for the reader to solve, and its powers to engage the reader’s own reasoning abilities.<<cite "10" "Rzepka, Charles. Detective Fiction.">></blockquote> 
 
-<p>Those stories wherein the puzzle element directly engages the reader’s attention and powers of inference are, for him, "detective fiction," or "stories of detection" as distinguished from a mystery story, which may lack the puzzle element.</p>
-
-<p>Of course, ludology explores how the "ludic", or playful, side of games, alongside the narrative side, can create structures of identification, but the multimedial and heterogeneric status of <i>Her Story</i> usefully illuminates that this playful side predates the game as a medium -- and that detective fiction in particular can be thought of as a sort of prototype for some of the sttructures of identification permitted by video games and interactive fiction.</p>
+<p>The field of game studies, or ludology, explores how the "ludic", or playful, side of games, alongside the narrative side, can create structures of identification, but the multimedial and heterogeneric status of <i>Her Story</i> usefully illuminates that this playful side predates the game as a medium--and that detective fiction in particular can be thought of as a sort of prototype for some of the modes of identification permitted by video games and interactive fiction. It makes sense, then, that so many canonical pieces of interactive fiction are structured as detective stories.</p>
 
 <<silently>><<set _next_passage to "Her Story 12">><</silently>>
 
 
 :: Her Story 12 [hs nobr]
-<p>The puzzle element in Her Story isn’t there to make the player identify with the actual detective; in fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children. The real ‘detective’ in Her Story is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in "SB"’s words at the ‘end’ of the game, to "understand why your mother did what she did."</p>
+<p>The puzzle element in <i>Her Story</i> isn’t there to make the player identify with the actual detective. In fact, several moments in the game give the detective specific traits that alienate them from the player. We learn, for example, that the detective has red hair and children; unless the player happens to have red hair and children, these details trigger a kind of dissonance. The real ‘detective’ in <i>Her Story</i> is Sarah, whose ghostly silhouette reflects the player's face, and her motive isn’t determining innocence or guilt; it’s figuring out who her mother is, and, in SB’s words at the ‘end’ of the game, to "understand why your mother did what she did." In other words, the emotional arc of the player's avatar is a deliberate act of identification with Eve and Hannah.</p>
 
-<p>It is possible, then, to identify with Eve and with Hannah. This identification is most interesting, however, through Sarah –- identifying with a character who is identifying with someone else. The lossy interface here thematizes this identification as well, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. The ludic operation of the game, and the puzzle element, makes the user assemble her story themselves, and in so doing makes it that much closer to their own story.</p>
+<p>This identification is most interesting, however, through Sarah--identifying with a character who is identifying with someone else. The lossy interface functions as a narrative device and thematizes this identification, with VHS distortion and a clunky search function operating as a proxy for the temporal distance that separates mother from daughter. This reading twists the title of the work, with <i>Her</i> growing to refer not to Hannah and Eve but instead to Sarah. The ludic operation of the game, and the puzzle element, makes the user assemble her story themselves, and in so doing makes it that much closer to their own story.</p>
 
-<p>These kinds of technologically – and specifically videotape - mediated relationships between parent and child make up a familiar trope; consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>. Something about lossy media seems to lend itself to explorations of lossy relationships; we watch old home movies to see who our parents were before they were our parents, and we listen to old records to hear Ma Rainey's voice from beyond the grave.</p>
+<p>These kinds of technologically--and specifically videotape--mediated relationships between parent and child make up a familiar trope. Consider, as a node for comparison, the relationship between Prairie and Frenesi Gates in Thomas Pynchon’s <i>Vineland</i>, between Hal and James Incandenza in David Foster Wallace’s <i>Infinite Jest</i>, or between Nell and Miranda in Neal Stephenson's <i>The Diamond Age</i>. Something about lossy media seems to lend itself to explorations of lossy relationships; we watch old home movies to see who our parents were before they were our parents, and we listen to old records to hear Ma Rainey's voice from beyond the grave.</p>
 
 <<silently>><<set _next_passage to "Her Story 13">><</silently>>
 
 
-:: Her Story 13 [hs nobr] {"position":"1747,3028","size":"100,100"}
-<p><i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of our own social gestures are mediated technologically, dislocated radically in time and in space, the kinds of identification that Her Story’s interface makes possible are worth consideration.</p>
+:: Her Story 13 [hs nobr]
+<p><i>Her Story</i> is at turns alienating and interpolating, in a genre that was interactive long before it was electronic, and the kinds of identification it creates are complex, often shocking, and masterfully executed through its interface. In a contemporary moment where so many of the social gestures which we use to constitute ourselves are mediated technologically, dislocated radically in time and in space, the kinds of identification that <i>Her Story</i>’s interface makes possible provide useful ways of thinking about our mediated relationships with others--and with ourselves.</p>
+
+<p>The coincidence of SB's initials with another SB--Samuel Beckett--suggest, too, how the Krapp of <i>Krapp's Last Tape</i> performs a similar kind of identification. The videotapes are replaced with spools of magnetic tape, and the archaeological object is a younger, defunct version of Krapp rather than a missing parent, but the focus remains on medium, on interface, on nostalgia, and on loss.</p>
 
 [[Return->Section 2: MEMORY]]
 
@@ -1006,7 +1015,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>What conclusions, then, can be drawn about the contemporary inforg from the example of Krapp? First and foremost, the division between memories inside the skull - on <<define "wetware" "Wetware">>, to borrow William Gibson’s term - and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is no more or less accessible than his external, it makes sense to think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail.</p>
 
-<p>A more transparent interface shifts the information from vorhanden to zuhanden and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <I>Krapp’s Last Tape</I> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
+<p>A more transparent interface shifts the information from vorhanden to zuhanden and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <i>Krapp’s Last Tape</i> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
 
 
 <<silently>><<set _next_passage to "Krapp 20">><</silently>>
@@ -1098,7 +1107,7 @@ Note that is <i>not</i> YouTube's algorithm; instead, this uses GPT-4o to create
 
 	        var videoTitle = document.getElementById('videoTitle').value;
 	        
-	        var openaiApiKey = 'sk-proj-3TD1mQcfmhmG2xsB6ahQT3BlbkFJpMaayI5pQySiLR2g6cvb'; // Replace with your OpenAI API key
+	        var openaiApiKey = '---'; // Replace with your OpenAI API key
 
 	        console.log('Sending request to OpenAI');
 
@@ -1278,7 +1287,7 @@ User Input: ${videoTitle}`
 
 :: The Alt-Right 16 [tar nobr]
 <p>What kind of subjectivity arises when Cain, then, listens to well-heeled white nationalists like Richard Spencer describe a different kind of nostalgia, a counterfactual cultural memory of an imagined America? Krapp’s personal postmodern subjectivity is, in this latter case, swapped for a political subjectivity whose postmodern nature is masked by its self-conscious appeals to radical traditionalism and an outright hostility to (post)modernity as such. As Laurie Ouellette and Sarah Banet-Weiser argue:</p>
-<blockquote> "one of the primary characteristics of the extreme right is nostalgia for a particular kind of identity: the white, heterosexual man" <<cite "5" "Oullette, Laurie and Sarah Banet-Weiser. ‘Special Issue: Media and the Extreme Right: Editor’s Introduction’.">>.</blockquote>
+<blockquote>one of the primary characteristics of the extreme right is nostalgia for a particular kind of identity: the white, heterosexual man<<cite "5" "Oullette, Laurie and Sarah Banet-Weiser. ‘Special Issue: Media and the Extreme Right: Editor’s Introduction’.">>.</blockquote>
 <p>By appealing to this nostalgia, alt-right celebrities (or "influencers", as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words:</p>
 <blockquote>I don’t need to tell black people in this room to have an identity because you all have got it. You know who you are. But I will tell that to white people. Have a goddamn identity. Have a sense of yourself. Be a part of this family. You are not an individual, you are not just an American, you are not just a citizen, you are part of this family. <<cite "*" "Caplan, Jeff. ‘White nationalist’s appearance at Texas A&M draws hundreds of protesters’.">></blockquote>
 
@@ -1306,14 +1315,14 @@ User Input: ${videoTitle}`
 <<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
 */
 
-:: The Alt-Right 18 [tar nobr]
+:: The Alt-Right 19 [tar nobr]
 <p>Both <i>Krapp’s Last Tape</i> and the alt-right’s contemporary digital practices reveal a deep entanglement with nostalgia, but while Krapp’s nostalgia is personal, embodied, and ultimately self-destructive, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
 <p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp is ultimately alone with his tapes, isolated in his obsession, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in both cases, represents a dislocation from the present—Krapp is consumed by the lost possibilities of his past, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
 <p>Krapp’s fragmented identity and his reliance on externalized memory as a means of self-understanding resonate with the alt-right’s use of digital spaces to cultivate a fractured, yet collectively reinforced, identity. Both Krapp and the alt-right exemplify the dangers of an overreliance on mediated memory—whether through tapes or tweets—where the present is continually sacrificed to an idealized and unattainable past.</p>
 
-<<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
+<<silently>><<set _next_passage to "The Alt-Right 20">><</silently>>
 
-:: The Alt-Right 19 [tar nobr]
+:: The Alt-Right 20 [tar nobr]
 <p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one. Other communities exist online, with their own collective memories, their own postcognitive subjectivities - and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of Twitter’s hashtag-oriented activism - and other modes of being in the Information Age. Beckett’s plays, with their embodiment of selves fractured in time and space and ultimate skepticism towards any natural unity of the self, are a powerful tool for understanding the fractured inforganic self.</p>
 
 <p>[[Return -> Section 2: MEMORY]]</p>

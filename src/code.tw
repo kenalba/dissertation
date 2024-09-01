@@ -155,6 +155,8 @@ escape:"esc",plus:"+",mod:/Mac|iPod|iPhone|iPad/.test(navigator.platform)?"meta"
 this._directMap={};return this};d.prototype.stopCallback=function(a,b){if(-1<(" "+b.className+" ").indexOf(" mousetrap ")||D(b,this.target))return!1;if("composedPath"in a&&"function"===typeof a.composedPath){var c=a.composedPath()[0];c!==a.target&&(b=c)}return"INPUT"==b.tagName||"SELECT"==b.tagName||"TEXTAREA"==b.tagName||b.isContentEditable};d.prototype.handleKey=function(){return this._handleKey.apply(this,arguments)};d.addKeycodes=function(a){for(var b in a)a.hasOwnProperty(b)&&(n[b]=a[b]);p=null};
 d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){return function(){return a[b].apply(a,arguments)}}(b))};d.init();q.Mousetrap=d;"undefined"!==typeof module&&module.exports&&(module.exports=d);"function"===typeof define&&define.amd&&define(function(){return d})}})("undefined"!==typeof window?window:null,"undefined"!==typeof window?document:null);
 
+config.addVisitedLinkClass = true;
+
 :: StoryInit [StoryInit]
 <<set $bookmarks to []>>
 <<set UIBar.unstow(true)>>
@@ -164,6 +166,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <<set setup.guessed to []>>
 <<set setup.guess_values to {}>>
 <<set setup.guessingTutorial to false>>
+<<set setup.visited_definitions to ["None"]>>
 
 <<set $selectedBox to 0>>
 <<set $selectedSpool to "">>
@@ -200,6 +203,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 
 	<<if tags().includes("definition")>>
 		<<set _current_passage to passage()>>
+		<<set setup.visited_definitions.pushUnique(_current_passage)>>
 		<<if not setup.guessed.includes(_current_passage)>>
 			<<definitionGuess true>>
 		<<else>>
@@ -313,7 +317,13 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <</widget>>
 
 
-<<widget "define">><<set _label to $args[0]>><<if $args.length == 2>><<set _destination to $args[1]>><span class= "definition-link">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label]]</span><</if>><</widget>>
+<<widget "define">>
+	<<set _label to $args[0]>>
+		<<if $args.length == 2>>
+			<<set _destination to $args[1]>>
+				<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span>
+				<<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>>
+			<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
 
 
 <<widget "excerpt">>
