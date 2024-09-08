@@ -428,7 +428,7 @@ config.addVisitedLinkClass = true;
 	<<if not story.guessingTutorial>>
 		<<script Twinescript>>
 			Dialog.setup("Turing Trivia");
-			Dialog.wiki("You have unlocked TURING TRIVIA, a guessing game.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.<br><br>If you guess correctly, you'll see a ✅; incorrect answers are marked with an ❌.");
+			Dialog.wiki("You have unlocked TURING TRIVIA, a guessing game.<br><br>Most of these definitions are written by Ken.<br><br>A handful have been written by GPT-4.<br><br>Click the appropriate button to register your guess.<br><br>Once you start guessing, your score will be recorded on the sidebar.<br><br>If you guess correctly, you'll see a ✅; incorrect answers are marked with an ❌.<br><br>If the passage was written by a human, you'll see a thinking human face: 🤔. <br>If it was written by GPT, you'll see a robot instead: 🤖.");
 			Dialog.open();
 		<</script>>
 		<<set story.guessingTutorial to true>>
@@ -437,12 +437,12 @@ config.addVisitedLinkClass = true;
   <<set _currentPassage to passage()>>
 
 	  <span class="guess-button" id="guesser">
-		  <<button "Human">>
+		  <<button "🤔">>
 		    <<set setup.guesses += 1>>
 		   	<<set setup.guessed.push(passage())>>
 		    <<if _isAI>>
 		      <<set setup.score += 1>>
-					<<set setup.guess_values[passage()] to "✅ Human">>
+					<<set setup.guess_values[passage()] to "✅ 🤔">>
 		    <<else>>
 					<<set setup.guess_values[passage()] to "❌ 🤖">>
 		    <</if>>
@@ -457,7 +457,7 @@ config.addVisitedLinkClass = true;
 		      <<set setup.score += 1>>
 		      <<set setup.guess_values[passage()] to "✅ 🤖">>
 		    <<else>>
-		    	<<set setup.guess_values[passage()] to "❌ Human">>
+		    	<<set setup.guess_values[passage()] to "❌ 🤔">>
 		    <</if>>
 				<<replace #guesser t8n>><<print setup.guess_values[passage()]>><</replace>>
 				<<replace #story-caption>><<display "StoryCaption">><</replace>>
@@ -471,42 +471,42 @@ config.addVisitedLinkClass = true;
 <<widget "videoPlayerWidget">>
 <<set $spools to { "1" : 
 										{
-											"1" : {"filename" : "klt_pinter_letmein.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
-											"2" : {"filename" : "hs_readme.mp4", "caption" : "test caption"},
-											"3" : {"filename" : "wilson_on_blues.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_magee_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
+											"1" : {"filename" : "klt_pinter_letmein.mp4", "caption" : "Harold Pinter as Krapp, listening to his most nostalgic tape. Note the camerawork, which focuses either on Pinter's own face or on the tape recorder, unspooling."},
+											"2" : {"filename" : "hs_readme.mp4", "caption" : "A player scrolls through the explanatory README file for the fictional L.O.G.I.C. database in Her Story"},
+											"3" : {"filename" : "wilson_on_blues.mp4", "caption" : "August Wilson discusses the influence of the blues on his work in an interview with Bill Moyer."},
+											"4" : {"filename" : "klt_magee_viduity.mp4", "caption" : "Patrick Magee as Krapp, hearing and then looking up the word 'viduity.' Magee's performance centers Krapp's infirmity; note how close he leans to the dictionary in order to read it, almost getting swallowed up by the pages."},
 											"5" : {"filename" : "klt_reel.mp4", "caption" : 'A walkthrough of the features and function of a Grundig reel-to-reel magnetic tape recorder <<cite "*" "Cuky, Nadav. Grundig TK 23L Automatic Deluxe Reel-to-Reel Tape Recorder - Playing Demo.">>. Beckett specified a Grundig apparatus for the two Paris productions he directed <<cite "34" "Knowlson, James. Samuel Beckett’s Krapp’s Last Tape: A Theatre Workbook.">>.'}
 										},
 									"2" : 
 											{
-											"1" : {"filename" : "jump_scare.mp4", "caption" : "test caption"},
-											"2" : {"filename" : "quad_cmu.mp4", "caption" : "test caption"},
-											"3" : {"filename" : "not_i.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_magee_farewell.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
-											"5" : {"filename" : "macguffin.mp4", "caption" : "test caption"}
+											"1" : {"filename" : "jump_scare.mp4", "caption" : "What? Who?! No! SHE!!!"},
+											"2" : {"filename" : "quad_cmu.mp4", "caption" : "Four Roombas at Carnegie Mellon University perform the Beckett play Quad."},
+											"3" : {"filename" : "not_i.mp4", "caption" : "Billie Whitelaw performs Beckett's <i>Not I</i> for the BBC."},
+											"4" : {"filename" : "klt_magee_farewell.mp4", "caption" : "Magee's performance of this scene emphasizes how foreign his own past is to him; every line in the precis has a stumbling block, an evocation of a memory that's not there anymore, a 404 error--a failure to retrieve."},
+											"5" : {"filename" : "macguffin.mp4", "caption" : "Alfred Hitchcock explains, with typical mordant wit, a MacGuffin on the Dick Cavett show in 1972."}
 										},
 									"3" : 
 											{
-											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
-											"2" : {"filename" : "klt_magee_letmein.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
+											"1" : {"filename" : "mrbb.mp4", "caption" : "Ma Rainey performs 'Ma Rainey's Black Bottom' in a recording from 1927."},
+											"2" : {"filename" : "klt_magee_letmein.mp4", "caption" : "Magee's 'listening posture' again emphasizes his informity, hand cupped to catch the words from the past. Note the sweat on his brow and the sunken impression, sinking further as the tape goes on."},
 											"3" : {"filename" : "klt_pinter_spool.mp4", "caption" : "Harold Pinter performing the role of Krapp in October 2006. This version was recorded and broadcast on BBC Four. Note the baked-in Portugeuse captions, which are an artifact of the version of this file downloaded via YouTube."},
-											"4" : {"filename" : "klt_pinter_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
-											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+											"4" : {"filename" : "klt_pinter_viduity.mp4", "caption" : "In contrast with Magee, Pinter's Krapp is impatient, both with his tapes and himself; note the tapping finger as he listens. Pinter's production also utilizes a mechanized wheelchair, yet another prosthesis."},
+											"5" : {"filename" : "hs_filter.mp4", "caption" : "Disabling the anti-glare filter in Her Story paradoxically makes present the player/avatar's silhouette."}
 										},
 									"4" : 
 											{
 											"1" : {"filename" : "klt_magee_spool.mp4", "caption" : "Patrick Magee performing the role of Krapp in a BBC production directed by Donald McWhinnie."},
 											"2" : {"filename" : "klt_magee_viduity.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
-											"3" : {"filename" : "hs_filter.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "hs_filter.mp4", "caption" : "test caption"},
-											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+											"3" : {"filename" : "quad_cmu.mp4", "caption" : "Four Roombas at Carnegie Mellon University perform the Beckett play Quad."},
+											"4" : {"filename" : "hs_filter.mp4", "caption" : "Disabling the anti-glare filter in Her Story paradoxically makes present the player/avatar's silhouette."},
+											"5" : {"filename" : "wilson_on_blues.mp4", "caption" : "August Wilson discusses the influence of the blues on his work in an interview with Bill Moyer."}
 										},
 									"5" : 
 											{
-											"1" : {"filename" : "mrbb.mp4", "caption" : "test caption"},
-											"2" : {"filename" : "wilson_on_blues.mp4", "caption" : "test caption"},
-											"3" : {"filename" : "quad_cmu.mp4", "caption" : "testcaption"},
-											"4" : {"filename" : "klt_pinter_farewell.mp4", "caption" : "A brief close reading about this production of this scene goes here."},
+											"1" : {"filename" : "mrbb.mp4", "caption" : "Ma Rainey performs 'Ma Rainey's Black Bottom' in a recording from 1927."},
+											"2" : {"filename" : "wilson_on_blues.mp4", "caption" : "August Wilson discusses the influence of the blues on his work in an interview with Bill Moyer."},
+											"3" : {"filename" : "quad_cmu.mp4", "caption" : "Four Roombas at Carnegie Mellon University perform the Beckett play Quad."},
+											"4" : {"filename" : "klt_pinter_farewell.mp4", "caption" : "Pinter's perusal of the precis is as impatient as his listening posture, and his melancholy at the word 'love' is punctuated by the emphatic way he slams his book shut."},
 											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
 										}
 									}

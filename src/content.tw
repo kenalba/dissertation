@@ -1,7 +1,7 @@
 :: Title Page [nobr]
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba<br>
-Last updated September 2, 2024<br>
+Last updated September 8, 2024<br>
 <p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
 
 :: Guide [nobr]
@@ -26,7 +26,7 @@ Thanks, and enjoy!
 
 [[Section 1: GESTURE]]<br>
 
-[[Section 2: MEMORY]]<br>
+[[Section 2: MEMORY]] <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>><br>
 
 [[Section 3: PRACTICE]]<br>
 
@@ -43,11 +43,11 @@ Thanks, and enjoy!
 :: Section 1: GESTURE [nobr]
 [[Introduction->Section 1 Introduction]]
 <hr class="solid">
-🫖 [[Case Study: BLUE KETTLE]] 🫖 <br>
+🫖 [[Case Study: BLUE KETTLE]] 🫖 <<if hasVisited("Blue Kettle 13")>>✅<</if>><br>
 
-❤️‍🩹 [[Case Study: ACHEWOOD]] 🪵 <br>
+❤️‍🩹 [[Case Study: ACHEWOOD]] 🪵 <<if hasVisited("Achewood 14")>>✅<</if>><br>
 
-🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <br>
+🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <<if hasVisited("Ma Rainey 12")>>✅<</if>><br>
 <hr class="solid">
 [[Conclusions->Section 1 Conclusions]]
 <<silently>><<set _next_passage to "Section 1 Introduction">><</silently>>
@@ -62,7 +62,7 @@ Thanks, and enjoy!
 
 🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 <br>
 <hr class="solid">
-[[Conclusion ->Section 2 Conclusion]]
+[[Conclusion ->Section 2 Conclusion 1]]
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
@@ -140,7 +140,7 @@ No conclusions just yet, but I'll arrive at some in time, I'm sure.
 
 :: Section 1 Introduction [nobr]
 <p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
-<p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
+<p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise" "Noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
 <p>The second, "I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i>, explores how the multimedial, <<define "heterogeneric">> structure of Chris Onstad's webcoming <i>Achewood</i> takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online.</p>
 <p>The third and final case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between August Wilson's fictionalized blueswoman Ma Rainey and the recording technologies that exploitative white men use to capture and sell her voice - and how the actual Ma Rainey's stage and gender performance undermines this black-body-white-technological binary.</p>
 <p>The goal of this section is to articulate and demonstrate a theory of gesture that works within the framework of <<define "informativity" "information and selfhood ">>. Each case study aims to show how the specificity of the medium and the technologies of that medium - the stages, URLs, and records - condition the possible selves that can be acted into being, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
@@ -610,7 +610,7 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <<silently>><<set _next_passage to "Ma Rainey 9">><</silently>>
 
 :: Ma Rainey 9 [mrbb nobr]
-<p>In the contemporary moment, however, vinyl records and other analog technology has itself acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with <<define "noiseless" "noise">>, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
+<p>In the contemporary moment, however, vinyl records and other analog technology has itself acquired a (not unproblematic) nostalgic premium; see, for example, the discussion - by two white kids - of blues records in Hari Kunzru’s <i>White Tears</i> - the digital is “out of touch with the human body” and lacks “the soul, the vibration of an animal-gut string, the resonance of lacquered rosewood”. In contrast with <<define "noiseless" "Noise">>, <<define "lossless" "loss">> digital technology, the analog record, with its snaps, pops, and scratches, attests to its own historicity as an object that has travelled through time and demands a social relation between its recorder and its auditor.</p>
 <p>There are echoes of this in Wilson’s description, during 1988 interview with Bill Moyers, of the first time he listened to the blues:</p>
 <figure>
 	<video id="wilson_on_blues" controls>
@@ -654,16 +654,44 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 :: Section 1 Conclusions [nobr]
 I don't want to jump to conclusions here, so I won't, but eventually I'm sure to arrive at some.
 
-:: Section 2 Introduction
-(outline)
-- Begin with a brief overview of how memory has traditionally been conceptualized in literature and philosophy, with a focus on the shift from analog to digital modes of memory storage and retrieval.
-- Introduce the concept of memory as mediated by technology, setting up the section's exploration of how different media forms influence the construction and reconstruction of memory.
+:: Section 2 Introduction 1 [nobr]
 
-- Discuss the ways in which different media—such as video recordings, digital platforms, and online communities—alter the way individuals and groups remember and reinterpret the past.
-- Position memory as an active process shaped by technological interfaces, emphasizing how these tools both aid and complicate our understanding of historical and personal narratives.
+<p>The word "memory" is derived from the Latin <i>memoria</i>, meaning "recollection, memory, remembrance; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. The root of this word, <i>memor</i>, means "to remember, to call to mind; to mention, record, celebrate in memory; to be mindful of; to keep in mind, to keep in view" <<cite "OED" "Oxford English Dictionary">>. Memory, then, is the act or faculty of remembering, or the power of retaining knowledge acquired in the past, and is often used interchangeably with "recollection." </p>
 
-- Briefly introduce the three case studies (HER STORY, KRAPP'S LAST TAPE, and Meatspace: THE ALT-RIGHT*) as distinct yet interconnected explorations of memory in the digital age.
-- Highlight the thematic links between the studies, particularly their focus on fragmented narratives, the unreliability of memory, and the influence of media on identity formation.
+<p>The word "memory" is also used to describe the physical apparatus through which we remember. This usage is derived from the Latin <i>memoria</i>, meaning "a store-house, a repository; a place where something is deposited for safe keeping" <<cite "OED" "Oxford English Dictionary">>. In this sense, memory is a storehouse of information, and the act of remembering is the act of retrieving this information. This usage is common in computing, where data is stored in memory--in RAM, for example--and retrieved when needed. Indeed, the word "memory" is often used to describe the capacity of a computer to store information.</p>
+
+<<silently>><<set _next_passage to "Section 2 Introduction 2">><</silently>>
+
+:: Section 2 Introduction 2 [nobr]
+
+<p>In the digital age, memory extends beyond human <<define "cognition">> or physical records; it is increasingly mediated by technology. This section examines how various <<define "media" "medium">> mediate the construction and reconstruction of memory. These technologies not only preserve memories but also actively alter them, influencing how we understand and engage with our personal and collective past.</p>
+
+<p>Further, because our understanding of our pasts necessarily shape both our present and our sense of our selves, mediated memory gives rise to mediated subjects--and the particular interfaces of that media shape the particular subjects that arise. </p>
+
+<<silently>><<set _next_passage to "Section 2 Introduction 3">><</silently>>
+
+
+:: Section 2 Introduction 3 [nobr]
+
+<p>The different media forms under examination in this chapter--audio recordings, video clips, and algorithm-driven web platforms--fundamentally alter the ways in which individuals and groups remember and reinterpret the past. By capturing moments in time, curating personal and public histories, and enabling communal memory-making, these media challenge traditional concepts of reliability and authenticity. The fluidity of digital memory blurs boundaries between past and present, personal and collective, and fact and fiction.</p>
+
+<p>Memory is positioned here as an active process shaped by technological <<define "interfaces" "Interface">>, and these case studies will explore how the particularities of each of their interfaces shape that active process. I will focus particularly on how the process of memory retrieval is necessarily a fraught one, conditioned by <<define "loss" "Loss">>, and how the subject that arises out of this process is a cybernetic one--a hybrid of human and information communication technology.</p>
+
+<<silently>><<set _next_passage to "Section 2 Introduction 4">><</silently>>
+
+:: Section 2 Introduction 4 [nobr]
+
+<p>Technologies such as <<define "algorithms" "Algorithm">> and digital <<define "databases" "Database">> influence which memories are preserved or obscured, thereby shaping the narratives we construct and, therefore, the selves that we construct. This section emphasizes that memory is not merely a passive recollection of the past but an ongoing, technologically mediated engagement that continuously redefines our understanding of what has been.</p>
+
+<p>Specifically, this section introduces three case studies--<i>[[HER STORY->Case Study: HER STORY]]</i>, <i>[[KRAPP'S LAST TAPE->Case Study: KRAPP'S LAST TAPE]]</i>, and [[online radicalization of the alt-right->Meatspace: THE ALT-RIGHT]]--as distinct yet interconnected explorations of memory in the information age. Each case study provides a lens through which to examine how digital and technological media affect memory and the self, from personal narratives to the broader social constructs shaped by online interactions.</p>
+
+<<silently>><<set _next_passage to "Section 2 Introduction 5">><</silently>>
+
+:: Section 2 Introduction 5 [nobr]
+
+<p>A final gloss of the word "memory" describes a record of the past, either in the form of an account or a physical object. This usage is derived from the Latin <i>memoria</i>, meaning "remembrance, memory; a thing worth remembering, a memorial; a tomb or monument" <<cite "OED" "Oxford English Dictionary">>. In this sense, memory is a way of preserving the past, and the act of remembering is the act of keeping this record alive.</p>
+
+<p>These case studies are united by this third meaning; in each study, the recollector returns to a past which is either technologically or thematically colored by nostalgia in order to construct a stable personal or collective identity. The unreliability of both the accessed memories and the medium through which the memories are accessed highlights the co-constituitive role of interface-as-form and memory-as-content. Personal identity is fundamentally shaped by this dynamic, and this section explores the former--interface--as a site of productive inquiry for understanding the groundwork of the contemporary <<define "inforganic" "Inforg">> subject.</p>
 
 <<silently>><<set _next_passage to "Case Study: HER STORY">><</silently>>
 
@@ -671,7 +699,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <h1>Texts, Interfaces, and the Puzzle Element in <i>Her Story</i></h1>
 
 <figure>
-	<img style="max-width:75%" src="assets/imgs/hs_cover_image.jpg" alt="Her Story: A Game About A Woman Talking To The">
+	<img style="max-width:75%" src="assets/imgs/hs_cover_image.jpg" alt="Her Story: A Game About A Woman Talking To The Past">
 	<figcaption>Note: if you haven't played the game yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a>.</figcaption>
 </figure>
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
@@ -722,8 +750,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 4">><</silently>>
 
 :: Her Story 4 [hs nobr]
-<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the visible reflection of the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and--more importantly--that they were broken up by the ghostly silhouette of the player character--a silhouette that matches the player themselves. The player's <<define "avatar">> only becomes visible when rendered invisible by the anti-glare feature.</p>
-<p>Suggestively, when the anti-glare filter is activated and the reflections disappear, the visuals flatten and lose texture. This suggests how terms like "loss" are always necessarily situated, and why <<define "signal">> and <<define "noise">> must be considered pragmatically; ostensibly, the anti-glare filter cleans up the game, making the signal easier to parse by removing the visual noise of the scan lines, the reflections, and so on. However, because the interface <i>is</i> a part of the signal, and the presence of the avatar is a part of the message, removing the visual "noise" results in a net loss of context, <span class="glow"><<define "aura">></span>, and meaning. This conceptual oscillation operates as a <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>, swapping signal and noise in a kind of aesthetic freeplay.</p>
+<p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the visible reflection of the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and--more importantly--that they were broken up by the ghostly silhouette of the player character--a silhouette that matches the player themselves. The player's <<define "avatar" "Avatar">> only becomes visible when rendered invisible by the anti-glare feature.</p>
+<p>Suggestively, when the anti-glare filter is activated and the reflections disappear, the visuals flatten and lose texture. This suggests how terms like "loss" are always necessarily situated, and why <<define "signal" "Signal">> and <<define "noise" "Noise">> must be considered pragmatically; ostensibly, the anti-glare filter cleans up the game, making the signal easier to parse by removing the visual noise of the scan lines, the reflections, and so on. However, because the interface <i>is</i> a part of the signal, and the presence of the avatar is a part of the message, removing the visual "noise" results in a net loss of context, <span class="glow"><<define "aura" "Benjamin's aura">></span>, and meaning. This conceptual oscillation operates as a <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>, swapping signal and noise in a kind of aesthetic freeplay.</p>
 
 <figure>
 	<video controls>
@@ -736,7 +764,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 5">><</silently>>
 
 :: Her Story 5 [hs nobr]
-<p><i>Her Story's</i> interface more generally situates itself as an obsolete police database, called LOGIC, that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, providing another layer of loss and <<define "noise">> beyond the CRT. Additionally, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB,"--short for Sam Barlow?--says that the detective’s other tapes were lost in a flood in 1997).</p>
+<p><i>Her Story's</i> interface more generally situates itself as an obsolete police database, called LOGIC, that’s been made accessible to the player character as a result of a Freedom of Information request. Time has not been kind to the database. The videos themselves have been artificially aged to look like old VHS tapes, providing another layer of loss and noise beyond the CRT. Additionally, the order of the clips has disappeared (although timestamps appear in each video, making reassembly possible), and (most importantly) the transcript of the interviews through which the player trawls is itself inaccessible, visible only in closed-caption snippets on each clip (a brief note, signed by "SB,"--short for Sam Barlow?--says that the detective’s other tapes were lost in a flood in 1997).</p>
 
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_really_readme.png" alt="A still screen from Her Story with the readme described above..">
@@ -758,7 +786,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	<figcaption>After the pivotal discovery that Hannah and Eve are twins, an offscreen siren makes the player's avatar's reflection more visible.</figcaption>
 </figure>
 
-<p>This moment of recognition works alongside <i>Her Story</i>'s general concern with mirrors and reflections. The central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, the interviewee's names are both palindromic (Hannah and Eve), and the murder weapon is ultimately a shard of a mirror. The player sees Susan's face as a reflection of their own, positioned on the screen in such a way that her face mirrors the player's own; one needn't (and probably shouldn't) jump to <<define "Lacan">> to explore how this creates a robust <<define "apparatus">> for identification.</p>
+<p>This moment of recognition works alongside <i>Her Story</i>'s general concern with mirrors and reflections. The central mystery involves a doppelganger, the murder victim worked at a glazier’s and made <<define "mirrors" "mirror">> for a living, the interviewee's names are both palindromic (Hannah and Eve), and the murder weapon is ultimately a shard of a mirror. The player sees Susan's face as a reflection of their own, positioned on the screen in such a way that her face mirrors the player's own; one needn't (and probably shouldn't) jump to <<define "Lacan">> to explore how this creates a robust apparatus for identification.</p>
 
 <<silently>><<set _next_passage to "Her Story 7">><</silently>>
 
@@ -787,7 +815,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <p>The clunky search interface which structures the player's relationship with the clips would be much simpler were the full transcript of the interviews available directly. Instead, the user can only 'read' the transcript as it appears in the closed captions of the clips.</p>
 <p>The game's missing transcript pushes that transdiegetic identification in part because it is in many players’ experience (including my own) supplemented by another player-generated one: a pen-and-paper notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate, and investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of <i>Rock Paper Shotgun</i>, described a similar experience in his review:</p>
 <blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.<<cite "*" "Smith, Adam. Wot I Think: Her Story.">></blockquote>
-<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "prosthetic">> to create a system of text-and-player which extends the game interface out into the physical world as it interpolates the player into the gameworld. This system, which can be compared usefully to [[Krapp->Krapp 4]] with his boxes and tapes and to the radicalized [[Caleb Cain->The Alt Right 1]], can be interrogated as a useful model for the systems of subject-and-technological-objects that constitute our selves in the information age.</p>
+<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "Prosthetic">> to create a system of text-and-player which extends the game interface out into the physical world as it interpolates the player into the gameworld. This system, which can be compared usefully to [[Krapp->Krapp 4]] with his boxes and tapes and to the radicalized [[Caleb Cain->The Alt Right 1]], can be interrogated as a useful model for the systems of subject-and-technological-objects that constitute our selves in the information age.</p>
 
 <<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
@@ -795,7 +823,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 :: Her Story 9 [hs nobr]
 <p>This system can be provocatively described as what N. Katherine Hayles calls a <<define "cognitive assemblage">>:</p>
 <blockquote>tighter or looser collections of technical objects and human participants through which cognitions circulate in the form of information, interpretations, and meanings.<<cite "10" "Hayles, N. Katherine. Writing Posthuman: The Literary Text as Cognitive Assemblage.">></blockquote> 
-<p>The kinds of identification that an interface like <i>Her Story</i>–-with its punctum of pad of paper and funhouse of nested reflections making porous the boundary between self and screen--gives rise to a different kind of "reading" subject that <<define "extends the mind" "extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms. For Hayles, this creates a truly <<define "posthuman">> subject, a kind of <<define "cyborg" "Cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
+<p>The kinds of identification that an interface like <i>Her Story</i>–-with its punctum of pad of paper and funhouse of nested reflections making porous the boundary between self and screen--gives rise to a different kind of "reading" subject that <<define "extends the mind" "the extended mind">> across multiple platforms. The <<define "cognition">> imbricated in untangling <i>Her Story</i>'s mysteries takes place at multiple levels, on multiple platforms. For Hayles, this creates a truly posthuman subject, a kind of <<define "cyborg" "Cyborg">> that's less science fiction and more grounded in contemporary reality.</p>
 
 <<silently>><<set _next_passage to "Her Story 10">><</silently>>
 
@@ -886,7 +914,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 4">><</silently>>
 
 :: Krapp 4 [klt nobr]
-<p>In 1975, Beckett told <<cycler "Pierre Chabert" "Pierre Chabert, who performed the role of Krapp in the Paris production of that year">>that Krapp should "become as much as possible one with the machine"<<cite "105" "Chabert, Pierre. ‘Samuel Beckett as Director’, in James Knowlson (ed.), Samuel Beckett: Krapp’s Last Tape Theatre Workbook">>. This direction turns Krapp into a kind of <<define "cyborg" "Cyborg">>--characterised, by Donna Haraway among others, in large part by the breakdown of the boundary between the biological and the mechanical and between the material and the immaterial <<cite "11" "12" "Haraway, Donna. ‘A Cyborg Manifesto’.">>. It suggests, too, the relationship between the player and their avatar in a game like <i>[[Her Story->Her Story 1]]</i>, leaning in to assemble the clues needed to make a narrative out of a database.</p>
+<p>In 1975, Beckett told Pierre Chabert, who performed the role of Krapp in the Paris production of that year, that Krapp should "become as much as possible one with the machine"<<cite "105" "Chabert, Pierre. ‘Samuel Beckett as Director’, in James Knowlson (ed.), Samuel Beckett: Krapp’s Last Tape Theatre Workbook">>. This direction turns Krapp into a kind of <<define "cyborg" "Cyborg">>--characterised, by Donna Haraway among others, in large part by the breakdown of the boundary between the biological and the mechanical and between the material and the immaterial <<cite "11" "12" "Haraway, Donna. ‘A Cyborg Manifesto’.">>. It suggests, too, the relationship between the player and their avatar in a game like <i>[[Her Story->Her Story 1]]</i>, leaning in to assemble the clues needed to make a narrative out of a database.</p>
 S
 <p>Crucially, these borders do not break down neatly in Krapp; instead, the mechanical is personified and the biological becomes mechanized. Krapp’s particular postmodern subjectivity is complicated by biological and technological contingency in a way that demands a more specific paradigm than the cyborg. As N. Katherine Hayle argues, the audiotape in Krapp functions "not only as a theme, a metaphor, or a vehicle for expression but as a mode of relation that produce[s] a certain kind of postmodern subjectivity" <<cite "75" "Hayles, N. Katherine. How We Became Posthuman.">> - one that goes beyond Haraway’s leaky boundaries into something that is simultaneously more radical and more ubiquitous in the information age.</p>
 
@@ -935,7 +963,7 @@ S
 :: Krapp 8 [klt nobr]
 <p>Relatedly, Olga Beloborodova and Pim Velhurst have written convincingly on how a postcognitivist angle highlights "the mind-world nexus" in which Beckett’s plays are grounded in order to call the "Cartesian inside-outside boundary" into question <<cite "240" "Beloborodova, Olga and Pim Velhurrst, ‘Broadcasting the Mind: Extended Cognition in Beckett’s Radio Plays’">>.</p>
 
-<p>Where Beloborodova and Velhurst have focused on Beckett’s radio plays, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to <i>Krapp’s Last Tape</i> primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age generalizes Krapp’s condition. Krapp is a clear example of how <<define "cognition">> and <<define "memory" "Memory">>--and with them personal identity--can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interfaces between those platforms.</p>
+<p>Where Beloborodova and Velhurst have focused on Beckett’s radio plays, and van Hulle’s interest in genetic criticism lends itself most readily to Daniel Dennett’s "<<define "Multiple Drafts">>" model of consciousness, I will apply this postcognitivist framework to <i>Krapp’s Last Tape</i> primarily in reference to Clark and Chalmers’ extended mind hypothesis as a way of considering how the proliferation of cognitive prostheses in the information age generalizes Krapp’s condition. Krapp is a clear example of how <<define "cognition">> and memory--and with them personal identity--can exist on multiple platforms, and how the cohesion of that identity depends on the precarious interfaces between those platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 9">><</silently>>
 
@@ -946,7 +974,7 @@ S
 <<silently>><<set _next_passage to "Krapp 10">><</silently>>
 
 :: Krapp 10 [klt nobr]
-<p>One-way information flow like Krapp’s use of the dictionary to look up the word <<define "viduity" "Viduity">> does not necessarily, for Clark and Chalmers, constitute extended cognition, although Krapp's need to look up a word that he himself used years ago represents a cognitive <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>. Instead, the interaction must be "two-way" in order to create a "coupled system that can be seen as a cognitive system in its own right." In a coupled system, information travels back and forth, creating feedback loops wherein "all the components in the system play an active causal role, and they jointly govern behavior in the same sort of way that cognition usually does" <<cite '3' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
+<p>One-way information flow like Krapp’s use of the dictionary to look up the word viduity does not necessarily, for Clark and Chalmers, constitute extended cognition, although Krapp's need to look up a word that he himself used years ago represents a cognitive <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>. Instead, the interaction must be "two-way" in order to create a "coupled system that can be seen as a cognitive system in its own right." In a coupled system, information travels back and forth, creating feedback loops wherein "all the components in the system play an active causal role, and they jointly govern behavior in the same sort of way that cognition usually does" <<cite '3' 'Clark, Andy and Chalmers, David. "The Extended Mind".'>>.</p>
 
 <p>Most of what we see of Krapp’s life seems to be governed by his relationship with his tapes in this reciprocal way. To begin with, accessing his prosthetic memories requires information from his ledger and his dictionary. At 39, he spends his birthday "with closed eyes, separating the grain from the husks" and jotting down notes on the back of an envelope--that is, deciding what moments are "worth having when all the dust has settled" <<cite "217" "Beckett, Samuel. Krapp's Last Tape.">>. On his last tape, he notes his revelry in the word "spool" as the "happiest moment of the past half million" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
 
@@ -1037,7 +1065,7 @@ S
 
 :: Krapp 19 [klt nobr]
 
-<p>The example of <i>Krapp</i> suggests several conclusions about the inforganic subject. First and foremost, the division between memories inside the skull--on <<define "wetware" "Wetware">>, to borrow William Gibson’s term--and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is neither more nor less accessible than his external one, we should think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail--and this failure makes his status <i>as</i> an inforg increasingly obvious.</p>
+<p>The example of <i>Krapp</i> suggests several conclusions about the inforganic subject. First and foremost, the division between memories inside the skull--on wetware, to borrow William Gibson’s term--and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is neither more nor less accessible than his external one, we should think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail--and this failure makes his status <i>as</i> an inforg increasingly obvious.</p>
 
 <p>A more transparent interface shifts the information from <i>vorhanden</i> to <i>zuhanden</i> and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <i>Krapp’s Last Tape</i> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
 
@@ -1075,7 +1103,7 @@ S
 
 :: The Alt-Right 2 [tar nobr]
 
-<p>The voice that comes to Caleb Cain in the dark is technologically mediated and grounded in sentimental nostalgia. These platforms--YouTube, Twitter, and Reddit, to name a handful--provide an endless stream of digital content that functions as a public <<define "prosthetic" "Prosthetic">> <<define "memory" "Memory">> which constitutes, in men like Cain, a nationalist political identity.</p>
+<p>The voice that comes to Caleb Cain in the dark is technologically mediated and grounded in sentimental nostalgia. These platforms--YouTube, Twitter, and Reddit, to name a handful--provide an endless stream of digital content that functions as a public <<define "prosthetic" "Prosthetic">> memory which constitutes, in men like Cain, a nationalist political identity.</p>
 
 <p>"The Making of a YouTube Radical" catalogues the role of Youtube’s <<define "algorithm" "Algorithm">> and its alt-right content in "redpilling," or radicalizing, angry young men with content that valorizes "traditional" conservative values drawn from an imagined American past. This radicalization sometimes leads directly to violence. In a 2019 statement before Congress, Michael C. McGarrity, the Assistant Director of the FBI’s Counterterrorism Division, stated that:</p>
 
@@ -1256,119 +1284,144 @@ User Input: ${videoTitle}`
 <<silently>><<set _next_passage to "The Alt-Right 7">><</silently>>
 
 :: The Alt-Right 7 [tar nobr]
-<p>Engagement on YouTube does not just mean watching videos, however. It also participating and contributing to a community by 'liking' and commenting on videos. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with the <<define "extended mind">>, but diverges in its psychoanalytically inflected consideration of affect rather than cognition, drives rather than information, as the primary term in considering the subject; whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way.</p>
-<p>Numerous studies have linked this mode of engagement with addiction to the platform; for example, a 2017 study published in the <i>Journal of Behavioral Addictions</i> found that:</p> 
+<p>Engagement on YouTube does not just mean watching videos, however. It also participating and contributing to a community by 'liking' and commenting on videos. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with <<define "the extended mind">>, but diverges in its psychoanalytically inflected consideration of affect rather than cognition as the primary term in considering the subject. Whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way.</p>
+<p>Numerous studies have linked this mode of engagement with addiction to the platform. For example, a 2017 study published in the <i>Journal of Behavioral Addictions</i> found that:</p> 
 <blockquote>content creation in YouTube had a closer relationship with YouTube addiction than content viewing [...] (and) social gratification was found to have a significant influence on both types of YouTube activities"<<cite "*" "Balakrishnan, Janarthanan and Mark Griffiths. ‘Social Media Addiction: What is the role of content in YouTube’.">>.</blockquote>
 
 <<silently>><<set _next_passage to "The Alt-Right 8">><</silently>>
 
 :: The Alt-Right 8 [tar nobr]
-<p>Troublingly, the relationship between ideological extremity and high engagement seems to be linear; according to Manoel Ribeiro et al, whose 2019 study "Auditing Radicalization Pathways on YouTube" examines the radicalization pipeline from the so-called "Intellectual Dark Web" to the "alt-lite" and ultimately the "alt-right," more extreme content tends to have more engagement. This, coupled with the fact that users are more likely to return to content with which they have engaged, helps explain YouTube’s incentive to shepherd users from less to more extreme content <<cite "*" "Ribeiro, Manoel Horta et al. ‘Auditing Radicalization Pathways on YouTube'.">>.</p>
+<p>Troublingly, the relationship between ideological extremity and high engagement seems to be significant. According to Manoel Ribeiro et al, whose 2019 study "Auditing Radicalization Pathways on YouTube" examines the radicalization pipeline from the so-called "Intellectual Dark Web" to the "alt-lite" and ultimately the "alt-right," more extreme content tends to have more engagement. This, coupled with the fact that users are more likely to return to content with which they have engaged, helps explain YouTube’s incentive to shepherd users from less to more extreme content <<cite "*" "Ribeiro, Manoel Horta et al. ‘Auditing Radicalization Pathways on YouTube'.">>.</p>
 <p>As Zeynep Tufecki wrote in a 2019 article published in <i>Scientific American</i>:</p>
 <blockquote>"YouTube’s algorithms will push whatever they deem engaging, and it appears they have figured out that wild claims, as well as hate speech and outrage peddling, can be particularly so" <<cite "*" "Tufecki, Zeynep. 'YouTube's Recommendation Algorithm Has a Dark Side'.">> </blockquote>
-<p>Maximizing engagement - and, in so doing, maximizing profit - maximises addiction and radicalization.</p>
+<p>Maximizing engagement--and, in so doing, maximizing profit--maximizes addiction and radicalization.</p>
 
 
 <<silently>><<set _next_passage to "The Alt-Right 9">><</silently>>
 
 :: The Alt-Right 9 [tar nobr]
-<p>In poet Patricia Lockwood’s words, "A person might join a site to look at pictures of her nephew and five years later believe in a flat earth" <<cite "*" "Lockwood, Patricia. The Communal Mind.">>. If we accept the premise that the content a user engages with helps shape their idea of themselves, particularly when the content in question is engineered to radicalise by inculcating a counterfactual racist cultural memory into the user, then the relationship between a user and their feed constitutes exactly the sort of reciprocal relationship Clark and Chalmers cite.</p>
+<p>In poet Patricia Lockwood’s words, "A person might join a site to look at pictures of her nephew and five years later believe in a flat earth" <<cite "*" "Lockwood, Patricia. The Communal Mind.">>. If we accept the premise that the content a user engages with helps shape their idea of themselves, particularly when the content in question is engineered to radicalize the viewer by inculcating a counterfactual racist cultural memory into the user, then the relationship between a user and their feed constitutes exactly the sort of reciprocal relationship Clark and Chalmers cite.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 10">><</silently>>
 
 :: The Alt-Right 10 [tar nobr]
-<p>For Clark and Chalmers, the extended vision of the mind is not limited to a single individual; although they consider more natural prostheses like a notebook that a person with Alzheimer’s might use to keep track of their daily routine (like Krapp’s ledger), they also suggest that a group of people brainstorming around a table might be another situation where cognition extends beyond the skin.</p>
-<p>Krapp’s case is interesting in part because his own reactions to his tapes highlights the very lack of self-identity over time that the tapes are meant to remedy: he finds it "hard to believe" he was "ever that young whelp. The voice! Jesus! The aspirations!" <<cite "218" "Beckett, Samuel. Krapp's Last Tape.">> and in his last tape refers to "that stupid bastard I took myself for thirty years ago, hard to believe I was ever as bad as that" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
+<p>For Clark and Chalmers, the extended vision of the mind is not limited to a single individual. Although they consider more natural prostheses like a notebook that a person with Alzheimer’s might use to keep track of their daily routine (like Krapp’s ledger or the player-created notebook in <i>Her Story</i>), they also suggest that a group of people brainstorming around a table might be another situation where cognition extends beyond the skin.</p>
+
+<p>The material YouTube is engineered to push its users towards is fueled by nostalgia; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 11">><</silently>>
 
 :: The Alt-Right 11 [tar nobr]
-<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table - himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past.</p>
-<p>The material YouTube is engineered to push its users towards is fueled by a nostalgia analogous to Krapp’s own; however, because it is collective rather than individual, the recollected / invented past is a political one.</p>
+<p>Krapp’s case is interesting in part because his own reactions to his tapes highlights the very lack of self-identity over time that the tapes are meant to remedy: he finds it "hard to believe" he was "ever that young whelp. The voice! Jesus! The aspirations!" <<cite "218" "Beckett, Samuel. Krapp's Last Tape.">> and in his last tape refers to "that stupid bastard I took myself for thirty years ago, hard to believe I was ever as bad as that" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
+
+<p>Indeed, this self-denunciation is a theme that develops as Beckett continues to write; what Krapp finds hard to believe, <i>Not I’s</i> Mouth finds horrifying. In a postcognitivist framework, Krapp can be read as a group of people reminiscing around a table--himself and his younger, increasingly distant selves. This reading strategy allows us to consider how the weaponization of mediated nostalgia that takes place on online platforms gives rise to an extended mind with prosthetic, collective memories of an imagined past.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 12">><</silently>>
 
 :: The Alt-Right 12 [tar nobr]
-<p>The particular imagined past constructed by the online alt-right offers a return to a time "before feminism," where gender roles were more firmly codified. This return manifests as an often-violent online misogyny directed at cisgendered women, trans individuals, queer folk in general, and so-called "beta" males whose performance of masculinity somehow falls short. One major funnel to the alt-right, according to sociologist Rebecca Lewis, is Jordan Peterson, a tenured professor of psychology at the University of Toronto who was described by David Brooks of <i>The New York Times</i> as the "most influential public intellectual in the Western world" <<cite "*" "Brooks, David. 'The Jordan Peterson Moment'.">>.</p>
+<p>The particular imagined past constructed by the online alt-right offers a return to a time "before feminism," where gender roles were more firmly codified. This return manifests as an often-violent online misogyny directed at cisgendered women, trans individuals, queer folk in general, and so-called "beta" males whose performance of masculinity falls short of an imagined ideal. One major funnel to the alt-right, according to sociologist Rebecca Lewis, is Jordan Peterson, a tenured professor of psychology at the University of Toronto who was described by David Brooks of <i>The New York Times</i> as the "most influential public intellectual in the Western world" <<cite "*" "Brooks, David. 'The Jordan Peterson Moment'.">>.</p>
+
 <p>Peterson has a <a target="_blank" href="https://www.youtube.com/channel/UCL_f53ZEJxp8TtlOkHwMV9Q">YouTube channel</a> with more than 8.2 million subscribers, and gained international prominence in large part due to his highly public opposition to Canada’s proposed Bill C-16, which bans discrimination against people on the basis of gender identity or gender expression. His opposition was recorded and broadcasted in a series of wildly popular videos where he stated his refusal to refer to transgender students by their chosen pronouns, calling it "radically politically correct thinking" <<cite "*" "Beauchamp, Zack. ‘Jordan Peterson, the obscure Canadian psychologist turned right-wing celebrity, explained’.">>.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 13">><</silently>>
 
 :: The Alt-Right 13 [tar nobr]
-<p>His philosophy, such as it is, is a perfect encapsulation of the imagined past of alt-right: it is profoundly nostalgic and markedly hostile towards feminism, racial justice, women’s rights more broadly. He proudly states that white privilege is a farce, and in an interview with the New York Times prescribes "enforced monogamy" as the cure to violence committed by radicalized white men, arguing that:</p>
+<p>His philosophy, such as it is, is a perfect encapsulation of the imagined past of alt-right. It is profoundly nostalgic and markedly hostile towards feminism, racial justice, and equity more broadly. He proudly states that white privilege is a farce, and in an interview with <i>The New York Times</i> prescribes "enforced monogamy" as the cure to violence committed by radicalized white men, arguing that:</p>
 <blockquote>violent attacks are what happens when men do not have partners [...] and society needs to work to make sure those men are married <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>.</blockquote>
-<p>Peterson accompanies this nostalgic return to a past where women’s bodies and sexuality are even more controlled by patriarchal authority with:
-<blockquote>imagery from a hundred years ago - a penchant for three-piece suits, wide lapels, and self-consciously archaic speech patterns that he calls a rediscovered tradition and prairie populism <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>.</blockquote> 
+<p>Notably, even in the historical past that Peterson appeals to, enforced monogamy did not exist; while women's choices were more circumscribed, the United States has never had a (legal) system of compulsory marriage for women. Instead, Peterson's prescription appeals to an imagined past where women’s bodies and sexuality are even more controlled by patriarchal authority. Rhetorically, this appeal is accompanied by:
+<blockquote>imagery from a hundred years ago--a penchant for three-piece suits, wide lapels, and self-consciously archaic speech patterns that he calls a rediscovered tradition and prairie populism <<cite "*" "Bowles, Nellie. 'Jordan Peterson, Custodian of the Patriarchy'.">>.</blockquote> 
 <p>In place of Krapp sitting in the dark recording tapes for himself, the well-lit Peterson records and broadcasts a fictionalised version of the past grounded in idiosyncratic interpretations of biblical texts, self-help bromides, and casual misogyny. Peterson’s success depends on the media technology that broadcasts his nostalgic vision onto the computers and smartphones of the Caleb Cains across the globe.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 14">><</silently>>
 
 :: The Alt-Right 14 [tar nobr]
-<p>Peterson’s audience crosses over substantially with "Gamergate", which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist critic Anita Sarkeesian, and a broader perception that a previously white male cultural space — video gaming — was being taken over by so-called ‘social justice warriors.’ Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">> like 4chan, the corners of YouTube we’ve been discussing, and the Reddit community "TheRedPill."</p>
-<p>This subreddit, which has been "quarantined" by Reddit for being "highly offensive or upsetting," defines feminism as "a doctrine of class hatred and violence" and defines the "Red Pill" itself as:</p>
+<p>Peterson’s audience crosses over substantially with "Gamergate," which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist game critic Anita Sarkeesian, and a broader, weaponized fiction that a previously white male cultural space--video gaming--was being taken over by so-called 'social justice warriors.'' Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" like racist image board 4chan, the corners of YouTube we’ve been discussing, and noxious Reddit community "TheRedPill" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">>.</p>
+<p>"r/TheRedPill,"" which has been "quarantined" by Reddit for being "highly offensive or upsetting," defines feminism as "a doctrine of class hatred and violence" and defines the "Red Pill" itself as:</p>
 <blockquote>the awareness of the dark truths surrounding human sexuality; hypergamy, women’s ‘Alpha Fucks / Beta Bucks’ strategies, society’s Feminine Imperative, and so forth <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
 <p>Roose’s article on Caleb Cain, who himself was "red-pilled," defines it more succinctly as "an internet slang term for converting to far-right beliefs" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 15">><</silently>>
 
 :: The Alt-Right 15 [tar nobr]
-<p>It can be challenging to disentangle these different corners of the online alt-right from one another; most incels (short for "involuntary celibates", a label many of these disaffected white men affix to themselves) claim they’ve been red-pilled, for example, and many of them participated in Gamergate. Indeed, controversial YouTuber streamer PewDiePie, whose YouTube channel has nearly 26 billion views, posted a positive video review of Jordan Peterson’s <i>12 Rules to Live By</i>. What these groups share is a hatred of so-called "SJWs", or social justice warriors, which TheRedPill’s glossary defines as:</p>
+<p>It can be challenging to disentangle these different corners of the online alt-right from one another; most self-proclaimed incels (short for "involuntary celibates") claim they’ve been red-pilled, for example, and many of them participated in Gamergate. Indeed, controversial YouTuber streamer PewDiePie, whose YouTube channel has nearly 26 billion views, posted a positive video review of Jordan Peterson’s <i>12 Rules to Live By</i>. What these groups share is a hatred of so-called "SJWs", or social justice warriors, which TheRedPill’s glossary defines as:</p>
 <blockquote>individuals who involve themselves in some level of activism towards promoting a feminist or other equality-driven agenda [who] corrupt the idea of equality into misandry and the reduction of rights for white males" <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
-<p>The misogyny of the alt-right is inseparable from its racism, and both are rooted in nostalgia and propagated - or embodied - online.</p>
+<p>The misogyny of the alt-right is inseparable from its racism, and both are rooted in nostalgia and propagated--and embodied--online.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 16">><</silently>>
 
 :: The Alt-Right 16 [tar nobr]
 <p>What kind of subjectivity arises when Cain, then, listens to well-heeled white nationalists like Richard Spencer describe a different kind of nostalgia, a counterfactual cultural memory of an imagined America? Krapp’s personal postmodern subjectivity is, in this latter case, swapped for a political subjectivity whose postmodern nature is masked by its self-conscious appeals to radical traditionalism and an outright hostility to (post)modernity as such. As Laurie Ouellette and Sarah Banet-Weiser argue:</p>
 <blockquote>one of the primary characteristics of the extreme right is nostalgia for a particular kind of identity: the white, heterosexual man<<cite "5" "Oullette, Laurie and Sarah Banet-Weiser. ‘Special Issue: Media and the Extreme Right: Editor’s Introduction’.">>.</blockquote>
-<p>By appealing to this nostalgia, alt-right celebrities (or "influencers", as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words:</p>
-<blockquote>I don’t need to tell black people in this room to have an identity because you all have got it. You know who you are. But I will tell that to white people. Have a goddamn identity. Have a sense of yourself. Be a part of this family. You are not an individual, you are not just an American, you are not just a citizen, you are part of this family. <<cite "*" "Caplan, Jeff. ‘White nationalist’s appearance at Texas A&M draws hundreds of protesters’.">></blockquote>
 
-<p>Spencer’s rhetoric here dovetails with Cain’s own explanation for his transformation: "it appealed to me because it made me feel a sense of belonging" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>. If Krapp’s personal memories as recorded on magnetic tape can be thought of as an externalised memory, and if that memory is the material he uses to try and cobble together an identity, then these voices in the dark serve a similar function. Unlike Krapp, whose personal identity is under threat from the ravages of time and his own presumably imminent demise, the alt-right imagines a collective identity under siege by an army of social justice warriors whose commitment to equality would consign them to the ashbin of history. In so doing, they create an affective network within which a contemporary postcognitivist subject can become radicalized.</p>
+<p>By appealing to this nostalgia, alt-right celebrities (or "influencers," as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words:</p>
+<blockquote>I don’t need to tell [B]lack people in this room to have an identity because you all have got it. You know who you are. But I will tell that to white people. Have a goddamn identity. Have a sense of yourself. Be a part of this family. You are not an individual, you are not just an American, you are not just a citizen, you are part of this family. <<cite "*" "Caplan, Jeff. ‘White nationalist’s appearance at Texas A&M draws hundreds of protesters’.">></blockquote>
+
+<p>Spencer’s rhetoric here dovetails with Cain’s own explanation for his radicalization: "it appealed to me because it made me feel a sense of belonging" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.
 
 <<silently>><<set _next_passage to "The Alt-Right 17">><</silently>>
 
 :: The Alt-Right 17 [tar nobr]
-<p>This radical traditionalism would be all too familiar to a Samuel Beckett, a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" <<cite "253" "Jackson, Julian. France: The Dark Years.">> via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐Actualités Pathé‐Gaumont was focused on:</p>
-<blockquote>the revival of traditional culture (through the) celebration of France’s colonial empire (and the) so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength" <<cite "52" "Bowles, Brett. 'German newsreel propaganda in France'.">>.</blockquote> 
-<p>Beckett lived with this propaganda; as William Davies remarks:</p>
-<blockquote>Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>.</blockquote>
-<p>This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>. Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.</p>
-<p>Notably, "Twitter", which has been renamed "X" by alt-right edgelord and plutocrat Elon Musk, is referred to as "Vichy Twitter" by commentators on the left because of the algorithmic bias towards alt-right users and content that Musk has introduced.</p>
+
+<p>If Krapp’s personal memories as recorded on magnetic tape can be thought of as an externalzsed memory, and if that memory is the material he uses to try and cobble together an identity, then these radical voices in the dark serve a similar function. Unlike Krapp, whose personal identity is under threat from the ravages of time and his own presumably imminent demise, or Susan of <i>Her Story</i>, who listens to her mother's voice in the dark to construct an understanding of her own self, the alt-right imagines a collective identity under siege by an army of social justice warriors whose commitment to equality would consign them to the ashbin of history. In so doing, a collective of Caleb Cains create an affective network within which a contemporary postcognitivist subject can become radicalized.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 18">><</silently>>
 
-/*
 :: The Alt-Right 18 [tar nobr]
-<p>Davies has convincingly argued that "Samuel Beckett’s postwar depictions of physically debilitating and suffering bodies" in the Trilogy can be read as "oddly defiant, even resistant" to this imaginary Vichy ideal <<cite "1" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>. Where Malone, however, states that he is not much given to nostalgia, Krapp wonders aloud if he "could have been happy" in the memory he most revisits, a romantic encounter on a boat. His answer to his own rhetorical question - "Pah!" - might read alongside Beckett’s representation of Krapp’s debilitated body as a denunciation of that nostalgic impulse -  but, if so, it is a denunciation held in perpetual tension with Krapp’s inescapable obsession with his own more virile past.</p>
-<p>Other than his mention of Vespers, which itself recalls his childhood, nearly everything Krapp listens to and records is about either the process of recording and recollection. As Eric Levy puts it, a retrospective project that began as an attempt to:
-<blockquote>define his identity through the annual progression of perspectives on the past [...] backfires such that Krapp has no identity but through regretting the past and abdicating responsibility to identify through striving towards the future <<cite "55" "Levy, Eric. 'Krapp's Last Tape and the Beckettian Mimesis of Regret'.">>. </blockquote>
-<p>This is partly a function of the topic of the play - it is no surprise that <i>Krapp’s Last Tape</i> spends most of its time on Krapp’s last tape - but it demonstrates the degree to which Krapp’s obsession with the past cannibalises his present and the "present" of his previous recordings, which themselves spend most of their time on that process of recording. The vehicle of this obsession is the tapes that externalise Krapp’s personal memories as a cognitive prosthesis.</p>
 
-<<silently>><<set _next_passage to "The Alt-Right 19">><</silently>>
-*/
+<p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp and <i>Her Story</i> due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one.</p>
 
-:: The Alt-Right 19 [tar nobr]
-<p>Both <i>Krapp’s Last Tape</i> and the alt-right’s contemporary digital practices reveal a deep entanglement with nostalgia, but while Krapp’s nostalgia is personal, embodied, and ultimately self-destructive, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
-<p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp is ultimately alone with his tapes, isolated in his obsession, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in both cases, represents a dislocation from the present—Krapp is consumed by the lost possibilities of his past, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
-<p>Krapp’s fragmented identity and his reliance on externalized memory as a means of self-understanding resonate with the alt-right’s use of digital spaces to cultivate a fractured, yet collectively reinforced, identity. Both Krapp and the alt-right exemplify the dangers of an overreliance on mediated memory—whether through tapes or tweets—where the present is continually sacrificed to an idealized and unattainable past.</p>
-
-<<silently>><<set _next_passage to "The Alt-Right 20">><</silently>>
-
-:: The Alt-Right 20 [tar nobr]
-<p>I have here principally considered the negative potentialities that accompany the prostheticization of memory because we live in an historical moment where those negative possibilities seem so powerful and so omnipresent. The American alt-right is an apt example in relation to Krapp due to its rhetorical reliance on a nostalgia that links the prosthetic memory with the contemporary subject, but it is not the only one. Other communities exist online, with their own collective memories, their own postcognitive subjectivities - and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of Twitter’s hashtag-oriented activism - and other modes of being in the Information Age. Beckett’s plays, with their embodiment of selves fractured in time and space and ultimate skepticism towards any natural unity of the self, are a powerful tool for understanding the fractured inforganic self.</p>
+<p>Other communities exist online, with their own collective memories, their own postcognitive subjectivities--and, in many cases, their own collective imagined futures. These range from 4chan’s so-called hive mind, whose shared name "Anonymous" highlights the subsumation of the individual, to the glossiola of online hashtag-oriented activism--and other modes of being in the Information Age. What this case study highlights is the recipcrocally reinforcing relationship of medium-as-form and content which always conditions what selves arise on a given platform.</p>
 
 <p>[[Return -> Section 2: MEMORY]]</p>
 
-:: Section 2 Conclusion
+:: Section 2 Conclusion 1 [nobr]
 
-(Outline)
-- Summarize the key insights from each case study, emphasizing their collective contribution to the understanding of memory in the context of digital technology.
-- Reflect on the common themes of fragmentation, subjectivity, and media influence that run through all three studies.
-- Discuss the broader implications of these case studies for our understanding of memory and identity in the digital age.
-- Consider how the increasing reliance on digital media to store and recall information may be shaping both personal and collective identities, potentially leading to a more fluid but also more contested sense of self and history.
-- End with a reflection on the potential future directions of memory studies, particularly in light of emerging technologies and the ongoing evolution of digital media.
-- Pose questions for further exploration, such as the ethical implications of technological mediation in memory and the role of narrative in shaping our understanding of the past.
+<p><i>Her Story</i>, <i>Krapp’s Last Tape</i>, and the alt-right’s contemporary digital practices, each reveal a deep entanglement with nostalgia, but while Krapp and <i>Her Story</i>'s nostalgia is personal, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
+
+<p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp and Susan are ultimately alone with their tapes, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in all cases, represents a dislocation from the present—Susan is obsessed with understanding her mother so she can understand herself, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
+
+<<silently>><<set _next_passage to "Section 2 Conclusion 2">><</silently>>
+
+:: Section 2 Conclusion 2 [nobr]
+
+<p>Krapp’s fragmented identity and his reliance on externalized memory as a means of self-understanding resonate with the alt-right’s use of digital spaces to cultivate a fractured, yet collectively reinforced, identity. Both Krapp and the alt-right exemplify the dangers of an overreliance on mediated memory—whether through tapes or tweets—where the present is continually sacrificed to an idealized and unattainable past.</p>
+
+<p>This radical traditionalism would be all too familiar to a Samuel Beckett, a playwright whose time in Vichy exposed him to propaganda "on a scale unprecedented in France" <<cite "253" "Jackson, Julian. France: The Dark Years.">> via a network of media technologies that included radio programs, airdropped leaflets, posters, newspapers, radio programs, and newsreels. The propaganda disseminated under the banner of France‐Actualités Pathé‐Gaumont was focused on:</p>
+
+<blockquote>the revival of traditional culture (through the) celebration of France’s colonial empire (and the) so-called National Revolution, a series of socio-cultural initiatives meant to restore France’s moral and physical strength" <<cite "52" "Bowles, Brett. 'German newsreel propaganda in France'.">>.</blockquote> 
+
+<<silently>><<set _next_passage to "Section 2 Conclusion 3">><</silently>>
+
+:: Section 2 Conclusion 3 [nobr]
+
+<p>Beckett lived with this propaganda; as William Davies remarks:</p>
+
+<blockquote>Vichy’s was a vision of France that Beckett would have detested for its authoritarian nationalism, reactionary traditionalism, and overt collaboration, but it was also a France in which he could be actively persecuted for his politics, social connections, and avant-garde cultural sensibilities <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>.</blockquote>
+
+<p>This vision of France included as a central pillar a concern with a French masculinity "softened by contemporary French culture" in contrast to the "‘more national, more virile, more human’ France of Vichy’s imagination" <<cite "4" "Davies, Will. ‘Samuel Beckett’s Trilogy and the Revolution of the Body in Vichy France’.">>. Like the American alt-right, the nostalgic nationalism of Vichy France unfavorably compared a contemporary masculinity in perceived decline through feminization with an imaginatively constructed hypermasculinity.</p>
+
+<<silently>><<set _next_passage to "Section 2 Conclusion 4">><</silently>>
+
+:: Section 2 Conclusion 4 [nobr]
+
+<p>Notably, "Twitter", which has been renamed "X" by alt-right edgelord and plutocrat Elon Musk, is referred to as "Vichy Twitter" by commentators on the left because of the algorithmic bias towards alt-right users and content that Musk has introduced.</p>
+
+<p>Indeed, "X" is a prime example of how the whims of a particular plutocrat can warp the priorities and architecture of a platform in the case of X, formerly Twitter. In the 12 hours after Elon Musk purchased Twitter, the use of the n-word spiked by 500%.</p>
+
+<figure>
+	<img style="width:75%" src="assets/imgs/tar_nword.png">
+	<figcaption>This tweet contains a chart that shows a 500% increase in the use of the n-word in the 12 hours following Elon Musk's purchase of Twitter.<<cite "*" "@NCRI. 'Evidence suggests that bad actors are trying to test the limits on @Twitter.'">>.</figcaption>
+</figure>
+
+<p>I include the Tweet from which this statistic is derived to call attention to the top reply--a user with the handle @Murican saying "good." This reply has no comments, no likes, and no retweets, but it still appears as the first response because the user has a paid account and the "blue check" that, pre-Musk, indicated a verified account. Musk, who has since endorsed the explicitly ethnonationalist 2024 "Make America Great Again" campaign of Donald Trump, made specific decisions about what comments should and should not surface, and this is the result: a digital town square that normalizes racism and cooks brains.</p>
+
+<<silently>><<set _next_passage to "Section 2 Conclusion 5">><</silently>>
+
+:: Section 2 Conclusion 5 [nobr]
+
+<p>What the case of Musk--along with the 3 case studies in this chapter--seek to highlight is the role that the interface and architecture of technological media shapes the possible selves that users of that technology become. Understanding interface is critical in a world where interface shapes the words and gestures we use to construct our selves and our subjectivities. These three case studies--<i>Her Story</i>, <i>Krapp's Last Tape</i>, and the online radicalization of the alt-right--each explore how interface shapes the self's relationship with memory, and how that memory shapes the performed subject. To understand who we are in the information age, we must be critical of the technological platforms on which we live.</p>
+
+[[Return->Table of Contents]]
 
 :: Section 3: PRACTICE [nobr]
 <p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
