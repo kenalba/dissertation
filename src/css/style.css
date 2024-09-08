@@ -157,8 +157,8 @@ figcaption {
   color: #51b241;
 }
 
-.definition-link a.link-visited {
-  color: #51b241;
+.definition-link-visited a {
+  color: #91d386;
 }
 
 .excerpt-link a {

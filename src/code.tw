@@ -155,7 +155,6 @@ escape:"esc",plus:"+",mod:/Mac|iPod|iPhone|iPad/.test(navigator.platform)?"meta"
 this._directMap={};return this};d.prototype.stopCallback=function(a,b){if(-1<(" "+b.className+" ").indexOf(" mousetrap ")||D(b,this.target))return!1;if("composedPath"in a&&"function"===typeof a.composedPath){var c=a.composedPath()[0];c!==a.target&&(b=c)}return"INPUT"==b.tagName||"SELECT"==b.tagName||"TEXTAREA"==b.tagName||b.isContentEditable};d.prototype.handleKey=function(){return this._handleKey.apply(this,arguments)};d.addKeycodes=function(a){for(var b in a)a.hasOwnProperty(b)&&(n[b]=a[b]);p=null};
 d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){return function(){return a[b].apply(a,arguments)}}(b))};d.init();q.Mousetrap=d;"undefined"!==typeof module&&module.exports&&(module.exports=d);"function"===typeof define&&define.amd&&define(function(){return d})}})("undefined"!==typeof window?window:null,"undefined"!==typeof window?document:null);
 
-config.addVisitedLinkClass = true;
 
 :: StoryInit [StoryInit]
 <<set $bookmarks to []>>
@@ -321,9 +320,7 @@ config.addVisitedLinkClass = true;
 	<<set _label to $args[0]>>
 		<<if $args.length == 2>>
 			<<set _destination to $args[1]>>
-				<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span>
-				<<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>>
-			<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
+				<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>><<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
 
 
 <<widget "excerpt">>
@@ -507,7 +504,7 @@ config.addVisitedLinkClass = true;
 											"2" : {"filename" : "wilson_on_blues.mp4", "caption" : "August Wilson discusses the influence of the blues on his work in an interview with Bill Moyer."},
 											"3" : {"filename" : "quad_cmu.mp4", "caption" : "Four Roombas at Carnegie Mellon University perform the Beckett play Quad."},
 											"4" : {"filename" : "klt_pinter_farewell.mp4", "caption" : "Pinter's perusal of the precis is as impatient as his listening posture, and his melancholy at the word 'love' is punctuated by the emphatic way he slams his book shut."},
-											"5" : {"filename" : "hs_filter.mp4", "caption" : "test caption"}
+											"5" : {"filename" : "tar_info_superhighway.mp4", "caption" : "Nam June Paik, Electronic Superhighway: Continental U.S., Alaska, Hawaii, 1995, fifty-one channel video installation (including one closed-circuit television feed), custom electronics, neon lighting, steel and wood; color, sound, approx. 15 x 40 x 4 ft., Smithsonian American Art Museum, Gift of the artist, 2002.23, © Nam June Paik Estate."}
 										}
 									}
 									>>
@@ -587,7 +584,7 @@ config.addVisitedLinkClass = true;
 
 	        var videoTitle = document.getElementById('videoTitle').value;
 	        
-	        var openaiApiKey = '---'; // Replace with your OpenAI API key
+	        var openaiApiKey = '---' // Replace with your OpenAI API key
 
 	        console.log('Sending request to OpenAI');
 

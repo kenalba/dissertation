@@ -24,7 +24,7 @@ Thanks, and enjoy!
 
 <hr class="solid">
 
-[[Section 1: GESTURE]]<br>
+[[Section 1: GESTURE]] <<if hasVisited("Section 1 Conclusions")>>✅<</if>><br>
 
 [[Section 2: MEMORY]] <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>><br>
 
@@ -40,6 +40,7 @@ Thanks, and enjoy!
 
 [[Bibliography]]<br>
 
+
 :: Section 1: GESTURE [nobr]
 [[Introduction->Section 1 Introduction]]
 <hr class="solid">
@@ -52,17 +53,32 @@ Thanks, and enjoy!
 [[Conclusions->Section 1 Conclusions]]
 <<silently>><<set _next_passage to "Section 1 Introduction">><</silently>>
 
+
 :: Section 2: MEMORY [nobr]
 
-[[Introduction ->Section 2 Introduction]]
+[[Introduction ->Section 2 Introduction 1]] <<if hasVisited("Section 2 Introduction 5")>>✅<</if>>
 <hr class="solid">
-🪞 [[Case Study: HER STORY]] 🪞<br>
+🪞 [[Case Study: HER STORY]] 🪞  <<if hasVisited("Her Story 13")>>✅<</if>><br>
 
-➿ [[Case Study: KRAPP'S LAST TAPE]] ➿ <br>
+➿ [[Case Study: KRAPP'S LAST TAPE]] ➿  <<if hasVisited("Krapp's Last Tape 20")>>✅<</if>><br>
 
-🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻 <br>
+🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻  <<if hasVisited("The Alt-Right 18")>>✅<</if>><br>
 <hr class="solid">
-[[Conclusion ->Section 2 Conclusion 1]]
+[[Conclusion ->Section 2 Conclusion 1]]  <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>>
+
+
+:: Section 3: PRACTICE [nobr]
+<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
+<p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
+
+[[Practice-Based Research Introduction / Overview / Methodology]]<br>
+<hr class="solid">
+♾️ [[Case Study: ENDLESSGAME]] ♾️<br>
+🐦‍⬛ [[Case Study: 36 BLACKBIRDS]] 🐦‍⬛<br>
+🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
+<hr class="solid">
+
+
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
@@ -675,7 +691,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 <p>The different media forms under examination in this chapter--audio recordings, video clips, and algorithm-driven web platforms--fundamentally alter the ways in which individuals and groups remember and reinterpret the past. By capturing moments in time, curating personal and public histories, and enabling communal memory-making, these media challenge traditional concepts of reliability and authenticity. The fluidity of digital memory blurs boundaries between past and present, personal and collective, and fact and fiction.</p>
 
-<p>Memory is positioned here as an active process shaped by technological <<define "interfaces" "Interface">>, and these case studies will explore how the particularities of each of their interfaces shape that active process. I will focus particularly on how the process of memory retrieval is necessarily a fraught one, conditioned by <<define "loss" "Loss">>, and how the subject that arises out of this process is a cybernetic one--a hybrid of human and information communication technology.</p>
+<p>Memory is positioned here as an active process shaped by technological <<define "interfaces" "interface">>, and these case studies will explore how the particularities of each of their interfaces shape that active process. I will focus particularly on how the process of memory retrieval is necessarily a fraught one, conditioned by <<define "loss" "Loss">>, and how the subject that arises out of this process is a cybernetic one--a hybrid of human and information communication technology.</p>
 
 <<silently>><<set _next_passage to "Section 2 Introduction 4">><</silently>>
 
@@ -715,9 +731,9 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Her Story 2">><</silently>>
 
 :: Her Story 2 [hs nobr]
-<p>There’s much to admire about <i>Her Story</i>. It won a BAFTA for Game Innovation, as well as many other awards. Viva Seifert’s performance as Heather/Eve is terrific, the writing is sharp and engaging, and the story itself is compelling. In this study, though, I will on dwell on the <<define "interface">>--how the player accesses the clips themselves--and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player that presents as complex and sophisticated mode of identification with multiple characters, at multiple levels. These mediated structures of identity can provide useful In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed <<define "death" "death of the author">>.</p>
+<p>There’s much to admire about <i>Her Story</i>. It won a BAFTA for Game Innovation, as well as many other awards. Viva Seifert’s performance as Heather/Eve is terrific, the writing is sharp and engaging, and the story itself is compelling. In this study, though, I will on dwell on the <<define "interface">>--how the player accesses the clips themselves--and think about how that use of loss and absence creates, paradoxically, a sense of presence for the player that presents as complex and sophisticated mode of identification with multiple characters, at multiple levels. These mediated structures of identity can provide a useful hook into understanding how the modern subject is imbricated with and co-constructed via technological systems. In the game, <<define "UI">> and <<define "UX">> design provides a site for the rediscovery of the author in the wake of their much-ballyhooed <<define "death" "death of the author">>.</p>
 
-<p>Despite its award-winning status, however, <i>Her Story</i> has not been the subject of rigorous critical inquiry. One exception is Perreault et al's 2022 study "What Does It Mean to Be a Female Character in “Indie” Game Storytelling? Narrative Framing and Humanization in Gaming and Humanization in Independently Developed Video Games", but (as the title suggests) they are principally concerned with representations of female characters in a medium that has been traditionally dominated by male creators--to "explore the presentation of women in culture" <<cite "7" "Perreault, Mildred F, et al. 'What Does It Mean to Be a Female Character in “Indie” Game ...'">>--I will instead be principally concerned with the game's interface, and how that device for navigating and 'reading' its <<define "multimedial">> narrative gives rise to unique modes of condition which are conditioned by nostalgia and loss but are nevertheless meaningful.</p>
+<p>Despite its award-winning status, however, <i>Her Story</i> has not been the subject of rigorous critical inquiry. One exception is Perreault et al's 2022 study "What Does It Mean to Be a Female Character in “Indie” Game Storytelling? Narrative Framing and Humanization in Gaming and Humanization in Independently Developed Video Games", but (as the title suggests) they are principally concerned with representations of female characters in a medium that has been traditionally dominated by male creators--to "explore the presentation of women in culture" <<cite "7" "Perreault, Mildred F, et al. 'What Does It Mean to Be a Female Character in “Indie” Game ...'">>--I will instead be principally concerned with the game's interface, and how that device for navigating and 'reading' its <<define "multimedial">> narrative gives rise to unique modes of identification which are conditioned by nostalgia and loss but are nevertheless meaningful.</p>
 
 <figure>
 	<video controls>
@@ -731,8 +747,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 :: Her Story 3 [hs nobr]
 <p><<define "Loss">>, which Lev Manovich identified as a major feature of so-called 'new media' almost 20 years ago, informs the game’s interface design. Although the game does have <<define "non-diegetic">> music and the clips have <<define "diegetic">> audio, the main aural input is ambient; the fluorescent lights visible in reflection on the simulated CRT screen of the game buzz and sputter, typing in search queries clatters like a mechanical keyboard, and the fans and hard disks of the decrepit, simulated computer audibly hum. The audio cues create three separate levels of reality: the world of the video clips, the world of the person accessing the video clips, in the fluorescent-lit room, and the world of the player.</p>
-<p>Indeed, in an <a target="_blank" href="assets/pdfs/app_unwrapper_interview.pdf">interview</a>, Barlow noted exactly that separation as the purpose of the non-diegetic music:</p>
-<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player--important in establishing that there’s a difference.</blockquote>
+<p>Indeed, in an interview with AppUnwrapper, Barlow noted exactly that separation as the purpose of the non-diegetic music:</p>
+<blockquote>The music was one of those things that was there to cut through the experience and create a little bit of separation between the ‘world of the game’ and the world of the player--important in establishing that there’s a difference <<cite "*" "AppUnwrapper, 'Interrogating Her Story Creator Sam Barlow'">></blockquote>
 <figure>
 	<img style="max-width:75%" src="assets/imgs/hs_diagram_1.png" alt="A frame from one of the recorded videos in Her Story.">
 	<figcaption>The first level of identification: the audiovideo recording of Viva Seifart's character in police custody.</figcaption>
@@ -751,6 +767,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 
 :: Her Story 4 [hs nobr]
 <p>Those fluorescent lights outline the starkest instance of this operative absence, which became clear for me only upon my discovery of the "anti-glare filter" buried in LOGIC’s settings. Once the player activates the anti-glare filter, the visible reflection of the fluorescent lights disappear; it is only after having done so that it becomes obvious that they were there the whole time, and--more importantly--that they were broken up by the ghostly silhouette of the player character--a silhouette that matches the player themselves. The player's <<define "avatar" "Avatar">> only becomes visible when rendered invisible by the anti-glare feature.</p>
+
 <p>Suggestively, when the anti-glare filter is activated and the reflections disappear, the visuals flatten and lose texture. This suggests how terms like "loss" are always necessarily situated, and why <<define "signal" "Signal">> and <<define "noise" "Noise">> must be considered pragmatically; ostensibly, the anti-glare filter cleans up the game, making the signal easier to parse by removing the visual noise of the scan lines, the reflections, and so on. However, because the interface <i>is</i> a part of the signal, and the presence of the avatar is a part of the message, removing the visual "noise" results in a net loss of context, <span class="glow"><<define "aura" "Benjamin's aura">></span>, and meaning. This conceptual oscillation operates as a <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>, swapping signal and noise in a kind of aesthetic freeplay.</p>
 
 <figure>
@@ -771,7 +788,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 	<figcaption>This file, "REALLY_readme!!!!.txt, makes it clear that the player's avatar is not a police detective but instead a different character, who is revealed to be Sarah, the daughter / niece of the interviewees. The filename positions this layer of reality as more "real"--or, at least, more proximate in time--than the clip-world.</figcaption>
 </figure>
 
-<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with an <span class="glow>aura</span>. Through the cipher of the glitch, however, we become aware that losses make available other points of view which redefine what is signal and what is noise. More specifically, these losses suggest the lossy nature of mediated conversation more broadly but simultaneously contradict a strict hierarchy which reifies <<define "meatspace">> as the only real world.</p>
+<p>The content, like the interface, is conditioned by losses that imbue these digital video clips with an <span class="glow">aura</span>. Through the cipher of the glitch, however, we become aware that losses make available other points of view which redefine what is signal and what is noise. More specifically, these losses suggest the lossy nature of mediated conversation more broadly but simultaneously contradict a strict hierarchy which reifies meatspace as the only real world.</p>
 
 <<silently>><<set _next_passage to "Her Story 6">><</silently>>
 
@@ -795,8 +812,8 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <ul>
 <li>First with the detective interrogating the woman,</li>
 <li>Second with the person in front of the database (Sarah), and</li>
-<li>Third, with themselves as a player, in a few particularly clever moments where the results of a search query seem to address a prurient gamer rather than the detective.</p>
-
+<li>Third, with themselves as a player, in a few particularly clever moments where the results of a search query seem to address a prurient gamer rather than the detective.</li>
+</ul>
 <figure>
 	<video controls>
 	<source src="assets/videos/hs_sexlife.mp4" type="video/mp4">
@@ -815,7 +832,7 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <p>The clunky search interface which structures the player's relationship with the clips would be much simpler were the full transcript of the interviews available directly. Instead, the user can only 'read' the transcript as it appears in the closed captions of the clips.</p>
 <p>The game's missing transcript pushes that transdiegetic identification in part because it is in many players’ experience (including my own) supplemented by another player-generated one: a pen-and-paper notepad where the player starts to outline the murder at the center of the game. Because the game has no set path, the player has to investigate, and investigation here means keeping track of names, places, and important objects. I ended up with a four-page web of connections, with notes on each node. Adam Smith, of <i>Rock Paper Shotgun</i>, described a similar experience in his review:</p>
 <blockquote>I have three pages of notes, tracking events, cross-referencing details, picking out contradictions. It’s a dissection of life based on assumptions that seem inevitable and insights that are mine and mine alone.<<cite "*" "Smith, Adam. Wot I Think: Her Story.">></blockquote>
-<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "Prosthetic">> to create a system of text-and-player which extends the game interface out into the physical world as it interpolates the player into the gameworld. This system, which can be compared usefully to [[Krapp->Krapp 4]] with his boxes and tapes and to the radicalized [[Caleb Cain->The Alt Right 1]], can be interrogated as a useful model for the systems of subject-and-technological-objects that constitute our selves in the information age.</p>
+<p>The notebook, here, functions alongside the game itself as a <<define "cognitive prosthesis" "Prosthetic">> to create a system of text-and-player which extends the game interface out into the physical world as it interpolates the player into the gameworld. This system, which can be compared usefully to [[Krapp->Krapp 4]] with his boxes and tapes and to the radicalized [[Caleb Cain->Meatspace: THE ALT-RIGHT]], can be interrogated as a useful model for the systems of subject-and-technological-objects that constitute our selves in the information age.</p>
 
 <<silently>><<set _next_passage to "Her Story 9">><</silently>>
 
@@ -908,14 +925,14 @@ I don't want to jump to conclusions here, so I won't, but eventually I'm sure to
 <<silently>><<set _next_passage to "Krapp 3">><</silently>>
 
 :: Krapp 3 [klt nobr]
-<p>Krapp’s relationships with the various cognitive <<define "apparatuses" "apparatus">> he surrounds himself with prefigures what subjectivity looks like in the information age. The subjectivity that arises out of the complex interactions between the listener and their <<define "prosthetic" "Prosthetic">> memory can be characterised as what Olga Beloborodova has called 'postcognitivist': a way of moving beyond the Cartesian framework to instead consider how Beckett’s fictional minds are more often than not "grounded in the interaction with their fictional storyworlds" <<cite "1" "Beloborodova, Olga. Postcognitivist Beckett">>.</p>
+<p>Krapp’s relationships with the various cognitive apparatuses he surrounds himself with prefigures what subjectivity looks like in the information age. The subjectivity that arises out of the complex interactions between the listener and their <<define "prosthetic" "Prosthetic">> memory can be characterised as what Olga Beloborodova has called 'postcognitivist': a way of moving beyond the Cartesian framework to instead consider how Beckett’s fictional minds are more often than not "grounded in the interaction with their fictional storyworlds" <<cite "1" "Beloborodova, Olga. Postcognitivist Beckett">>.</p>
 <p>Considering Krapp’s relationship with his tapes from a postcognitivist perspective suggests how the construction of an abiding subject in the information age simultaneously depends upon and is imperilled by the particular technologies that project the voice into the dark.</p>
 
 <<silently>><<set _next_passage to "Krapp 4">><</silently>>
 
 :: Krapp 4 [klt nobr]
 <p>In 1975, Beckett told Pierre Chabert, who performed the role of Krapp in the Paris production of that year, that Krapp should "become as much as possible one with the machine"<<cite "105" "Chabert, Pierre. ‘Samuel Beckett as Director’, in James Knowlson (ed.), Samuel Beckett: Krapp’s Last Tape Theatre Workbook">>. This direction turns Krapp into a kind of <<define "cyborg" "Cyborg">>--characterised, by Donna Haraway among others, in large part by the breakdown of the boundary between the biological and the mechanical and between the material and the immaterial <<cite "11" "12" "Haraway, Donna. ‘A Cyborg Manifesto’.">>. It suggests, too, the relationship between the player and their avatar in a game like <i>[[Her Story->Her Story 1]]</i>, leaning in to assemble the clues needed to make a narrative out of a database.</p>
-S
+
 <p>Crucially, these borders do not break down neatly in Krapp; instead, the mechanical is personified and the biological becomes mechanized. Krapp’s particular postmodern subjectivity is complicated by biological and technological contingency in a way that demands a more specific paradigm than the cyborg. As N. Katherine Hayle argues, the audiotape in Krapp functions "not only as a theme, a metaphor, or a vehicle for expression but as a mode of relation that produce[s] a certain kind of postmodern subjectivity" <<cite "75" "Hayles, N. Katherine. How We Became Posthuman.">> - one that goes beyond Haraway’s leaky boundaries into something that is simultaneously more radical and more ubiquitous in the information age.</p>
 
 <figure>
@@ -978,8 +995,6 @@ S
 
 <p>Most of what we see of Krapp’s life seems to be governed by his relationship with his tapes in this reciprocal way. To begin with, accessing his prosthetic memories requires information from his ledger and his dictionary. At 39, he spends his birthday "with closed eyes, separating the grain from the husks" and jotting down notes on the back of an envelope--that is, deciding what moments are "worth having when all the dust has settled" <<cite "217" "Beckett, Samuel. Krapp's Last Tape.">>. On his last tape, he notes his revelry in the word "spool" as the "happiest moment of the past half million" <<cite "222" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
 
-<<videoPlayerWidget>>
-
 <<silently>><<set _next_passage to "Krapp 11">><</silently>>
 
 :: Krapp 11 [klt nobr]
@@ -1020,11 +1035,11 @@ S
 <p>Eventually, though, Krapp finds the third box, takes it down, rifles through the spools until he finds the desired fifth tape, and returns to the ledger. On the stage, this operation takes a significant amount of time; Krapp’s technological apparatus is mixed up and clanks and clatters in a way that undermines the smooth feedback loop endemic to a well-functioning inforg, like the clunky search interface in <i>Her Story</i>. Like his constipated digestive system, Krapp’s input-output stream is malfunctioning. The feedback loop between Krapp-as-conscious-mind and his own memories is just as unwieldy, as becomes clear in his perusal of the ledger’s entry. The precis baffles him:</p>
 <blockquote>Mother at rest at last... hm... the black ball... the dark nurse.... slight improvement in bowel condition... hm... memorable.... what? Equinox, memorable equinox. Memorable equinox? Farewell to – love.<<cite "217" "Beckett, Samuel. Krapp's Last Tape.">></blockquote>
 
+<p>The stage directions during his perusal repeat "puzzled" twice, has him staring blankly, and peering closely at the page to compensate for his nearsightedness. His notes fail to spark in him the memories they’re meant to point to, like a stale madeleine. His bodily infirmity and his age isolate him from his own memories even with access to notes about them. The focus, then, on Krapp’s inability to access his own memories even with the help of written technological prostheses gestures towards his internal mind’s memory’s status as an apparatus to which his access is unreliable; if the tapes and the ledger’s status as an external adjunct to his memory turn his technology into a part of his mind, then this failure to recall, measured alongside the spool-search, technologizes his biological memory by pointing to its own contingency, and thus dis-integrates the illusion of a unified subject.</p>
+
 <span class = boxlabel>Box 5, Spool 4: Harold Pinter as Krapp, bidding farewell to love.</span><br>
 <span class = boxlabel>Box 2, Spool 4: Patrick Magee as Krapp, bidding farewell to love.</span><br>
 <<videoPlayerWidget>>
-
-<p>The stage directions during his perusal repeat "puzzled" twice, has him staring blankly, and peering closely at the page to compensate for his nearsightedness. His notes fail to spark in him the memories they’re meant to point to, like a stale madeleine. His bodily infirmity and his age isolate him from his own memories even with access to notes about them. The focus, then, on Krapp’s inability to access his own memories even with the help of written technological prostheses gestures towards his internal mind’s memory’s status as an apparatus to which his access is unreliable; if the tapes and the ledger’s status as an external adjunct to his memory turn his technology into a part of his mind, then this failure to recall, measured alongside the spool-search, technologizes his biological memory by pointing to its own contingency, and thus dis-integrates the illusion of a unified subject.</p>
 
 
 <<silently>><<set _next_passage to "Krapp 16">><</silently>>
@@ -1043,7 +1058,7 @@ S
 
 :: Krapp 17 [klt nobr]
 
-<p>Krapp thus presents a pessimistic picture of the too-often-utopian cyborg, and suggests that this same pessimism might be valid for humanity more broadly. If the active externalism of the extended mind holds, then those of us living in the information age are all to a greater or lesser degree inforgs. Indeed, there are signs in <i>Krapp’s Last Tape</i> that Krapp's reliance on technological prostheses has resulted in his own mechanization. His movements are modularised, like those of the figures in <a href="https://especiallygreatliterature.com/beckett/english/drama/act_without_words_2.html" target="_blank"><i>Acts Without Words II</i></a> or <i>[[Quad->CASE STUDY: EndlessGame]]</i>, and he compulsively repeats memories and even phrases. A danger, then, of outsourcing too much of one’s mind to technological devices in the external world might be that one becomes more like them, more mechanical.</p>
+<p>Krapp thus presents a pessimistic picture of the too-often-utopian cyborg, and suggests that this same pessimism might be valid for humanity more broadly. If the active externalism of the extended mind holds, then those of us living in the information age are all to a greater or lesser degree inforgs. Indeed, there are signs in <i>Krapp’s Last Tape</i> that Krapp's reliance on technological prostheses has resulted in his own mechanization. His movements are modularised, like those of the figures in <a href="https://especiallygreatliterature.com/beckett/english/drama/act_without_words_2.html" target="_blank"><i>Acts Without Words II</i></a> or <i>[[Quad->Case Study: ENDLESSGAME]]</i>, and he compulsively repeats memories and even phrases. A danger, then, of outsourcing too much of one’s mind to technological devices in the external world might be that one becomes more like them, more mechanical.</p>
 
 <p>In <i>Krapp’s Last Tape</i>, Beckett presents a vision of an inforg whose malfunctioning biology puts the lie to any nostalgic yearning for a past with a unified and stable subject at its center. This holds even when the purpose of that externalization is, in Eric Levy’s words:</p>
 <blockquote>... not to return to the past, but to define [Krapp’s] identity through the annual progression of perspectives on the past" <<cite "55" "Levy, Eric. 'Krapp's Last Tape and the Beckettian Mimesis of Regret'.">>. </blockquote>
@@ -1052,14 +1067,13 @@ S
 
 :: Krapp 18 [klt nobr]
 <p>This malfunctioning, mechanized vision is in tension with the memory Krapp returns to again and again: a nostalgic, sentimental moment where he, as a body, presses against another body, looks her in the eye, and says "let me in" <<cite "223" "Beckett, Samuel. Krapp's Last Tape.">>.</p>
+<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions:</p>
+<blockquote>not as potion for memory and for wisdom [but instead] introduces forgetfulness into the soul of those who learn it [because writing] is external and depends on signs that belong to others, instead of trying to remember from the inside<<cite "*" "Plato. Phaedrus.">>.</blockquote>
+<p>The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in all cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
 
 <span class = boxlabel>Box 1, Spool 1: Harold Pinter as Krapp, remembering being a body.</span><br>
 <span class = boxlabel>Box 3, Spool 2: Patrick Magee as Krapp, remembering being a body.</span><br>
 <<videoPlayerWidget>>
-
-<p>Here, then, we have another paradox: Krapp’s mechanical memory offers him mediated access to an embodied and sentimental past while simultaneously alienating him from his body and from new experiences worth remembering. This anxiety is not new; it can be traced as far back as Plato’s <i>Phaedrus</i>, where the technology of writing functions:</p>
-<blockquote>not as potion for memory and for wisdom [but instead] introduces forgetfulness into the soul of those who learn it [because writing] is external and depends on signs that belong to others, instead of trying to remember from the inside<<cite "*" "Plato. Phaedrus.">>.</blockquote>
-<p>The evolution of information communication technologies changes the interface by which recorded memory is accessed, and understanding those interfaces is critical to understanding the kinds of subjectivity they give rise to, but in all cases the technology is "a potion for reminding," not for remembering. What Plato misses but Beckett sees is that the disintegration of the body comes with a disintegration of the system of signs by which one remembers one’s own experience; remembering "from the inside" is just as prone to breakdown as memories encoded in language and embodied on technological platforms.</p>
 
 <<silently>><<set _next_passage to "Krapp 19">><</silently>>
 
@@ -1068,7 +1082,6 @@ S
 <p>The example of <i>Krapp</i> suggests several conclusions about the inforganic subject. First and foremost, the division between memories inside the skull--on wetware, to borrow William Gibson’s term--and those stored outside the skull on technological platforms is relevant only inasmuch as the opacity of the interface calls their platform specificity into question. In other words, because Krapp’s internal memory is neither more nor less accessible than his external one, we should think about Krapp as a collection of interconnected cognitive systems that imbricates his failing body with his clunky tapes and his books. Krapp is only less of an inforg, in this reckoning, because the interfaces continually fail--and this failure makes his status <i>as</i> an inforg increasingly obvious.</p>
 
 <p>A more transparent interface shifts the information from <i>vorhanden</i> to <i>zuhanden</i> and in so doing dangerously obscures the degree to which the contemporary subject is interpolated into a technologically networked system.  Devoting close attention to the interfaces that integrate distinct cognitive platforms, biological and mechanical, is a powerful way to consider the kinds of subjectivity that arise out of these relationships, as is attentiveness to the particularities of the platforms in question. <i>Krapp’s Last Tape</i> slows information transfer down and embodies it in such a way that the informational transactions that take place any time cognitive systems are integrated with one another become an object of critique, and thus offers interface study and platform study as ways of thinking through the postcognitivist, postmodernist subject.</p>
-
 
 <<silently>><<set _next_passage to "Krapp 20">><</silently>>
 
@@ -1335,7 +1348,7 @@ User Input: ${videoTitle}`
 <<silently>><<set _next_passage to "The Alt-Right 14">><</silently>>
 
 :: The Alt-Right 14 [tar nobr]
-<p>Peterson’s audience crosses over substantially with "Gamergate," which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist game critic Anita Sarkeesian, and a broader, weaponized fiction that a previously white male cultural space--video gaming--was being taken over by so-called 'social justice warriors.'' Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" like racist image board 4chan, the corners of YouTube we’ve been discussing, and noxious Reddit community "TheRedPill" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">>.</p>
+<p>Peterson’s audience crosses over substantially with "Gamergate," which began in 2014 as a backlash against feminist indie game developer Zoe Quinn, feminist game critic Anita Sarkeesian, and a broader, weaponized fiction that a previously white male cultural space--video gaming--was being taken over by so-called 'social justice warriors.' Cultural historian Kristin Bezio has convincingly connected Gamergate to the rise of the online alt-right and its "digital echo-chambers" like racist image board 4chan, the corners of YouTube we’ve been discussing, and noxious Reddit community "TheRedPill" <<cite "557" "Bezio, Kristin. 'Ctrl-Alt-Del: Gamergate as a precursor to the rise of the alt-right'.">>.</p>
 <p>"r/TheRedPill,"" which has been "quarantined" by Reddit for being "highly offensive or upsetting," defines feminism as "a doctrine of class hatred and violence" and defines the "Red Pill" itself as:</p>
 <blockquote>the awareness of the dark truths surrounding human sexuality; hypergamy, women’s ‘Alpha Fucks / Beta Bucks’ strategies, society’s Feminine Imperative, and so forth <<cite "*" "Reddit.com. 'self.TheRedPill: Updated Glossary of Terms and Acronyms'.">>.</blockquote>
 <p>Roose’s article on Caleb Cain, who himself was "red-pilled," defines it more succinctly as "an internet slang term for converting to far-right beliefs" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
@@ -1356,7 +1369,7 @@ User Input: ${videoTitle}`
 <p>By appealing to this nostalgia, alt-right celebrities (or "influencers," as many internet celebrities are known) provide their listeners with the illusion of a stable identity. In Spencer’s own words:</p>
 <blockquote>I don’t need to tell [B]lack people in this room to have an identity because you all have got it. You know who you are. But I will tell that to white people. Have a goddamn identity. Have a sense of yourself. Be a part of this family. You are not an individual, you are not just an American, you are not just a citizen, you are part of this family. <<cite "*" "Caplan, Jeff. ‘White nationalist’s appearance at Texas A&M draws hundreds of protesters’.">></blockquote>
 
-<p>Spencer’s rhetoric here dovetails with Cain’s own explanation for his radicalization: "it appealed to me because it made me feel a sense of belonging" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.
+<p>Spencer’s rhetoric here dovetails with Cain’s own explanation for his radicalization: "it appealed to me because it made me feel a sense of belonging" <<cite "*" "Roose, Kevin. 'The Making of a YouTube Radical'.">>.</p>
 
 <<silently>><<set _next_passage to "The Alt-Right 17">><</silently>>
 
@@ -1376,7 +1389,7 @@ User Input: ${videoTitle}`
 
 :: Section 2 Conclusion 1 [nobr]
 
-<p><i>Her Story</i>, <i>Krapp’s Last Tape</i>, and the alt-right’s contemporary digital practices, each reveal a deep entanglement with nostalgia, but while Krapp and <i>Her Story</i>'s nostalgia is personal, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
+<p><i>Her Story</i>, <i>Krapp’s Last Tape</i>, and the alt-right’s contemporary digital practices each reveal a deep entanglement with nostalgia, but while Krapp and <i>Her Story</i>'s nostalgia is personal, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
 
 <p>This transition from personal to collective nostalgia highlights a crucial difference: where Krapp and Susan are ultimately alone with their tapes, the alt-right operates within a networked environment where these nostalgic narratives are shared, amplified, and weaponized. The prosthetic memory, in all cases, represents a dislocation from the present—Susan is obsessed with understanding her mother so she can understand herself, while the alt-right is fixated on a return to a glorified version of history that never truly existed. Yet, the consequences are starkly different. Krapp’s introspection leads to personal stasis and despair, whereas the alt-right’s nostalgia fuels an aggressive, outward-facing movement that seeks to reshape reality in its image.</p>
 
@@ -1422,18 +1435,6 @@ User Input: ${videoTitle}`
 <p>What the case of Musk--along with the 3 case studies in this chapter--seek to highlight is the role that the interface and architecture of technological media shapes the possible selves that users of that technology become. Understanding interface is critical in a world where interface shapes the words and gestures we use to construct our selves and our subjectivities. These three case studies--<i>Her Story</i>, <i>Krapp's Last Tape</i>, and the online radicalization of the alt-right--each explore how interface shapes the self's relationship with memory, and how that memory shapes the performed subject. To understand who we are in the information age, we must be critical of the technological platforms on which we live.</p>
 
 [[Return->Table of Contents]]
-
-:: Section 3: PRACTICE [nobr]
-<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
-<p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
-
-[[Practice-Based Research Introduction / Overview / Methodology]]<br>
-<hr class="solid">
-♾️ [[Case Study: ENDLESSGAME]] ♾️<br>
-🐦‍⬛ [[Case Study: 36 BLACKBIRDS]] 🐦‍⬛<br>
-🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
-<hr class="solid">
-
 
 :: Case Study: ENDLESSGAME {"position":"3845,1066","size":"100,100"}
 This section will feature my adaptation of Samuel Beckett's <i>Quad</i>, which I've named <i>EndlessGame</i>. I will begin by discussing what makes <i>Quad</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
