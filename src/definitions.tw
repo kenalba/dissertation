@@ -340,11 +340,7 @@ For some examples of memes, see the <<excerpt "Meme Gallery">>.
 :: COVID-19 [definition nobr]
 
 <p>While this document was being written, COVID-19 happened (and continues to happen). It is difficult to overestimate the degree to which the virus changed the global landscape, and outside the scope of a document like this; that said, it is worth remarking upon that many of the thought experiments originally posited here, particularly in the introduction, went from outlandish to anodyne as a result. For example, positing a United States of America where more of the social gestures that people perform took place on digital platforms than in person was difficult for folks of a certain age to imagine in, say, 2018; now, six years later, those of us whose memories still work can recall the lived experience of taking classes and meetings and social calls and awkard movie nights on Zoom, with all of the attendant gains and losses thereof.</p>
-<p>As of this writing (April 28, 2024), the World Health Organization estimates that 7,045,569 people have died, globally, from COVID-19. <<cite "1" "WHO COVID-19 Dashboard">></p>
-
-:: Informatic Schematic [definition todo] {"position":"2004,1897","size":"100,100"}
-More to be written here.
-
+<p>As of this writing (April 28, 2024), the World Health Organization estimates that 7,045,569 people have died, globally, from COVID-19. <<cite "1" "WHO COVID-19 Dashboard">></p> 
 
 :: Benjamin's aura [definition gpt nobr] {"position":"1615,2202","size":"100,100"}
 
@@ -760,3 +756,31 @@ TODO
 
 :: Doki Doki Literature Club [definition nobr]
 <p><i><a href="https://ddlc.moe/" target="_blank">Doki Doki Literature Club</a></i> (DDLC) is a visual novel / dating sim / horror game created by Dan Salvato and released for free in 2017. Like <i>[[Her Story->Her Story 1]]</i>, <i>DDLC</i> is a generically savvy game that takes advantage of its medium to highlight the porousness of the screen-world and the real world, with a particular emphasis on the <span class="glitch">glitch</span> and the gothic. Critics writing about <i>DDLC</i> have highlighted how the game's uncanniness and horror element manifest via game-breaking moments that break the fourth wall that Christopher Barkman describes as "metaleptic" <<cite "2" "Barkman, Chris. 'There’s no point in saving anymore': Diegesis and interactional metalepsis in Pony Island and Doki Doki Literature Club.">>. Matthew Allan, citing Florian Kerschbaumer and Tobias Winnerling, instead defines these moments as hypermediate, in contrast to the immediate, and notes how these moments of "gothic glitch break the player's immersion, making them aware of the medium as it shifts their attention from the immediate to the hypermediated"<<cite "47" "Allan, Matthew. 'Doki Doki Subversion Club'">>.</p>
+
+
+:: Automatic Play [definition nobr]
+<p>Proceeding from the framework whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. </p>
+
+<p>That is:</p>
+
+<ul>
+<li>* the author's will is captured perfectly by a definitive script that leaves no room for interpretative divergence;</li>
+<li>* the director exectutes the script as doggedly as a computer running a Python script;</li>
+<li>* the actors follow the instructions of the script and the director perfectly; and<li>
+<li>* the audience is perfectly attentive and perfectly receptive.</li>
+</ul>
+
+<p>This automatic play is an illusion, though, whose premises reinscribe a Platonic notion of a play that exists as pure form and is always already corrupted by its embodiment on a stage. That said, it is an illusion with an intellectual and dramatic pedigree.</p>
+
+<p>Consider Heinrich von Kleist's "<<excerpt "On the Marionette Theater" "Kleist, Heinrich von. On the Marionette Theater.">>", where his interlocutor posits the superiority of the marionette to the flesh-and-blood performer. If
+<blockquote>the last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces... he could perform a dance with it that neither he nor any other skilled dancer of his time ... could equal.</blockquote>
+
+<p>In 1902, in <i><a target="_blank" href="https://www.gutenberg.org/files/49611/49611-h/49611-h.htm#Page_93">Samhain</a></i>, W. B. Yeats imagined actors restrained in barrels: "[I] had once asked a dramatic company to let me rehearse them in barrels that they might forget gesture and have their minds free to think of speech for a while. The barrels, I thought, might be on castors, so that I could shove them about with a pole when the action required it."</p>
+
+<p>Beckett took this idea further; see, for example, the urn-entombed characters of <i>Play</i>, or <i>Endgame</i>'s Hamm, pushed across the stage on castors (or Nell and Nag, in their ashbins).</p>
+
+<p>In all of these cases, the losslessness of the director's will is accomplsihed by curtailing the freedom of the actor; transmission becomes pure signal when the actor is constrained and can only do what the director (or the script) allows them to do.</p>
+
+:: script [definition nobr todo]
+
+Need to define this as both a code script and a play script.

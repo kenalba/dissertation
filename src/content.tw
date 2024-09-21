@@ -1337,7 +1337,7 @@ User Input: ${videoTitle}`
 <<silently>><<set _next_passage to "The Alt-Right 7">><</silently>>
 
 :: The Alt-Right 7 [tar nobr]
-<p>Engagement on YouTube does not just mean watching videos, however. It also participating and contributing to a community by 'liking' and commenting on videos. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with <<define "the extended mind">>, but diverges in its psychoanalytically inflected consideration of affect rather than cognition as the primary term in considering the subject. Whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way.</p>
+<p>Engagement on YouTube does not just mean watching videos, however. It also means participating and contributing to a community by 'liking' and commenting on videos. Political scientist Jodi Dean has argued that this participatory model gives rise to "affective networks," "feedback loops [...] entrapping contemporary subjects" <<cite "90" "Dean, Jodi. 'Affect and Drive'.">>. Dean’s affective network has much in common with <<define "the extended mind">>, but diverges in its psychoanalytically inflected consideration of affect rather than cognition as the primary term in considering the subject. Whatever the focus, however, the linkage between a user and their devices is tighter when the loop is two-way.</p>
 <p>Numerous studies have linked this mode of engagement with addiction to the platform. For example, a 2017 study published in the <i>Journal of Behavioral Addictions</i> found that:</p> 
 <blockquote>content creation in YouTube had a closer relationship with YouTube addiction than content viewing [...] (and) social gratification was found to have a significant influence on both types of YouTube activities"<<cite "*" "Balakrishnan, Janarthanan and Mark Griffiths. ‘Social Media Addiction: What is the role of content in YouTube’.">>.</blockquote>
 
@@ -1476,6 +1476,46 @@ User Input: ${videoTitle}`
 
 [[Return->Table of Contents]]
 
+
+:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
+The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
+
+<<silently>><<set _next_passage to "PBR 1">><</silently>>
+
+:: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
+Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
+
+<<silently>><<set _next_passage to "PBR 2">><</silently>>
+
+
+:: PBR 2 {"position":"3044,1468","size":"100,100"}
+Brad Haseman’s "performative research," which he says is "intrinsically experiential and comes to the fore when the researcher creates new artistic forms for performance and exhibition, or designs user-led online games (...)" Haseman’s usage of "performative" is borrowed from J. L. Austin’s [[speech act theory->Speech Act Theory]]. He emphasizes the primacy of the created object over as performative acts of research in and of itself; the artifacts "work performatively. They not only express the research, but in that expression become the research itself." Thus blah blah blah.
+
+<<silently>><<set _next_passage to "PBR 3">><</silently>>
+
+:: PBR 3 {"position":"3044,1593","size":"100,100"}
+In critical making, conversely, the focus is on the "act of shared construction, joint conversation, and reflection" that happens during the process of creation. Unlike performative research, in critical making "the final prototypes are not intended to be displayed and to speak for themselves." Instead, the primary focus is on "using material production--making things--as part of an explicit practice of concept elaboration within the social study of technology." Although critical making is generally associated with the creation of material rather than virtual objects, the emphasis placed on the "shared acts of making rather than the evocative object" has guided my work in this section. (CITATIONS NEEDED).
+
+<<silently>><<set _next_passage to "PBR 4">><</silently>>
+
+
+:: PBR 4 {"position":"3044,1743","size":"100,100"}
+Importantly, though, my practice-based research is a series of adaptations rather than creations. This chapter, then, will be structured as a set of three experiments. I will begin each section with an explanation of the adapted text, with attention paid to what makes the text amenable to mechanical reproduction in the first place, and then move into an account of the process by which my adaptation was created as a way of drawing out features of the original texts. One of the guiding principles behind these adaptations is failure: although my goal is to do something that communicates some of what Beckett’s works do, something is inevitably lost in the translation from teleplay - or play - into what I’m going to loosely call a video game. 
+
+<<silently>><<set _next_passage to "PBR 5">><</silently>>
+
+
+:: PBR 5 {"position":"3044,1893","size":"100,100"}
+Although Beckett’s resistance to intermedial adaptation is sometimes, I think, overstated, the position of ‘player’ in a game - the position that these adaptations force the user into -  is radically different from that of ‘audience member’ or ‘viewer’ or even ‘actor,’ and as such neither of these adaptations are faithful ones. Examining the ways in which they fail, however, is a useful way to think about what makes the original plays succeed. I offer failure here, then, as a reading strategy rather than as a judge of worthiness. Of course, making something that only fails would be a questionable - and dispiriting - use of time. As such, the secondary goal here is to look at what does work. Much is inevitably lost in translation, but some is, I hope, gained. So I’ll also be thinking about how that position of ‘player’ is a potentially powerful one, and how these adaptations offer a different angle into these texts.
+
+<<silently>><<set _next_passage to "PBR 6">><</silently>>
+
+
+:: PBR 6 {"position":"3044,2043","size":"100,100"}
+Something about Brecht. Closing to this section.
+
+[[Return->Section 3: PRACTICE]]
+
 :: Case Study: ENDLESSGAME {"position":"3845,1066","size":"100,100"}
 <h1>Staging <i>Quad</i> as an ENDLESSGAME</h1>
 
@@ -1510,50 +1550,27 @@ User Input: ${videoTitle}`
 :: EndlessGame 2 [eg nobr]
 <p>Indeed, Beckett was working in information before the information age. Whereas the masters of high modernism depended on and were informed by what Hugh Kenner in <i>The Mechanic Muse</i> called "transparent technology," Kenner argues that Beckett carried modernism:</p>
 <blockquote>into the intangible realm of information theory.. our present world of enigmatic 'text,' of foregrounded codes and redundancies, of microchips through which what moves may be less interesting than the process of moving it elegantly" <<cite "15" "Kenner, Hugh. The Mechanic Muse.">>.</blockquote>
-<p><<define "Information" "Information">> is a complicated term to define - see the note for a more robust attempt at definition. Provisionally, here, I will use Luciano Floridi’s definition--that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be productively read like a ‘script’ in the programming sense--in the same way that Kenner <<excerpt "transcribed" "Watt to Pascal">> sections of <i>Watt</i> into Pascal code--or, more recently and thoroughly, Nick Montfort wrote <i>[[Megawatt->Megawatt 1]]</i>.</p>
+<p><<define "Information" "Information">> is a complicated term to define; here, I will use Luciano Floridi’s definition--that is, information is well-ordered, meaningful data <<cite "8" "Floridi, Luciano. Information: A Very Short Introduction.">>. I agree with Kenner, and further argue that <i>Quad</i>’s script can be read productively as a <<define "script">> in the programming sense, in the same way that Kenner <<excerpt "transcribed" "Watt to Pascal">> sections of <i>Watt</i> into Pascal code, or, more recently and thoroughly, Nick Montfort wrote <i>[[Megawatt->Megawatt 1]]</i>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 3">><</silently>>
 
 
-
 :: EndlessGame 3 [eg nobr]
-<p>Quad’s <<excerpt "script" "Quad script">> is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: "Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2..."</p>
+<p><<excerpt "Quad's script" "Quad script">> is, in this reading, a code, a set of mechanical instructions to be carried out one after another without deviation. The mathematical vectors described by Beckett’s very specific commands are drawn out geometrically. Beckett’s descriptions of the courses and the series, too, encode instructions for human behavior in symbolic language: "Course 1: AC, CB, BA, AD, DB, BC, CD, DA... 1st series (as above): 1, 13, 134, 1342, 342, 42, 2..."</p>
 
 <figure>
 	<img style="width:75%" src="assets/imgs/quad_script_2.png" alt="A diagram from the play script of Quad.">
 	<figcaption>A diagram from the play-script of Quad.</figcaption>
 </figure>
 
-<p>What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the [[automatic play->Automatic Play]], one that runs without a <span class="glitch" data-text="glitch">glitch</span>, in perfect obedience to the will of the author. </p>
+<p>What Quad’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. Quad interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the <<define "Automatic Play">>, one that runs without a <span class="glitch" data-text="glitch"><<define "glitch">></span>, in perfect obedience to the will of the author. </p>
 
 <<silently>><<set _next_passage to "EndlessGame 4">><</silently>>
 
 
-:: Automatic Play {"position":"3020,2339","size":"100,100"}
-Proceeding from the <<define "schematic" "Informatic Schematic">> whereby the author's will is transcoded, through multiple lossy stages, into the gestures of actors upon a stage (and then to an audience's phenomenological experience of 'the play'), the dream of the 'automatic play' is one whereby each transcoding is totally lossless. 
-
-That is:
-
-* the author's will is captured perfectly by a definitive script that leaves no room for interpretative divergence;
-* the director exectutes the script as doggedly as a computer running a Python script;
-* the actors follow the instructions of the script and the director perfectly; and
-* the audience is perfectly attentive and perfectly receptive.
-
-This automatic play is, however, an illusion whose premises reinscribe a Platonic notion of a play that exists as pure form and is always already corrupted by its embodiment on a stage. That said, it is an illusion with an intellectual and dramatic pedigree. 
-
-Consider Heinrich von Kleist's "<<excerpt "On the Marionette Theater" "Kleist, Heinrich von. On the Marionette Theater.">>", where his interlocutor posits the superiority of the marionette to the flesh-and-blood performer. If
-<blockquote>the last trace of human volition could be removed from the marionettes and their dance transferred entirely to the realm of mechanical forces... he could perform a dance with it that neither he nor any other skilled dancer of his time ... could equal.</blockquote>
-
-In 1902, in <i><a target="_blank" href="https://www.gutenberg.org/files/49611/49611-h/49611-h.htm#Page_93">Samhain</a></i>, W. B. Yeats imagined actors restrained in barrels: "[I] had once asked a dramatic company to let me rehearse them in barrels that they might forget gesture and have their minds free to think of speech for a while. The barrels, I thought, might be on castors, so that I could shove them about with a pole when the action required it."
-
-Beckett took this idea further; see, for example, the urn-entombed characters of <i>Play</i>, or <i>Endgame</i>'s Hamm, pushed across the stage on castors. 
-
-(Add more scholarship here. This might need to be broken up into a multi-part footnote.)
-
-
 :: EndlessGame 4 [eg nobr]
-<p>Of course, one of the tensions constitutive of <i>Quad</i> is the way this symbolic operation is never "perfect," as <<define "traces" "Trace">> of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as Piotr Woycicki puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>.</p>
-<p>This translation of vectors into human gesture is not perfect, conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">>. Any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the script and its realization.</p>
+<p>Of course, one of the tensions that constitutes <i>Quad</i> is the way this symbolic operation is never "perfect," as traces of the actor and their agency always remain even in the most faithful iteration of the teleplay. What develops is a tension between, as Piotr Woycicki puts it, "a formal, aesthetic ideal and its failure of realisation in live performance... the pure formalism is unachievable in performance since the live bodies resist the imposition of such rigid formal structures" <<cite "144" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>.</p>
+<p>This translation of vectors into human gesture is not perfect because it is conditioned by the constitutive imperfection of the human body. Beckett’s script even allows for "time lost at angles and centre" <<cite "453" "Beckett, Samuel. Quad.">>. Any body, even the ballet dancers that the script calls for, is going to necessarily misstep. Hence the necessity of the human body for the successful production of <i>Quad</i>; <i>Quad</i> itself dramatizes the tension between the mathematical script and its meatspace realization. Like in [[Her Story->Case Study: HER STORY]], the noise and loss <i>are</i> the signal.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 5">><</silently>>
 
@@ -1576,19 +1593,20 @@ Beckett took this idea further; see, for example, the urn-entombed characters of
 <<silently>><<set _next_passage to "EndlessGame 6">><</silently>>
 
 :: EndlessGame 6 [eg nobr]
-<p>Now, most people who now watch <i>Quad</i> do so on their computers – either through a local file, as bits that are themselves translated electrical variances saved locally, or streamed from data saved on a server in a bunker somewhere. Still, traces of the human remain a vital part of the teleplay – shuffling bodies invite empathy, identification, disgust, fear, the dancers sometimes shuffle more or less quickly, one can begin to identify secondary gender characteristics under the robes (or, at least, try to). [[A transcoded body is still a body.]]</p>
+<p>Now, most people who now watch <i>Quad</i> do so on their computers – either through a local file, as bits that are themselves translated electrical variances saved locally, or streamed from data saved on a server in a bunker somewhere. Still, traces of the human remain a vital part of the teleplay – shuffling bodies invite empathy, identification, disgust, fear, the dancers sometimes shuffle more or less quickly, one can begin to identify secondary gender characteristics under the robes (or, at least, try to).A transcoded body is still a body, still  stylized according to comprehensible codes as a way of performing themselves into being. The flexibility of those performances has a different set of contingencies associated with them which are specific to the medium of their production--and the medium of their reception, on a smaller screen.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 7">><</silently>>
 
 
 :: EndlessGame 7 [eg nobr]
-<p>Computer science offers a provocative way of reading these translations. In <i>The Language of New Media</i>, Lev Manovich calls the translation of media into code, and code into media, <<define "transcoding" "Transcoding">>. What I’d like to focus on here is how transcoding is often a <<define "lossy" "Loss">> process. The translation of <<define "data" "Data">> for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ – any transcoding of an object from one medium to another is lossless if it is reversible – if one can transcode back to the original medium without any loss of fidelity – but is lossy if it is not reversible – if data is irreparably lost in the compression of translation. <i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
+<p>Computer science offers a provocative way of reading these translations. In <i>The Language of New Media</i>, Lev Manovich calls the translation of media into code, and code into media, <<define "transcoding" "Transcoding">>. What I’d like to focus on here is how transcoding is often a <<define "lossy" "Loss">> process. The translation of <<define "data" "Data">> for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ --any transcoding of an object from one medium to another is lossless if it is reversible--if one can transcode back to the original medium without any loss of fidelity--but is lossy if it is not reversible--if data is irreparably lost in the compression of translation.</p>
+<p><i>Quad</i> stages lossy translation – from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 8">><</silently>>
 
 
 :: EndlessGame 8 [eg nobr]
-<p>On the other hand, we cannot think about a loss of fidelity – an imperfect translation of authorial will into text-as-stimulus for the reader – as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets [[cognized->Critique of Judgment]] by the viewer and assembled into information – into the text – the historically specific and contingent textual object which bears the marks of entropy – <<define "audiovisual fuzziness, a loss of color" "noise">>, and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss.</p>
+<p>On the other hand, we cannot think about a loss of fidelity--an imperfect translation of authorial will into text-as-stimulus for the reader--as a purely subtractive move without buying into an idealistic idea of a ‘pure’ original text that Beckett’s work both attracts and repels. When the data gets cognized by the viewer and assembled into information the historically specific and contingent textual object which bears the marks of entropy – <<define "audiovisual fuzziness, a loss of color" "noise">>, and so on – that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation of his work, the fuzziness of the degraded tape might be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of this loss.</p>
 
 <video width="640" height="480" controls><source src="assets/imgs/quad_2.mp4">Quad 2 video.</video>
 
@@ -2008,10 +2026,7 @@ This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which 
 
 <<silently>><<set _next_passage to "AttT 1">><</silently>>
 
-:: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
-<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
 
-<<silently>><<set _next_passage to "AttT 3">><</silently>>
 
 
 :: Not I {"position":"4319,1268","size":"100,100"}
@@ -2033,6 +2048,10 @@ Your browser does not support the video tag.
 
 <<silently>><<set _next_passage to "AttT 2">><</silently>>
 
+:: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
+<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
+
+<<silently>><<set _next_passage to "AttT 3">><</silently>>
 
 :: biological body as a machine {"position":"4194,1468","size":"100,100"}
 "that she might do well to ... groan ... on and off ... writhe she could not ... as if in actual agony ... but could not ... could not bring herself ... some flaw in her make-up ... incapable of deceit ... or the <u>machine</u> ... more likely the <u>machine</u> ... so disconnected ... never got the message ... or powerless to respond ..." <<cite "378" "Beckett, Samuel. The Complete Dramatic Works">>
@@ -2045,44 +2064,6 @@ Another passage about Not I
 
 <<silently>><<set _next_passage to "AttT 4">><</silently>>
 
-:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
-The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
-
-<<silently>><<set _next_passage to "PBR 1">><</silently>>
-
-:: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
-Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
-
-<<silently>><<set _next_passage to "PBR 2">><</silently>>
-
-
-:: PBR 2 {"position":"3044,1468","size":"100,100"}
-Brad Haseman’s "performative research," which he says is "intrinsically experiential and comes to the fore when the researcher creates new artistic forms for performance and exhibition, or designs user-led online games (...)" Haseman’s usage of "performative" is borrowed from J. L. Austin’s [[speech act theory->Speech Act Theory]]. He emphasizes the primacy of the created object over as performative acts of research in and of itself; the artifacts "work performatively. They not only express the research, but in that expression become the research itself." Thus blah blah blah.
-
-<<silently>><<set _next_passage to "PBR 3">><</silently>>
-
-:: PBR 3 {"position":"3044,1593","size":"100,100"}
-In critical making, conversely, the focus is on the "act of shared construction, joint conversation, and reflection" that happens during the process of creation. Unlike performative research, in critical making "the final prototypes are not intended to be displayed and to speak for themselves." Instead, the primary focus is on "using material production--making things--as part of an explicit practice of concept elaboration within the social study of technology." Although critical making is generally associated with the creation of material rather than virtual objects, the emphasis placed on the "shared acts of making rather than the evocative object" has guided my work in this section. (CITATIONS NEEDED).
-
-<<silently>><<set _next_passage to "PBR 4">><</silently>>
-
-
-:: PBR 4 {"position":"3044,1743","size":"100,100"}
-Importantly, though, my practice-based research is a series of adaptations rather than creations. This chapter, then, will be structured as a set of three experiments. I will begin each section with an explanation of the adapted text, with attention paid to what makes the text amenable to mechanical reproduction in the first place, and then move into an account of the process by which my adaptation was created as a way of drawing out features of the original texts. One of the guiding principles behind these adaptations is failure: although my goal is to do something that communicates some of what Beckett’s works do, something is inevitably lost in the translation from teleplay - or play - into what I’m going to loosely call a video game. 
-
-<<silently>><<set _next_passage to "PBR 5">><</silently>>
-
-
-:: PBR 5 {"position":"3044,1893","size":"100,100"}
-Although Beckett’s resistance to intermedial adaptation is sometimes, I think, overstated, the position of ‘player’ in a game - the position that these adaptations force the user into -  is radically different from that of ‘audience member’ or ‘viewer’ or even ‘actor,’ and as such neither of these adaptations are faithful ones. Examining the ways in which they fail, however, is a useful way to think about what makes the original plays succeed. I offer failure here, then, as a reading strategy rather than as a judge of worthiness. Of course, making something that only fails would be a questionable - and dispiriting - use of time. As such, the secondary goal here is to look at what does work. Much is inevitably lost in translation, but some is, I hope, gained. So I’ll also be thinking about how that position of ‘player’ is a potentially powerful one, and how these adaptations offer a different angle into these texts.
-
-<<silently>><<set _next_passage to "PBR 6">><</silently>>
-
-
-:: PBR 6 {"position":"3044,2043","size":"100,100"}
-Something about Brecht. Closing to this section.
-
-[[Return->Section 3: PRACTICE]]
 
 
 :: AttT 4 {"position":"4444,1868","size":"100,100"}
@@ -2110,11 +2091,6 @@ This transcoding has more iterations than the others. The primary prototype used
 :: Nanowatt {"position":"3444,1268","size":"100,100"}
 Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is "a single-loading VIC-20 demo" by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
 
-
-:: A transcoded body is still a body. {"position":"3719,2368","size":"100,100"}
-The estrangement of the flesh-and-blood body effected by the move to digital life does not ultimately efface the body; instead, it creates, as McLuhan might say, extensions of the self. Bodies electric. 
-
-We still stylize these bodies according to comprehensible codes as a way of performing ourselves into being. The flexibility of those performances has a different set of contingencies associated with them, though many of these contingencies ultimately overlap.
 
 :: C 1
 A conclusion will go here.
