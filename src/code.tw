@@ -323,15 +323,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 				<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>><<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
 
 
-<<widget "excerpt">>
-	<<set _label to $args[0]>>
-	<<if $args.length == 2>>
-		<<set _destination to $args[1]>>
-		<span class= "excerpt-link">[[_label->_destination]]</span>
-	<<else>>
-		<span class= "excerpt-link">[[_label]]</span>
-	<</if>>
-<</widget>>
+<<widget "excerpt">><<set _label to $args[0]>><<if $args.length == 2>><<set _destination to $args[1]>><span class= "excerpt-link">[[_label->_destination]]</span><<else>><span class= "excerpt-link">[[_label]]</span><</if>><</widget>>
 
 <<widget "bookmark">>
 	<<set _passage_link to "[[" + passage() + "]]">>
