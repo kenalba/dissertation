@@ -487,7 +487,7 @@ However, as Gitelman's title suggests, this definition fails to account for the 
 </blockquote>
 
 :: Unity [definition] {"position":"3594,3568","size":"100,100"}
-<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms -- Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create [[EndlessGame->Case Study: ENDLESSGAME]] and [[Almost to the Tick->Case Study: ALMOST TO THE TICK]].
+<a target="_blank" href="https://unity.com/">Unity</a> is a popular modern game engine that stands out for its flexibility. A single project created in Unity can generally be exported to many different platforms--Mac, Windows, Android, Web, VR, and others. Creators use a combination of the programming language C# and Unity's GUI to create their game. I have used Unity to create <i>[[EndlessGame->Case Study: ENDLESSGAME]]</i> and <i><a href="https://especiallygreatliterature.com/almosttothetick.html">Almost to the Tick</a></i>.
 
 
 :: virtual reality [definition nobr gpt]
@@ -781,6 +781,12 @@ TODO
 
 <p>In all of these cases, the losslessness of the director's will is accomplsihed by curtailing the freedom of the actor; transmission becomes pure signal when the actor is constrained and can only do what the director (or the script) allows them to do.</p>
 
-:: script [definition nobr todo]
+:: script [definition nobr]
 
-Need to define this as both a code script and a play script.
+<p>Both literature and computer science use the word "script" to describe, in the broadest possible sense, a set of instructions to be enacted.</p>
+<p>In literature, a script is usually the written text of a stage or screenplay. The instructions in a normal literary script fall into three major categories: dialogue, directions, and descriptions. Dialogue makes up the bulk of most scripts and describes what the actors should say; stage directions instruct the actors on how to move their bodies; and descriptions usually come at the beginning of a play or an act and describe the set and setting, characters, and so on. A play script, then, contains the necessary instructions for a director and a group of actors to put on a play.</p>
+<p>In computer science, conversely, a script is ordinarily a short piece of code that tells a computer what to do. Programming scripts tend to be short collections of simple commands that are executed from the top of the file down, automate actions which would otherwise be done by a human, and are interpreted rather than compiled--which is to say, they are executed by an interpreter, a program which can directly run commands without compiling the code down into a lower-level language. Much of the modern web runs on scripting languages, and two of the most popular languages currently in use--Python and JavaScript--are both considered scripting languages, though they can be used for more complicated tasks, as well.</p> 
+
+:: Bit [definition nobr gpt]
+
+<p>A bit is the fundamental unit of <<define "information" "Information">> in computing and digital communications, representing a binary choice between two states: typically 0 and 1, or true and false. This binary system forms the basis for all digital processing, where combinations of bits are used to encode data of any complexity, from text to images to sound. The term “bit” is short for “binary digit,” and it is the building block for higher-level data structures such as bytes, through which larger amounts of information can be represented. The bit is essential in modern technology, as it underpins everything from <<define "algorithm" "Algorithm">> design to the functioning of <<define "database" "Database">> systems.</p>
