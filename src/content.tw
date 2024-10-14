@@ -1848,7 +1848,9 @@ Nothing Yet.
 
 
 :: Thirty-Six Blackbirds 1 [36bb nobr]
+
 <p><i>Thirty-Six Blackbirds</i> is a generative experiment I undertook early in 2021 that looked at how well GPT-3, with the help of an alert editor, can write a simple poem in the style of canonical authors of literary poetry. The timing here is important; in 2021, OpenAI hadn't yet opened access to their <<define "large language models" "large language model">>. I was working with a closed-access beta version of one of OpenAI's prototype models of GPT-3 via a tool called "Unblocked" which was intended to help creative writers break out of writer's block by providing helpful cues via AI.</p>
+
 <p>Over the course of the intervening years, "GPT-3" (and its progeny, and its competitors) has gone from closed beta to ubiquity, and "AI" has gone from science fiction to a primary driver of VC investment, "disrupting" everything from health insurance to academia itself. The moral stakes have changed, too; in 2024, the threats of mass unemployment, environmental catastrophe, and intellectual property theft have been linked with LLMs and made them a <i>bête noire</i> rather than a cool curiosity.</p>
 
 :: Thirty-Six Blackbirds 2 [36bb nobr]
@@ -1858,21 +1860,38 @@ Nothing Yet.
 <p>My goal here, then, is to present this artifact as a way of highlighting the potential that these tools have, the problems that these tools present, and—finally—offering some guidelines to using these tools ethically.</p>
 
 :: Thirty-Six Blackbirds 3 [36bb nobr]
-<p>The full text of <i>Thirty-Six Blackbirds</> can be downloaded and viewed <a target="_blank" href="assets/pdfs/36bb.pdf">here</a>. Before digging into the poetry themselves, though, I would like to dwell on some of the paratexts surrounding it.</p>
+<p>The full text of <i>Thirty-Six Blackbirds</> can be downloaded and viewed <a target="_blank" href="assets/pdfs/36bb.pdf">here</a>. Before digging into the text itself, though, I would like to dwell on some of the paratexts surrounding it.</p>
+
 <p>First of all, there is the cover image and back cover, which I commissioned from the artist <a target="_blank" href="https://www.instagram.com/inthedirt.studio/">Ollie Rollins</a>. Ollie used a combination of digital painting and collage to create a dynamic image featuring 30 flying blackbirds and 6 cheeping chicks in a nest of cut-up slips of paper covered in fragments of poetry by the artists whose personae were used to prompt the LLM -- whose "poems" appear within the text itself.</p>
+
 <p>This cover image is apt for several reasons, but primarily because it gestures towards the first salvo in the rhetorical battle <i>against</i> LLMs: the now-seminal <a target="_blank" href="https://dl.acm.org/doi/10.1145/3442188.3445922>"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜"</a>, by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell. Bender et al's argument is complex, and the paper as a whole in fact lays out what remain the most significant arguments against LLMs.</p>
-<p>These risks can be broadly placed into two categories: extrinsic and intrinsic. Their intrinsic risks are significant; Bender et al highlight the environmental cost of training and running these models, the risk of reinforcing systemic bias and discrimination, and the danger of "hype cycles" <<cite "610" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>, among other things, and I will dig deeper into these concerns deeper in this case study.</p>
-<p>The intrinsic risks, however, are more interesting, and more engaged with the critical work I aim to undertake in this dissertation as a whole. Language models, the authors argue, "are not performing natural language understanding (NLU), and only have succes in tasks that can be approached by manipulating linguistic form" <<cite "610" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>. Where languages are systems of signs, "i.e. pairings of form and meaning", the training data that gives rise to LLMs are "only form; they do not have access to meaning" <<cite "615" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>. Hence the "parrots" of the article's title; a large language model:</p>
-<blockquote>is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data, according to probabilistic information about how they combine, but without any reference to meaning: a stochastic parrot <<cite "617" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>.</blockquote>
-<p>In other words, large language models are simply a more sophisticated version of the autocomplete keyboard on our smartphones; they're good at predicting the next word and at manipulating language, but there's no <<define "qualia">> or understanding: just form, no meaning.</p>
+
 
 :: Thirty-Six Blackbirds 3b [36bb nobr]
+
+<p>These risks can be broadly placed into two categories: extrinsic and intrinsic. Their extrinsic risks are significant; Bender et al highlight the environmental cost of training and running these models, the risk of reinforcing systemic bias and discrimination, and the danger of "hype cycles" <<cite "610" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>. These extrinsic risks are complex and deserve their own chapter, and their own case study; here, though, I will primarily focus on the intrinsic ones.</p>
+
+<p>The intrinsic risks, however, are more interesting (to me), and more engaged with the critical work I aim to undertake in this dissertation as a whole. Language models, the authors argue, "are not performing natural language understanding (NLU), and only have succes in tasks that can be approached by manipulating linguistic form" <<cite "610" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>. Where languages are systems of signs, "i.e. pairings of form and meaning", the training data that gives rise to LLMs are "only form; they do not have access to meaning" <<cite "615" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>. Hence the "parrots" of the article's title; a language model:</p>
+
+<blockquote>is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data, according to probabilistic information about how they combine, but without any reference to meaning: a stochastic parrot <<cite "617" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>.</blockquote>
+
+<p>In other words, large language models are simply a more sophisticated version of the autocomplete keyboard on our smartphones; they're good at predicting the next word and at manipulating language, but there's no <<define "qualia">> or understanding: just form, no meaning.</p>
+
+:: Thirty-Six Blackbirds 3c [36bb nobr]
+
 <p>But one of the major projects of this dissertation has been to trouble the form/meaning binary as another articulation of the signal/noise distinction. Bender et al leverage a common formulation of communication when they note that:</p>
+
 <blockquote>human language use takes place between individuals who share common ground and are mutually aware of that sharing (and its extent), who have communicative intents which they use language to convey, and who model each other's mental states as they communicate <<cite "617" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>.</blockquote>
-<p>This formulation may be common, but it is hardly universal. Indeed, such strange bedfellows as philosophical pragmatists and dyed-in-the-wool deconstructivists might disagree fervently with the idea of the necessity of an imagined author to make meaning out of texts. The pragmatist might argue, following Wittgenstein, that the meaning of a word (or a phrase, or a gesture) is its use in a particular language game; the deconstructivist could gesture towards the <<define "death of the author">> as a move which untethers the meaning of a text from the historical person who inscribed it.</p>
+
+<p>This formulation flies, though, in the face of both critical theory and analytic philosophy. As Matthew Kirschenbaum put it in his introduction to a critical forum on "Language, Meaning, and Intent in the Time of Stochastic Parrots" spurred by this passage precisely, the Parrot argument is "red meat for a graduate critical-theory seminar"<<cite "*" "Kirschenbaum, Matthew. 'Again Theory'.">>.</p>
+
+<p>In that seminar, the analytic aficionado might pragmatically argue, following Wittgenstein, that the meaning of a word (or a phrase, or a gesture) is its use in a particular language game. The deconstructionist, who is probably smoking and wearing all black, could instead gesture towards the <<define "death of the author">> as an historical move which untethers the meaning of a text from the historical person who inscribed it--as indeed Ted Underwood's response to Kirschenbaum's provocation does, quoting Barthes approvingly to make language models a palimpsest, "a multi-dimensional space in which a variety of writings, none of them original, blend and clash" <<cite "*" "Underwood, Ted. 'The Empirical Triumph of Theory'.">>.</p>
 
 :: Thirty-Six Blackbirds 4 [36bb nobr]
 
+<p>
+
+<p>This description of a palimpsest flies us back into the wings of <i>36 Blackbird</i> cover, with its overlapping scraps of poetry.</p>
 <p>todo: I'll write some stuff about this intro.</p>
 
 
@@ -1921,71 +1940,109 @@ with people at that level.</p>
 <p>I also made surprises. I also made surprises.</p>
 </blockquote>
 
-<p>Do some close readings here.</p>
+<p>Do some close readings here. Uncanniness.</p>
 
 :: Thirty-Six Blackbirds 5 [36bb nobr]
 
-<p>Here's where we link to the actual book.</p>
+<p>Here, talk about the mode of engagement we're doing here, quoting Kirschenbaum in PMLA's relevant avenue.</p>
+
+:: Thirty-Six Blackbirds 5 [36bb nobr]
+
+<p>Technonecromancy!</p>
 
 :: Thirty-Six Blackbirds 6 [36bb nobr]
 
+<p>Do a close reading of one of the poems that succeeds. Probably Robert Frost.</p>
+<blockquote>
+THERE was a rustic of sorts<br>
+Who purchased a pair of blackbirds:<br>
+One to kill the other.<br>
+One blackbird was killed,<br>
+And he bought another and it was killed.<br>
+He then bought two more:<br>
+And then two more,<br>
+And then another and another.<br>
+He kept it up till seven<br>
+Were killed by the one remaining.<br>
+He went to the druggist<br>
+And was drug to the door,<br>
+And as he was carried home<br>
+He murmured, before he could speak plain,<br>
+"Give me some more birds."<br>
+</blockquote>
+
+<p>To me, this intuitively 'reads' like a Robert Frost poem--but this, one could object, may be the ELIZA effect at work, a projection on my part. The name "Robert Frost" at the top of the page primes me to read Frost into what seems Frosty to me; I approach the poem deductively, paranoid, and read Frost into presence of the rustic, the terse language, and so on.</p>
+
+<p>An inductive approach might come from the other side. What makes a Frost poem a Frost poem--besides, of course, him having written it? For this, we can look at what Frost and other poets wrote <i>about</i> Frost as a way to compile a set of criteria that define Frostiness.</p>
+
+<p>W.H. Auden, for example, describes Frost's style as "Good Drab" and states that the music of his poetry is "that of the speaking voice, quiet and sensible... he rarely employs metaphors, and there is not a word, not a historical or literary reference in the whole of his work which would be strange to an unbookish boy of fifteen... one is aware of strong, even violent emotion behind what is actually said, but the saying is reticent, the poetry has, as it were, an auditory chastity" <<cite "*" "Auden, W.H. 'Robert Frost'.">>.</p>
+
+<p>This poem seems drab, to me. There are no metaphors, and the most complicated word is "druggist," deployed here for the repetition with "drug to the door" on the following line--nothing an unbookish boy couldn't manage. To the degree that the poem is emotional, it is a violent emotion, and the prose is terse to the point of reticence. If Auden saw this poem in a collection by Frost, it may not have stuck out to him.</p>
+
+<p>Or, then, it may have, for its lack of meter or rhyme--a common problem in <i>36 Blackbirds</i> particular to the version of GPT-3 that Unblocked was running off of when it was created. Or the twist at the end, which I do believe gives an effective chill, might seem cheap or tawdry, even set off as it is by the folksy "before he could speak plain."</p>
+
+<p>But, then, there are elements of it that someone familiar with the sort of poetry that language models write might recognize. The almost algorithmic repetition, of "another and another," might recall Beckett's <i>Watt</i>, but it is also characteristic of language models; see, for example, the model's [[Walt Whitman->Thirty-Six Blackbirds, 'by' 'Walt Whitman']] or [[Gertrude Stein->Thirty-Six Blackbirds, 'by' 'Gertude Stein']].</p>
 
 :: Thirty-Six Blackbirds 7 [36bb nobr]
 
-<p>Technonecromancy! Do a close reading of one of the poems that succeeds. Probably Robert Frost. </p>
+<p>The model's attempt at Sylvia Plath, however, lacks that algorithmic repetition, and instead...
 
 :: Thirty-Six Blackbirds 8 [36bb nobr]
-
-<p>Go deeper. How does GPT work? How does it function? Why does it work well sometimes? Maybe do 2 other close readings.</p>
-
-:: Thirty-Six Blackbirds 8 [36bb nobr]
-
-<p>What is it bad at? Hallucinations. Confabulation. Problems. Stealing!</p>
-
-:: Thirty-Six Blackbirds 9 [36bb nobr]
 
 <p>Talk about a failure. Pick a poem that's not very good. How it fails. How about Beckett here?</p>
 
-:: Thirty-Six Blackbirds 10 [36bb nobr]
+
+:: Thirty-Six Blackbirds 8 [36bb nobr]
+
+<p>Go deeper. How does GPT work? How does it function? Why does it work well sometimes?</p>
 
 <p>Theoretical discussion of mimicry and how it does and does not apply here.</p>
 
-:: Thirty-Six Blackbirds 11 [36bb nobr]
+:: Thirty-Six Blackbirds 9 [36bb nobr]
 
-<p>Talk about the evolution of the models, from vanilla GPT-3 to 4o. How it's working. Why it's less creative, less all-over-the-place. Slop. Problems here. GPT-3 vs ChatGPT - the specific model being used is important. </p>
+<p>What is it bad at? Hallucinations. Confabulation. Problems. Stealing!</p>
+
+:: Thirty-Six Blackbirds 10 [36bb nobr]
+<p>RLHF and invisible labor.</p>
+
+:: Thirty-Six Blackbirds 11 [36bb nobr]
+<p>Specific concerns about OpenAI. Ownership, structure, etc. Alt-right comes in here.</p>
 
 :: Thirty-Six Blackbirds 12 [36bb nobr]
 
-<p>RLHF and invisible labor.</p>
+<p>Talk about the evolution of the models, from vanilla GPT-3 to 4o. How it's working. Why it's less creative, less all-over-the-place. Slop. Problems here. GPT-3 vs ChatGPT - the specific model being used is important. Quote the Before the Law thing.</p>
 
-:: Thirty-Six Blackbirds 13 [36bb nobr]
-
-<p>Specific concerns about OpenAI. Ownership, structure, etc. Alt-right comes in here.</p>
 
 :: Thirty-Six Blackbirds 13 [36bb nobr]
 
 <p>Broader concerns about how GPT is being leveraged to replace creative labor. The other side of the ownership debate — ownership over one's image, one's persona. Ownership over the voices of the living. Achewood and Ma Rainey both come in here.</p>
 
-:: Thirty-Six Blackbirds 14 [36bb nobr]
+:: Thirty-Six Blackbirds 13 [36bb nobr]
 
 <p>Ownership over the voices of the dead. Should anybody own them? Legal. Fair use. Note Beckett transformative work. Krapp's Last Tape comes in here.</p>
 
-:: Thirty-Six Blackbirds 15 [36bb nobr]
+
+:: Thirty-Six Blackbirds 14 [36bb nobr]
 
 <p>So what do we do? Do we not use the tool at all? Is that even an option?</p>
 
-:: Thirty-Six Blackbirds 16 [36bb nobr]
+:: Thirty-Six Blackbirds 15 [36bb nobr]
 
 <p>If we do want to use it, what are some principles?</p>
 <p>Name + cite your model, include your prompt, don't prompt with the names of the living unless you have permission, what else?</p>
 
+
+:: Thirty-Six Blackbirds 16 [36bb nobr]
+
+<p>Generate our own poem, and include the principles here. Note how much water and energy is probably used for it.</p> 
+
 :: Thirty-Six Blackbirds 17 [36bb nobr]
 
-<p>Generate our own poem, and include the principles here.</p>
+<p>Conclusions.</p>
+
 
 :: Thirty-Six Blackbirds 18 [36bb nobr]
 
-<p>Conclusions.</p>
 
 :: Generate Your Own Blackbird
 
