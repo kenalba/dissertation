@@ -2085,7 +2085,7 @@ A squaw and a crow and a red-tailed hawk.<br>
 <p>The last stanza, in particular, is a gesture of solidarity that evokes Ginsberg's 1996 interview with Gloria Brame, where Ginsberg stated:</p>
 
 <blockquote>
-I think we, as a nation, need to apologize. One of the things we would have to apologize for, which would be included in such a poem, would be the overthrow in Iran, which led to the Shah and then the Ayatollah. That's CIA business. Or the destabilization of Prince Sihanouk of Cambodia, which led to the killing fields. There's the destabilization of Chile, in the early Seventies. We have to apologize for not signing the Geneva Treaty ending the French Indochina War. We have to apologize for maintaining the death squads military in Salvador. We have to apologize for violating international law in mining the harbors of Nicaragua, which was judged by the World Court to be in violation of law. We have to apologize for loosing hyper-industrialization on the world, which is destroying the environment. We have to apologize for the murder of the Native Americans. We have to apologize for maintaining slavery for several hundred years, then denying African-Americans the vote until my lifetime, a hundred years after the Civil War, and for still maintaining a racist outlook and laws. There is a lot we have to apologize for. <<cite "*" "Brame, Gloria, and Allen Ginsberg. 'Allen Ginsberg Interview'.">>
+I think we, as a nation, need to apologize. One of the things we would have to apologize for, which would be included in such a poem, would be the overthrow in Iran, which led to the Shah and then the Ayatollah. [...] We have to apologize for the murder of the Native Americans. We have to apologize for maintaining slavery for several hundred years, then denying African-Americans the vote until my lifetime, a hundred years after the Civil War, and for still maintaining a racist outlook and laws. There is a lot we have to apologize for. <<cite "*" "Brame, Gloria, and Allen Ginsberg. 'Allen Ginsberg Interview'.">>
 </blockquote>
 
 <p>The triple repetition of "we" in the last stanza of the poem, coupled with "their cousins," makes it clear that the poet identifies themselves as complicit in the shooting of the blackbirds--as Ginsberg does in the interview above. And the different birds, the "squaw and a crow and a red-tailed hawk," evoke both the enumerative style that Ginsberg gets from fellow New Jersey poet Walt Whitman and the sins Ginsberg lists in the interview above. Even the use of the slur "squaw" would not be out of place in a poem like <i>Howl</i>, which uses the word "negro" in its second line and "Mohammedan" in its fifth--though it does suggest one of the other extrinsic issues of language models: their tendency to reproduce negative stereotypes from their source material.</p>
@@ -2096,21 +2096,60 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 <p>I could perform similar readings of other poems in the volume, and how the model (or how I, as a reader) tend to magnify biographical elements of the poets in their writing. The last stanza of the [["Sylvia Plath"->Thirty-Six Blackbirds, 'by' 'Sylvia Plath']] poem, for example, reads easily as a suicidal statement. Similarly, the poems by authors of color tend to insist on their racial identity. [["Amy Tan"->Thirty-Six Blackbirds, 'by' 'Amy Tan']]'s poem references "joss," a term from Chinese Pidgin English, and closes with the overt lines "I am American, / I am Chinese, / And I was raised in a white woman's shoe"--though this poem is exceptional in several other ways, given that the author is still alive and not known as a poet.</p>
 
-<p>And there are other exceptions or edge cases, as well. When I prompted for a poem by [["Ron Paul"->Thirty-Six Blackbirds, 'by' 'Ron Paul']], the model extruded a bizarre, hypnotic rant with run-on lines like "What I want is the whole damned country on the brink. What I want is the country like a toy I can play with on my own. What I want is a nuclear family. What I want is a new house that killed my wife"--rhetoric that captures something about the American political scene, though what exactly I cannot say.</p>
+<p>And there are other edge cases, as well. When I prompted for a poem by [["Ron Paul"->Thirty-Six Blackbirds, 'by' 'Ron Paul']], the model extruded a bizarre, hypnotic rant with run-on lines like "What I want is the whole damned country on the brink. What I want is the country like a toy I can play with on my own. What I want is a nuclear family. What I want is a new house that killed my wife"--rhetoric that captures something about the American political scene, though what exactly I cannot say.</p>
 
-<p>In sum, though, I call the experiment a qualified success. An alert editor with this particular large language model could, with minimal prompting, make a collection of poetry that isn't entirely without value. Certainly the model wrote poetry that recognizably aped the diction and subject matter of the poets in question, if not the actual style. The model was clever enough to surprise and to write, occasionally, lines that shocked or otherwise provoked an emotional and aesthetic response. It was incoherent in places, a plagiarist in others, and CLOSING.<p>
+<p>In sum, though, I call the experiment a qualified success. An alert editor with this particular large language model could, with minimal prompting, make a collection of poetry that isn't entirely without value. Certainly the model wrote poetry that recognizably aped the diction and subject matter of the poets in question, if not the actual style. The model was clever enough to surprise and to write, occasionally, lines that shocked or otherwise provoked an emotional and aesthetic response. It was incoherent in places, a plagiarist in others, and it can't count, but it can write poetry.<p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 13">><</silently>>
 
-:: Thirty-Six Blackbirds 14 
+:: Thirty-Six Blackbirds 14 [36bb nobr]
 
-<p>Talk about the evolution of the models, from vanilla GPT-3 to 4o. How it's working. Why it's less creative, less all-over-the-place. Slop. Problems here. GPT-3 vs ChatGPT - the specific model being used is important. Quote the Before the Law thing.</p>
+<p>Or it could, at least. The last 3 years have seen both an explosion and an evolution of language models, and OpenAI's dominance over the industry is no longer assured. GPT-3 has given way to ChatGPT, powered by 4 and 4o, and now competes with Meta's open-source LLaMa family of models, domain-specific models like Bloomberg's BloombergGPT. There's even Anthropic, who sell themselves as a friendlier, safer alternative to OpenAI and whose Claude family of models range from the lightweight, fast "Haiku," the midrange "Sonnet," and the high-end "Opus."</p>
 
-<p>RLHF and invisible labor.</p>
+<p>While each of these models are distinct, and have architectural differences that make them operate in particular ways, there are certain trends in model architecture that bear further discussion. First and foremost, straightforward "completion" models like GPT-3 which will "complete" a prompt without other context, have largely been supplanted by "chat" models, which often leverage a familiar chat-based interface and operate conversationally. These models are easier to use but less flexible; if I give ChatGPT 4o, the latest model as of this writing, the prompt "THIRTY-SIX BLACKBIRDS / a poem by Robert Frost," it responds:</p>
 
-<p>Theoretical discussion of mimicry and how it does and does not apply here.</p>
+<blockquote>
+<p>It looks like you're referring to a poem titled *THIRTY-SIX BLACKBIRDS*, which you may have associated with Robert Frost. However, Robert Frost did not write a poem by that name. He is well-known for poems like *The Road Not Taken* and *Stopping by Woods on a Snowy Evening*, which explore themes of nature, rural life, and human introspection.</p>
 
-<p>What is it bad at? Hallucinations. Confabulation. Problems. Stealing!</p>
+<p>The title you mentioned might be a mix-up with Wallace Stevens' poem "Thirteen Ways of Looking at a Blackbird," which is a famous Modernist poem that uses blackbirds as a central motif to explore perception and the nature of reality.</p>
+
+<p>If you have a particular passage in mind, feel free to share it, and I can help you further!</p>
+</blockquote>
+
+<p>This shift is a significant change from the perspective of interface, and it encourages the user to anthropomorphize the model. While a prompt engineer can still ask newer models for poems--prompting with "Write me a poem in the style of Robert Frost titled 'Thirty-Six Blackbirds" works--the outputs (in my experience) are less surprising and less interesting, even as they more closely mirror the formal markers of poetry. 4o, for example, is capable of writing in reliable rhyme and reliable meter, and its poem in response to the aforementioned prompt is closed with a cheery note:</p>
+
+<blockquote>
+<p>I aimed to capture Frost’s focus on rural simplicity, a quiet observation of nature, and a moment that seems to unlock deeper contemplation. Let me know if you'd like any adjustments!</p>
+</blockquote>
+
+<p>But the poetry itself is more or less doggerel, with a singsongy character that I find repellant rather than uncanny. The stranger, wilder voice of earlier completion models is domesticated in its latter incarnation as a chatbot; while there's more signal and less noise, something has been lost.</p>
+
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 15">><</silently>>
+
+:: Thirty-Six Blackbirds 15 [36bb nobr]
+
+<p>The can be partly attributed to the widespread adoption of a technique called "reinforcement learning from human feedback", or RLHF, which AWS (Amazon Web Services, the most profitable arm of Amazon and the backbone of the modern internet) glosses as:</p>
+
+<blockquote>
+<p>a machine learning (ML) technique that uses human feedback to optimize ML models to self-learn more efficiently. Reinforcement learning (RL) techniques train software to make decisions that maximize rewards, making their outcomes more accurate. RLHF incorporates human feedback in the rewards function, so the ML model can perform tasks more aligned with human goals, wants, and needs <<cite "*" "AWS: 'What Is RLHF?'">>.</p>
+</blockquote>
+
+<p>RLHF has been a necessary precondition for ChatGPT's larger adoption and commercial success. Because models are trained on text, and because most of the text available is from the internet, and much of the internet is a hateful cesspool, early models replicated bigoted, biased, and toxic attitudes prevalent on the worst corners of the internet. As Will Douglas Heaven puts it in a 2023 article for the MIT Technology Review, "models trained on that data encode those biases and then reinforce them wherever they are used" <<cite "*" "Heaven, Will Douglas. 'These Six Questions Will Dictate the Future of Generative AI'.">>.</p>
+
+<p>RLHF tries to solve these problems by putting a human in the loop. Moderators review snippets of text and label them if they contain toxic content, and that labeled data is fed into the models. Future models will avoid the sins of their forefathers because their training datasets will be scrubbed of violence, hate speech, and sexual abuse.</p>
+
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 16">><</silently>>
+
+:: Thirty-Six Blackbirds 16 [36bb nobr]
+
+<p>But actual humans have to perform that tagging--which means actual humans have to spend days reading through the most toxic content on the internet. This is traumatic work; one 2023 study demonstrated that:</p>
+
+<blockquote>
+<p>[Content Moderators] manifested with a range of symptoms consistent with experiencing repeated trauma [that] fit into a framework of post traumatic and secondary traumatic stress and suggest CMs wellbeing and exposure to stressful stimuli may be comparable to professionals working in the emergency services or caring professions <<cite "1" "Spence, R. Et Al. 'The Psychological Impacts of Content Moderation'.">>.</p>
+</blockquote>
+
+<p>Even more troubling, this work is overwhelmingly outsourced, performed by workers in the Global South who take home as little as a dollar an hour and given little, if any, psychological counseling. 
+
 
 <p>Specific concerns about OpenAI. Ownership, structure, etc. Alt-right comes in here.</p>
 
@@ -2130,6 +2169,7 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 :: Thirty-Six Blackbirds 14 [36bb nobr]
 
+<p>La dee da.</p>
 
 :: Generate Your Own Blackbird
 
@@ -2224,17 +2264,16 @@ if (button) {
 }
 </script>
 
-<p>For the purposes of transparency, this applet is using OpenAI's "gpt-4o" model with the prompt:
+<p>For the purposes of transparency, this applet is using OpenAI's "gpt-4o" model with the prompt:</p>
 <blockquote>
 You are a creative writing expert and poet who has read reams of poetry and is familiar with the style of every well-known author.<br>
 Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.<br>
 </blockquote>
 
-:: Case Study: LOVE AND INFORMATION {"position":"5044,1068","size":"100,100"}
-A case study about my <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of [[Caryl Churchill]]'s <i>Love and Information</i> into Twine. This may be omittable in the defended dissertation, but there is room for expansion here.
+:: Case Study: LOVE AND INFORMATION [nobr]
+<p>I did create an <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of Caryl Churchill's <i>Love and Information</i> into Twine, the same software used for this dissertation. While I don't have time or space for a full case study, I link here to the artifact itself, to be perused or ignored as desired.</p>
 
-
-:: Case Study: ALMOST TO THE TICK {"position":"4444,1068","size":"100,100"}
+:: Case Study: ALMOST TO THE TICK [nobr]
 This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
 
 <<silently>><<set _next_passage to "AttT 1">><</silently>>
