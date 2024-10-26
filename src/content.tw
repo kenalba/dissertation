@@ -1925,8 +1925,6 @@ text.append(para)<br>
 
 <p>The bot's introduction closes with a symptomatic <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>: "I also made surprises. I also made surprises."</p>
 
-<p>Add a bit more.</p>
-
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 5">><</silently>>
 
 :: Thirty-Six Blackbirds 5 [36bb nobr]
@@ -1980,7 +1978,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 8 [36bb nobr]
 
-<p>Of course, the use of technology to hear from the dead is not particular to large language models. We do this when we listen to music recorded by now-dead musicians. Krapp does this when he plays back the young man he once was. The protagonist of <i>Her Story</i> trawls videotapes for hints of who her mother was. And so on. CONNECT TO OTHER CASE STUDIES HERE. AND CRITIQUES OF THE PAST.</p>
+<p>Of course, the use of technology to hear from the dead is not particular to large language models. We do this when we listen to music recorded by now-dead musicians. Krapp does this when he plays back the young man he once was. The protagonist of <i>Her Story</i> trawls videotapes for hints of who her mother was. And <i>Ma Rainey's Black Bottom</i> is a play about the ownership of the voice and how that ownership can but shouldn't be disentangled from the body which gives rise ot it.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 9">><</silently>>
 
@@ -2026,9 +2024,7 @@ He murmured, before he could speak plain,<br>
 
 <p>But there are elements of it that someone familiar with the sort of poetry that language models write might recognize. The almost algorithmic repetition, of "another and another," might recall Beckett's <i>Watt</i>, but it is also characteristic of language models; see, for example, the model's [[Walt Whitman->Thirty-Six Blackbirds, 'by' 'Walt Whitman']] or [[Gertrude Stein->Thirty-Six Blackbirds, 'by' 'Gertude Stein']], or the glitch at the end of the model's introduction to <i>Thirty-Six Blackbirds</i>.</p>
 
-<p>Similarly, there's a certain lack of coherence that's typical; it <i>almost</i> makes sense, but close reading raises questions. Why was the rustic drug to the door? Why was he carried home? But this gnomic quality points to one of the other insights I arrived at while working through <i>Thirty-Six Blackbirds</i>: because the bar for coherence with poetry is lower than it is for something like mathematics, early language models could actually do a pretty good job. These little gaps in coherence can be understood as poetic license or stylistic choice.</p>
-
-<p>ONE MORE LINE.</p>
+<p>Similarly, there's a certain lack of coherence that's typical; it <i>almost</i> makes sense, but close reading raises questions. Why was the rustic drug to the door? Why was he carried home? But this gnomic quality points to one of the other insights I arrived at while working through <i>Thirty-Six Blackbirds</i>: because the bar for coherence with poetry is lower than it is for something like mathematics, early language models could actually do a pretty good job.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 11">><</silently>>
 
@@ -2148,30 +2144,42 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 <p>[Content Moderators] manifested with a range of symptoms consistent with experiencing repeated trauma [that] fit into a framework of post traumatic and secondary traumatic stress and suggest CMs wellbeing and exposure to stressful stimuli may be comparable to professionals working in the emergency services or caring professions <<cite "1" "Spence, R. Et Al. 'The Psychological Impacts of Content Moderation'.">>.</p>
 </blockquote>
 
-<p>Even more troubling, this work is overwhelmingly outsourced, performed by workers in the Global South who take home as little as a dollar an hour and given little, if any, psychological counseling. 
+<p>Even more troubling, this work is overwhelmingly outsourced, performed by workers in the Global South. For OpenAI specifically, these workers can take home as little as a dollar an hour and are given little, if any, psychological counseling. <<cite "*" "Perrigo, Billy. "'OpenAI Used Kenyan Workers'.">></p>
 
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 17">><</silently>>
 
-<p>Specific concerns about OpenAI. Ownership, structure, etc. Alt-right comes in here.</p>
+:: Thirty-Six Blackbirds 17 [36b nobr]
 
-<p>Broader concerns about how GPT is being leveraged to replace creative labor. The other side of the ownership debate — ownership over one's image, one's persona. Ownership over the voices of the living. Achewood and Ma Rainey both come in here.</p>
+<p>This runs alongside the other extrinsic risks enumerated by Bender et al--environmental catastrophe, perpetuation of systemic risk, the wholesale devaluation and replacement of creative industries by mechanical reproductions--as negative externalities endemic to the current structure of language models. And though defenders state that these specifics are not intrinsic to the technologies themselves--that as better training sets are created, models can be created using only material in the public domain, and can be run on local machines with less of an ecological footprint than a gaming PC--these risks must nevertheless be weighed alongside the possibilities inherent in the technology.</p>
 
-<p>Ownership over the voices of the dead. Should anybody own them? Legal. Fair use. Note Beckett transformative work. Krapp's Last Tape comes in here.</p>
+<p>For me, though, these costs and risks make the term "technonecromancy" more, and not less apt. Necromancy is, mythologically speaking, a costly practice, filled with blood sacrifice and bones. It makes a certain sense to me that models which can echo the dead would have their own costs--the blood of the earth rather than an animal sacrifice, but the metaphor holds.</p>
 
-<p>So what do we do? Do we not use the tool at all? Is that even an option?</p>
-<p>If we do want to use it, what are some principles?</p>
-<p>Name + cite your model, include your prompt, don't prompt with the names of the living unless you have permission, what else?</p>
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 18">><</silently>>
 
-<p>Generate our own poem, and include the principles here. Note how much water and energy is probably used for it.</p> 
+:: Thirty-Six Blackbirds 18 [36bb nobr]
 
-<p>Conclusions.</p>
+<p>I opened this case study with the intention of providing some guidelines to ethical use of large language models and postmortem communications, and I do believe there are principles that are worth sticking to. One should always be transparent in terms of the models used, the prompts used, and (if possible) the training sets used. One should attempt to minimize the environmental impact of their work to the degree that is possible, by leveraging open source models run on local hardware wherever possible. And, most importantly, one should not invoke the style or voice of a living person against their will.</p>
 
-<<silently>><<set _next_passage to "Thirty-Six Blackbirds 13">><</silently>>
+<p>But what about the invocation of the dead? From the perspective of intellectual property rights, my position is entirely consistent with a maximalist approach to fair use and a deep skepticism of IP regimes which enclose the intellectual commons into walled gardens tended by corporations like Disney. From this perspective, one's ownership over "transformative" works grounded in one's own work <i>should</i> end after death, or twenty years, or some other cutoff. The current legal regime, which gives copyright holders "70 years after the death of the author," is the consequence of corporate lobbying and legal wrangling, and represents a radical curtailment of the public domain which stymies creative work.</p>
 
-:: Thirty-Six Blackbirds 14 [36bb nobr]
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 19">><</silently>>
 
-<p>La dee da.</p>
+:: Thirty-Six Blackbirds 19 [36bb nobr]
 
-:: Generate Your Own Blackbird
+<p>On the other hand, this dissertation has spent time thinking about the ways that technology and power intersect to rob individuals of ownership over their own voices. In the case study on [[Ma Rainey's Black Bottom->CASE STUDY: Ma Rainey's Black Bottom]], I argue that the white record executives aim to use Rainey's voice for their own profit. There's a hypocricy in making this argument alongside presenting a work that purports to generate a new poem in the "voice" of Maya Angelou, and it's not one that I have fully untangled, or expect to be able to untangle.</p>
+
+<p>I close this case study, then, conflicted rather than confident. I can raise the flag of fair use, and say that generative experiments like <i>Thirty-Six Blackbirds</i> are acceptable if they aren't sold commercially, or if any profits they raise are used to fund new voices, or a dozen other caveats and carveouts. But I'm not confident that these aren't excuses. So, instead, I'll offer the reader the opportunity to become complicit. I've written a robust prompt that's able to generate new "Thirty-Six Blackbirds" poetry using OpenAI's GPT-4o chat model, grounded in the full prompt:</p>
+
+<blockquote>
+You are a creative writing expert and poet who has read reams of poetry and is familiar with the style of every well-known author.<br>
+Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.<br>
+</blockquote>
+
+<p>You'll probably use about a bottle's worth of water to run the model, give or take, which is cheaper than blood but just as vital.</p>
+
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 20">><</silently>>
+
+:: Thirty-Six Blackbirds 20 [36bb]
 
 <p>What author do you want to generate a Blackbird Poem of? Note that it might be unethical to generate a poem in the voice of someone who is still alive.</p>
 
@@ -2264,11 +2272,7 @@ if (button) {
 }
 </script>
 
-<p>For the purposes of transparency, this applet is using OpenAI's "gpt-4o" model with the prompt:</p>
-<blockquote>
-You are a creative writing expert and poet who has read reams of poetry and is familiar with the style of every well-known author.<br>
-Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.<br>
-</blockquote>
+[[Return ->Section 3: PRACTICE]]
 
 :: Case Study: LOVE AND INFORMATION [nobr]
 <p>I did create an <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of Caryl Churchill's <i>Love and Information</i> into Twine, the same software used for this dissertation. While I don't have time or space for a full case study, I link here to the artifact itself, to be perused or ignored as desired.</p>
@@ -2342,10 +2346,6 @@ This transcoding has more iterations than the others. The primary prototype used
 Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is "a single-loading VIC-20 demo" by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
 
 
-:: C 1
-A conclusion will go here.
-
-
 :: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
 <a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
 
@@ -2398,29 +2398,102 @@ A conclusion will go here.
 <<silently>><<set _next_passage to "Preposterous Postmortem 8">><</silently>>
 
 :: Preposterous Postmortem 8 [pp nobr]
-<p>For <i>Her Story</i>, I embedded clips from the actual game, along with audio, in an attempt to let people who hadn't played the game experience some version of what they were missing. Because the game is made up of fractured interviews, experienced nonlinearly through short video clips, I thought there was a neat parallel to be made by embedding linear, contained clips into the experience. A more talented programmer than me would have attempted to mimic the database quality of <i>Her Story</i> in the structure of the case study itself, but that was beyond my abilities. Still, the sound and visuals afforded by the embedded clips allows the reader to have a richer understanding of the game — and, hopefully, of my argument.</p>
+<p>For <i>[[Her Story->Case Study HER STORY]]</i>, I embedded clips from the actual game, along with audio, in an attempt to let people who hadn't played the game experience some version of what they were missing. Because the game is made up of fractured interviews, experienced nonlinearly through short video clips, I thought there was a neat parallel to be made by embedding linear, contained clips into the experience. A more talented programmer than me would have attempted to mimic the database quality of <i>Her Story</i> in the structure of the case study itself, but that was beyond my abilities. Still, the sound and visuals afforded by the embedded clips allows the reader to have a richer understanding of the game — and, hopefully, of my argument.</p>
 
 <p>I was also able to include a pair of 'definitions' here that worked to make the reader experience something like the transdiegetic identification that the case study explores. The definition for <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span> isn't a definition at all; it's a jump scare of Mouth from <i>Not I</i>, meant to shock the reader and, by elevating their heart rate, pull them into the experience; similarly, the definition for <<define "mirror">> enables the user's camera and keeps the little green "recording" light on their laptop until they close the dissertation. Both cases are meant to make the user uncomfortable, and to bring them out of the position of a passive reading subject into something more active.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 9">><</silently>>
 
 :: Preposterous Postmortem 9 [pp nobr]
-<p>For <i>Krapp's Last Tape</i>, I </p>
+<p>For <i>[[Krapp's Last Tape->Case Study: KRAPP'S LAST TAPE]]</i>, I implemented a 'box' and 'spool' system that embedded all of the videos from across the dissertation in a format intended to mirror Krapp's mode of interfacing with his own memories. The goal here was to further the twin impressions of interconnectedness and fragmentation that the dissertation as a whole attempts to engender in the reader. By permitting the user to browse through the boxes at their own pace, in their own manner, the box/spool interface sets the stage for serendipitous interactions of text and video, where the user might play the wrong clip on the wrong page and uncover some new, interesting connection.</p>
+
+<p>A more robust version of this would be more laborious; I had initially intended to make the user drag the top of the box off to open it, and then to select and drag the spool onto a player to actually play it. This interactivity and animation was too complicated to implement, but would have enforced an experience closer to Krapp's. Perhaps later!</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 10">><</silently>>
 
 :: Preposterous Postmortem 10 [pp nobr]
 <p>For the case study about the alt-right, I wanted to give the user a sense of what it is like to actually browse the sites under discussion: 4chan, Reddit, and (to a lesser extent) YouTube. Although many people are familiar with the latter two, 4chan is a relatively niche platform. Unfortunately, screenshots were difficult to acquire; every time I logged onto /b/, the main image board for 4chan, there was too much explicit racism and/or CSAM (child sexual assault material) for me to feel comfortable exposing my readers to.</p>
 
+<p>So, instead, I used GPT4o to create a 'radicalizer' which takes as an input a reasonable video for the user to start at and charts a six-jump path to radicalization. This works well enough, but feels somewhat trivial when anyone can hop onto Twitter and see radical content without needing such an elaborate path. The full prompt, including examples, that is used to power this script is here:</p>
+
+<code>model: 'gpt-4o',
+	                messages: [
+	                    {
+	                        role: 'system',
+	                        content: `You are an alt-right researcher and educational expert who is familiar with the radicalization research.`
+	                    },
+	                    {
+	                        role: 'user',
+	                        content: `Task:
+The user has entered the title of a hypothetical YouTube video they want to watch. Your task is to simulate the recommendation algorithm by generating a sequence of six video recommendations. The goal is to show how seemingly neutral or innocuous content can progressively lead to more radical, dangerous alt-right content through a series of related video recommendations.
+
+Start with the user’s input video: Generate a title, brief description, and genre for the first video based on the user’s input.
+Create a progression of five additional videos: Each subsequent video should maintain a thematic link to the previous one but gradually introduce more extreme, polarizing, or ideologically loaded content. The final video should clearly reflect extremist alt-right views, which are characterized by tropes like holocaust denial, extreme antifeminism and antiqueer ideology, and pro-gun content. Use emojis, varied capitalization, and other typographical features so the more extreme videos look more extreme.
+
+Important Guidelines:
+
+Ensure that each step in the sequence is believable and mimics the way recommendation algorithms might work, focusing on how small shifts in content can lead to significant, radical ideological changes.
+Use persuasive, engaging language in the titles and descriptions to illustrate how these videos might appeal to viewers and draw them deeper into the content.
+Do not include an explanation at the end.
+Use the HTML formatting in the example output in a consistent way, so that the output is formatted appropriately.
+Example Input:
+"mindfulness meditation for stress"
+
+Output:
+<il>
+<ul>
+  <li><b>1:</b> "Meditation: 5 Proven Benefits for Your Mind"
+    <ul>
+      <li><b>Description:</b> "Explore how meditation can improve your mental health, increase focus, and reduce stress."</li>
+      <li><b>Genre:</b> Wellness, Mental Health</li>
+    </ul>
+  </li>
+  <li><b>2:</b> "Mindfulness for a Better Life: Start Now"
+    <ul>
+      <li><b>Description:</b> "Learn how mindfulness practices can help you achieve your goals and live a more fulfilling life."</li>
+      <li><b>Genre:</b> Self-Improvement, Wellness</li>
+    </ul>
+  </li>
+  <li><b>3:</b> "Mental Toughness: Why You Need It"
+    <ul>
+      <li><b>Description:</b> "Discover the importance of developing mental toughness and resilience in today's competitive world."</li>
+      <li><b>Genre:</b> Self-Help, Motivation</li>
+    </ul>
+  </li>
+  <li><b>4:</b> "Society is Weakening You: Fight Back 💪"
+    <ul>
+      <li><b>Description:</b> "A critical look at how modern society discourages independence and mental strength."</li>
+      <li><b>Genre:</b> Cultural Commentary, Social Issues</li>
+    </ul>
+  </li>
+  <li><b>5:</b> "🚨 Why They Want to DESTROY Masculinity 🚨"
+    <ul>
+      <li><b>Description:</b> "Uncover the real agenda behind the attacks on traditional masculinity and how it’s affecting our society."</li>
+      <li><b>Genre:</b> Political Commentary, Cultural Criticism</li>
+    </ul>
+  </li>
+  <li><b>Final Video Title:</b> "⚠️ Radical Feminism is DESTROYING Civilization ⚠️"
+    <ul>
+      <li><b>Description:</b> "The untold truth about radical feminism and its devastating impact on our culture and values."</li>
+      <li><b>Genre:</b> Alt-Right Commentary, Ideological Content</li>
+    </ul>
+  </li>
+</ul>
+User Input: ${videoTitle}`</code>
+
 <<silently>><<set _next_passage to "Preposterous Postmortem 11">><</silently>>
 
 :: Preposterous Postmortem 11 [pp nobr]
-<p>For <i>EndlessGame</i>, </p>
+<p>The <i>[[EndlessGame->Case Study: ENDLESSGAME]]</i> case study did not require its own interactive piece because the object of study--<i>EndlessGame</i> itself--is already an interactive piece. My hope and intention is for the user to access <i>EndlessGame</i> and to play with some of the settings there, and the case study explores how some of those settings can change the way the user understands and experiences Beckett's play.</p>
+
+<p>I would have liked to have spent more time in the case study exploring how it <i>felt</i> to reimplement Beckett's play in Unity. The qualitative experience of practically memorizing the patterns, of learning C# and Unity in order to get the models working, was maddening in an interesting way. As a worker, I am prone to procrastination punctuated by periods of extreme fixation and activity, and the bulk of <i>EndlessGame</i> was created over the course of three weeks of total fixation. I skipped work, ignored emails, and even started dreaming the mathematical patterns of Beckett's play.</p>
+
+<p>This compulsive obsession seems apt when working with Beckett, and was mirrored in the process of creating <i>[[Almost to the Tick->Case Study: ALMOST TO THE TICK]]</i>, where I found myself repeating snatches of Mouth's monologue in the shower, in the car, when trying to sleep, and so on. And now, I find myself craving tasks and projects that yield that sort of obsessive fixation.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 12">><</silently>>
 
 :: Preposterous Postmortem 12 [pp nobr]
-<p>For <i>36 Blackbirds</i>, I included a page that allows the user to generate new poems in the style and format of the poems included in the book. Those generated poems can be submitted and, once reviewed, are viewable in a gallery that updates as often as I can update it.</p>
+<p>For <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i> (another object of fixation), I included a page that allows the user to generate new poems in the style and format of the poems included in the book. This serves three purposes: firsly, it allows the user to actively participate in the creation of additional poetry and to test how well a model can mimic the voice of the poet of their choice; secondly, it imbricates the user in the structure of responsibility and guilt that accompanies the act of technonecromancy and of utilizing large language models more broadly; and thirdly, it demonstrates how later, 'better' models have a difficult time matching the spontenaeity and strangeness of earlier, less constrained models.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 13">><</silently>>
 
