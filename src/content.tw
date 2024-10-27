@@ -77,18 +77,19 @@ Thanks, and enjoy!
 🐦‍⬛ [[Case Study: 36 BLACKBIRDS]] 🐦‍⬛<br>
 🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
 <hr class="solid">
-
-
+[[Conclusions->Section 3 Conclusion 1]]
+<hr class="solid">
+❤️ [[Appendix A: LOVE AND INFORMATION->Case Study: LOVE AND INFORMATION]] ℹ️
+👄 [[Appendix B: ALMOST TO THE TICK->Case Study: ALMOST TO THE TICK]] 👄
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
-One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4). In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45). Hiro’s attention is focused on the two girls, whose avatars get detailed descriptions.
+<p>One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4).</p>
+<p>In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45).</p>
 
 <<silently>><<set _next_passage to "Introduction 2">><</silently>>
 
 :: Introduction 2 [intro nobr] {"position":"1026,1202","size":"100,100"}
-Twenty-six years after the publication of <i>Snow Crash</i>, 10.7 million players logged onto the video game Fortnite on February 2, 2019 to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, "What is up Pleasant Park! Thank you for coming out today and making history today!" and urged his audience to participate: "Let me see everybody moving!" (Marshmello 2019). ‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to "do their favorite emote" in time with a bass drop, and "Let [him] see that Marsh Walk"– a [[$5-8->V-Bucks]] emote based on his signature dance move.
-
-VIDEO GOES HERE
+What Stephenson imagined in fiction has become our reality. In February 2019, 10.7 million players logged onto the video game Fortnite to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, "What is up Pleasant Park! Thank you for coming out today and making history today!" and urged his audience to participate: "Let me see everybody moving!" (Marshmello 2019). ‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to "do their favorite emote" in time with a bass drop, and "Let [him] see that Marsh Walk"– a [[$5-8->V-Bucks]] emote based on his signature dance move.
 
 <<silently>><<set _next_passage to "Introduction 3">><</silently>>
 
@@ -1839,7 +1840,7 @@ text.append(para)<br>
 
 [[Return->EndlessGame 2]]
 
-:: Case Study: 36 BLACKBIRDS
+:: Case Study: THIRTY-SIX BLACKBIRDS
 <h1>AI and Technonecromancy in <i>Thirty-Six Blackbirds</i></h1>
 
 <figure>
@@ -1851,7 +1852,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 1 [36bb nobr]
 
-<p><i>Thirty-Six Blackbirds</i> is a generative experiment I undertook early in 2021 that looked at how well GPT-3, with the help of an alert editor, can write a simple poem in the style of a canonical dead author. The timing here is important; in 2021, OpenAI hadn't yet opened access to their <<define "large language models" "large language model">>. I was working with a closed-access beta version of one of OpenAI's prototype models of GPT-3 via a tool called "Unblocked" which was intended to help creative writers break out of writer's block by providing helpful cues via AI.</p>
+<p><i>Thirty-Six Blackbirds</i> is a generative experiment I undertook early in 2021 that looked at how well GPT-3, with the help of an alert editor, can write a simple poem in the style of a canonical dead author. The timing here is important; in 2021, OpenAI hadn't yet opened access to their <<define "large language models" "LLM">>. For an <<define "interface">>, I was working with a closed-access beta version of one of OpenAI's prototype models of GPT-3 via a tool called "Unblocked" which was intended to help creative writers break out of writer's block by providing helpful cues via AI.</p>
 
 <p>Over the course of the intervening years, "GPT-3" (and its progeny, and its competitors) has gone from closed beta to ubiquity, and "AI" has gone from science fiction to a primary driver of VC investment, "disrupting" everything from health insurance to academia itself. The moral stakes have changed, too; in 2024, the threats of mass unemployment, environmental catastrophe, and intellectual property theft have been linked with LLMs and made them a <i>bête noire</i> rather than a cool curiosity.</p>
 
@@ -1950,7 +1951,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 6 [36bb nobr]
 
-<p>But one of the major projects of this dissertation has been to trouble the form/meaning binary as another articulation of the signal/noise distinction. Bender et al leverage a common formulation of communication when they note that:</p>
+<p>But one of the major projects of this dissertation has been to trouble the form/meaning binary as another articulation of the <<define "signal">>/<<define "noise">> distinction. Bender et al leverage a common formulation of communication when they note that:</p>
 
 <blockquote>human language use takes place between individuals who share common ground and are mutually aware of that sharing (and its extent), who have communicative intents which they use language to convey, and who model each other's mental states as they communicate <<cite "617" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>.</blockquote>
 
@@ -1962,7 +1963,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 7 [36bb nobr]
 
-<p>I wish here to stake out a third, maximalist claim which is on its face ridiculous. Drawing on the philosophical tradition of existentialism, I believe there is an argument to be made that utilizing language models to create new words in the voice of a dead author is more séance than seminar: it is as real a form of <<define "necromancy">>, of speaking with the dead, as we have ever had.</p>
+<p>I wish here to stake out a third, maximalist claim which is on its face ridiculous. Drawing on the philosophical tradition of existentialism and the broader framework of informativity as developed throughout this dissertation, I believe there is an argument to be made that utilizing language models to create new words in the voice of a dead author is more séance than seminar. It is as real a form of <<define "necromancy">>, of speaking with the dead, as we have ever had.</p>
 
 <p>I coin here the neologism "technonecromancy" (and reproduce the glossary definition here) as a portmanteau of <<define "technology">> and <<define "necromancy">> to refer to the practice of using <<define "large language models" "LLM">> like ChatGPT to channel and emulate the voices of the dead--the major project of <i>Thirty-Six Blackbirds.</i></p>
 
@@ -1978,7 +1979,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 8 [36bb nobr]
 
-<p>Of course, the use of technology to hear from the dead is not particular to large language models. We do this when we listen to music recorded by now-dead musicians. Krapp does this when he plays back the young man he once was. The protagonist of <i>Her Story</i> trawls videotapes for hints of who her mother was. And <i>Ma Rainey's Black Bottom</i> is a play about the ownership of the voice and how that ownership can but shouldn't be disentangled from the body which gives rise ot it.</p>
+<p>Of course, the use of technology to hear from the dead is not particular to large language models. We do this when we listen to music recorded by now-dead musicians. Krapp does this when he plays back the young man he once was. The protagonist of <i>Her Story</i> trawls videotapes for hints of who her mother was. And <i>Ma Rainey's Black Bottom</i> is a play about the ownership of the voice and how that ownership can but shouldn't be disentangled from the body which gives rise to it.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 9">><</silently>>
 
@@ -2102,7 +2103,7 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 <p>Or it could, at least. The last 3 years have seen both an explosion and an evolution of language models, and OpenAI's dominance over the industry is no longer assured. GPT-3 has given way to ChatGPT, powered by 4 and 4o, and now competes with Meta's open-source LLaMa family of models, domain-specific models like Bloomberg's BloombergGPT. There's even Anthropic, who sell themselves as a friendlier, safer alternative to OpenAI and whose Claude family of models range from the lightweight, fast "Haiku," the midrange "Sonnet," and the high-end "Opus."</p>
 
-<p>While each of these models are distinct, and have architectural differences that make them operate in particular ways, there are certain trends in model architecture that bear further discussion. First and foremost, straightforward "completion" models like GPT-3 which will "complete" a prompt without other context, have largely been supplanted by "chat" models, which often leverage a familiar chat-based interface and operate conversationally. These models are easier to use but less flexible; if I give ChatGPT 4o, the latest model as of this writing, the prompt "THIRTY-SIX BLACKBIRDS / a poem by Robert Frost," it responds:</p>
+<p>While each of these models are distinct, and have architectural differences that make them operate in particular ways, there are certain trends in model architecture that bear further discussion. First and foremost, straightforward "completion" models like GPT-3 which will "complete" a prompt without other context, have largely been supplanted by "chat" models, which often leverage a familiar chat-based <<define "UI">> and operate conversationally. These models are easier to use but less flexible; if I give ChatGPT 4o, the latest model as of this writing, the prompt "THIRTY-SIX BLACKBIRDS / a poem by Robert Frost," it responds:</p>
 
 <blockquote>
 <p>It looks like you're referring to a poem titled *THIRTY-SIX BLACKBIRDS*, which you may have associated with Robert Frost. However, Robert Frost did not write a poem by that name. He is well-known for poems like *The Road Not Taken* and *Stopping by Woods on a Snowy Evening*, which explore themes of nature, rural life, and human introspection.</p>
@@ -2112,13 +2113,15 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 <p>If you have a particular passage in mind, feel free to share it, and I can help you further!</p>
 </blockquote>
 
-<p>This shift is a significant change from the perspective of interface, and it encourages the user to anthropomorphize the model. While a prompt engineer can still ask newer models for poems--prompting with "Write me a poem in the style of Robert Frost titled 'Thirty-Six Blackbirds" works--the outputs (in my experience) are less surprising and less interesting, even as they more closely mirror the formal markers of poetry. 4o, for example, is capable of writing in reliable rhyme and reliable meter, and its poem in response to the aforementioned prompt is closed with a cheery note:</p>
+<p>This shift is a significant change from the perspective of interface, and it encourages the user to anthropomorphize the model. While a prompt engineer can still ask newer models for poems--prompting with "Write me a poem in the style of Robert Frost titled 'Thirty-Six Blackbirds'" works--the outputs (in my experience) are less surprising and less interesting, even as they more closely mirror the formal markers of poetry. 4o, for example, is capable of writing in reliable rhyme and reliable meter, and its poem in response to the aforementioned prompt is closed with a cheery note:</p>
 
 <blockquote>
 <p>I aimed to capture Frost’s focus on rural simplicity, a quiet observation of nature, and a moment that seems to unlock deeper contemplation. Let me know if you'd like any adjustments!</p>
 </blockquote>
 
-<p>But the poetry itself is more or less doggerel, with a singsongy character that I find repellant rather than uncanny. The stranger, wilder voice of earlier completion models is domesticated in its latter incarnation as a chatbot; while there's more signal and less noise, something has been lost.</p>
+<p>But the poetry itself is more or less doggerel, with a singsongy character that I find repellant rather than uncanny; this mirrors the findings of Walsh et al, whose paper <a href="https://arxiv.org/abs/2410.15299" target="_blank">"Does ChatGPT Have A Poetic Style?"</a> was summarized in a BlueSky skeet by Walsh as follows:</p>
+<blockquote>ChatGPT definitely has a poetic style (it’s bad), and it can kind of, sort of emulate different styles... except for when it can’t.<<cite "*" "Walsh, Melanie. 'Does ChatGPT Have A Poetic Style?'">></blockquote>
+<p>The stranger, wilder voice of earlier completion models is domesticated in its latter incarnation as a chatbot; while there's more signal and less noise, something has been lost.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 15">><</silently>>
 
@@ -2175,7 +2178,7 @@ You are a creative writing expert and poet who has read reams of poetry and is f
 Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.<br>
 </blockquote>
 
-<p>You'll probably use about a bottle's worth of water to run the model, give or take, which is cheaper than blood but just as vital.</p>
+<p>You'll probably use about a bottle's worth of water to run the model, give or take, which is cheaper than blood but just as important.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 20">><</silently>>
 
@@ -2277,70 +2280,23 @@ if (button) {
 :: Case Study: LOVE AND INFORMATION [nobr]
 <p>I did create an <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of Caryl Churchill's <i>Love and Information</i> into Twine, the same software used for this dissertation. While I don't have time or space for a full case study, I link here to the artifact itself, to be perused or ignored as desired.</p>
 
+[[Return ->Section 3: PRACTICE]]
+
 :: Case Study: ALMOST TO THE TICK [nobr]
-This section will feature my adaptation of Samuel Beckett's <i>Not I</i>, which I've named <i>Almost to the Tick</i>. I will begin by discussing what makes <i>Not I</i> amenable to adaptation, present the game itself, and then discuss how the process of creating the game functions as practice-based research.
+<p>Another piece I created that could, with more time, be the source for a case study is <a target="_blank" href="https://especiallygreatliterature.com/almosttothetick.html">Almost to the Tick</a>, which adapts the Beckett play <i>Not I</i> into something like a typing game.</p>
 
-<<silently>><<set _next_passage to "AttT 1">><</silently>>
-
-
-:: Not I {"position":"4319,1268","size":"100,100"}
-<i>Not I</i>, featuring Billie Whitelaw.
+<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
 
 <video controls autoplay>
 <source src="assets/videos/not_i.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-:: AttT 1 {"position":"4444,1268","size":"100,100"}
-Samuel Beckett's play <i>[[Not I]]</i> was "written in English in spring 1972. First performed at the Forum Theater of the Lincoln Center, New York, in September 1972. First published by Faber and Faber, London, in 1973. First performed in Britain at the Royal Court Theatre, London, on 16 January 1973." <<cite "374" "Beckett, Samuel. The Complete Dramatic Works.">> Live, the play is generally staged in a totally dark theater save for a single spotlight illuminating the Mouth of the actress, who speaks the play's script at a breakneck pace. The script also calls for an Auditor, who is often omitted from actual performances. 
+<p>In Almost to the Tick, my second Beckett transcoding, the player types out the words of Beckett’s script. Each time they compete a phrase, a recording plays, with the Mouth uttering aloud the words typed. The mouth is just off center of the screen, lined up (roughly) with the player’s mouth; below, ghostly white letters float towards the mouth when typed.</p>
 
-BBC Production starring Billie Whitelaw:
-<video controls>
-<source src="assets/videos/not_i.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<p>This project informed my understanding of gestures as modularized, chopped up and replaced, and of speech acts as corporeal gestures, even when mediated through an interface like a keyboard.</p>
 
-<<silently>><<set _next_passage to "AttT 2">><</silently>>
-
-:: AttT 2 [attt] {"position":"4444,1468","size":"100,100"}
-<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
-
-<<silently>><<set _next_passage to "AttT 3">><</silently>>
-
-:: biological body as a machine {"position":"4194,1468","size":"100,100"}
-"that she might do well to ... groan ... on and off ... writhe she could not ... as if in actual agony ... but could not ... could not bring herself ... some flaw in her make-up ... incapable of deceit ... or the <u>machine</u> ... more likely the <u>machine</u> ... so disconnected ... never got the message ... or powerless to respond ..." <<cite "378" "Beckett, Samuel. The Complete Dramatic Works">>
-
-"but this other awful thought ... oh long after ... sudden flash ... even more awful if possible ... that feeling was coming back ... imagine! .. feeling coming back! .. starting at the top ... then working down ... the whole <u>machine</u> ... but no ... spared that ... the mouth alone ... so far ... ha!" <<cite "379" "380" "Beckett, Samuel. The Complete Dramatic Works">>
-
-
-:: AttT 3 {"position":"4444,1668","size":"100,100"}
-Another passage about Not I
-
-<<silently>><<set _next_passage to "AttT 4">><</silently>>
-
-
-
-:: AttT 4 {"position":"4444,1868","size":"100,100"}
-One more passage about Not I.
-
-<<silently>><<set _next_passage to "AttT 5">><</silently>>
-
-
-:: AttT 5 {"position":"4444,2068","size":"100,100"}
-In <i>[[Almost to the Tick]]</i>, my second Beckett transcoding, the player types out the words of Beckett’s script. Each time they compete a phrase, a recording plays, with the Mouth uttering aloud the words typed. The mouth is just off center of the screen, lined up (roughly) with the player’s mouth; below, ghostly white letters float towards the mouth when typed.
-
-You should play through the [[game->Almost to the Tick]] once before proceeding - or, if you don't have a Windows computer, watch the linked [[video->Almost to the Tick]].
-
-<<silently>><<set _next_passage to "AttT 6">><</silently>>
-
-
-:: Almost to the Tick {"position":"4319,2068","size":"100,100"}
-Double-click this passage to edit it.
-
-
-:: AttT 6 {"position":"4444,2268","size":"100,100"}
-This transcoding has more iterations than the others. The primary prototype used Billie Whitelaw’s 1973 recording for the Beckett on Film project, viewable [[here->Not I]]. This is not without its problems, legal and otherwise. For one, the video remains under copyright, like much of the material under examination in this chapter. Although my use falls, I contend, under the doctrine of [[fair use->Fair Use]], that contention is contentious.
-
+[[Return ->Section 3: PRACTICE]]
 
 :: Nanowatt {"position":"3444,1268","size":"100,100"}
 Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is "a single-loading VIC-20 demo" by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
@@ -2376,7 +2332,7 @@ Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/201
 <ol>
 	<li>It had to engage the reader of the document in a way that would be difficult to achieve in a traditional book or codex;</li>
 	<li>The mode of interactivity had to be connected to the object of study and to my argument in the case study;</li>
-	<li>Some third requirement.</li>
+	<li>It had to surprise, delight, inconvenience, or spur thought about the object of study.</li>
 </ol>
 <p>You can rate how well each section's interactivity met each of these three goals on the forthcoming pages, which lays out how each case study is interactive, along with a reflection on its success or failure.</p>
 
@@ -2506,3 +2462,49 @@ User Input: ${videoTitle}`</code>
 <p>Summarize and conclude.</p>
 
 [[Return ->Section 3: PRACTICE]]
+
+:: Section 3 Conclusion 1 [nobr]
+
+<p>The practice-based research presented in this section demonstrates how the act of adaptation itself can illuminate aspects of both the source material and the technological platforms used for adaptation. <i>EndlessGame</i>, <i>36 Blackbirds</i>, and this dissertation itself each explore different facets of how technological mediation shapes meaning and identity in the information age. Together, they suggest that the practice of creating digital adaptations can reveal insights that purely theoretical analysis might miss.</p>
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 2">><</silently>>
+
+:: Section 3 Conclusion 2 [nobr]
+
+<p><i>EndlessGame</i>'s transcoding of human gesture into code highlights how even "perfect" digital reproductions introduce their own forms of noise and loss. When human motion-capture data was introduced to the system, the mathematically precise execution of Beckett's patterns began to break down, requiring additional code to maintain the illusion of perfection. This breakdown reveals how the dream of perfect mechanical reproduction necessarily fails when confronted with the messiness of human embodiment, even when that embodiment is itself mediated through technology.</p>
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 3">><</silently>>
+
+:: Section 3 Conclusion 3 [nobr]
+
+<p><i>36 Blackbirds</i> explores what I've termed "technonecromancy" - the use of large language models to channel the voices of dead authors. This experiment revealed both the potential and the ethical complexities of using AI as a creative tool. While the model could sometimes produce uncanny approximations of authorial voice, the process raised troubling questions about authenticity, ownership, and the commodification of identity. The project suggests that our relationship with AI might be better understood through the unsavory framework of necromancy than through more conventional metaphors of tools or collaborators.</p>
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 4">><</silently>>
+
+:: Section 3 Conclusion 4 [nobr]
+
+<p>This dissertation's form as a Twine document embodies its argument about how interface shapes both writing and reading. The nonlinear structure, with its network of definitions and interconnected passages, demonstrates how digital platforms can both enable and constrain particular forms of expression. The successes and failures of this format--from the rich possibilities for embedding multimedia content to the challenges of maintaining argumentative coherence--mirror broader questions about identity formation in the information age.</p>
+
+<p>These experiments suggest several principles for ethical practice in digital adaptation. First, transparency is crucial--both about the tools and methods used, and about the limitations and potential problems of those tools. Second, attribution and acknowledgment of sources must be maintained, even (or especially) when working with AI or other generative technologies. Third, the environmental and social costs of technological tools must be considered and minimized where possible.</p>
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 5">><</silently>>
+
+:: Section 3 Conclusion 5 [nobr]
+
+<p>The process of creating these adaptations also demonstrates the value of what has been called "thinking through making" in digital humanities scholarship. The practical challenges of implementation--from debugging code to managing memory constraints--become part of the analytical framework rather than mere technical obstacles. The specific affordances and limitations of different platforms shape not just how we can represent ideas, but what ideas we can effectively explore.</p>
+
+<p>Returning to the broader question of informational performativity, these practice-based case studies suggest that contemporary identity emerges through an ongoing process of adaptation and remediation. Just as <i>EndlessGame</i> translates human gesture into code and back again, we increasingly perform ourselves through technological interfaces that transform our gestures into data and back into meaningful expression. Just as <i>36 Blackbirds</i> uses AI to channel voices from the past, we construct our own voices through an assemblage of technological prostheses and platforms.</p>
+
+<p>The <<define "inforg">>, then, might be best understood not as a cyborg fusion of human and machine, but as an ongoing process of translation between different modes of being and knowing. The glitches and losses that occur in this translation are not mere noise to be eliminated, but constitutive elements of contemporary identity. Understanding how to read and work with these glitches--how to find meaning in the noise--becomes increasingly crucial as more of our lives move onto digital platforms.</p>
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 6">><</silently>>
+
+:: Section 3 Conclusion 6 [nobr]
+
+<p>As for this dissertation's form, the experiment has been instructive (if not entirely successful). The Twine format enabled certain kinds of exploration and expression that would have been impossible in a traditional document, particularly in terms of embedding interactive elements and multimedia content. However, it also introduced challenges in terms of maintaining argumentative coherence and ensuring appropriate scholarly rigor. The very features that make it an interesting experiment--its nonlinearity, its emphasis on reader choice, its integration of multiple media--also make it a somewhat unwieldy vehicle for extended academic argument.</p>
+
+<p>Future work might explore how other platforms and interfaces could support different kinds of scholarly expression. What would it mean to write scholarship that takes full advantage of virtual reality, or that integrates AI more thoroughly into its structure? How might academic argument evolve as new platforms emerge? These questions become increasingly urgent as the technologies through which we think and write continue to evolve.</p>
+
+<p>Ultimately, this section's practice-based research suggests that understanding contemporary identity requires not just theoretical analysis but practical engagement with the technologies that increasingly shape our sense of self. By creating and studying digital adaptations, we can better understand both the possibilities and the limitations of technological mediation, and better grasp what it means to be human in an age where the boundaries between information and identity grow increasingly porous.</p>
+
+[[Return->Table of Contents]]

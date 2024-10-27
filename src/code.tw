@@ -1,5 +1,5 @@
 :: StoryTitle
-Dissertation
+Literary Informatics
 
 
 :: StoryData
@@ -758,5 +758,3 @@ back_button.addEventListener("click", function() {
 		<div class="bookmark_link"><<print $bookmarks[_i]>></div>
 	<</for>>
 <</if>>
-
-:: Krapp Video Player [nobr]
