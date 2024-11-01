@@ -1,7 +1,7 @@
 :: Title Page [nobr]
 <h1>Literary Informatics</h1>
 a dissertation in Twine by Ken Alba<br>
-Last updated October 15, 2024<br>
+Last updated November 1, 2024<br>
 <p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
 
 :: Guide [nobr]
@@ -13,13 +13,14 @@ Last updated October 15, 2024<br>
 
 <p>The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.</p>
 
-<p>If you're wondering why this dissertation is in Twine in the first place, you can jump right to the final case study in this document, which is a [[preposterous postmortem->Preposterous Postmortem 1]] of the format of this dissertation.</p>
+<p>If you're wondering why this dissertation is in Twine in the first place, you can jump right to the final case study in this document, which is a [[preposterous postmortem->Case Study: THIS DISSERTATION]] of the format of this dissertation.</p>
 
 Thanks, and enjoy!
 -Ken
 
 :: Table of Contents [nobr]
 
+[[Abstract]]
 [[Introduction->Introduction 1]]<br>
 
 <hr class="solid">
@@ -68,19 +69,29 @@ Thanks, and enjoy!
 
 
 :: Section 3: PRACTICE [nobr]
-<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's<i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: 36 BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
+<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's <i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
 <p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
 
 [[Practice-Based Research Introduction / Overview / Methodology]]<br>
 <hr class="solid">
 ♾️ [[Case Study: ENDLESSGAME]] ♾️<br>
-🐦‍⬛ [[Case Study: 36 BLACKBIRDS]] 🐦‍⬛<br>
+🐦‍⬛ [[Case Study: THIRTY-SIX BLACKBIRDS]] 🐦‍⬛<br>
 🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
 <hr class="solid">
 [[Conclusions->Section 3 Conclusion 1]]
 <hr class="solid">
-❤️ [[Appendix A: LOVE AND INFORMATION->Case Study: LOVE AND INFORMATION]] ℹ️
+❤️ [[Appendix A: LOVE AND INFORMATION->Case Study: LOVE AND INFORMATION]] ℹ️<br>
 👄 [[Appendix B: ALMOST TO THE TICK->Case Study: ALMOST TO THE TICK]] 👄
+
+:: Abstract [nobr]
+
+<p>This dissertation examines how human identity is increasingly constructed through and mediated by technological interfaces in the information age. Through a series of case studies spanning literature, digital media, and online culture, it develops a theory of "informational performativity" to understand how the self is enacted through technologically mediated gestures across multiple platforms and interfaces.</p>
+
+<p>The analysis proceeds through three interconnected sections. The [[first->Section 1: GESTURE]] examines how <<define "gestures" "information and selfhood">> are shaped by their technological <<define "medium">>, analyzing [[Caryl Churchill's "Blue Kettle,"->Case Study: BLUE KETTLE]], the webcomic [["Achewood,"->Case Study: ACHEWOOD]], and [[August Wilson's "Ma Rainey's Black Bottom"->Case Study: MA RAINEY'S BLACK BOTTOM]] to demonstrate how different <<define "interfaces" "interface">> enable and constrain possibilities for self-expression. The [[second section->Section 2: MEMORY]] explores how memory becomes externalized and transformed through technological mediation, using the video game [["Her Story,"->Case Study: HER STORY]], Samuel Beckett's [["Krapp's Last Tape,"->Case Study: KRAPP'S LAST TAPE]], and the real-life online radicalization of the [[alt-right->Meatspace: THE ALT-RIGHT]] to illuminate how digital platforms shape both personal and collective identity. The [[final section->Section 3: PRACTICE]] presents practice-based research through digital adaptations of canonical texts, including a [[Unity-based implementation of Beckett's "Quad"->Case Study: ENDLESSGAME]] and an AI-powered resurrection of dead poets' voices called [[<i>Thirty-Six Blackbirds</i>->Case Study: THIRTY-SIX BLACKBIRDS]]. It closes with a self-reflective look at [[this dissertation itself.->Case Study: THIS DISSERTATION]]</p>
+
+<p>Throughout, the dissertation argues that contemporary identity is best understood through the framework of the "<<define "inforg" "Inforg">>," or informational organism, where consciousness and selfhood <<define "extend" "the extended mind">> across multiple technological platforms. Rather than viewing technological mediation as purely destructive of authentic identity, it demonstrates how moments of <<define "loss" "Loss">>, <<define "noise" "Noise">>, and <span class="glitch"<<define "glitch">></span> in technological systems can create new meanings and modes of being. This argument is embodied in the dissertation's own form as a nonlinear Twine document, which both analyzes and exemplifies how interface shapes meaning.</p>
+
+<p>By integrating theoretical analysis with practice-based research, this project contributes to ongoing conversations about posthuman subjectivity, digital identity, and the relationship between technology and consciousness. It suggests that understanding the specific affordances and constraints of technological interfaces is crucial for comprehending how identity is constructed and performed in the information age.</p>
 
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
 <p>One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4).</p>
@@ -1845,14 +1856,16 @@ text.append(para)<br>
 
 <figure>
 	<img width=100% src="assets/imgs/36bb_glitch_front.png" alt="'36 Blackbirds,' a piece I commissioned by Dataerase">
-	<figcaption>"36 Blackbirds," a piece commissioned by glitch artist <a href="https://www.instagram.com/dataerase/?__d=1" target="_blank">Dataerase</a></figcaption>
+	<figcaption>"Thirty-Six Blackbirds," a piece I commissioned inspired by the project, by glitch artist <a href="https://www.instagram.com/dataerase/?__d=1" target="_blank">Dataerase</a></figcaption>
 </figure>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 1">><</silently>>
 
 :: Thirty-Six Blackbirds 1 [36bb nobr]
 
-<p><i>Thirty-Six Blackbirds</i> is a generative experiment I undertook early in 2021 that looked at how well GPT-3, with the help of an alert editor, can write a simple poem in the style of a canonical dead author. The timing here is important; in 2021, OpenAI hadn't yet opened access to their <<define "large language models" "LLM">>. For an <<define "interface">>, I was working with a closed-access beta version of one of OpenAI's prototype models of GPT-3 via a tool called "Unblocked" which was intended to help creative writers break out of writer's block by providing helpful cues via AI.</p>
+<p><i>Thirty-Six Blackbirds</i> is a generative experiment I undertook early in 2021 that looked at how well GPT-3, with the help of an alert editor, can write a simple poem in the style of a canonical dead author. This was in part an attempt to embody the conceptual work around memory explored in [[Section 2: MEMORY]]: to what degree can we think about the full corpus of a dead author as an externalized memory, and what is the relationship between these corpora and the identities, or personas, of those authors?</p>
+
+<p>The timing here is important; in 2021, OpenAI hadn't yet opened access to their <<define "large language models" "LLM">>. For an <<define "interface">>, I was working with a closed-access beta version of one of OpenAI's prototype models of GPT-3 via a tool called "Unblocked" which was intended to help creative writers break out of writer's block by providing helpful cues via AI.</p>
 
 <p>Over the course of the intervening years, "GPT-3" (and its progeny, and its competitors) has gone from closed beta to ubiquity, and "AI" has gone from science fiction to a primary driver of VC investment, "disrupting" everything from health insurance to academia itself. The moral stakes have changed, too; in 2024, the threats of mass unemployment, environmental catastrophe, and intellectual property theft have been linked with LLMs and made them a <i>bête noire</i> rather than a cool curiosity.</p>
 
@@ -1951,7 +1964,7 @@ text.append(para)<br>
 
 :: Thirty-Six Blackbirds 6 [36bb nobr]
 
-<p>But one of the major projects of this dissertation has been to trouble the form/meaning binary as another articulation of the <<define "signal">>/<<define "noise">> distinction. Bender et al leverage a common formulation of communication when they note that:</p>
+<p>But one of the major projects of this dissertation has been to trouble the form/meaning binary as another articulation of the <<define "signal" "Signal">>/<<define "noise" "Noise">> distinction. Bender et al leverage a common formulation of communication when they note that:</p>
 
 <blockquote>human language use takes place between individuals who share common ground and are mutually aware of that sharing (and its extent), who have communicative intents which they use language to convey, and who model each other's mental states as they communicate <<cite "617" "Bender, Emily et al. 'On the Dangers of Stochastic Parrots'">>.</blockquote>
 
@@ -1967,11 +1980,11 @@ text.append(para)<br>
 
 <p>I coin here the neologism "technonecromancy" (and reproduce the glossary definition here) as a portmanteau of <<define "technology">> and <<define "necromancy">> to refer to the practice of using <<define "large language models" "LLM">> like ChatGPT to channel and emulate the voices of the dead--the major project of <i>Thirty-Six Blackbirds.</i></p>
 
-<p>I draw specifically on "necromancy" here to evoke the unsavory, blasphemous, and maybe even immoral aspects of ventriloquizing the dead in this manner. This comes through especially strongly in the products proffered by Silicon Valley that purport to let those who grieve speak to their loved ones again; consider <a href="https://www.hereafter.ai/">HereAfter</a>, a startup that promises to let "loved ones hear meaningful stories by chatting with the virtual you" after you have died. The soul rebels against the productization of grief and of the desire for life after death manifest in this manner, and whatever chatbots can be wrung out of the combined writings of a grandmother seem, to me, to be fundamentally wrong.</p>
+<p>I draw specifically on "necromancy" here to evoke the unsavory, blasphemous, and maybe even immoral aspects of ventriloquizing the dead in this manner. This comes through especially strongly in the products proffered by Silicon Valley that purport to let those who grieve speak to their loved ones again; consider <a target="_blank" href="https://www.hereafter.ai/">HereAfter</a>, a startup that promises to let "loved ones hear meaningful stories by chatting with the virtual you" after you have died. The soul rebels against the productization of grief and of the desire for life after death manifest in this manner, and whatever chatbots can be wrung out of the combined writings of a grandmother seem, to me, to be fundamentally wrong.</p>
 
 <p>However. Throughout this document, I have been open about my agreement with the existentialist premise that we are, fundamentally, what we do; for Sartre, writing in "Existentialism is a Humanism":</p>
 
-<blockquote>The genius of Proust is the totality of the works of Proust; the genius of Racine is the series of his tragedies, outside of which there is nothing.</blockquote>
+<blockquote>The genius of Proust is the totality of the works of Proust; the genius of Racine is the series of his tragedies, outside of which there is nothing.<<cite "*" "Sartre, Jean-Paul. Existentialism is a Humanism">></blockquote>
 
 <p>If an author, in particular, should be taken to be the totality of what they have written, and that totality can be fed into a system that can alchemize out a voice which can produce new words that cannot easily be distinguished from what the author has actually written--and if we take this existentialist premise seriously--then there is a meaningful way in which technonecromancy <i>does</i> permit one to speak to the dead. Language models give rise to new verbal, informative (in the sense of informativity) gestures, and those gestures, when taken as a system, can haunt.</p>
 
@@ -1988,8 +2001,8 @@ text.append(para)<br>
 <p>But enough paratexts and palimpsests. Let's look at one of the poems--the one prompted with and credited to Robert Frost. I'd like to direct the reader to read the poem aloud, with the goal of seeing how well the poem passes.</p>
 
 <blockquote>
-<h2>Thirty-Six Blackbirds</h1>
-<h3>"By" "Robert Frost"</h4>
+<h2>Thirty-Six Blackbirds</h2>
+<h4>"By" "Robert Frost"</h4>
 THERE was a rustic of sorts<br>
 Who purchased a pair of blackbirds:<br>
 One to kill the other.<br>
@@ -2007,7 +2020,7 @@ He murmured, before he could speak plain,<br>
 "Give me some more birds."<br>
 </blockquote>
 
-<p>To me, this intuitively 'reads' like a Robert Frost poem--but this, one could object, may be the ELIZA effect at work, a projection on my part. The name "Robert Frost" at the top of the page primes me to read Frost into what seems Frosty to me; I approach the poem deductively, paranoid, and read Frost into presence of the rustic, the terse language, and so on.</p>
+<p>To me, this intuitively 'reads' like a Robert Frost poem--but this, one could object, may be the <<define "ELIZA">> effect at work, a projection on my part. The name "Robert Frost" at the top of the page primes me to read Frost into what seems Frosty to me; I approach the poem deductively, paranoid, and read Frost into presence of the rustic, the terse language, and so on.</p>
 
 <p>An inductive approach might come from the other side. What makes a Frost poem a Frost poem--besides, of course, him having written it? For this, we can look at what Frost and other poets wrote <i>about</i> Frost as a way to compile a set of criteria that define Frostiness.</p>
 
@@ -2023,7 +2036,7 @@ He murmured, before he could speak plain,<br>
 
 <p>Or, then, it may have, for its lack of meter or rhyme--a common problem in <i>36 Blackbirds</i> particular to the version of GPT-3 that Unblocked was running off of when it was created. Or the twist at the end, which I do believe gives an effective chill, might seem cheap or tawdry, even set off as it is by the folksy "before he could speak plain."</p>
 
-<p>But there are elements of it that someone familiar with the sort of poetry that language models write might recognize. The almost algorithmic repetition, of "another and another," might recall Beckett's <i>Watt</i>, but it is also characteristic of language models; see, for example, the model's [[Walt Whitman->Thirty-Six Blackbirds, 'by' 'Walt Whitman']] or [[Gertrude Stein->Thirty-Six Blackbirds, 'by' 'Gertude Stein']], or the glitch at the end of the model's introduction to <i>Thirty-Six Blackbirds</i>.</p>
+<p>But there are elements of it that someone familiar with the sort of poetry that language models write might recognize. The almost algorithmic repetition, of "another and another," might recall Beckett's <i>Watt</i>, but it is also characteristic of language models; see, for example, the model's [[Walt Whitman->Thirty-Six Blackbirds, 'by' 'Walt Whitman']] or [[Gertrude Stein->Thirty-Six Blackbirds, 'by' 'Gertrude Stein']], or the glitch at the end of the model's introduction to <i>Thirty-Six Blackbirds</i>.</p>
 
 <p>Similarly, there's a certain lack of coherence that's typical; it <i>almost</i> makes sense, but close reading raises questions. Why was the rustic drug to the door? Why was he carried home? But this gnomic quality points to one of the other insights I arrived at while working through <i>Thirty-Six Blackbirds</i>: because the bar for coherence with poetry is lower than it is for something like mathematics, early language models could actually do a pretty good job.</p>
 
@@ -2095,9 +2108,9 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 <p>And there are other edge cases, as well. When I prompted for a poem by [["Ron Paul"->Thirty-Six Blackbirds, 'by' 'Ron Paul']], the model extruded a bizarre, hypnotic rant with run-on lines like "What I want is the whole damned country on the brink. What I want is the country like a toy I can play with on my own. What I want is a nuclear family. What I want is a new house that killed my wife"--rhetoric that captures something about the American political scene, though what exactly I cannot say.</p>
 
-<p>In sum, though, I call the experiment a qualified success. An alert editor with this particular large language model could, with minimal prompting, make a collection of poetry that isn't entirely without value. Certainly the model wrote poetry that recognizably aped the diction and subject matter of the poets in question, if not the actual style. The model was clever enough to surprise and to write, occasionally, lines that shocked or otherwise provoked an emotional and aesthetic response. It was incoherent in places, a plagiarist in others, and it can't count, but it can write poetry.<p>
+<p>In sum, though, I call the experiment a qualified success. An alert editor with this particular large language model could, with minimal prompting, make a collection of poetry that isn't entirely without value. Certainly the model wrote poetry that recognizably aped the diction and subject matter of the poets in question, if not the actual style. The model was clever enough to surprise and to write, occasionally, lines that shocked or otherwise provoked an emotional and aesthetic response. It was incoherent in places, a plagiarist in others, and it can't count, but it can write poetry.</p>
 
-<<silently>><<set _next_passage to "Thirty-Six Blackbirds 13">><</silently>>
+<<silently>><<set _next_passage to "Thirty-Six Blackbirds 14">><</silently>>
 
 :: Thirty-Six Blackbirds 14 [36bb nobr]
 
@@ -2147,7 +2160,7 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 <p>[Content Moderators] manifested with a range of symptoms consistent with experiencing repeated trauma [that] fit into a framework of post traumatic and secondary traumatic stress and suggest CMs wellbeing and exposure to stressful stimuli may be comparable to professionals working in the emergency services or caring professions <<cite "1" "Spence, R. Et Al. 'The Psychological Impacts of Content Moderation'.">>.</p>
 </blockquote>
 
-<p>Even more troubling, this work is overwhelmingly outsourced, performed by workers in the Global South. For OpenAI specifically, these workers can take home as little as a dollar an hour and are given little, if any, psychological counseling. <<cite "*" "Perrigo, Billy. "'OpenAI Used Kenyan Workers'.">></p>
+<p>Even more troubling, this work is overwhelmingly outsourced, performed by workers in the Global South. For OpenAI specifically, these workers can take home as little as a dollar an hour and are given little, if any, psychological counseling. <<cite "*" "Perrigo, Billy. 'OpenAI Used Kenyan Workers'.">></p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 17">><</silently>>
 
@@ -2169,7 +2182,7 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 :: Thirty-Six Blackbirds 19 [36bb nobr]
 
-<p>On the other hand, this dissertation has spent time thinking about the ways that technology and power intersect to rob individuals of ownership over their own voices. In the case study on [[Ma Rainey's Black Bottom->CASE STUDY: Ma Rainey's Black Bottom]], I argue that the white record executives aim to use Rainey's voice for their own profit. There's a hypocricy in making this argument alongside presenting a work that purports to generate a new poem in the "voice" of Maya Angelou, and it's not one that I have fully untangled, or expect to be able to untangle.</p>
+<p>On the other hand, this dissertation has spent time thinking about the ways that technology and power intersect to rob individuals of ownership over their own voices. In the case study on [[Ma Rainey's Black Bottom->Case Study: MA RAINEY'S BLACK BOTTOM]], I argue that the white record executives aim to capture and exploit Rainey's voice for their own profit. There's a hypocricy in making this argument alongside presenting a work that purports to generate a new poem in the "voice" of [[Maya Angelou->Thirty-Six Blackbirds, 'by' 'Maya Angelou']], and it's not one that I have fully untangled, or expect to be able to untangle.</p>
 
 <p>I close this case study, then, conflicted rather than confident. I can raise the flag of fair use, and say that generative experiments like <i>Thirty-Six Blackbirds</i> are acceptable if they aren't sold commercially, or if any profits they raise are used to fund new voices, or a dozen other caveats and carveouts. But I'm not confident that these aren't excuses. So, instead, I'll offer the reader the opportunity to become complicit. I've written a robust prompt that's able to generate new "Thirty-Six Blackbirds" poetry using OpenAI's GPT-4o chat model, grounded in the full prompt:</p>
 
@@ -2178,7 +2191,7 @@ You are a creative writing expert and poet who has read reams of poetry and is f
 Write a poem in the style of ${authorName} titled "${title}". Make sure you emulate the style -- don't just write a sonnet. For example, if Basho is the author, we should write a haiku. Additionally, try to stop at a reasonable place that makes the poem feel complete. Do not include any chatter - jump right into the poem. Do not include the title of the poem in your response. If you need to, use Google to find good examples of the poet's style before writing.<br>
 </blockquote>
 
-<p>You'll probably use about a bottle's worth of water to run the model, give or take, which is cheaper than blood but just as important.</p>
+<p>You'll use about a bottle's worth of water to run the model, give or take, which is cheaper than blood but just as important.</p>
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 20">><</silently>>
 
@@ -2285,7 +2298,7 @@ if (button) {
 :: Case Study: ALMOST TO THE TICK [nobr]
 <p>Another piece I created that could, with more time, be the source for a case study is <a target="_blank" href="https://especiallygreatliterature.com/almosttothetick.html">Almost to the Tick</a>, which adapts the Beckett play <i>Not I</i> into something like a typing game.</p>
 
-<i>[[Not I]]</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in [[Lisa Dwan]]’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an [[automaton->automatic play]] programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own [[biological body as a machine]]; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
+<i>Not I</i> effects a complex mechanization of its actor. Critically, this mechanization is not a disembodiment; instead, <i>Not I</i> forces its actor to "employ every cell", in Lisa Dwan’s words, to "push the sound out [...] at the speed of thought." The body of the ideal Beckettian actor becomes a mechanical medium, an automatic play programmed to execute Beckett’s script with metronomic precision. The actor’s mechanization is paralleled by Mouth’s own repeated references to her own biological body as a machine; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite '2015' 'Simpson, Hannah. "Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater."'>> 
 
 <video controls autoplay>
 <source src="assets/videos/not_i.mp4" type="video/mp4">
@@ -2293,6 +2306,11 @@ Your browser does not support the video tag.
 </video>
 
 <p>In Almost to the Tick, my second Beckett transcoding, the player types out the words of Beckett’s script. Each time they compete a phrase, a recording plays, with the Mouth uttering aloud the words typed. The mouth is just off center of the screen, lined up (roughly) with the player’s mouth; below, ghostly white letters float towards the mouth when typed.</p>
+
+	<figure>
+		<img style="width:75%" src="assets/imgs/attt_sample.gif">
+		<figcaption>A gif showing an example of what Almost to the Tick looks like. Click the link above to see more.</figcaption>
+	</figure>
 
 <p>This project informed my understanding of gestures as modularized, chopped up and replaced, and of speech acts as corporeal gestures, even when mediated through an interface like a keyboard.</p>
 
