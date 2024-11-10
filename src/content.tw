@@ -5,26 +5,29 @@ Last updated November 1, 2024<br>
 <p>If you know what you're doing, you can go right to the [[Table of Contents]]. Otherwise, check the [[Guide]] for guidance.</p>
 
 :: Guide [nobr]
-<p>If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, review this guide, jump to the glossary, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. There are also links embedded within the text of each passage that you can click through to.</p>
+<p>If you've never used Twine before, it might be helpful to orient yourself before you dive into the text. There are two primary interface panels: the sidebar and the top bar. The sidebar allows you to save, load, and restart your readthrough, jump to a section, review this guide, jump to the glossary, or go to your bookmarks. The top bar lets you go back, bookmark your current passage, or go forward. You can also use the LEFT or RIGHT key on your keyboard to go forward or backwards; most pages have a recommended 'next' passage which can be accessed with the RIGHT key. There are also links embedded within the text of each passage that you can click through to.</p>
 
-<p>The most linear path forward is to begin with the [[Introduction->Introduction 1]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research. If you're wondering why I would write a dissertation in Twine, the introduction to the third section is a good place to start. If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking.</p>
+<p>The most linear path forward is to begin with the [[abstract->Abstract]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research.</p>
+
+<p>If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking.</p>
 
 <p>Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. </p>
 
-<p>The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>. This system is new and is not everywhere yet.</p>
+<p>The dissertation uses a color-coded system to let you know what you're getting into when you click a link. <span style="color: #48B44A;">Definitions are green</span>, <span style="color:#E76428;">excerpts are orange</span>, <span style="color:#9E9E9E;">citations are grey</span>, and other <span style="color:#68d;">links are blue</span>.</p>
 
 <p>If you're wondering why this dissertation is in Twine in the first place, you can jump right to the final case study in this document, which is a [[preposterous postmortem->Case Study: THIS DISSERTATION]] of the format of this dissertation.</p>
 
 Thanks, and enjoy!
 -Ken
 
+<<silently>><<set _next_passage to "Abstract">><</silently>>
+
 :: Table of Contents [nobr]
 
-[[Abstract]]
+[[Abstract]]<br>
 [[Introduction->Introduction 1]]<br>
 
-<hr class="solid">
-
+c
 [[Section 1: GESTURE]] <<if hasVisited("Section 1 Conclusions")>>✅<</if>><br>
 
 [[Section 2: MEMORY]] <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>><br>
@@ -41,35 +44,56 @@ Thanks, and enjoy!
 
 [[Bibliography]]<br>
 
+<<silently>><<set _next_passage to "Introduction 1">><</silently>>
 
 :: Section 1: GESTURE [nobr]
-[[Introduction->Section 1 Introduction]]
+
+<p>This section examines how human gestures are shaped and constrained by the technological media through which they are performed and transmitted, developing a theory of informational performativity through three case studies. Different interfaces enable and restrict possibilities for self-expression, signal and noise interact to create meaning, and the technologization of gesture produces new modes of identity formation in the information age.</p>
+
 <hr class="solid">
+
+[[Introduction->Section 1 Introduction]]
+
+<hr class="solid">
+
 🫖 [[Case Study: BLUE KETTLE]] 🫖 <<if hasVisited("Blue Kettle 13")>>✅<</if>><br>
 
 ❤️‍🩹 [[Case Study: ACHEWOOD]] 🪵 <<if hasVisited("Achewood 14")>>✅<</if>><br>
 
 🎙️ [[Case Study: MA RAINEY'S BLACK BOTTOM]] 🎙️ <<if hasVisited("Ma Rainey 12")>>✅<</if>><br>
+
 <hr class="solid">
+
 [[Conclusions->Section 1 Conclusion 1]]
+
 <<silently>><<set _next_passage to "Section 1 Introduction">><</silently>>
 
 
 :: Section 2: MEMORY [nobr]
 
-[[Introduction ->Section 2 Introduction 1]] <<if hasVisited("Section 2 Introduction 5")>>✅<</if>>
+<p>This section explores how memory becomes externalized and transformed through technological mediation, examining how different platforms shape both personal and collective identity through their interfaces and affordances. Contemporary identity emerges through cognitive assemblages that span multiple platforms and interfaces, and nostalgia operates as both a creative and destructive force in digital memory-making and therefore contemporary identity.</p>
+
 <hr class="solid">
+
+[[Introduction ->Section 2 Introduction 1]] <<if hasVisited("Section 2 Introduction 5")>>✅<</if>>
+
+<hr class="solid">
+
 🪞 [[Case Study: HER STORY]] 🪞  <<if hasVisited("Her Story 13")>>✅<</if>><br>
 
-➿ [[Case Study: KRAPP'S LAST TAPE]] ➿  <<if hasVisited("Krapp's Last Tape 20")>>✅<</if>><br>
+➿ [[Case Study: KRAPP'S LAST TAPE]] ➿  <<if hasVisited("Krapp 20")>>✅<</if>><br>
 
 🤜🏻 [[Meatspace: THE ALT-RIGHT]] 🤜🏻  <<if hasVisited("The Alt-Right 18")>>✅<</if>><br>
+
 <hr class="solid">
+
 [[Conclusion ->Section 2 Conclusion 1]]  <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>>
 
+<<silently>><<set _next_passage to "Section 2 Introduction 1">><</silently>>
 
 :: Section 3: PRACTICE [nobr]
-<p>This section will shift focus to several artifacts I've built myself as a part of my practice-based research: Samuel Beckett's <i>[[Quad->EndlessGame 1]]</i>, collaborating with GPT to write <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i>, and reflecting on [[this dissertation you're reading now->Case Study: THIS DISSERTATION]].</p>
+<p>This section moves from analysis to creation, using practice-based research to illuminate how the process of adaptation itself reveals new insights about technological mediation and identity formation. The act of transcoding works between media reveals both losses and gains and illuminates the ethical and practical implications of technologies like motion capture, large language models, and interactive fiction in reshaping how we think about authorship and identity in the information age.</p>
+
 <p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
 
 [[Practice-Based Research Introduction / Overview / Methodology]]<br>
@@ -87,15 +111,20 @@ Thanks, and enjoy!
 
 <p>This dissertation examines how human identity is increasingly constructed through and mediated by technological interfaces in the information age. Through a series of case studies spanning literature, digital media, and online culture, it develops a theory of "informational performativity" to understand how the self is enacted through technologically mediated gestures across multiple platforms and interfaces.</p>
 
-<p>The analysis proceeds through three interconnected sections. The [[first->Section 1: GESTURE]] examines how <<define "gestures" "information and selfhood">> are shaped by their technological <<define "medium">>, analyzing [[Caryl Churchill's "Blue Kettle,"->Case Study: BLUE KETTLE]], the webcomic [["Achewood,"->Case Study: ACHEWOOD]], and [[August Wilson's "Ma Rainey's Black Bottom"->Case Study: MA RAINEY'S BLACK BOTTOM]] to demonstrate how different <<define "interfaces" "interface">> enable and constrain possibilities for self-expression. The [[second section->Section 2: MEMORY]] explores how memory becomes externalized and transformed through technological mediation, using the video game [["Her Story,"->Case Study: HER STORY]], Samuel Beckett's [["Krapp's Last Tape,"->Case Study: KRAPP'S LAST TAPE]], and the real-life online radicalization of the [[alt-right->Meatspace: THE ALT-RIGHT]] to illuminate how digital platforms shape both personal and collective identity. The [[final section->Section 3: PRACTICE]] presents practice-based research through digital adaptations of canonical texts, including a [[Unity-based implementation of Beckett's "Quad"->Case Study: ENDLESSGAME]] and an AI-powered resurrection of dead poets' voices called [[<i>Thirty-Six Blackbirds</i>->Case Study: THIRTY-SIX BLACKBIRDS]]. It closes with a self-reflective look at [[this dissertation itself.->Case Study: THIS DISSERTATION]]</p>
+<p>The analysis proceeds through three interconnected sections. The [[first->Section 1: GESTURE]] examines how <<define "gestures" "information and selfhood">> are shaped by their technological <<define "medium">>, analyzing [[Caryl Churchill's "Blue Kettle,"->Case Study: BLUE KETTLE]] the webcomic [["Achewood,"->Case Study: ACHEWOOD]] and [[August Wilson's "Ma Rainey's Black Bottom"->Case Study: MA RAINEY'S BLACK BOTTOM]] to demonstrate how different <<define "interfaces" "interface">> enable and constrain possibilities for self-expression.</p>
+<p>The [[second->Section 2: MEMORY]] section explores how memory becomes externalized and transformed through technological mediation, using the video game [["Her Story,"->Case Study: HER STORY]] Samuel Beckett's [["Krapp's Last Tape,"->Case Study: KRAPP'S LAST TAPE]] and the real-life online radicalization of the [[alt-right->Meatspace: THE ALT-RIGHT]] to illuminate how digital platforms shape both personal and collective identity.</p>
+<p>The [[final section->Section 3: PRACTICE]] presents practice-based research through digital adaptations of canonical texts, including a [[Unity-based implementation of Beckett's "Quad"->Case Study: ENDLESSGAME]] and an AI-powered resurrection of dead poets' voices called <i>[[Thirty-Six Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i>. It closes with a self-reflective look at [[this dissertation itself.->Case Study: THIS DISSERTATION]]</p>
 
-<p>Throughout, the dissertation argues that contemporary identity is best understood through the framework of the "<<define "inforg" "Inforg">>," or informational organism, where consciousness and selfhood <<define "extend" "the extended mind">> across multiple technological platforms. Rather than viewing technological mediation as purely destructive of authentic identity, it demonstrates how moments of <<define "loss" "Loss">>, <<define "noise" "Noise">>, and <span class="glitch"<<define "glitch">></span> in technological systems can create new meanings and modes of being. This argument is embodied in the dissertation's own form as a nonlinear Twine document, which both analyzes and exemplifies how interface shapes meaning.</p>
+<p>Throughout, the dissertation argues that contemporary identity is best understood through the framework of the <<define "inforg" "Inforg">>, or informational organism, where consciousness and selfhood <<define "extend" "the extended mind">> across multiple technological platforms. Rather than viewing technological mediation as purely destructive of authentic identity, it demonstrates how moments of <<define "loss" "Loss">>, <<define "noise" "Noise">>, and <span class="glitch"><<define "glitch" "Glitch">></span> in technological systems can create new meanings and modes of being. This argument is embodied in the dissertation's own form as a nonlinear Twine document, which both analyzes and exemplifies how interface shapes meaning.</p>
 
 <p>By integrating theoretical analysis with practice-based research, this project contributes to ongoing conversations about posthuman subjectivity, digital identity, and the relationship between technology and consciousness. It suggests that understanding the specific affordances and constraints of technological interfaces is crucial for comprehending how identity is constructed and performed in the information age.</p>
 
+<<silently>><<set _next_passage to "Table of Contents">><</silently>>
+
+
 :: Introduction 1 [intro nobr] {"position":"1028,1070","size":"100,100"}
-<p>One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" 4(4).</p>
-<p>In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" (45). The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" (45).</p>
+<p>One of the first things Hiro Protagonist, the main character of Neal Stephenson’s 1992 cyberpunk novel <i>Snow Crash</i>, sees when he drops into the Metaverse is two young couples out on a date. "[Hiro] is not," Stephenson amends, "seeing real people, of course […] the people are pieces of software called avatars. They are the audiovisual bodies that people use to communicate with each other in the Metaverse" <<cite "44" "Stephenson, Neal. Snow Crash.">>.</p>
+<p>In <i>Snow Crash</i>’s cyberpunk virtual-reality version of the internet, one’s avatar is a status symbol whose value lies in its ability to echo – or voice – one’s identity; as a hacker, Hiro goes for verisimilitude because "it takes a lot more sophistication to render a realistic human face" <<cite "45" "Stephenson, Neal. Snow Crash.">>. The couples, on the other hand, "can’t afford to have custom avatars made and don’t know how to write their own," so they’re stuck with "off-the-shelf avatars" <<cite "45" "Stephenson, Neal. Snow Crash.">>.</p>
 
 <<silently>><<set _next_passage to "Introduction 2">><</silently>>
 
@@ -117,13 +146,15 @@ This situation is a microcosm of the broader condition of living in the informat
 <<silently>><<set _next_passage to "Introduction 5">><</silently>>
 
 :: Introduction 5 [intro nobr] {"position":"1026,1652","size":"100,100"}
-The texts I read here stage the transmediation of the human subject onto technological substrates. I will consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly mediated on technological substrates. I call this process informational performativity, or "<<define "informativity" "information and selfhood">>," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
+<p>The texts I read here stage the <<define "transcoding">> of the human subject onto technological substrates. I will thus consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly technologically mediated. I call this process informational performativity, or "<<define "informativity" "information and selfhood">>," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
 
 <<silently>><<set _next_passage to "Introduction 6">><</silently>>
 
 
 :: Introduction 6 [intro nobr] {"position":"1025,1802","size":"100,100"}
-The texts I’ve chosen stage these informational remediations of the self; just as importantly, the process that leads to a particular production of a play involves multiple more or less discrete transmediations that demonstrate the problems that come with a model of selfhood that depends on materially contingent media. One powerful way of thinking through these problems is performance theory. Judith Butler’s work on performative gestures and identity formation form an important conceptual bridge between [[information and selfhood]]. By coupling a kind of performative existentialism, whereby we are what we do, with the reflexive relationship between form and medium learned from media studies from Marshall McLuhan forward, I will argue that what we do depends on the media through which we do it, and therefore who we are depends on the media through which we interface with ourselves and the broader social world. By this logic, if a large proportion of the social gestures we perform are embodied and disseminated on technological substrates—if the body we stylize is the body electric—then the self that arises will be inflected by those technological substrates.
+<p>The texts I’ve chosen stage these informational remediations of the self; just as importantly, the process that leads to a particular production of a play involves multiple more or less discrete transmediations that demonstrate the problems that come with a model of selfhood that depends on materially contingent media. One powerful way of thinking through these problems is performance theory. Judith Butler’s work on performative gestures and identity formation form an important conceptual bridge between information and selfhood.</p>
+
+<p>By coupling a kind of performative existentialism, whereby we are what we do, with the reflexive relationship between form and medium learned from media studies from Marshall McLuhan forward, I will argue that what we do depends on the media through which we do it, and therefore who we are depends on the media through which we interface with ourselves and the broader social world. By this logic, if a large proportion of the social gestures we perform are embodied and disseminated on technological substrates—if the body we stylize is the body electric—then the self that arises will be inflected by those technological substrates.</p>
 
 <<silently>><<set _next_passage to "Introduction 7">><</silently>>
 
@@ -161,10 +192,7 @@ This dissertation takes up drama as well as fiction and works of electronic lite
 :: Introduction 12 [intro nobr] {"position":"1023,2702","size":"100,100"}
 Take, for example, the satire website Clickhole’s ‘blog post’ "The Time I Spent On A Commercial Whaling Ship Totally Changed My Perspective On The World," credited to "Ishmael - Sailor," whose title sits on a page above an image of a whale’s tail and the nearly unabridged text of <i>Moby Dick</i>. The article’s clickbait title recontextualizes the <<define "heterogeneric">> Great American Novel as bloggy self-expression. As Ryu Spaeth puts it in an article for The New Republic, the joke is that "even the greatest American Novel, digressions and weirdness and all, becomes vapid garbage as soon as it meets the internet" (2015). What Spaeth’s jeremiad misses is the way that Moby Dick already anticipates a collapsing of multiple genres into a single spout of content. That Clickhole omits the "Extracts" section that precedes "Call me Ishmael," however, is ironic; Melville’s Sub-Sub-Librarian’s collection of "higgledy-piggledy whale statements" collected from the "long Vaticans and street-stalls of the earth" – vapid garbage indeed! – anticipates the aggregation and list generation that makes up so much of the content on the web. This dissertation takes up multiple genres to explore the relationship of the literary and the informational for the same reason Ishmael takes up multiple genres to describe the White Whale: the subject exceeds any one way of looking at it and can at best be imperfectly grasped.
 
-
-:: Conclusion {"position":"2896,468","size":"100,100"}
-No conclusions just yet, but I'll arrive at some in time, I'm sure.
-
+<<silently>><<set _next_passage to "Section 1: GESTURE">><</silently>>
 
 :: Section 1 Introduction [nobr]
 <p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
@@ -303,7 +331,7 @@ MOTHER: Sorry, <<blue love>>, what did you <<blue say>>?<<cite "119" "Churchill,
 
 
 :: Blue Kettle 11 [bk] {"position":"1865,2802","size":"100,100"}
-If <i>Blue Kettle</i>'s plot is unimportant and its purpose is its own destruction, then the message being imparted from Churchill is the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the <<define "glitch" "Glitch">>, following [[Ross Menkman’s 2010 Glitch Studies Manifesto->Ross Menkman’s 2010 Glitch Studies Manifesto]]. 
+If <i>Blue Kettle</i>'s plot is unimportant and its purpose is its own destruction, then the message being imparted from Churchill is the virus itself: in which case, the formal disintegration of the play is itself the signal, and the plot, along with the messy emotions of the characters in it, are noise that gradually clears away. I’d like to suggest that neither of these situations quite describes the play, and that the oscillation between the two - the formal experimentation and the emotional impact - is a particular aesthetic moment where the reader/audience flips between two modes of comprehending the text. The moment where signal becomes noise and vice versa is one I’d like to call the <<define "glitch" "Glitch">>.
 
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
@@ -348,6 +376,8 @@ tripp<br>
 <p>Churchill’s exploration of a "language virus" in <i>Blue Kettle</i> suggests a potential form of resistance: by flipping the script, and by reconsidering what is signal and what is noise in the messages we receive, we can reconsider the contingencies inherent in the technologies that’re transmitting those messages. In the same way that "Blue Kettle" forces the reader to ‘decode’ the semantic content of a phrase denuded of meaningful signifiers, we can reconsider and try to decode the content of language that we - and others - use that’s become totally infected with commonplace viral language - the "sames", emojis, "big moods" and "on brands" of living in the information age.</p>
 
 [[Return->Section 1: GESTURE]]
+
+<<silently>><<set _next_passage to "Case Study: ACHEWOOD">><</silently>>
 
 :: Case Study: ACHEWOOD [nobr]
 <h1>"I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i></h1>
@@ -516,6 +546,8 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 
 [[Return->Section 1: GESTURE]]
 
+<<silently>><<set _next_passage to "Case Study: MA RAINEY'S BLACK BOTTOM">><</silently>>
+
 :: Case Study: MA RAINEY'S BLACK BOTTOM [nobr]
 <h1>"Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i></h1>
 <figure>
@@ -679,6 +711,8 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 
 [[Return->Section 1: GESTURE]]
 
+<<silently>><<set _next_passage to "Section 1 Conclusion 1">><</silently>>
+
 :: Section 1 Conclusion 1 [nobr]
 
 <p>The three case studies in this section demonstrate that gestures are inherently unstable and fluid when mediated through various technologies. This instability challenges an understanding of gestures as fixed and reliable markers of identity or intent; instead, a gesture--and the identities which it constitutes--is fundamentally shaped by its medium. Medium, then, and mediation more broadly is not merely a process of neutral transmission, but is instead a contested site of power struggles over representation and meaning. Collectively, the case studies underscore that identity, like gesture, is not fixed but is continually reshaped through mediated interactions, particularly in the contemporary information age, where information communication technologies play a crucial role in constructing and deconstructing the self.</p>
@@ -721,6 +755,8 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 <p>Together, these case studies argue that mediated identity is an active process shaped by technological interfaces, which both enable and constrain the possibilities of self-expression. The implications for contemporary identity formation are profound: as our gestures and selves become increasingly entangled with digital media, the lines between authentic and mediated identities blur, raising questions about the nature of selfhood in the information age. In so doing, they articulate a theory of informational performativity that recognizes the entangled relationship between gesture, medium, and identity. By examining how mediated contexts shape the possibilities and limitations of self-expression, we gain a deeper understanding of the complexities of identity in the digital age. This framework invites further exploration into how individuals navigate and negotiate their identities in an increasingly mediated world, where the lines between self and interface are continually blurred.</p>
 
 [[Return->Section 1: GESTURE]]
+
+<<silently>><<set _next_passage to "Section 2: MEMORY">><</silently>>
 
 :: Section 2 Introduction 1 [nobr]
 
@@ -1439,6 +1475,8 @@ User Input: ${videoTitle}`
 
 <p>[[Return -> Section 2: MEMORY]]</p>
 
+<<silently>><<set _next_passage to "Section 2 Conclusion 1">><</silently>>
+
 :: Section 2 Conclusion 1 [nobr]
 
 <p><i>Her Story</i>, <i>Krapp’s Last Tape</i>, and the alt-right’s contemporary digital practices each reveal a deep entanglement with nostalgia, but while Krapp and <i>Her Story</i>'s nostalgia is personal, the alt-right’s nostalgia is collective, disembodied, and politically motivated. Krapp’s repeated return to his tapes, each time revisiting and reinterpreting moments of his past, mirrors the alt-right’s reliance on a curated and often mythologized past to shape its present ideology and future ambitions. The tapes serve as a cognitive prosthesis for Krapp, externalizing his memories and trapping him in a cycle of regret and longing. Similarly, the alt-right uses digital media as a kind of prosthetic memory, continuously circulating memes, historical revisionism, and selective narratives to construct and maintain an imagined past that justifies its present actions and future goals.</p>
@@ -1488,6 +1526,7 @@ User Input: ${videoTitle}`
 
 [[Return->Table of Contents]]
 
+<<silently>><<set _next_passage to "Section 3: PRACTICE">><</silently>>
 
 :: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
 The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
@@ -2293,6 +2332,27 @@ if (button) {
 :: Case Study: LOVE AND INFORMATION [nobr]
 <p>I did create an <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of Caryl Churchill's <i>Love and Information</i> into Twine, the same software used for this dissertation. While I don't have time or space for a full case study, I link here to the artifact itself, to be perused or ignored as desired.</p>
 
+<p>Of possible note: I did request permission from Caryl Churchill's agent, in 2019, to create this adaptation and was told no. See below for the email correspondence:</p>
+
+<blockquote>
+Hello,<br>
+<p>My name’s Ken Alba, and I’m a PhD candidate working in Boston University’s English department. I work a lot on drama and adaptation, and one thing I’ve been playing with recently has been a digital adaptation of your client Caryl Churchill’s play “Love and Information.” It’s one of my absolute favorites – I’m teaching it this semester! – and its formal structure lends itself, I think, to an adaptation that allows the reader/user to control the order of its scene. Pursuant to that, I’ve been working on an adaptation of the play using the interactive fiction authoring software Twine.</p>
+<p>Now, my purposes here are strictly academic; I’m teaching my students about interactive fiction and adaptation and I want to have an example, and I might some day write about the process of adapting a play with Twine. However, I have no intention of making the adaptation commercially available. That said, I do recognize that I’m using copyrighted material; hence my reaching out. I’d love, if possible, to talk to Caryl Churchill – I think, or hope at least, that she’d find the structural possibilities of the software with which I’m working interesting – and receive, if she thought it was fair, permission to continue working on this project. I do have a beta version of the adaptation up on my website, and I’d be happy to share it with you or with her.</p>
+<p>I’ve already reached out to Mel Kenyon, but I haven’t received a response. I was hoping you could help me figure out what my next steps are.</p>
+<p>Thank you so much for your time,</p>
+
+Ken Alba<br>
+PhD Candidate<br>
+Boston University Department of English<br>
+</blockquote>
+<hr class="solid">
+<blockquote>
+Hi Ken,<br>
+Apologies for our delay in getting back to you and thank you for your email.<br>
+We’ve discussed this with Caryl and as it seems that there is the possibility of quite extensive distribution, we’d ask that you don’t continue with this adaptation.
+Apologies for any inconvenience caused.<br>
+All very best,<br>
+</blockquote>
 [[Return ->Section 3: PRACTICE]]
 
 :: Case Study: ALMOST TO THE TICK [nobr]
@@ -2316,12 +2376,18 @@ Your browser does not support the video tag.
 
 [[Return ->Section 3: PRACTICE]]
 
-:: Nanowatt {"position":"3444,1268","size":"100,100"}
-Nanowatt, which is accessible <a target="_blank" href="http://nickm.com/post/2013/12/video-of-nanowatt-online/">here</a> is "a single-loading VIC-20 demo" by Montfort, Michael C. Martin, and Patsy Baudoin. The program outputs a section of Watt on an obsolete computing device and in so doing calls attention to the particular temporality of new media objects, among other things.
+:: Case Study: CEILING [nobr]
 
+<p>The smallest Beckett Twine adaptation I created is called <a target="_blank" href="https://especiallygreatliterature.com/twineceiling.html">Ceiling</a>. It is an adaptation of the short not-poem, also called "Ceiling,", which is available <a target="_blank" href="https://especiallygreatliterature.com/ceiling.html">here</a>.</p>
 
-:: Ross Menkman’s 2010 Glitch Studies Manifesto {"position":"1990,2802","size":"100,100"}
-<a target="blank" href="assets/pdfs/glitch_manifesto.pdf">Menkman's Glitch Studies Manifesto</a> posits that "the dominant, continuing search for a noiseless channel has been, and will always be, no more than a regrettable, ill-fated dogma." Through a variety of formal techniques, including visual glitch art, concrete poetry, and typographical flourishes, Menkman's maninfesto is a document whose form and content both embody the <<define "glitch" "Glitch">> it describes. The work emphasizes how the <<define "noise" "Noise">> necessarily involved in any communication channel is paradoxically both "negatively defined" and "a positive, generative quality."
+<p>When I originally created this, I included the following as context after the piece:</p>
+<blockquote>
+Adapting any work necessarily results in gains and losses; the primary gain here depends on my reading of the original piece. I see two voices (although the two voices may be parts of the same whole) - the goad and the awakened. The goad, like its counterparts in <i>Acts Without Words I and II, pushes to the awakened to action. By forcing the user to click "On," this adaptation of the text makes the reader into the goad.<br>
+I'm reminded, when I read this piece, of an iron lung; a patient on a bed, made to breathe despite itself by some mechanical apparatus. The fog of the breath, like a mirror held to someone's mouth to check for life, makes the white dull.<br>
+One mark of a successful translation is that it does not foreclose a plurality of potential readings by imposing its own. By that measure, this is a failure.<br>
+</blockquote>
+
+[[Return ->Section 3: PRACTICE]]
 
 :: Case Study: THIS DISSERTATION
 <h1>This Dissertation: A Preposterous Postmortem</h1>
@@ -2526,3 +2592,67 @@ User Input: ${videoTitle}`</code>
 <p>Ultimately, this section's practice-based research suggests that understanding contemporary identity requires not just theoretical analysis but practical engagement with the technologies that increasingly shape our sense of self. By creating and studying digital adaptations, we can better understand both the possibilities and the limitations of technological mediation, and better grasp what it means to be human in an age where the boundaries between information and identity grow increasingly porous.</p>
 
 [[Return->Table of Contents]]
+
+:: Conclusion [nobr]
+
+CONCLUSION OUTLINE
+
+Opening: The Fortnite Dance Revisited
+
+
+Return to the introduction's emblematic example of paid digital gestures
+Show how our understanding of this phenomenon has deepened through the dissertation's investigations
+Note how contemporary developments (e.g., Meta's avatars, TikTok dances) further demonstrate the urgency of these questions
+
+
+Theoretical Framework Refined
+
+
+Recap how "informational performativity" has been demonstrated across case studies
+Show how the interplay between signal/noise/glitch provides a vocabulary for understanding digital identity
+Emphasize how interface shapes both possibility and constraint
+
+
+Key Findings Across Sections
+A. Gesture (Section 1)
+
+
+How Blue Kettle, Achewood, and Ma Rainey demonstrate different aspects of mediated gesture
+The role of platform in shaping expressive possibilities
+The persistence of the body even in digital contexts
+
+B. Memory (Section 2)
+
+How Her Story, Krapp's Last Tape, and the alt-right case study illuminate different aspects of mediated memory
+The relationship between individual and collective memory
+The role of nostalgia in digital identity formation
+
+C. Practice (Section 3)
+
+How creating digital adaptations reveals new aspects of these relationships
+The specific insights gained from EndlessGame and 36 Blackbirds
+The value of practice-based research in understanding digital mediation
+
+
+Broader Implications
+
+
+For identity formation in the information age
+For understanding the relationship between human and machine
+For the future of creative practice and scholarly work
+
+
+Future Directions
+
+
+Areas needing further investigation
+New questions raised by this research
+Potential applications beyond academic context
+
+
+Closing Reflection
+
+
+Return to the relationship between form and content in the dissertation itself
+How the Twine format embodies the arguments about interface and identity
+Final thoughts on what it means to be human in the information age
