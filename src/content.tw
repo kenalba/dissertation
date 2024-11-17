@@ -9,7 +9,7 @@ Last updated November 1, 2024<br>
 
 <p>The most linear path forward is to begin with the [[abstract->Abstract]], which sets up most of my concerns. However, you can also jump into one of the three sections, each of which contains several case studies. These sections are organized conceptually, like chapters: the [[first->Section 1: GESTURE]] focuses on embodied social gestures as they are mediated technologically, with a focus on mediated maternity and paternity; the [[second->Section 2: MEMORY]] turns to cognition that takes place on and around technological platforms; the [[third->Section 3: PRACTICE]] brings these two concepts together in a discussion of my practice-based research.</p>
 
-<p>If you'd prefer to begin with terms rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and text have informed my thinking.</p>
+<p>If you'd prefer to begin with vocabulary rather than case studies, the [[glossary->Glossary]] features a list of all defined terms. Similarly, you can look at the [[bibliography->Bibliography]] to see what thinkers and texts have informed my thinking.</p>
 
 <p>Throughout, you can use the links on the sidebar to jump to a particular section. You can also bookmark a given passage with the bookmark button on the bottom of each passage. This will save a link to your Bookmarks page, which you can access through your sidebar. </p>
 
@@ -24,19 +24,18 @@ Thanks, and enjoy!
 
 :: Table of Contents [nobr]
 
-[[Abstract]]<br>
-[[Introduction->Introduction 1]]<br>
-
-c
-[[Section 1: GESTURE]] <<if hasVisited("Section 1 Conclusions")>>✅<</if>><br>
+[[Abstract]] <<if hasVisited("Abstract")>>✅<</if>><br>
+[[Introduction->Introduction 1]] <<if hasVisited("Introduction 5")>>✅<</if>><br>
+<hr class="solid">
+[[Section 1: GESTURE]] <<if hasVisited("Section 1 Conclusion 5")>>✅<</if>><br>
 
 [[Section 2: MEMORY]] <<if hasVisited("Section 2 Conclusion 5")>>✅<</if>><br>
 
-[[Section 3: PRACTICE]]<br>
+[[Section 3: PRACTICE]] <<if hasVisited("Section 3 Conclusion 6")>>✅<</if>><br>
 
 <hr class="solid">
 
-[[Conclusion]]<br>
+[[Conclusion->Conclusion 1]] <<if hasVisited("Conclusion 5")>>✅<</if>><br>
 
 <hr class="solid">
 
@@ -52,7 +51,7 @@ c
 
 <hr class="solid">
 
-[[Introduction->Section 1 Introduction]]
+[[Introduction->Section 1 Introduction 1]] <<if hasVisited("Section 1 Introduction 5")>>✅<</if>> <br>
 
 <hr class="solid">
 
@@ -64,9 +63,9 @@ c
 
 <hr class="solid">
 
-[[Conclusions->Section 1 Conclusion 1]]
+[[Conclusions->Section 1 Conclusion 1]]<<if hasVisited("Section 1 Conclusion 4")>>✅<</if>>
 
-<<silently>><<set _next_passage to "Section 1 Introduction">><</silently>>
+<<silently>><<set _next_passage to "Section 1 Introduction 1">><</silently>>
 
 
 :: Section 2: MEMORY [nobr]
@@ -96,23 +95,28 @@ c
 
 <p>I have also included links to some related work that I've done, along with very brief reflections on those remediations.</p>
 
-[[Practice-Based Research Introduction / Overview / Methodology]]<br>
+[[Introduction->Practice-Based Research Introduction 1]]<br>
 <hr class="solid">
-♾️ [[Case Study: ENDLESSGAME]] ♾️<br>
-🐦‍⬛ [[Case Study: THIRTY-SIX BLACKBIRDS]] 🐦‍⬛<br>
-🎓 [[Case Study: THIS DISSERTATION]] 🎓<br>
+♾️ [[Case Study: ENDLESSGAME]] ♾️ <<if hasVisited("EndlessGame 19")>>✅<</if>><br>
+🐦‍⬛ [[Case Study: THIRTY-SIX BLACKBIRDS]] 🐦‍⬛ <<if hasVisited("Thirty-Six Blackbirds 18")>>✅<</if>><br>
+🎓 [[Case Study: THIS DISSERTATION]] 🎓 <<if hasVisited("Preposterous Postmortem 14")>>✅<</if>><br>
 <hr class="solid">
-[[Conclusions->Section 3 Conclusion 1]]
+[[Conclusions->Section 3 Conclusion 1]]<<if hasVisited("Section 3 Conclusion 4")>>✅<</if>><br>
 <hr class="solid">
-❤️ [[Appendix A: LOVE AND INFORMATION->Case Study: LOVE AND INFORMATION]] ℹ️<br>
-👄 [[Appendix B: ALMOST TO THE TICK->Case Study: ALMOST TO THE TICK]] 👄
+❤️ [[Appendix A: LOVE AND INFORMATION->Case Study: LOVE AND INFORMATION]] ℹ️ <<if hasVisited("Case Study: LOVE AND INFORMATION")>>✅<</if>> <br>
+👄 [[Appendix B: ALMOST TO THE TICK->Case Study: ALMOST TO THE TICK]] 👄 <<if hasVisited("Case Study: ALMOST TO THE TICK")>>✅<</if>> <br>
+🛖 [[Appendix C: CEILING->Case Study: CEILING]] 🛖 <<if hasVisited("Case Study: CEILING")>>✅<</if>>
+
+<<silently>><<set _next_passage to "Practice-Based Research Introduction 1">><</silently>>
 
 :: Abstract [nobr]
 
 <p>This dissertation examines how human identity is increasingly constructed through and mediated by technological interfaces in the information age. Through a series of case studies spanning literature, digital media, and online culture, it develops a theory of "informational performativity" to understand how the self is enacted through technologically mediated gestures across multiple platforms and interfaces.</p>
 
 <p>The analysis proceeds through three interconnected sections. The [[first->Section 1: GESTURE]] examines how <<define "gestures" "information and selfhood">> are shaped by their technological <<define "medium">>, analyzing [[Caryl Churchill's "Blue Kettle,"->Case Study: BLUE KETTLE]] the webcomic [["Achewood,"->Case Study: ACHEWOOD]] and [[August Wilson's "Ma Rainey's Black Bottom"->Case Study: MA RAINEY'S BLACK BOTTOM]] to demonstrate how different <<define "interfaces" "interface">> enable and constrain possibilities for self-expression.</p>
+
 <p>The [[second->Section 2: MEMORY]] section explores how memory becomes externalized and transformed through technological mediation, using the video game [["Her Story,"->Case Study: HER STORY]] Samuel Beckett's [["Krapp's Last Tape,"->Case Study: KRAPP'S LAST TAPE]] and the real-life online radicalization of the [[alt-right->Meatspace: THE ALT-RIGHT]] to illuminate how digital platforms shape both personal and collective identity.</p>
+
 <p>The [[final section->Section 3: PRACTICE]] presents practice-based research through digital adaptations of canonical texts, including a [[Unity-based implementation of Beckett's "Quad"->Case Study: ENDLESSGAME]] and an AI-powered resurrection of dead poets' voices called <i>[[Thirty-Six Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i>. It closes with a self-reflective look at [[this dissertation itself.->Case Study: THIS DISSERTATION]]</p>
 
 <p>Throughout, the dissertation argues that contemporary identity is best understood through the framework of the <<define "inforg" "Inforg">>, or informational organism, where consciousness and selfhood <<define "extend" "the extended mind">> across multiple technological platforms. Rather than viewing technological mediation as purely destructive of authentic identity, it demonstrates how moments of <<define "loss" "Loss">>, <<define "noise" "Noise">>, and <span class="glitch"><<define "glitch" "Glitch">></span> in technological systems can create new meanings and modes of being. This argument is embodied in the dissertation's own form as a nonlinear Twine document, which both analyzes and exemplifies how interface shapes meaning.</p>
@@ -128,78 +132,135 @@ c
 
 <<silently>><<set _next_passage to "Introduction 2">><</silently>>
 
-:: Introduction 2 [intro nobr] {"position":"1026,1202","size":"100,100"}
-What Stephenson imagined in fiction has become our reality. In February 2019, 10.7 million players logged onto the video game Fortnite to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, "What is up Pleasant Park! Thank you for coming out today and making history today!" and urged his audience to participate: "Let me see everybody moving!" (Marshmello 2019). ‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to "do their favorite emote" in time with a bass drop, and "Let [him] see that Marsh Walk"– a [[$5-8->V-Bucks]] emote based on his signature dance move.
+:: Introduction 2 [intro nobr]
+<p>Stephenson was prescient, and today we live in a world peopled with avatars. For example, in February 2019, 10.7 million players logged onto the video game Fortnite to watch DJ Marshmello perform a 10-minute concert (Webster 2019). Although Fortnite is primarily a first-person online shooter, Marshmello’s performance on a custom, violence-free server accentuated the ‘reality’ of this virtual co-inhabited space. Marshmello opened the show by shouting, "What is up Pleasant Park! Thank you for coming out today and making history today!" and urged his audience to participate: "Let me see everybody moving!" <<cite "*" "Webster, Andrew. 'Fortnite's Marshmello Concert'">>.</p>
+<p>‘Moving,’ in this context, means making use of any of the 189 ‘dances’, also called emotes, available for purchase on the Epic Store; indeed, over the course of the concert, Marshmallo exhorted the attendees to "do their favorite emote" in time with a bass drop, and "Let [him] see that Marsh Walk"--an $8 <<define "V-Buck" "V-Bucks">> emote based on his signature dance move.</p>
+
+<video controls>
+<source src="assets/videos/intro_mello.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<figcaption>The commercial for the Marsh Walk, which shows a variety of avatars wearing the paid DJ Marshmello head model performing the Marsh Walk emote.</figcaption>
 
 <<silently>><<set _next_passage to "Introduction 3">><</silently>>
 
+:: Introduction 3 [intro nobr]
+<p>These emotes, along with the hundreds of avatars (called ‘outfits’), toys, and other cosmetic add-ons on sale, account for Fortnite’s estimated two billion dollars in profit in 2022. While Fortnite is free to play, a player who chooses not to purchase any gestures or outfits is randomly assigned a new avatar with a random race and a random gender every time they start a game, and cannot express themselves via emote.</p>
 
-:: Introduction 3 [intro nobr] {"position":"1026,1352","size":"100,100"}
-These emotes, along with the hundreds of avatars (called ‘outfits’), toys, and other cosmetic add-ons on sale, account for Fortnite’s estimated two billion dollars in profit last year. While Fortnite is free to play, a player who chooses not to purchase any gestures or outfits is randomly assigned a new avatar with a random race and a random gender every time they start a game, and cannot express themselves via emote.  Like in <i>Snow Crash</i>, a player’s ability to pay determines their ability to express themselves, and even a rich player’s expressive range is limited to the gestures that the developers have motion-captured and programmed into the game. In Fortnite and in the Metaverse, the modes of social performance possible depend on the technological medium on which they are performed.
+<p>Like in <i>Snow Crash</i>, a player’s ability to pay determines their ability to express themselves, and even a rich player’s expressive range is limited to the gestures that the developers have motion-captured and programmed into the game. In Fortnite, in the Metaverse, and in the digital world more broadly, the modes of social performance possible depend on the technological medium on which they are performed.</p>
 
 <<silently>><<set _next_passage to "Introduction 4">><</silently>>
 
 
-:: Introduction 4 [intro nobr] {"position":"1026,1502","size":"100,100"}
-This situation is a microcosm of the broader condition of living in the information age, when memes rub shoulders with selfies, confessions, poems, and listicles on an online commons where humans near-constantly perform themselves into being on virtual stages. This dissertation takes as its starting question the moment when a human impulse is translated, transcoded, or transmediated onto a technological medium for dissemination, and considers how [[information->Information]], as a term that can describe both the human gesture and its technological afterlife, might help us describe that moment. I take as my primary object of study modern and contemporary drama and fiction, with a secondary interest in the technological afterlives of those objects, because those objects show a persistent concern with the process of technologization that the human gesture undergoes, and the kind of subject that that process produces. 
+:: Introduction 4 [intro nobr]
+<p>This situation is a microcosm of the broader condition of living in the information age, when memes rub shoulders with selfies, confessions, poems, and listicles on an online commons where humans near-constantly perform themselves into being on virtual stages. This dissertation takes as its starting question the moment when a human impulse is translated, transcoded, or transmediated onto a technological medium for dissemination, and considers how information, as a term that can describe both the human gesture and its technological afterlives, might help us describe that moment.</p>
+
+<p>I take as my primary object of study modern and contemporary drama and fiction, with a secondary interest in the technological afterlives of those objects, because those objects show a persistent concern with the process of technologization that the human gesture undergoes, and the kind of subject that that process produces.</p>
 
 <<silently>><<set _next_passage to "Introduction 5">><</silently>>
 
-:: Introduction 5 [intro nobr] {"position":"1026,1652","size":"100,100"}
-<p>The texts I read here stage the <<define "transcoding">> of the human subject onto technological substrates. I will thus consider the human subject as a pattern of related information that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the (informational) signal that persists through this process. I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly technologically mediated. I call this process informational performativity, or "<<define "informativity" "information and selfhood">>," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.
+:: Introduction 5 [intro nobr]
+<p>The texts I read here stage the <<define "transcoding">> of the human subject onto technological substrates. I will thus consider the human subject as a pattern of related information (or an <<define "inforg" "Inforg">>) that embodies itself in a variety of different media, both techno- and bio-logical. Focusing specifically on those moments in literary texts where a transmediation of the self takes place will help me isolate the informational <<define "signal" "Signal">> that persists through this process.</p>
+
+<p>I see these moments as especially crucial in an historical moment where the social gestures through which we act ourselves into being are increasingly technologically mediated. I call this process informational performativity, or "<<define "informativity" "information and selfhood">>," and believe that drama, as a <<define "genre">> fundamentally concerned with the problems of performance, will best allow me to articulate it.</p>
 
 <<silently>><<set _next_passage to "Introduction 6">><</silently>>
 
-
-:: Introduction 6 [intro nobr] {"position":"1025,1802","size":"100,100"}
-<p>The texts I’ve chosen stage these informational remediations of the self; just as importantly, the process that leads to a particular production of a play involves multiple more or less discrete transmediations that demonstrate the problems that come with a model of selfhood that depends on materially contingent media. One powerful way of thinking through these problems is performance theory. Judith Butler’s work on performative gestures and identity formation form an important conceptual bridge between information and selfhood.</p>
-
-<p>By coupling a kind of performative existentialism, whereby we are what we do, with the reflexive relationship between form and medium learned from media studies from Marshall McLuhan forward, I will argue that what we do depends on the media through which we do it, and therefore who we are depends on the media through which we interface with ourselves and the broader social world. By this logic, if a large proportion of the social gestures we perform are embodied and disseminated on technological substrates—if the body we stylize is the body electric—then the self that arises will be inflected by those technological substrates.</p>
+:: Introduction 6 [intro nobr]
+<p>Where the first section of this dissertation is principally concerned with the outward-facing transcoding of gesture into the substance of subjectivity, the second chapter of this dissertation explores its inward-facing counterpart: how memory, as the substance which constitutes a more or less stable self, is also increasingly technologically mediated and impacted by its technological mediation. In the same way that we push ourselves out into the world via technologically transmitted gestures, we remember who we are--and revisit the past versions of ourselves in order to constitute our present narrative selves--through technologically stored and accessed memories which are subject to glitches, distortions, and other outward manipulation.</p>
 
 <<silently>><<set _next_passage to "Introduction 7">><</silently>>
 
+:: Introduction 7 [intro nobr]
+<p>The texts I’ve chosen stage these informational remediations of the self; just as importantly, the process that leads to a particular production of a play involves multiple more or less discrete transmediations that demonstrate the problems that come with a model of selfhood that depends on materially contingent media. One powerful way of thinking through these problems is performance theory. Judith Butler’s work on performative gestures and identity formation form an important conceptual bridge between information and selfhood.</p>
 
-:: Introduction 7 [intro nobr] {"position":"1023,1952","size":"100,100"}
-We must, however, challenge any supposition that suggests a purer, truer self that exists prior to its embodiment and expression; instead, I argue that theorizing identity through informativity allows for greater focus on the way that who we are changes when our gestures are embodied technologically. Understanding these modes of performing the self into being requires understanding what is gained and what is lost when thought is given flesh, and when that embodied thought is translated, transmediated, (or, to borrow Lev Manovich’s term) transcoded into digital form. In short, using information as a term to pinpoint the pattern that is translated and embedded into new material contexts will allow me to trace the remediations of the self that are undergone in the information age.
+<p>By coupling a kind of performative existentialism, whereby we are what we do, with the reflexive relationship between form and medium learned from media studies from Marshall McLuhan forward, I will argue that what we do depends on the media through which we do it, and therefore who we are depends on the media through which we interface with ourselves and the broader social world. By this logic, if a large proportion of the social gestures we perform are embodied and disseminated on technological substrates--if the body we stylize is the body electric--then the self that arises will be inflected by those technological substrates.</p>
 
 <<silently>><<set _next_passage to "Introduction 8">><</silently>>
 
-
-:: Introduction 8 [intro nobr] {"position":"1023,2102","size":"100,100"}
-If the human subject can be meaningfully parsed as an informational pattern embodied on a variety of media, both biological and technological, a literary text can be even more naturally parsed informationally. Indeed, most literary texts we read in the 21st century spend at least some of their time as ones and zeroes, electrical variances on a spinning disks: in forms that are ordinarily thought of as informational. Even the fetishized paper book, which arguably remains  a better medium for some kinds of reading, is often written and edited on a word processor, typecast in LaTex, and sold online. Under this informational paradigm, the ink on the physical page that is ultimately produced is the data that must be decoded and made meaningful by the reader. Both the subject and object of the literary event can be conceptualized as informational, and using information as a common term between the reader and the text makes possible a theory of reading that illuminates the porous relationship between the reader and the text.
+:: Introduction 8 [intro nobr]
+<p>We must, however, challenge any supposition that theorizes a purer, truer self that exists prior to its embodiment and expression; instead, I argue that theorizing identity through informativity allows for greater focus on the way that who we are changes when our gestures are embodied technologically. Understanding these modes of performing the self into being requires understanding what is gained and what is lost when thought is given flesh, and when that embodied thought is translated, transmediated, or transcoded into digital form. In short, using information as a term to pinpoint the pattern that is translated and embedded into new material contexts will allow me to trace the remediations of the self that are undergone in the information age.</p>
 
 <<silently>><<set _next_passage to "Introduction 9">><</silently>>
 
 
-:: Introduction 9 [intro nobr] {"position":"1023,2252","size":"100,100"}
-This computational mode of parsing the process of reading grows more complex, if starker, on the stage, where the word used for the playtext is the same as the word programmers use for small programs: a script, to be executed more or less faithfully. A playwright like Caryl Churchill, who often wrote in workshop settings in collaboration with her actors, might make the pun on script seem less active. Conversely, Samuel Beckett demanded absolute control over his actors: to take one example, he asked during the rehearsals for the 1957 premiére production of Endgame that "a certain phrase which occurs throughout the text be spoken in exactly the same way each time with the same tone, like a note of music played in an invariable way by the same instrument" (Blin in Simpson 2015).
+:: Introduction 9 [intro nobr]
+<p>If the human subject can be meaningfully parsed as an informational pattern embodied on a variety of media, both biological and technological, a literary text can be even more naturally parsed informationally. Indeed, most literary texts we read in the 21st century spend at least some of their time as ones and zeroes, electrical variances on a spinning disks: in forms that are ordinarily thought of as informational. Even the fetishized paper book, which arguably remains  a better medium for some kinds of reading, is often written and edited on a word processor, typecast in LaTex, and sold online.</p>
+
+<p>Under this informational paradigm, the ink on the physical page that is ultimately produced is the data that must be decoded and made meaningful by the reader. Both the subject and object of the literary event can be conceptualized as informational, and using information as a common term between the reader and the text makes possible a theory of reading that illuminates the porous relationship between the reader and the text. Text under this sign becomes a sort of embodied memory, with its own alterity.</p>
 
 <<silently>><<set _next_passage to "Introduction 10">><</silently>>
 
 
-:: Introduction 10 [intro nobr] {"position":"1023,2402","size":"100,100"}
-My practice-based research, which takes Beckett’s already hyperdetermined Quad and transcodes it using the video game engine Unity, replaces the actors with computer-generated models animated by motion-capture data as a way of carrying out this absolute control to its (un)natural endpoint, a technologizing process that necessarily comes with its own gains and losses. There is, then, a continuum of contingency that comes into the process of stage production and of remediation more broadly. One task of this dissertation will be to look at a variety of informational remediations and examine the contingencies attendant upon them as they appear in literary works. Doing so will help me articulate the conditions under which people living in the information age perform themselves into being. Further, this framework also offers a way of reading modern and contemporary plays that uses information as a common term to explicate the complex processes of translation and mediation that take place between an author’s idea and an audience’s reception of an embodied performance.
+:: Introduction 10 [intro nobr]
+<p>This computational mode of parsing the process of reading grows more complex and starker on the stage, where the word used for the playtext is the same as the word programmers use for small programs: a script, to be executed more or less faithfully. A playwright like Caryl Churchill, who often wrote in workshop settings in collaboration with her actors, might make the pun on script seem less active.</p>
+
+<p>Conversely, the absolute control that Samuel Beckett demanded of the actors on his stage sugests powerfully the pun between an invariate computer script and the script which animates players on a stage. To take one example, Beckett asked during the rehearsals for the 1957 premiére production of Endgame that "a certain phrase which occurs throughout the text be spoken in exactly the same way each time with the same tone, like a note of music played in an invariable way by the same instrument" <<cite "*" "Simpson, Hannah. 'Now Keep Out Of The Way, Whitelaw'">>).</p>
 
 <<silently>><<set _next_passage to "Introduction 11">><</silently>>
 
 
-:: Introduction 11 [intro nobr] {"position":"1023,2552","size":"100,100"}
-This dissertation takes up drama as well as fiction and works of electronic literature in service of a larger argument about the fate of <<define "genre">> in the information age. The genre of a text is necessarily impacted by the particularity of its medium: in Beckett’s case, we can think about his insistence on the distinction between his plays, his teleplays, and his radio plays, and the slippage between ‘medium of transmission’ and ‘genre’ that this distinction suggests. One function of the technological mediation of the literary at this point in the information age, however, is to collapse disparate genres and forms under the broader umbrella of ‘content,’ a genre that includes social media posts, news articles, videos, podcasts, and a plethora of other information streams. The medium of the Internet puts personal expression like status updates alongside Samuel Beckett quotations and news stories. By placing the two in the same context, on the same stream, the medium invites its users to read the two as members of the same genre. Reified social gestures become legible as texts, and vice versa. 
+:: Introduction 11 [intro nobr]
+<p>For example, my practice-based research, which takes Beckett’s already hyperdetermined <i>Quad</i> and transcodes it using the video game engine Unity, replaces the actors with computer-generated models animated by motion-capture data as a way of carrying out this absolute control to its (un)natural endpoint, a technologizing process that necessarily comes with its own gains and losses. There is, then, a continuum of contingency that comes into the process of stage production and of remediation more broadly. The tas of the third section of this dissertation is to look at a variety of informational remediations and examine the contingencies attendant upon them as they appear in literary works. Doing so will help me articulate the conditions under which people living in the information age perform themselves into being.</p>
+
+<p>Further, this framework also offers a way of reading modern and contemporary plays that uses information as a common term to explicate the complex processes of translation and mediation that take place between an author’s idea and an audience’s reception of an embodied performance.</p>
 
 <<silently>><<set _next_passage to "Introduction 12">><</silently>>
 
 
-:: Introduction 12 [intro nobr] {"position":"1023,2702","size":"100,100"}
-Take, for example, the satire website Clickhole’s ‘blog post’ "The Time I Spent On A Commercial Whaling Ship Totally Changed My Perspective On The World," credited to "Ishmael - Sailor," whose title sits on a page above an image of a whale’s tail and the nearly unabridged text of <i>Moby Dick</i>. The article’s clickbait title recontextualizes the <<define "heterogeneric">> Great American Novel as bloggy self-expression. As Ryu Spaeth puts it in an article for The New Republic, the joke is that "even the greatest American Novel, digressions and weirdness and all, becomes vapid garbage as soon as it meets the internet" (2015). What Spaeth’s jeremiad misses is the way that Moby Dick already anticipates a collapsing of multiple genres into a single spout of content. That Clickhole omits the "Extracts" section that precedes "Call me Ishmael," however, is ironic; Melville’s Sub-Sub-Librarian’s collection of "higgledy-piggledy whale statements" collected from the "long Vaticans and street-stalls of the earth" – vapid garbage indeed! – anticipates the aggregation and list generation that makes up so much of the content on the web. This dissertation takes up multiple genres to explore the relationship of the literary and the informational for the same reason Ishmael takes up multiple genres to describe the White Whale: the subject exceeds any one way of looking at it and can at best be imperfectly grasped.
+:: Introduction 12 [intro nobr]
+<p>This dissertation takes up drama as well as fiction and works of electronic literature in service of a larger argument about the fate of <<define "genre">> in the information age. The genre of a text is necessarily impacted by the particularity of its medium: in Beckett’s case, we can think about his insistence on the distinction between his plays, his teleplays, and his radio plays, and the slippage between ‘medium of transmission’ and ‘genre’ that this distinction suggests.</p>
+
+<p>One function of the technological mediation of the literary at this point in the information age, however, is to collapse disparate genres and forms under the broader umbrella of ‘content,’ a genre that includes social media posts, news articles, videos, podcasts, and a plethora of other information streams. The medium of the Internet puts personal expression like status updates alongside Samuel Beckett quotations and news stories. By placing the two in the same context, on the same stream, the medium invites its users to read the two as members of the same genre. Reified social gestures become legible as texts, and vice versa.</p>
+
+<p>Consequently, this dissertation covers a wide variety of genres--plays, video games, webcomics, and even web platforms. The through-line here is information; in each of these cases, the 'play' is embodied and theorized informationally.</p>
+
+<<silently>><<set _next_passage to "Introduction 13">><</silently>>
+
+
+:: Introduction 13 [intro nobr]
+<p>From a formal perspective, this dissertation's status as a Twine artifact--a website built using the interactive fiction authoring tool Twine--is intended to embody the broader informational landscape with which the study is focused. A Twine dissertation is more hyperlinked, more fragmentary, more diffuse, and more game-like than a traditional codex dissertation, and I hope that it will allow me to outline, approach, and embody the broader informational argument of this dissertation in its form.</p>
+
+<p>Twine also allows me to embed a variety of audiovisual media and to encode moments of interactivity that highlight the systems into which words are embodied in the information age. The interface I have designed and implemented is intended to mirror the substance of my arguments, with greater or lesser success, and I hope that its successes and failures will mirror the successes and failures of my arguments.</p>
+
+<<silently>><<set _next_passage to "Introduction 14">><</silently>>
+
+:: Introduction 14 [intro nobr]
+<p>In sum, this dissertation attempts to articulate and exemplify a theory of subject formation and performance attuned to the technological media and interfaces on and through which those subjects are (per)formed. It begins with an exploration of how we project ourselves outward, through gesture, and how those gestures are conditioned by their media environment, and then turns to memory to understand how we constitute ourselves inward, and how those memories can be personal or collective, internal or external, and are also conditioned by the technology which embodies them. I close with an examination of my practice-based research, where I have built projects that aim to exemplify how this dance of gesture, memory, media, and interface can help us understand what it means to live where and when we live, and how the process of building those projects has informed my understanding of that time and place.</p>
+
+<p>Throughout, I aim to highlight how dynamics traditionally considered destructive--noise, the glitch, and loss--are in fact productive of other, queerer modes of being, and offer an antidote, however partial, to the enclosure of subjectivity in the information age.</p>
 
 <<silently>><<set _next_passage to "Section 1: GESTURE">><</silently>>
 
-:: Section 1 Introduction [nobr]
-<p>These three case studies are unified by a concern with the way that context and medium shape the possible meanings of a gesture.</p>
-<p>The first of these, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines Caryl Churchill's play <i>Blue Kettle</i>, where the staged disintegration of language into syntactically meaningless but nevertheless semantically (and emotionally) comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise" "Noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture.</p>
-<p>The second, "I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i>, explores how the multimedial, <<define "heterogeneric">> structure of Chris Onstad's webcoming <i>Achewood</i> takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online.</p>
-<p>The third and final case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between August Wilson's fictionalized blueswoman Ma Rainey and the recording technologies that exploitative white men use to capture and sell her voice - and how the actual Ma Rainey's stage and gender performance undermines this black-body-white-technological binary.</p>
-<p>The goal of this section is to articulate and demonstrate a theory of gesture that works within the framework of <<define "informativity" "information and selfhood ">>. Each case study aims to show how the specificity of the medium and the technologies of that medium - the stages, URLs, and records - condition the possible selves that can be acted into being, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
+:: Section 1 Introduction 1 [nobr]
+
+<p>The gestures through which we perform ourselves into being are increasingly mediated by technological platforms. From social media posts to video calls, from digital avatars to recorded performances, our social expressions are shaped and constrained by the media through which they are transmitted.</p>
+
+<p>This section examines how different technological interfaces enable and restrict possibilities for self-expression, developing a theory of informational performativity through three case studies that span different media and historical moments.</p>
+
+<<silently>><<set _next_passage to "Section 1 Introduction 2">><</silently>>
+
+:: Section 1 Introduction 2 [nobr]
+
+<p>The first case study, "A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i>, examines how the staged disintegration of language into syntactically meaningless but semantically comprehensible <<define "utterances" "utterance">> highlights the dynamic of <<define "signal">>, <<define "noise" "Noise">>, and <span class="glitch" data-text="glitch">glitch</span> that conditions any <<define "transcoded" "transcoding">> gesture. Through Churchill's systematic corruption of language, we see how meaning persists even as its medium breaks down.</p>
+
+<<silently>><<set _next_passage to "Section 1 Introduction 3">><</silently>>
+
+:: Section 1 Introduction 3 [nobr]
+
+<p>The second, "'I Have Weird Ideas About What It Means To Be A Man': Oughties Multimedia Masculinity in <i>Achewood</i>,"" explores how the <<define "multimedial">>, <<define "heterogeneric">> structure of Chris Onstad's webcomic takes advantage of its protean media to critique and queer the tropes and gestures that constituted masculinity in a particular space and time online. By examining how character identity emerges across multiple platforms and genres, we can better understand how contemporary identity is increasingly distributed across different media interfaces.</p>
+
+<<silently>><<set _next_passage to "Section 1 Introduction 4">><</silently>>
+
+:: Section 1 Introduction 4 [nobr]
+
+<p>The third case study, "Skin and Air": Remediation and Power in <i>Ma Rainey's Black Bottom</i>, considers how historical contingencies such as race and gender condition the relationship between technological mediation and embodied performance. Through August Wilson's dramatization of the recording industry's exploitation of Black artists, and the historical Ma Rainey's resistance through performance, we see how the tension between bodily presence and technological capture has long been a site of both oppression and resistance--and how the historical Ma Rainey's stage and gender performance undermines this Black-body-white-technological binary.</p>
+
+<<silently>><<set _next_passage to "Section 1 Introduction 5">><</silently>>
+
+:: Section 1 Introduction 5 [nobr]
+
+<p>Together, these case studies demonstrate how the specificity of media platforms—-from stages to URLs to phonograph records-—shapes the possible selves that can be acted into being. By examining how different interfaces enable and constrain expression, and how glitches and gaps in these systems can be productively exploited, we can better understand what it means to perform identity in the <<define "information age">>. The framework of <<define "informativity" "information and selfhood">> developed here provides tools for analyzing how technological mediation shapes contemporary modes of self-expression and identity formation, and how the glitches and gaps in the tropes of that media offer the opportunity to productively queer those possibilities.</p>
 
 [[Return->Section 1: GESTURE]]
 
@@ -208,6 +269,7 @@ Take, for example, the satire website Clickhole’s ‘blog post’ "The Time I 
 :: Case Study: BLUE KETTLE [nobr]
 <h1>"A Play Infected with a Virus": Signal, Noise, and the Glitch in Caryl Churchill's <i>Blue Kettle</i></h1>
 <img style="max-width:100%" src="assets/imgs/blue_kettle_glitch_art_by_paul_klee.png" alt="Generated with Midjourney with prompt: 'blue kettle, glitch art, by paul klee'." title="Generated with Midjourney with prompt: 'blue kettle, glitch art, by paul klee'.">
+<p><i>n.b. Some of the ideas for this case study originated in a conference presentation at the 2019 BU Romance Studies Graduate Conference on Literature and Technology</i></p>
 
 <<silently>><<set _next_passage to "Blue Kettle 1">><</silently>>
 
@@ -335,11 +397,8 @@ If <i>Blue Kettle</i>'s plot is unimportant and its purpose is its own destructi
 
 <<silently>><<set _next_passage to "Blue Kettle 12">><</silently>>
 
-
-
-
 :: Blue Kettle 12 [bk]
-I would like, however, to argue, that the aesthetic experience of the <span class="glitch" data-text="glitch">glitch</span> is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in "Blue Kettle" put forward. Much like Kant’s description of the cognitive process of apprehending beauty in the [[Critique of Judgment]], my understanding of the <span class="glitch" data-text="glitch">glitch</span> is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently <span class="glitch" data-text="glitch">glitched</span> image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of <i>Blue Kettle</i> is, for Churchill, the point of the play. 
+I would like, however, to argue, that the aesthetic experience of the <span class="glitch" data-text="glitch">glitch</span> is not merely a binary flip of signal to noise and vice versa; instead, what interests me is the kind of limbo that the medial scenes in <i>Blue Kettle</i> put forward. Much like Kant’s description of the cognitive process of apprehending beauty in his <i>Critique of Judgment</i>, my understanding of the <span class="glitch" data-text="glitch">glitch</span> is that moment of free-play between the attempt to distinguish meaning from the message and the experience of the image - or text - as itself, incapable of being boiled down into a coherent meaning. A sufficiently <span class="glitch" data-text="glitch">glitched</span> image gestures towards the thing that the unglitched version of the image might convey, but the visual signifiers of infection - the distortion, the lines, and so forth - are the point of the image, much like how the destruction of <i>Blue Kettle</i> is, for Churchill, the point of the play. 
 
 <<silently>><<set _next_passage to "Blue Kettle 13">><</silently>>
 
@@ -383,6 +442,8 @@ tripp<br>
 <h1>"I Have Weird Ideas About What It Means To Be A Man": Oughties Multimedia Masculinity in <i>Achewood</i></h1>
 
 <a href="https://achewood.com/2005/07/12/title.html"><img style="max-width:100%" src="assets/imgs/achewood_weird_ideas.png" alt="[A car. Beef is driving, Ray is in the passenger seat.] Ray: Heh! Check it out, Beef - we're behind one of those dudes who messes with the letters on his Toyota! [We see the back of the Toyota pickup in front - the TOYOTA logo simply reads a central 'OYO'.] Ray: 'OYO.'' I see that one a lot. What's he even tryin' to get across? [Beef has a mental image - it is the Toyota, the sign now reading 'I HAVE WEIRD IDEAS ABOUT WHAT IT MEANS TO BE A MAN']" title="On the web, Onstad often included jokes in the title field of his comics. Here, it was 'I once lived next to an enterprising fellow who stripped the letters completely and had his own made, in the Toyota typeface, which spelled RAIDERS'"></a>
+
+<p><i>n.b. Some of the ideas for this case study originated in a presentation at the 2020 conference of the Electronic Literature Organization.</i></p>
 
 <<silently>><<set _next_passage to "Achewood 1">><</silently>>
 
@@ -557,6 +618,9 @@ high-end electronics and digital cigar cutters, maybe a little bit of etiquette 
 	</video>
 	<figcaption>"Ma Rainey's Black Bottom", as performed by Ma Rainey herself, recorded in 1924 and released by Paramount Records. This recording is in the public domain.</figcaption>
 </figure>
+
+<p><i>n.b. Some of the ideas for this case study originated in a presentation at the 2019 annual conference of the American Literature Organization.</i></p>
+
 <<silently>><<set _next_passage to "Ma Rainey 1">><</silently>>
 
 :: Ma Rainey 1 [mrbb nobr]
@@ -806,6 +870,9 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	<img style="max-width:75%" src="assets/imgs/hs_cover_image.jpg" alt="Her Story: A Game About A Woman Talking To The Past">
 	<figcaption>Note: if you haven't played the game yet, you should. You can find it <a href="https://www.herstorygame.com" target="_blank">here</a>.</figcaption>
 </figure>
+
+<p><i>n.b. Some of the ideas for this case study originated in a presentation at the 2019 annual conference of the Electronic Literature Organization.</i></p>
+
 <<silently>><<set _next_passage to "Her Story 1">><</silently>>
 
 :: Her Story 1 [hs nobr]
@@ -982,6 +1049,8 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	<figcaption>Generated with Midjourney with the prompt "nostalgia, regret, reel-to-reel tape recorder, against a pure black background, by Paul Klee."</figcaption>
 </figure>
 
+<p><i>n.b. Some of the ideas and substance of this case study, and the following one, appeared in a special issue of the Journal of Beckett Studies on "Beckett in the Contemporary Political Moment."</i></p>
+
 <<silently>><<set _next_passage to "Krapp 1">><</silently>>
 
 :: Krapp 1 [klt nobr]
@@ -1049,7 +1118,6 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	<img style="width:75%" src="assets/imgs/klt_mind_body.png" alt="light/dark, mind/body, krapp's last tape, cognition, in the style of paul klee, against a pure black background .">
 	<figcaption>Generated with Midjourney with the prompt "light/dark, mind/body, krapp's last tape, cognition, in the style of paul klee, against a pure black background".</figcaption>
 </figure>
-
 
 <<silently>><<set _next_passage to "Krapp 7">><</silently>>
 
@@ -1190,6 +1258,8 @@ I wanna learn that dance <<cite "231" "232" "Davis, Angela. Blues Legacies and B
 	</video>
 	<figcaption>Nam June Paik, Electronic Superhighway: Continental U.S., Alaska, Hawaii, 1995, fifty-one channel video installation (including one closed-circuit television feed), custom electronics, neon lighting, steel and wood; color, sound, approx. 15 x 40 x 4 ft., Smithsonian American Art Museum, Gift of the artist, 2002.23, © Nam June Paik Estate.</figcaption>
 </figure>
+
+<p><i>n.b. Some of the ideas and substance of this case study, and the previous one, appeared in a special issue of the Journal of Beckett Studies on "Beckett in the Contemporary Political Moment."</i></p>
 
 <<silently>><<set _next_passage to "The Alt-Right 1">><</silently>>
 
@@ -1528,42 +1598,53 @@ User Input: ${videoTitle}`
 
 <<silently>><<set _next_passage to "Section 3: PRACTICE">><</silently>>
 
-:: Practice-Based Research Introduction / Overview / Methodology [pbr] {"position":"3044,1068","size":"100,100"}
-The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. These methodologies span a wide range and are intrinsically interdisciplinary, but do share several features that make them useful for the purposes of this chapter, including the prioritization of "embodied knowledges" (P+K 117) over written research, more. Although terminological disputes proliferate, I will categorize these methodologies under the umbrella term of ‘practice as research,’ a part of what David Whitton calls a "practical turn" in theater studies whereby creative work should be considered a "valid research process and/or a research outcome" (78). This practical turn is a controversial one, with both pragmatic and epistemological consequences associated with it; indeed, much of the literature on the topic citations focuses less on examples and more on how, and with what degree of success, practitioners have attempted to receive institutional recognition from the university for their research. 
+[[Return->Section 3: PRACTICE]]
 
-<<silently>><<set _next_passage to "PBR 1">><</silently>>
+:: Practice-Based Research Introduction 1 [pbr nobr]
 
-:: PBR 1 [pbr] {"position":"3044,1268","size":"100,100"}
-Much of the literature on practice as research, though, depends on physical, embodied performance; how, one might ask, do these ideas apply to the creation of digital artifacts? I MAKE AN ARGUMENT HERE. Blah blah blah.
+<p>When I began adapting Samuel Beckett's <i>Quad</i> into Unity, I didn't think of it as practice-based research. I was just curious whether I could translate Beckett's mathematically precise stage directions into code. But the process of creating that adaptation--the specific challenges, failures, and unexpected discoveries--revealed aspects of both Beckett's work and the nature of technological mediation that traditional analysis had missed.</p>
 
-<p>Here, talk about the mode of engagement we're doing here, quoting Kirschenbaum in PMLA's relevant avenue.</p>
+<p>This experience exemplifies the unique value of practice-based research in understanding how technological platforms shape identity and meaning. By engaging directly in the process of creating digital adaptations and remediations, we can expose the grain of different media--their affordances and constraints, their particular forms of <<define "loss" "Loss">> and <<define "noise" "Noise">>.</p>
 
-<<silently>><<set _next_passage to "PBR 2">><</silently>>
+<<silently>><<set _next_passage to "Practice-Based Research Introduction 2">><</silently>>
 
+:: Practice-Based Research Introduction 2 [pbr nobr]
 
-:: PBR 2 {"position":"3044,1468","size":"100,100"}
-Brad Haseman’s "performative research," which he says is "intrinsically experiential and comes to the fore when the researcher creates new artistic forms for performance and exhibition, or designs user-led online games (...)" Haseman’s usage of "performative" is borrowed from J. L. Austin’s [[speech act theory->Speech Act Theory]]. He emphasizes the primacy of the created object over as performative acts of research in and of itself; the artifacts "work performatively. They not only express the research, but in that expression become the research itself." Thus blah blah blah.
+<p>The past two decades have seen an explosion of methodologies whereby scholars produce research through creation. Brad Haseman's "performative research" suggests that certain insights can only emerge through the act of making, arguing that practice-based research is "intrinsically experiential" and comes to the fore when researchers create new artistic forms <<cite "100" "Haseman, Brad. 'A Manifesto for Performative Research.'">>. Haseman's paradigm resonates with my own particularly in reference to its focus on "an enthusiasm of practice" over a "problem," and its acknowledgement, common throughout this dissertation, that "what emerges is individualistic and idiosyncratic" <<cite "100" "Haseman, Brad. 'A Manifesto for Performative Research.'">>. And his focus on "performative" research, above even practice-based, runs parallel with the animating concerns of this dissertation, with its repeated focus on gesture and performance; here, the "symbolic data work performatively. They not only express the research, but in that expression become the research itself" <<cite "102" "Haseman, Brad. 'A Manifesto for Performative Research.'">>.</p>
 
-<<silently>><<set _next_passage to "PBR 3">><</silently>>
+<p>Similarly, Matt Ratto's concept of critical making emphasizes "the act of shared construction, joint conversation, and reflection" that happens during the process of creation over a polished end product, and a performance of a "practice-based engagement with pragmatic and theoretical issues" in order to address "wicked problems" around which "no consensus exists with regard to problem definition, let alone potential solutions" <<cite "253" "Ratto, Matt. 'Critical Making: Conceptual and Material Studies in Technology and Social Life.'">>.</p>
 
-:: PBR 3 {"position":"3044,1593","size":"100,100"}
-In critical making, conversely, the focus is on the "act of shared construction, joint conversation, and reflection" that happens during the process of creation. Unlike performative research, in critical making "the final prototypes are not intended to be displayed and to speak for themselves." Instead, the primary focus is on "using material production--making things--as part of an explicit practice of concept elaboration within the social study of technology." Although critical making is generally associated with the creation of material rather than virtual objects, the emphasis placed on the "shared acts of making rather than the evocative object" has guided my work in this section. (CITATIONS NEEDED).
+<p>While these approaches span a wide range and are intrinsically interdisciplinary, they share several features that make them valuable for understanding digital mediation, including the prioritization of embodied knowledges over written research. The process of creating digital adaptations reveals aspects of both the source material and the target platform that might remain invisible to traditional analysis.</p>
 
-<<silently>><<set _next_passage to "PBR 4">><</silently>>
+<<silently>><<set _next_passage to "Practice-Based Research Introduction 3">><</silently>>
 
+:: Practice-Based Research Introduction 3 [pbr nobr]
 
-:: PBR 4 {"position":"3044,1743","size":"100,100"}
-Importantly, though, my practice-based research is a series of adaptations rather than creations. This chapter, then, will be structured as a set of three experiments. I will begin each section with an explanation of the adapted text, with attention paid to what makes the text amenable to mechanical reproduction in the first place, and then move into an account of the process by which my adaptation was created as a way of drawing out features of the original texts. One of the guiding principles behind these adaptations is failure: although my goal is to do something that communicates some of what Beckett’s works do, something is inevitably lost in the translation from teleplay - or play - into what I’m going to loosely call a video game. 
+<p>This section presents three experiments in practice-based research, each exploring different aspects of technological mediation and identity formation through both successes and (hopefully) productive failures. Rather than presenting polished final artifacts, these case studies examine how the process of adaptation itself reveals insights about both the source materials, the creative tools used, and the target platforms.</p>
 
-<<silently>><<set _next_passage to "PBR 5">><</silently>>
+<p>The first experiment, <i>[[EndlessGame->Case Study: ENDLESSGAME]]</i>, began with a question: could Beckett's mathematically precise teleplay <i>Quad</i> be perfectly reproduced in code? The answer turned out to be simultaneously yes and no--while the mathematical patterns could be reproduced exactly, the introduction of motion-captured human movement created its own forms of noise and loss, revealing how even "perfect" computational reproductions maintain traces of human embodiment.</p>
 
+<<silently>><<set _next_passage to "Practice-Based Research Introduction 4">><</silently>>
 
-:: PBR 5 {"position":"3044,1893","size":"100,100"}
-Although Beckett’s resistance to intermedial adaptation is sometimes, I think, overstated, the position of ‘player’ in a game - the position that these adaptations force the user into -  is radically different from that of ‘audience member’ or ‘viewer’ or even ‘actor,’ and as such neither of these adaptations are faithful ones. Examining the ways in which they fail, however, is a useful way to think about what makes the original plays succeed. I offer failure here, then, as a reading strategy rather than as a judge of worthiness. Of course, making something that only fails would be a questionable - and dispiriting - use of time. As such, the secondary goal here is to look at what does work. Much is inevitably lost in translation, but some is, I hope, gained. So I’ll also be thinking about how that position of ‘player’ is a potentially powerful one, and how these adaptations offer a different angle into these texts.
+:: Practice-Based Research Introduction 4 [pbr nobr]
+
+<p>The second experiment, <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i>, uses <<define "a large language model" "LLM">> to channel the voices of dead poets, raising questions about authorship, authenticity, and what I term "<<define "technonecromancy">>". What began as a playful experiment in AI-assisted creativity became an exploration of the ethical and philosophical implications of using technology to simulate human voice and identity.</p>
+
+<p>The final case study turns a critical/playful eye on [[this dissertation itself->Case Study: THIS DISSERTATION]], examining how its form as a Twine document both enables and constrains its argument about interface and identity. The process of creating an academic argument in a platform designed for interactive fiction has revealed both unexpected possibilities and significant constraints, making the medium itself part of the message.</p>
+
+<<silently>><<set _next_passage to "Practice-Based Research Introduction 5">><</silently>>
+
+:: Practice-Based Research Introduction 5 [pbr nobr]
+
+<p>Through these experiments, we see how practice-based research can illuminate aspects of technological mediation that might remain obscure to traditional analysis. The process of creating these adaptations reveals both the constraints that platforms impose and the unexpected possibilities they enable, contributing to our broader understanding of how identity and meaning emerge through technological <<define "interface" "interfaces">> in the <<define "information age">>.</p>
+
+<p>More specifically, these case studies demonstrate how the act of adaptation itself--the process of <<define "transcoding">> between media--can reveal new insights about both the source material and the media that constrains and shapes it. By attending to both successes and failures in these attempts at remediation, we can better understand how different interfaces shape possibilities for expression and meaning-making.</p>
 
 [[Return->Section 3: PRACTICE]]
 
-:: Case Study: ENDLESSGAME {"position":"3845,1066","size":"100,100"}
+<<silently>><<set _next_passage to "Case Study: ENDLESSGAME">><</silently>>
+
+:: Case Study: ENDLESSGAME [nobr]
 <h1>Staging <i>Quad</i> as an <i>EndlessGame</i></h1>
 
 <figure>
@@ -1624,14 +1705,14 @@ Course 4: DB, BC, CD, DA, AC, CB, BA, AD<<cite "451" "Beckett, Samuel. The Compl
 
 <figure>
 	<img style="width:75%" src="assets/imgs/quad_script_2.png" alt="A diagram from the play script of Quad.">
-	<figcaption>A diagram from the play-script of Quad.<cite "453" "Beckett, Samuel. The Complete Dramatic Works.">></figcaption>
+	<figcaption>A diagram from the play-script of Quad.<<cite "453" "Beckett, Samuel. The Complete Dramatic Works.">></figcaption>
 </figure>
 
 <<silently>><<set _next_passage to "EndlessGame 5">><</silently>>
 
 :: EndlessGame 5 [eg nobr]
 
-<p>What <i>Quad</i>’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. <i>Quad</i> interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the <<define "Automatic Play">>, one that runs noiselessly, without a <span class="glitch" data-text="glitch"><<define "glitch">></span>, in perfect obedience to the will of the author.</p>
+<p>What <i>Quad</i>’s encoding of human gesture into symbolic form calls attention to is the way that all scripts function according to the same economy of symbol and gesture, whereby the playwright’s instructions are translated into words, which are in turn "executed" by the players. <i>Quad</i> interrogates the agency of the actor and the tyranny of the playwright/director under this symbolic regime; Quad’s similarity to computer code, then, emphasizes the ideal of the <<define "Automatic Play">>, one that runs noiselessly, without a <span class="glitch" data-text="glitch"><<define "glitch" "Glitch">></span>, in perfect obedience to the will of the author.</p>
 
 <p>Many of Beckett's texts call for a kind of noiseless transmission of authorial will to bodily gesture. The body of the ideal Beckettian actor, in this paradigm, becomes a mechanical medium, an automaton programmed to execute Beckett’s script with metronomic precision. For example, consider the paradigm of a play like <i>Not I</i>, where the actor’s mechanization is paralleled by Mouth’s own repeated references to her own biological body as a machine; as Hannah Simpson puts it, "both Mouth and the actor are positioned as mechanical tools that exist solely to articulate another’s text" <<cite "411" "Simpson, Hannah. 'Now Keep Out of the Way, Whitelaw: Self-Expression, Agency, and Directorial Control in W.B. Yeats’s and Samuel Beckett’s Theater.'">></p>.
 
@@ -1677,7 +1758,7 @@ Course 4: DB, BC, CD, DA, AC, CB, BA, AD<<cite "451" "Beckett, Samuel. The Compl
 
 :: EndlessGame 9 [eg nobr]
 
-<p>Computer science offers a provocative way of reading these translations. In <i>The Language of New Media</i>, Lev Manovich calls the translation of media into code, and code into media, <<define "transcoding" "Transcoding">>. What I’d like to focus on here is how transcoding is often a <<define "lossy" "Loss">> process. The translation of <<define "data" "Data">> for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ --any transcoding of an object from one medium to another is lossless if it is reversible--if one can transcode back to the original medium without any loss of fidelity--but is lossy if it is not reversible--if data is irreparably lost in the compression of translation.</p>
+<p>Computer science offers a provocative way of reading these translations. In <i>The Language of New Media</i>, Lev Manovich calls the translation of media into code, and code into media, <<define "transcoding">>. What I’d like to focus on here is how transcoding is often a <<define "lossy" "Loss">> process. The translation of <<define "data" "Data">> for preservation in the database or for transmission over the internet almost always results in the loss of some of the original data. Another way of thinking about lossiness is ‘reversability’ --any transcoding of an object from one medium to another is lossless if it is reversible--if one can transcode back to the original medium without any loss of fidelity--but is lossy if it is not reversible--if data is irreparably lost in the compression of translation.</p>
 
 <p><i>Quad</i> stages lossy translation--from the code of the script to the gesture of the dancer’s body, from the gesture to the camera, the camera to the broadcast device, and so on; any instance of Quad has undergone those translations, has lost fidelity from the original broadcast, and this loss of fidelity is the point.</p>
 
@@ -1688,7 +1769,7 @@ Course 4: DB, BC, CD, DA, AC, CB, BA, AD<<cite "451" "Beckett, Samuel. The Compl
 
 <p>On the other hand, we cannot think about a loss of fidelity--an imperfect translation of authorial will into gestures that constitute text-as-stimulus for the reader--as a purely subtractive move without buying into an idealistic idea of a 'pure' original text that Beckett’s work both attracts and repels.<p>
 
-<p>When the data gets cognized by the viewer and assembled into the historically specific and contingent object which bears the marks of entropy--<<define "audiovisual fuzziness, a loss of color" "noise">>, and so on, that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation, the fuzziness of the degraded tape should be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of precisely this loss.</p>
+<p>When the data gets cognized by the viewer and assembled into the historically specific and contingent object which bears the marks of entropy--<<define "audiovisual fuzziness, a loss of color" "Noise">>, and so on, that reassembled text is not necessarily ‘less’ than the original text. In the case of Beckett, whose work shows a consistent preoccupation with the particularity of the presentation, the fuzziness of the degraded tape should be read as extension of the text itself. <i>Quad II</i>, the second half of <i>Quad</i> meant to take place ten-thousand years later, is in this reading the n’th degree of precisely this loss.</p>
 
 <figure>
 	<video controls>
@@ -1738,7 +1819,7 @@ VIDEO!GOES!HERE!
 
 :: EndlessGame 14 [eg nobr]
 
-<p>In EndlessGame, four default avatars (vaguely masculine models with blank faces named Alpha, chosen because they were free and well-'rigged' for motion), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It is the first adaptation made in <<define "Unity" "Unity">> or to run in <<define "virtual reality" "Virtual Reality">>.</p>
+<p>In EndlessGame, four default avatars (vaguely masculine models with blank faces named Alpha, chosen because they were free and well-'rigged' for motion), colored to follow Beckett’s script, execute the code written for Beckett’s dancers. It is the first adaptation made in <<define "Unity" "Unity">> or to run in <<define "virtual reality" "virtual reality">>.</p>
 
 <p>Using bodies of digital origin (as opposed to viewing bodies that have been digitized) forecloses certain modes of reading and opens up some others. Where the viewer of <i>Quad</i> can attempt to distinguish between the figures beyond their clothing, identify individualized gais, and try to infer their sex, the viewer of <i>EndlessGame</i> cannot because the avatars should not exceed their purpose as executors of the script in the same way that human bodies do. This attenuates the tension between the perfect pattern and its imperfect execution that Woycicki sees as the "focus of the performance" <<cite "140" 'Woycicki, Piotr. Mathematical Aesthetic as a Strategy for Performance: A Vector Analysis of Samuel Beckett’s Quad.'>>.</p>
 
@@ -1767,7 +1848,7 @@ VIDEO!GOES!HERE!
 
 
 :: EndlessGame 17 [eg nobr]
-<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via <<define "keyframes">> or <<define "motion-capture data" "Motion-Capture Data">>.</p>
+<p>My assumption was that computerized models moving according to a deterministic program (written in C#; the code is available <a target="_blank" href = "https://www.especiallygreatliterature.com/endlessgame_code.cs">here</a>) would result in the ‘perfect’ execution of Beckett’s code – and it did, when cubes were used in place of actors. However, as soon as the cubes were replaced with humanoid avatars and animated, the project became much more complicated Animation of humanoid avatars in Unity requires several components: an avatar-object, which is a three-dimensional model ‘rigged’ with a skeleton and a musculature in order to make movement realistic; and animation data, which can be generated either via <<define "keyframes" "Keyframes">> or <<define "motion-capture data" "Motion-Capture Data">>.</p>
 
 <<silently>><<set _next_passage to "EndlessGame 18">><</silently>>
 
@@ -1799,6 +1880,8 @@ VIDEO!GOES!HERE!
 <p>In the Information Age, this traffic between the algorithmic and the human is ubiquitous. Human interaction increasingly takes place on digital stages. The grandmother sees her grandchild primarily via Skype, where both faces are blurred by compression algorithms ensuring temporal near-simultaneity over a long distance; individuals curate a particular set of digital photographs and posts and present themselves on social media platforms, thereby transcoding themselves into an assimilation of quanta of social gesture; warfare takes place remotely, with drones controlled by user interfaces not completely dissimilar from a video game. If identity is constituted by repeated stylizations of the body what happens when the body is electric--that is, as a self-stylized <<define "avatar" "Avatar">> in a virtual world rather than as the <<define "meat" "Meatspace">> into which we are born? By thinking about what is lost and what is gained in Beckettian works where the human is transcoded, successfully or unsuccessfully, into code, we can think productively about what is lost and gained when we perform the same translation on our selves.</p>
 
 [[Back->Section 3: PRACTICE]]
+
+<<silently>><<set _next_passage to "Case Study: THIRTY-SIX BLACKBIRDS">><</silently>>
 
 :: Megawatt 1 [mw nobr]
 
@@ -1890,7 +1973,7 @@ text.append(para)<br>
 
 [[Return->EndlessGame 2]]
 
-:: Case Study: THIRTY-SIX BLACKBIRDS
+:: Case Study: THIRTY-SIX BLACKBIRDS [nobr]
 <h1>AI and Technonecromancy in <i>Thirty-Six Blackbirds</i></h1>
 
 <figure>
@@ -2203,7 +2286,7 @@ I think we, as a nation, need to apologize. One of the things we would have to a
 
 <<silently>><<set _next_passage to "Thirty-Six Blackbirds 17">><</silently>>
 
-:: Thirty-Six Blackbirds 17 [36b nobr]
+:: Thirty-Six Blackbirds 17 [36bb nobr]
 
 <p>This runs alongside the other extrinsic risks enumerated by Bender et al--environmental catastrophe, perpetuation of systemic risk, the wholesale devaluation and replacement of creative industries by mechanical reproductions--as negative externalities endemic to the current structure of language models. And though defenders state that these specifics are not intrinsic to the technologies themselves--that as better training sets are created, models can be created using only material in the public domain, and can be run on local machines with less of an ecological footprint than a gaming PC--these risks must nevertheless be weighed alongside the possibilities inherent in the technology.</p>
 
@@ -2329,6 +2412,8 @@ if (button) {
 
 [[Return ->Section 3: PRACTICE]]
 
+<<silently>><<set _next_passage to "Case Study: THIS DISSERTATION">><</silently>>
+
 :: Case Study: LOVE AND INFORMATION [nobr]
 <p>I did create an <a target="_blank" href="https://especiallygreatliterature.com/laitwine.html">adaptation</a> of Caryl Churchill's <i>Love and Information</i> into Twine, the same software used for this dissertation. While I don't have time or space for a full case study, I link here to the artifact itself, to be perused or ignored as desired.</p>
 
@@ -2354,6 +2439,8 @@ Apologies for any inconvenience caused.<br>
 All very best,<br>
 </blockquote>
 [[Return ->Section 3: PRACTICE]]
+
+<<silently>><<set _next_passage to "Case Study: THIS DISSERTATION">><</silently>>
 
 :: Case Study: ALMOST TO THE TICK [nobr]
 <p>Another piece I created that could, with more time, be the source for a case study is <a target="_blank" href="https://especiallygreatliterature.com/almosttothetick.html">Almost to the Tick</a>, which adapts the Beckett play <i>Not I</i> into something like a typing game.</p>
@@ -2382,7 +2469,7 @@ Your browser does not support the video tag.
 
 <p>When I originally created this, I included the following as context after the piece:</p>
 <blockquote>
-Adapting any work necessarily results in gains and losses; the primary gain here depends on my reading of the original piece. I see two voices (although the two voices may be parts of the same whole) - the goad and the awakened. The goad, like its counterparts in <i>Acts Without Words I and II, pushes to the awakened to action. By forcing the user to click "On," this adaptation of the text makes the reader into the goad.<br>
+Adapting any work necessarily results in gains and losses; the primary gain here depends on my reading of the original piece. I see two voices (although the two voices may be parts of the same whole) - the goad and the awakened. The goad, like its counterparts in <i>Acts Without Words I</i> and <i>II</i>, pushes to the awakened to action. By forcing the user to click "On," this adaptation of the text makes the reader into the goad.<br><br>
 I'm reminded, when I read this piece, of an iron lung; a patient on a bed, made to breathe despite itself by some mechanical apparatus. The fog of the breath, like a mirror held to someone's mouth to check for life, makes the white dull.<br>
 One mark of a successful translation is that it does not foreclose a plurality of potential readings by imposing its own. By that measure, this is a failure.<br>
 </blockquote>
@@ -2391,6 +2478,11 @@ One mark of a successful translation is that it does not foreclose a plurality o
 
 :: Case Study: THIS DISSERTATION
 <h1>This Dissertation: A Preposterous Postmortem</h1>
+
+	<figure>
+		<img style="width:100%" src="assets/imgs/pp_4.png">
+		<figcaption>This screen here.</figcaption>
+	</figure>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 1">><</silently>>
 
@@ -2402,6 +2494,7 @@ One mark of a successful translation is that it does not foreclose a plurality o
 
 :: Preposterous Postmortem 2 [pp nobr]
 <p>The definitions and [[Glossary]] stand as the most obvious example of this. To make them worth clicking, they needed to contain both descriptive information and argumentative material that relates to the document's thesis. This meant, however, spending a lot of time writing a lot of material that a more casual reader might not read. It also raised some of the same kinds of sequencing issues that an endnote- or footnote-heavy document might have; if the information is crucial to the argument, then it really ought to be in the body of the document, and if it's not crucial, then it may not need to be there at all.</p>
+
 <p>This, coupled with the document's general nonlinear structure, meant that I had less control over what the user had read at any given point in their reading. This had a negative impact, I think, on the conclusions of each case study; because so much argumentation and theoretical work was done off the main path, the conclusions were sometimes anticlimactic.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 3">><</silently>>
@@ -2423,7 +2516,7 @@ One mark of a successful translation is that it does not foreclose a plurality o
 <<silently>><<set _next_passage to "Preposterous Postmortem 5">><</silently>>
 
 :: Preposterous Postmortem 5 [pp nobr]
-<p>For <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>, I wrote a custom macro to support the blockquotes from the text where <<blue "yes, like that">> and <<kettle "right, exactly, it toggles">> appear, allowing the user to toggle between the text and my best guess at the words replaced by the virus. This gives the case study a <<define "puzzle element">> — or, at least, foregrounds the <<define "puzzle element">> that's already <<blue "there">> in the play, and about which the <<kettle "case">> study is focused. The <<blue "reader">> can play along, testing how well their <<kettle "decoding">> of the <<blue "text">> matches my own. A more <<blue "advanced">> version of this <<kettle "feature">> might use an alert pop-up to let the <<blue "reader">> <<kettle "type">> in their best <<blue "guess">>, and <<kettle "keep">> a <<blue "persistent">> <<kettle "score">>.</p>
+<p>For <i>[[Blue Kettle->Case Study: BLUE KETTLE]]</i>, I wrote a custom macro to support the blockquotes from the text where <<blue "yes, like that">> and <<kettle "right, exactly, it toggles">> appear, allowing the user to toggle between the text and my best guess at the words replaced by the virus. This gives the case study a puzzle element--or, at least, foregrounds the puzzle element that's already <<blue "there">> in the play, and about which the <<kettle "case">> study is focused. The <<blue "reader">> can play along, testing how well their <<kettle "decoding">> of the <<blue "text">> matches my own. A more <<blue "advanced">> version of this <<kettle "feature">> might use an alert pop-up to let the <<blue "reader">> <<kettle "type">> in their best <<blue "guess">>, and <<kettle "keep">> a <<blue "persistent">> <<kettle "score">>.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 6">><</silently>>
 
@@ -2433,12 +2526,12 @@ One mark of a successful translation is that it does not foreclose a plurality o
 <<silently>><<set _next_passage to "Preposterous Postmortem 7">><</silently>>
 
 :: Preposterous Postmortem 7 [pp nobr]
-<p>For <i>[[Ma Rainey's Black Bottom->Case Study: MA RAINEY'S BLACK BOTTOM]]</i>, the goal was to embed as much music as possible and useful into the experience. Because the play is so concerned with the recorded voice, there is both value and interest in providing a direct portal to Ma Rainey's actual voice. There's something provocative about using the voice of a dead woman whose recordings no longer belong to anyone when the case study's argument is about that ownership. Additionally, it dovetailed nicely into the introduction of my discussion about <i>36 Blackbirds</i> and <<define "technonecromancy">> more generally. With more time, I would have embedded the audio directly into the pages rather than requiring the user to pause their experience to listen.</p>
+<p>For <i>[[Ma Rainey's Black Bottom->Case Study: MA RAINEY'S BLACK BOTTOM]]</i>, the goal was to embed as much music as was possible and useful into the experience. Because the play is so concerned with the recorded voice, there is both value and interest in providing a direct portal to Ma Rainey's actual voice. There's something provocative about using the voice of a dead woman whose recordings no longer belong to anyone when the case study's argument is about that ownership. Additionally, it dovetailed nicely into the introduction of my discussion about <i>36 Blackbirds</i> and <<define "technonecromancy">> more generally. With more time, I would have embedded the audio directly into the pages rather than requiring the user to pause their experience to listen.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 8">><</silently>>
 
 :: Preposterous Postmortem 8 [pp nobr]
-<p>For <i>[[Her Story->Case Study HER STORY]]</i>, I embedded clips from the actual game, along with audio, in an attempt to let people who hadn't played the game experience some version of what they were missing. Because the game is made up of fractured interviews, experienced nonlinearly through short video clips, I thought there was a neat parallel to be made by embedding linear, contained clips into the experience. A more talented programmer than me would have attempted to mimic the database quality of <i>Her Story</i> in the structure of the case study itself, but that was beyond my abilities. Still, the sound and visuals afforded by the embedded clips allows the reader to have a richer understanding of the game — and, hopefully, of my argument.</p>
+<p>For <i>[[Her Story->Case Study: HER STORY]]</i>, I embedded clips from the actual game, along with audio, in an attempt to let people who hadn't played the game experience some version of what they were missing. Because the game is made up of fractured interviews, experienced nonlinearly through short video clips, I thought there was a neat parallel to be made by embedding linear, contained clips into the experience. A more talented programmer than me would have attempted to mimic the database quality of <i>Her Story</i> in the structure of the case study itself, but that was beyond my abilities. Still, the sound and visuals afforded by the embedded clips allows the reader to have a richer understanding of the game — and, hopefully, of my argument.</p>
 
 <p>I was also able to include a pair of 'definitions' here that worked to make the reader experience something like the transdiegetic identification that the case study explores. The definition for <span class= "definition-link"><<link "MURDER">><<murder>><</link>></span> isn't a definition at all; it's a jump scare of Mouth from <i>Not I</i>, meant to shock the reader and, by elevating their heart rate, pull them into the experience; similarly, the definition for <<define "mirror">> enables the user's camera and keeps the little green "recording" light on their laptop until they close the dissertation. Both cases are meant to make the user uncomfortable, and to bring them out of the position of a passive reading subject into something more active.</p>
 
@@ -2449,10 +2542,12 @@ One mark of a successful translation is that it does not foreclose a plurality o
 
 <p>A more robust version of this would be more laborious; I had initially intended to make the user drag the top of the box off to open it, and then to select and drag the spool onto a player to actually play it. This interactivity and animation was too complicated to implement, but would have enforced an experience closer to Krapp's. Perhaps later!</p>
 
+<<videoPlayerWidget>>
+
 <<silently>><<set _next_passage to "Preposterous Postmortem 10">><</silently>>
 
 :: Preposterous Postmortem 10 [pp nobr]
-<p>For the case study about the alt-right, I wanted to give the user a sense of what it is like to actually browse the sites under discussion: 4chan, Reddit, and (to a lesser extent) YouTube. Although many people are familiar with the latter two, 4chan is a relatively niche platform. Unfortunately, screenshots were difficult to acquire; every time I logged onto /b/, the main image board for 4chan, there was too much explicit racism and/or CSAM (child sexual assault material) for me to feel comfortable exposing my readers to.</p>
+<p>For the case study about the [[alt-right->Meatspace: THE ALT-RIGHT]], I wanted to give the user a sense of what it is like to actually browse the sites under discussion: 4chan, Reddit, and (to a lesser extent) YouTube. Although many people are familiar with the latter two, 4chan is a relatively niche platform. Unfortunately, screenshots were difficult to acquire; every time I logged onto /b/, the main image board for 4chan, there was too much explicit racism and/or CSAM (child sexual assault material) for me to feel comfortable exposing my readers to.</p>
 
 <p>So, instead, I used GPT4o to create a 'radicalizer' which takes as an input a reasonable video for the user to start at and charts a six-jump path to radicalization. This works well enough, but feels somewhat trivial when anyone can hop onto Twitter and see radical content without needing such an elaborate path. The full prompt, including examples, that is used to power this script is here:</p>
 
@@ -2519,6 +2614,7 @@ Output:
     </ul>
   </li>
 </ul>
+</il>
 User Input: ${videoTitle}`</code>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 11">><</silently>>
@@ -2533,19 +2629,25 @@ User Input: ${videoTitle}`</code>
 <<silently>><<set _next_passage to "Preposterous Postmortem 12">><</silently>>
 
 :: Preposterous Postmortem 12 [pp nobr]
-<p>For <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i> (another object of fixation), I included a page that allows the user to generate new poems in the style and format of the poems included in the book. This serves three purposes: firsly, it allows the user to actively participate in the creation of additional poetry and to test how well a model can mimic the voice of the poet of their choice; secondly, it imbricates the user in the structure of responsibility and guilt that accompanies the act of technonecromancy and of utilizing large language models more broadly; and thirdly, it demonstrates how later, 'better' models have a difficult time matching the spontenaeity and strangeness of earlier, less constrained models.</p>
+<p>For <i>[[36 Blackbirds->Case Study: THIRTY-SIX BLACKBIRDS]]</i> (another object of fixation), I included a page that allows the user to generate new poems in the style and format of the poems included in the book. This serves three purposes: firsly, it allows the user to actively participate in the creation of additional poetry and to test how well a model can mimic the voice of the poet of their choice; secondly, it imbricates the user in the structure of responsibility and guilt that accompanies the act of <<define "technonecromancy">> and of utilizing large language models more broadly; and thirdly, it demonstrates how later, 'better' models have a difficult time matching the spontenaeity and strangeness of earlier, less constrained models.</p>
+
+<p>A future version of this would go one step further, and compile user-generated poems into a second volume of poetry that could be reviewed and shared. It could permit the user to rate how well the model did at the assigned task, and how well or poorly it mirrored the style of the target poet.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 13">><</silently>>
 
 :: Preposterous Postmortem 13 [pp nobr]
-<p>Talk about the guessing game for the definitions.</p>
+<p>Aside from the case studies and the practice-based research, I wanted to make use of the ludic possibilities of Twine as a platform. I had intended, initially, to include more modes of scoring and progress-tracking--a <i>Her Story</i>-like progress indicator that showed the user what proportion of the dissertation they had read, and how much was left, along with some mode keeping score. This mostly comes through in <i>Turing Trivia</i>, the minigame I built around the glossary whereby the user is asked to guess whether each definition was written by me or by a language model.</p>
+
+<p>The primary goal here was pragmatic; I want to encourage the user to exercise their "AI-detection" muscle. I can imagine a more useful version of this game that tries harder to trick the user; indeed, if I were to rewrite the glossary entries using a modern model like Claude's 3.5 Sonnet, it'd be much more difficult to distinguish between my voice and the voice of the model.</p>
 
 <<silently>><<set _next_passage to "Preposterous Postmortem 14">><</silently>>
 
 :: Preposterous Postmortem 14 [pp nobr]
-<p>Summarize and conclude.</p>
+<p>Taken as a whole, these interactive elements are at best a way to make the form of the dissertation match the content, and deepen the user's understanding of the overall arguments about gesture, memory, performance, and subbjectivity in the information age. At worst, they are gimmicks which distract from sustained critical engagement and make feedback and revisions, a critical piece of serious scholarship, onerous to undertake. Ultimately, I think that they are successful in the same way that practice-based research more generally is intended to be successful; the process of coding them was illuminative to me, and has helped shape my arguments, and their successes and failures both illustrate how the constraints of the medium shape the message.</p>
 
 [[Return ->Section 3: PRACTICE]]
+
+<<silently>><<set _next_passage to "Section 3 Conclusion 1">><</silently>>
 
 :: Section 3 Conclusion 1 [nobr]
 
@@ -2593,66 +2695,57 @@ User Input: ${videoTitle}`</code>
 
 [[Return->Table of Contents]]
 
-:: Conclusion [nobr]
+<<silently>><<set _next_passage to "Conclusion 1">><</silently>>
 
-CONCLUSION OUTLINE
+:: Conclusion 1 [nobr]
+<h1>Overall Conclusions</h1>
 
-Opening: The Fortnite Dance Revisited
+<p>When this dissertation began with a discussion of Fortnite players paying to perform digital dances, such commodification of virtual gesture seemed novel enough to warrant careful theoretical attention. In the intervening years, however, the technological mediation of human expression has accelerated dramatically. Virtual concerts have moved from Fortnite's Pleasant Park to VRChat's infinite stages, where audiences appear as anything from anime characters to abstract shapes, their gestures transcoded through increasingly sophisticated motion capture, the booming bass of the music amplified by vibrating wearables and full face-tracking rigs. The <<define "interface">> between human expression and digital platform has become simultaneously more transparent and more complex.</p>
 
+<p>Perhaps most dramatically, the rise of large language models has introduced new questions about the relationship between human and machine expression. Where Fortnite offered a limited menu of pre-programmed emotes, ChatGPT and Claude seem to offer unlimited possibilities for expression--yet these possibilities are still shaped and constrained by the architectures of their training. The <<define "glitch" "Glitch">>, those moments where the seeming naturalness of these interfaces breaks down, reveals both the power and the limitations of these systems.</p>
 
-Return to the introduction's emblematic example of paid digital gestures
-Show how our understanding of this phenomenon has deepened through the dissertation's investigations
-Note how contemporary developments (e.g., Meta's avatars, TikTok dances) further demonstrate the urgency of these questions
+<p>These developments make the framework of informational performativity more urgent than ever. Understanding how identity emerges through technologically mediated gesture--and how the specificity of different platforms enables and constrains those gestures--is crucial for grasping what it means to be human in an age where more and more of our social expression is platformed through digital interfaces.</p>
 
+<<silently>><<set _next_passage to "Conclusion 2">><</silently>>
 
-Theoretical Framework Refined
+:: Conclusion 2 [nobr]
 
+<p>The case studies in this dissertation have demonstrated how different technological platforms shape the possibilities for human expression and identity formation. From Churchill's virus-infected dialogue to Ray's multimedia masculinity, from Krapp's tape recorder to Sarah's database interface, we've seen how the <<define "loss" "Loss">> inherent in technological mediation can become a site for new kinds of meaning-making. These losses aren't merely subtractive; instead, the interplay between <<define "signal" "Signal">> and <<define "noise" "Noise">> creates opportunities for resistance and reinterpretation.</p>
 
-Recap how "informational performativity" has been demonstrated across case studies
-Show how the interplay between signal/noise/glitch provides a vocabulary for understanding digital identity
-Emphasize how interface shapes both possibility and constraint
+<p>This dynamic has become increasingly visible in contemporary digital culture. When ChatGPT hallucinates or generates nonsensical responses, when VRChat avatars clip through walls, when TikTok's algorithm surfaces unexpected connections - these moments of breakdown reveal the constructed nature of our digital interfaces. Rather than seeing these glitches as errors to be eliminated, we can understand them as opportunities to see how our expressions are shaped by the platforms that mediate them--to become aware of our status as cyborgs.</p>
 
+<p>The framework of informational performativity helps us analyze these moments. When we understand identity as emerging through technologically mediated gesture, we can better grasp both the constraints that platforms impose and the ways users work within and against those constraints. An emoji is never just an emoji; it's a gesture transcoded through specific technological affordances, carrying both intended and unintended meanings.</p>
 
-Key Findings Across Sections
-A. Gesture (Section 1)
+<<silently>><<set _next_passage to "Conclusion 3">><</silently>>
 
+:: Conclusion 3 [nobr]
 
-How Blue Kettle, Achewood, and Ma Rainey demonstrate different aspects of mediated gesture
-The role of platform in shaping expressive possibilities
-The persistence of the body even in digital contexts
+<p>If Donna Haraway's <<define "cyborg" "Cyborg">> provided a framework for understanding human-machine hybridity in terms of physical augmentation, Luciano Floridi's <<define "inforg" "Inforg">> better describes our current moment, where identity emerges through constant interaction with information systems. Our case studies demonstrate how this inforganic identity operates across different platforms and contexts.</p>
 
-B. Memory (Section 2)
+<p>[[Section 1->Section 1: GESTURE]] examined how gesture becomes information. <i>Blue Kettle</i>'s linguistic virus, <i>Achewood</i>'s distributed masculinity, and Ma Rainey's recorded voice each show different aspects of how human expression is transcoded into technological forms. These aren't simple translations; each medium introduces its own forms of <<define "loss">> and possibility. The body persists, but it persists differently across different platforms.</p>
 
-How Her Story, Krapp's Last Tape, and the alt-right case study illuminate different aspects of mediated memory
-The relationship between individual and collective memory
-The role of nostalgia in digital identity formation
+<p>[[Section 2->Section 2: MEMORY]] investigated how memory becomes externalized across technological platforms. <i>Her Story</i>'s database interface, Krapp's tape recorder, and the algorithmic radicalization of the alt-right demonstrate how both personal and collective memory are increasingly mediated through technology. The <<define "cognitive assemblages" "cognitive assemblage">> that emerge span multiple platforms and interfaces, creating new forms of both connection and alienation.</p>
 
-C. Practice (Section 3)
+<p>[[Section 3->Section 3: PRACTICE]]'s practice-based research revealed how the process of adaptation itself generates new insights about these relationships. <i>EndlessGame</i>'s attempt to perfectly reproduce <i>Quad</i> in code, <i>36 Blackbirds</i>' experiments with <<define "technonecromancy">>, and this dissertation's own form as a Twine document each illuminate different aspects of how meaning persists through--and is transformed by--technological mediation.</p>
 
-How creating digital adaptations reveals new aspects of these relationships
-The specific insights gained from EndlessGame and 36 Blackbirds
-The value of practice-based research in understanding digital mediation
+<<silently>><<set _next_passage to "Conclusion 4">><</silently>>
 
+:: Conclusion 4 [nobr]
 
-Broader Implications
+<p>These investigations have implications beyond academic analysis. As large language models increasingly mediate our writing, as virtual and augmented reality reshape our social spaces, and as algorithms continue to structure our access to information and community, understanding how these systems shape identity becomes increasingly crucial. The inforg isn't a science fiction concept but a present reality, as our cognition and social expression become increasingly dependent on technological platforms.</p>
 
+<p>The framework developed here--particularly the attention to interface, loss, and the productive potential of the glitch--offers tools for analyzing these developments. When OpenAI's ChatGPT or Anthropic's Claude seem to speak with understanding, when Meta promises embodied presence in virtual spaces, when YouTube's algorithm shapes cultural transmission, we can examine how these platforms enable certain forms of expression while constraining others.</p>
 
-For identity formation in the information age
-For understanding the relationship between human and machine
-For the future of creative practice and scholarly work
+<p>More importantly, this framework helps identify sites of resistance. Just as Ma Rainey used recording technology for her own ends while resisting its attempt to commodify her voice, just as Ray's multimedia masculinity subverted traditional gender performance, contemporary users find ways to work within and against their platforms' constraints. The glitch--those moments where the seamless interface breaks down--reveals both the constructedness of these systems and the possibility of using them differently.</p>
 
+<<silently>><<set _next_passage to "Conclusion 5">><</silently>>
 
-Future Directions
+:: Conclusion 5 [nobr]
 
+<p>This dissertation's form as a Twine document is more, then, than an experiment in academic writing; it embodies its own arguments about interface and identity. The linked definitions create their own kind of cognitive assemblage, allowing concepts to emerge through multiple interconnected articulations. The interactive elements demonstrate how platform shapes possibility--what can be expressed in Twine differs from what can be expressed in a traditional document, in ways both enabling and constraining.</p>
 
-Areas needing further investigation
-New questions raised by this research
-Potential applications beyond academic context
+<p>Future work in this field might examine other emerging platforms and interfaces. How do virtual reality social spaces like VRChat create new possibilities for embodied interaction? How do different large language models, with their distinct architectures and training approaches, shape the possibilities for human-AI interaction? What new forms of resistance and reinterpretation might emerge as these technologies evolve? The framework of informational performativity provides tools for approaching these questions.</p>
 
+<p>What remains clear is that understanding identity in the information age requires attention to the specific interfaces through which we express ourselves. We are all inforgs now, our gestures and memories distributed across multiple technological platforms. But this recognition need not lead to either despair or uncritical acceptance. Instead, by understanding how these systems work - and where they break down - we can better grasp both their constraints and the persistent possibility of working within and against them to create new forms of meaning and identity.</p>
 
-Closing Reflection
-
-
-Return to the relationship between form and content in the dissertation itself
-How the Twine format embodies the arguments about interface and identity
-Final thoughts on what it means to be human in the information age
+[[Return->Table of Contents]]

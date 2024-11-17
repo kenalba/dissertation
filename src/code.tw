@@ -316,11 +316,7 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 <</widget>>
 
 
-<<widget "define">>
-	<<set _label to $args[0]>>
-		<<if $args.length == 2>>
-			<<set _destination to $args[1]>>
-				<<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>><<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
+<<widget "define">><<set _label to $args[0]>><<if $args.length == 2>><<set _destination to $args[1]>><<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label->_destination]]</span><<else>><span class= "definition-link">[[_label->_destination]]</span><</if>><<else>><<if setup.visited_definitions.includes(_destination)>><span class="definition-link-visited">[[_label]]</span><<else>><span class="definition-link">[[_label]]</span><</if>><</if>><</widget>>
 
 
 <<widget "excerpt">><<set _label to $args[0]>><<if $args.length == 2>><<set _destination to $args[1]>><span class= "excerpt-link">[[_label->_destination]]</span><<else>><span class= "excerpt-link">[[_label]]</span><</if>><</widget>>
@@ -380,6 +376,10 @@ d.init=function(){var a=d(u),b;for(b in a)"_"!==b.charAt(0)&&(d[b]=function(b){r
 		<<set _passages to Story.lookup("tags", "lai")>>
 	<<elseif _tags.includes("aw")>>
 		<<set _passages to Story.lookup("tags", "aw")>>
+	<<elseif _tags.includes("pp")>>
+		<<set _passages to Story.lookup("tags", "pp")>>
+	<<elseif _tags.includes("36bb")>>
+		<<set _passages to Story.lookup("tags", "36bb")>>
 	<</if>>
 	<<if def _passages>>
 		<<print " / " + _passages.length>>
@@ -701,11 +701,13 @@ User Input: ${videoTitle}`
 :: StoryCaption [nobr]
 
 <div id="navigation-list">
+	<<link '<div class= "nav-link"><span class="nav-button">T</span> Contents</div>''Table of Contents'>><</link>><br>
+	<hr class="solid">
 	<<link '<div class= "nav-link"><span class="nav-button">a</span> introduction</div>' 'Introduction 1'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">1</span> GESTURE</div>' 'Section 1: GESTURE'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">2</span> MEMORY</div>' 'Section 2: MEMORY'>><</link>><br>
 	<<link '<div class= "nav-link"><span class="nav-button">3</span> PRACTICE</div>' 'Section 3: PRACTICE'>><</link>><br>
-	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''C 1'>><</link>><br>
+	<<link '<div class= "nav-link"><span class="nav-button">b</span> conclusion</div>''Conclusion 1'>><</link>><br>
 </div>
 
 
