@@ -1649,7 +1649,7 @@ User Input: ${videoTitle}`
 
 <figure>
 	<video controls>
-	<source src="assets/videos/eg_transcoded_test.mp4" type="video/mp4" autoplay>
+	<source src="assets/videos/eg_overall.mp4" type="video/mp4">
 	Your browser does not support the video tag.
 	</video>
 	<figcaption>A long clip of <i>EndlessGame</i>, my adaptation of Samuel Beckett's <i>Quad</i> using the Unity engine.</figcaption>
@@ -1773,7 +1773,7 @@ Course 4: DB, BC, CD, DA, AC, CB, BA, AD<<cite "451" "Beckett, Samuel. The Compl
 
 <figure>
 	<video controls>
-	<source src="assets/videos/quad_2.mp4"" type="video/mp4" autoplay>
+	<source src="assets/videos/quad.mp4#t=540" type="video/mp4" autoplay>
 	Your browser does not support the video tag.
 	</video>
 	<figcaption>The second part of <i>Quad</i>, presented with "no colour, all four in identical white gowns, no percussion, footsteps only sound, slow tempo, series 1 only" <<cite "453" "Beckett, Samuel. The Complete Dramatic Works.">>. Per an anecdote relayed by Martin Esslin, this part of the piece was a late and serendipitous addition; Beckett saw technicians testing the picture quality for broadcast to black-and-white televisions and exclaimed "My God, it's a hundred thousand years later!" <<cite "44" "Esslin, Martin, 'Towards the Zero of Language'">></figcaption>
@@ -1813,7 +1813,13 @@ Your browser does not support the video tag.
 
 <p>This would be a good time to 'play' it, if only for a few minutes; if that isn't possible, you can watch a video of the most faithful execution of the code below, or read the code which comprises it at its <a target="_blank" href="https://github.com/DocEon/EndlessGame">GitHub repository.</a>.</p>
 
-VIDEO!GOES!HERE!
+<figure>
+	<video controls>
+	<source src="assets/videos/eg_overall.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>A long clip of <i>EndlessGame</i>, my adaptation of Samuel Beckett's <i>Quad</i> using the Unity engine.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "EndlessGame 14">><</silently>>
 
@@ -1838,11 +1844,23 @@ VIDEO!GOES!HERE!
 :: EndlessGame 16 [eg nobr]
 <p>The actors move at a constant speed, unless the viewer decides to become a player and adjusts the speed, lighting, or camera perspective via commands provided at boot. Adding interactivity to the piece of course changes it--it’s less ‘faithful.’ One major element that separates the original <i>Quad</i> from a stage-play is the fixed camera, which forces the viewer to see one thing; being able to ‘look around’ from the 'danger zone' is a very different experience and has a very different (but similarly disorienting) effect.</p>
 
-!VIDEOCLIP!
+<figure>
+	<video controls>
+	<source src="assets/videos/eg_center.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>From the point of view of the "danger zone", Quad becomes more frenetic and feels more dangerous; further, the user can look around with the arrow keys, adding more control to the system.</figcaption>
+</figure>
 
 <p>The ‘player’ can also choose to follow a single dancer, in which case a camera is activated in the dancer’s hood. These different camera views create different structures of identification with the dancers themselves: from above, they are small; from the middle, they are menacing; from inside, they are (ideally, at least) easier to identify with. These effects are, idealy, enhanced in the virtual reality port of the game; from personal experience, the sensation of standing in the middle of <i>Quad</i> is a deeply unnerving one.</p>
 
-!VIDEOCLIP!
+<figure>
+	<video controls>
+	<source src="assets/videos/eg_pov.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	<figcaption>EndlessGame, from the point of view of one of the dancers.</figcaption>
+</figure>
 
 <<silently>><<set _next_passage to "EndlessGame 17">><</silently>>
 
